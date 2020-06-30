@@ -1,0 +1,41 @@
+<configs>
+	
+	<append xpath="vehicles/vehicle[@name='vehicleBicycle']">
+        <property class="seat1">
+            <property name="position" value="0, 0.1, -.4"/>
+            <property name="rotation" value="-15, 0, 0"/>
+            <property name="exit" value=".8,0,-.5 ~ -.8,0,-.5 ~ 0,0,2 ~ 0,0,-2 ~ 0,1.5,-.5"/>
+        </property>
+    </append>
+	
+	<append xpath="vehicles/vehicle[@name='vehicleMinibike']">
+        <property class="seat1">
+            <property name="position" value="0, 0, -.45"/>
+            <property name="rotation" value="0, 0, 0"/>
+            <property name="exit" value=".8,0,-.5 ~ -.8,0,-.5 ~ 0,0,2 ~ 0,0,-2 ~ 0,1.5,-.5"/>
+        </property>
+    </append>
+	
+	<append xpath="vehicles/vehicle[@name='vehicleMotorcycle']">
+        <property class="seat1">
+			<property name="position" value="0, 0.15, -.5"/>
+			<property name="rotation" value="0, 0, 0"/>
+			<property name="exit" value=".9,0,-.5 ~ -.9,0,-.5 ~ 0,0,-2 ~ 0,0,2 ~ 0,1.5,-.5"/>
+		</property>
+    </append>
+	
+	<append xpath="vehicles/vehicle[@name='vehicle4x4Truck']">
+        <property class="seat2">
+			<property name="position" value="-.51, .36, -1.34"/>
+			<property name="rotation" value="-25, 0, 0"/>
+			<property name="exit" value="-1.6,0,-1 ~ 1.6,0,-2 ~ -.4,0,-3.8 ~ -.4,0,3.6 ~ -.4,2.1,-1"/>
+		</property>
+
+		<property class="seat3">
+			<property name="position" value=".51, .36, -1.34"/>
+			<property name="rotation" value="-25, 0, 0"/>
+			<property name="exit" value="1.6,0,-1 ~ -1.6,0,-2 ~ .4,0,-3.8 ~ .4,0,3.6 ~ .4,2.1,-1"/>
+		</property>
+    </append>
+	  
+</configs>

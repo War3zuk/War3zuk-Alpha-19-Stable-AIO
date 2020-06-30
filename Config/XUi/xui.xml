@@ -1,0 +1,92 @@
+<configs>
+	
+<set xpath="/xui/ruleset[@name='default']/@scale">1.1</set>
+<set xpath="/xui/ruleset[@name='default']/@stackpanel_scale">1</set>
+
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='crafting']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_campfire']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_cementMixer']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_workbench']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']/window[@name='windowCraftingQueue']/@name">WARwindowCraftingQueue</set>
+
+<append xpath="/xui/ruleset[@name='default']" >
+
+<window_group name="workstation_HD Forge" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="WARwindowCraftingQueue"/>
+	<window name="windowToolsForge"/>
+	<window name="windowFuel"/>
+	<window name="WARwindowForgeInput"/>
+	<window name="windowOutput"/>
+	<window name="windowNonPagingHeader"/>
+</window_group>
+
+<window_group name="workstation_HD Working Oven" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="WARwindowCraftingQueue"/>
+	<window name="windowToolsCampfire"/>
+	<window name="windowOutput"/>
+	<window name="windowNonPagingHeader"/>
+</window_group>
+
+<window_group name="workstation_HD Working Fire" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="WARwindowCraftingQueue"/>
+	<window name="windowToolsCampfire"/>
+	<window name="windowOutput"/>
+	<window name="windowNonPagingHeader"/>
+</window_group>
+
+<window_group name="workstation_HD GunBench" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="WARwindowCraftingQueue"/>
+	<window name="windowOutput"/>
+	<window name="windowNonPagingHeader"/>
+	<window name="windowToolsHD GunBench"/>
+</window_group>
+	
+<window_group name="workstation_HD WorkBench" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="WARwindowCraftingQueue"/>
+	<window name="windowOutput"/>
+	<window name="windowNonPagingHeader"/>
+	<window name="windowToolsHD WorkBench"/>
+</window_group>
+	
+<window_group name="workstation_HD PicsBench" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="WARwindowCraftingQueue"/>
+	<window name="windowOutput"/>
+	<window name="windowNonPagingHeader"/>
+</window_group>
+	
+<window_group name="workstation_HD AmmoBench" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="WARwindowCraftingQueue"/>
+	<window name="windowOutput"/>
+	<window name="windowNonPagingHeader"/>
+	<window name="windowToolsHD AmmoBench"/>
+</window_group>
+	
+<window_group name="workstation_HDCementMixer" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="WARwindowCraftingQueue"/>
+	<window name="windowOutput"/>
+	<window name="windowNonPagingHeader"/>
+	<window name="windowToolsHDCementMixer"/>
+</window_group>
+
+</append>
+
+<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowForgeInput']/@name">WARwindowForgeInput</set>
+
+</configs>

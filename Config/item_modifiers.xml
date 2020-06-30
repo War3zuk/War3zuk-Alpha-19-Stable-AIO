@@ -1,0 +1,863 @@
+<configs>
+	
+<!--#################################Armor Plating##########################################-->
+<!--########################################################################################-->
+	
+	<append xpath="/item_modifiers" >
+	
+	<item_modifier name="HDArmorReinforcedPadding" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="1"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDArmorPlasticPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="2"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDArmorMilitaryPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="3"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDArmorScrapPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="4"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDArmorIronPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="5"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDArmorSteelPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
+		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
+		<property name="DisplayType" value="modArmor"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
+		<effect_group tiered="false">
+			<passive_effect name="PhysicalDamageResist" operation="base_add" value="6"/>
+		</effect_group>
+			<property name="EconomicValue" value="150"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDAeroDynamicsUpgrade" installable_tags="vehicle" modifier_tags="speed" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="AeroDynamicsUpgradeDesc"/>
+		<property name="CustomIcon" value="AeroDynamicsUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="VehicleVelocityMaxPer" operation="perc_set" value="2"/>
+			<passive_effect name="VehicleVelocityMaxTurboPer" operation="perc_set" value="2"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="HDFuelSaverUpgrade" installable_tags="vehicle" modifier_tags="fuel" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="FuelSaverUpgradeDesc"/>
+		<property name="CustomIcon" value="FuelSaverUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="VehicleFuelUsePer" operation="perc_set" value=".5"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="HDHeadlightsUpgrade" installable_tags="vehicle" modifier_tags="light" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="HeadlightsUpgradeDesc"/>
+		<property name="CustomIcon" value="HeadlightsUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="LightIntensity" operation="perc_set" value="2.5"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="HDTurboUpgrade" installable_tags="vehicle" modifier_tags="test" type="attachment">
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="TurboUpgradeDesc"/>
+		<property name="CustomIcon" value="TurboUpgrade"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<effect_group tiered="false">
+			<passive_effect name="VehicleVelocityMaxPer" operation="perc_set" value="3"/>
+			<passive_effect name="VehicleVelocityMaxTurboPer" operation="perc_set" value="3"/>
+		</effect_group>
+	</item_modifier>
+	
+	</append>
+	
+<!--###############################SuppressorSilencer#######################################-->
+<!--#############Tags=Gun Unity tag Parent: CustomAttachments Child: CustomBarrel###########-->
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		
+		<item_property_overrides name="HD Colt M1911">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Sound_start" value="M1911FireS"/>
+			<property name="ScopeCameraOffset" value="-0.000,0.010,-0.000"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Colt M1911A">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Sound_start" value="M1911FireS"/>
+			<property name="ScopeCameraOffset" value="-0.000,0.010,-0.000"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HDGlock18Auto">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Sound_start" value="HDGlockAutoFireS"/>
+			<property name="Sound_loop" value="HDGlockAutoFireS"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="HD Desert Eagle Punisher">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Sound_start" value="DEFireS"/>
+			<property name="ScopeCameraOffset" value="-0.0002,-0.003,-0.000"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Desert Eagle">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Sound_start" value="DEFireS"/>
+			<property name="ScopeCameraOffset" value="0.000,0.000,-0.000"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Mac10 Auto">
+			<property name="Sound_start" value="M4A1FireS"/>
+			<property name="Sound_loop" value="M4A1FireS"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD M3 Auto">
+			<property name="Sound_start" value="M4A1FireS"/>
+			<property name="Sound_loop" value="M4A1FireS"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD M4A1 Carbine">
+			<property name="Sound_start" value="M4A1FireS"/>
+			<property name="Sound_loop" value="M4A1FireS"/>
+		</item_property_overrides>
+	
+		<item_property_overrides name="HD AK Hybrid ACP">
+			<property name="Sound_start" value="AKHybridFireS"/>
+			<property name="Sound_loop" value="AKHybridFireS"/>
+		</item_property_overrides>
+	
+		<item_property_overrides name="HD Tactical AR">
+			<property name="Sound_start" value="ARS"/>
+			<property name="Sound_loop" value="ARS"/>
+		</item_property_overrides>
+	
+		<item_property_overrides name="HD M134 MiniGun">
+			<property name="Sound_start" value="M134FireS"/>
+			<property name="Sound_loop" value="M134FireS"/>
+		</item_property_overrides>
+	
+		<item_property_overrides name="HD Spas 12">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Sound_start" value="MossBerg500S"/>
+			<property name="Sound_loop" value="MossBerg500S"/>
+		</item_property_overrides>
+	
+		<item_property_overrides name="HD Mossberg 500">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Sound_start" value="MossBerg500S"/>
+			<property name="Sound_loop" value="MossBerg500S"/>
+		</item_property_overrides>
+	
+		<item_property_overrides name="HD Arctic Warfare">
+			<property name="Sound_start" value="AWFireS"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD CheyTac M300">
+			<property name="Sound_start" value="CheyTacF"/>
+			<property name="Sound_loop" value="CheyTacF"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Winchester 1866">
+			<property name="Sound_start" value="M4A1FireS"/>
+			<property name="Sound_loop" value="M4A1FireS"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Dragunov SVD">
+			<property name="Sound_start" value="DEALTFire01"/>
+			<property name="Sound_loop" value="DEALTFire01"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Karabiner 98k">
+			<property name="Sound_start" value="M134FireS"/>
+			<property name="Sound_loop" value="M134FireS"/>
+		</item_property_overrides>
+		
+	</append>
+	
+<!--###############################SuppressorSilencer#######################################-->
+	
+	
+<!--###################################ReflexSight##########################################-->
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+	
+		<item_property_overrides name="HD Colt M1911">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value=".0000,-.030,0"/>
+		</item_property_overrides>
+	
+		<item_property_overrides name="HD Colt M1911A">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value=".0002,-.032,0"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HDGlock18Auto">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.000,-0.000,-0.000"/>
+		</item_property_overrides>
+	
+		<item_property_overrides name="HD Desert Eagle Punisher">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.0018,-0.035,0.05"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Desert Eagle">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0008,-0.033,0.05"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Mac10 Auto">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="ScopeCameraOffset" value="-0.001,-0.058,0.00"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD M3 Auto">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value=".0011,-.0110,.20"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Mossberg 500">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.0001,-0.013,0.35"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Spas 12">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="0.0000,-0.013,0.35"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Tactical AR">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0020,0.003,0.10"/>
+		</item_property_overrides>	
+		
+		<item_property_overrides name="HD M4A1 Carbine">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.00,0.001,.40"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD AK Hybrid ACP">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0008,-.022,.25"/>
+		</item_property_overrides>
+	
+		<item_property_overrides name="HD HK33 Hybrid">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0010,-0.0150,.30"/>
+		</item_property_overrides>
+		
+	</append>
+	
+<!--###################################ReflexSight##########################################-->
+	
+<!--####################################LaserSight##########################################-->
+	
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+	
+		<item_property_overrides name="HD Spas 12">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Mossberg 500">
+			<property name="CrosshairOnAim" value="false"/>
+		</item_property_overrides>
+		
+	</append>
+	
+<!--#####################################Silences###########################################-->
+	
+<append xpath="/item_modifiers" >
+	
+	<item_modifier name="HDColtM1911Silencer" installable_tags="HDColtM19" modifier_tags="barrelAttachment" type="attachment">
+		<property name="CustomIcon" value="HD Colt M1911 Silencer"/>
+		<property name="DescriptionKey" value="HDColtM1911SilencerDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Colt M1911.unity3d?HDColtM1911Silencer.Prefab"/>
+		
+		<item_property_overrides name="HD Colt M1911">
+			<property name="Sound_start" value="pistol_s_fire"/>
+			<property name="BarrelScale" value="0.8,0.8,0.8"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Colt M1911A">
+			<property name="Sound_start" value="pistol_s_fire"/>
+			<property name="BarrelScale" value="0.8,0.8,0.8"/>
+		</item_property_overrides>
+
+			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="100" tags="primary,secondary"/>
+			<display_value name="dNoiseMultiplier" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_subtract" value="5"/>
+				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".1"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.10"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".10"/>
+				
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Colt M1911.unity3d?HDColtM1911Silencer.Prefab" parent_transform="Attachments/Barrel"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDDEPunisherSilencer" installable_tags="HDDEPunisherSilencer" modifier_tags="barrelAttachment" type="attachment">
+		<property name="CustomIcon" value="HD Desert Eagle Silencer"/>
+		<property name="DescriptionKey" value="HDDesertEagleSilencerDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPunisherSilencer.Prefab"/>
+		
+		<item_property_overrides name="HD Desert Eagle Punisher">
+			<property name="Sound_start" value="DEFireS"/>
+			<property name="BarrelScale" value="0.8,0.8,1.5"/>
+		</item_property_overrides>
+
+			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="100" tags="primary,secondary"/>
+			<display_value name="dNoiseMultiplier" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_subtract" value="5"/>
+				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".1"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.10"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".10"/>
+				
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPunisherSilencer.Prefab" parent_transform="Attachments/Barrel"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDDESilencer" installable_tags="HDDESilencer" modifier_tags="barrelAttachment" type="attachment">
+		<property name="CustomIcon" value="HD Desert Eagle Silencer"/>
+		<property name="DescriptionKey" value="HDDesertEagleSilencerDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDesertEagle.Prefab"/>
+		
+		<item_property_overrides name="HD Desert Eagle">
+			<property name="Sound_start" value="DEFireS"/>
+			<property name="BarrelScale" value="0.8,0.8,1.5"/>
+		</item_property_overrides>
+
+			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="100" tags="primary,secondary"/>
+			<display_value name="dNoiseMultiplier" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_subtract" value="5"/>
+				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".1"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.10"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".10"/>
+				
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDesertEagle.Prefab" parent_transform="Attachments/Barrel"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDMac10AutoSilencer" installable_tags="Mac10" modifier_tags="barrelAttachment" type="attachment">
+		<property name="CustomIcon" value="HD Mac10 Auto Silencer"/>
+		<property name="DescriptionKey" value="HDMac10AutoSilencerDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Mac10 Auto.unity3d?HDMac10AutoSilencer.Prefab"/>
+		
+		<item_property_overrides name="HD Mac10 Auto">
+			<property name="Sound_start" value="M4A1FireS"/>
+			<property name="Sound_loop" value="M4A1FireS"/>
+			<property name="BarrelScale" value="1,1,1.3"/>
+		</item_property_overrides>
+
+			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="100" tags="primary,secondary"/>
+			<display_value name="dNoiseMultiplier" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_subtract" value="5"/>
+				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".1"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.10"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".10"/>
+				
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Mac10 Auto.unity3d?HDMac10AutoSilencer.Prefab" parent_transform="Attachments/Barrel"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDMossberg500Silencer" installable_tags="Moss500" modifier_tags="barrelAttachment" type="attachment">
+		<property name="CustomIcon" value="HD Mossberg 500 Silencer"/>
+		<property name="DescriptionKey" value="HDMossberg500SilencerDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Mossberg 500.unity3d?HDMossberg500Silencer.Prefab"/>
+		
+		<item_property_overrides name="HD Mossberg 500">
+			<property name="Sound_start" value="MossBerg500S"/>
+			<property name="Sound_loop" value="MossBerg500S"/>
+			<property name="BarrelScale" value="1.5,1.5,2"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Spas 12">
+			<property name="Sound_start" value="MossBerg500S"/>
+			<property name="Sound_loop" value="MossBerg500S"/>
+			<property name="BarrelScale" value="1.5,1.5,2"/>
+		</item_property_overrides>
+
+			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="100" tags="primary,secondary"/>
+			<display_value name="dNoiseMultiplier" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_subtract" value="5"/>
+				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".1"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.10"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".10"/>
+				
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Mossberg 500.unity3d?HDMossberg500Silencer.Prefab" parent_transform="Attachments/Barrel"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDArcticWarfareSilencer" installable_tags="HDArctic" modifier_tags="barrelAttachment" type="attachment">
+		<property name="CustomIcon" value="HD Arctic Warfare Silencer"/>
+		<property name="DescriptionKey" value="HDArcticWarfareSilencerDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Arctic Warfare.unity3d?HDArcticWarfareSilencer.Prefab"/>
+		
+		<item_property_overrides name="HD Arctic Warfare">
+			<property name="Sound_start" value="AWFireS"/>
+			<property name="Sound_loop" value="AWFireS"/>
+			<property name="BarrelScale" value="1,1,1.5"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD CheyTac M300">
+			<property name="Sound_start" value="CheyTacF"/>
+			<property name="Sound_loop" value="CheyTacF"/>
+			<property name="BarrelScale" value="1,1,1.5"/>
+		</item_property_overrides>
+
+			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="100" tags="primary,secondary"/>
+			<display_value name="dNoiseMultiplier" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_subtract" value="5"/>
+				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".1"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.10"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".10"/>
+				
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Arctic Warfare.unity3d?HDArcticWarfareSilencer.Prefab" parent_transform="Attachments/Barrel"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDDragunovSVDSilencer" installable_tags="Dragunov" modifier_tags="barrelAttachment" type="attachment">
+		<property name="CustomIcon" value="HD Dragunov SVD Silencer"/>
+		<property name="DescriptionKey" value="HDDragunovSVDSilencerDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Dragunov SVD.unity3d?HDDragunovSVDSilencer.Prefab"/>
+		
+		<item_property_overrides name="HD Dragunov SVD">
+			<property name="Sound_start" value="DEALTFire01"/>
+			<property name="Sound_loop" value="DEALTFire01"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+
+			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="100" tags="primary,secondary"/>
+			<display_value name="dNoiseMultiplier" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_subtract" value="5"/>
+				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".1"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.10"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".10"/>
+				
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Dragunov SVD.unity3d?HDDragunovSVDSilencer.Prefab" parent_transform="Attachments/Barrel"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDColtM1911REFLEX" installable_tags="M1911" modifier_tags="scope" blocked_tags="bow" type="attachment">
+		<property name="CustomIcon" value="HDColtM1911REFLEX"/>
+		<property name="DescriptionKey" value="HDColtM1911REFLEXDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Colt M1911.unity3d?HDColtM1911REFLEX.Prefab"/>
+
+		<item_property_overrides name="*">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+		</item_property_overrides>
+
+		<item_property_overrides name="HD Colt M1911">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0,-0.007,0"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="WeaponHandling" operation="perc_add" value="0.3"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Colt M1911.unity3d?HDColtM1911REFLEX.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDColtM1911AREFLEX" installable_tags="M1911A" modifier_tags="scope" blocked_tags="bow" type="attachment">
+		<property name="CustomIcon" value="HDColtM1911REFLEX"/>
+		<property name="DescriptionKey" value="HDColtM1911AREFLEXDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Colt M1911A.unity3d?HDColtM1911AREFLEX.Prefab"/>
+
+		<item_property_overrides name="*">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Colt M1911A">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0,-0.009,0"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="WeaponHandling" operation="perc_add" value="0.3"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Colt M1911A.unity3d?HDColtM1911AREFLEX.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDDEReflex" installable_tags="HDDEReflex" modifier_tags="scope" blocked_tags="bow" type="attachment">
+		<property name="CustomIcon" value="HDDEReflex"/>
+		<property name="DescriptionKey" value="HDDEReflexDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDEReflex.Prefab"/>
+
+		<item_property_overrides name="*">
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Desert Eagle">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="-0.00,-0.018,-0.00"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="WeaponHandling" operation="perc_add" value="0.3"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDEReflex.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDDEPUNReflex" installable_tags="HDDEPUNReflex" modifier_tags="scope" blocked_tags="bow" type="attachment">
+		<property name="CustomIcon" value="HDDEReflex"/>
+		<property name="DescriptionKey" value="HDDEReflexDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPUNReflex.Prefab"/>
+		
+		<item_property_overrides name="HD Desert Eagle Punisher">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="-0.001,-0.015,0"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="WeaponHandling" operation="perc_add" value="0.3"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPUNReflex.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDGlockAutoSilencer" installable_tags="HDGlockAutoSilencer" modifier_tags="barrelAttachment" type="attachment">
+		<property name="CustomIcon" value="HD Glock Auto Silencer"/>
+		<property name="DescriptionKey" value="HDGlockAutoSilencerDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Glock Auto.unity3d?HDGlockAutoSilencer.Prefab"/>
+		
+		<item_property_overrides name="HDGlock18Auto">
+			<property name="Sound_start" value="HDGlockAutoFireS"/>
+			<property name="Sound_loop" value="HDGlockAutoFireS"/>
+			<property name="CrosshairOnAim" value="true"/>
+			<property name="BarrelScale" value="1,1,1"/>
+			<property name="ScopeCameraOffset" value="0,0.018,0"/>
+		</item_property_overrides>
+
+			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="100" tags="primary,secondary"/>
+			<display_value name="dNoiseMultiplier" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_subtract" value="5"/>
+				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".1"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.10"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".10"/>
+				
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Glock Auto.unity3d?HDGlockAutoSilencer.Prefab" parent_transform="Attachments/Barrel"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
+	<item_modifier name="HDGlockAutoReflex" installable_tags="HDGlockAutoReflex" modifier_tags="scope" blocked_tags="bow" type="attachment">
+		<property name="CustomIcon" value="HD Glock Auto Reflex"/>
+		<property name="DescriptionKey" value="HDGlockAutoReflexDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Glock Auto.unity3d?HDGlockAutoReflex.Prefab"/>
+		
+		<item_property_overrides name="HDGlock18Auto">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0.000,0,-0.000"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="WeaponHandling" operation="perc_add" value="0.3"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Glock Auto.unity3d?HDGlockAutoReflex.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDSpas12Reflex" installable_tags="HDSpas12Reflex" modifier_tags="scope" blocked_tags="bow" type="attachment">
+		<property name="CustomIcon" value="HD Spas 12 Reflex"/>
+		<property name="DescriptionKey" value="HDSpas12ReflexDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HDSpas12Reflex.Prefab"/>
+		
+		<item_property_overrides name="HD Spas 12">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0.000,-0.033,-0.000"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="WeaponHandling" operation="perc_add" value="0.3"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Spas 12.unity3d?HDSpas12Reflex.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<!--#######################################Scope#############################################-->
+	
+	<item_modifier name="HDDEScope" installable_tags="HDDEScope" modifier_tags="scope" blocked_tags="shotgun" type="attachment">
+		<property name="CustomIcon" value="HD DE Scope"/>
+		<property name="DescriptionKey" value="HDDEScopeDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDERScope.Prefab"/>
+
+		<item_property_overrides name="HD Desert Eagle">
+			<property name="ScopeScale" value="0.5,0.5,0.5"/>
+			<property name="Zoom_max_out" value="20"/>
+			<property name="Zoom_max_in" value="10"/>
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_subtract" value="0.5"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1">
+				<requirement name="ProgressionLevel" progression_name="perkSniperDamage" operation="Equals" value="1"/>
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDERScope.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDDEPunScope" installable_tags="HDDEPunScope" modifier_tags="scope" blocked_tags="shotgun" type="attachment">
+		<property name="CustomIcon" value="HD DE Scope"/>
+		<property name="DescriptionKey" value="HDDEPunScopeDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPunScope.Prefab"/>
+
+		<item_property_overrides name="HD Desert Eagle Punisher">
+			<property name="ScopeScale" value="0.5,0.5,0.5"/>
+			<property name="Zoom_max_out" value="20"/>
+			<property name="Zoom_max_in" value="10"/>
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_subtract" value="0.6"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1">
+				<requirement name="ProgressionLevel" progression_name="perkSniperDamage" operation="Equals" value="1"/>
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPunScope.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDM4A1CarbineScope" installable_tags="HDM4A1" modifier_tags="scope" blocked_tags="shotgun" type="attachment">
+		<property name="CustomIcon" value="HD M4A1 Carbine Scope"/>
+		<property name="DescriptionKey" value="HDM4A1CarbineScopeDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD M4A1 Carbine.unity3d?HDM4A1CarbineScope.Prefab"/>
+
+		<item_property_overrides name="HD M4A1 Carbine">
+			<property name="ScopeScale" value="0.5,0.5,0.5"/>
+			<property name="Zoom_max_out" value="30"/>
+			<property name="Zoom_max_in" value="10"/>
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_subtract" value="0.6"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1">
+				<requirement name="ProgressionLevel" progression_name="perkSniperDamage" operation="Equals" value="1"/>
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD M4A1 Carbine.unity3d?HDM4A1CarbineScope.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDDragunovSVDScope" installable_tags="Dragunov" modifier_tags="scope" blocked_tags="shotgun" type="attachment">
+		<property name="CustomIcon" value="HD Dragunov SVD Scope"/>
+		<property name="DescriptionKey" value="HDDragunovSVDScopeDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Dragunov SVD.unity3d?HDDragunovSVDScope.Prefab"/>
+
+		<item_property_overrides name="HD Dragunov SVD">
+			<property name="ScopeScale" value="0.5,0.5,0.5"/>
+			<property name="Zoom_max_out" value="30"/>
+			<property name="Zoom_max_in" value="5"/>
+			<property name="Zoom_overlay" value="#Other/Items?Weapons/HUD/sniper_zoom_overlay.tga"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_subtract" value="0.6"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1">
+				<requirement name="ProgressionLevel" progression_name="perkSniperDamage" operation="Equals" value="1"/>
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Dragunov SVD.unity3d?HDDragunovSVDScope.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<!--#####################################Inventory#############################################-->
+	
+	<item_modifier name="HD RuckSack Upgrade" installable_tags="armor" modifier_tags="carryweight" type="attachment">
+		<property name="CustomIcon" value="HD RuckSack Upgrade"/>
+		<property name="DescriptionKey" value="HDRuckSackUpgradeDesc"/>
+		<property name="UnlockedBy" value="modArmorTripleStoragePocketSchematic"/>
+		<property name="DisplayType" value="modCarryCapacity"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Mleather"/>
+		<effect_group tiered="false">
+			<passive_effect name="CarryCapacity" operation="base_add" value="15"/>
+			<display_value name="dCarryCapacity" value="15"/>
+		</effect_group>
+	</item_modifier>
+	
+</append>
+</configs>

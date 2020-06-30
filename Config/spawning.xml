@@ -1,0 +1,46 @@
+<configs>
+
+<append xpath="/spawning/biome[@name='pine_forest']">
+	<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="GiantAnimals" spawnDeadChance="0" />
+	<spawn maxcount="2" respawndelay="3" time="Day" entitygroup="ZombiesAll" />
+	<spawn maxcount="3" respawndelay="4" time="Night" entitygroup="ZombiesNight" />
+	<spawn maxcount="2" respawndelay="14" time="Any" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
+	<spawn maxcount="2" respawndelay="21" time="Any" entitygroup="FriendlyAnimalsForest" spawnDeadChance="0" />
+</append>
+
+<append xpath="/spawning/biome[@name='desert']">
+	<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="GiantAnimals" spawnDeadChance="0" />
+	<spawn maxcount="1" respawndelay="20" time="Any" entitygroup="FriendlyAnimalsDesert" spawnDeadChance="0" />
+	<spawn maxcount="2" respawndelay="3" time="Any" entitygroup="ZombiesAll" />
+	<spawn maxcount="3" respawndelay="4" time="Night" entitygroup="ZombiesNight" />
+	<spawn maxcount="2" respawndelay="14" time="Any" entitygroup="EnemyAnimalsDesert" spawnDeadChance="0" />
+	<spawn maxcount="2" respawndelay="21" time="Any" entitygroup="FriendlyAnimalsDesert" spawnDeadChance="0" />
+</append>
+
+<append xpath="/spawning/biome[@name='wasteland']">
+	<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="GiantAnimals" spawnDeadChance="0" />
+	<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="ZombieFarmGroup" spawnDeadChance="0" />
+	<spawn maxcount="2" respawndelay="1" time="Day"	entitygroup="ZombiesAll" />
+	<spawn maxcount="3" respawndelay="1" time="Night" entitygroup="ZombiesWastelandNight" />
+	<spawn maxcount="2" respawndelay="1" time="Any" entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0" />
+</append>
+
+<append xpath="/spawning/biome[@name='burnt_forest']">
+	<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="GiantAnimals" spawnDeadChance="0" />
+	<spawn maxcount="1" respawndelay="20" time="Any" entitygroup="FriendlyAnimalsBurntForest" spawnDeadChance="0" />
+	<spawn maxcount="2" respawndelay="3" time="Day" entitygroup="ZombiesBurntForest" />
+	<spawn maxcount="3" respawndelay="4" time="Night" entitygroup="ZombiesNight" />
+	<spawn maxcount="2" respawndelay="14" time="Any" entitygroup="EnemyAnimalsBurntForest" spawnDeadChance="0" />
+	<spawn maxcount="2" respawndelay="21" time="Any" entitygroup="FriendlyAnimalsBurntForest" spawnDeadChance="0" />
+</append>
+
+<append xpath="/spawning/biome[@name='snow']">
+	<spawn maxcount="1" respawndelay="1" time="Any" entitygroup="GiantAnimals" spawnDeadChance="0" />
+	<spawn maxcount="1" respawndelay="20" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0" />
+	<spawn maxcount="2" respawndelay="3" time="Any" entitygroup="SnowZombies" />
+	<spawn maxcount="3" respawndelay="2" time="Night" entitygroup="ZombiesNight" />
+	<spawn maxcount="2" respawndelay="14" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
+	<spawn maxcount="2" respawndelay="21" time="Any" entitygroup="FriendlyAnimalsSnow" spawnDeadChance="0" />
+</append>
+
+</configs>
