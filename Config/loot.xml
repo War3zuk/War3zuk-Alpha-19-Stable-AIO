@@ -1,6 +1,6 @@
 <configs>
 	
-	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">11,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='1']/@size">11,12</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='76']/@size">10,9</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">10,9</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">10,9</set>

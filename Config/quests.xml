@@ -10,8 +10,8 @@
 	<remove xpath="/quests/quest[@id='quest_BasicSurvival8']"/>
 	<remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']"/>
 	
-	<remove xpath="/quests/quest[@id='tier1_buried_supplies']"/>
-	<remove xpath="/quests/quest[@id='tier2_buried_supplies']"/>
+	<!--  <remove xpath="/quests/quest[@id='tier1_buried_supplies']"/>
+	<remove xpath="/quests/quest[@id='tier2_buried_supplies']"/> -->
 	
 <insertBefore xpath="/quests/quest[@id='challenge_silenceofthelambs']" >
 	

@@ -4751,7 +4751,7 @@
 
 <block name="HD wood Bars Centered">
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="ironBars"/>
+	<property name="CustomIcon" value="HD wood Bars Centered"/>
 	<property name="Extends" value="woodNoUpgradeMaster"/>
 	<property name="Texture" value="84"/>
 	<property name="MaxDamage" value="300"/>
@@ -4781,7 +4781,7 @@
 
 <block name="HD Wood Bars">
 	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="ironBars"/>
+	<property name="CustomIcon" value="HD wood Bars Centered"/>
 	<property name="Extends" value="HD wood Bars Centered"/>
 	<property name="Model" value="iron_bars"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
@@ -4793,7 +4793,7 @@
 
 <block name="HD Iron Bars Centered">
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="woodBarsCentered"/>
+	<property name="CustomIcon" value="HD wood Bars Centered"/>
 	<property name="DisplayType" value="blockHardened"/>
 	<property name="Material" value="Mmetal_hard"/>
 	<property name="Shape" value="New"/>
@@ -4823,6 +4823,7 @@
 </block>
 
 <block name="HD Iron Bars">
+	<property name="CustomIcon" value="HD wood Bars Centered"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="HD Iron Bars Centered"/>
 	<property name="Model" value="iron_bars"/>
@@ -4835,8 +4836,8 @@
 </block>
 
 <block name="HD Steel Bars Centered">
+	<property name="CustomIcon" value="HD wood Bars Centered"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="ironBars"/>
 	<property name="DisplayType" value="blockHardened"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Shape" value="New"/>
@@ -4866,6 +4867,7 @@
 </block>
 
 <block name="HD Steel Bars">
+	<property name="CustomIcon" value="HD wood Bars Centered"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="HD Steel Bars Centered"/>
 	<property name="Model" value="iron_bars"/>
@@ -4878,8 +4880,8 @@
 </block>
 
 <block name="HD Stainless Steel Bars Centered">
+	<property name="CustomIcon" value="HD wood Bars Centered"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="ironBars"/>
 	<property name="DisplayType" value="blockHardened"/>
 	<property name="Material" value="MSteelPolish"/>
 	<property name="Shape" value="New"/>
@@ -4909,6 +4911,7 @@
 </block>
 
 <block name="HD Stainless Steel Bars">
+	<property name="CustomIcon" value="HD wood Bars Centered"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="HD Stainless Steel Bars Centered"/>
 	<property name="Model" value="iron_bars"/>
@@ -4921,8 +4924,8 @@
 </block>
 
 <block name="HD Titanium Bars Centered">
+	<property name="CustomIcon" value="HD wood Bars Centered"/>
 	<property name="CreativeMode" value="Dev"/>
-	<property name="CustomIcon" value="ironBars"/>
 	<property name="DisplayType" value="blockHardened"/>
 	<property name="Material" value="MTitaniumPolish"/>
 	<property name="Shape" value="New"/>
@@ -4946,6 +4949,7 @@
 </block>
 
 <block name="HD Titanium Bars">
+	<property name="CustomIcon" value="HD wood Bars Centered"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="HD Titanium Bars Centered"/>
 	<property name="Model" value="iron_bars"/>

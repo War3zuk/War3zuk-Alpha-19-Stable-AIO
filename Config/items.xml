@@ -29,6 +29,8 @@
 	
 	<remove xpath="/items/item/effect_group/passive_effect[@name='Mobility' and @operation='perc_add']"/>
 	<remove xpath="/items/item[@name='drinkJarEmpty']"/>
+	<remove xpath="/items/item[@name='resourceIronFragment']"/>
+	<remove xpath="/items/item[@name='resourceIronFragmentBundle']"/>
 	
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='SellableToTrader']/@value">true</set>
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='EconomicValue']/@value">8500</set>
@@ -1158,159 +1160,75 @@
 	<property name="EconomicValue" value="35"/>
 	<property name="Group" value="Resources"/>
 </item>
-	
-<item name="HD Blunderbuss">
-	<property name="DescriptionKey" value="HDBlunderbussDesc"/>
-	<property name="CustomIcon" value="HD Blunderbuss" />
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,stock,attStrength,perkBoomstick,canHaveCosmetic"/>
-	<property name="DisplayType" value="rangedShotgun"/>
-	<property name="HoldType" value="39"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD BlunderBuss.unity3d?HD BlunderBuss.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceMetalPipe"/>
-	<property name="DegradationBreaksAfter" value="false"/>
-	<property name="SoundJammed" value="weapon_jam"/>
-	<property name="CrosshairOnAim" value="true"/>
-	<property name="CrosshairUpAfterShot" value="true"/>
-	<property name="Sound_Sight_In" value="rifle_sight_in"/>
-	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
-	<property name="Group" value="Ammo/Weapons"/>
-	<property name="RepairExpMultiplier" value="10.8"/>
-	<property name="EconomicValue" value="250"/>
-	<property name="ShowQuality" value="true"/>
-	<property class="Action0">
-		<property name="Class" value="Ranged"/>
-		<property name="Delay" value=".8"/>
-		<property name="Range" value="20"/>
-		<property name="Magazine_items" value="ammoBlunderbuss"/>
-		<property name="Reload_time" value="3.5"/>
-		<property name="Sound_start" value="blunderbuss_fire"/>
-		<property name="Sound_repeat" value=""/>
-		<property name="Sound_end" value=""/>
-		<property name="Sound_empty" value="dryfire"/>
-		<property name="Sound_reload" value="blunderbuss_reload"/>
-		<property name="Particles_muzzle_fire" value="gunfire_doublebarrel"/>
-		<property name="Particles_muzzle_fire_fpv" value="gunfire_doublebarrel_fpv"/>
-		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
-		<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
-		<property name="DamageBonus.head" value="3"/>
-		<property name="ScopeOffset" value="-.00062,.088,.065"/>
-		<property name="SideOffset" value="0,0,0"/>
-		<property name="BarrelOffset" value="0,0,0"/>
-		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
-	</property>
-	<property class="Action1">
-		<property name="Class" value="Zoom"/>
-		<property name="Zoom_max_out" value="55"/>
-		<property name="Zoom_max_in" value="55"/>
-	</property>
-	<effect_group name="gunBlunderbuss">
-		<passive_effect name="EntityDamage" operation="perc_add" value="-1"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="10"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="1.5" tags="wood"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="75"/>
-		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="2"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
-		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="WeaponHandling" operation="base_set" value="1.9"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.5"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.5"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.5"/>
-		<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="3"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="2"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1000,1500" tier="1,6" tags="perkBoomstick"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
-		<display_value name="dStatStunEffect" value="4"/>
-	</effect_group>
-</item>
-	
+
 <item name="HDScrapIronAxe">
 	<property name="DescriptionKey" value="HDScrapIronAxeDesc"/>
 	<property name="CustomIcon" value="HD Scrap Iron Axe" />
-	<property name="Tags" value="axe,melee,grunting,medium,tool,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
+	<property name="Tags" value="melee,grunting,medium,tool,longShaft,attStrength,perkMiner69r,perkMotherLode,miningTool,canHaveCosmetic"/>
 	<property name="DisplayType" value="melee"/>
-	<property name="HoldType" value="32"/>
+	<property name="HoldType" value="63"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Scrap Iron Tools.unity3d?HD Scrap Iron Axe.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceScrapIron"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="metaldestroy1"/>
 	<property name="FuelValue" value="250"/>
 	<property name="EconomicValue" value="350"/>
-	<property name="SoundDestroy" value="wooddestroy1"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Sphere" value=".15"/>
 		<property name="Sound_start" value="swoosh"/>
 		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
-		<property name="ToolCategory.Butcher" value="0" param1="4"/>
-		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
-		<property name="GrazeStart" value=".4"/>
-		<property name="GrazeEnd" value=".5"/>
-		<property name="SwingDegrees" value="50"/>
-		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".25"/>
+		<property name="GrazeEnd" value=".35"/>
+		<property name="SwingDegrees" value="65"/>
 		<property name="SwingAngle" value="180"/>
+		<property name="UseGrazingHits" value="true"/>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Sphere" value=".15"/>
 		<property name="Sound_start" value="swoosh"/>
 		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
-		<property name="ToolCategory.Butcher" value="0" param1="4"/>
-		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
 		<property name="UsePowerAttackAnimation" value="true"/>
-		<property name="GrazeStart" value=".4"/>
-		<property name="GrazeEnd" value=".5"/>
-		<property name="SwingDegrees" value="50"/>
 		<property name="UseGrazingHits" value="true"/>
-		<property name="SwingAngle" value="135"/>
+		<property name="GrazeStart" value=".3"/>
+		<property name="GrazeEnd" value=".4"/>
+		<property name="SwingDegrees" value="70"/>
+		<property name="SwingAngle" value="130"/>
 	</property>
-	<effect_group name="meleeToolFireaxeIron">
-		<passive_effect name="EntityDamage" operation="base_set" value="12.5"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="36.0"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="10.0" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="500,750" tier="1,6" tags="perkMiner69r"/>
+	<property name="Group" value="Tools/Traps"/>
+	<effect_group name="meleeToolPickT1IronPickaxe">
+		<passive_effect name="EntityDamage" operation="base_set" value="12.5" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="36.5" tags="perkMiner69r,miningTool"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="70" tags="perkMiner69r"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="19.0" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="260,886" tier="1,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
-		<passive_effect name="MaxRange" operation="base_set" value="2.6"/>
-		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkMiner69r"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
-		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/>
 		<passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/>
-		<passive_effect name="HarvestCount" operation="base_set" value=".7" tags="butcherHarvest"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="stone"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.75" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".8" tags="terrGravel"/>
 	</effect_group>
 	<effect_group name="Power Attack">
-		<passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
-		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_add" value="31.3" tags="secondary"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="32.2" tags="secondary"/>
 	</effect_group>
-	<property name="Group" value="Basics,Building"/>
-	<property name="FilterTags" value="floot"/>
+	<property name="PickupJournalEntry" value="miningTip"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
@@ -1389,31 +1307,32 @@
 <item name="HDScrapIronShovel">
 	<property name="DescriptionKey" value="HDScrapIronAxeDesc"/>
 	<property name="CustomIcon" value="HD Scrap Iron Shovel" />
-	<property name="Tags" value="melee,grunting,medium,tool,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
+	<property name="Extends" value="meleeToolShovelT0StoneShovel"/>
+	<property name="Tags" value="melee,grunting,medium,tool,longShaft,shovel,attStrength,perkMiner69r,perkMotherLode,canHaveCosmetic"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Scrap Iron Tools.unity3d?HD Scrap Iron Shovel.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceScrapIron"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="FuelValue" value="250"/>
 	<property name="EconomicValue" value="350"/>
-	<property name="SellableToTrader" value="true"/>
-	<effect_group name="meleeToolShovelIron">
-		<passive_effect name="EntityDamage" operation="base_set" value="10.5"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="45"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="55"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="15.8" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="500,750" tier="1,6" tags="perkMiner69r"/>
+	<property name="SellableToTrader" value="false"/>
+	<effect_group name="meleeToolShovelT1IronShovel">
+		<passive_effect name="EntityDamage" operation="base_set" value="12.5" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="47" tags="perkMiner69r"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="55" tags="perkMiner69r"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="10.5" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="400,600" tier="1,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
-		<passive_effect name="MaxRange" operation="base_set" value="2.6"/>
-		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.6" tags="perkMiner69r"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
-		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/>
 		<passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="stone"/>
@@ -1423,49 +1342,47 @@
 		<passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_add" value="31.6" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="30.5" tags="secondary"/>
 	</effect_group>
-	<property name="Group" value="Basics,Building"/>
-	<property name="FilterTags" value="floot"/>
-	<property name="RepairExpMultiplier" value="5.5"/>
+	<property name="Group" value="Tools/Traps"/>
 </item>
 
 <item name="HDScrapIronClub">
 	<property name="DescriptionKey" value="HDScrapIronAxeDesc"/>
 	<property name="CustomIcon" value="HD Scrap Iron Club" />
-	<property name="Tags" value="blunt,club,melee,grunting,light,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
+	<property name="Tags" value="blunt,club,melee,grunting,light,longShaft,perkFlurryOfBlows,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic"/>
 	<property name="DisplayType" value="melee"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Scrap Iron Tools.unity3d?HD Scrap Iron Club.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="HoldType" value="2"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceScrapIron"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
 	<property name="EconomicBundleSize" value="1"/>
-	<property name="EconomicValue" value="350"/>
+	<property name="EconomicValue" value="700"/>
 	<property name="FuelValue" value="250"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
-		<property name="Sound_start" value="club_swinglight"/>
+		<property name="Sound_start" value="batwood_swinglight"/>
 		<property name="Sphere" value=".1"/>
 		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
 		<property name="UseGrazingHits" value="true"/>
 		<property name="GrazeStart" value=".25"/>
 		<property name="GrazeEnd" value=".32"/>
 		<property name="SwingDegrees" value="65"/>
-		<property name="SwingAngle" value="180"/>
-		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="metalhollowhitorganic"/>
-		</property>
-		<property class="GrazeSounds">
-			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
-		</property>
+		<property name="SwingAngle" value="120"/>
+	<property class="HitSounds">
+		<property name="Override0" value="organic" param1="metalhitorganic"/>
+	</property>
+	<property class="GrazeSounds">
+		<property name="Override0" value="organic" param1="metalgrazeorganic"/>
+	</property>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="DynamicMelee"/>
-		<property name="Sound_start" value="club_swingheavy"/>
+		<property name="Sound_start" value="batwood_swingheavy"/>
 		<property name="Sphere" value=".15"/>
 		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
 		<property name="UsePowerAttackAnimation" value="true"/>
@@ -1475,29 +1392,29 @@
 		<property name="GrazeEnd" value=".32"/>
 		<property name="SwingDegrees" value="120"/>
 		<property name="SwingAngle" value="90"/>
-		<property class="HitSounds">
-			<property name="Override0" value="organic" param1="metalhollowhitorganic"/>
-		</property>
-		<property class="GrazeSounds">
-			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
-		</property>
+	<property class="HitSounds">
+		<property name="Override0" value="organic" param1="woodhitorganic"/>
 	</property>
-	<effect_group name="meleeClubIron">
-		<passive_effect name="EntityDamage" operation="base_set" value="17.4"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="14.6"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="52"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="16.1" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="200,500" tier="1,6" tags="perkPummelPete"/>
+	<property class="GrazeSounds">
+		<property name="Override0" value="organic" param1="woodgrazeorganic"/>
+	</property>
+			</property>
+	<effect_group name="meleeWpnClubT3SteelClub">
+		<passive_effect name="EntityDamage" operation="base_set" value="20.5" tags="perkPummelPete"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="15.5" tags="perkPummelPete"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="55" tags="perkPummelPete,perkFlurryOfBlows"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="23.7" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="300,700" tier="1,6" tags="perkPummelPete"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
-		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
-		<passive_effect name="BlockRange" operation="base_set" value="3"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkPummelPete"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkPummelPete"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkPummelPete"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkPummelPete"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkPummelPete"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkPummelPete"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
@@ -1508,11 +1425,8 @@
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_add" value="24.2" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="40.3" tags="secondary"/>
 	</effect_group>
-	<property name="Group" value="Basics,Building"/>
-	<property name="FilterTags" value="floot"/>
-	<property name="RepairExpMultiplier" value="5.5"/>
 </item>
 
 <item name="HDScrapIronShiv">
@@ -1523,11 +1437,9 @@
 	<property name="HoldType" value="36"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Scrap Iron Tools.unity3d?HD Scrap Iron Shiv.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceScrapIron"/>
-	<property name="DegradationBreaksAfter" value="false"/>
-	<property name="FuelValue" value="100"/>
-	<property name="EconomicValue" value="350"/>
-	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="EconomicValue" value="175"/>
+	<property name="SellableToTrader" value="false"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
@@ -1535,9 +1447,8 @@
 		<property name="Damage_type" value="Slashing"/>
 		<property name="Sphere" value=".1"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
-		<property name="ToolCategory.Butcher" value="0" param1="5"/>
-		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+		<property name="ToolCategory.Butcher" value="0" param1="4.5"/>
 		<property name="UseGrazingHits" value="true"/>
 		<property name="GrazeStart" value=".25"/>
 		<property name="GrazeEnd" value=".35"/>
@@ -1555,9 +1466,8 @@
 		<property name="Damage_type" value="Slashing"/>
 		<property name="Sphere" value=".1"/>
 		<property name="Sound_start" value="swoosh"/>
-		<property name="ToolCategory.harvestingTools" value=".5" param1="1"/>
-		<property name="ToolCategory.Butcher" value="0" param1="5"/>
-		<property name="Sound_harvesting" value="open_animal" param1="organic"/>
+		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
+		<property name="ToolCategory.Butcher" value="0" param1="4.5"/>
 		<property name="UsePowerAttackAnimation" value="true"/>
 		<property name="UseGrazingHits" value="true"/>
 		<property name="GrazeStart" value=".2"/>
@@ -1571,38 +1481,42 @@
 			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
 		</property>
 	</property>
-	<effect_group name="meleeToolKnifeIron">
-		<passive_effect name="EntityDamage" operation="base_set" value="11.5"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="6.0"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="100"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="5.0" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="500,750" tier="1,6" tags="perkDeepCuts"/>
+	<effect_group name="meleeWpnBladeT0BoneKnife">
+		<passive_effect name="EntityDamage" operation="base_set" value="13.5" tags="perkDeepCuts,knife"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="10.5" tags="perkDeepCuts"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="120" tags="perkDeepCuts,perkFlurryOfBlows"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="7.3" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="120,220" tier="1,6" tags="perkDeepCuts"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
-		<passive_effect name="MaxRange" operation="base_set" value="2.0"/>
-		<passive_effect name="BlockRange" operation="base_set" value="2.5"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.0" tags="perkDeepCuts"/>
+		<passive_effect name="BlockRange" operation="base_set" value="2.5" tags="perkDeepCuts"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeepCuts"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeepCuts"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value=".6" tags="organic"/>
 		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
-		<display_value name="dBleeding" value="1"/>
 	</effect_group>
 	<effect_group name="Power Attack">
-		<passive_effect name="EntityDamage" operation="base_add" value="6" tags="secondary"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="5.1" tags="secondary"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="base_add" value="-60" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_add" value="17.3" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="7.5" tags="secondary"/>
+		<triggered_effect trigger="onSelfSecondaryActionStart" action="AddJournalEntry" journal="powerAttackTip"/>
 	</effect_group>
-	<property name="Group" value="Basics,Building"/>
-	<property name="FilterTags" value="floot"/>
-	<property name="RepairExpMultiplier" value="5.5"/>
+	<effect_group name="sneak damage bonus">
+		<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+		<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+			<passive_effect name="DamageBonus" operation="base_add" value="4"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="4" tags="perkDeepCuts"/>
+			<display_value name="dEntityDamageSneak" value="4"/>
+	</effect_group>
+	<property name="Group" value="Ammo/Weapons"/>
 </item>
 	
 <item name="HDGunPowderBundle">
@@ -1922,6 +1836,79 @@
 		<property name="Group" value="Resources" />
 </item>
 
+<item name="HD Blunderbuss">
+	<property name="DescriptionKey" value="HDBlunderbussDesc"/>
+	<property name="CustomIcon" value="HD Blunderbuss" />
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,flaredBarrel,sideAttachments,smallTopAttachments,stock,attStrength,perkBoomstick,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedShotgun"/>
+	<property name="HoldType" value="39"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD BlunderBuss.unity3d?HD BlunderBuss.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Mmetal"/>
+	<property name="RepairTools" value="resourceMetalPipe"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="weapon_jam"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="Sound_Sight_In" value="rifle_sight_in"/>
+	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="ShowQuality" value="true"/>
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".8"/>
+		<property name="Magazine_items" value="ammoBlunderbuss"/>
+		<property name="Reload_time" value="3.9"/>
+		<property name="Sound_start" value="blunderbuss_fire"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value="blunderbuss_reload"/>
+		<property name="AutoReload" value="false"/>
+		<property name="Particles_muzzle_fire" value="gunfire_doublebarrel"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_doublebarrel_fpv"/>
+		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
+		<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
+		<property name="ScopeOffset" value="-.00062,.088,.065"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+	</property>
+	<effect_group name="gunShotgunT0Blunderbuss">
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="75" tags="perkBoomstick"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="2" tags="perkBoomstick"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBoomstick"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBoomstick"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="1.9" tags="perkBoomstick"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkBoomstick"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5.5" tags="perkBoomstick"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5.5" tags="perkBoomstick"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.13" tags="perkBoomstick"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05" tags="perkBoomstick"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15" tags="perkBoomstick"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3" tags="perkBoomstick"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="8" tags="perkBoomstick"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="8" tags="perkBoomstick"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-4" tags="perkBoomstick"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="4" tags="perkBoomstick"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="0" tags="perkBoomstick"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="50,100" tier="1,6" tags="perkBoomstick"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
+		<display_value name="dStatStunEffect" value="4"/>
+	</effect_group>
+</item>
+
 <item name="HDGlock18Auto">
 	<property name="DescriptionKey" value="HDGlockAutoDesc"/>
 	<property name="CustomIcon" value="HD Glock Auto"/>
@@ -1965,7 +1952,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="0,0.018,0"/>
 	</property>
-	<effect_group name="gunPistol">
+	<effect_group name="gunHandgunT1Pistol">
 		<passive_effect name="MaxRange" operation="base_set" value="65"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="45"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="0"/>
@@ -2051,7 +2038,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="0,.012,0"/>
 	</property>
-	<effect_group name="gunPistol">
+	<effect_group name="gunHandgunT1Pistol">
 		<passive_effect name="MaxRange" operation="base_set" value="30"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="25"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
@@ -2137,7 +2124,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="0,.012,0"/>
 	</property>
-	<effect_group name="gunPistol">
+	<effect_group name="gunHandgunT1Pistol">
 		<passive_effect name="MaxRange" operation="base_set" value="35"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="25"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
@@ -2228,7 +2215,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0005,-.000,-.0010"/>
 	</property>
-	<effect_group name="gun44Magnum">
+	<effect_group name="gunHandgunT3DesertVulture">
 		<passive_effect name="MaxRange" operation="base_set" value="55"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="40"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
@@ -2318,7 +2305,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0003,-.000,-.0010"/>
 	</property>
-	<effect_group name="gun44Magnum">
+	<effect_group name="gunHandgunT3DesertVulture">
 		<passive_effect name="MaxRange" operation="base_set" value="50"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="35"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
@@ -2403,7 +2390,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value=".0000,-.0250,.0000"/>
 	</property>
-	<effect_group name="gunPistol">
+	<effect_group name="gunHandgunT3SMG5">
 		<passive_effect name="MaxRange" operation="base_set" value="55"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="35"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
@@ -2492,7 +2479,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0003,-00000,.0000"/>
 	</property>
-	<effect_group name="gunSMG5">
+	<effect_group name="gunHandgunT3SMG5">
 		<passive_effect name="MaxRange" operation="base_set" value="65"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="35"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
@@ -2571,11 +2558,11 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.00110,0,.225"/>
 	</property>
-	<effect_group name="gunAK47">
+	<effect_group name="gunMGT1AK47">
 		<passive_effect name="MaxRange" operation="base_set" value="75"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="55"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".1,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-8"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-6"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".5,.5"/>
@@ -2651,11 +2638,11 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.00080,.0110,.300"/>
 	</property>
-	<effect_group name="gunAK47">
+	<effect_group name="gunMGT1AK47">
 		<passive_effect name="MaxRange" operation="base_set" value="85"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="65"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".1,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-8"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-6"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".5,.5"/>
@@ -2731,7 +2718,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0010,-.0130,.35"/>
 	</property>
-	<effect_group name="gunAK47">
+	<effect_group name="gunMGT2TacticalAR">
 		<passive_effect name="MaxRange" operation="base_set" value="90"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
@@ -2811,7 +2798,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0010,.0300,.25"/>
 	</property>
-	<effect_group name="gunAK47">
+	<effect_group name="gunMGT2TacticalAR">
 		<passive_effect name="MaxRange" operation="base_set" value="80"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="65"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".1,.1"/>
@@ -2898,7 +2885,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="0,-.005,0"/>
 	</property>
-	<effect_group name="gunDoubleBarrelShotgun">
+	<effect_group name="gunShotgunT1DoubleBarrel">
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="1000"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
@@ -2981,7 +2968,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0000,-.033,-.0000"/>
 	</property>
-	<effect_group name="gunPumpShotgun">
+	<effect_group name="gunShotgunT3AutoShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
@@ -3068,7 +3055,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0000,-.033,-.0000"/>
 	</property>
-	<effect_group name="gunPumpShotgun">
+	<effect_group name="gunShotgunT3AutoShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
@@ -3155,7 +3142,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0000,-.033,-.0000"/>
 	</property>
-	<effect_group name="gunPumpShotgun">
+	<effect_group name="gunShotgunT3AutoShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
@@ -3242,7 +3229,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0000,-.033,-.0000"/>
 	</property>
-	<effect_group name="gunPumpShotgun">
+	<effect_group name="gunShotgunT3AutoShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
@@ -3329,7 +3316,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0000,-.033,-.0000"/>
 	</property>
-	<effect_group name="gunPumpShotgun">
+	<effect_group name="gunShotgunT3AutoShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
@@ -3414,7 +3401,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="0,-.005,0"/>
 	</property>
-	<effect_group name="gunPumpShotgun">
+	<effect_group name="gunShotgunT3AutoShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
@@ -3490,7 +3477,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0025,.055,.500"/>
 	</property>
-	<effect_group name="gunM60">
+	<effect_group name="gunMGT3M60">
 		<passive_effect name="MaxRange" operation="base_set" value="50"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="40"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
@@ -3571,7 +3558,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0000,.055,.450"/>
 	</property>
-	<effect_group name="gunM60">
+	<effect_group name="gunMGT3M60">
 		<passive_effect name="MaxRange" operation="base_set" value="60"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
@@ -3652,7 +3639,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0000,.005,.180"/>
 	</property>
-	<effect_group name="gunM60">
+	<effect_group name="gunMGT3M60">
 		<passive_effect name="MaxRange" operation="base_set" value="70"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="60"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
@@ -3738,7 +3725,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.0010,.0260,-.06"/>
 	</property>
-	<effect_group name="gunMR10">
+	<effect_group name="gunRifleT3SniperRifle">
 		<passive_effect name="MaxRange" operation="base_set" value="150"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="125"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
@@ -3824,7 +3811,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.00000,.00000,.00000"/>
 	</property>
-	<effect_group name="gunMR10">
+	<effect_group name="gunRifleT3SniperRifle">
 		<passive_effect name="MaxRange" operation="base_set" value="165"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="145"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
@@ -3909,7 +3896,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value=".00000,.014,.245"/>
 	</property>
-	<effect_group name="gunMR10">
+	<effect_group name="gunRifleT3SniperRifle">
 		<passive_effect name="MaxRange" operation="base_set" value="170"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="120"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
@@ -3995,7 +3982,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value=".0000,.017,.0000"/>
 	</property>
-	<effect_group name="gunMR10">
+	<effect_group name="gunRifleT2MarksmanRifle">
 		<passive_effect name="MaxRange" operation="base_set" value="100"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="75"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
@@ -4072,7 +4059,7 @@
 				<property name="Zoom_max_in" value="55"/>
 				<property name="ScopeCameraOffset" value="0.000,0,0.065"/>
 				</property>
-			<effect_group name="Base Effects">
+		<effect_group name="Base Effects">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="15"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="45"/>
@@ -4090,7 +4077,6 @@
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".25"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.45"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".45"/>
-		<!--  <display_value name="dRecoil" value="1" /> -->
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.2"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="850,1400" tier="1,6" tags="perkMiner69r"/>
@@ -4147,7 +4133,7 @@
 		<property name="Zoom_max_in" value="55"/>
 		<property name="ScopeCameraOffset" value="-.00000,.015,.00000"/>
 	</property>
-	<effect_group name="gunMR10">
+	<effect_group name="gunRifleT3SniperRifle">
 		<passive_effect name="MaxRange" operation="base_set" value="165"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="145"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
@@ -4231,7 +4217,7 @@
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
 	</property>
-	<effect_group name="gunRocketLauncher">
+	<effect_group name="gunExplosivesT3RocketLauncher">
 		<passive_effect name="MaxRange" operation="base_set" value="150"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="100"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="0"/>
@@ -9354,6 +9340,28 @@
 	<property name="DescriptionKey" value="RepairKitHuntingRiflesDesc"/>
 	<property name="Group" value="Resources"/>
 	<property name="FilterTags" value="floot"/>
+</item>
+
+<item name="resourceIronFragmentBundle">
+	<property name="Extends" value="resourceRockSmallBundle"/>
+	<property name="CustomIcon" value="resourceIronFragment"/>
+	<property class="Action0">
+		<property name="Create_item" value="resourceIronFragment"/>
+		<property name="Create_item_count" value="1200"/>
+	</property>
+</item>
+
+<item name="resourceIronFragment">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MresourceScrapIron"/>
+	<property name="Weight" value="5"/>
+	<property name="Stacknumber" value="1200"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="EconomicValue" value="25"/>
+	<property name="EconomicBundleSize" value="5"/>
+	<property name="Group" value="Resources"/>
 </item>
 
 </append>

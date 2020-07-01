@@ -1,5 +1,16 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v1.0 to v1.1
+
+Rebuilt HD Scrap Iron Axe Code
+Rebuilt HD Scrap Iron PickAxe Code
+Rebuilt HD Scrap Iron Shovel Code
+Rebuilt HD Scrap Iron Club Code
+Rebuilt HD Scrap Iron Shiv Code
+
+Rebuilt HD Weapons Code (Balanced Dmg)
+Fixed Player Storage Size (9x10) Maxed
+
 Updated v0.0 to v1.0
 
 Fixed & Updated Inventory Backpack 105 Slots
