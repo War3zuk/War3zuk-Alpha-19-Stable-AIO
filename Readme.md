@@ -11,6 +11,15 @@ Rebuilt HD Scrap Iron Shiv Code
 Rebuilt HD Weapons Code (Balanced Dmg)
 Fixed Player Storage Size (9x10) Maxed
 
+Rebuilt HD Wrench Code
+Rebuilt HD Impact Driver Code
+
+Rebuilt HD Junk Turret 9mm
+Rebuilt HD Junk Turret 7.62
+Rebuilt HD Junk Turret 50mm
+Rebalanced Their Damage Approx x2 Higher
+Extended Turret Range By 300%
+
 Updated v0.0 to v1.0
 
 Fixed & Updated Inventory Backpack 105 Slots
