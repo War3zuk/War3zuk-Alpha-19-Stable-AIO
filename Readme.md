@@ -20,6 +20,10 @@ Rebuilt HD Junk Turret 50mm
 Rebalanced Their Damage Approx x2 Higher
 Extended Turret Range By 300%
 
+Rebuilt HD Xcalibur
+Rebuilt HD Auger
+Rebuilt HD Chainsaw
+
 Updated v0.0 to v1.0
 
 Fixed & Updated Inventory Backpack 105 Slots

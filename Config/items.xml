@@ -5173,36 +5173,20 @@
 	</property>
 </item>
 
-<item name="meleeHandZombieDemolisherArson">
-	<property name="Extends" value="meleeHandZombieBurningFeral"/>
-	<property name="CreativeMode" value="None"/>
-  	<property class="Action0">
-		<property name="DamageEntity" value="30"/>
-		<property name="DamageBlock" value="30"/>
-	</property>
-	<effect_group name="meleeHandZombieBurningFeral" tiered="false">
-		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".40" tags="buffBurningZombie"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".20" tags="buffInfectionCatch"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".15" tags="buffInjuryStunned01"/>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" target="other" cvar="infectionZombieHit" operation="set" value="45"/>
-	</effect_group>
-</item>
-
 <item name="HD Xcalibur">
 	<property name="DescriptionKey" value="HDXDesc"/>
-	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,perkElectrocutioner,attStrength,perkSkullCrusher,canHaveCosmetic"/>
-	<property name="DisplayType" value="melee"/>
+	<property name="CustomIcon" value="HDXcalibur"/>
+	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
+	<property name="DisplayType" value="meleeHeavy"/>
 	<property name="HoldType" value="33"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Xcalibur.unity3d?HD Xcalibur.Prefab"/>
-	<property name="CustomIcon" value="HDXcalibur"/>
-	<property name="Material" value="MmeleeWpnSledgeParts"/> <property name="Weight" value="10"/>
+	<property name="Material" value="MmeleeWpnSledgeParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="metaldestroy1"/>
 	<property name="FuelValue" value="250"/>
-	<property name="EconomicValue" value="550"/>
+	<property name="EconomicValue" value="700"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
@@ -5240,79 +5224,32 @@
 			<property name="Override0" value="organic" param1="metalgrazeorganic"/>
 		</property>
 	</property>
-	<effect_group name="meleeToolSledgehammerSteel">
-		<passive_effect name="EntityDamage" operation="base_set" value="35.5"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="60"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="45"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="20.5" tags="primary"/>
+	<effect_group name="meleeWpnSledgeT3SteelSledgehammer">
+		<passive_effect name="EntityDamage" operation="base_set" value="45.1" tags="perkSkullCrusher"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="75" tags="perkSkullCrusher"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="35" tags="perkSkullCrusher"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="40.5" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="207,581" tier="1,6" tags="perkSkullCrusher"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkSkullCrusher"/>
-		<passive_effect name="MaxRange" operation="base_set" value="2.6"/>
-		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
-		<passive_effect name="DismemberChance" operation="base_add" value=".1" tags="primary"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.6" tags="perkSkullCrusher"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSkullCrusher"/>
+		<passive_effect name="DismemberChance" operation="base_add" value=".1" tags="perkSkullCrusher,primary"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="allHarvest"/>
-		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="allToolsHarvest"/>
-		<passive_effect name="HarvestCount" operation="base_add" value="-.70" tags="oreWoodHarvest"/>
-        <effect_group name="Base Effects" tiered="false">
-				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
-				<triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="other" buff="buffShocked"/>
-				</triggered_effect>
-			</effect_group>
-		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Sparks" prefab="ItemModEffects/baton_electricityPrefab" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="RemovePart" part="Sparks">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="10">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="1">
-			<requirement name="IsAlive" target="other"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="4"/>
-			<requirement name="IsPrimaryAttack"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="add" value="2">
-			<requirement name="IsAlive" target="other"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="4"/>
-			<requirement name="IsSecondaryAttack"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="ModifyCVar" cvar="stunBatonCharge" operation="set" value="0">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GT" value="6"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="AddPart" part="Sparks" prefab="ParticleEffects/p_electric_shock_small" parentTransform="Handle" localPos="0,0,0" localRot="0,0,0">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/>
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="LTE" value="6"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit1">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="1"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit2">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="2"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit3">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="3"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfDamagedOther" action="PlaySound" sound="stunbaton_hit4">
-			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="4"/>
-		</triggered_effect>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkSkullCrusher"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkSkullCrusher"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkSkullCrusher"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkSkullCrusher"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
+		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
+		<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Sparks"/>
 	</effect_group>
 	<effect_group name="Power Attack">
-		<passive_effect name="EntityDamage" operation="perc_add" value="1.20" tags="secondary"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="1.20" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_add" value="40.0" tags="secondary"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="40" tags="secondary"/>
 		<passive_effect name="DismemberChance" operation="base_add" value=".3" tags="secondary"/>
 	</effect_group>
 </item>
@@ -5827,8 +5764,8 @@
 	<property name="Group" value="Tools/Traps"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="1500"/>
-	<property name="ShowQuality" value="true"/>
 	<property name="UnlockedBy" value="HD Auger Schematic"/>
+	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Hitmask_override" value="Melee"/>
@@ -5837,53 +5774,50 @@
 		<property name="Magazine_items" value="ammoGasCan"/>
 		<property name="Bullet_material" value="metal"/>
 		<property name="Reload_time" value="4.1"/>
-		<property name="Sound_start" value="AugerFireStart"/>
-		<property name="Sound_repeat" value="AugerFireLp"/>
-		<property name="Sound_end" value="AugerFireEnd"/>
-		<property name="Sound_empty" value="AugerEmpty"/>
-		<property name="Sound_reload" value="AugerReload"/>
+		<property name="Sound_start" value="Auger_Fire_Start"/>
+		<property name="Sound_repeat" value="Weapons/Motorized/Auger/auger_fire_lp"/>
+		<property name="Sound_end" value="Weapons/Motorized/Auger/auger_fire_end"/>
+		<property name="Sound_empty" value="auger_empty"/>
+		<property name="Sound_reload" value="Auger_Reload"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
 		<property name="SupportHarvesting" value="true"/>
-		<property name="DamageBonus.stone" value="1.1"/>
-		<property name="DamageBonus.wood" value="-.1"/>
-		<property name="DamageBonus.head" value="0.2"/>
 		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
 	</property>
-	<effect_group name="meleeToolAuger">
-		<passive_effect name="EntityDamage" operation="base_set" value="4.2"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="50.7"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1000,6000" tier="1,6" tags="perkMiner69r"/>
+	<effect_group name="meleeToolPickT3Auger">
+		<passive_effect name="EntityDamage" operation="base_set" value="5.5" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="55.5" tags="perkMiner69r,miningTool"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="350" tags="perkMiner69r"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1400,4200" tier="1,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
-		<passive_effect name="MaxRange" operation="base_set" value="6.0"/>
-		<passive_effect name="BlockRange" operation="base_set" value="6"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.35" tags="perkMiner69r"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="SphereCastRadius" operation="base_set" value="0"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="100"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="PlayerExpGain" operation="perc_add" value=".3" tags="Harvesting"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".5,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="DegradationMax" operation="perc_add" value=".2,.2" tags="perkMiner69r"/>
-		<passive_effect name="RoundsPerMinute" operation="perc_add" value=".05,.05"/>
-		<passive_effect name="MagazineSize" operation="perc_add" value=".122,.122"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value=".08,.08"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value=".8" tags="wood"/>
-		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="500"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="WeaponHandling" operation="base_set" value="5"/>
+		<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="100" tags="perkMiner69r"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="-.3" tags="Harvesting"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkMiner69r"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1000" tags="perkMiner69r"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="1000" tags="perkMiner69r"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkMiner69r"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value=".5" tags="perkMiner69r"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value=".5" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.35" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".35" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.35" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".35" tags="perkMiner69r"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1" tags="perkMiner69r"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="5" tags="perkMiner69r"/>
 	</effect_group>
 </item>
 
@@ -5900,8 +5834,8 @@
 	<property name="Group" value="Tools/Traps"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="EconomicValue" value="1500"/>
-	<property name="ShowQuality" value="true"/>
 	<property name="UnlockedBy" value="HD Chainsaw Schematic"/>
+	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Hitmask_override" value="Melee"/>
@@ -5910,55 +5844,52 @@
 		<property name="Magazine_items" value="ammoGasCan"/>
 		<property name="Bullet_material" value="metal"/>
 		<property name="Reload_time" value="4.1"/>
-		<property name="Sound_start" value="ChainsawFireStart"/>
-		<property name="Sound_empty" value="ChainsawEmpty"/>
-		<property name="Sound_repeat" value="ChainsawFireLp"/>
-		<property name="Sound_end" value="ChainsawFireEnd"/>
-		<property name="Sound_reload" value="ChainsawReload"/>
+		<property name="Sound_start" value="chainsaw_fire_start"/>
+		<property name="Sound_empty" value="chainsaw_empty"/>
+		<property name="Sound_repeat" value="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_lp"/>
+		<property name="Sound_end" value="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_end"/>
+		<property name="Sound_reload" value="chainsaw_reload"/>
 		<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
 		<property name="SupportHarvesting" value="true"/>
-		<property name="DamageBonus.stone" value="-.1"/>
-		<property name="DamageBonus.wood" value="1.1"/>
-		<property name="DamageBonus.head" value="0.5"/>
 		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
 	</property>
-	<effect_group name="meleeToolChainsaw">
-		<passive_effect name="EntityDamage" operation="base_set" value="6"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="50.1"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1000,6000" tier="1,6" tags="perkMiner69r"/>
+	<effect_group name="meleeToolAxeT3Chainsaw">
+		<passive_effect name="EntityDamage" operation="base_set" value="10" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="55.5" tags="perkMiner69r"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="350" tags="perkMiner69r"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1400,4200" tier="1,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
-		<passive_effect name="MaxRange" operation="base_set" value="3"/>
-		<passive_effect name="BlockRange" operation="base_set" value="4"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.35" tags="perkMiner69r"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="SphereCastRadius" operation="base_set" value="0"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="100"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2,.2"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="PlayerExpGain" operation="perc_add" value=".3" tags="Harvesting"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="DegradationMax" operation="perc_add" value=".2,.2" tags="perkMiner69r"/>
-		<passive_effect name="RoundsPerMinute" operation="perc_add" value=".05,.05"/>
+		<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="100" tags="perkMiner69r"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="-.3" tags="Harvesting"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/>
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value=".08,.08"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkMiner69r"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.85" tags="metal"/>
-		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="500"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="0"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="0"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="0"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="0"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="0"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="0"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="WeaponHandling" operation="base_set" value="5"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1000" tags="perkMiner69r"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="1000" tags="perkMiner69r"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkMiner69r"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value=".5" tags="perkMiner69r"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value=".5" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.25" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".25" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.45" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".45" tags="perkMiner69r"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1" tags="perkMiner69r"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value="5" tags="perkMiner69r"/>
 	</effect_group>
 </item>
 	

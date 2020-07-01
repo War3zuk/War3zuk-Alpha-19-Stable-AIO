@@ -1070,7 +1070,6 @@
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="5"/>
 	<ingredient name="resourceWood" count="50"/>
-	<ingredient name="meleeWpnBatonT1JunkBaton" count="1"/>
 </recipe>
 
 <recipe name="Ethans Bam Hammer" count="1" craft_time = "30" tags="perkSkullCrusher">
