@@ -35,7 +35,6 @@
 	<property name="MaxDamage" value="100"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="#@modfolder:Resources/HDBedRoll.unity3d?HDBedRoll.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="ModelOffset" value=".5,.5,0"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,1"/>
 	<property name="FallDamage" value=".8"/>
@@ -3144,7 +3143,38 @@
 	<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="5" tag="WasteTreasuresCoffinHarvest"/>
 	<drop event="Harvest" name="resourceGoldNugget" prob=".05" count="5" tag="WasteTreasuresCoffinHarvest"/>
 </append>
-	
+
+<append xpath="/blocks/block[@name='cntDumpster']">
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/cntDumpster.unity3d?cntDumpster.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="ModelOffset" value="0,.5,.5"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="66"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntDumpsterFlies']">
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/cntDumpster.unity3d?cntDumpster.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="3,2,2"/>
+	<property name="LootList" value="66"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="136"/>
+	<drop event="Destroy" name="resourceScrapIron" count="20" prob="1"/>
+	<property name="FilterTags" value="floot"/>
+</append>
+
 <append xpath="/blocks/block[@name='steelMaster']">
 	<property class="UpgradeBlock">
 	<property name="ToBlock" value="stainlessSteelMaster"/>

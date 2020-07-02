@@ -30,6 +30,8 @@ Updated HD Gas Generator (Textured)
 Fixed HD Colt M1911 Code
 Fixed HD Colt M1911A Code
 
+Replaced Both Vanilla Dumpsters PBR Model (Paid)
+
 Updated v0.0 to v1.0
 
 Fixed & Updated Inventory Backpack 105 Slots
