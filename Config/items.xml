@@ -1996,10 +1996,10 @@
 
 <item name="HD Colt M1911">
 	<property name="DescriptionKey" value="HD1911Desc"/>
+	<property name="CustomIcon" value="HD Colt M1911"/>
 	<property name="Tags" value="M1911,HDColtM19,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,sideAttachments,smallTopAttachments,barrelAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
-	<property name="CustomIcon" value="HD Colt M1911"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Colt M1911.unity3d?HD Colt M1911.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MHandGunParts"/> <property name="Weight" value="4"/>
 	<property name="RepairTools" value="RepairKitHandGuns"/>
@@ -2017,7 +2017,6 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="550"/>
-	<property name="UnlockedBy" value="perkGunslinger,gunPistolSchematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
@@ -2103,7 +2102,6 @@
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
 	<property name="EconomicValue" value="550"/>
-	<property name="UnlockedBy" value="perkGunslinger,gunPistolSchematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>

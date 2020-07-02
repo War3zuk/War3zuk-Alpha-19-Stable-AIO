@@ -24,6 +24,12 @@ Rebuilt HD Xcalibur
 Rebuilt HD Auger
 Rebuilt HD Chainsaw
 
+Updated HD Generator (Textured)
+Updated HD Gas Generator (Textured)
+
+Fixed HD Colt M1911 Code
+Fixed HD Colt M1911A Code
+
 Updated v0.0 to v1.0
 
 Fixed & Updated Inventory Backpack 105 Slots

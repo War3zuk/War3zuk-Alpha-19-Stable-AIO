@@ -2787,6 +2787,11 @@
 	<property name="LootList" value="524" />
 </append>
 
+<append xpath="/blocks/block[@name='airConditionVentFanDouble']">
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="524" />
+</append>
+
 <append xpath="/blocks/block[@name='palletCompressedCardboard']">
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="525"/>
