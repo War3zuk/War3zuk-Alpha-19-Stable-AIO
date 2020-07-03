@@ -76,6 +76,7 @@
 		<reward type="Quest" id="HD Gunman PreReq 1" stage="aftercomplete"/>
 		<reward type="Quest" id="HD Mechanic PreReq 1" stage="aftercomplete"/>
 		<reward type="Quest" id="HD Medic PreReq 1" stage="aftercomplete"/>
+		<reward type="Quest" id="HD Cook PreReq 1" stage="aftercomplete"/>
 </quest>
 	
 <quest id="HD Bruiser PreReq 1">
@@ -813,6 +814,136 @@
 		<reward type="Item" id="Class Medic VM" value="1" />
 </quest>
 
+<quest id="HD Cook PreReq 1">
+	<property name="name_key" value="HD Cook PreReq 1" />
+	<property name="subtitle_key" value="HD Cook PreReq 1 Of 5" />
+	<property name="group_name_key" value="HD Cook PreReq 1" />
+	<property name="description_key" value="Time for you to show off your Cooking Skillz." />
+	<property name="icon" value="ui_game_symbol_Cook1" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+
+		<objective type="FetchKeep" id="foodHoney" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodCanPears" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodCanBeef" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCanStock" value="10" phase="1" />
+		<objective type="FetchKeep" id="HDBowl" value="20" phase="1" />
+		
+		<objective type="Craft" id="Warm Chunky Honey" value="10" phase="2" />
+		<objective type="Craft" id="Warm Chunky Beef" value="10" phase="2" />
+		
+		<reward type="Exp" value="100" />
+		<reward type="Quest" id="HD Cook PreReq 2" />
+</quest>
+
+<quest id="HD Cook PreReq 2">
+	<property name="name_key" value="HD Cook PreReq 2" />
+	<property name="subtitle_key" value="HD Cook PreReq 2 Of 5" />
+	<property name="group_name_key" value="HD Cook PreReq 2" />
+	<property name="description_key" value="Time for you to Cook some Warm Chunky Beef which also cures Infection" />
+	<property name="icon" value="ui_game_symbol_Cook2" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+
+		<objective type="FetchKeep" id="foodCanLamb" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCanSham" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodRawMeat" value="40" phase="1" />
+		<objective type="FetchKeep" id="foodCropPotato" value="40" phase="1" />
+		<objective type="FetchKeep" id="HDBowl" value="20" phase="1" />
+		
+		<objective type="Craft" id="Warm Chunky Lamb" value="10" phase="2" />
+		<objective type="Craft" id="Warm Chunky Meat And Mash" value="10" phase="2" />
+		
+		<reward type="Exp" value="200" />
+		<reward type="Quest" id="HD Cook PreReq 3" />
+</quest>
+
+<quest id="HD Cook PreReq 3">
+	<property name="name_key" value="HD Cook PreReq 3" />
+	<property name="subtitle_key" value="HD Cook PreReq 3 Of 5" />
+	<property name="group_name_key" value="HD Cook PreReq 3" />
+	<property name="description_key" value="Time for you to Cook some Warm Chunky Lamb which also cures Infection" />
+	<property name="icon" value="ui_game_symbol_Cook3" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+
+		<objective type="FetchKeep" id="foodCanChicken" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCanStock" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodCanCatfood" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCanDogfood" value="20" phase="1" />
+		<objective type="FetchKeep" id="HDBowl" value="20" phase="1" />
+		
+		<objective type="Craft" id="Warm Chunky Chicken" value="10" phase="2" />
+		<objective type="Craft" id="Warm Chunky Surprise" value="10" phase="2" />
+		
+		<reward type="Exp" value="300" />
+		<reward type="Quest" id="HD Cook PreReq 4" />
+</quest>
+
+<quest id="HD Cook PreReq 4">
+	<property name="name_key" value="HD Cook PreReq 4" />
+	<property name="subtitle_key" value="HD Cook PreReq 4 Of 5" />
+	<property name="group_name_key" value="HD Cook PreReq 4" />
+	<property name="description_key" value="Time for you to Cook some Warm Chunky Sirloin which also cures Infection" />
+	<property name="icon" value="ui_game_symbol_Cook4" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+
+
+		<objective type="FetchKeep" id="foodCanChili" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCanStock" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodCanPasta" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCanTuna" value="10" phase="1" />
+		<objective type="FetchKeep" id="HDBowl" value="20" phase="1" />
+		
+		<objective type="Craft" id="Warm Chunky Chili" value="10" phase="2" />
+		<objective type="Craft" id="Warm Chunky Pasta" value="10" phase="2" />
+		
+		<reward type="Exp" value="400" />
+		<reward type="Quest" id="HD Cook PreReq 5" />
+</quest>
+
+<quest id="HD Cook PreReq 5">
+	<property name="name_key" value="HD Cook PreReq 5" />
+	<property name="subtitle_key" value="HD Cook PreReq 5 Of 5" />
+	<property name="group_name_key" value="HD Cook PreReq 5" />
+	<property name="description_key" value="Time for you to Cook some Warm Chunky Meat And Mash which also cures Infection" />
+	<property name="icon" value="ui_game_symbol_Cook5" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+
+		<objective type="FetchKeep" id="foodMeatStew" value="5" phase="1" />
+		<objective type="FetchKeep" id="foodShamChowder" value="5" phase="1" />
+		<objective type="FetchKeep" id="foodHoboStew" value="5" phase="1" />
+		<objective type="FetchKeep" id="foodVegetableStew" value="5" phase="1" />
+		<objective type="FetchKeep" id="HDBowl" value="20" phase="1" />
+		
+		<objective type="Craft" id="Warm Chunky Meat Stew" value="5" phase="2" />
+		<objective type="Craft" id="Warm Chunky Sham Chowder" value="5" phase="2" />
+		<objective type="Craft" id="Warm Chunky Hobo Stew" value="5" phase="2" />
+		<objective type="Craft" id="Warm Chunky Vegetable Stew" value="5" phase="2" />
+		
+		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Item" id="Camoes Bifana" value="10" />
+		<reward type="Item" id="Ralifs Borscht" value="10" />
+		<reward type="Item" id="Possums Pavlova" value="10" />
+		<reward type="Item" id="MsTeresas Burger Patty" value="10" />
+		<reward type="Item" id="HD Meat Hammer" value="6" />
+		<reward type="Item" id="HD Meat Cleaver" value="6" />
+		<reward type="Item" id="Class Cook VM" value="1" />
+</quest>
+
 <quest id="Trader Location">
 		<property name="group_name_key" value="Trader Location"/>
 		<property name="name_key" value="Trader Location"/>
@@ -913,6 +1044,6 @@
 		<reward type="Item" id="armorLeatherBoots" value="6" />
 		<reward type="Item" id="armorLeatherHood" value="6" />
 	</quest>
-		
+
 </insertBefore>
 </configs>

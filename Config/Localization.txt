@@ -24,6 +24,9 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+HDMeatCleaverDesc,items,,,Cooks Meat Cleaver. 50% Better at harvesting meat And Leather,
+HDMeatHammerDesc,items,,,Cooks Hammer. Used to smash those Fuckin Heads In,
+
 HDConcreteBarrierDesc,items,,,A Simple Barrier 1x1x2.,
 HDModularWallDesc,items,,,A Simple Modular Barrier 2x1x4.,
 

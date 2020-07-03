@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="DifficultyTier" value="1"/>
+    <property name="Zoning" value="Commercial,Downtown,Industrial,ResidentialNew,ResidentialOld"/>
+    <property name="RotationToFaceNorth" value="0"/>
+    <property name="YOffset" value="-1"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="MaxPerHub" value="1"/>
+    <property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland_hub,wasteland,city,city_wasteland"/>
+    <property name="AllowedTownships" value="rural,town,wilderness"/>
+    <property name="EditorGroups" value="downtown, house new"/>
+    <property name="SleeperVolumeStart" value="0,0,0"/>
+    <property name="SleeperVolumeSize" value="30,23,13"/>
+    <property name="SleeperVolumeGroup" value="S_-_Group_Football_Stadium,13,35"/>
+    <property name="SleeperVolumeGameStageAdjust" value="medium"/>
+    <property name="SleeperIsLootVolume" value="False"/>
+    <property name="SleeperIsBossVolume" value="False"/>
+    <property name="SleeperVolumeFlags" value="0"/>
+    <property name="SleeperVolumeGroupId" value="0"/>
+</prefab>

@@ -1,7 +1,7 @@
 <configs> <!--  Thanks To Xipher7934 For His Original HealthBar Code  -->
 	
 	<set xpath="/entity_classes/entity_class[@name='Backpack']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDPlayerRuckSack.Prefab</set>
-	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDRuckSackdropped.Prefab</set>
+	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDRuckSackLoot.Prefab</set>
 	
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">Starter Class</set>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">Starter Class</set>

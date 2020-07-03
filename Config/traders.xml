@@ -307,9 +307,48 @@
 			<item name="medicalSplint"/>
 		</trader_items>
 	</trader_info>
+	
+	<trader_info id="17" full_reset="false" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
+		<trader_items count="all">
+			<item name="Warm Chunky Honey"/>
+			<item name="Warm Chunky Beef"/>
+			<item name="Warm Chunky Chicken"/>
+			<item name="Warm Chunky Lamb"/>
+			<item name="Warm Chunky Surprise"/>
+			<item name="Warm Chunky Chili"/>
+			<item name="Warm Chunky Pasta"/>
+			<item name="Warm Chunky Salmon"/>
+			<item name="Warm Chunky Sirloin"/>
+			<item name="Warm Chunky Vegetable Stew"/>
+			<item name="Warm Chunky Meat Stew"/>
+			<item name="Warm Chunky Sham Chowder"/>
+			<item name="Warm Chunky Hobo Stew"/>
+			<item name="Warm Chunky Steak And Potato"/>
+			<item name="Warm Chunky ChiliDog"/>
+			<item name="Warm Chunky Fish Taco"/>
+			<item name="Warm Chunky Meat And Mash"/>
+			<item name="Warm Chunky Gumbo Stew"/>
+			<item name="Warm Chunky Shepards Pie"/>
+			<item name="foodBaconAndEggs"/>
+			<item name="foodBakedPotato"/>
+			<item name="foodBlueberryPie"/>
+			<item name="foodBoiledMeat"/>
+			<item name="foodCornBread"/>
+			<item name="foodCornOnTheCob"/>
+			<item name="foodGrilledMeat"/>
+			<item name="foodMeatStew"/>
+			<item name="foodSteakAndPotato"/>
+			<item name="foodVegetableStew"/>
+			<item name="foodShamChowder"/>
+			<item name="foodHoboStew"/>
+			<item name="foodFishTacos"/>
+			<item name="foodChiliDog"/>
+			<item name="foodPumpkinPie"/>
+			<item name="foodPumpkinCheesecake"/>
+			<item name="foodPumpkinBread"/>
+		</trader_items>
+	</trader_info>
 
 </append>
 	
 </config>
-
-

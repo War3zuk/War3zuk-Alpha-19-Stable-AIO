@@ -1,5 +1,41 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v1.1 to v1.2
+
+**************************
+**Requires Fresh Game**
+**May Reset Player Stats**
+**************************
+Added Cook Class 5 Quests
+Added HD Cook VM (Vender)
+**************************************************************
+Added Reward: Non Craftable HD Cooks Cleaver PBR Model (Paid)
+Added Reward: Non Craftable HD Cooks Hammer PBR Model (Paid)
+**************************************************************
+
+Fixed Warm Chunky Mash And Meat Name
+Added Warm Chunky Shepards Pie
+Warm Chunky Gumbo Stew
+
+Rebuilt All Custom Player Foods
+Rebuilt All Warm And Chunky Foods
+
+Rebuilt HD Double Barrel Code
+Rebuilt HD Spas 12 Code (All 5)
+Rebuilt HD Vulcan 9mm Code
+Rebuilt HD Vulcan 7.62mm Code
+Rebuilt HD Vulcan 50mm Code
+Rebuilt HD Colt M1911 Code
+Rebuilt HD Colt M1911A Code
+
+Rebuilt HD M4A1 Carbine Code
+Rebuilt HD Tactical AR Code
+
+Rebuilt All Shock Ammo Code
+Rebuilt All Inciniary Ammo Code
+
+Replaced The STUPID Vanilla Steel Axe
+
 Updated v1.0 to v1.1
 
 Rebuilt HD Scrap Iron Axe Code
@@ -7,6 +43,7 @@ Rebuilt HD Scrap Iron PickAxe Code
 Rebuilt HD Scrap Iron Shovel Code
 Rebuilt HD Scrap Iron Club Code
 Rebuilt HD Scrap Iron Shiv Code
+Added HD Scrap Iron Wrench PBR Model (Paid)
 
 Rebuilt HD Weapons Code (Balanced Dmg)
 Fixed Player Storage Size (9x10) Maxed
@@ -31,6 +68,7 @@ Fixed HD Colt M1911 Code
 Fixed HD Colt M1911A Code
 
 Replaced Both Vanilla Dumpsters PBR Model (Paid)
+Added 32 Custom Prefabs (Vanilla Lod Errors)
 
 Updated v0.0 to v1.0
 

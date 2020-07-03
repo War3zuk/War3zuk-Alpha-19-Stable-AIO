@@ -2749,6 +2749,20 @@
 	<property name="FilterTags" value="floot,ffurniture"/>
 </block>
 
+<block name="Class Cook VM">
+	<property name="Extends" value="VendingMachineMaster"/>
+	<property name="CustomIcon" value="Class Bruiser VM" />
+	<property name="CreativeMode" value="Dev"/>
+	<property name="MaxDamage" value="250"/>
+	<property name="Model" value="#@modfolder:Resources/Class Builder.unity3d?Class Cook VM.Prefab"/>
+	<property name="TraderID" value="17"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="0"/>
+	<drop event="Destroy" name="Class Cook VM" count="1"/>
+	<property name="DescriptionKey" value="ClassVendingMachineDesc" />
+	<property name="FilterTags" value="floot,ffurniture"/>
+</block>
+
 </append>
 	
 <append xpath="/blocks/block[@name='palletWhiteBagsBase']">

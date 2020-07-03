@@ -412,9 +412,21 @@
 	<ingredient name="HDBowl" count="1"/>
 </recipe>
 
-<recipe name="Warm Chunk Meat And Mash" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+<recipe name="Warm Chunky Meat And Mash" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
 	<ingredient name="foodRawMeat" count="4"/>
 	<ingredient name="foodCropPotato" count="4"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Shepards Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodShepardsPie" count="1"/>
+	<ingredient name="foodCanStock" count="1"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Gumbo Stew" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodGumboStew" count="1"/>
+	<ingredient name="foodCanStock" count="1"/>
 	<ingredient name="HDBowl" count="1"/>
 </recipe>
 
@@ -1050,6 +1062,14 @@
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="10"/>
 	<ingredient name="resourceSpring" count="2"/>
+</recipe>
+
+<recipe name="HD Scrap Wrench" count="1" craft_time = "60" tags="perkSalvageOperations">
+	<ingredient name="resourceScrapIron" count="250"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="16"/>
+	<ingredient name="resourceSpring" count="4"/>
 </recipe>
 		
 <recipe name="HD Mini Hatchet" count="1"  craft_time = "30" tags="perkMiner69r">
