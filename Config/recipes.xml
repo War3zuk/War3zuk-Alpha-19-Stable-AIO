@@ -1336,10 +1336,6 @@
 	<ingredient name="resourceConcreteMix" count="500"/>
 </recipe>
 
-<recipe name="Find The Trader" count="1" craft_time = "1">
-	<ingredient name="resourcePaper" count="10"/>
-</recipe>
-
 <recipe name="ammo9mmBulletBall" count="30">
 	<ingredient name="Ammo Supply 9mm" count="1"/>
 </recipe>

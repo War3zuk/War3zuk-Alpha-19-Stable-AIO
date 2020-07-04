@@ -14,10 +14,6 @@
 	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalBoar')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>	
 	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalStag')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>	
 	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalDoe')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>	
-	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalCoyote')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>	
-	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalWolf')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>
-	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalDireWolf')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>
-	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalBear')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>
 	
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">15</set>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize']/@value">105</set>

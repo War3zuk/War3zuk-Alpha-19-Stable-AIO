@@ -10,8 +10,8 @@
 	<remove xpath="/quests/quest[@id='quest_BasicSurvival8']"/>
 	<remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']"/>
 	
-	<!--  <remove xpath="/quests/quest[@id='tier1_buried_supplies']"/>
-	<remove xpath="/quests/quest[@id='tier2_buried_supplies']"/> -->
+	<remove xpath="/quests/quest[@id='tier1_buried_supplies']"/>
+	<remove xpath="/quests/quest[@id='tier2_buried_supplies']"/>
 	
 <insertBefore xpath="/quests/quest[@id='challenge_silenceofthelambs']" >
 	
@@ -944,31 +944,6 @@
 		<reward type="Item" id="Class Cook VM" value="1" />
 </quest>
 
-<quest id="Trader Location">
-		<property name="group_name_key" value="Trader Location"/>
-		<property name="name_key" value="Trader Location"/>
-		<property name="subtitle_key" value="Crafting and reading this item will show you to a trader"/>
-		<property name="description_key" value="Trader Location"/>
-		<property name="icon" value="ui_game_symbol_map_trader"/>
-		<property name="category_key" value="quest"/>
-		<property name="difficulty" value="medium"/>
-		<property name="shareable" value="false"/>
-
-		<objective type="Goto" id="trader" value="5" phase="1">
-			<property name="biome_filter_type" value="OnlyBiome" />
-			<property name="biome_filter" value="pine_forest" />
-			<property name="nav_object" value="go_to_trader" />
-		</objective>
-
-		<objective type="InteractWithNPC">
-			<property name="phase" value="2"/>
-			<property name="nav_object" value="return_to_trader" />
-			<property name="use_closest" value="true" />
-		</objective>
-
-		<reward type="Exp" value="10" />
-</quest>
-
 <quest id="War3zuk Quest 01">
 		<property name="group_name" value="quest_ToolsOfCitizenship" />
 		<property name="offer" value="Blessed with the chance to Fight with the famous Machete You Hold your Old one in your Hand And You Fight, Take out the Zombies." />
@@ -1029,8 +1004,8 @@
 
 		<action type="SpawnEnemy" id="animalZombieDog" value="8" phase="3" />
 		<objective type="ZombieKill" id="animalZombieDog" value="4" phase="3" />
-		<action type="SpawnEnemy" id="Giant Boar" value="5" phase="4" />
-		<objective type="AnimalKill" id="Giant Boar" value="2" phase="4" />
+		<action type="SpawnEnemy" id="GiantBoar" value="8" phase="4" />
+		<objective type="AnimalKill" id="GiantBoar" value="4" phase="4" />
 
 		<objective type="InteractWithNPC">
 			<property name="phase" value="5"/>
@@ -1045,5 +1020,339 @@
 		<reward type="Item" id="armorLeatherHood" value="6" />
 	</quest>
 
+</insertBefore>
+
+<insertBefore xpath="/quests/quest[@id='test_sleepers']" >
+	
+<quest id="tier1_buried_supplies">
+		<property name="name_key" value="Tier 1 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 1 Buried Supplies"/>
+		<property name="description_key" value="Tier 1 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="Camoes Gamer And his Gang of Cut Throat Thirsty Bastards have run off with my Porn Stash. Track them down. Kill them all And bring back my Shit"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="1"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="100-200"/>
+			<property name="default_radius" value="3"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="2" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieArlene,zombieMarlene,zombieMarlene,zombieWightFeral,zombieJoe,zombieMoe,zombieFemaleFat" value="3-5" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="1000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+	
+<quest id="tier2_buried_supplies">
+		<property name="name_key" value="Tier 2 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 2 Buried Supplies"/>
+		<property name="description_key" value="Tier 2 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="Nuklehed Has done it again. Shes stole all the Backup Grub. Go get my Stuff And if you see her Crew Fuck Them Up"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="2"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="200-300"/>
+			<property name="default_radius" value="4"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="3" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieArlene,zombieBoeFeral,zombieMarlene,zombieWightFeral,zombieJoe,zombieMoe,zombieFemaleFatFeral" value="4-6" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="2000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+	
+<quest id="tier3_buried_supplies">
+		<property name="name_key" value="Tier 3 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 3 Buried Supplies"/>
+		<property name="description_key" value="Tier 3 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="Mrs Spartan has knicked off with Mr Spartans Stoggy Stash. The finest Cigars on this heavenly Earth. Get them back at ANY cost"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="3"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="300-400"/>
+			<property name="default_radius" value="5"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="4" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieMarlene,zombieWightFeral,zombieJoe,zombieMoe,zombieFemaleFatFeral" value="5-7" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="3000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+
+<quest id="tier4_buried_supplies">
+		<property name="name_key" value="Tier 4 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 4 Buried Supplies"/>
+		<property name="description_key" value="Tier 4 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="That Varment Coach Life has Killed all my Chickens. Go find my Spare box of Chicks. If you see him kill him"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="4"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="400-500"/>
+			<property name="default_radius" value="6"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="5" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieScreamerRadiated,zombieWightFeral,zombieJoe,zombieMoe,zombieFemaleFatFeral" value="6-8" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="4000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+
+<quest id="tier5_buried_supplies">
+		<property name="name_key" value="Tier 5 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 5 Buried Supplies"/>
+		<property name="description_key" value="Tier 5 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="Hes Stole My Wife. If you see that MoFo The Lovin One Fuck him up Proper And Bring back any stash he has"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="5"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="500-600"/>
+			<property name="default_radius" value="7"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="6" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieScreamerRadiated,zombieWightFeral,zombieDarleneFeral,zombieMoe,zombieFemaleFatFeral" value="7-9" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+
+<quest id="tier6_buried_supplies">
+		<property name="name_key" value="Tier 6 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 6 Buried Supplies"/>
+		<property name="description_key" value="Tier 6 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="War3zuk And the Misses Nauti Angel were enjoying Nookie Time when Our Moment was shattered By The Cultured Goon And his Croonies. Kill them all And take Their Shit"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="6"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="false"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="600-800"/>
+			<property name="default_radius" value="10"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="10" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="GiantUndeadHoundRad,zombieBoeFeral,GiantDemolisher,zombieWightFeral,GiantDemolisherFire,zombieMoe,GiantDemolisherRad" value="8-10" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="10000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+	
 </insertBefore>
 </configs>

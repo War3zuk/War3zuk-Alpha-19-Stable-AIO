@@ -5535,17 +5535,6 @@
 	</effect_group>
 </item>
 
-<item name="Find The Trader"> 
-	<property name="CustomIcon" value="Find The Trader"/>
-	<property name="Extends" value="questMaster"/>
-	<property class="Action0">
-	<property name="Class" value="Quest"/>
-	<property name="QuestGiven" value="Trader Location"/>
-	<property name="Delay" value="0"/>
-	</property>			
-	<property name="Group" value="Special Items"/>			
-</item>
-
 <item name="HD Mini Hatchet">
 	<property name="DescriptionKey" value="HDMiniHatchetDesc"/>
 	<property name="Extends" value="meleeToolRepairT0StoneAxe"/>

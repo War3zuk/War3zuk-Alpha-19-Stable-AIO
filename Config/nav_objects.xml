@@ -1,41 +1,5 @@
 <config>
 	
-	<remove xpath="/nav_object_classes/nav_object_class[@name='4x4']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_timid']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_chicken']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_rabbit']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_doe']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_stag']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_hostile']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_bear']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_boar']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_coyote']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_direwolf']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_mountainlion']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_snake']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='animaltracking_wolf']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='backpack']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='bicycle']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='editor_quest_loot_container']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='fetch_container']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='go_to_trader']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='gyrocopter']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='land_claim']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='minibike']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='motorcycle']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='NOJunkDrone']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='party']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='quest']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='return_to_trader']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='rally']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='sleeping_bag']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='supply_drop']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='spear']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='sleeper_volume']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='trader']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='treasure']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='treasure_direct']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='vending_machine']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='waypoint']/onscreen_settings" />
+
 	
 </config>

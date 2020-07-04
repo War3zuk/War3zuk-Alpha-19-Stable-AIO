@@ -1,5 +1,15 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v1.3 to v1.4
+
+Removed Doubling Of Health To
+Bear,Dog,Grace
+
+Removed The Vanilla Buried Supplies Quest 1 & 2
+Rebuilt Buried Supplies Quests Tier 1 To 6
+
+Removed Find The Trader Quest
+
 Updated v1.2 to v1.3
 
 Enabled Health Bar (Non God Mode)
