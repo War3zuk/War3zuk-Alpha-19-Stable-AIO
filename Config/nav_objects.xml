@@ -25,12 +25,9 @@
 	<remove xpath="/nav_object_classes/nav_object_class[@name='motorcycle']/onscreen_settings" />
 	<remove xpath="/nav_object_classes/nav_object_class[@name='NOJunkDrone']/onscreen_settings" />
 	<remove xpath="/nav_object_classes/nav_object_class[@name='party']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='quick_waypoint']/onscreen_settings" />
 	<remove xpath="/nav_object_classes/nav_object_class[@name='quest']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='rally']/onscreen_settings" />
 	<remove xpath="/nav_object_classes/nav_object_class[@name='return_to_trader']/onscreen_settings" />
 	<remove xpath="/nav_object_classes/nav_object_class[@name='rally']/onscreen_settings" />
-	<remove xpath="/nav_object_classes/nav_object_class[@name='return_to_trader']/onscreen_settings" />
 	<remove xpath="/nav_object_classes/nav_object_class[@name='sleeping_bag']/onscreen_settings" />
 	<remove xpath="/nav_object_classes/nav_object_class[@name='supply_drop']/onscreen_settings" />
 	<remove xpath="/nav_object_classes/nav_object_class[@name='spear']/onscreen_settings" />
