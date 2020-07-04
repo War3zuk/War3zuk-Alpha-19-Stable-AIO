@@ -25,15 +25,15 @@
   <property name="SleeperVolumeFlags" value="2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property class="Stats">
-    <property name="TotalVertices" value="1774828" />
-    <property name="TotalTriangles" value="1646902" />
+    <property name="TotalVertices" value="1854394" />
+    <property name="TotalTriangles" value="1676037" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1577387" />
-      <property name="Triangles" value="1524893" />
+      <property name="Vertices" value="1658034" />
+      <property name="Triangles" value="1555327" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="75024" />
-      <property name="Triangles" value="39642" />
+      <property name="Vertices" value="75752" />
+      <property name="Triangles" value="39596" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -48,8 +48,8 @@
       <property name="Triangles" value="1320" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="98641" />
-      <property name="Triangles" value="58311" />
+      <property name="Vertices" value="96706" />
+      <property name="Triangles" value="56986" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="8816" />
@@ -68,8 +68,17 @@
       <property name="Triangles" value="0" />
     </property>
     <property class="ChunkMeshes9">
-      <property name="Vertices" value="0" />
-      <property name="Triangles" value="0" />
+      <property name="Vertices" value="126" />
+      <property name="Triangles" value="72" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="TraderOnOff">
+      <property name="0" value="15, 1, 32" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="28, 1, 23" />
+      <property name="1" value="29, 1, 18" />
     </property>
   </property>
 </prefab>

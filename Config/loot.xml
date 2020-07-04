@@ -7,7 +7,6 @@
 	<set xpath="/lootcontainers/lootcontainer[@id='79']/@size">10,9</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='80']/@size">10,9</set>
 	
-	<remove xpath="/lootcontainers/lootcontainer[@id='5']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='6']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='7']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='11']"></remove>
@@ -42,6 +41,7 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='114']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='115']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='116']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='131']"></remove>
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
 	
@@ -202,10 +202,33 @@
 </lootgroup>
 
 </insertAfter>
-	
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='4']" >
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='5']" >
+<!-- wallSafe / deskSafe -->
+<lootcontainer id="6" count="2,4" size="6,4" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
+	<item group="War3zukHDMilitary" prob="0.3"/>
+	<item group="War3zukHDAmmo" prob="0.3"/>
+	<item group="War3zukHDWeapons" prob="0.3"/>
+	<item group="War3zukHDWeaponParts" prob="0.3"/>
+	<item group="groupSafeLoot"/>
+</lootcontainer>
+</insertAfter>
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='6']" >
+	<!-- gun safe -->
+<lootcontainer id="7" count="2,6" size="8,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
+	<item group="groupSafeLoot"/>
+	<item group="War3zukHDFlares" prob="0.1"/>
+	<item group="War3zukHDMilitary" prob="0.1"/>
+	<item group="War3zukHDAmmo" prob="0.1"/>
+	<item group="War3zukHDWeapons" prob="0.1"/>
+	<item group="War3zukHDWeaponParts" prob="0.1"/>
+</lootcontainer>
+</insertAfter>
+
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='10']" >
 <!-- stove/oven, cooking pots and pans rotten food -->
-<lootcontainer id="5" count="2,3" size="6,4" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="11" count="2,3" size="6,4" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="qualPlus1Template">
 	<item name="toolCookingPot" count="1,2" prob="1.5"/>
 	<item group="farmingCookingRecipes"/>
 	<item name="toolCookingGrill"/>
@@ -217,45 +240,9 @@
 </lootcontainer>
 </insertAfter>
 
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='5']" >
-<!-- cntNightstandClosed and dressers, wooden desk: pistol, ammo, magazines, books -->
-<lootcontainer id="6" count="2,3" size="6,4" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualBaseTemplate">
-	<item group="groupApparelClothes" prob="1"/>
-	<item group="trophyGroup"/>
-	<item group="groupAmmoRegular"/>
-	<item group="books"/>
-	<item group="medicine"/>
-	<item name="meleeToolFlashlight02"/>
-	<item name="apparelCigar" prob=".6"/>
-	<item name="oldCash" count="10,20" prob="0.6"/>
-	<item name="resourceSewingKit"/>
-	<item group="War3zukHDFlares"/>
-</lootcontainer>
-</insertAfter>
-
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='6']" >
-<!-- medicine cabinets -->
-<lootcontainer id="7" count="2,3" size="6,4" sound_open="UseActions/open_medicine_cabinet" sound_close="UseActions/close_medicine_cabinet" loot_quality_template="qualBaseTemplate">
-	<item group="War3zukHDCarePackages" prob="0.3"/>
-	<item group="War3zukHDMedical" prob="0.3"/>
-	<item group="medicine"/>
-</lootcontainer>
-</insertAfter>
-
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='10']" >
-<!-- wallSafe / deskSafe -->
-<lootcontainer id="11" count="2,4" size="6,4" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
-	<item group="War3zukHDMilitary" prob="0.3"/>
-	<item group="War3zukHDAmmo" prob="0.3"/>
-	<item group="War3zukHDWeapons" prob="0.3"/>
-	<item group="War3zukHDWeaponParts" prob="0.3"/>
-	<item group="groupSafeLoot"/>
-</lootcontainer>
-</insertAfter>
-
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='11']" >
 <!-- POI storage box that looks like the player-built one -->
-<lootcontainer id="12" count="2,4" size="6,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="12" count="2,4" size="6,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
 	<item group="junk"/>
 	<item group="groupAmmoRegular"/>
 	<item group="books" prob="0.1"/>
@@ -267,7 +254,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='20']" >
 <!-- microwave oven loot -->
-<lootcontainer id="21" count="2,3" size="6,4" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="21" count="2,3" size="6,4" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualPlus1Template">
 	<item group="War3zukHDFoods" prob="0.3"/>
 	<item group="rottenFood"/>
 </lootcontainer>
@@ -275,7 +262,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='24']" >
 <!-- birds nest-->
-<lootcontainer id="25" count="2,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" destroy_on_close="true" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="25" count="2,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" destroy_on_close="true" loot_quality_template="qualPlus1Template">
 	<item name="resourceFeather" count="5,10" prob="1"/>
 	<item name="foodEgg" count="3,6" prob="1"/>
 	<item name="resourceCloth" count="5,10" prob="1"/>
@@ -285,7 +272,7 @@
 </insertAfter>
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='25']" >
-<lootcontainer id="34" count="4" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="34" count="4" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="cannedfood" count="3,5" prob="0.2"/>
 	<item group="groupWeaponsScaled" prob="0.2"/>
 	<item group="groupAmmoRegular" count="2" prob="0.2"/>
@@ -301,7 +288,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='34']" >
 <!-- tree hollowed stump, place where people stash things, -->
-<lootcontainer id="35" count="2,3" size="6,2" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="35" count="2,3" size="6,2" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" loot_quality_template="qualPlus1Template">
 	<item group="sportingGoods" count="1" prob="0.1"/>
 	<item name="foodHoney" count="1" prob="0.1"/>
 	<item group="cannedfood" count="1,2" prob="0.1"/>
@@ -313,7 +300,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='39']" >
 <!-- military munitions ammo box -->
-<lootcontainer id="40" count="2,3" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="8" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="40" count="2,3" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="8" loot_quality_template="qualPlus1Template">
 	<item group="groupAmmoRegular"/>
 	<item group="groupWeaponsScaled"/>
 	<item group="groupModAllScaled"/>
@@ -327,19 +314,24 @@
 </insertAfter>
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='41']" >
-<lootcontainer id="42" count="2,6" size="8,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
-	<item group="groupSafeLoot"/>
-	<item group="War3zukHDFlares" prob="0.1"/>
-	<item group="War3zukHDMilitary" prob="0.1"/>
-	<item group="War3zukHDAmmo" prob="0.1"/>
-	<item group="War3zukHDWeapons" prob="0.1"/>
-	<item group="War3zukHDWeaponParts" prob="0.1"/>
+<!-- cntNightstandClosed and dressers, wooden desk: pistol, ammo, magazines, books -->
+<lootcontainer id="42" count="2,3" size="6,4" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualPlus1Template">
+	<item group="groupApparelClothes" prob="1"/>
+	<item group="trophyGroup"/>
+	<item group="groupAmmoRegular"/>
+	<item group="books"/>
+	<item group="medicine"/>
+	<item name="meleeToolFlashlight02"/>
+	<item name="apparelCigar" prob=".6"/>
+	<item name="oldCash" count="10,20" prob="0.6"/>
+	<item name="resourceSewingKit"/>
+	<item group="War3zukHDFlares"/>
 </lootcontainer>
 </insertAfter>
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='42']" >
 <!-- lockers -->
-<lootcontainer id="43" count="2,4" size="6,2" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="43" count="2,4" size="6,2" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker" loot_quality_template="qualPlus1Template">
 	<item group="groupApparelClothes"/>
 	<item group="groupApparelHats"/>
 	<item group="groupArmorScaled"/>
@@ -357,7 +349,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='46']" >
 <!-- frozen or refridgerated food, spoiled food (Helper) -->
-<lootcontainer id="47" count="2,3" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="47" count="2,3" size="6,4" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="coldfood" prob="0.7"/>
 	<item name="drinkJarBoiledWater" count="2,4" prob="0.5"/>
 	<item name="drinkJarEmpty" count="2,4"/>
@@ -368,7 +360,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='48']" >
 <!-- bookcase -->
-<lootcontainer id="49" count="2,4" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="49" count="2,4" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualPlus1Template">
 	<item group="War3zukHDMedical" prob="0.1"/>
 	<item group="War3zukHDMilitary" prob="0.1"/>
 	<item group="War3zukHDTools" prob="0.1"/>
@@ -382,7 +374,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='49']" >
 <!-- shotgun Messiah -->
-<lootcontainer id="50" count="1,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="50" count="1,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
 	<item group="groupAmmoRegular"/>
 	<item group="groupWeaponsScaled"/>
 	<item group="groupModAllScaled"/>
@@ -396,7 +388,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='50']" >
 <!-- pop n pills -->
-<lootcontainer id="51" count="1,3" size="6,4" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="51" count="1,3" size="6,4" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case" loot_quality_template="qualPlus1Template">
 	<item group="medicine" count="1,2" prob="0.4"/>
 	<item name="resourceScrapPolymers" count="10,20" prob="0.2"/>
 	<item group="War3zukHDCarePackages" count="1" prob="0.1"/>
@@ -406,7 +398,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='52']" >
 <!-- working stiffs -->
-<lootcontainer id="53" count="2,4" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="53" count="2,4" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
 	<item group="workingStiffsBox" prob="0.7"/>
 	<item group="War3zukHDTools" prob="0.1"/>
 	<item group="War3zukHDBenchAddons" prob="0.1"/>
@@ -416,7 +408,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='58']" >
 <!-- Shamway Cardboard Loot-->
-<lootcontainer id="59" count="2,4" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="59" count="2,4" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
 	<item name="foodShamSandwich" count="1,3"/>
 	<item name="foodCanSham" count="1,2"/>
 	<item group="coldfood"/>
@@ -430,7 +422,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='59']" >
 <!-- Bookstore bookcase -->
-<lootcontainer id="60" count="2,3" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="60" count="2,3" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualPlus1Template">
 	<item group="books"/>
 	<item group="War3zukHDMedical" prob="0.3"/>
 	<item group="War3zukHDMilitary" prob="0.3"/>
@@ -444,7 +436,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='63']" >
 <!-- gas pump loot -->
-<lootcontainer id="64" count="1,2" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="64" count="1,2" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
 	<item name="ammoGasCan" count="100,500" prob="1"/>
 	<item name="HD Flame Fuel" count="50,75" prob="1"/>
 </lootcontainer>
@@ -452,7 +444,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='65']" >
 <!-- Dumpster loot -->
-<lootcontainer id="66" count="0,2" size="8,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="66" count="0,2" size="8,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualPlus1Template">
 	<item group="junk"/>
 	<item name="HDAeroDynamicsUpgrade" prob=".02"/>
 	<item name="HDFuelSaverUpgrade" prob=".02"/>
@@ -464,7 +456,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='80']" >
 <!-- army truck-->
-<lootcontainer id="83" count="2,4" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="83" count="2,4" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="qualPlus1Template">
 	<item group="cannedfood" prob="0.5"/>
 	<item group="War3zukHDFoods" prob="0.2"/>
 	<item group="groupWeaponsScaled" prob="0.1"/>
@@ -480,7 +472,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='83']" >
 <!-- bookstore shipping crate -->
-<lootcontainer id="89" count="1,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="89" count="1,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
 	<item group="books"/>
 	<item group="War3zukHDBenchAddons" prob="0.1"/>
 	<item group="War3zukHDBenches" prob="0.1"/>
@@ -493,7 +485,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='89']" >
 <!-- car parts shipping crate -->
-<lootcontainer id="90" count="2,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="90" count="2,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
 	<item name="resourceRepairKit" count="10,25" prob="0.3"/>
 	<item group="vehicleParts" prob="0.4"/>
 	<item group="tools" prob="0.5"/>
@@ -507,7 +499,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='90']" >
 <!-- cntCollapsedForge -->
-<lootcontainer id="91" count="1,2" size="7,4" sound_open="forge_open" sound_close="forge_close" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="91" count="1,2" size="7,4" sound_open="forge_open" sound_close="forge_close" loot_quality_template="qualPlus1Template">
 	<item group="forgeLoot"/>
 	<item name="forgeSchematic" prob=".15"/>
 	<item name="HD Forge Schematic" prob=".15"/>
@@ -518,7 +510,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='91']" >
 <!-- cntCollapsedWorkbench -->
-<lootcontainer id="92" count="1,2" size="7,4" sound_open="open_workbench" sound_close="close_workbench" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="92" count="1,2" size="7,4" sound_open="open_workbench" sound_close="close_workbench" loot_quality_template="qualPlus1Template">
 	<item group="workbenchLoot"/>
 	<item group="tools" prob="0.2"/>
 	<item group="rareTools"/>
@@ -531,7 +523,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='92']" >
 <!-- cntCollapsedCementMixer -->
-<lootcontainer id="93" count="1,2" size="7,4" sound_open="cement_mixer_open" sound_close="cement_mixer_close" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="93" count="1,2" size="7,4" sound_open="cement_mixer_open" sound_close="cement_mixer_close" loot_quality_template="qualPlus1Template">
 	<item group="cementMixerLoot" count="1"/>
 	<item name="cementMixerSchematic" prob="0.15"/>
 	<item name="HD Cement Mixer Schematic" prob="0.15"/>
@@ -540,7 +532,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='93']" >
 <!-- cntCollapsedChemistryStation -->
-<lootcontainer id="94" count="1,2" size="7,4" sound_open="chem_station_open" sound_close="chem_station_close" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="94" count="1,2" size="7,4" sound_open="chem_station_open" sound_close="chem_station_close" loot_quality_template="qualPlus1Template">
 	<item group="labEquipment" prob="37.5"/>
 	<item group="chemistryStationLoot" prob="37.5"/>
 	<item name="chemistryStationSchematic" prob="18.7"/>
@@ -551,7 +543,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='95']" >
 <!-- cntLootCrateLabEquipment Lab equipment and medical items -->
-<lootcontainer id="96" count="2,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="96" count="2,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
 	<item group="labEquipment" prob="16"/>
 	<item name="resourcePaper" count="5,15"/>
 	<item group="War3zukHDMedical" prob="0.1"/>
@@ -560,7 +552,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='107']" >
 <!-- cntAmmoPileSmall -->
-<lootcontainer id="108" count="1,2" size="6,1" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+<lootcontainer id="108" count="1,2" size="6,1" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="true">
 	<item group="groupAmmoPileLoot"/>
 	<item group="War3zukHDAmmo"/>
 </lootcontainer>
@@ -568,7 +560,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='108']" >
 <!-- cntAmmoPileMedium -->
-<lootcontainer id="109" count="2,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+<lootcontainer id="109" count="2,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="true">
 	<item group="groupAmmoPileLoot"/>
 	<item group="War3zukHDAmmo"/>
 </lootcontainer>
@@ -576,7 +568,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='109']" >
 <!-- cntAmmoPileLarge -->
-<lootcontainer id="110" count="4,5" size="6,3" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+<lootcontainer id="110" count="4,5" size="6,3" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="true">
 	<item group="groupAmmoPileLoot"/>
 	<item group="War3zukHDAmmo"/>
 </lootcontainer>
@@ -584,7 +576,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='113']" >
 <!-- medicalPileSmall -->
-<lootcontainer id="114" count="1,2" size="6,1" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+<lootcontainer id="114" count="1,2" size="6,1" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="true">
 	<item group="labEquipment"/>
 	<item group="dyes" prob=".05"/>
 	<item name="resourceGunPowder" count="20,50" prob=".05"/>
@@ -599,7 +591,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='114']" >
 <!-- medicalPileMedium -->
-<lootcontainer id="115" count="2,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+<lootcontainer id="115" count="2,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="true">
 	<item group="labEquipment"/>
 	<item group="dyes" prob=".05"/>
 	<item name="resourceGunPowder" count="20,50" prob=".05"/>
@@ -614,7 +606,7 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='115']" >
 <!-- medicalPileLarge -->
-<lootcontainer id="116" count="3,4" size="6,3" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+<lootcontainer id="116" count="3,4" size="6,3" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="true">
 	<item group="labEquipment"/>
 	<item group="dyes" prob=".05"/>
 	<item name="resourceGunPowder" count="20,50" prob=".05"/>
@@ -627,10 +619,19 @@
 </lootcontainer>
 </insertAfter>
 
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='130']" >
+<!-- medicine cabinets -->
+<lootcontainer id="131" count="2,3" size="6,4" sound_open="UseActions/open_medicine_cabinet" sound_close="UseActions/close_medicine_cabinet" loot_quality_template="qualPlus1Template">
+	<item group="War3zukHDCarePackages" prob="0.3"/>
+	<item group="War3zukHDMedical" prob="0.3"/>
+	<item group="medicine"/>
+</lootcontainer>
+</insertAfter>
+
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='124']">
 	
 <!-- Standard Animal -->
-<lootcontainer id="500" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="500" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
 <item name="foodRawMeat" count="2,4" prob="1"/>
 <item name="resourceAnimalFat" count="2,4" prob="1"/>
 <item name="resourceBone" count="2,4" prob="0.1"/>
@@ -638,26 +639,26 @@
 </lootcontainer>
 
 <!-- Boneless Animal -->
-<lootcontainer id="501" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="501" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
 <item name="foodRawMeat" count="2,4" prob="1"/>
 <item name="resourceAnimalFat" count="2,4" prob="1"/>
 <item name="resourceLeather" count="2,4" prob="0.1"/>
 </lootcontainer>
 
 <!-- Undead Animal -->
-<lootcontainer id="502" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="502" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
 <item name="resourceBone" count="2,4" prob="1"/>
 <item name="foodRottingFlesh" count="2,4" prob="1"/>
 </lootcontainer>
 
 <!-- Animal Chicken -->
-<lootcontainer id="503" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="503" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
 <item name="foodEgg" count="2,4" prob="1"/>
 <item name="foodRawMeat" count="2,4" prob="1"/>
 <item name="resourceFeather" count="5,10" prob="1"/>
 </lootcontainer>
 
-<lootcontainer id="507" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="507" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="rareAutomotive" count="1,2"/>
 	<item group="rareTools" count="1,2"/>
 	<item group="toolParts" count="1,2"/>
@@ -666,7 +667,7 @@
 	<item group="minibikeParts" count="1,2"/>
 </lootcontainer>
 
-<lootcontainer id="508" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="508" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="rareMedicine" count="1,2"/>
 	<item group="medicine" count="1,2"/>
 	<item group="rareOres" count="1,2"/>
@@ -675,7 +676,7 @@
 	<item group="warmClothes" count="1,2"/>
 </lootcontainer>
 
-<lootcontainer id="509" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="509" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="groupAmmoRegularGunslingerT1" count="1,2"/>
 	<item group="groupAmmoRegularGunslingerT2" count="1,2"/>
 	<item group="groupArmor_Light" count="1,2"/>
@@ -684,7 +685,7 @@
 	<item group="groupHeroChestLoot" count="1,2"/>
 </lootcontainer>
 
-<lootcontainer id="510" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="510" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="cannedfood" count="1,2"/>
 	<item group="coldfood" count="1,2"/>
 	<item group="groupApparelClothes" count="1,2"/>
@@ -693,7 +694,7 @@
 	<item group="rareFoodDrink" count="1,2"/>
 </lootcontainer>
 
-<lootcontainer id="517" count="2,4" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualBaseTemplate" >
+<lootcontainer id="517" count="2,4" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
 	<item name="resourceIronFragment" count="50,100" prob="0.1"/>
 	<item name="resourceBone" count="5,10" prob="0.1"/>
 	<item name="resourceNail" count="25,50" prob="0.1"/>

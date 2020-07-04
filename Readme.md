@@ -1,5 +1,15 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v1.2 to v1.3
+
+Fixed cntHospitalBed Model (Updated Sound)
+Fixed Loot Tables
+Fixed Farmer Starter Class Wrong Weapon
+Enabled Health Bar (Non God Mode)
+
+Rebuilt HD Desert Eagle Code 115/120 Dmg
+Rebuilt HD Desert Eagle Punisher Code 115/120 Dmg
+
 Updated v1.1 to v1.2
 
 **************************

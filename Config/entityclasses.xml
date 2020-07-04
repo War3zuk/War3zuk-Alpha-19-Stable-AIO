@@ -1040,16 +1040,67 @@
 	</effect_group>
 </entity_class>
 
+<entity_class name="zombieSteveCrawler" extends="zombieTemplateMale">
+	<property name="Tags" value="entity,zombie"/>
+	<property name="Mesh" value="Zombies/zombieStandardCrawlerHDRagdoll"/>
+	<property name="AvatarController" value="AvatarZombie01Controller"/>
+	<property name="Mass" value="140"/>
+	<property name="Class" value="EntityZombie"/>
+	<property name="WalkType" value="4"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="RootMotion" value="true"/>
+	<property name="TintMaterial2" value="36,38,45"/>
+	<property name="SoundRandomTime" value="16.0"/>
+	<property name="SoundRandom" value="crawler_roam"/>
+	<property name="SoundAlertTime" value="12.0"/>
+	<property name="SoundAlert" value="crawler_alert"/>
+	<property name="SoundSense" value="crawler_sense"/>
+	<property name="SoundHurt" value="crawler_pain"/>
+	<property name="SoundDeath" value="crawler_death"/>
+	<property name="SoundAttack" value="crawler_attack"/>
+	<property name="SoundSleeperSense" value="sleepersense"/>
+	<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
+	<property name="MoveSpeed" value="0.50"/>
+	<property name="MoveSpeedAggro" value="0.5, 1.50"/>
+	<property name="MoveSpeedRand" value="-.2, .25"/>
+	<property name="MoveSpeedPanic" value="0.75"/>
+	<property name="SwimSpeed" value="1"/>
+	<property name="SwimStrokeRate" value="1,1.5"/>
+	<property name="CanClimbLadders" value="true"/>
+	<property name="JumpMaxDistance" value="2.5, 3"/>
+	<property name="HandItem" value="meleeHandZombie02"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="150"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
+	</effect_group>
+</entity_class>
+
+<entity_class name="zombieSteveCrawlerFeral" extends="zombieSteveCrawler">
+	<property name="Tags" value="entity,zombie"/>
+	<property name="Mesh" value="Zombies/zombieStandardCrawlerHDFeralRagdoll"/>
+	<property name="DismemberMultiplierHead" value=".7"/>
+	<property name="DismemberMultiplierArms" value=".7"/>
+	<property name="DismemberMultiplierLegs" value=".7"/>
+	<property name="PainResistPerHit" value=".7"/>
+	<property name="HandItem" value="meleeHandZombie02Feral"/>
+	<property name="ExperienceGain" value="750"/>
+	<property name="LootDropProb" value=".03"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="250"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
+	</effect_group>
+</entity_class>
+
 </append>
 
-<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.10</set>
+<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.05</set>
 <set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">900</set>
 
 <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]">
 	<passive_effect name="DamageModifier" operation="perc_add" value="-.99" tags="earth"/>
 </append>
 
-<append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']" >
+<!--  <append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']" >
 	<effect_group name="Health Bar">
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="HealthBar"/>
 	</effect_group>
@@ -1065,7 +1116,7 @@
 	<effect_group name="Health Bar">
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="HealthBar"/>
 	</effect_group>
-</append>
+</append> -->
 
 <append xpath="/entity_classes/entity_class[@name='animalZombieVulture']">
 	<property name="LootListOnDeath" value="502"/>
