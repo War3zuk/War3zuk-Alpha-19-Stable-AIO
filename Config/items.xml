@@ -2367,7 +2367,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="60" tags="perkGunslinger"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="45" tags="perkGunslinger"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="20" tags="perkBoomstick"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="15" tags="perkBoomstick"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="130" tags="perkGunslinger"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkGunslinger"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="8.8" tags="perkGunslinger"/>
@@ -2451,7 +2451,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="60" tags="perkGunslinger"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="45" tags="perkGunslinger"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkGunslinger"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="20" tags="perkBoomstick"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="15" tags="perkBoomstick"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="130" tags="perkGunslinger"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkGunslinger"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="8.8" tags="perkGunslinger"/>
@@ -2900,7 +2900,7 @@
 <item name="HD Tactical AR">
 	<property name="DescriptionKey" value="HDTARDesc"/>
 	<property name="CustomIcon" value="HD Tactical AR"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Tactical AR.unity3d?HD Tactical AR.Prefab"/>
@@ -2913,7 +2913,7 @@
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
-	<property name="EconomicValue" value="1500"/>
+	<property name="EconomicValue" value="1000"/>
 	<property name="UnlockedBy" value="HD Tactical AR Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property name="Group" value="Ammo/Weapons"/>
@@ -2924,52 +2924,49 @@
 		<property name="Sound_start" value="ARFire"/>
 		<property name="Sound_loop" value="ARFire"/>
 		<property name="Sound_empty" value="dryfire"/>
-		<property name="Sound_reload" value="ak47_reload"/>
-		<property name="Sound_end" value="ak47_fire_end"/>
-		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
-		<property name="Particles_muzzle_fire_fpv" value="gunfire_AK47_fpv"/>
+		<property name="Particles_muzzle_fire" value="gunfire_assault_rifle"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_assault_rifle_fpv"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0010,.0300,.25"/>
+		<property name="ScopeCameraOffset" value="-.0007,.0220,.25"/>
 	</property>
 	<effect_group name="gunMGT2TacticalAR">
-		<passive_effect name="MaxRange" operation="base_set" value="80"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="65"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".1,.1"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="-7"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="DegradationMax" operation="perc_add" value=".2,.2" tags="perkMachineGunner"/>
-		<passive_effect name="RoundsPerMinute" operation="perc_add" value=".01,.01"/>
-		<passive_effect name="MagazineSize" operation="perc_add" value="0,0"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value=".01,.01"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="450"/>
-		<passive_effect name="BurstRoundCount" operation="base_set" value="850"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="35"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.1"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.1"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".7"/>
-		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".7"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value=".9"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.4"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.3"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".7"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.3"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".6"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.5"/>
-		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="600,1100" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+		<passive_effect name="MaxRange" operation="base_set" value="90" tags="perkMachineGunner"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="50" tags="perkMachineGunner"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="-7" tags="perkMachineGunner"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMachineGunner"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMachineGunner"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMachineGunner"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMachineGunner"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMachineGunner"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkMachineGunner"/>
+		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.122"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkMachineGunner"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="405" tags="perkMachineGunner"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="650" tags="perkMachineGunner"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="35" tags="perkMachineGunner"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".7" tags="perkMachineGunner"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8" tags="perkMachineGunner"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8" tags="perkMachineGunner"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".22" tags="perkMachineGunner"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkMachineGunner"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkMachineGunner"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2" tags="perkMachineGunner"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.5" tags="perkMachineGunner"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="1" tags="perkMachineGunner"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-1" tags="perkMachineGunner"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1" tags="perkMachineGunner"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.9" tags="perkMachineGunner"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".7" tags="perkMachineGunner"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="225,500" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 	</effect_group>
 </item>
 
@@ -3818,10 +3815,10 @@
 <item name="HD Arctic Warfare">
 	<property name="DescriptionKey" value="HDAWarDesc"/>
 	<property name="CustomIcon" value="HD Arctic Warfare"/>
-	<property name="Tags" value="HDArctic,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,noSilencer,sideAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,canHaveCosmetic"/>
+	<property name="Tags" value="HDArctic,weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
-	<property name="HoldType" value="11"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Arctic Warfare.unity3d?HD Arctic Warfare.Prefab"/>
+	<property name="HoldType" value="48"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Arctic Warfare.unity3d?HD Arctic Warfare.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="RepairKitHuntingRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -3837,7 +3834,7 @@
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
-	<property name="EconomicValue" value="2500"/>
+	<property name="EconomicValue" value="1500"/>
 	<property name="UnlockedBy" value="HD Arctic Warfare Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
@@ -3846,67 +3843,67 @@
 		<property name="Magazine_items" value="ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP,762Mag Bullet INC,762Mag Bullet SH"/>
 		<property name="Reload_time" value="2.5"/>
 		<property name="Sound_start" value="AWFire"/>
+		<property name="Sound_loop" value="AWFire"/>
 		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
 		<property name="Sound_empty" value="dryfire"/>
-		<property name="Sound_reload" value="sniperrifle_reload"/>
-		<property name="Particles_muzzle_fire" value="m60_fire"/>
-		<property name="Particles_muzzle_fire_fpv" value="m60_fire"/>
+		<property name="Particles_muzzle_fire" value="gunfire_sniper"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_sniper_fpv"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0010,.0260,-.06"/>
+		<property name="ScopeCameraOffset" value="-.0010,.0260,.25"/>
 	</property>
 	<effect_group name="gunRifleT3SniperRifle">
-		<passive_effect name="MaxRange" operation="base_set" value="150"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="125"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="70"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
-		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="MaxRange" operation="base_set" value="150" tags="perkDeadEye"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="80" tags="perkDeadEye"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="70" tags="perkDeadEye"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="150" tags="perkDeadEye"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkDeadEye"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5" tags="perkDeadEye"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeadEye"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
-		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_add" value="-.5,1.6"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".04"/>
-		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.5"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.0"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/>
-		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="750,1350" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".06" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.5" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.0" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11" tags="perkDeadEye"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".75" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="250,500" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
-		
+
 	</effect_group>
 </item>
 
 <item name="HD CheyTac M300">
 	<property name="DescriptionKey" value="HDCheyTacM300Desc"/>
 	<property name="CustomIcon" value="HD CheyTac M300"/>
-	<property name="Tags" value="HDArctic,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,noSilencer,sideAttachments,largeTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,canHaveCosmetic"/>
+	<property name="Tags" value="HDArctic,weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
-	<property name="HoldType" value="30"/>
+	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD CheyTac M300.unity3d?HD CheyTac M300.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="RepairKitHuntingRifles"/>
@@ -3923,7 +3920,7 @@
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
-	<property name="EconomicValue" value="2500"/>
+	<property name="EconomicValue" value="1500"/>
 	<property name="UnlockedBy" value="HD CheyTac M300 Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
@@ -3932,65 +3929,65 @@
 		<property name="Magazine_items" value="408Round,408RoundINC,408RoundSH"/>
 		<property name="Reload_time" value="2.5"/>
 		<property name="Sound_start" value="CheyM300Fire"/>
-		<property name="Sound_repeat" value="CheyM300Fire"/>
+		<property name="Sound_loop" value="CheyM300Fire"/>
+		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
 		<property name="Sound_empty" value="dryfire"/>
-		<property name="Sound_reload" value="sniperrifle_reload"/>
-		<property name="Particles_muzzle_fire" value="m60_fire"/>
-		<property name="Particles_muzzle_fire_fpv" value="m60_fire"/>
+		<property name="Particles_muzzle_fire" value="gunfire_sniper"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_sniper_fpv"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
 	<property class="Action1">
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.00000,.00000,.00000"/>
+		<property name="ScopeCameraOffset" value="-.00000,.020,.40"/>
 	</property>
 	<effect_group name="gunRifleT3SniperRifle">
-		<passive_effect name="MaxRange" operation="base_set" value="165"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="145"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="15"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
-		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="10"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="MaxRange" operation="base_set" value="150" tags="perkDeadEye"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="80" tags="perkDeadEye"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="45" tags="perkDeadEye"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="150" tags="perkDeadEye"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkDeadEye"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5" tags="perkDeadEye"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeadEye"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
-		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_add" value="-.5,1.6"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".04"/>
-		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.5"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.0"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/>
-		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="750,1350" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".06" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.5" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.0" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11" tags="perkDeadEye"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".75" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="250,500" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
-		
+
 	</effect_group>
 </item>
 
 <item name="HD Dragunov SVD">
 	<property name="DescriptionKey" value="HDDSVDDesc"/>
 	<property name="CustomIcon" value="HD Dragunov SVD"/>
-	<property name="Tags" value="Dragunov,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,noSilencer,sideAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,canHaveCosmetic"/>
+	<property name="Tags" value="Dragunov,weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Dragunov SVD.unity3d?HD Dragunov SVD.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -4009,20 +4006,21 @@
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
-	<property name="EconomicValue" value="1000"/>
+	<property name="EconomicValue" value="1500"/>
 	<property name="UnlockedBy" value="HD Dragunov SVD Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Delay" value=".150"/>
+		<property name="Delay" value=".5"/>
 		<property name="Magazine_items" value="ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP,762Mag Bullet INC,762Mag Bullet SH"/>
+		<property name="Reload_time" value="2.5"/>
 		<property name="Sound_start" value="LapuaF"/>
 		<property name="Sound_loop" value="LapuaF"/>
+		<property name="Sound_repeat" value=""/>
+		<property name="Sound_end" value=""/>
 		<property name="Sound_empty" value="dryfire"/>
-		<property name="Sound_reload" value="ak47_reload"/>
-		<property name="Sound_end" value="ak47_fire_end"/>
-		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
-		<property name="Particles_muzzle_fire_fpv" value="gunfire_AK47_fpv"/>
+		<property name="Particles_muzzle_fire" value="gunfire_sniper"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_sniper_fpv"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
 	<property class="Action1">
@@ -4032,59 +4030,59 @@
 		<property name="ScopeCameraOffset" value=".00000,.014,.245"/>
 	</property>
 	<effect_group name="gunRifleT3SniperRifle">
-		<passive_effect name="MaxRange" operation="base_set" value="170"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="120"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="45"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
-		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="12"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
+		<passive_effect name="MaxRange" operation="base_set" value="150" tags="perkDeadEye"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="80" tags="perkDeadEye"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="45" tags="perkDeadEye"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="150" tags="perkDeadEye"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkDeadEye"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5" tags="perkDeadEye"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeadEye"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
-		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_add" value="-.5,1.6"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".04"/>
-		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.5"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.0"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/>
-		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="750,1350" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".06" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.5" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.0" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11" tags="perkDeadEye"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".75" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="250,500" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
-
+		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
-		
+
 	</effect_group>
 </item>
 
 <item name="HD Winchester 1866">
 	<property name="DescriptionKey" value="HDW1866Desc"/>
 	<property name="CustomIcon" value="HD Winchester 1866"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,mediumTopAttachments,stock,magazine,firingMode,selfLoading,bottomAttachments,attPerception,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Winchester 1866.unity3d?HD Winchester 1866.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
+	<property name="Material" value="MRifleParts"/> <property name="Weight" value="5"/>
 	<property name="RepairTools" value="RepairKitHuntingRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="false"/>
+	<property name="CrosshairOnAim" value="true"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -4094,7 +4092,7 @@
 	<property name="Group" value="Ammo/Weapons"/>
 	<property name="RepairExpMultiplier" value="10.8"/>
 	<property name="LightValue" value=".45"/>
-	<property name="EconomicValue" value="2500"/>
+	<property name="EconomicValue" value="1000"/>
 	<property name="UnlockedBy" value="HD Winchester 1866 Schematic"/>
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
@@ -4103,12 +4101,13 @@
 		<property name="Magazine_items" value="45ACPRound,45ACPRoundSH,45ACPRoundINC"/>
 		<property name="Reload_time" value="2.5"/>
 		<property name="Sound_start" value="WinchesterF"/>
-		<property name="Sound_repeat" value="WinchesterF"/>
+		<property name="Sound_loop" value="WinchesterF"/>
+		<property name="Sound_repeat" value=""/>
 		<property name="Sound_end" value=""/>
 		<property name="Sound_empty" value="dryfire"/>
 		<property name="Sound_reload" value="sniperrifle_reload"/>
-		<property name="Particles_muzzle_fire" value="m60_fire"/>
-		<property name="Particles_muzzle_fire_fpv" value="m60_fire"/>
+		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_magnum_fpv"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
 	<property class="Action1">
@@ -4118,43 +4117,43 @@
 		<property name="ScopeCameraOffset" value=".0000,.017,.0000"/>
 	</property>
 	<effect_group name="gunRifleT2MarksmanRifle">
-		<passive_effect name="MaxRange" operation="base_set" value="100"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="75"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="22"/>
-		<passive_effect name="RoundsPerMinute" operation="base_set" value="120"/>
-		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="8"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
+		<passive_effect name="MaxRange" operation="base_set" value="150" tags="perkDeadEye"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="70" tags="perkDeadEye"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="40" tags="perkDeadEye"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="250" tags="perkDeadEye"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="22" tags="perkDeadEye"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".20,.20"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.6" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeadEye"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
-		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_add" value="-.5,1.6"/>
-		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".04"/>
-		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.5"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.0"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11"/>
-		<passive_effect name="WeaponHandling" operation="base_set" value=".7"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="750,1350" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".066" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.5" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.0" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11" tags="perkDeadEye"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".7" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
-		
+
 	</effect_group>
 </item>
 

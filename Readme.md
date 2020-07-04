@@ -2,13 +2,31 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v1.2 to v1.3
 
+Enabled Health Bar (Non God Mode)
+
 Fixed cntHospitalBed Model (Updated Sound)
 Fixed Loot Tables
 Fixed Farmer Starter Class Wrong Weapon
-Enabled Health Bar (Non God Mode)
 
 Rebuilt HD Desert Eagle Code 115/120 Dmg
 Rebuilt HD Desert Eagle Punisher Code 115/120 Dmg
+
+Rebuilt HD Arctic Warfare Code
+Repositioned Zoom
+Damage Needed Balancing
+
+Rebuilt HD CheyTac M300 Code
+Repositioned Zoom, Barrel
+Damage Needed Balancing
+
+Rebuilt HD Dragunov SVD Code
+Rebalanced Damage
+
+Rebuilt HD Winchester 1866 Code
+Doubled Mag Capacity x2 Damage
+Fire rate x2
+
+Removed Onscreen Nav Icons
 
 Updated v1.1 to v1.2
 
