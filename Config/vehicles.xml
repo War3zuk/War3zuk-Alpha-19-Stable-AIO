@@ -1,5 +1,127 @@
 <configs>
 	
+	<append xpath="vehicles/vehicle[@name='vehicleMinibike']">
+        <property class="engine">
+			<property name="class" value="Engine"/>
+			<property name="slot_type" value="engine"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="fuelKmPerL" value=".4"/>
+			<property name="foodDrain" value=".0002,.00050"/>
+			<property name="gear1" value="
+								500,2500, -1400,800,0, 1500,9999,9999,
+								Vehicles/Minibike/minibike_accel_OFF,
+								,
+								0, .5,  .45, .1,  -9, .1, .1, Vehicles/Minibike/minibike_idle_lp_,
+								-.1, .1,  .65, .7,  0, 9, .1, Vehicles/Minibike/minibike_run_lp_
+								"/>
+			<property name="sound_start" value="Vehicles/Minibike/minibike_start_"/>
+			<property name="sound_shut_off" value="Vehicles/Minibike/minibike_shutoff_"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Minibike/minibike_empty_"/>
+        </property>
+    </append>
+	
+	<append xpath="vehicles/vehicle[@name='vehicleMotorcycle']">
+        <property class="engine">
+			<property name="class" value="Engine"/>
+			<property name="slot_type" value="engine"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="fuelKmPerL" value=".2"/>
+			<property name="foodDrain" value=".0002,.00050"/>
+			<property name="gear1" value="
+								500,2500, -1400,800,0, 700,2000,900,
+								Vehicles/Motorbike/motorbike_accel_1,
+								,
+								0, .7, 1, .1, -9, .15, .1, Vehicles/Motorbike/motorbike_idle_lp,
+								-.3, .1, .1, .4, -.05, 9, .2, Vehicles/Motorbike/motorbike_run_lp
+								"/>
+			<property name="gear2" value="
+								500,2500, -2000,1000,2000, 620,2200,800,
+								Vehicles/Motorbike/motorbike_accel_2,
+								Vehicles/Motorbike/motorbike_decel,
+								-.2, -.02, .1, .2, -1, 1, .1, Vehicles/Motorbike/motorbike_run_lp
+								"/>
+			<property name="gear3" value="
+								500,2500, -2000,1000,2000, 570,2200,1000,
+								Vehicles/Motorbike/motorbike_accel_3,
+								Vehicles/Motorbike/motorbike_decel,
+								-.21, -.05, .1, .2, -1, 1, .1, Vehicles/Motorbike/motorbike_run_lp
+								"/>
+			<property name="gear4" value="
+								500,2500, -2000,1000,2000, 500,9999,9999,
+								,
+								Vehicles/Motorbike/motorbike_decel,
+								-.25, -.08, .55, .45, -1, 1, .1, Vehicles/Motorbike/motorbike_run_lp
+								"/>
+			<property name="sound_start" value="Vehicles/Motorbike/minibike_start_"/>
+			<property name="sound_shut_off" value="Vehicles/Motorbike/minibike_shutoff_"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+        </property>
+    </append>
+	
+	<append xpath="vehicles/vehicle[@name='vehicle4x4Truck']">
+        <property class="engine">
+			<property name="class" value="Engine"/>
+			<property name="slot_type" value="engine"/>
+			<property name="mesh" value="engine_small"/>
+			<property name="transform" value="engine_small"/>
+			<property name="particle_transform" value="engine_small/MinibikeParticles/p_engine_fire"/>
+			<property name="fuelKmPerL" value=".1"/>
+			<property name="foodDrain" value=".0002,.00050"/>
+			<property name="gear1" value="
+								500,2500, -1400,800,0, 700,2200,900,
+								Vehicles/Suv/suv_accel1,
+								Vehicles/Suv/suv_decel1,
+								0, .7, 1, .1, -9, .12, .1, Vehicles/Suv/suv_idle_lp,
+								-.4, -.02, .7, .7, -.2, 9, .2, Vehicles/Suv/suv_max_speed_lp
+								"/>
+			<property name="gear2" value="
+								500,2500, -2000,1000,2000, 600,2200,800,
+								Vehicles/Suv/suv_accel2,
+								Vehicles/Suv/suv_decel1,
+								-.25, -.05, .2, .4, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp
+								"/>
+			<property name="gear3" value="
+								500,2500, -2000,1000,2000, 500,2200,1000,
+								Vehicles/Suv/suv_accel3,
+								Vehicles/Suv/suv_decel2,
+								-.28, -.07, .3, .6, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp
+								"/>
+			<property name="gear4" value="
+								500,2500, -2000,1000,2000, 500,9999,9999,
+								,
+								Vehicles/Suv/suv_decel2,
+								-.31, -.08, .6, .9, -1, 1, .1, Vehicles/Suv/suv_max_speed_lp
+								"/>
+			<property name="sound_start" value="Vehicles/Suv/suv_startup"/>
+			<property name="sound_shut_off" value="Vehicles/Suv/suv_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Motorbike/motorbike_empty"/>
+        </property>
+    </append>
+	
+	<append xpath="vehicles/vehicle[@name='vehicleGyrocopter']">
+        <property class="engine">
+			<property name="class" value="Engine"/>
+			<property name="slot_type" value="engine"/>
+			<property name="fuelKmPerL" value="0.15"/>
+			<property name="foodDrain" value=".0002,.00050"/>
+			<property name="gear1" value="
+								500,2500, -1400,800,0, 1500,9999,9999,
+								,
+								,
+								0, .5,  .45, .1,  -9, .1, .1, Vehicles/Gyrocopter/gyrocopter_idle_lp,
+								-.1, .1,  .65, .7,  0, 9, .1, Vehicles/Gyrocopter/gyrocopter_med_lp
+								"/>
+			<property name="sound_start" value="Vehicles/Gyrocopter/gyrocopter_start"/>
+			<property name="sound_shut_off" value="Vehicles/Gyrocopter/gyrocopter_shutoff"/>
+			<property name="sound_no_fuel_shut_off" value="Vehicles/Gyrocopter/gyrocopter_sputter"/>
+			<property name="paint" value="body"/>
+        </property>
+    </append>
+	
 	<append xpath="vehicles/vehicle[@name='vehicleBicycle']">
         <property class="seat1">
             <property name="position" value="0, 0.1, -.4"/>

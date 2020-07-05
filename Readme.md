@@ -5,10 +5,12 @@ Updated v1.3 to v1.4
 Removed Doubling Of Health To
 Bear,Dog,Grace
 
+NO More Edits To The Quest XML Unless Its A Bug
 Removed The Vanilla Buried Supplies Quest 1 & 2
 Rebuilt Buried Supplies Quests Tier 1 To 6
 
 Removed Find The Trader Quest
+Reduced Food Consumption In Vehicles
 
 Updated v1.2 to v1.3
 

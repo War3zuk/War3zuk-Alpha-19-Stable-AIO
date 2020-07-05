@@ -3,16 +3,6 @@
 	<remove xpath="/windows/window[@name='windowTargetBar']"/>
 	
 	<append xpath="/windows">
-	<window name="windowTargetBar" controller="TargetBar" visibility="always">
-		<rect pos="-200,-85" width="400" height="36" visible="{visible}">
-			<sprite depth="1" name="border" color="0,0,0,100" type="sliced" width="400" globalopacity="false"/>
-			<filledsprite depth="2" name="BarContent" type="filled" color="200,0,0,180" width="400" fill="{fill}" globalopacity="false"/>
-			<label depth="3" name="TextContent" pos="9,-4" font_size="28" color="[white]" justify="left" pivot="topleft" text="{name}:{currentwithmax}" height="30"/>
-		</rect>
-	</window>
-	</append>
-	
-	<append xpath="/windows">
 		<window name="WARwindowCraftingQueue" width="397" height="78" panel="Left" cursor_area="true" >
 			<rect depth="0" pos="10,-65" width="378" controller="CraftingQueue">
 				<grid name="queue" rows="2" cols="5" pos="3,3" cell_width="75" cell_height="75" repeat_content="true">
@@ -105,6 +95,16 @@
 			required_tools="HDToolAndDieSet,HDCarbonSewingKit,HDWelder" required_tools_only="true">
 				<required_item_stack name="0"/>
 			</grid>		
+		</rect>
+	</window>
+	</append>
+	
+	<append xpath="/windows">
+	<window name="windowTargetBar" controller="TargetBar" visibility="always">
+		<rect pos="-200,-85" width="400" height="36" visible="{visible}">
+			<sprite depth="1" name="border" color="0,0,0,100" type="sliced" width="400" globalopacity="false"/>
+			<filledsprite depth="2" name="BarContent" type="filled" color="200,0,0,180" width="400" fill="{fill}" globalopacity="false"/>
+			<label depth="3" name="TextContent" pos="9,-4" font_size="28" color="[white]" justify="center" pivot="topleft" text="{name}:{currentwithmax}" height="30"/>
 		</rect>
 	</window>
 	</append>
