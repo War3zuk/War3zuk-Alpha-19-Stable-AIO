@@ -579,7 +579,7 @@
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="Zoom_max_out" value="55"/>
 			<property name="Zoom_max_in" value="55"/>
-			<property name="ScopeCameraOffset" value="0,-0.007,0"/>
+			<property name="ScopeCameraOffset" value="0,-0.002,0"/>
 		</item_property_overrides>
 
 		<effect_group tiered="false">
@@ -606,7 +606,7 @@
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="Zoom_max_out" value="55"/>
 			<property name="Zoom_max_in" value="55"/>
-			<property name="ScopeCameraOffset" value="0,-0.009,0"/>
+			<property name="ScopeCameraOffset" value="0,-0.004,0"/>
 		</item_property_overrides>
 
 		<effect_group tiered="false">

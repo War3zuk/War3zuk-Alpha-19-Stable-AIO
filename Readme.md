@@ -12,6 +12,17 @@ Rebuilt Buried Supplies Quests Tier 1 To 6
 Removed Find The Trader Quest
 Reduced Food Consumption In Vehicles
 
+Rebuilt HD Forge Unity 2019.2
+Rebuilt HD Working Fire Unity 2019.2
+
+Rebuilt HD Colt M1911 Unity 2019.2
+Rebuilt Animations / Reflex Sight
+Added Linear Lighting To Model
+
+Rebuilt HD Colt M1911A Unity 2019.2
+Rebuilt Animations / Reflex Sight
+Added Linear Lighting To Model
+
 Updated v1.2 to v1.3
 
 Enabled Health Bar (Non God Mode)
