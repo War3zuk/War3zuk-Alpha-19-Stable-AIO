@@ -263,7 +263,7 @@
 		
 		<item_property_overrides name="HDGlock18Auto">
 			<property name="CrosshairOnAim" value="false"/>
-			<property name="ScopeCameraOffset" value="0.000,-0.000,-0.000"/>
+			<property name="ScopeCameraOffset" value="0.000,0.009,-0.000"/>
 		</item_property_overrides>
 	
 		<item_property_overrides name="HD Desert Eagle Punisher">
@@ -708,7 +708,7 @@
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="Zoom_max_out" value="55"/>
 			<property name="Zoom_max_in" value="55"/>
-			<property name="ScopeCameraOffset" value="0.000,0,-0.000"/>
+			<property name="ScopeCameraOffset" value="0.000,0.009,-0.000"/>
 		</item_property_overrides>
 
 		<effect_group tiered="false">

@@ -1,5 +1,22 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v1.4 to v1.5
+
+Rebuilt HD GlockG5 18 Auto Unity 2019.2
+Rebuilt HD GlockG5 18 Auto Reflex Sight
+Rebuilt Animations
+Added Linear Lighting To Model
+
+Rebuilt HD Desert Eagle Punisher Unity 2019.2
+Rebuilt Animations
+Added Linear Lighting To Model
+
+Rebuilt HD Desert Eagle Unity 2019.2
+Rebuilt Animations
+Added Linear Lighting To Model
+
+Updated Colider HD Forge
+
 Updated v1.3 to v1.4
 
 Removed Doubling Of Health To
