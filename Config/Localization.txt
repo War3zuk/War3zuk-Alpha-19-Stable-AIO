@@ -125,7 +125,7 @@ ClassBuilderDesc,items,,,Each Class gets a set of standard equippment like Food.
 
 ClassEngineerDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nEngineer Class Weapons are 9mm Pistol. CrossBow with Ammo And also Minibike Parts,
 
-ClassFarmerDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nFarmer Class Weapons are 9mm Pistol. CrossBow with Ammo And also lots of Drinks and the Auger Schematic,
+ClassFarmerDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nFarmer Class Weapons are Desert Vulture. CrossBow with Ammo And also lots of Drinks and the Auger Schematic,
 
 ClassGunmanDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nGunman Class Weapons are the MP5 along with its ammo. MP5 Schematic and Military parts,
 

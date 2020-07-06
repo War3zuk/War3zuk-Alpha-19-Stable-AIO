@@ -16,6 +16,7 @@ Rebuilt Animations
 Added Linear Lighting To Model
 
 Updated Colider HD Forge
+Fixed Farmer Class Schematic Error
 
 Updated v1.3 to v1.4
 

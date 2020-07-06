@@ -9216,8 +9216,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,gunHandgunT3DesertVulture,ammo44MagnumBulletBall,ammoCrossbowBoltSteelAP,gunBowT1IronCrossbow,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolAugerSchematic,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
-		<property name="Create_item_count" value="5,1,1,1,200,200,1,10,10,2,2,1,20,1,1,1,1"/>
+		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,gunHandgunT3DesertVulture,ammo44MagnumBulletBall,ammoCrossbowBoltSteelAP,gunBowT1IronCrossbow,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolPickT3AugerSchematic,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
+		<property name="Create_item_count" value="5,1,1,1,200,200,1,5,5,2,2,1,10,1,1,1,1"/>
 	</property>
 </item>
 
