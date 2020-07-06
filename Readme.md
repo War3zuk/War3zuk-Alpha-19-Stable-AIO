@@ -15,6 +15,17 @@ Rebuilt HD Desert Eagle Unity 2019.2
 Rebuilt Animations
 Added Linear Lighting To Model
 
+Rebuilt HD BlunderBuss Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD Mac10 Auto Unity 2019.2
+Rebuilt Animations
+Added Linear Lighting To Model
+
+Rebuilt HD M3 Auto Unity 2019.2
+Rebuilt Animations
+Added Linear Lighting To Model
+
 Updated Colider HD Forge
 Fixed Farmer Class Schematic Error
 
