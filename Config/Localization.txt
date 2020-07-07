@@ -24,6 +24,9 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+urinalCommercialMounted,blocks,Block Building,KgNone,Urinal,
+HDRuckSackUpgrade,items,Item,KgNone,HD RuckSack Upgrade,
+
 HDMeatCleaverDesc,items,,,Cooks Meat Cleaver. 50% Better at harvesting meat And Leather,
 HDMeatHammerDesc,items,,,Cooks Hammer. Used to smash those Fuckin Heads In,
 

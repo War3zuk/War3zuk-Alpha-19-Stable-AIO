@@ -1,6 +1,7 @@
 <configs>
 	
-	<set xpath="/lootcontainers/lootcontainer[@id='1']/@size">11,12</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='1']/@size">10,9</set>
+	<set xpath="/lootcontainers/lootcontainer[@id='2']/@size">11,12</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='76']/@size">10,9</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='77']/@size">10,9</set>
 	<set xpath="/lootcontainers/lootcontainer[@id='78']/@size">10,9</set>
@@ -26,6 +27,7 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='59']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='60']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='64']"></remove>
+	<remove xpath="/lootcontainers/lootcontainer[@id='65']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='66']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='83']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='89']"></remove>
@@ -211,6 +213,7 @@
 	<item group="War3zukHDWeapons" prob="0.3"/>
 	<item group="War3zukHDWeaponParts" prob="0.3"/>
 	<item group="groupSafeLoot"/>
+	<item name="HD Blunderbuss" count="1" prob="0.3"/>
 </lootcontainer>
 </insertAfter>
 
@@ -223,6 +226,7 @@
 	<item group="War3zukHDAmmo" prob="0.1"/>
 	<item group="War3zukHDWeapons" prob="0.1"/>
 	<item group="War3zukHDWeaponParts" prob="0.1"/>
+	<item name="HD Blunderbuss" count="1" prob="0.3"/>
 </lootcontainer>
 </insertAfter>
 
@@ -310,6 +314,7 @@
 	<item group="War3zukHDAmmo" prob="0.1"/>
 	<item group="War3zukHDWeapons" prob="0.1"/>
 	<item group="War3zukHDWeaponParts" prob="0.1"/>
+	<item name="HD Blunderbuss" count="1" prob="0.1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -442,15 +447,24 @@
 </lootcontainer>
 </insertAfter>
 
+<insertAfter xpath="/lootcontainers/lootcontainer[@id='64']" >
+<!-- Toilet, all tiered items are QL 1 -->
+<lootcontainer id="65" count="0,2" size="3,2" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualQ1Template">
+	<item name="gunHandgunT1Pistol" prob="0.025"/>
+	<item name="meleeWpnBladeT1HuntingKnife" prob="0.025"/>
+	<item name="drinkJarRiverWater" count="2,8"/>
+</lootcontainer>
+</insertAfter>
+
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='65']" >
 <!-- Dumpster loot -->
-<lootcontainer id="66" count="0,2" size="8,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualPlus1Template">
-	<item group="junk"/>
-	<item name="HDAeroDynamicsUpgrade" prob=".02"/>
-	<item name="HDFuelSaverUpgrade" prob=".02"/>
-	<item name="HDHeadlightsUpgrade" prob=".02"/>
-	<item name="HDTurboUpgrade" prob=".02"/>
-	<item name="HD RuckSack Upgrade" prob=".01"/>
+<lootcontainer id="66" count="1,2" size="8,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualPlus1Template">
+	<item group="junk" prob="0.9"/>
+	<item name="HDAeroDynamicsUpgrade" prob="0.1"/>
+	<item name="HDFuelSaverUpgrade" prob="0.1"/>
+	<item name="HDHeadlightsUpgrade" prob="0.1"/>
+	<item name="HDTurboUpgrade" prob="0.1"/>
+	<item name="HDRuckSackUpgrade" prob="0.1"/>
 </lootcontainer>
 </insertAfter>
 

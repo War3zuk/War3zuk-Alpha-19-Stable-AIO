@@ -24,8 +24,35 @@
 	
 	<remove xpath="/blocks/block[@name='bedroll']"/>
 	<remove xpath="/blocks/block[@name='cntBirdnest']"/>
+	<remove xpath="/blocks/block[@name='urinalCommercialMounted']"/>
 	
 <append xpath="/blocks">
+	
+<block name="urinalCommercialMounted">
+	<property name="Material" value="MstoneFurniture"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Entities/Commercial/urinalCommercialMountedPrefab"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="ImposterExchange" value="imposterCTREighth" param1="98"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="65"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="DescriptionKey" value="furnitureGroupDesc"/>
+	<property class="RepairItems"> <property name="resourceMetalPipe" value="2"/> <property name="resourceWood" value="4"/> </property>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1,2" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceMetalPipe" count="1" prob="1"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="42"/>
+	<property name="FilterTags" value="floot,fdecor,fother,ffurniture"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+</block>
 	
 <block name="bedroll">
 	<property name="DescriptionKey" value="bedGroupDesc"/>

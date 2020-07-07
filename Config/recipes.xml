@@ -25,14 +25,6 @@
 	
 <append xpath="/recipes">
 	
-<recipe name="HD RuckSack Upgrade" craft_time="60" count="1">
-	<ingredient name="resourceScrapPolymers" count="20"/>
-	<ingredient name="resourceLeather" count="10"/>
-	<ingredient name="resourceDuctTape" count="3"/>
-	<ingredient name="resourceMechanicalParts" count="4"/>
-	<ingredient name="resourceSewingKit" count="3"/>
-</recipe>
-	
 <recipe name="OrigamiGurus Pain Meds" count="1" craft_time="30">
 	<ingredient name="drugPainkillers" count="5"/>
 	<ingredient name="drugVitamins" count="2"/>
@@ -1057,7 +1049,7 @@
 </recipe>
 
 <recipe name="HD Wrench" craft_area="HD WorkBench" count="1" craft_time = "90" tags="learnable,perkSalvageOperations">
-	<ingredient name="resourceForgedSteel" count="50"/>
+	<ingredient name="resourceForgedSteel" count="25"/>
 	<ingredient name="resourceMechanicalParts" count="15"/>
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="10"/>

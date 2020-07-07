@@ -5,11 +5,11 @@
 	
 <append xpath="/buffs">
 	
-	<buff name="HDNukeExp"  >
+	<buff name="HDNukeExp">
 		<damage_type value="knockout"/>
 		<stack_type value="replace"/>
-		<duration value="10"/>
-		<update_rate value="0.5" />
+		<duration value="9"/>
+		<update_rate value="0.5"/>
 		<effect_group>
 				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HDNukeExp.unity3d?HDNukeExp" />
 				<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HDNukeExp.unity3d?HDNukeExp" />

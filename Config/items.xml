@@ -3817,7 +3817,7 @@
 	<property name="CustomIcon" value="HD Arctic Warfare"/>
 	<property name="Tags" value="HDArctic,weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
-	<property name="HoldType" value="48"/>
+	<property name="HoldType" value="11"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Arctic Warfare.unity3d?HD Arctic Warfare.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="RepairKitHuntingRifles"/>
@@ -3865,7 +3865,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="150" tags="perkDeadEye"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkDeadEye"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5" tags="perkDeadEye"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
@@ -3903,7 +3903,7 @@
 	<property name="CustomIcon" value="HD CheyTac M300"/>
 	<property name="Tags" value="HDArctic,weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
-	<property name="HoldType" value="48"/>
+	<property name="HoldType" value="30"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD CheyTac M300.unity3d?HD CheyTac M300.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="RepairKitHuntingRifles"/>
@@ -3951,7 +3951,7 @@
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="150" tags="perkDeadEye"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkDeadEye"/>
-		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5" tags="perkDeadEye"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
@@ -4394,27 +4394,31 @@
 	<property name="CustomIcon" value="HD Rocket Launcher Round"/>
 	<property name="Tags" value="ammo"/>
 	<property name="DisplayType" value="ammoLauncher"/>
-	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Rocket Launcher.unity3d?HD AK9 Missile001.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="HandMeshfile" value="#@modfolder:Resources/HD Rocket Launcher.unity3d?HD AK9 Missile002.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Rocket Launcher.unity3d?HD AK9 Missile002.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="HoldType" value="45"/>
 	<property name="Material" value="Mlead_scrap"/>
 	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
-		<property name="Explosion.ParticleIndex" value="4"/>
+		<property name="Explosion.ParticleIndex" value="5"/>
 		<property name="Explosion.RadiusBlocks" value="5"/>
 		<property name="Explosion.RadiusEntities" value="5"/>
 		<property name="Explosion.DamageBonus.water" value="0"/>
-		<property name="Gravity" value="-2"/>
+		<property name="Gravity" value="-1"/>
 		<property name="FlyTime" value="4"/>
 		<property name="LifeTime" value="20"/>
+		<property name="Explosion.BlockDamage" value="100"/>
+		<property name="Explosion.EntityDamage" value="500"/>
 	</property>
 	<effect_group name="ammoRocketHE" tiered="false">
-		<passive_effect name="BlockDamage" operation="base_set" value="0.1"/><display_value name="dExDamageBlock" value="0.1"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="450"/><display_value name="dExDamageEntity" value="450"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="0"/>
+		<display_value name="dExDamageBlock" value="100"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="200"/>
+		<display_value name="dExDamageEntity" value="500"/>
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="18"/>
 		<display_value name="dExRadius" value="5"/>
 	</effect_group>
@@ -4425,30 +4429,34 @@
 	<property name="CustomIcon" value="HD Rocket Launcher Nuke Round"/>
 	<property name="Tags" value="ammo"/>
 	<property name="DisplayType" value="ammoLauncher"/>
-	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Rocket Launcher.unity3d?HD AK9 Missile001.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="HandMeshfile" value="#@modfolder:Resources/HD Rocket Launcher.unity3d?HD AK9 Missile002.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Rocket Launcher.unity3d?HD AK9 Missile002.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="HoldType" value="45"/>
 	<property name="Material" value="Mlead_scrap"/>
 	<property name="Stacknumber" value="25000"/>
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Ammo/Weapons"/>
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
-		<property name="Explosion.ParticleIndex" value="12"/>
-		<property name="Explosion.RadiusBlocks" value="5"/>
-		<property name="Explosion.RadiusEntities" value="5"/>
+		<property name="Explosion.ParticleIndex" value="5"/>
+		<property name="Explosion.RadiusBlocks" value="20"/>
+		<property name="Explosion.RadiusEntities" value="20"/>
 		<property name="Explosion.DamageBonus.water" value="0"/>
-		<property name="Gravity" value="-2"/>
+		<property name="Gravity" value="-1"/>
 		<property name="FlyTime" value="4"/>
 		<property name="LifeTime" value="20"/>
+		<property name="Explosion.BlockDamage" value="200"/>
+		<property name="Explosion.EntityDamage" value="100000"/>
 	</property>
 	<effect_group name="ammoRocketHE" tiered="false">
-		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="20" buff="HDNukeExp"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="100"/><display_value name="dExDamageBlock" value="100"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="10000"/><display_value name="dExDamageEntity" value="10000"/>
-		<passive_effect name="ProjectileVelocity" operation="base_set" value="14"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="200"/>
+		<display_value name="dExDamageBlock" value="200"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="10000"/>
+		<display_value name="dExDamageEntity" value="10000"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="18"/>
 		<display_value name="dExRadius" value="20"/>
+		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="20" buff="HDNukeExp"/>
 	</effect_group>
 </item>
 
@@ -8113,7 +8121,7 @@
 </item>
 
 <item name="HD Wrench Schematic">
-	<property name="Extends" value="schematicMaster"/>
+	<property name="Extends" value="schematicMaster"/>schematicNoQualityMaster
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Wrench Schematic"/>
 	<property name="Unlocks" value="HD Wrench"/>

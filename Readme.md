@@ -1,5 +1,52 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v1.5 to v1.6
+
+Fixed Dropped BackPack Size
+Reduced Steel For HD Wrench
+Adjusted HD Ruck Sack Upgrade
+Added Male Urinal To LootGroup
+Adjusted Urinal And Toilet Loot
+
+Rebuilt HD Hybrid HK33 Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD AK Hybrid ACP Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD M4A1 Carbine Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD Double Barrel Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD Spas 12 (All 5) Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD Mossberg 500 Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD Winchester 1866 Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD Karabiner 98k Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD Dragunov SVD Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD Arctic Warfare Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD Cheytac M300 Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD Rocket Launcher Unity 2019.2
+Added Linear Lighting To Model
+
+Rebuilt HD Flame Thrower Unity 2019.2
+Added Linear Lighting To Model
+
 Updated v1.4 to v1.5
 
 Rebuilt HD GlockG5 18 Auto Unity 2019.2

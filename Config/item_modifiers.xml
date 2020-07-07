@@ -8,7 +8,8 @@
 	<item_modifier name="HDArmorReinforcedPadding" installable_tags="armor" modifier_tags="resistance" type="attachment">
 		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
 		<property name="DisplayType" value="modArmor"/>
-		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
 		<effect_group tiered="false">
@@ -22,7 +23,8 @@
 	<item_modifier name="HDArmorPlasticPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
 		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
 		<property name="DisplayType" value="modArmor"/>
-		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
 		<effect_group tiered="false">
@@ -36,7 +38,8 @@
 	<item_modifier name="HDArmorMilitaryPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
 		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
 		<property name="DisplayType" value="modArmor"/>
-		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
 		<effect_group tiered="false">
@@ -50,7 +53,8 @@
 	<item_modifier name="HDArmorScrapPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
 		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
 		<property name="DisplayType" value="modArmor"/>
-		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
 		<effect_group tiered="false">
@@ -64,7 +68,8 @@
 	<item_modifier name="HDArmorIronPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
 		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
 		<property name="DisplayType" value="modArmor"/>
-		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
 		<effect_group tiered="false">
@@ -78,7 +83,8 @@
 	<item_modifier name="HDArmorSteelPlating" installable_tags="armor" modifier_tags="resistance" type="attachment">
 		<property name="UnlockedBy" value="HD Armor Plating Schematic"/>
 		<property name="DisplayType" value="modArmor"/>
-		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 		<property name="DescriptionKey" value="modArmorPlatingBasicDesc"/>
 		<effect_group tiered="false">
@@ -844,10 +850,9 @@
 	
 	<!--#####################################Inventory#############################################-->
 	
-	<item_modifier name="HD RuckSack Upgrade" installable_tags="armor" modifier_tags="carryweight" type="attachment">
+	<item_modifier name="HDRuckSackUpgrade" installable_tags="armor" modifier_tags="carryweight" type="attachment">
 		<property name="CustomIcon" value="HD RuckSack Upgrade"/>
 		<property name="DescriptionKey" value="HDRuckSackUpgradeDesc"/>
-		<property name="UnlockedBy" value="modArmorTripleStoragePocketSchematic"/>
 		<property name="DisplayType" value="modCarryCapacity"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="Group" value="Mods"/>
