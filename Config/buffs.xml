@@ -6,7 +6,7 @@
 <append xpath="/buffs">
 	
 	<buff name="HDNukeExp">
-		<damage_type value="knockout"/>
+		<damage_type value="disease"/>
 		<stack_type value="replace"/>
 		<duration value="9"/>
 		<update_rate value="0.5"/>

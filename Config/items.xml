@@ -4408,7 +4408,7 @@
 		<property name="Explosion.RadiusBlocks" value="5"/>
 		<property name="Explosion.RadiusEntities" value="5"/>
 		<property name="Explosion.DamageBonus.water" value="0"/>
-		<property name="Gravity" value="-1"/>
+		<property name="Gravity" value="-2"/>
 		<property name="FlyTime" value="4"/>
 		<property name="LifeTime" value="20"/>
 		<property name="Explosion.BlockDamage" value="100"/>
@@ -4443,7 +4443,7 @@
 		<property name="Explosion.RadiusBlocks" value="20"/>
 		<property name="Explosion.RadiusEntities" value="20"/>
 		<property name="Explosion.DamageBonus.water" value="0"/>
-		<property name="Gravity" value="-1"/>
+		<property name="Gravity" value="-2"/>
 		<property name="FlyTime" value="4"/>
 		<property name="LifeTime" value="20"/>
 		<property name="Explosion.BlockDamage" value="200"/>
@@ -4456,7 +4456,7 @@
 		<display_value name="dExDamageEntity" value="10000"/>
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="18"/>
 		<display_value name="dExRadius" value="20"/>
-		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="20" buff="HDNukeExp"/>
+		<!--  <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="20" buff="HDNukeExp"/> -->
 	</effect_group>
 </item>
 
