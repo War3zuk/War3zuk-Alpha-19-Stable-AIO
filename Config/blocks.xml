@@ -231,7 +231,7 @@
 	<property name="MaxDamage" value="20"/>
 	<property name="TriggerDelay" value="0.5"/>
 	<property name="TriggerSound" value="landmine_trigger"/>
-	<property name="Explosion.ParticleIndex" value="11"/>
+	<property name="Explosion.ParticleIndex" value="5"/>
 	<property name="Explosion.RadiusBlocks" value="5"/>
 	<property name="Explosion.RadiusEntities" value="5"/>
 	<property name="Explosion.BlockDamage" value="10"/>
@@ -733,7 +733,7 @@
 <block name="HDJukeBoxReggaeOFF">
 	<property name="CustomIcon" value="HDJukeBoxReggaeOFF" />
 	<property name="DescriptionKey" value="HDJukeBoxReggaeDesc"/>
-	  <property name="Model" value="#@modfolder:Resources/HD JukeBox Reggae OFF.unity3d?HD JukeBox Reggae OFF.Prefab" />
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox OFF.unity3d?HD JukeBox Reggae OFF.Prefab" />
 	  <property name="Material" value="BoxedWood"/>
 	  <property name="Shape" value="ModelEntity" />
 	  <property name="Path" value="solid"/>
@@ -747,7 +747,7 @@
 
 <block name="HDJukeBoxReggaeON">
 	<property name="CustomIcon" value="HDJukeBoxReggaeOFF" />
-	  <property name="Model" value="#@modfolder:Resources/HD JukeBox Reggae ON.unity3d?HD JukeBox Reggae ON.Prefab" />
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox ON.unity3d?HD JukeBox Reggae ON.Prefab" />
 	  <property name="Material" value="BoxedWood"/>
 	  <property name="Shape" value="ModelEntity" />
 	  <property name="Path" value="solid"/>
@@ -760,8 +760,8 @@
 	
 <block name="HDJukeBoxDubStepOFF">
 	<property name="CustomIcon" value="HDJukeBoxDubStepOFF" />
-	<property name="DescriptionKey" value="HDJukeBoxDesc"/>
-	  <property name="Model" value="#@modfolder:Resources/HD JukeBox DubStep OFF.unity3d?HD JukeBox DubStep OFF.Prefab" />
+	<property name="DescriptionKey" value="HDJukeBoxDubStepDesc"/>
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox OFF.unity3d?HD JukeBox DubStep OFF.Prefab" />
 	  <property name="Material" value="BoxedWood"/>
 	  <property name="Shape" value="ModelEntity" />
 	  <property name="Path" value="solid"/>
@@ -775,7 +775,7 @@
 
 <block name="HDJukeBoxDubStepON">
 	<property name="CustomIcon" value="HDJukeBoxDubStepOFF" />
-	  <property name="Model" value="#@modfolder:Resources/HD JukeBox DubStep ON.unity3d?HD JukeBox DubStep ON.Prefab" />
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox ON.unity3d?HD JukeBox DubStep ON.Prefab" />
 	  <property name="Material" value="BoxedWood"/>
 	  <property name="Shape" value="ModelEntity" />
 	  <property name="Path" value="solid"/>
@@ -784,6 +784,34 @@
 	  <property name="CanPickup" value="false" />
 	  <drop event="Destroy" count="0"/>
 	  <property name="DowngradeBlock" value="HDJukeBoxDubStepOFF"/>
+</block>
+
+<block name="HDJukeBox5FingerOFF">
+	<property name="CustomIcon" value="HDJukeBox5FingerOFF" />
+	<property name="DescriptionKey" value="HDJukeBox5FingerDesc"/>
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox OFF.unity3d?HD JukeBox 5Finger OFF.Prefab" />
+	  <property name="Material" value="BoxedWood"/>
+	  <property name="Shape" value="ModelEntity" />
+	  <property name="Path" value="solid"/>
+	  <property name="StabilitySupport" value="false"/>
+	  <property name="OnlySimpleRotations" value="true"/>
+	  <property name="CanPickup" value="true" />
+	  <property name="TakeDelay" value="5"/>
+	  <drop event="Destroy" count="0"/>
+	  <property name="DowngradeBlock" value="HDJukeBox5FingerON"/>
+</block>
+
+<block name="HDJukeBox5FingerON">
+	<property name="CustomIcon" value="HDJukeBox5FingerOFF" />
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox ON.unity3d?HD JukeBox 5Finger ON.Prefab" />
+	  <property name="Material" value="BoxedWood"/>
+	  <property name="Shape" value="ModelEntity" />
+	  <property name="Path" value="solid"/>
+	  <property name="StabilitySupport" value="false"/>
+	  <property name="OnlySimpleRotations" value="true"/>
+	  <property name="CanPickup" value="false" />
+	  <drop event="Destroy" count="0"/>
+	  <property name="DowngradeBlock" value="HDJukeBox5FingerOFF"/>
 </block>
 
 <block name="HD Working Fire">
@@ -1422,7 +1450,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 011.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH.unity3d?HD ZTPH 011.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1450,7 +1478,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 012.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH.unity3d?HD ZTPH 012.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1478,7 +1506,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 013.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH.unity3d?HD ZTPH 013.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1506,7 +1534,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 014.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH.unity3d?HD ZTPH 014.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1534,7 +1562,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 015.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH.unity3d?HD ZTPH 015.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1562,7 +1590,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 016.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH.unity3d?HD ZTPH 016.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1590,7 +1618,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 017.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH.unity3d?HD ZTPH 017.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1618,7 +1646,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 018.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH.unity3d?HD ZTPH 018.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1646,7 +1674,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 019.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH.unity3d?HD ZTPH 019.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -1674,7 +1702,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
-	<property name="Model" value="#@modfolder:Resources/HD ZTPH1.unity3d?HD ZTPH 020.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD ZTPH.unity3d?HD ZTPH 020.Prefab"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsDecoration" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -5041,7 +5069,7 @@
 	<property name="Material" value="Mmetal"/>
 	<property name="Mesh" value="models"/>
 	<property name="Shape" value="ModelEntity" />
-	<property name="Model" value="#@modfolder:Resources/HDShelvesFull.unity3d?HDShelvesFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk --> 
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk --> 
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Path" value="solid"/>
 	<property name="Class" value="Loot"/>
@@ -5061,7 +5089,7 @@
 	<property name="Material" value="Mmetal"/>
 	<property name="Mesh" value="models"/>
 	<property name="Shape" value="ModelEntity" />
-	<property name="Model" value="#@modfolder:Resources/HDShelvesEmpty.unity3d?HDShelvesEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Path" value="solid"/>
 	<drop event="Harvest" name="resourceScrapIron" count="17" tag="allHarvest"/>
@@ -5078,14 +5106,14 @@
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="527"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelvesDoubleFull.unity3d?HDShelvesDoubleFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01DoubleEmpty">
 	<property name="CustomIcon" value="storeShelving01Double"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Empty"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelvesDoubleEmpty.unity3d?HDShelvesDoubleEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01TopFull">
@@ -5094,14 +5122,14 @@
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="528"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelvesFull.unity3d?HDShelvesFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01TopEmpty">
 	<property name="CustomIcon" value="storeShelving01Top"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Empty"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelvesEmpty.unity3d?HDShelvesEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01TopDoubleFull">
@@ -5110,14 +5138,14 @@
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="529"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelvesDoubleFull.unity3d?HDShelvesDoubleFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01TopDoubleEmpty">
 	<property name="CustomIcon" value="storeShelving01TopDouble"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Empty"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelvesDoubleEmpty.unity3d?HDShelvesDoubleEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 </append>

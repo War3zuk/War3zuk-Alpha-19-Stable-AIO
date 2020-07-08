@@ -217,40 +217,66 @@
 	
 <append xpath="/items">
 	
-<!--<item name="HD Shock Knuckles">
-	<property name="Extends" value="meleeKnucklesIron"/>
-	<property name="Material" value="MmeleeKnucklesSteelParts"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Shock Knuckles Right.unity3d?HD Shock Knuckles Right.Prefab"/>
-	<property name="UnlockedBy" value="meleeKnucklesSteelSchematic"/>
-
-	<effect_group name="meleeKnucklesSteel">
-		<passive_effect name="EntityDamage" operation="base_set" value="13.6"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="5.2"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="100"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="6.9" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="577,1346" tier="1,6" tags="perkBrawler"/>
+<!--  <item name="HD Scrap Iron Knuckles">
+	<property name="CustomIcon" value="HD Scrap Iron Knuckles"/>
+	<property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,attFortitude,perkBrawler,canHaveCosmetic"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Scrap Iron Knuckles.unity3d?HD Scrap Iron Knuckles R.Prefab"/>
+	<property name="HoldType" value="61"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="SoundDestroy" value="wooddestroy1"/>
+	<property name="DisplayType" value="melee"/>
+	<property name="Canhold" value="true"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="EconomicValue" value="350"/>
+	<property name="ShowQuality" value="true"/>
+	<property class="Action0">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sphere" value=".15"/>
+		<property name="Damage_type" value="Bashing"/>
+		<property name="ToolCategory.Butcher" value="0" param1="4.7"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".3"/>
+		<property name="GrazeEnd" value=".5"/>
+		<property name="SwingDegrees" value="90"/>
+		<property name="SwingAngle" value="-90"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="DynamicMelee"/>
+		<property name="Sphere" value=".15"/>
+		<property name="UsePowerAttackAnimation" value="true"/>
+		<property name="ToolCategory.Butcher" value="0" param1="4.7"/>
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".35"/>
+		<property name="GrazeEnd" value=".4"/>
+		<property name="SwingDegrees" value="30"/>
+		<property name="SwingAngle" value="90"/>
+	</property>
+	<effect_group name="meleeWpnKnucklesT1IronKnuckles">
+		<passive_effect name="EntityDamage" operation="base_set" value="9.1" tags="perkBrawler"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="3" tags="perkBrawler"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="100" tags="perkBrawler"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="9.6" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="385,961" tier="1,6" tags="perkBrawler"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBrawler"/>
-		<passive_effect name="MaxRange" operation="base_set" value="2.0"/>
-		<passive_effect name="BlockRange" operation="base_set" value="3"/>
-
+		<passive_effect name="MaxRange" operation="base_set" value="2.0" tags="perkBrawler"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkBrawler"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6"/>
-
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkBrawler"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBrawler"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkBrawler"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBrawler"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
-		<passive_effect name="HarvestCount" operation="base_set" value="1" tags="butcherHarvest"/>
-
-		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#@modfolder:Resources/HD Shock Knuckles Left.unity3d?HD Shock Knuckles Left.Prefab" parentTransform="Propjoint" localPos="0,0,0" localRot="0,0,0">
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#@modfolder:Resources/HD Scrap Iron Knuckles.unity3d?HD Scrap Iron Knuckles L.Prefab" parentTransform="Propjoint" localPos="0,0,0" localRot="0,0,0">
 			<requirement name="IsFPV"/>
 		</triggered_effect>
-		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#@modfolder:Resources/HD Shock Knuckles Left.unity3d?HD Shock Knuckles Left.Prefab" parentTransform="LeftHand" localPos="-0.0878,-0.0016,-0.0013" localRot="3.841982,9.94,94.3">
+		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#@modfolder:Resources/HD Scrap Iron Knuckles.unity3d?HD Scrap Iron Knuckles L.Prefab" parentTransform="LeftHand" localPos="-0.0878,-0.0016,-0.0013" localRot="3.841982,9.94,94.3">
 			<requirement name="!IsFPV"/>
 		</triggered_effect>
 		<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="LeftKnuckles"/>
@@ -259,7 +285,7 @@
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_add" value="13.8" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="16.3" tags="secondary"/>
 	</effect_group>
 </item> -->
 	
@@ -1928,7 +1954,7 @@
 	<property name="Weight" value="0"/>
 	<property name="Explosion.BlockTags" value="door,safes"/>
 	<property name="Explosion.DamageBonus.tags" value="38"/>
-	<property name="Explosion.ParticleIndex" value="4"/>
+	<property name="Explosion.ParticleIndex" value="5"/>
 	<property name="Explosion.RadiusBlocks" value="5"/>
 	<property name="Explosion.RadiusEntities" value="2"/>
 	<property name="Explosion.BlockDamage" value="3000"/>

@@ -487,17 +487,18 @@ HDKatanaDesc,items,,,HD Shuriken Katana made from the Finest Steel Just kidding 
 
 HDWakizashiDesc,items,,,HD Wakizashi Katana made from the Finest Steel Just kidding its probably Blunt Improve quality by putting points into perkDeepCuts.
 
-HDJukeBoxReggaeOFF,items,Item,KgNone,HD JukeBox Reggae OFF,
-
+HDJukeBoxReggaeOFF,items,Item,KgNone,HD JukeBox Reggae,
 HDJukeBoxReggaeON,items,Item,KgNone,HD JukeBox Reggae ON,
+HDJukeBoxDubStepOFF,items,Item,KgNone,HD JukeBox DubStep,
+HDJukeBoxDubStepON,items,Item,KgNone,HD JukeBox DubStep ON,
+HDJukeBox5FingerOFF,items,Item,KgNone,HD JukeBox 5Finger,
+HDJukeBox5FingerON,items,Item,KgNone,HD JukeBox 5Finger ON,
 
 HDJukeBoxReggaeDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Miss Fatty.\n\nTrack 002 Hold Yuh.\n\nTrack 003 Rude Boy.\n\nTrack 004 Wine Slow.\n\nTrack 005 Help me.
 
-HDJukeBoxDubStepOFF,items,Item,KgNone,HD JukeBox DubStep OFF,
+HDJukeBoxDubStepDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 In My Mind.\n\nTrack 002 Feel Good.\n\nTrack 003 The Girl.\n\nTrack 004 Entropy.\n\nTrack 005 Ghosts N Stuff.
 
-HDJukeBoxDubStepON,items,Item,KgNone,HD JukeBox DubStep ON,
-
-HDJukeBoxDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 In My Mind.\n\nTrack 002 Feel Good.\n\nTrack 003 The Girl.\n\nTrack 004 Entropy.\n\nTrack 005 Ghosts N Stuff.
+HDJukeBox5FingerDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Wrong Side Of Heaven.\n\nTrack 002 The Bleeding.\n\nTrack 003 The Pride.\n\nTrack 004 Far From Home.\n\nTrack 005 Battle Born.
 
 HDWorkingFireDesc,blocks,Block Building,,A Fully Working Fireplace Stove that uses NO Fuel.
 HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.

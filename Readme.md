@@ -1,5 +1,10 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v1.6 to v1.7
+
+75 Models Updated To Unity 2019.2
+Updated Exlosion Indexes
+
 Updated v1.5 to v1.6
 
 Fixed Dropped BackPack Size
