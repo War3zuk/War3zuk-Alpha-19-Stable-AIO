@@ -4,6 +4,7 @@ Updated v1.6 to v1.7
 
 75 Models Updated To Unity 2019.2
 Updated Exlosion Indexes
+Re-Balanced Pathogen Infection %
 
 Updated v1.5 to v1.6
 

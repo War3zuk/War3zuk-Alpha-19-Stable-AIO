@@ -1092,10 +1092,6 @@
 <set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.05</set>
 <set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">900</set>
 
-<append xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]">
-	<passive_effect name="DamageModifier" operation="perc_add" value="-.99" tags="earth"/>
-</append>
-
 <!--  <append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']" >
 	<effect_group name="Health Bar">
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="HealthBar"/>
