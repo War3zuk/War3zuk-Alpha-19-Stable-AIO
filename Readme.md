@@ -5,6 +5,13 @@ Updated v1.7 to v1.8
 Updated 4 War3zuk Custom Prefabs
 Added Diggitys Chilli Pork Chops (CampFire + Grill)
 Added klausgamer14s Beef steak And Fries (CampFire + Grill)
+Rebuilt HD Mini Hatchet Code
+Rebuilt Tazas Hatchet Code
+
+Added HD Double Barrel Snub PBR Model (Paid)
+
+Launcher Edits:
+Removed Snufkins Zombies (Needs More Testing)
 
 Updated v1.6 to v1.7
 

@@ -967,6 +967,14 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
+<recipe name="HD Double Barrel Snub" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceSpring" count="4"/>
+</recipe>
+
 <recipe name="HD Winchester 1866" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkDeadEye">
 	<ingredient name="resourceForgedSteel" count="20"/>
 	<ingredient name="resourceForgedIron" count="100"/>
