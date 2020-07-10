@@ -234,7 +234,7 @@
 <!-- stove/oven, cooking pots and pans rotten food -->
 <lootcontainer id="11" count="2,3" size="6,4" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" loot_quality_template="qualPlus1Template">
 	<item name="toolCookingPot" count="1,2" prob="1.5"/>
-	<item group="farmingCookingRecipes"/>
+	<item group="farmingCookingRecipesCommon"/>
 	<item name="toolCookingGrill"/>
 	<item name="resourceScrapIron" count="1,15" prob="1.5"/>
 	<item name="drinkJarEmpty" count="1,2"/>
@@ -249,7 +249,7 @@
 <lootcontainer id="12" count="2,4" size="6,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
 	<item group="junk"/>
 	<item group="groupAmmoRegular"/>
-	<item group="books" prob="0.1"/>
+	<item group="booksAllScaled" prob="0.1"/>
 	<item group="dyes" prob="0.1"/>
 	<item group="War3zukHDFlares" prob="0.3"/>
 	<item group="War3zukHDAmmo" prob="0.3"/>
@@ -277,12 +277,15 @@
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='25']" >
 <lootcontainer id="34" count="4" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
-	<item group="cannedfood" count="3,5" prob="0.2"/>
-	<item group="groupWeaponsScaled" prob="0.2"/>
-	<item group="groupAmmoRegular" count="2" prob="0.2"/>
-	<item group="rareBooks" prob="0.2"/>
-	<item group="airdropMedicine" count="1,4" prob="0.2"/>
-	<item group="groupArmorScaled" prob="0.2"/>
+	<item group="cannedfood" count="3,5"/>
+	<item group="groupWeaponsAllScaled"/>
+	<item group="groupAmmoRegular" count="2"/>
+	<item group="booksRareOnlyScaled"/>
+	<item group="airdropMedicine" count="1,4"/>
+	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
+	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
+	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
+	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
 	<item group="War3zukHDFlares" prob="0.2"/>
 	<item group="War3zukHDCarePackages" prob="0.2"/>
 	<item group="War3zukHDAmmo" prob="0.2"/>
@@ -305,10 +308,14 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='39']" >
 <!-- military munitions ammo box -->
 <lootcontainer id="40" count="2,3" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="8" loot_quality_template="qualPlus1Template">
-	<item group="groupAmmoRegular"/>
-	<item group="groupWeaponsScaled"/>
-	<item group="groupModAllScaled"/>
-	<item group="groupArmorT3_Light"/>
+	<item group="groupAmmoRegular" prob=".7" count="2"/>
+	<item group="groupWeaponsAllScaled" prob=".3"/>
+	<item group="groupModAllScaled" prob=".15"/>
+	<item group="groupAmmoAdvanced"/>
+	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
+	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
+	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
+	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
 	<item group="War3zukHDFlares" prob="0.1"/>
 	<item group="War3zukHDMilitary" prob="0.1"/>
 	<item group="War3zukHDAmmo" prob="0.1"/>
@@ -321,14 +328,14 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='41']" >
 <!-- cntNightstandClosed and dressers, wooden desk: pistol, ammo, magazines, books -->
 <lootcontainer id="42" count="2,3" size="6,4" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualPlus1Template">
-	<item group="groupApparelClothes" prob="1"/>
+	<item group="groupApparelClothes" prob="30"/>
 	<item group="trophyGroup"/>
 	<item group="groupAmmoRegular"/>
-	<item group="books"/>
+	<item group="booksAllScaled"/>
 	<item group="medicine"/>
 	<item name="meleeToolFlashlight02"/>
 	<item name="apparelCigar" prob=".6"/>
-	<item name="oldCash" count="10,20" prob="0.6"/>
+	<item name="oldCash" count="1,20" prob="0.6"/>
 	<item name="resourceSewingKit"/>
 	<item group="War3zukHDFlares"/>
 </lootcontainer>
@@ -337,14 +344,17 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='42']" >
 <!-- lockers -->
 <lootcontainer id="43" count="2,4" size="6,2" sound_open="UseActions/open_locker" sound_close="UseActions/close_locker" loot_quality_template="qualPlus1Template">
-	<item group="groupApparelClothes"/>
-	<item group="groupApparelHats"/>
-	<item group="groupArmorScaled"/>
-	<item group="groupAmmoRegular"/>
-	<item group="books"/>
-	<item name="resourcePaper" count="5,10" prob="0.7"/>
-	<item name="oldCash" count="20,40" prob="0.3"/>
-	<item group="medicine"/>
+	<item group="groupApparelClothes" prob="20"/>
+	<item group="groupApparelHats" prob="5"/>
+	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
+	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
+	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
+	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
+	<item group="groupAmmoRegular" prob="0.02"/>
+	<item group="booksAllScaled" count="1,2"/>
+	<item name="resourcePaper" count="1,2" prob="0.7"/>
+	<item name="oldCash" count="1,40" prob="0.3"/>
+	<item group="medicine" prob="0.05"/>
 	<item group="trophyGroup"/>
 	<item name="resourceGunPowder" count="10,50"/>
 	<item group="War3zukHDCarePackages" count="1" prob="0.3"/>
@@ -373,7 +383,7 @@
 	<item group="War3zukHDBenches" prob="0.1"/>
 	<item group="War3zukHDWeapons" prob="0.1"/>
 	<item group="War3zukHDWeaponParts" prob="0.1"/>
-	<item group="books"/>
+	<item group="booksAllScaled"/>
 </lootcontainer>
 </insertAfter>
 
@@ -381,10 +391,13 @@
 <!-- shotgun Messiah -->
 <lootcontainer id="50" count="1,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
 	<item group="groupAmmoRegular"/>
-	<item group="groupWeaponsScaled"/>
+	<item group="groupWeaponsAllScaled"/>
 	<item group="groupModAllScaled"/>
 	<item group="weaponParts" count="1,5"/>
-	<item group="groupArmorScaled"/>
+	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
+	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
+	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
+	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
 	<item name="resourceRepairKit" count="2,4"/>
 	<item group="War3zukHDWeapons" prob="0.3"/>
 	<item group="War3zukHDWeaponParts" prob="0.3"/>
@@ -428,7 +441,7 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='59']" >
 <!-- Bookstore bookcase -->
 <lootcontainer id="60" count="2,3" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualPlus1Template">
-	<item group="books"/>
+	<item group="booksAllScaled"/>
 	<item group="War3zukHDMedical" prob="0.3"/>
 	<item group="War3zukHDMilitary" prob="0.3"/>
 	<item group="War3zukHDTools" prob="0.3"/>
@@ -473,8 +486,11 @@
 <lootcontainer id="83" count="2,4" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="qualPlus1Template">
 	<item group="cannedfood" prob="0.5"/>
 	<item group="War3zukHDFoods" prob="0.2"/>
-	<item group="groupWeaponsScaled" prob="0.1"/>
-	<item group="groupArmorScaled" prob="0.1"/>
+	<item group="groupWeaponsAllScaled" prob="0.1"/>
+	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
+	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
+	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
+	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
 	<item group="War3zukHDMedical" prob="0.1"/>
 	<item group="War3zukHDMilitary" prob="0.1"/>
 	<item group="War3zukHDWeapons" prob="0.1"/>
@@ -487,7 +503,7 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='83']" >
 <!-- bookstore shipping crate -->
 <lootcontainer id="89" count="1,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
-	<item group="books"/>
+	<item group="booksAllScaled"/>
 	<item group="War3zukHDBenchAddons" prob="0.1"/>
 	<item group="War3zukHDBenches" prob="0.1"/>
 	<item group="War3zukHDMedical" prob="0.1"/>
@@ -500,12 +516,12 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='89']" >
 <!-- car parts shipping crate -->
 <lootcontainer id="90" count="2,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
-	<item name="resourceRepairKit" count="10,25" prob="0.3"/>
-	<item group="vehicleParts" prob="0.4"/>
-	<item group="tools" prob="0.5"/>
-	<item group="rareTools" prob="0.1"/>
+	<item name="resourceRepairKit" count="10,25" prob=".3"/>
+	<item group="vehiclePartsTiered" prob=".4"/>
+	<item group="groupToolsTiered" prob=".5"/>
+	<item group="groupRareToolsTiered" prob="0.1"/>
 	<item group="schematicsToolsCommon" prob=".5"/>
-	<item group="schematicsToolsRare" prob="0.1"/>
+	<item group="schematicsToolsRare" prob=".1"/>
 	<item group="War3zukHDBenchAddons" prob="0.1"/>
 	<item group="War3zukHDBenches" prob="0.1"/>
 </lootcontainer>
@@ -526,10 +542,10 @@
 <!-- cntCollapsedWorkbench -->
 <lootcontainer id="92" count="1,2" size="7,4" sound_open="open_workbench" sound_close="close_workbench" loot_quality_template="qualPlus1Template">
 	<item group="workbenchLoot"/>
-	<item group="tools" prob="0.2"/>
-	<item group="rareTools"/>
-	<item group="vehicleParts" prob=".2"/>
-	<item name="workbenchSchematic" prob="0.5"/>
+	<item group="groupToolsTiered" prob=".2"/>
+	<item group="groupRareToolsTiered"/>
+	<item group="vehiclePartsTiered" prob=".2"/>
+	<item name="workbenchSchematic" prob="0.2"/>
 	<item group="War3zukHDBenchAddons" prob="0.1"/>
 	<item group="War3zukHDBenches" prob="0.1"/>
 </lootcontainer>
@@ -547,9 +563,9 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='93']" >
 <!-- cntCollapsedChemistryStation -->
 <lootcontainer id="94" count="1,2" size="7,4" sound_open="chem_station_open" sound_close="chem_station_close" loot_quality_template="qualPlus1Template">
-	<item group="labEquipment" prob="37.5"/>
-	<item group="chemistryStationLoot" prob="37.5"/>
-	<item name="chemistryStationSchematic" prob="18.7"/>
+	<item group="labEquipment" prob="0.48"/>
+	<item group="chemistryStationLoot" prob="0.48"/>
+	<item name="chemistryStationSchematic" prob="0.04"/>
 	<item group="War3zukHDMedical" prob="0.1"/>
 	<item group="War3zukHDBenchAddons" prob="0.1"/>
 </lootcontainer>
@@ -674,10 +690,11 @@
 
 <lootcontainer id="507" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="rareAutomotive" count="1,2"/>
-	<item group="rareTools" count="1,2"/>
+	<item group="groupToolsTiered" prob="5"/>
+	<item group="groupToolsT2" loot_prob_template="ProbT2"/>
+	<item group="groupToolsT3" loot_prob_template="ProbT3"/>
 	<item group="toolParts" count="1,2"/>
 	<item group="automotive" count="1,2"/>
-	<item group="tools" count="1,2"/>
 	<item group="minibikeParts" count="1,2"/>
 </lootcontainer>
 
@@ -693,7 +710,10 @@
 <lootcontainer id="509" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="groupAmmoRegularGunslingerT1" count="1,2"/>
 	<item group="groupAmmoRegularGunslingerT2" count="1,2"/>
-	<item group="groupArmor_Light" count="1,2"/>
+	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
+	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
+	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
+	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
 	<item group="groupWeaponsT3_Boomstick" count="1,2"/>
 	<item group="groupWeaponsT3_Machinegunner" count="1,2"/>
 	<item group="groupHeroChestLoot" count="1,2"/>

@@ -10,8 +10,16 @@ Rebuilt Tazas Hatchet Code
 
 Added HD Double Barrel Snub PBR Model (Paid)
 
+Fixed LootGroup (B163 Changes)
+Fixed Trader LootGroups (B163 Changes)
+Added New Changes To All VM Venders (B163 Changes)
+Added New Loot Additions To All VM Venders (B163 Changes)
+
 Launcher Edits:
 Removed Snufkins Zombies (Needs More Testing)
+Fixed Bdubs Vehicles Modlet
+Fixed CreaturePack Modlet
+Fixed CreaturePack entries So No Warnings
 
 Updated v1.6 to v1.7
 
