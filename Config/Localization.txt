@@ -24,6 +24,10 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+klausgamer14sBeefFriesDesc,items,,,Umm Sauteed Steak with freshly cooked fries. Just what every zombie killer needs.,
+
+DiggitysChilliPorkChopsDesc,items,,,So youve killed yourself a Piggy. Now its time to take those skills along with some chili And make yourself the Best Pork Chop the Apocalypse can manage.,
+
 urinalCommercialMounted,blocks,Block Building,KgNone,Urinal,
 HDRuckSackUpgrade,items,Item,KgNone,HD RuckSack Upgrade,
 

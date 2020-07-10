@@ -1,9 +1,15 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v1.7 to v1.8
+
+Updated 4 War3zuk Custom Prefabs
+Added Diggitys Chilli Pork Chops (CampFire + Grill)
+Added klausgamer14s Beef steak And Fries (CampFire + Grill)
+
 Updated v1.6 to v1.7
 
 75 Models Updated To Unity 2019.2
-Updated Exlosion Indexes
+Updated Explosion Indexes
 Re-Balanced Pathogen Infection %
 
 Updated v1.5 to v1.6

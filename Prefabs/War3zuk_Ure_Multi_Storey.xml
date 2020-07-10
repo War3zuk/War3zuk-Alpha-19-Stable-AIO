@@ -23,15 +23,15 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0" />
   <property class="Stats">
-    <property name="TotalVertices" value="661417" />
-    <property name="TotalTriangles" value="863099" />
+    <property name="TotalVertices" value="2273802" />
+    <property name="TotalTriangles" value="3028166" />
     <property class="BlockEntities">
-      <property name="Vertices" value="572851" />
-      <property name="Triangles" value="805307" />
+      <property name="Vertices" value="2189978" />
+      <property name="Triangles" value="2972938" />
     </property>
     <property class="ChunkMeshes0">
-      <property name="Vertices" value="66904" />
-      <property name="Triangles" value="43160" />
+      <property name="Vertices" value="66952" />
+      <property name="Triangles" value="43184" />
     </property>
     <property class="ChunkMeshes1">
       <property name="Vertices" value="0" />
@@ -46,8 +46,8 @@
       <property name="Triangles" value="3940" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="12710" />
-      <property name="Triangles" value="9668" />
+      <property name="Vertices" value="7920" />
+      <property name="Triangles" value="7080" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
