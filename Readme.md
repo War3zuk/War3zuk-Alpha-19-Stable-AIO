@@ -6,9 +6,6 @@ Fixed CntGasPump Model
 Rebalanced Loot (According To B163 Update)
 Fixed Loot Probability Template
 
-Launcher Edits:
-Added Custom 8k World (War3zuk Alpha 19 AIO)
-
 Updated v1.7 to v1.8
 
 Updated 4 War3zuk Custom Prefabs
