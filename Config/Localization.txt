@@ -55,10 +55,13 @@ HDFuelSaverUpgrade,items,Item,KgNone,HD Fuel Saver Upgrade,
 HDHeadlightsUpgrade,items,Item,KgNone,HD Headlights Upgrade,
 HDTurboUpgrade,items,Item,KgNone,HD Turbo Upgrade,
 
-AeroDynamicsUpgradeDesc,items,weapons,New,Improves Speed through AeroDynamics,
-FuelSaverUpgradeDesc,items,weapons,New,Use 50% less Fuel on your journeys,
-HeadlightsUpgradeDesc,items,weapons,New,Brighten Up the Map with this Ultra Cool Light Addon,
-TurboUpgradeDesc,items,weapons,New,Speed Speed Speed Muhhaaaa,
+AeroDynamicsUpgradeDesc,items,weapons,New,Improves Speed through AeroDynamics.\n\nAdd To Bicycle.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
+
+FuelSaverUpgradeDesc,items,weapons,New,Use 50% less Fuel on your journeys.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
+
+HeadlightsUpgradeDesc,items,weapons,New,Brighten Up the Map with this Ultra Cool Light Addon.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
+
+TurboUpgradeDesc,items,weapons,New,Speed Speed Speed Muhhaaaa.\n\nAdd To Bicycle.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
 
 HDArmorReinforcedPadding,items,Item,KgNone,HD Armor Reinforced Padding,
 HDArmorPlasticPlating,items,Item,KgNone,HD Armor Plastic Plating,

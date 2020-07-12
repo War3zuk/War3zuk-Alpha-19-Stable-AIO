@@ -47,6 +47,9 @@
     <set xpath="/items/item/effect_group/passive_effect[(@name='MagazineSize') and (@value='-.122,.122')]/@value">.122</set>
     <set xpath="/items/item/effect_group/passive_effect[(@name='DamageFalloffRange') and (@value='-.2,.2')]/@value">.2</set>
 	
+	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action0']/property[@name='Sound_start']/@value">DEALTFire01</set>
+	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action0']/property[@name='Sound_loop']/@value">DEALTFire01</set>
+	
 <append xpath="/items">
 <item name="Golden Coin">
 		<property name="DescriptionKey" value="GoldenCoinDesc"/>

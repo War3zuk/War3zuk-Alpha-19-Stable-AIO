@@ -1038,7 +1038,7 @@
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="false"/>
+		<property name="shareable" value="true"/>
 
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
@@ -1093,7 +1093,7 @@
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="false"/>
+		<property name="shareable" value="true"/>
 
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
@@ -1148,7 +1148,7 @@
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="false"/>
+		<property name="shareable" value="true"/>
 
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
@@ -1203,7 +1203,7 @@
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="false"/>
+		<property name="shareable" value="true"/>
 
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
@@ -1258,7 +1258,7 @@
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="false"/>
+		<property name="shareable" value="true"/>
 
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
@@ -1313,7 +1313,7 @@
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="false"/>
+		<property name="shareable" value="true"/>
 
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>

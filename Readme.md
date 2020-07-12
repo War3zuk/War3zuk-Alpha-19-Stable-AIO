@@ -7,6 +7,7 @@ Rebalanced Loot (According To B163 Update)
 Fixed Loot Probability Template
 
 Fixed Buried Supplies LootGroup
+Added Custom Sound Desert Vulture
 
 Updated v1.7 to v1.8
 
