@@ -45,7 +45,7 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='116']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='131']"></remove>
 	
-<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBuriedLootStashTreasure']">
+<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
 	
 <lootgroup name="SupplyMaterials" count="2,8">
         <item name="resourceScrapBrass" count="50,200"/>
@@ -204,25 +204,25 @@
 </lootgroup>
 
 <lootgroup name="HDgroupQuestAmmo">
-	<item name="HDammoBundle45ACPRound" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle9mmBulletBall" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle9mmBulletHP" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle9mmBulletAP" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle44MagnumBulletBall" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle44MagnumBulletHP" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle44MagnumBulletAP" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundleDeagleRound" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle500AutoMax" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle762mmBulletBall" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle762mmBulletHP" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle762mmBulletAP" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle408Round" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundle50BMGRound" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundleShotgunShell" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundleShotgunSlug" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDammoBundleShotgunBreachingSlug" count="1" loot_prob_template="ProbT3"/>
-	<item name="HDBreachingC4" count="2" loot_prob_template="ProbT3"/>
-	<item name="MREMilitaryRation" count="2" loot_prob_template="ProbT3"/>
+	<item name="HDammoBundle45ACPRound" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle9mmBulletBall" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle9mmBulletHP" count="1" loot_prob_template="GradeBLoot"/>
+	<item name="HDammoBundle9mmBulletAP" count="1" loot_prob_template="GradeCLoot"/>
+	<item name="HDammoBundle44MagnumBulletBall" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle44MagnumBulletHP" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle44MagnumBulletAP" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundleDeagleRound" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle500AutoMax" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle762mmBulletBall" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle762mmBulletHP" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle762mmBulletAP" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle408Round" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle50BMGRound" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundleShotgunShell" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundleShotgunSlug" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundleShotgunBreachingSlug" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDBreachingC4" count="2" loot_prob_template="GradeALoot"/>
+	<item name="MREMilitaryRation" count="2" loot_prob_template="GradeALoot"/>
 </lootgroup>
 
 </insertAfter>

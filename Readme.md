@@ -6,6 +6,8 @@ Fixed CntGasPump Model
 Rebalanced Loot (According To B163 Update)
 Fixed Loot Probability Template
 
+Fixed Buried Supplies LootGroup
+
 Updated v1.7 to v1.8
 
 Updated 4 War3zuk Custom Prefabs
