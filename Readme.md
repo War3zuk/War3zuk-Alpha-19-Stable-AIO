@@ -8,6 +8,11 @@ Fixed Loot Probability Template
 
 Fixed Buried Supplies LootGroup
 Added Custom Sound Desert Vulture
+Fixed Care Packages Not Stacking
+Fixed Military Tablets Not Stacking
+
+Launcher Edits:
+Eddied Sparrow Multi Trader (30fps Extra)
 
 Updated v1.7 to v1.8
 

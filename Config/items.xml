@@ -1174,6 +1174,7 @@
 	<property name="CustomIcon" value="CPTampax" />
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="3"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mpaper"/>
@@ -1186,6 +1187,7 @@
 	<property name="CustomIcon" value="CPTeadybear" />
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="3"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mcloth"/>
@@ -1198,6 +1200,7 @@
 	<property name="CustomIcon" value="CPWaterBottle" />
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="3"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mplastics"/>
@@ -1210,6 +1213,7 @@
 	<property name="CustomIcon" value="CPDvd" />
 	<property name="CreativeMode" value="None"/>
 	<property name="HoldType" value="3"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mplastics"/>
@@ -1762,6 +1766,7 @@
 	<property name="Tags" value="medical"/>
 	<property name="DisplayType" value="medicalVitamins"/>
 	<property name="HoldType" value="16"/>
+	<property name="Stacknumber" value="25000"/>
 	<property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Morganic"/>
