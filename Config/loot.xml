@@ -381,7 +381,7 @@
 	<item name="resourceGunPowder" count="10,50"/>
 	<item group="War3zukHDCarePackages" count="1" prob="0.3"/>
 	<item group="War3zukHDMilitary" count="1" prob="0.3"/>
-	<item name="HDRuckSackUpgrade" prob="0.1"/>
+	<item name="HDRuckSackUpgrade" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 
@@ -501,7 +501,7 @@
 	<item name="HDFuelSaverUpgrade" prob="0.1"/>
 	<item name="HDHeadlightsUpgrade" prob="0.1"/>
 	<item name="HDTurboUpgrade" prob="0.1"/>
-	<item name="HDRuckSackUpgrade" prob="0.1"/>
+	<item name="HDRuckSackUpgrade" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 
@@ -521,7 +521,7 @@
 	<item group="War3zukHDWeaponParts" prob="0.1"/>
 	<item name="Military Purify Tablets" count="5,10" prob="1"/>
 	<item name="MREMilitaryRation" count="1,2" prob="1"/>
-	<item name="HDRuckSackUpgrade" prob="0.1"/>
+	<item name="HDRuckSackUpgrade" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 

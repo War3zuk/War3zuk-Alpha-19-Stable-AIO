@@ -1,5 +1,9 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v1.9 to v2.0
+
+Adjusted HD RuckSack Upgrade Loot Chance
+
 Updated v1.8 to v1.9
 
 Fixed CntGasPump Model
@@ -10,6 +14,11 @@ Fixed Buried Supplies LootGroup
 Added Custom Sound Desert Vulture
 Fixed Care Packages Not Stacking
 Fixed Military Tablets Not Stacking
+
+Added HD RuckSack Upgrades To
+Army Trucks
+Dumpsters
+Lockers
 
 Launcher Edits:
 Eddied Sparrow Multi Trader (30fps Extra)
