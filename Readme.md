@@ -3,6 +3,11 @@ War3zuk-Alpha-19.0 - AIO
 Updated v1.9 to v2.0
 
 Adjusted HD RuckSack Upgrade Loot Chance
+Rebuilt HD Breaching C4 Code
+
+Following Items Can Now Upgrade To Titanium
+HD Mini Hatchet
+HD Tazas Hatchet
 
 Updated v1.8 to v1.9
 

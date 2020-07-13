@@ -159,7 +159,6 @@
 	<set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/sprite[@depth='5']/@width">1007</set>
 	<set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/rect[@name='description']/@width">852</set>
 	<set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/rect[@depth='1']/sprite[@name='backgroundMain']/@width">857</set>
-	<!--<set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/rect[@depth='1']/rect[@visible='{showdescription}']/label[@name='descriptionText']/@width">857</set> -->
 	
 	<remove xpath="/windows/window[@name='windowBackpack']" />
 	

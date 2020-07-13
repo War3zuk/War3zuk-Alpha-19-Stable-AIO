@@ -1948,7 +1948,7 @@
 	<property name="FuelValue" value="1"/>
 	<property name="Group" value="Survival"/>
 </item>
-	
+
 <item name="HDBreachingC4">
 	<property name="DescriptionKey" value="HDBreachingC4Desc"/>
 	<property name="CustomIcon" value="HD Breaching C4"/>
@@ -1960,22 +1960,20 @@
 	<property name="Meshfile" value="#@modfolder:Resources/HD Breaching C4.unity3d?HD Breaching C4.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropScale" value="1.8"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="Stacknumber" value="50"/>
-	<property name="EconomicValue" value="41"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="141"/>
 	<property name="Weight" value="0"/>
 	<property name="Explosion.BlockTags" value="door,safes"/>
 	<property name="Explosion.DamageBonus.tags" value="38"/>
-	<property name="Explosion.ParticleIndex" value="5"/>
+	<property name="Explosion.ParticleIndex" value="12"/>
 	<property name="Explosion.RadiusBlocks" value="5"/>
 	<property name="Explosion.RadiusEntities" value="2"/>
-	<property name="Explosion.BlockDamage" value="3000"/>
-	<property name="Explosion.EntityDamage" value="100"/>
 	<property name="Explosion.DamageBonus.stone" value="1"/>
 	<property name="Explosion.DamageBonus.metal" value="1"/>
 	<property name="Explosion.DamageBonus.earth" value="1"/>
 	<property name="Explosion.DamageBonus.wood" value="1"/>
 	<property name="Explosion.DamageBonus.water" value="0"/>
-	<property name="Explosion.BlastPower" value="20"/>
+	<property name="Explosion.BlastPower" value="99"/>
 	<property name="FuseStartOnDrop" value="true"/>
 	<property name="FuseTime" value="5"/>
 	<property name="StickPercent" value="1"/>
@@ -1989,11 +1987,49 @@
 		<property name="Throw_strength_default" value="15"/>
 		<property name="Max_strain_time" value="0"/>
 		<property name="Sound_start" value="charge_throw"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
 	<property name="ThrowableDecoy" value="true"/>
 	<effect_group tiered="false">
+		<passive_effect name="BlockDamage" operation="base_set" value="3000"/><display_value name="dExDamageBlock" value="3000"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="100"/><display_value name="dExDamageEntity" value="100"/>
 		<display_value name="dExRadius" value="5"/>
 		<display_value name="dFuseTime" value="5"/>
+	</effect_group>
+	<effect_group tiered="false" name="workaround for explosives ignoring perks/buffs">
+		<requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="Equals" value="1"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1"/>
+			<passive_effect name="BlockDamage"  operation="perc_add" value=".1"/>
+			<passive_effect name="DismemberChance" operation="base_add" value=".05"/>
+	</effect_group>
+	<effect_group tiered="false" name="workaround for explosives ignoring perks/buffs">
+		<requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="Equals" value="2"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".2"/>
+			<passive_effect name="BlockDamage"  operation="perc_add" value=".2"/>
+			<passive_effect name="DismemberChance" operation="base_add" value=".1"/>
+	</effect_group>
+	<effect_group tiered="false" name="workaround for explosives ignoring perks/buffs">
+		<requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="Equals" value="3"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".3"/>
+			<passive_effect name="BlockDamage"  operation="perc_add" value=".3"/>
+			<passive_effect name="DismemberChance" operation="base_add" value=".2"/>
+	</effect_group>
+	<effect_group tiered="false" name="workaround for explosives ignoring perks/buffs">
+		<requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="Equals" value="4"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".4"/>
+			<passive_effect name="BlockDamage"  operation="perc_add" value=".4"/>
+			<passive_effect name="DismemberChance" operation="base_add" value=".3"/>
+	</effect_group>
+	<effect_group tiered="false" name="workaround for explosives ignoring perks/buffs">
+		<requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="Equals" value="5"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value=".5"/>
+			<passive_effect name="BlockDamage"  operation="perc_add" value=".5"/>
+			<passive_effect name="DismemberChance" operation="base_add" value=".45"/>
+	</effect_group>
+	<effect_group tiered="false" name="workaround for explosives ignoring perks/buffs">
+		<requirement name="HasBuff" buff="buffDrugAtomJunkies"/>
+			<passive_effect name="EntityDamage" operation="perc_add" value="1"/>
+			<passive_effect name="BlockDamage"  operation="perc_add" value="1"/>
 	</effect_group>
 </item>
 	
@@ -5704,7 +5740,7 @@
 		<property name="Repair_amount" value="250"/>
 		<property name="Upgrade_hit_offset" value="-1"/>
 		<property name="Sound_start" value="repair_block"/>
-		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,Steel Polish,Titanium Polish"/>
 		<property name="UsePowerAttackAnimation" value="false"/>
 	</property>
 	<effect_group name="meleeToolRepairT0StoneAxe">
@@ -5773,7 +5809,7 @@
 		<property name="Repair_amount" value="250"/>
 		<property name="Upgrade_hit_offset" value="-1"/>
 		<property name="Sound_start" value="repair_block"/>
-		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers"/>
+		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,Steel Polish,Titanium Polish"/>
 		<property name="UsePowerAttackAnimation" value="false"/>
 	</property>
 	<effect_group name="meleeToolRepairT0StoneAxe">
