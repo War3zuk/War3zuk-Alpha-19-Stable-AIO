@@ -14,7 +14,7 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='12']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='21']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='25']"></remove>
-	<remove xpath="/lootcontainers/lootcontainer[@id='34']"></remove>
+	<!--  <remove xpath="/lootcontainers/lootcontainer[@id='34']"></remove> -->
 	<remove xpath="/lootcontainers/lootcontainer[@id='35']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='40']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='42']"></remove>
@@ -47,7 +47,7 @@
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
 	
-<lootgroup name="SupplyMaterials" count="2,8">
+<!--<lootgroup name="SupplyMaterials" count="2,8">
         <item name="resourceScrapBrass" count="50,200"/>
 		<item name="resourceFeather" count="50,200"/>
 		<item name="resourceGunPowder" count="50,200"/>
@@ -66,7 +66,7 @@
 		<item name="resourceLeadBundle" count="1"/>
 		<item name="resourceCoalBundle" count="1"/>
 		<item name="resourceOilShaleBundle" count="1"/>	
-</lootgroup>
+</lootgroup> -->
 
 <lootgroup name="War3zukHDWeaponParts">
 		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob=".10"/>
@@ -297,7 +297,7 @@
 </lootcontainer>
 </insertAfter>
 
-<insertAfter xpath="/lootcontainers/lootcontainer[@id='25']" >
+<!--  <insertAfter xpath="/lootcontainers/lootcontainer[@id='25']" >
 <lootcontainer id="34" count="4" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="cannedfood" count="3,5"/>
 	<item group="groupWeaponsAllScaled"/>
@@ -313,7 +313,7 @@
 	<item group="War3zukHDAmmo" prob="0.2"/>
 	<item group="War3zukHDFoods" prob="0.2"/>
 </lootcontainer>
-</insertAfter>
+</insertAfter> -->
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='34']" >
 <!-- tree hollowed stump, place where people stash things, -->
