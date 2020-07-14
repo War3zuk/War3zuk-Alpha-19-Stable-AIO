@@ -1,5 +1,14 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v2.0 to v2.1
+
+HD Spas 12 Addons Fixed
+Fixed Spas Aim Down Sights
+HD Mossberg 500 Addons Fixed
+Fixed HD Mossberg 500 Aim Down Sights
+
+Fixed UI Issue
+
 Updated v1.9 to v2.0
 
 Adjusted HD RuckSack Upgrade Loot Chance

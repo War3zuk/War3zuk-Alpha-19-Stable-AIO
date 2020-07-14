@@ -3214,7 +3214,7 @@
 <item name="HD Spas 12">
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Default.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3259,7 +3259,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0,-.005,0"/>
+		<property name="ScopeCameraOffset" value="-.0000,-.033,-.0000"/>
 	</property>
 	<effect_group name="gunShotgunT2PumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
@@ -3299,7 +3299,7 @@
 <item name="HD Spas 12 Street">
 	<property name="CustomIcon" value="HD Spas 12 Street"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Street.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3344,7 +3344,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0,-.005,0"/>
+		<property name="ScopeCameraOffset" value="-.0000,-.033,-.0000"/>
 	</property>
 	<effect_group name="gunShotgunT2PumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
@@ -3384,7 +3384,7 @@
 <item name="HD Spas 12 USA">
 	<property name="CustomIcon" value="HD Spas 12 USA"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 USA.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3429,7 +3429,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0,-.005,0"/>
+		<property name="ScopeCameraOffset" value="-.0000,-.033,-.0000"/>
 	</property>
 	<effect_group name="gunShotgunT2PumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
@@ -3469,7 +3469,7 @@
 <item name="HD Spas 12 Alien">
 	<property name="CustomIcon" value="HD Spas 12 Alien"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Alien.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3514,7 +3514,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0,-.005,0"/>
+		<property name="ScopeCameraOffset" value="-.0000,-.033,-.0000"/>
 	</property>
 	<effect_group name="gunShotgunT2PumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
@@ -3554,7 +3554,7 @@
 <item name="HD Spas 12 Irish">
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 Irish"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Irish.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3599,7 +3599,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="0,-.005,0"/>
+		<property name="ScopeCameraOffset" value="-.0000,-.033,-.0000"/>
 	</property>
 	<effect_group name="gunShotgunT2PumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
@@ -3639,7 +3639,7 @@
 <item name="HD Mossberg 500">
 	<property name="CustomIcon" value="HD Mossberg 500"/>
 	<property name="DescriptionKey" value="HDM500Desc"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Mossberg 500.unity3d?HD Mossberg 500.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
