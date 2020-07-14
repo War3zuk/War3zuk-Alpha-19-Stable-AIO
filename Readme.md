@@ -7,6 +7,8 @@ Fixed Spas Aim Down Sights
 HD Mossberg 500 Addons Fixed
 Fixed HD Mossberg 500 Aim Down Sights
 
+Added QueenOfScreamz8s Chili Burrito (CampFire + Grill)
+
 Fixed UI Issue
 
 Updated v1.9 to v2.0
