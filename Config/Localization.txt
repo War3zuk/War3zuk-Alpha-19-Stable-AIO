@@ -24,6 +24,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+PapasBareBackRibsDesc,items,,,Taking things from Nature And crafting the Best Ribs in Town. Perfect for Zombie Killin on a Full Stomach.,
+
 QueenOfScreamz8sBurritoDesc,items,,,For when you just need food for on the run.,
 
 klausgamer14sBeefFriesDesc,items,,,Umm Sauteed Steak with freshly cooked fries. Just what every zombie killer needs.,

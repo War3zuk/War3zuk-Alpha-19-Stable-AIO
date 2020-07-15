@@ -8,8 +8,11 @@ HD Mossberg 500 Addons Fixed
 Fixed HD Mossberg 500 Aim Down Sights
 
 Added QueenOfScreamz8s Chili Burrito (CampFire + Grill)
+Added Papas Bare Back Ribs  (CampFire + Grill)
 
+Launcher Edits:
 Fixed UI Issue
+Removed No Longer Used Scrap
 
 Updated v1.9 to v2.0
 
