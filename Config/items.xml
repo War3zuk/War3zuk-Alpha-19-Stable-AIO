@@ -5541,7 +5541,7 @@
 
 <item name="HD Xcalibur">
 	<property name="DescriptionKey" value="HDXDesc"/>
-	<property name="CustomIcon" value="HDXcalibur"/>
+	<property name="CustomIcon" value="HD Xcalibur"/>
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeHeavy"/>
 	<property name="HoldType" value="33"/>

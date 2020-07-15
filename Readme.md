@@ -10,9 +10,19 @@ Fixed HD Mossberg 500 Aim Down Sights
 Added QueenOfScreamz8s Chili Burrito (CampFire + Grill)
 Added Papas Bare Back Ribs  (CampFire + Grill)
 
+Replaced Old free Xcalibur Model
+Added HD Xcalibur PBR Model (Paid)
+Added HD Xcalibur HD Icon
+
+Updated Ethans Bam Hammer Addon Position
+Updated Iron Axe Addon Position
+
+Update XUI Code
+
 Launcher Edits:
 Fixed UI Issue
 Removed No Longer Used Scrap
+Edited UI Patch Health Bar
 
 Updated v1.9 to v2.0
 

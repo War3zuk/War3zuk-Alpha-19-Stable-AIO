@@ -3,9 +3,9 @@ Key,Source,Context,Changes,English
 tutorialTipQuest01_title,,Popup Tip,KeyTrunk KgNone,Welcome to War3zuk OverHaul,,,,
 tutorialTipQuest02_title,,Popup Tip,KeyTrunk KgNone,War3zuk OverHaul Info,,,,
 
-tutorialTipQuest02,,Popup Tip,KeyTrunk KgNone,"Greetings Zombie Slayer,\n\nThis is War3zuk the Mod Author Speaking. Inventory has been Changed, You start the game with 15 Slots And are granted a further 15 with Max Perk Pack Mule giving a Total of 30 Inventory Slots.\n\nThe Only way to add the other 75 Slots is to Find & Use the HD Ruck Sack Upgrades which are found in DUMPSTERS ONLY & added to Armor granting 15 SLots open per Addon, -War3zuk",,,
+tutorialTipQuest02,,Popup Tip,KeyTrunk KgNone,"Greetings Zombie Slayer,\n\nThis is War3zuk the Mod Author Speaking. Inventory has been Changed, You start the game with 15 Slots And are granted a further 15 with Max Perk Pack Mule giving a Total of 30 Inventory Slots.\n\nThe Only way to add the other 75 Slots is to Find And Use the HD Ruck Sack Upgrades which are found in Dumpsters.  Lockers. Army trucks And added to Armor granting 15 SLots open per Addon, -War3zuk",,,
 
-tutorialTipQuest01,,Popup Tip,KeyTrunk KgNone,"Basic Survival has been shortened to Crafting your BedRoll & placing it down. Once this is done you will be directed to the nearest Trader & once spoken too he will activate your main quests to fulfill during game play. Once a Quest is complete to Tier5 you will be granted a Vending Machine that once placed in the World will give you access to that particular Quests Items Like A Trader. This Mod tries to make Full use of Items normally thrown so always check an item for a new recipe. The Mod itself adds many New Custom Models And Items, Blocks And many other changes most of which affect around 90% of the Core Game. Most Core Items start with the Abbreviation HD for easy Indexing. Items that are meant to be crafted on the player are still crafted there but most other things are Gated behind an HD Bench of some sort,\n\nYou will Find NO HD Weapons in the world -War3zuk",,,
+tutorialTipQuest01,,Popup Tip,KeyTrunk KgNone,"Basic Survival has been shortened to Crafting your BedRoll And placing it down. Once this is done you will be directed to the nearest Trader And once spoken too he will activate your main quests to fulfill during game play. Once a Quest is complete to Tier5 you will be granted a Vending Machine that once placed in the World will give you access to that particular Quests Items Like A Trader. This Mod tries to make Full use of Items normally thrown so always check an item for a new recipe. The Mod itself adds many New Custom Models And Items, Blocks And many other changes most of which affect around 90% of the Core Game. Most Core Items start with the Abbreviation HD for easy Indexing. Items that are meant to be crafted on the player are still crafted there but most other things are Gated behind an HD Bench of some sort,\n\nYou will Find NO HD Weapons in the world -War3zuk",,,
 
 tooltipJammed,UI,Menu,,,[d50937]<{0}> Use {1} ([d50937]Jammed[-]),
 tooltipLocked,UI,Menu,,[3d5aab]<{0}>[-] Open {1} ([3d5aab]Locked[-]),
@@ -110,7 +110,7 @@ HDDoubleBarrelSnubDesc,items,weapons,New,Modern double barreled shotguns often k
 
 HDS12Desc,items,weapons,New,The Franchi SPAS-12 is a combat shotgun manufactured by Italian firearms company Franchi from 1979 to 2000. The SPAS-12 is a dual-mode shotgun. adjustable for semi-automatic or pump-action operation. The SPAS-12 fires standard shotgun shells along with the Slug variant,
 
-HDM500Desc,items,,,Mossberg 500 is a pump action shotguns manufactured by O.F. Mossberg & Sons. The 500 series comprises widely varying models of hammerless repeaters. all of which share the same basic receiver and action. but differ in bore size. barrel length And choke length. The Mossberg fires standard shotgun shells along with the Slug variant,
+HDM500Desc,items,,,Mossberg 500 is a pump action shotguns manufactured by O.F. Mossberg And Sons. The 500 series comprises widely varying models of hammerless repeaters. all of which share the same basic receiver and action. but differ in bore size. barrel length And choke length. The Mossberg fires standard shotgun shells along with the Slug variant,
 
 HDVulcan9mmDesc,items,,,The HD Vulcan 9mm is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
 
@@ -128,7 +128,7 @@ HDW1866Desc,items,weapons,New,Winchester 1866 continued the trend towards chambe
 
 HDKarabiner98kDesc,items,weapons,New,The Karabiner 98k is a controlled-feed bolt-action rifle based on the Mauser M98 system. Its internal magazine can be loaded with five 7.62 Rounds.
 
-HDLauncherDesc,items,weapons,New,The K9 Dual Launcher will do small damage to Blocks & High damage to Entities,
+HDLauncherDesc,items,weapons,New,The K9 Dual Launcher will do small damage to Blocks And High damage to Entities,
 
 HDFlameThrowerDesc,items,weapons,New,State Of The Art firey Pew Pew Just ADD Petrol. Add points into Miner69er to improve its Quality,
 
@@ -214,7 +214,7 @@ HDMotorDesc,items,,,A specialised High Torque Motor that once applied will act l
 
 HDCellDesc,items,,,A specialised Hd Battery Cell that once applied will act like a Mini Nuclear power plant. This Item is placed into the HD Generator which requires 6 Cells.
 
-medicalBloodDrawKitDesc,items,,,Medical Blood Draw Kit IMPORTANT.\n\nThis Kit is used for the creation of BloodBags.\n\nIt will Remove 50 Percent of your HP & Deplete Water And Food.\n\nIf Exploited It will also Reduce ALL Skills To L3.
+medicalBloodDrawKitDesc,items,,,Medical Blood Draw Kit IMPORTANT.\n\nThis Kit is used for the creation of BloodBags.\n\nIt will Remove 50 Percent of your HP And Deplete Water And Food.\n\nIf Exploited It will also Reduce ALL Skills To L3.
 
 medicalBloodDrawKit,items,Item,KgNone,Blood Draw Kit,
 
@@ -257,7 +257,7 @@ HDBowl,items,Item,KgNone,HD Bowl,
 
 HDBowlDesc,items,Item,New,A Basic Clay Bowl used for Hot Meals.
 
-WarmChunkyFoodDesc,items,Item,New,Umm Warmed Grub Always tastes Better & is Good for You.
+WarmChunkyFoodDesc,items,Item,New,Umm Warmed Grub Always tastes Better And is Good for You.
 
 BrassWire,items,Item,KgNone,Brass Wire,
 
@@ -387,7 +387,7 @@ HDGrinder,items,Item,KgNone,HD Grinder,
 
 HDGrinderDesc,items,,,Add this to the HD AmmoBench To Grind Specialized items Like GunPowder.
 
-LoversPizzaDesc,items,,,Perfectly Prepared To Be Enjoyed While Killing Zombies & Twitching The Night Away.
+LoversPizzaDesc,items,,,Perfectly Prepared To Be Enjoyed While Killing Zombies And Twitching The Night Away.
 
 JamesIngredientsDesc,items,,,Perfectly Prepared For That Perfect Lovers Pizza.
 
@@ -411,9 +411,9 @@ BR1NXlsHotPotStewDesc,items,,,BR1NXls HotPot Stew Brings you a Carb Hit Fit for 
 
 DD1GGsShamTunaPieDesc,items,,,DD1GGs Sham And Tuna Pie Will keep you Zombie killin for Hours. A BIG thanks for being the 1st to Stream my OverHaul.
 
-HDMacheteDesc,items,,,Extra Sharp & Serrated for cleaner Kills.
+HDMacheteDesc,items,,,Extra Sharp And Serrated for cleaner Kills.
 
-HDElectrolyteDesc,items,,,HD Electrolyte is made using Batteries & is used in the production of Shock Ammo And is made in the HD WorkBench.
+HDElectrolyteDesc,items,,,HD Electrolyte is made using Batteries And is used in the production of Shock Ammo And is made in the HD WorkBench.
 
 HDGroundMineDesc,blocks,,,Player built Ground Mine for Defensive purposes.
 
@@ -486,7 +486,7 @@ HDPumpJackE,items,Block,KgNone,HD Pump Jack,
 
 HDPumpJackF,items,Block,KgNone,HD Pump Jack,
 
-HDPJEDesc,Block,,,This Pump Jack Will Mine Resources Over Time & Deliver Them For Collection.\n\nLoot From Either The Front Or The Rear Of The Pump
+HDPJEDesc,Block,,,This Pump Jack Will Mine Resources Over Time And Deliver Them For Collection.\n\nLoot From Either The Front Or The Rear Of The Pump
 
 HDMegaVaultDesc,Block,,,A Very Tough Mega Vault for storing Items.
 
@@ -516,9 +516,9 @@ HDJukeBox5FingerDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that wi
 HDWorkingFireDesc,blocks,Block Building,,A Fully Working Fireplace Stove that uses NO Fuel.
 HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.
 
-HDWDDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item & Use LMB
+HDWDDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item And Use LMB
 
-HDWorkingFridgeDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item & Use LMB
+HDWorkingFridgeDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item And Use LMB
 
 PenthroxDesc,items,,,This will Render you Almost invisible to ALL Zombies unless you Engage them.
 
@@ -552,17 +552,17 @@ RepairKitShotGunsDesc,items,Item,New,This is a specialised version of the Standa
 
 RepairKitHuntingRifles,items,Item,KgNone,HD Repair Kit Hunting Rifles,
 
-RepairKitHuntingRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hunting & Sniper Rifles.
+RepairKitHuntingRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hunting And Sniper Rifles.
 
 HDM134MBDesc,items,,,This is the Barrel part of the HD Minigun.
 
-HDM134MPDesc,items,,,This is the Housing & Parts of the HD Minigun.
+HDM134MPDesc,items,,,This is the Housing And Parts of the HD Minigun.
 
-HDM134MMDesc,items,,,This is the Motor & other moving parts to the HD Minigun.
+HDM134MMDesc,items,,,This is the Motor And other moving parts to the HD Minigun.
 
 HDFAKDesc,items,,,A More advanced version of the Medical Kit with Max Healing Also removes negative Buffs.
 
-HDLPDesc,items,Tools,New,Hd Lock Picks will allow you to Unlock Hidden Paintings as well as Upgrade broken Work Benches,Forges,Chemistry Stations & Cement Mixers.
+HDLPDesc,items,Tools,New,Hd Lock Picks will allow you to Unlock Hidden Paintings as well as Upgrade broken Work Benches,Forges,Chemistry Stations And Cement Mixers.
 
 HDWrenchDesc,items,Tools,New,Crafted from the Finest Steel this BadBoi will be there for you Craft a better version by putting skill points into the Salvage Operations Perk.
 
@@ -588,13 +588,13 @@ CMDesc,items,resource,new,Congealed Metal is an amalgamation of Both Brass And T
 
 HDForgeDesc,blocks,,,Used to smelt advanced metals like Brass And Titanium.
 
-DonnasFubarStewDesc,items,Food,New,Donnas Fubar Stew comes straight from the Heart & Warms your Balls as well as your Soul.
+DonnasFubarStewDesc,items,Food,New,Donnas Fubar Stew comes straight from the Heart And Warms your Balls as well as your Soul.
 
 DonnasFubarSteakDesc,items,Food,New,A Fubar Steak used in making the Fubar Stew.
 
 HDXDesc,items,,,Xcalibur the ONLY bashing tool you need early game.
 
-HDMiniHDesc,items,,,A simple replacement for the early game Axe much better & more durable.
+HDMiniHDesc,items,,,A simple replacement for the early game Axe much better And more durable.
 
 BSFDesc,items,,,You have found a Building Supply Flare left click the ground when active to spawn the crate.
 
