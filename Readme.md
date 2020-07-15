@@ -1,5 +1,11 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v2.1 to v2.2
+
+Rebuilt HD Gas Generator Code
+Rebuilt HD Generator Code
+Adjusted HD Desert Eagle Punisher Cross Hair
+
 Updated v2.0 to v2.1
 
 HD Spas 12 Addons Fixed

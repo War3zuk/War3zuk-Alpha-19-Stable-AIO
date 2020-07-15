@@ -2518,7 +2518,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0003,-.000,-.0010"/>
+		<property name="ScopeCameraOffset" value="-.0003,.003,-.0010"/>
 	</property>
 	<effect_group name="gunHandgunT3DesertVulture">
 		<passive_effect name="MaxRange" operation="base_set" value="60" tags="perkGunslinger"/>
@@ -5545,7 +5545,7 @@
 	<property name="Tags" value="blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,longShaft,attStrength,perkSkullCrusher,canHaveCosmetic"/>
 	<property name="DisplayType" value="meleeHeavy"/>
 	<property name="HoldType" value="33"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Xcalibur.unity3d?HD Xcalibur.Prefab"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Xcalibur.unity3d?HD Xcalibur.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MmeleeWpnSledgeParts"/> <property name="Weight" value="6"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>

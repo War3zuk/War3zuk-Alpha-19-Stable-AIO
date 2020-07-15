@@ -2055,45 +2055,45 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Generator"/>
 	<property name="DisplayType" value="blockElectricalHardened"/>
-	<property name="UnlockedBy" value="HD Gas Generator Schematic"/>
-	<property name="Material" value="Mmetal_medium"/>
+	<property name="Material" value="MstainlessSteel"/>
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
-	<property name="Model" value="#@modfolder:Resources/HD Gas Generator.unity3d?HD Gas Generator.Prefab"/> <property name="HandleFace" value="Bottom"/>
+	<property name="Model" value="#@modfolder:Resources/HD Gas Generator.unity3d?HD Gas Generator.Prefab"/>
+	<property name="HandleFace" value="Bottom"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-	<property name="DescriptionKey" value="HDGasGeneratorDesc"/>
 	<property name="MaxFuel" value="40000"/>
-			<property name="OutputPerFuel" value="850000"/>
-			<property name="MaxPower" value="60000"/>
-			<property name="OutputPerStack" value="20000"/>
+	<property name="OutputPerFuel" value="850000"/>
+	<property name="MaxPower" value="60000"/>
+	<property name="OutputPerStack" value="20000"/>
 	<property name="SlotItem" value="HD High Torque Motor"/>
 	<property name="Group" value="Science"/>
+	<property name="UnlockedBy" value="HD Gas Generator Schematic"/>
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="10"/>
 		<property name="resourceMechanicalParts" value="10"/>
 		<property name="resourceElectricParts" value="10"/>
-		<property name="resourceElectricParts" value="10"/>
+		<property name="resourceElectricParts" value="5"/>
 	</property>
-	<drop event="Harvest" name="resourceScrapIron" count="120" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceScrapIron" count="250" tag="allHarvest"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-	<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceElectricParts" count="2,4" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceElectricParts" count="2,4" prob="0.6" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceScrapPolymers" count="2,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceForgedIron" count="5" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="5" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="3,4" tag="salvageHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	<property name="Stacknumber" value="1"/>
-	<property name="TakeDelay" value="15"/>
-	<property name="EconomicValue" value="500"/>
+	<property name="TakeDelay" value="5"/>
+	<property name="EconomicValue" value="1500"/>
 	<property name="FilterTags" value="fdecor,felectrical"/>
 	<property name="SortOrder1" value="70a0"/>
 </block>
-        
+
 <block name="HD Generator">
 	<property name="CustomIcon" value="HD Generator"/>
+	<property name="DescriptionKey" value="HDGeneratorDesc"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="BatteryBank"/>
 	<property name="Material" value="MstainlessSteel"/>
@@ -2101,11 +2101,10 @@
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
-	<property name="Model" value="#@modfolder:Resources/HD Generator.unity3d?HD Generator.Prefab"/> <property name="HandleFace" value="Bottom"/>
+	<property name="Model" value="#@modfolder:Resources/HD Generator.unity3d?HD Generator.Prefab"/>
+	<property name="HandleFace" value="Bottom"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-	<property name="DescriptionKey" value="HDGeneratorDesc"/>
-	<property name="UnlockedBy" value="HD Generator Schematic"/>
 	<property name="MaxPower" value="65535"/>
 	<property name="InputPerTick" value="1000"/>
 	<property name="ChargePerInput" value="1000"/>
@@ -2113,22 +2112,23 @@
 	<property name="OutputPerCharge" value="10922"/>
 	<property name="SlotItem" value="HD Cell"/>
 	<property name="Group" value="Science"/>
+	<property name="UnlockedBy" value="HD Generator Schematic"/>
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="10"/>
 		<property name="resourceElectricParts" value="10"/>
-		<property name="resourceElectricParts" value="10"/>
-		<property name="resourceScrapPolymers" value="10"/>
+		<property name="resourceElectricParts" value="5"/>
+		<property name="resourceScrapPolymers" value="5"/>
 	</property>
 	<drop event="Harvest" name="resourceScrapIron" count="120" tag="allHarvest"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
-	<drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceElectricParts" count="2,4" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceElectricParts" count="2,4" prob="0.6" tag="salvageHarvest"/>
-	<drop event="Harvest" name="resourceScrapPolymers" count="2,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceForgedIron" count="5" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="2,3" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,2" prob="0.6" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	<property name="Stacknumber" value="1"/>
-	<property name="TakeDelay" value="5"/>
+	<property name="TakeDelay" value="15"/>
 	<property name="EconomicValue" value="400"/>
 	<property name="FilterTags" value="fdecor,felectrical"/>
 	<property name="SortOrder1" value="70a0"/>
