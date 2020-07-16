@@ -16,6 +16,9 @@ Rebuilt KillJoyJessicas HotWings Code
 
 CokaGamings Flaming Hot Cheetos (Campfire + Cookinpot)
 
+Rebuilt HD Colt M1911 Code
+Rebuilt HD Colt M1911A Code
+
 Removed x2 x4 Scopes From HD Arctic Warfare
 Fixed HD Arctic Warfare Scope
 Removed x2 x4 Scopes From HD Cheytac M300
