@@ -776,6 +776,28 @@
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 	
+	<item_modifier name="HDMossberg500Reflex" installable_tags="HDMossberg500Reflex" modifier_tags="scope" blocked_tags="bow" type="attachment">
+		<property name="CustomIcon" value="HD Mossberg 500 Reflex"/>
+		<property name="DescriptionKey" value="HDMossberg500ReflexDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Mossberg 500.unity3d?HDMossberg500Reflex.Prefab"/>
+		
+		<item_property_overrides name="HD Mossberg 500">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0.000,-0.005,-0.000"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="WeaponHandling" operation="perc_add" value="1"/>
+			<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Mossberg 500.unity3d?HDMossberg500Reflex.Prefab" parent_transform="Attachments/Scope"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
 	<!--#######################################Scope#############################################-->
 	
 	<item_modifier name="HDDEScope" installable_tags="HDDEScope" modifier_tags="scope" blocked_tags="shotgun" type="attachment">

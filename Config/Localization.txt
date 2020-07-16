@@ -24,6 +24,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+CokaGamingsHotCheetosDesc,items,,,Flaming Hot Cheetos. Made with Real Cheese. But do you see any Cows in this game.,
+
 PapasBareBackRibsDesc,items,,,Taking things from Nature And crafting the Best Ribs in Town. Perfect for Zombie Killin on a Full Stomach.,
 
 QueenOfScreamz8sBurritoDesc,items,,,For when you just need food for on the run.,
@@ -171,6 +173,7 @@ BabyChickDesc,items,,,OMG Youve found a Cute Baby Chick. Gotta be useful for som
 ChickenNuggetsDesc,items,,,Like McDonalds Only REAL MEAT lol.,
 
 HDSpas12ReflexDesc,items,,,Military Grade Reflex Sight that can be attached to the HD Spas 12,
+HDMossberg500ReflexDesc,items,,,Military Grade Reflex Sight that can be attached to the HD Mossberg 500,
 
 AaronFritosEggsDesc,items,,,AaronRockst4rs Fritos And Eggs. Is just how your Momma use to make Em. Fritos And Eggs delicately cooked until golden brown. Tastes Good And Helps in the Zombie Slayin.,
 
