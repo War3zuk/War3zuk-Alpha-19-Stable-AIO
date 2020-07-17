@@ -19,6 +19,10 @@ Removed CandyTin From Recipes B169 Changes
 Rebuilt HD Breaching C4
 Rebuild JD Land Mine
 
+ADDED CUT OFF LINE TO THE entityclasses.XML
+Follow Its Instructions If You Wish To Remove
+The Custom RuckSacks For Player & Loot
+
 Updated v2.1 to v2.2
 
 Fixed Bench UI Interactions
