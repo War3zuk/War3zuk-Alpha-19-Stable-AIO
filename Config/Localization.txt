@@ -24,6 +24,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+HDCrashBandicootDesc,items,,,Craft your very own Crash Bandicoot to Guard Your Base haha.,
+
 CokaGamingsHotCheetosDesc,items,,,Flaming Hot Cheetos. Made with Real Cheese. But do you see any Cows in this game.,
 
 PapasBareBackRibsDesc,items,,,Taking things from Nature And crafting the Best Ribs in Town. Perfect for Zombie Killin on a Full Stomach.,
