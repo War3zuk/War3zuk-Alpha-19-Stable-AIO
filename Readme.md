@@ -1,5 +1,15 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v2.3 to v2.4
+
+Rebuilt Spawning Code
+Rebuilt Giant Animals
+Rebuilt Demos
+Rebuilt Phantoms
+
+Fixed Spawning Code
+Fixed Entity Code
+
 Updated v2.2 to v2.3
 
 Added SuperCorn Glue

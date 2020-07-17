@@ -84,7 +84,7 @@
 
 <entity_class name="GiantRabbitFire" extends="animalTemplateTimid">
 	<property name="Tags" value="entity,animal,rabbit,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="Class" value="EntityAnimalRabbit"/>
@@ -125,7 +125,7 @@
 
 <entity_class name="GiantRabbitRad" extends="animalTemplateTimid">
 	<property name="Tags" value="entity,animal,rabbit,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/cop_rad"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="Class" value="EntityAnimalRabbit"/>
@@ -203,7 +203,7 @@
 
 <entity_class name="GiantChickenFire" extends="animalTemplateTimid">
 	<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
 	<property name="Mesh" value="Animals/CHICKEN/chickenPrefab"/>
@@ -241,7 +241,7 @@
 
 <entity_class name="GiantChickenRad" extends="animalTemplateTimid">
 	<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/cop_rad"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
 	<property name="Mesh" value="Animals/CHICKEN/chickenPrefab"/>
@@ -344,7 +344,7 @@
 
 <entity_class name="GiantSnakeFire" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
 	<property name="EntityType" value="Animal"/>
@@ -410,7 +410,7 @@
 
 <entity_class name="GiantSnakeRad" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/cop_rad"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
 	<property name="EntityType" value="Animal"/>
@@ -520,7 +520,7 @@
 
 <entity_class name="GiantUndeadVultureFire" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
 	<property name="Class" value="EntityVulture"/>
 	<property name="EntityType" value="Zombie"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
@@ -565,7 +565,7 @@
 
 <entity_class name="GiantUndeadVultureRad" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/cop_rad"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
 	<property name="Class" value="EntityVulture"/>
 	<property name="EntityType" value="Zombie"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
@@ -654,7 +654,7 @@
 
 <entity_class name="GiantBoarFire" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_pig"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_pig"/>
 	<property name="IsEnemyEntity" value="false"/>
@@ -699,7 +699,7 @@
 
 <entity_class name="GiantBoarRad" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/cop_rad"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_pig"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_pig"/>
 	<property name="IsEnemyEntity" value="false"/>
@@ -796,7 +796,7 @@
 <entity_class name="GiantUndeadHoundFire" extends="animalWolf">
 	<property name="Tags" value="entity,animal,zombie,hostile,dog"/>
 	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDogZombieRagdoll"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
 	<property name="Class" value="EntityZombieDog"/>
 	<property name="SoundRandomTime" value="45.0"/>
 	<property name="SoundAlertTime" value="25.0"/>
@@ -848,7 +848,7 @@
 <entity_class name="GiantUndeadHoundRad" extends="animalWolf">
 	<property name="Tags" value="entity,animal,zombie,hostile,dog"/>
 	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDogZombieRagdoll"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/cop_rad"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
 	<property name="Class" value="EntityZombieDog"/>
 	<property name="SoundRandomTime" value="45.0"/>
 	<property name="SoundAlertTime" value="25.0"/>
@@ -899,7 +899,7 @@
 
 <entity_class name="GiantDemolisher" extends="zombieSoldier">
 	<property name="Tags" value="entity,zombie,walker,boss"/>
-	<property name="Mesh" value="Zombies/zombieStandardDemolitionRagdoll"/>
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardDemolitionRagdoll.prefab"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mass" value="300"/>
 	<property name="AITask-1" value="BreakBlock"/>
@@ -945,8 +945,8 @@
 
 <entity_class name="GiantDemolisherFire" extends="zombieSoldier">
 	<property name="Tags" value="entity,zombie,walker,boss"/>
-	<property name="Mesh" value="Zombies/zombieStandardDemolitionRagdoll"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/burntZombie_v2"/>
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardDemolitionRagdoll.prefab"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mass" value="300"/>
 	<property name="AITask-1" value="BreakBlock"/>
@@ -992,9 +992,8 @@
 
 <entity_class name="GiantDemolisherRad" extends="zombieSoldier">
 	<property name="Tags" value="entity,zombie,walker,boss"/>
-	<property name="Mesh" value="Zombies/zombieStandardDemolitionRagdoll"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/cop_rad"/>
-	<property name="ReplaceMaterial1" value="entities/zombies/materials/rad_eye"/>
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardDemolitionRagdoll.prefab"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mass" value="300"/>
 	<property name="AITask-1" value="BreakBlock"/>
@@ -1040,7 +1039,7 @@
 
 <entity_class name="zombieSteveCrawler" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie"/>
-	<property name="Mesh" value="Zombies/zombieStandardCrawlerHDRagdoll"/>
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardCrawlerHDRagdoll.prefab"/>
 	<property name="AvatarController" value="AvatarZombie01Controller"/>
 	<property name="Mass" value="140"/>
 	<property name="Class" value="EntityZombie"/>
@@ -1075,7 +1074,7 @@
 
 <entity_class name="zombieSteveCrawlerFeral" extends="zombieSteveCrawler">
 	<property name="Tags" value="entity,zombie"/>
-	<property name="Mesh" value="Zombies/zombieStandardCrawlerHDFeralRagdoll"/>
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardCrawlerHDRagdoll.prefab"/>
 	<property name="DismemberMultiplierHead" value=".7"/>
 	<property name="DismemberMultiplierArms" value=".7"/>
 	<property name="DismemberMultiplierLegs" value=".7"/>
@@ -1093,7 +1092,7 @@
 
 <entity_class name="zombiePhantasm" extends="zombieTemplateMale">
 	<property name="Tags" value="entity,zombie,walker,feral"/>
-	<property name="Mesh" value="Zombies/zombieStandardCrawlerHDRagdoll"/>
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardCrawlerHDRagdoll.prefab"/>
 	<property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam"/>
 	<property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert"/>
 	<property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack"/>
@@ -1131,7 +1130,7 @@
 
 <entity_class name="zombiePhantasmFire" extends="zombiePhantasm">
 	<property name="Tags" value="entity,male,zombie,walker,feral"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
 	<property name="DismemberMultiplierHead" value=".7"/>
 	<property name="DismemberMultiplierArms" value=".7"/>
 	<property name="DismemberMultiplierLegs" value=".7"/>
@@ -1150,7 +1149,7 @@
 
 <entity_class name="zombiePhantasmRAD" extends="zombiePhantasm">
 	<property name="Tags" value="entity,male,zombie,walker,feral"/>
-	<property name="ReplaceMaterial0" value="entities/zombies/materials/cop_rad"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
 	<property name="DismemberMultiplierHead" value=".7"/>
 	<property name="DismemberMultiplierArms" value=".7"/>
 	<property name="DismemberMultiplierLegs" value=".7"/>
