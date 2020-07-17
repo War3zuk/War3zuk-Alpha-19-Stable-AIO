@@ -17,7 +17,7 @@ Added Crash Bandicoot Custom PBR Model (Paid)
 
 Removed CandyTin From Recipes B169 Changes
 Rebuilt HD Breaching C4
-Rebuild JD Land Mine
+Rebuild HD Land Mine
 
 ADDED CUT OFF LINE TO THE entityclasses.XML
 Follow Its Instructions If You Wish To Remove
