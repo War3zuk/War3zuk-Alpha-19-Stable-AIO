@@ -25,6 +25,10 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HD Crash Bandicoot" count="1" craft_time="30">
+	<ingredient name="resourceScrapPolymers" count="500"/>
+</recipe>
+	
 <recipe name="OrigamiGurus Pain Meds" count="1" craft_time="30">
 	<ingredient name="drugPainkillers" count="5"/>
 	<ingredient name="drugVitamins" count="2"/>
@@ -202,103 +206,103 @@
 	<ingredient name="drinkJarBeer" count="2"/>
 </recipe>
 
-<recipe name="HDammoBundle45ACPRound" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle45ACPRound" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="80"/>
 	<ingredient name="resourceGunPowder" count="80"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 	
-<recipe name="HDammoBundle9mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle9mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="80"/>
 	<ingredient name="resourceGunPowder" count="80"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundle9mmBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle9mmBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="160"/>
 	<ingredient name="resourceGunPowder" count="80"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundle9mmBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle9mmBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="80"/>
 	<ingredient name="resourceGunPowder" count="160"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundle44MagnumBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle44MagnumBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="80"/>
 	<ingredient name="resourceGunPowder" count="240"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundle44MagnumBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle44MagnumBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="160"/>
 	<ingredient name="resourceGunPowder" count="240"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundle44MagnumBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle44MagnumBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="80"/>
 	<ingredient name="resourceGunPowder" count="400"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundleDeagleRound" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundleDeagleRound" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="180"/>
 	<ingredient name="resourceGunPowder" count="180"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundle500AutoMax" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle500AutoMax" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="180"/>
 	<ingredient name="resourceGunPowder" count="180"/>
 	<ingredient name="resourceBulletCasing" count="180"/>
 </recipe>
 
-<recipe name="HDammoBundle762mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle762mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="80"/>
 	<ingredient name="resourceGunPowder" count="240"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundle762mmBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle762mmBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="160"/>
 	<ingredient name="resourceGunPowder" count="240"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundle762mmBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle762mmBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="80"/>
 	<ingredient name="resourceGunPowder" count="400"/>
 	<ingredient name="resourceBulletCasing" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundle408Round" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle408Round" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="180"/>
 	<ingredient name="resourceGunPowder" count="360"/>
 	<ingredient name="resourceBulletCasing" count="180"/>
 </recipe>
 
-<recipe name="HDammoBundle50BMGRound" count="1" craft_time = "350" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundle50BMGRound" count="1" craft_time = "350" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="260"/>
 	<ingredient name="resourceGunPowder" count="520"/>
 	<ingredient name="resourceBulletCasing" count="260"/>
 </recipe>
 
-<recipe name="HDammoBundleShotgunShell" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundleShotgunShell" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBuckshot" count="80"/>
 	<ingredient name="resourceGunPowder" count="320"/>
 	<ingredient name="resourcePaper" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundleShotgunSlug" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundleShotgunSlug" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="160"/>
 	<ingredient name="resourceGunPowder" count="320"/>
 	<ingredient name="resourceScrapPolymers" count="80"/>
 </recipe>
 
-<recipe name="HDammoBundleShotgunBreachingSlug" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+<recipe name="HDammoBundleShotgunBreachingSlug" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceForgedSteel" count="320"/>
 	<ingredient name="resourceClayLump" count="160"/>
 	<ingredient name="resourceGunPowder" count="320"/>
@@ -581,14 +585,14 @@
 <recipe name="HD Ground Mine" count="1" craft_area="HD WorkBench" craft_time = "30" >
 	<ingredient name="resourceForgedIron" count="10"/>
 	<ingredient name="resourceGunPowder" count="10"/>
-	<ingredient name="resourceCandyTin" count="1"/>
+	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceNail" count="10"/>
 </recipe>
 
 <recipe name="HDBreachingC4" count="1" craft_area="HD WorkBench" craft_time = "30" >
 	<ingredient name="resourceForgedSteel" count="30"/>
 	<ingredient name="resourceGunPowder" count="50"/>
-	<ingredient name="resourceCandyTin" count="1"/>
+	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceNail" count="100"/>
 </recipe>
 	
@@ -1261,13 +1265,18 @@
 	<ingredient name="meleeWpnBatonT1JunkBaton" count="1"/>
 </recipe>
 
-<recipe name="resourceGlue" count="1" craft_area="campfire" craft_time = "8" craft_tool="toolCookingPot">
-	<ingredient name="resourceBone" count="4"/>
+<recipe name="resourceGlue" count="1" craft_area="campfire" craft_time = "6" craft_tool="toolCookingPot">
+	<ingredient name="resourceBone" count="6"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 
 <recipe name="resourceGlue" count="1" craft_area="chemistryStation" craft_time = "4" tags="perkYeahScienceCrafting,chemStationCrafting">
-	<ingredient name="resourceBone" count="2"/>
+	<ingredient name="resourceBone" count="3"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="chemistryStation" craft_time = "2" tags="perkAdvancedEngineering,chemStationCrafting">
+	<ingredient name="foodCropGraceCorn" count="2"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 
@@ -1982,12 +1991,12 @@
 	<ingredient name="resourceOilShale" count="10"/>
 </recipe>
 
-<recipe name="HDGunPowderBundle" count="1" craft_time="1000" craft_tool="HDGrinder" craft_area="HD AmmoBench">
+<recipe name="HDGunPowderBundle" count="1" craft_time="1000" craft_tool="HDGrinder" craft_area="HD AmmoBench" tags="workbenchCrafting">
 	<ingredient name="resourceCoal" count="800"/>
 	<ingredient name="resourcePotassiumNitratePowder" count="800"/>
 </recipe>
 
-<recipe name="HDammoGasCanBundle" count="1" craft_time="500" craft_tool="HDGrinder" craft_area="HD AmmoBench">
+<recipe name="HDammoGasCanBundle" count="1" craft_time="500" craft_tool="HDGrinder" craft_area="HD AmmoBench" tags="workbenchCrafting">
 	<ingredient name="resourceOilShale" count="800"/>
 </recipe>
 

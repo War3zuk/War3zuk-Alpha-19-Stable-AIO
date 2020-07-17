@@ -1,5 +1,24 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v2.2 to v2.3
+
+Added SuperCorn Glue
+Adjusted HD Forge Particle
+Adjusted HD Working Fire particle
+
+Added Vanilla Bonus To Bundle Crafting
+
+Added Entity ZombiePhantom
+Added Entity ZombiePhantomFire
+Added Entity ZombiePhantomRAD
+
+Removed Minion Lootbag
+Added Crash Bandicoot Custom PBR Model (Paid)
+
+Removed CandyTin From Recipes B169 Changes
+Rebuilt HD Breaching C4
+Rebuild JD Land Mine
+
 Updated v2.1 to v2.2
 
 Fixed Bench UI Interactions

@@ -28,6 +28,27 @@
 	
 <append xpath="/blocks">
 	
+<block name="HD Crash Bandicoot">
+	<property name="Material" value="Mplastics"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#@modfolder:Resources/HD Crash Bandicoot.unity3d?HD Crash Bandicoot.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="DescriptionKey" value="HDCrashBandicootDesc"/>
+	<property class="RepairItems">
+		<property name="resourceScrapPolymers" value="20"/>
+		</property>
+		<property name="SellableToTrader" value="true"/>
+	<property name="EconomicValue" value="450"/>
+	<property name="FilterTags" value="floot,fdecor,fother,ffurniture"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+</block>
+	
 <block name="urinalCommercialMounted">
 	<property name="Material" value="MstoneFurniture"/>
 	<property name="StabilitySupport" value="false"/>
@@ -2160,7 +2181,7 @@
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="ParticleName" value="forge"/>
-	<property name="ParticleOffset" value="0.5,1.5,0.3"/>
+	<property name="ParticleOffset" value="0.5,0.6,0.5"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Stacknumber" value="25000"/>
 	<property name="HeatMapStrength" value="3"/>

@@ -50,7 +50,7 @@ HDRocketLauncherNukeRoundDesc,items,,,The K9 Nuke Round is used ONLY In the HD R
 
 StarterClassDesc,items,weapons,New,Select This And Use Its Recipe To Craft Your Class,
 
-HDRuckSackUpgradeDesc,items,weapons,New,RuckSack Upgrade. Adds 15 Slots To Your Carry Capacity,
+HDRuckSackUpgradeDesc,items,weapons,New,RuckSack Upgrade. Adds 15 Slots To Your Carry Capacity when placed into your Armor pieces.,
 
 EthansBamHammerDesc,items,weapons,New,Ethans Bam Hammer. Only The Just Can Wield This Sort Of POWER,
 
