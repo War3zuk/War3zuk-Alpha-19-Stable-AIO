@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <prefab>
   <property name="CopyAirBlocks" value="True" />
   <property name="AllowTopSoilDecorations" value="False" />
   <property name="TraderArea" value="False" />
   <property name="ExcludeDistantPOIMesh" value="False" />
   <property name="ExcludePOICulling" value="False" />
-  <property name="QuestTags" value="clear,fetch,hidden_cache" />
-  <property name="DifficultyTier" value="3" />
+    <property name="QuestTags" value="clear,fetch,hidden_cache"/>
+    <property name="DifficultyTier" value="1"/>
   <property name="Zoning" value="Downtown,Industrial,ResidentialNew,ResidentialOld,Residential" />
   <property name="RotationToFaceNorth" value="2" />
   <property name="YOffset" value="-1" />
@@ -25,11 +25,11 @@
   <property name="SleeperVolumeFlags" value="2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
   <property class="Stats">
-    <property name="TotalVertices" value="1854394" />
-    <property name="TotalTriangles" value="1676037" />
+    <property name="TotalVertices" value="1858693" />
+    <property name="TotalTriangles" value="1705568" />
     <property class="BlockEntities">
-      <property name="Vertices" value="1658034" />
-      <property name="Triangles" value="1555327" />
+      <property name="Vertices" value="1662333" />
+      <property name="Triangles" value="1584858" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="75752" />
@@ -76,9 +76,13 @@
     <property class="TraderOnOff">
       <property name="0" value="15, 1, 32" />
     </property>
+    <property class="Rally">
+      <property name="0" value="32, 1, 1" />
+    </property>
     <property class="FetchContainer">
       <property name="0" value="28, 1, 23" />
       <property name="1" value="29, 1, 18" />
+      <property name="2" value="37, 12, 22" />
     </property>
   </property>
 </prefab>

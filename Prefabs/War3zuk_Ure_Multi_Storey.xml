@@ -5,6 +5,7 @@
   <property name="TraderArea" value="False" />
   <property name="ExcludeDistantPOIMesh" value="False" />
   <property name="ExcludePOICulling" value="False" />
+  <property name="QuestTags" value="clear,fetch,hidden_cache" />
   <property name="DifficultyTier" value="1" />
   <property name="Zoning" value="Commercial,Downtown,Residential" />
   <property name="RotationToFaceNorth" value="2" />
@@ -23,11 +24,11 @@
   <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0" />
   <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0" />
   <property class="Stats">
-    <property name="TotalVertices" value="2273802" />
-    <property name="TotalTriangles" value="3028166" />
+    <property name="TotalVertices" value="2282999" />
+    <property name="TotalTriangles" value="3041226" />
     <property class="BlockEntities">
-      <property name="Vertices" value="2189978" />
-      <property name="Triangles" value="2972938" />
+      <property name="Vertices" value="2199513" />
+      <property name="Triangles" value="2986380" />
     </property>
     <property class="ChunkMeshes0">
       <property name="Vertices" value="66952" />
@@ -46,8 +47,8 @@
       <property name="Triangles" value="3940" />
     </property>
     <property class="ChunkMeshes4">
-      <property name="Vertices" value="7920" />
-      <property name="Triangles" value="7080" />
+      <property name="Vertices" value="7582" />
+      <property name="Triangles" value="6698" />
     </property>
     <property class="ChunkMeshes5">
       <property name="Vertices" value="0" />
@@ -68,6 +69,14 @@
     <property class="ChunkMeshes9">
       <property name="Vertices" value="0" />
       <property name="Triangles" value="0" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="FetchContainer">
+      <property name="0" value="18, 13, 2" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="16, 7, 2" />
     </property>
   </property>
 </prefab>

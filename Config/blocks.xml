@@ -39,6 +39,7 @@
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="CustomIcon" value="HD Crash Bandicoot"/>
 	<property name="DescriptionKey" value="HDCrashBandicootDesc"/>
 	<property class="RepairItems">
 		<property name="resourceScrapPolymers" value="20"/>

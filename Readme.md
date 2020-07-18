@@ -1,11 +1,26 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v2.4 to v2.5
+
+Added 256x256 Icon For Crash Bandicoot Statue
+
+Launcher Edits:
+Added The Following Prefabs To Quests,Fetch,Clear L1
+Nauti Burrows (Harry Potter Film)
+Nauti Lattez Club
+Nauti Pentagon Building
+Nauti Baskin Animal Sanctuary
+War3zuk Housing Block
+War3zuk JailHouse
+War3zuk Bike Repair Shop
+War3zuk Multi Storey Plazza
+
 Updated v2.3 to v2.4
 
 Rebuilt Spawning Code
 Rebuilt Giant Animals
 Rebuilt Demos
-Rebuilt Phantoms
+Rebuilt Phantasm's
 
 Fixed Spawning Code
 Fixed Entity Code

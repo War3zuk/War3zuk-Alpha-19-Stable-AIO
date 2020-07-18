@@ -5,6 +5,7 @@
     <property name="TraderArea" value="False"/>
     <property name="ExcludeDistantPOIMesh" value="False"/>
     <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="clear,fetch,hidden_cache"/>
     <property name="DifficultyTier" value="1"/>
     <property name="Zoning" value="Residential"/>
     <property name="RotationToFaceNorth" value="2"/>
