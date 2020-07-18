@@ -10,6 +10,12 @@ Rebuilt Phantoms
 Fixed Spawning Code
 Fixed Entity Code
 
+Adjusted Entity Group Spawns B169
+
+Launcher Edits:
+Readded Full Patched SMX UI System
+Update 2 Prefabs (B169 Changes)
+
 Updated v2.2 to v2.3
 
 Added SuperCorn Glue

@@ -205,14 +205,11 @@
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieFatHawaiianFeral" />
 		<entity name="zombiePhantasm" prob="0.1"/>
-		<entity name="zombiePhantasmFire" prob="0.1"/>
-		<entity name="zombiePhantasmRAD" prob="0.1"/>
-		<entity name="zombieDemolition" prob="0.1"/>
-		<entity name="GiantDemolisher" prob="0.1"/>
-		<entity name="GiantDemolisherFire" prob="0.1"/>
-		<entity name="GiantDemolisherRad" prob="0.1"/>
-		<entity name="GiantUndeadVulture" prob="0.1"/>
-		<entity name="GiantUndeadVultureFire" prob="0.1"/>
+		<entity name="zombiePhantasmFire" prob=".75"/>
+		<entity name="zombiePhantasmRAD" prob=".75"/>
+		<entity name="zombieDemolition" prob=".50"/>
+		<entity name="GiantUndeadVulture" prob=".75"/>
+		<entity name="GiantUndeadVultureFire" prob=".75"/>
 		<!--  <entity name="GiantUndeadVultureRAD" prob="0.01"/> -->
 </entitygroup>
 	
@@ -271,12 +268,12 @@
 		<entity name="zombiePhantasm" prob="0.8"/>
 		<entity name="zombiePhantasmFire" prob="0.5"/>
 		<entity name="zombiePhantasmRAD" prob="0.5"/>
-		<entity name="GiantDemolisher" prob="0.1"/>
-		<entity name="zombieDemolition" prob="0.1"/>
-		<entity name="GiantDemolisherFire" prob="0.1"/>
-		<entity name="GiantDemolisherRad" prob="0.1"/>
-		<entity name="GiantUndeadVulture" prob="0.1"/>
-		<entity name="GiantUndeadVultureFire" prob="0.1"/>
+		<entity name="GiantDemolisher" prob=".50"/>
+		<entity name="zombieDemolition" prob=".50"/>
+		<entity name="GiantDemolisherFire" prob=".50"/>
+		<entity name="GiantDemolisherRad" prob=".50"/>
+		<entity name="GiantUndeadVulture" prob=".50"/>
+		<entity name="GiantUndeadVultureFire" prob=".50"/>
 		<!--  <entity name="GiantUndeadVultureRAD" prob="0.01"/> -->
 </entitygroup>
 		
@@ -303,13 +300,13 @@
 		<entity name="zombiePhantasm" />
 		<entity name="zombiePhantasmFire" />
 		<entity name="zombiePhantasmRAD" />
-		<entity name="GiantDemolisher" />
-		<entity name="zombieDemolition" />
-		<entity name="GiantDemolisher" />
-		<entity name="GiantDemolisherFire" />
-		<entity name="GiantDemolisherRad" />
-		<entity name="GiantUndeadVulture" />
-		<entity name="GiantUndeadVultureFire" />
+		<entity name="GiantDemolisher" prob=".50"/>
+		<entity name="zombieDemolition" prob=".50"/>
+		<entity name="GiantDemolisher" prob=".50"/>
+		<entity name="GiantDemolisherFire" prob=".50"/>
+		<entity name="GiantDemolisherRad" prob=".50"/>
+		<entity name="GiantUndeadVulture" prob=".50"/>
+		<entity name="GiantUndeadVultureFire" prob=".50"/>
 		<!--  <entity name="GiantUndeadVultureRAD" prob="0.01"/> -->
 </entitygroup>
 		
@@ -335,16 +332,15 @@
 		<entity name="animalZombieVultureRadiated" />
 		<entity name="zombieMaleHazmat" />
 		<entity name="zombieFatHawaiian" />
-		<entity name="zombieDemolition" />
 		<entity name="zombiePhantasm" />
 		<entity name="zombiePhantasmFire" />
 		<entity name="zombiePhantasmRAD" />
-		<entity name="zombieDemolition" />
-		<entity name="GiantDemolisher" />
-		<entity name="GiantDemolisherFire" />
-		<entity name="GiantDemolisherRad" />
-		<entity name="GiantUndeadVulture" />
-		<entity name="GiantUndeadVultureFire" />
+		<entity name="zombieDemolition" prob=".80"/>
+		<entity name="GiantDemolisher" prob=".80"/>
+		<entity name="GiantDemolisherFire" prob=".80"/>
+		<entity name="GiantDemolisherRad" prob=".80"/>
+		<entity name="GiantUndeadVulture" prob=".80"/>
+		<entity name="GiantUndeadVultureFire" prob=".80"/>
 		<!--  <entity name="GiantUndeadVultureRAD" prob="0.01"/> -->
 </entitygroup>
 		
@@ -368,16 +364,15 @@
 		<entity name="animalZombieVulture" />
 		<entity name="animalZombieVultureRadiated" />
 		<entity name="zombieFatHawaiian" />
-		<entity name="zombieDemolition" />
 		<entity name="zombiePhantasm" />
 		<entity name="zombiePhantasmFire" />
 		<entity name="zombiePhantasmRAD" />
-		<entity name="zombieDemolition" />
-		<entity name="GiantDemolisher" />
-		<entity name="GiantDemolisherFire" />
-		<entity name="GiantDemolisherRad" />
-		<entity name="GiantUndeadVulture" />
-		<entity name="GiantUndeadVultureFire" />
+		<entity name="zombieDemolition" prob=".90"/>
+		<entity name="GiantDemolisher" prob=".90"/>
+		<entity name="GiantDemolisherFire" prob=".90"/>
+		<entity name="GiantDemolisherRad" prob=".90"/>
+		<entity name="GiantUndeadVulture" prob=".90"/>
+		<entity name="GiantUndeadVultureFire" prob=".90"/>
 		<!--  <entity name="GiantUndeadVultureRAD" prob="0.01"/> -->
 </entitygroup>
 
@@ -389,46 +384,11 @@
 		  
 </append>
 
-<insertAfter xpath="/entitygroups/entitygroup/entity[@name='zombieBoe']" >
-		<entity name="zombieDemolition" />
-		<entity name="zombiePhantasm" />
-		<entity name="zombiePhantasmFire" />
-		<entity name="zombiePhantasmRAD" />
-		<entity name="zombieDemolition" />
-		<entity name="GiantDemolisher" />
-		<entity name="GiantDemolisherFire" />
-		<entity name="GiantDemolisherRad" />
-		<entity name="GiantUndeadVulture" />
-		<entity name="GiantUndeadVultureFire" />
-		<!--  <entity name="GiantUndeadVultureRAD" prob="0.01"/> -->
-</insertAfter>
-
 <insertAfter xpath="/entitygroups/entitygroup/entity[@name='zombieBoeFeral']" >
-		<entity name="zombieDemolition" />
-		<entity name="zombiePhantasm" />
-		<entity name="zombiePhantasmFire" />
-		<entity name="zombiePhantasmRAD" />
-		<entity name="zombieDemolition" />
-		<entity name="GiantDemolisher" />
-		<entity name="GiantDemolisherFire" />
-		<entity name="GiantDemolisherRad" />
-		<entity name="GiantUndeadVulture" />
-		<entity name="GiantUndeadVultureFire" />
-		<!--  <entity name="GiantUndeadVultureRAD" prob="0.01"/> -->
-</insertAfter>
-
-<insertAfter xpath="/entitygroups/entitygroup/entity[@name='zombieFatCopFeral']" >
-		<entity name="zombieDemolition" />
-		<entity name="zombiePhantasm" />
-		<entity name="zombiePhantasmFire" />
-		<entity name="zombiePhantasmRAD" />
-		<entity name="zombieDemolition" />
-		<entity name="GiantDemolisher" />
-		<entity name="GiantDemolisherFire" />
-		<entity name="GiantDemolisherRad" />
-		<entity name="GiantUndeadVulture" />
-		<entity name="GiantUndeadVultureFire" />
-		<!--  <entity name="GiantUndeadVultureRAD" prob="0.01"/> -->
+		<entity name="zombiePhantasm" prob=".90"/>
+		<entity name="zombiePhantasmFire" prob=".70"/>
+		<entity name="zombiePhantasmRAD" prob=".50"/>
+		<entity name="zombieDemolition" prob=".50"/>
 </insertAfter>
 
 </entitygroups>
