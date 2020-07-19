@@ -2,6 +2,7 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v2.4 to v2.5
 
+Fixed Engineering Class Crossbow
 Added 256x256 Icon For Crash Bandicoot Statue
 
 Launcher Edits:
