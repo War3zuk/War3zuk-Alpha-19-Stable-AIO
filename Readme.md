@@ -6,6 +6,10 @@ Fixed Engineering Class Crossbow
 Added 256x256 Icon For Crash Bandicoot Statue
 
 Edited Zombie AI (Improved Sight Threshold Hopefully)
+Edited CntHospitalBed (Sound)
+
+Rebuilt Spawn Groups Animals
+Rebuild Spawn Groups Zombies
 
 Launcher Edits:
 Added The Following Prefabs To Quests,Fetch,Clear L1
