@@ -5,6 +5,8 @@ Updated v2.4 to v2.5
 Fixed Engineering Class Crossbow
 Added 256x256 Icon For Crash Bandicoot Statue
 
+Edited Zombie AI (Improved Sight Threshold Hopefully)
+
 Launcher Edits:
 Added The Following Prefabs To Quests,Fetch,Clear L1
 Nauti Burrows (Harry Potter Film)
@@ -15,6 +17,11 @@ War3zuk Housing Block
 War3zuk JailHouse
 War3zuk Bike Repair Shop
 War3zuk Multi Storey Plazza
+
+Adjusted SlyShip Sleeper Spawning
+
+Added 0-CreaturePackAnimals (Xyth Community Project)
+Added 0-CreaturePackZombies (Xyth Community Project)
 
 Updated v2.3 to v2.4
 

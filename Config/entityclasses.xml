@@ -34,11 +34,13 @@
 	<set xpath="/entity_classes/entity_class[@name='zombieStripper']/property[@name='HandItem']/@value">meleeHandZombieStripperWAR</set>
 	<set xpath="/entity_classes/entity_class[@name='zombieStripperFeral']/property[@name='HandItem']/@value">meleeHandZombieStripperWAR</set>
 	
-	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">15</set>
-	
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='MoveSpeed']/@value">0.55</set>
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='MoveSpeedAggro']/@value">0.6, 1.75</set>
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='MoveSpeedPanic']/@value">0.75</set>
+	
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SleeperSmellSenseThreshold']/@value">30,50</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SleeperSmellWakeThreshold']/@value">50,100</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SmellAlertThreshold']/@value">50</set>
 
 <append xpath="/entity_classes">
 
