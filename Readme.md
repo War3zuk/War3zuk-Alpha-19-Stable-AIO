@@ -2,6 +2,13 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v2.4 to v2.5
 
+Added HD War3zuk Dune Buggy PBR Model (Paid)
+Added Icons 256x256
+Added NavUI Icons 256x256
+Unlocked Via GreaseMonkey L4
+
+Fixed HD Shotguns Bad RNG Code
+Fixed HD Scrap Tools Code
 Fixed Engineering Class Crossbow
 Added 256x256 Icon For Crash Bandicoot Statue
 
@@ -26,6 +33,10 @@ Adjusted SlyShip Sleeper Spawning
 
 Added 0-CreaturePackAnimals (Xyth Community Project)
 Added 0-CreaturePackZombies (Xyth Community Project)
+Added 0-CreaturePackHumans (Xyth Community Project)
+
+Edited Zombie AI (Improved Sight Threshold Hopefully)
+NPC Bandits No Longer Attack Zombies
 
 Updated v2.3 to v2.4
 

@@ -24,6 +24,14 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+HDWar3zukBuggy,items,Item,KgNone,HD War3zuk Buggy,
+HDWar3zukBuggyChassis,items,Item,KgNone,HD War3zuk Buggy Chassis,
+HDWar3zukBuggyAccessories,items,Item,KgNone,HD War3zuk Buggy Accessories,
+
+HDWar3zukBuggyDesc,items,weapons,New,War3zuk Buggy For When You Want Too Drive In Style.\n\nModel Purchased From Unity Store By Myself.\n\nModel Altered By Éric Beaudon.,
+HDWar3zukBuggyChassisDesc,items,weapons,New,Chassis For The War3zuk Dune Buggy.,
+HDWar3zukBuggyAccessoriesDesc,items,weapons,New,Accessories For The War3zuk Dune Buggy.,
+
 HDCrashBandicootDesc,items,,,Craft your very own Crash Bandicoot to Guard Your Base haha.,
 
 CokaGamingsHotCheetosDesc,items,,,Flaming Hot Cheetos. Made with Real Cheese. But do you see any Cows in this game.,

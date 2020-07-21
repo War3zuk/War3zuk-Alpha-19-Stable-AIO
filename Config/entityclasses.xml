@@ -1090,6 +1090,27 @@
 	</effect_group>
 </entity_class>
 
+<entity_class name="HDWar3zukBuggy">
+	<property name="Tags" value="vehicle"/>
+	<property name="Class" value="EntityVJeep"/>
+	<property name="Parent" value="Cars"/>
+	<property name="Prefab" value="#@modfolder:Resources/HD War3zuk Buggy.unity3d?HD War3zuk Buggy"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="metal"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="79"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Explosion.ParticleIndex" value="6"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlockDamage" value="100"/>
+	<property name="Explosion.EntityDamage" value="100"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="HDWar3zukBuggyUI"/>
+	<property name="NavObject" value="HDWar3zukBuggyUI" />
+</entity_class>
+
 <!--  Insperation For These Dedicated Too AwakenedBison33  -->
 
 <entity_class name="zombiePhantasm" extends="zombieTemplateMale">

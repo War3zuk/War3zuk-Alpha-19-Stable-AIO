@@ -38,6 +38,7 @@
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='EconomicValue']/@value">8500</set>
 	
     <set xpath="/items/item/effect_group/passive_effect[(@name='EntityDamage') and (@value='-.15,.15')]/@value">.15</set>
+	<set xpath="/items/item/effect_group/passive_effect[(@name='EntityDamage') and (@value='.1,.5')]/@value">.5</set>
     <set xpath="/items/item/effect_group/passive_effect[(@name='BlockDamage') and (@value='-.15,.15')]/@value">.15</set>
     <set xpath="/items/item/effect_group/passive_effect[(@name='StaminaLoss') and (@value='-.05,.05')]/@value">.05</set>
     <set xpath="/items/item/effect_group/passive_effect[(@name='RoundsPerMinute') and (@value='-.05,.05')]/@value">.05</set>
@@ -294,6 +295,40 @@
 		<passive_effect name="StaminaLoss" operation="base_set" value="16.3" tags="secondary"/>
 	</effect_group>
 </item> -->
+	
+<item name="HDWar3zukBuggy">
+	<property name="DescriptionKey" value="HDWar3zukBuggyDesc"/>
+	<property name="CustomIcon" value="HD War3zuk Buggy" />
+	<property name="Extends" value="vehicleMinibikePlaceable"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD War3zuk Buggy.unity3d?HD War3zuk Buggy"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="EconomicValue" value="25000"/>
+	<property name="UnlockedBy" value="perkGreaseMonkey"/>
+	<property class="Action1">
+		<property name="Vehicle" value="HDWar3zukBuggy"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="HDWar3zukBuggy" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+</item>
+
+<item name="HDWar3zukBuggyChassis">
+	<property name="DescriptionKey" value="HDWar3zukBuggyChassisDesc"/>
+	<property name="CustomIcon" value="HD War3zuk Buggy Chassis" />
+	<property name="Extends" value="vehicleWheels"/>
+	<property name="EconomicValue" value="9000"/>
+	<property name="UnlockedBy" value="perkGreaseMonkey"/>
+</item>
+
+<item name="HDWar3zukBuggyAccessories">
+	<property name="DescriptionKey" value="HDWar3zukBuggyAccessoriesDesc"/>
+	<property name="CustomIcon" value="HD War3zuk Buggy Accessories" />
+	<property name="Extends" value="vehicleBicycleHandlebars"/>
+	<property name="EconomicValue" value="9000"/>
+	<property name="UnlockedBy" value="perkGreaseMonkey"/>
+</item>
 	
 <item name="HD Meat Cleaver">
 	<property name="DescriptionKey" value="HDMeatCleaverDesc"/>
@@ -1380,7 +1415,7 @@
 		<passive_effect name="EntityDamage" operation="base_set" value="12.5" tags="perkMiner69r"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="36.5" tags="perkMiner69r,miningTool"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="70" tags="perkMiner69r"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="19.0" tags="primary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="10.0" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="260,886" tier="1,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkMiner69r"/>
@@ -1395,14 +1430,14 @@
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/>
 		<passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value=".8" tags="terrGravel"/>
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="32.2" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="15.1" tags="secondary"/>
 	</effect_group>
 	<property name="PickupJournalEntry" value="miningTip"/>
 	<property name="RepairExpMultiplier" value="5.5"/>
@@ -1466,14 +1501,14 @@
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05"/>
 		<passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value=".8" tags="terrGravel"/>
 	</effect_group>
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_add" value="25.8" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_add" value="15.8" tags="secondary"/>
 	</effect_group>
 	<property name="Group" value="Basics,Building"/>
 	<property name="FilterTags" value="floot"/>
@@ -1510,7 +1545,7 @@
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.05,.05" tags="perkMiner69r"/>
 		<passive_effect name="StaminaLoss" operation="perc_add" value="-.05,.05"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.7" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.2" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="metal"/>
 	</effect_group>
@@ -1518,7 +1553,7 @@
 		<passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="30.5" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="15.5" tags="secondary"/>
 	</effect_group>
 	<property name="Group" value="Tools/Traps"/>
 </item>
@@ -1579,7 +1614,7 @@
 		<passive_effect name="EntityDamage" operation="base_set" value="20.5" tags="perkPummelPete"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="15.5" tags="perkPummelPete"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="55" tags="perkPummelPete,perkFlurryOfBlows"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="23.7" tags="primary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="20.1" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="300,700" tier="1,6" tags="perkPummelPete"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkPummelPete"/>
@@ -1601,7 +1636,7 @@
 	<effect_group name="Power Attack">
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="40.3" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="25.3" tags="secondary"/>
 	</effect_group>
 </item>
 
@@ -1661,7 +1696,7 @@
 		<passive_effect name="EntityDamage" operation="base_set" value="13.5" tags="perkDeepCuts,knife"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="10.5" tags="perkDeepCuts"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="120" tags="perkDeepCuts,perkFlurryOfBlows"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="7.3" tags="primary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="5.5" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="120,220" tier="1,6" tags="perkDeepCuts"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.0" tags="perkDeepCuts"/>
@@ -1682,7 +1717,7 @@
 		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
 		<passive_effect name="AttacksPerMinute" operation="base_add" value="-60" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="7.5" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="10.5" tags="secondary"/>
 		<triggered_effect trigger="onSelfSecondaryActionStart" action="AddJournalEntry" journal="powerAttackTip"/>
 	</effect_group>
 	<effect_group name="sneak damage bonus">

@@ -25,6 +25,30 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HDWar3zukBuggyAccessories" count="1" craft_time="180" craft_tool="HDWelder" craft_area="HD WorkBench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="resourceElectricParts" count="40"/>
+	<ingredient name="resourceHeadlight" count="10"/>
+	<ingredient name="resourceMetalPipe" count="50"/>
+	<ingredient name="resourceSpring" count="8"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+</recipe>
+
+<recipe name="HDWar3zukBuggyChassis" count="1" craft_time="180" craft_tool="HDWelder" craft_area="HD WorkBench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="resourceForgedSteel" count="250"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+	<ingredient name="resourceDuctTape" count="40"/>
+	<ingredient name="resourceLeather" count="100"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+</recipe>
+
+<recipe name="HDWar3zukBuggy" count="1" craft_time="180" craft_tool="HDWelder" craft_area="HD WorkBench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="HDWar3zukBuggyChassis" count="1"/>
+	<ingredient name="HDWar3zukBuggyAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+	
 <recipe name="HD Crash Bandicoot" count="1" craft_time="30">
 	<ingredient name="resourceScrapPolymers" count="500"/>
 </recipe>
