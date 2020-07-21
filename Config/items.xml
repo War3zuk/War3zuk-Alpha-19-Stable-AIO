@@ -296,6 +296,21 @@
 	</effect_group>
 </item> -->
 	
+<item name="VanillaEntityLoadingHack">
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="missingIcon"/><property name="CustomIconTint" value="90ff90"/>
+	<property name="HoldType" value="45"/>
+	<property name="HoldingItemHidden" value="true"/>
+	<property name="Meshfile" value="#Entities/Zombies?Zombies/zombieStandardBoeRagdoll.prefab"/>
+	<property name="DropMeshfile" value="#Entities/Zombies?Zombies/zombieStandardBoeRagdoll.prefab"/>
+	<property name="Material" value="MresourceScrapIron"/>
+	<property name="Weight" value="1"/>
+	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="EconomicValue" value="1"/>
+	<property name="EconomicBundleSize" value="1000"/>
+	<property name="Group" value="Resources"/>
+</item>
+	
 <item name="HDWar3zukBuggy">
 	<property name="DescriptionKey" value="HDWar3zukBuggyDesc"/>
 	<property name="CustomIcon" value="HD War3zuk Buggy" />

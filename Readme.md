@@ -1,5 +1,9 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v2.5 to v2.6
+
+Khaine's PreLoad Code
+
 Updated v2.4 to v2.5
 
 Added HD War3zuk Dune Buggy PBR Model (Paid)
