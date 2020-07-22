@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="True"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="clear,fetch,hidden_cache"/>
+    <property name="DifficultyTier" value="2"/>
+    <property name="Zoning" value="Industrial,Residential"/>
+    <property name="RotationToFaceNorth" value="2"/>
+    <property name="YOffset" value="-6"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="Condition" value="Normal"/>
+    <property name="Age" value="Old"/>
+    <property name="AllowedTownships" value="wilderness"/>
+    <property name="EditorGroups" value="Wilderness, government"/>
+    <property name="TraderAreaProtect" value="35, 25, 35"/>
+    <property name="TraderAreaTeleportSize" value="40, 30, 40"/>
+    <property name="TraderAreaTeleportCenter" value="1, 1, 1"/>
+    <property name="SleeperVolumeStart" value="0, 0, 0#14, 6, 26#31, 4, 37#31, 4, 29#14, 1, 26#31, 7, 17#33, 7, 22#17, 6, 37#14, 1, 32#20, 5, 49"/>
+    <property name="SleeperVolumeSize" value="53, 10, 57#9, 5, 9#9, 7, 5#9, 7, 8#9, 4, 6#5, 6, 5#1, 4, 1#7, 3, 5#9, 4, 4#5, 4, 7"/>
+    <property name="SleeperVolumeGroup" value="S_Zom_HazMat_Only,4,4,S_-_Group_Zom_Soldier,2,2,S_-_Group_Zom_Soldier,1,1,S_-_Group_Zom_Soldier,1,1,S_-_Group_Zom_Soldier,1,1,S_-_Group_Zom_Soldier,2,2,S_-_Group_Zom_Soldier,0,0,S_-_Group_Lab_Worker,1,1,S_-_Group_Zom_Soldier,2,2,S_-_Group_Zom_Soldier,1,1"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,"/>
+    <property name="SleeperIsLootVolume" value="False,True,True,True,True,True,True,True,True,True"/>
+    <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,0,0,2,0,2,2,1,2"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0,0,2,1,1,0,2,0"/>
+</prefab>

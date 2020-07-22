@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="False"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="DifficultyTier" value="1"/>
+    <property name="Zoning" value="Commercial,Residential"/>
+    <property name="RotationToFaceNorth" value="0"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedBiomes" value="snow,plains,pine_forest,forest,desert"/>
+    <property name="AllowedTownships" value="town"/>
+    <property name="EditorGroups" value="Wilderness"/>
+</prefab>

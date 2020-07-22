@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="True"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="fetch"/>
+    <property name="DifficultyTier" value="1"/>
+    <property name="Zoning" value="Residential"/>
+    <property name="RotationToFaceNorth" value="0"/>
+    <property name="YOffset" value="-9"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedBiomes" value="burnt_forest,snow,pine_forest,forest,desert,wasteland"/>
+    <property name="EditorGroups" value="world/deco/biome"/>
+    <property name="SleeperVolumeStart" value="0, 1, 0#42, 13, 0"/>
+    <property name="SleeperVolumeSize" value="34, 7, 15#6, 8, 15"/>
+    <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,1,1,S_Zom_Utility_Worker,2,2"/>
+    <property name="SleeperVolumeGameStageAdjust" value=","/>
+    <property name="SleeperIsLootVolume" value="False,False"/>
+    <property name="SleeperIsBossVolume" value="False,False"/>
+    <property name="SleeperVolumeFlags" value="1,0"/>
+    <property name="SleeperVolumeGroupId" value="0,0"/>
+</prefab>

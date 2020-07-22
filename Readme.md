@@ -16,10 +16,12 @@ Fixed HD Dragunov SVD Not Seeing Its Scope
 
 Fixed CntCoffin Code
 Added 2 Coffin Variants
+Added Modified Compo Pack
 
 Launcher Edits:
 NPC Bandits All Short Range
 NPC Humans Mid Ranged
+Added Modified Compo Pack
 
 Updated v2.4 to v2.5
 

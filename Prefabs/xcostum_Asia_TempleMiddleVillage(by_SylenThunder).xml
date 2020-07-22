@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="True"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="DifficultyTier" value="5"/>
+    <property name="Zoning" value="Commercial,Downtown,Industrial,ResidentialNew,ResidentialOld,Residential"/>
+    <property name="RotationToFaceNorth" value="1"/>
+    <property name="YOffset" value="-5"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland"/>
+    <property name="AllowedTownships" value="city,rural,town,wilderness"/>
+    <property name="EditorGroups" value="Wilderness"/>
+    <property name="SleeperVolumeStart" value="65, 0, 17#45, 4, 1#37, 4, 25#21, 4, 3#60, 4, 38#1, 9, 2#2, 13, 40#39, 16, 54#38, 12, 45#42, 20, 55#43, 20, 56"/>
+    <property name="SleeperVolumeSize" value="4, 4, 8#25, 3, 24#34, 3, 13#21, 3, 29#10, 3, 33#42, 3, 39#35, 3, 31#17, 3, 15#19, 3, 25#11, 3, 12#9, 7, 10"/>
+    <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Badass,0,1,S_-_Group_Biker_Bar,7,12,S_-Group_Generic_Zombie,3,5,S_-Group_Generic_Zombie,10,15,S_-_Group_Ghost_Town,6,9,S_-Group_Generic_Zombie,18,22,S_-Group_Generic_Zombie,14,18,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,5,9,S_-_Group_Zom_Badass_Only,0,1,S_-Group_Generic_Zombie,2,4"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,"/>
+    <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0"/>
+</prefab>

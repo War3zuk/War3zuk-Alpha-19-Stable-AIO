@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="False"/>
+    <property name="AllowTopSoilDecorations" value="True"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="clear,fetch,hidden_cache"/>
+    <property name="DifficultyTier" value="1"/>
+    <property name="Zoning" value="Commercial,Industrial,Residential"/>
+    <property name="RotationToFaceNorth" value="3"/>
+    <property name="YOffset" value="-10"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedBiomes" value="burnt_forest,plains,desert,wasteland"/>
+    <property name="AllowedTownships" value="rural,wilderness"/>
+    <property name="EditorGroups" value="Wilderness"/>
+    <property name="TraderAreaProtect" value="35, 25, 35"/>
+    <property name="TraderAreaTeleportSize" value="40, 30, 40"/>
+    <property name="TraderAreaTeleportCenter" value="1, 1, 1"/>
+    <property name="SleeperVolumeStart" value="0, 10, 0#14, 15, 1#20, 29, 19"/>
+    <property name="SleeperVolumeSize" value="40, 3, 55#25, 5, 53#13, 16, 14"/>
+    <property name="SleeperVolumeGroup" value="S_Zom_Utility_Worker,1,2,S_-_Group_Zom_Soldier,8,9,S_Zom_HazMat_Only,4,5"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,"/>
+    <property name="SleeperIsLootVolume" value="False,False,False"/>
+    <property name="SleeperIsBossVolume" value="False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,0"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0"/>
+</prefab>

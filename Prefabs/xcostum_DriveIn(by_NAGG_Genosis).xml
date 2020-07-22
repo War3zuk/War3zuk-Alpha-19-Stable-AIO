@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="DifficultyTier" value="2"/>
+    <property name="Zoning" value="Residential"/>
+    <property name="RotationToFaceNorth" value="2"/>
+    <property name="YOffset" value="-4"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="EditorGroups" value="Wilderness"/>
+    <property name="SleeperVolumeStart" value="19, 12, 82#19, 7, 82#27, 2, 11#9, 2, 12#5, 2, 27#5, 2, 49#27, 7, 16"/>
+    <property name="SleeperVolumeSize" value="18, 6, 1#18, 5, 1#13, 4, 16#18, 3, 15#51, 3, 21#46, 5, 30#17, 4, 12"/>
+    <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Badass,1,3,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,7,10,S_-_Group_Biker_Bar,4,6,S_-Group_Generic_Zombie,7,8,S_-Group_Generic_Zombie,9,10,S_-Group_Generic_Zombie,2,3"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,,,,,"/>
+    <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False"/>
+    <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0"/>
+</prefab>

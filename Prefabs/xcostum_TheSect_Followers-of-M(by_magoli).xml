@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="True"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="clear,fetch,hidden_cache"/>
+    <property name="DifficultyTier" value="1"/>
+    <property name="Zoning" value="Downtown,Industrial,Residential"/>
+    <property name="RotationToFaceNorth" value="0"/>
+    <property name="YOffset" value="-10"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland"/>
+    <property name="AllowedTownships" value="city,rural,town,wilderness"/>
+    <property name="EditorGroups" value="Wilderness"/>
+    <property name="TraderAreaProtect" value="35, 25, 35"/>
+    <property name="TraderAreaTeleportSize" value="40, 30, 40"/>
+    <property name="TraderAreaTeleportCenter" value="1, 1, 1"/>
+    <property name="SleeperVolumeStart" value="10, 5, 13#10, 11, 13#12, 15, 16"/>
+    <property name="SleeperVolumeSize" value="19, 5, 25#20, 3, 24#16, 5, 20"/>
+    <property name="SleeperVolumeGroup" value="S_-_Group_Hospital,6,7,S_-Group_Generic_Zombie,3,4,S_Zom_Businessman,2,3"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,"/>
+    <property name="SleeperIsLootVolume" value="False,False,False"/>
+    <property name="SleeperIsBossVolume" value="False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,0"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0"/>
+</prefab>

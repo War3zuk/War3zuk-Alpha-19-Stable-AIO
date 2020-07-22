@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="DifficultyTier" value="4"/>
+    <property name="Zoning" value="Downtown,Industrial,ResidentialNew,ResidentialOld,Residential"/>
+    <property name="RotationToFaceNorth" value="3"/>
+    <property name="YOffset" value="-15"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedBiomes" value="burnt_forest,snow,plains,pine_forest,forest,desert,wasteland"/>
+    <property name="AllowedTownships" value="city,rural,town"/>
+    <property name="EditorGroups" value="Wilderness"/>
+    <property name="SleeperVolumeStart" value="25, 16, 76#25, 16, 64#42, 16, 51#25, 16, 30#32, 16, 22#32, 20, 19#42, 20, 12#25, 24, 33#41, 24, 63#25, 24, 69#41, 28, 68#25, 28, 79#25, 28, 75#42, 28, 19#25, 28, 12#25, 28, 38#25, 30, 64#25, 32, 12#35, 32, 21#35, 32, 31#50, 32, 12#31, 36, 30#25, 36, 12#25, 36, 12#34, 40, 30#40, 5, 58#47, 5, 47"/>
+    <property name="SleeperVolumeSize" value="24, 3, 11#23, 3, 11#9, 3, 3#9, 3, 21#9, 3, 21#9, 3, 38#13, 3, 20#16, 3, 24#3, 3, 15#25, 3, 15#9, 3, 16#15, 3, 8#5, 3, 12#11, 3, 38#32, 3, 9#16, 3, 19#25, 3, 23#12, 3, 19#16, 3, 10#16, 3, 14#7, 3, 6#20, 3, 27#8, 3, 45#26, 3, 18#17, 3, 27#5, 3, 5#10, 3, 16"/>
+    <property name="SleeperVolumeGroup" value="S_-_Group_Abandoned_House,1,1,S_-Group_Generic_Zombie,1,1,S_-_Group_Abandoned_House,1,1,S_-_Group_Abandoned_House,1,1,S_-Group_Generic_Zombie,1,2,S_-_Group_Zom_Badass,1,2,S_-Group_Generic_Zombie,2,3,S_-_Group_Abandoned_House,3,4,S_-_Group_Ghost_Town,1,1,S_-Group_Generic_Zombie,3,4,S_-_Group_Biker_Bar,1,1,S_-_Group_Abandoned_House,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-_Group_Abandoned_House,1,2,S_-_Group_Biker_Bar,1,1,S_Zom_Businessman,3,4,S_Zom_Businessman,1,1,S_-_Group_Abandoned_House,1,1,S_-Group_Generic_Zombie,1,2,S_Zom_Utility_Worker,4,5,S_Zom_Utility_Worker,1,1,S_-_Group_Biker_Bar,1,1,S_-_Group_Zom_Badass,2,3,S_-Group_Generic_Zombie,2,3,S_-_Group_Abandoned_House,1,1"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,,,,,,,,,,,,,,"/>
+    <property name="SleeperIsLootVolume" value="True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,True,False,True,True,True,True,True,True,True"/>
+    <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+</prefab>
