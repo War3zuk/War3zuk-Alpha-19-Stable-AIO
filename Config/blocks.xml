@@ -3235,6 +3235,64 @@
 	<drop event="Harvest" name="resourceGoldNugget" prob=".05" count="5" tag="WasteTreasuresCoffinHarvest"/>
 </append>
 
+<append xpath="/blocks/block[@name='cntCoffinWildWestRandomHelper']">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="Loot"/>
+	<property name="Material" value="Mwood_weak"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity" />
+	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,1,2"/>
+	<property name="ImposterExchange" value="imposterPlate" param1="1"/>
+	<property name="LootList" value="15"/>
+	<drop event="Destroy" name="resourceWood" count="1,3"/>
+	<property name="FilterTags" value="floot,ffurniture"/>
+	<drop event="Harvest" name="resourceBone" prob=".05" count="1,4" tag="WasteTreasuresCoffinHarvest"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob=".05" count="5" tag="WasteTreasuresCoffinHarvest"/>
+	<drop event="Harvest" name="resourceSilverNugget" prob=".05" count="5" tag="WasteTreasuresCoffinHarvest"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".05" count="5" tag="WasteTreasuresCoffinHarvest"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCoffinWildWestOpen']">
+	<property name="Extends" value="cntCoffinWildWestRandomHelper" param1="DescriptionKey,DisplayInfo,CustomIcon,CustomIconTint"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="CreativeMode" value="Dev"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCoffinWildWestClosed']">
+	<property name="Extends" value="cntCoffinWildWestOpen"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/cntCoffin01.unity3d?cntCoffin01.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="15"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCoffinWildWestCracked']">
+	<property name="Extends" value="cntCoffinWildWestClosed"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="CreativeMode" value="Dev"/>
+</append>
+
+<append xpath="/blocks/block[@name='cntCoffinWildWestStack']">
+	<property name="Extends" value="cntCoffinWildWestClosed"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="#@modfolder:Resources/cntCoffin01.unity3d?cntCoffin01.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="CreativeMode" value="Dev"/>
+</append>
+
 <append xpath="/blocks/block[@name='cntDumpster']">
 	<property name="Class" value="Loot"/>
 	<property name="Material" value="Mmetal"/>
@@ -4928,18 +4986,21 @@
 	<property name="Texture" value="446"/>
 	<property name="UseGlobalUV" value="Local"/>
 	<property name="ImposterExcludeAndStop" value="true"/>
-	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="Place" value="TowardsPlacer"/>
 	<property name="AllowAllRotations" value="true"/>
 	<property name="Collide" value="movement,melee,rocket"/>
-	<property name="DowngradeBlock" value="HD wood Bars Centered"/>
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="10"/>
 		</property>
-	<property name="DescriptionKey" value="woodBarsDesc"/>
+	<drop event="Harvest" name="resourceScrapIron" count="32" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="DescriptionKey" value="ironBarsDesc"/>
 	<property name="FilterTags" value="fdecor,fother,fwindows,fdoors"/>
 	<property name="SortOrder1" value="7060"/>
 	<property name="SortOrder2" value="0061"/>
-	<property name="Group" value="Building,advBuilding"/>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="HD Steel Bars Centered"/>
 		<property name="Item" value="resourceForgedSteel"/>
@@ -4979,11 +5040,15 @@
 	<property class="RepairItems">
 		<property name="resourceForgedSteel" value="10"/>
 		</property>
-	<property name="DescriptionKey" value="woodBarsDesc"/>
+	<drop event="Harvest" name="resourceScrapIron" count="32" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="DescriptionKey" value="ironBarsDesc"/>
 	<property name="FilterTags" value="fdecor,fother,fwindows,fdoors"/>
 	<property name="SortOrder1" value="7060"/>
 	<property name="SortOrder2" value="0061"/>
-	<property name="Group" value="Building,advBuilding"/>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="HD Stainless Steel Bars Centered"/>
 		<property name="Item" value="Steel Polish"/>
@@ -5023,11 +5088,15 @@
 	<property class="RepairItems">
 		<property name="Steel Polish" value="10"/>
 		</property>
-	<property name="DescriptionKey" value="woodBarsDesc"/>
+	<drop event="Harvest" name="resourceScrapIron" count="32" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="DescriptionKey" value="ironBarsDesc"/>
 	<property name="FilterTags" value="fdecor,fother,fwindows,fdoors"/>
 	<property name="SortOrder1" value="7060"/>
 	<property name="SortOrder2" value="0061"/>
-	<property name="Group" value="Building,advBuilding"/>
 	<property class="UpgradeBlock">
 		<property name="ToBlock" value="HD Titanium Bars Centered"/>
 		<property name="Item" value="Titanium Polish"/>
@@ -5067,11 +5136,15 @@
 	<property class="RepairItems">
 		<property name="Titanium Polish" value="10"/>
 		</property>
-	<property name="DescriptionKey" value="woodBarsDesc"/>
+	<drop event="Harvest" name="resourceScrapIron" count="32" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="DescriptionKey" value="ironBarsDesc"/>
 	<property name="FilterTags" value="fdecor,fother,fwindows,fdoors"/>
 	<property name="SortOrder1" value="7060"/>
 	<property name="SortOrder2" value="0061"/>
-	<property name="Group" value="Building,advBuilding"/>
 </block>
 
 <block name="HD Titanium Bars">

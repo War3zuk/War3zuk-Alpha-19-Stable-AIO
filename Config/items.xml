@@ -2424,7 +2424,7 @@
 <item name="HD Desert Eagle">
 	<property name="CustomIcon" value="Desert Eagle 50"/>
 	<property name="DescriptionKey" value="HDDEDesc"/>
-	<property name="Tags" value="HDDESilencer,HDDEReflex,HDDEScope,weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+	<property name="Tags" value="HDDESilencer,HDDEReflex,HDDEScope,weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="75"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HD Desert Eagle.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2508,7 +2508,7 @@
 <item name="HD Desert Eagle Punisher">
 	<property name="CustomIcon" value="HD Desert Eagle Punisher"/>
 	<property name="DescriptionKey" value="HDDEDesc"/>
-	<property name="Tags" value="HDDEPunisherSilencer,HDDEPUNReflex,HDDEPunScope,weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic"/>
+	<property name="Tags" value="HDDEPunisherSilencer,HDDEPUNReflex,HDDEPunScope,weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="75"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HD Desert Eagle Punisher.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -4172,7 +4172,7 @@
 <item name="HD Dragunov SVD">
 	<property name="DescriptionKey" value="HDDSVDDesc"/>
 	<property name="CustomIcon" value="HD Dragunov SVD"/>
-	<property name="Tags" value="Dragunov,weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic"/>
+	<property name="Tags" value="Dragunov,weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Dragunov SVD.unity3d?HD Dragunov SVD.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -6226,12 +6226,12 @@
 	</property>
 	<effect_group name="meleeToolPickT3Auger">
 		<passive_effect name="EntityDamage" operation="base_set" value="5.5" tags="perkMiner69r"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="55.5" tags="perkMiner69r,miningTool"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="60.5" tags="perkMiner69r,miningTool"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="350" tags="perkMiner69r"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1400,4200" tier="1,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
-		<passive_effect name="MaxRange" operation="base_set" value="2.35" tags="perkMiner69r"/>
-		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
+		<passive_effect name="MaxRange" operation="base_set" value="5" tags="perkMiner69r"/>
+		<passive_effect name="BlockRange" operation="base_set" value="5" tags="perkMiner69r"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
@@ -6240,7 +6240,7 @@
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
-		<passive_effect name="PlayerExpGain" operation="perc_add" value="-.3" tags="Harvesting"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="-.1" tags="Harvesting"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/>
@@ -6253,10 +6253,10 @@
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value=".5" tags="perkMiner69r"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value=".5" tags="perkMiner69r"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.35" tags="perkMiner69r"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".35" tags="perkMiner69r"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.35" tags="perkMiner69r"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".35" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".001" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".001" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value=".001" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".001" tags="perkMiner69r"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="5" tags="perkMiner69r"/>
 	</effect_group>
@@ -6295,12 +6295,12 @@
 		<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
 	</property>
 	<effect_group name="meleeToolAxeT3Chainsaw">
-		<passive_effect name="EntityDamage" operation="base_set" value="10" tags="perkMiner69r"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="55.5" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="10.5" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="60.5" tags="perkMiner69r"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="350" tags="perkMiner69r"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1400,4200" tier="1,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
-		<passive_effect name="MaxRange" operation="base_set" value="2.35" tags="perkMiner69r"/>
+		<passive_effect name="MaxRange" operation="base_set" value="2.5" tags="perkMiner69r"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
 		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
@@ -6310,7 +6310,7 @@
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
-		<passive_effect name="PlayerExpGain" operation="perc_add" value="-.3" tags="Harvesting"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="-.2" tags="Harvesting"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkMiner69r"/>
@@ -6325,10 +6325,10 @@
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value=".5" tags="perkMiner69r"/>
 		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value=".5" tags="perkMiner69r"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="-.25" tags="perkMiner69r"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".25" tags="perkMiner69r"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.45" tags="perkMiner69r"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".45" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".001" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".001" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value=".001" tags="perkMiner69r"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".001" tags="perkMiner69r"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value="5" tags="perkMiner69r"/>
 	</effect_group>

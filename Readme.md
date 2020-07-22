@@ -2,7 +2,24 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v2.5 to v2.6
 
+HD War3zuk Dune Buggy XML Code Balanced
+
 Khaine's PreLoad Code
+HD WoodBars Upgrade DownGrade Path Fixed
+
+Rebuilt HD Auger Code
+Rebuilt HD Chainsaw Code
+
+Fixed HD Desert Eagle Not Seeing Its Scope
+Fixed HD Desert Eagle Punisher Not Seeing Its Scope
+Fixed HD Dragunov SVD Not Seeing Its Scope
+
+Fixed CntCoffin Code
+Added 2 Coffin Variants
+
+Launcher Edits:
+NPC Bandits All Short Range
+NPC Humans Mid Ranged
 
 Updated v2.4 to v2.5
 
