@@ -32,7 +32,17 @@ HDWar3zukBuggyDesc,items,weapons,New,War3zuk Buggy For When You Want Too Drive I
 HDWar3zukBuggyChassisDesc,items,weapons,New,Chassis For The War3zuk Dune Buggy.,
 HDWar3zukBuggyAccessoriesDesc,items,weapons,New,Accessories For The War3zuk Dune Buggy.,
 
+HDTacticalARSilencer,items,Item,KgNone,HD Tactical AR Silencer,
+HDTacticalARReflex,items,Item,KgNone,HD Tactical AR Reflex,
+HDTacticalARScope,items,Item,KgNone,HD Tactical AR Scope,
+
+HDTacticalARSilencerDesc,items,,,Military Grade Silencer For The HD Tactical AR.,
+TacticalARReflexDesc,items,,,Military Grade Reflex Sight For The HD Tactical AR.,
+HDTacticalARScopeDesc,items,,,Military Grade Scope For The HD Tactical AR.,
+
 HDCrashBandicootDesc,items,,,Craft your very own Crash Bandicoot to Guard Your Base haha.,
+HDKillingFloorZombie,items,Item,KgNone,HD Killing Floor Zombie,
+HDKillingFloorZombieDesc,items,,,Craft your very own Killing Floor Zombie to Guard Your Base haha.,
 
 CokaGamingsHotCheetosDesc,items,,,Flaming Hot Cheetos. Made with Real Cheese. But do you see any Cows in this game.,
 

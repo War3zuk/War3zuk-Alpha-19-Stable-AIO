@@ -28,6 +28,28 @@
 	
 <append xpath="/blocks">
 	
+<block name="HDKillingFloorZombie">
+	<property name="Material" value="Mplastics"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#@modfolder:Resources/HDKillingFloorZombie.unity3d?HDKillingFloorZombie.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="DisplayType" value="blockMulti"/>
+	<property name="MultiBlockDim" value="1,2,1"/>
+	<property name="CustomIcon" value="HD Killing Floor Zombie"/>
+	<property name="DescriptionKey" value="HDKillingFloorZombieDesc"/>
+	<property class="RepairItems">
+		<property name="resourceScrapPolymers" value="20"/>
+		</property>
+		<property name="SellableToTrader" value="true"/>
+	<property name="EconomicValue" value="450"/>
+	<property name="FilterTags" value="floot,fdecor,fother,ffurniture"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+</block>
+
 <block name="HD Crash Bandicoot">
 	<property name="Material" value="Mplastics"/>
 	<property name="MaxDamage" value="500"/>

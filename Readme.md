@@ -2,6 +2,10 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v2.6 to v2.7
 
+ZombieLootDropBag PBR Model (Final)
+This Is What It Will Be From Now On
+Added 2m Tall Craftable Version
+
 Rebuilt HD Tactical AR PBR Model (Paid)
 Added HD Tactical AR Silencer PBR Model (Paid)
 Added HD Tactical AR Reflex PBR Model (Paid)
@@ -9,6 +13,8 @@ Added HD Tactical AR Scope PBR Model (Paid)
 Added Icons 256x256
 
 Re-Balanced Warm Chunky Foods Stam,Food,Health
+
+Fixed CntBedroll Placement
 
 Launcher Edits:
 CreaturePack Humans Edits

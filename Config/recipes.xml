@@ -49,6 +49,10 @@
 	<ingredient name="carBattery" count="1"/>
 </recipe>
 	
+<recipe name="HDKillingFloorZombie" count="1" craft_time="30">
+	<ingredient name="resourceScrapPolymers" count="500"/>
+</recipe>
+
 <recipe name="HD Crash Bandicoot" count="1" craft_time="30">
 	<ingredient name="resourceScrapPolymers" count="500"/>
 </recipe>
