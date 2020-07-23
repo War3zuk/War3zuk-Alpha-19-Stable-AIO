@@ -1,5 +1,18 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v2.6 to v2.7
+
+Rebuilt HD Tactical AR PBR Model (Paid)
+Added HD Tactical AR Silencer PBR Model (Paid)
+Added HD Tactical AR Reflex PBR Model (Paid)
+Added HD Tactical AR Scope PBR Model (Paid)
+Added Icons 256x256
+
+Launcher Edits:
+CreaturePack Humans Edits
+Balanced NPC Bandits
+Balanced NPC Bandits Block Dmg
+
 Updated v2.5 to v2.6
 
 HD War3zuk Dune Buggy XML Code Balanced
