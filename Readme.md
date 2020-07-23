@@ -8,10 +8,17 @@ Added HD Tactical AR Reflex PBR Model (Paid)
 Added HD Tactical AR Scope PBR Model (Paid)
 Added Icons 256x256
 
+Re-Balanced Warm Chunky Foods Stam,Food,Health
+
 Launcher Edits:
 CreaturePack Humans Edits
 Balanced NPC Bandits
 Balanced NPC Bandits Block Dmg
+
+Switched From GitHub To GitLab (Includes)
+
+Official World (War3zukAIOAlpha19)
+Full CompoPack Alpha 19 Build 44 Edited
 
 Updated v2.5 to v2.6
 

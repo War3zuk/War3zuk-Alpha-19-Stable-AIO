@@ -202,7 +202,7 @@
 		<property name="DescriptionKey" value="HDColtM1911SilencerDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Colt M1911.unity3d?HDColtM1911Silencer.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Colt M1911.unity3d?HDColtM1911Silencer.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Colt M1911">
 			<property name="Sound_start" value="pistol_s_fire"/>
@@ -236,7 +236,7 @@
 		<property name="DescriptionKey" value="HDDesertEagleSilencerDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPunisherSilencer.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPunisherSilencer.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Desert Eagle Punisher">
 			<property name="Sound_start" value="DEFireS"/>
@@ -265,7 +265,7 @@
 		<property name="DescriptionKey" value="HDDesertEagleSilencerDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDesertEagle.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDesertEagle.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Desert Eagle">
 			<property name="Sound_start" value="DEFireS"/>
@@ -294,7 +294,7 @@
 		<property name="DescriptionKey" value="HDMac10AutoSilencerDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Mac10 Auto.unity3d?HDMac10AutoSilencer.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Mac10 Auto.unity3d?HDMac10AutoSilencer.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Mac10 Auto">
 			<property name="Sound_start" value="M4A1FireS"/>
@@ -324,7 +324,7 @@
 		<property name="DescriptionKey" value="HDMossberg500SilencerDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Mossberg 500.unity3d?HDMossberg500Silencer.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Mossberg 500.unity3d?HDMossberg500Silencer.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Mossberg 500">
 			<property name="Sound_start" value="MossBerg500S"/>
@@ -360,7 +360,7 @@
 		<property name="DescriptionKey" value="HDArcticWarfareSilencerDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Arctic Warfare.unity3d?HDArcticWarfareSilencer.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Arctic Warfare.unity3d?HDArcticWarfareSilencer.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Arctic Warfare">
 			<property name="Sound_start" value="AWFireS"/>
@@ -396,7 +396,7 @@
 		<property name="DescriptionKey" value="HDDragunovSVDSilencerDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Dragunov SVD.unity3d?HDDragunovSVDSilencer.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Dragunov SVD.unity3d?HDDragunovSVDSilencer.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Dragunov SVD">
 			<property name="Sound_start" value="DEALTFire01"/>
@@ -426,7 +426,7 @@
 		<property name="DescriptionKey" value="HDGlockAutoSilencerDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Glock Auto.unity3d?HDGlockAutoSilencer.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Glock Auto.unity3d?HDGlockAutoSilencer.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HDGlock18Auto">
 			<property name="Sound_start" value="HDGlockAutoFireS"/>
@@ -458,7 +458,7 @@
 		<property name="DescriptionKey" value="HDTacticalARSilencerDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Tactical AR.unity3d?Silencer.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Tactical AR.unity3d?Silencer.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Tactical AR">
 			<property name="Sound_start" value="ARS"/>
@@ -495,7 +495,7 @@
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="Group" value="Mods"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Glock Auto.unity3d?HDGlockAutoReflex.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Glock Auto.unity3d?HDGlockAutoReflex.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HDGlock18Auto">
 			<property name="CrosshairOnAim" value="false"/>
@@ -516,7 +516,7 @@
 		<property name="DescriptionKey" value="HDColtM1911REFLEXDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Colt M1911.unity3d?HDColtM1911REFLEX.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Colt M1911.unity3d?HDColtM1911REFLEX.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 
 		<item_property_overrides name="*">
 			<property name="CrosshairOnAim" value="true"/>
@@ -543,7 +543,7 @@
 		<property name="DescriptionKey" value="HDColtM1911AREFLEXDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Colt M1911A.unity3d?HDColtM1911AREFLEX.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Colt M1911A.unity3d?HDColtM1911AREFLEX.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 
 		<item_property_overrides name="*">
 			<property name="CrosshairOnAim" value="true"/>
@@ -570,7 +570,7 @@
 		<property name="DescriptionKey" value="HDDEReflexDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDEReflex.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDEReflex.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 
 		<item_property_overrides name="*">
 			<property name="CrosshairOnAim" value="true"/>
@@ -597,7 +597,7 @@
 		<property name="DescriptionKey" value="HDDEReflexDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPUNReflex.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPUNReflex.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Desert Eagle Punisher">
 			<property name="CrosshairOnAim" value="false"/>
@@ -619,7 +619,7 @@
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="Group" value="Mods"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HDSpas12Reflex.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HDSpas12Reflex.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Spas 12">
 			<property name="CrosshairOnAim" value="false"/>
@@ -641,7 +641,7 @@
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="Group" value="Mods"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Mossberg 500.unity3d?HDMossberg500Reflex.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Mossberg 500.unity3d?HDMossberg500Reflex.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Mossberg 500">
 			<property name="CrosshairOnAim" value="false"/>
@@ -663,7 +663,7 @@
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="Group" value="Mods"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Tactical AR.unity3d?Reflex.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Tactical AR.unity3d?Reflex.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 		
 		<item_property_overrides name="HD Tactical AR">
 			<property name="CrosshairOnAim" value="true"/>
@@ -696,7 +696,7 @@
 		<property name="DescriptionKey" value="HDDEScopeDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDERScope.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDERScope.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 
 		<item_property_overrides name="HD Desert Eagle">
 			<property name="ScopeScale" value="0.5,0.5,0.5"/>
@@ -721,7 +721,7 @@
 		<property name="DescriptionKey" value="HDDEPunScopeDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPunScope.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HDDEPunScope.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 
 		<item_property_overrides name="HD Desert Eagle Punisher">
 			<property name="ScopeScale" value="0.5,0.5,0.5"/>
@@ -746,7 +746,7 @@
 		<property name="DescriptionKey" value="HDM4A1CarbineScopeDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD M4A1 Carbine.unity3d?HDM4A1CarbineScope.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD M4A1 Carbine.unity3d?HDM4A1CarbineScope.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 
 		<item_property_overrides name="HD M4A1 Carbine">
 			<property name="ScopeScale" value="0.5,0.5,0.5"/>
@@ -771,7 +771,7 @@
 		<property name="DescriptionKey" value="HDDragunovSVDScopeDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Dragunov SVD.unity3d?HDDragunovSVDScope.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Dragunov SVD.unity3d?HDDragunovSVDScope.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 
 		<item_property_overrides name="HD Dragunov SVD">
 			<property name="ScopeScale" value="0.5,0.5,0.5"/>
@@ -796,7 +796,7 @@
 		<property name="DescriptionKey" value="HDTacticalARScopeDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Tactical AR.unity3d?Scope.Prefab"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Tactical AR.unity3d?Scope.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 
 		<item_property_overrides name="HD Tactical AR">
 			<property name="ScopeScale" value="1,1,1"/>
