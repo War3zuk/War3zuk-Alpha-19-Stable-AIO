@@ -24,6 +24,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+NaoyansYakitoriDesc,items,weapons,New,Traditional Japanese Skewers Dipped In Chili.,
+
 HDWar3zukBuggy,items,Item,KgNone,HD War3zuk Buggy,
 HDWar3zukBuggyChassis,items,Item,KgNone,HD War3zuk Buggy Chassis,
 HDWar3zukBuggyAccessories,items,Item,KgNone,HD War3zuk Buggy Accessories,

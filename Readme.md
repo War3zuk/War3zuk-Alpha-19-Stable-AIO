@@ -1,5 +1,9 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v2.7 to v2.8
+
+Added Naoyans Yakitori (Campfire + Grill)
+
 Updated v2.6 to v2.7
 
 ZombieLootDropBag PBR Model (Final)
