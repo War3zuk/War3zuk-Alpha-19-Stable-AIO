@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="DifficultyTier" value="1" />
+  <property name="TraderArea" value="False" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="SleeperVolumeSize" value="7, 7, 10#11, 4, 4#10, 4, 5#7, 4, 5#10, 4, 5#3, 4, 6#10, 4, 3" />
+  <property name="SleeperVolumeStart" value="7, 0, 9#14, 3, 22#14, 3, 17#10, 8, 16#14, 8, 21#7, 8, 20#9, 13, 20" />
+  <property name="SleeperVolumeGroupId" value="0,1,1,0,0,0,0" />
+  <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-_Group_Lab_Worker,1,1,S_-_Group_Ghost_Town,3,3" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False" />
+  <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,False" />
+  <property name="QuestTags" value="clear,fetch,hidden_cache" />
+  <property name="Zoning" value="ResidentialOld" />
+  <property name="AllowedTownships" value="city,town,rural,wilderness" />
+  <property name="EditorGroups" value="house old" />
+  <property name="YOffset" value="-1" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0" />
+  <property class="Stats">
+    <property name="TotalVertices" value="250471" />
+    <property name="TotalTriangles" value="222711" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="154837" />
+      <property name="Triangles" value="162639" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="76333" />
+      <property name="Triangles" value="41308" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="1128" />
+      <property name="Triangles" value="612" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="40" />
+      <property name="Triangles" value="20" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="14037" />
+      <property name="Triangles" value="11628" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="32" />
+      <property name="Triangles" value="16" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="4008" />
+      <property name="Triangles" value="6460" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="56" />
+      <property name="Triangles" value="28" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="3, 2, 5" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="21, 7, 25" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="13, 10, 9" />
+      <property name="1" value="13, 10, 14" />
+    </property>
+  </property>
+</prefab>

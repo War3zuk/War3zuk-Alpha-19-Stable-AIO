@@ -2,7 +2,32 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v2.7 to v2.8
 
+Updated ToolAnvil
+
 Added Naoyans Yakitori (Campfire + Grill)
+Updated Buried Supplies Quests Balanced
+
+Rebuilt Cook Quest Tier 1 To 5
+Tier 1 1x 5 Custom Food
+Tier 2 2x 5 Custom Food
+Tier 3 3x 5 Custom Food
+Tier 4 4x 5 Custom Food
+Tier 5 5x 5 Custom Food
+
+Rebuild Lovers Pizza (1 Recipe Now)
+Rebuilt Donnas Fubar Stew (1 Recipe Now)
+
+Fixed Localization For The Following
+Ipossoms Pavlova
+MsTeresas Burger Patty
+
+Fixed UI Window Issue From B163
+
+Launcher Edits:
+Xyth Fixed GuppyInsect
+Added Murder Hornet Insect
+Added Mods Section To Bdubs Vehicles
+Creature Packs Updated
 
 Updated v2.6 to v2.7
 

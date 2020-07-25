@@ -24,6 +24,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+PossumsPavlovaDesc,items,weapons,New,Traditional Pudding to help in the Zombie Slaying.,
+MsTeresasBurgerPattyDesc,items,weapons,New,Umm Buns with Bugers. What more can the body need.,
 NaoyansYakitoriDesc,items,weapons,New,Traditional Japanese Skewers Dipped In Chili.,
 
 HDWar3zukBuggy,items,Item,KgNone,HD War3zuk Buggy,
@@ -412,11 +414,7 @@ HDGrinder,items,Item,KgNone,HD Grinder,
 
 HDGrinderDesc,items,,,Add this to the HD AmmoBench To Grind Specialized items Like GunPowder.
 
-LoversPizzaDesc,items,,,Perfectly Prepared To Be Enjoyed While Killing Zombies And Twitching The Night Away.
-
-JamesIngredientsDesc,items,,,Perfectly Prepared For That Perfect Lovers Pizza.
-
-MichellesIngredientsDesc,items,,,Perfectly Prepared For That Perfect Lovers Pizza.
+LoversPizzaDesc,items,,,James And Michelles Lovers Pizza. Perfectly Prepared To Be Enjoyed While Killing Zombies And Twitching The Night Away.
 
 HDWelder,items,Item,KgNone,HD Welder,
 

@@ -825,14 +825,12 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 
-		<objective type="FetchKeep" id="foodHoney" value="10" phase="1" />
-		<objective type="FetchKeep" id="foodCanPears" value="10" phase="1" />
-		<objective type="FetchKeep" id="foodCanBeef" value="20" phase="1" />
-		<objective type="FetchKeep" id="foodCanStock" value="10" phase="1" />
-		<objective type="FetchKeep" id="HDBowl" value="20" phase="1" />
+		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodShamSandwich" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="1" />
+		<objective type="FetchKeep" id="drinkJarBeer" value="5" phase="1" />
 		
-		<objective type="Craft" id="Warm Chunky Honey" value="10" phase="2" />
-		<objective type="Craft" id="Warm Chunky Beef" value="10" phase="2" />
+		<objective type="Craft" id="Camoes Bifana" value="5" phase="2" />
 		
 		<reward type="Exp" value="100" />
 		<reward type="Quest" id="HD Cook PreReq 2" />
@@ -849,14 +847,18 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 
-		<objective type="FetchKeep" id="foodCanLamb" value="20" phase="1" />
-		<objective type="FetchKeep" id="foodCanSham" value="20" phase="1" />
-		<objective type="FetchKeep" id="foodRawMeat" value="40" phase="1" />
-		<objective type="FetchKeep" id="foodCropPotato" value="40" phase="1" />
-		<objective type="FetchKeep" id="HDBowl" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCanStock" value="5" phase="1" />
+		<objective type="FetchKeep" id="foodCropMushrooms" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCropPotato" value="10" phase="1" />
 		
-		<objective type="Craft" id="Warm Chunky Lamb" value="10" phase="2" />
-		<objective type="Craft" id="Warm Chunky Meat And Mash" value="10" phase="2" />
+		<objective type="Craft" id="Ralifs Borscht" value="5" phase="2" />
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodEgg" value="10" phase="3" />
+		
+		<objective type="Craft" id="AaronRockst4rs Fritos And Eggs" value="5" phase="4" />
 		
 		<reward type="Exp" value="200" />
 		<reward type="Quest" id="HD Cook PreReq 3" />
@@ -873,14 +875,23 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 
-		<objective type="FetchKeep" id="foodCanChicken" value="20" phase="1" />
-		<objective type="FetchKeep" id="foodCanStock" value="10" phase="1" />
-		<objective type="FetchKeep" id="foodCanCatfood" value="20" phase="1" />
-		<objective type="FetchKeep" id="foodCanDogfood" value="20" phase="1" />
-		<objective type="FetchKeep" id="HDBowl" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCanChili" value="5" phase="1" />
 		
-		<objective type="Craft" id="Warm Chunky Chicken" value="10" phase="2" />
-		<objective type="Craft" id="Warm Chunky Surprise" value="10" phase="2" />
+		<objective type="Craft" id="Diggitys Chilli Pork Chops" value="5" phase="2" />
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="3" />
+		<objective type="FetchKeep" id="foodCropPotato" value="10" phase="3" />
+		
+		<objective type="Craft" id="klausgamer14s Beef steak And Fries" value="5" phase="4" />
+		
+		<objective type="FetchKeep" id="foodCanPears" value="5" phase="5" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="5" />
+		<objective type="FetchKeep" id="foodHoney" value="5" phase="5" />
+		<objective type="FetchKeep" id="foodEgg" value="20" phase="5" />
+		
+		<objective type="Craft" id="Possums Pavlova" value="5" phase="6" />
 		
 		<reward type="Exp" value="300" />
 		<reward type="Quest" id="HD Cook PreReq 4" />
@@ -897,15 +908,29 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 
-
-		<objective type="FetchKeep" id="foodCanChili" value="20" phase="1" />
-		<objective type="FetchKeep" id="foodCanStock" value="10" phase="1" />
-		<objective type="FetchKeep" id="foodCanPasta" value="20" phase="1" />
-		<objective type="FetchKeep" id="foodCanTuna" value="10" phase="1" />
-		<objective type="FetchKeep" id="HDBowl" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCanChili" value="5" phase="1" />
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="1" />
 		
-		<objective type="Craft" id="Warm Chunky Chili" value="10" phase="2" />
-		<objective type="Craft" id="Warm Chunky Pasta" value="10" phase="2" />
+		<objective type="Craft" id="QueenOfScreamz8s Chili Burrito" value="5" phase="2" />
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="20" phase="3" />
+		<objective type="FetchKeep" id="foodCanChili" value="5" phase="3" />
+		<objective type="FetchKeep" id="foodRawMeat" value="25" phase="3" />
+		
+		<objective type="Craft" id="Papas Bare Back Ribs" value="5" phase="4" />
+		
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="5" />
+		<objective type="FetchKeep" id="resourceAnimalFat" value="20" phase="5" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="5" />
+		<objective type="FetchKeep" id="foodCanChili" value="5" phase="5" />
+		
+		<objective type="Craft" id="Naoyans Yakitori" value="5" phase="6" />
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="25" phase="7" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="7" />
+		
+		<objective type="Craft" id="CokaGamings Flaming Hot Cheetos" value="5" phase="8" />
 		
 		<reward type="Exp" value="400" />
 		<reward type="Quest" id="HD Cook PreReq 5" />
@@ -922,23 +947,44 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 
-		<objective type="FetchKeep" id="foodMeatStew" value="5" phase="1" />
-		<objective type="FetchKeep" id="foodShamChowder" value="5" phase="1" />
-		<objective type="FetchKeep" id="foodHoboStew" value="5" phase="1" />
-		<objective type="FetchKeep" id="foodVegetableStew" value="5" phase="1" />
-		<objective type="FetchKeep" id="HDBowl" value="20" phase="1" />
+		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="1" />
+		<objective type="FetchKeep" id="BabyChick" value="30" phase="1" />
+		<objective type="FetchKeep" id="foodCanChili" value="5" phase="1" />
 		
-		<objective type="Craft" id="Warm Chunky Meat Stew" value="5" phase="2" />
-		<objective type="Craft" id="Warm Chunky Sham Chowder" value="5" phase="2" />
-		<objective type="Craft" id="Warm Chunky Hobo Stew" value="5" phase="2" />
-		<objective type="Craft" id="Warm Chunky Vegetable Stew" value="5" phase="2" />
+		<objective type="Craft" id="KillJoyJessicas HotWings" value="5" phase="2" />
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodShamSandwich" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodRawMeat" value="10" phase="3" />
+		
+		<objective type="Craft" id="FaxFoxs Furr Burger" value="5" phase="4" />
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="20" phase="3" />
+		<objective type="FetchKeep" id="foodShamSandwich" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="5" />
+		<objective type="FetchKeep" id="foodCanChili" value="5" phase="5" />
+		
+		<objective type="Craft" id="MsTeresas Burger Patty" value="5" phase="6" />
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="25" phase="7" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="7" />
+		<objective type="FetchKeep" id="foodShamSandwich" value="10" phase="7" />
+		<objective type="FetchKeep" id="foodCanBeef" value="5" phase="7" />
+		
+		<objective type="Craft" id="Lovers Pizza" value="5" phase="8" />
+		
+		<objective type="FetchKeep" id="resourceBone" value="25" phase="9" />
+		<objective type="FetchKeep" id="foodCanSham" value="10" phase="9" />
+		<objective type="FetchKeep" id="foodCanStock" value="10" phase="9" />
+		<objective type="FetchKeep" id="foodCanTuna" value="10" phase="9" />
+		
+		<objective type="Craft" id="Donnas Fubar Stew" value="5" phase="10" />
 		
 		<reward type="Exp" value="1000" />
 		<reward type="SkillPoints" value="1" />
-		<reward type="Item" id="Camoes Bifana" value="10" />
-		<reward type="Item" id="Ralifs Borscht" value="10" />
-		<reward type="Item" id="Possums Pavlova" value="10" />
-		<reward type="Item" id="MsTeresas Burger Patty" value="10" />
+		<reward type="Item" id="Warm Chunky ChiliDog" value="5" />
+		<reward type="Item" id="Warm Chunky Steak And Potato" value="5" />
+		<reward type="Item" id="Warm Chunky Hobo Stew" value="5" />
 		<reward type="Item" id="HD Meat Hammer" value="6" />
 		<reward type="Item" id="HD Meat Cleaver" value="6" />
 		<reward type="Item" id="Class Cook VM" value="1" />
@@ -1043,7 +1089,7 @@
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
 			<property name="distance" value="100-200"/>
-			<property name="default_radius" value="3"/>
+			<property name="default_radius" value="10"/>
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
@@ -1057,7 +1103,7 @@
 			<property name="item_count" value="1"/>
 		</objective>
 
-		<action type="SpawnEnemy" id="zombieArlene,zombieMarlene,zombieMarlene,zombieWightFeral,zombieJoe,zombieMoe,zombieFemaleFat" value="3-5" phase="2"/>
+		<action type="SpawnEnemy" id="zombieArlene,zombieMarlene,zombieMarlene,zombieWightFeral,zombiePhantasm,zombieMoe,zombieFemaleFat" value="3-5" phase="2"/>
 
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -1098,11 +1144,11 @@
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
 			<property name="distance" value="200-300"/>
-			<property name="default_radius" value="4"/>
+			<property name="default_radius" value="12"/>
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
-			<property name="blocks_per_reduction" value="3" />
+			<property name="blocks_per_reduction" value="2" />
 			<property name="radius_reduction_sound" value="ui_radius_shrink" />
 		</objective>
 
@@ -1112,7 +1158,7 @@
 			<property name="item_count" value="1"/>
 		</objective>
 
-		<action type="SpawnEnemy" id="zombieArlene,zombieBoeFeral,zombieMarlene,zombieWightFeral,zombieJoe,zombieMoe,zombieFemaleFatFeral" value="4-6" phase="2"/>
+		<action type="SpawnEnemy" id="zombieArlene,zombieBoeFeral,zombieMarlene,zombieWightFeral,zombieJoe,zombiePhantasm,zombieFemaleFatFeral" value="4-6" phase="2"/>
 
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -1153,11 +1199,11 @@
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
 			<property name="distance" value="300-400"/>
-			<property name="default_radius" value="5"/>
+			<property name="default_radius" value="14"/>
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
-			<property name="blocks_per_reduction" value="4" />
+			<property name="blocks_per_reduction" value="2" />
 			<property name="radius_reduction_sound" value="ui_radius_shrink" />
 		</objective>
 
@@ -1167,7 +1213,7 @@
 			<property name="item_count" value="1"/>
 		</objective>
 
-		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieMarlene,zombieWightFeral,zombieJoe,zombieMoe,zombieFemaleFatFeral" value="5-7" phase="2"/>
+		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieMarlene,zombieWightFeral,zombiePhantasm,zombieMoe,zombieFemaleFatFeral" value="5-7" phase="2"/>
 
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -1208,11 +1254,11 @@
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
 			<property name="distance" value="400-500"/>
-			<property name="default_radius" value="6"/>
+			<property name="default_radius" value="16"/>
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
-			<property name="blocks_per_reduction" value="5" />
+			<property name="blocks_per_reduction" value="2" />
 			<property name="radius_reduction_sound" value="ui_radius_shrink" />
 		</objective>
 
@@ -1222,7 +1268,7 @@
 			<property name="item_count" value="1"/>
 		</objective>
 
-		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieScreamerRadiated,zombieWightFeral,zombieJoe,zombieMoe,zombieFemaleFatFeral" value="6-8" phase="2"/>
+		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieScreamerRadiated,zombieWightFeral,zombiePhantasmFire,GiantDemolisher,zombieFemaleFatFeral" value="6-8" phase="2"/>
 
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -1263,11 +1309,11 @@
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
 			<property name="distance" value="500-600"/>
-			<property name="default_radius" value="7"/>
+			<property name="default_radius" value="18"/>
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
-			<property name="blocks_per_reduction" value="6" />
+			<property name="blocks_per_reduction" value="2" />
 			<property name="radius_reduction_sound" value="ui_radius_shrink" />
 		</objective>
 
@@ -1277,7 +1323,7 @@
 			<property name="item_count" value="1"/>
 		</objective>
 
-		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieScreamerRadiated,zombieWightFeral,zombieDarleneFeral,zombieMoe,zombieFemaleFatFeral" value="7-9" phase="2"/>
+		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieScreamerRadiated,zombieWightFeral,zombieDarleneFeral,zombiePhantasmFire,zombieFemaleFatFeral" value="7-9" phase="2"/>
 
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -1318,11 +1364,11 @@
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
 			<property name="distance" value="600-800"/>
-			<property name="default_radius" value="10"/>
+			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
-			<property name="blocks_per_reduction" value="10" />
+			<property name="blocks_per_reduction" value="2" />
 			<property name="radius_reduction_sound" value="ui_radius_shrink" />
 		</objective>
 
@@ -1332,7 +1378,7 @@
 			<property name="item_count" value="1"/>
 		</objective>
 
-		<action type="SpawnEnemy" id="GiantUndeadHoundRad,zombieBoeFeral,GiantDemolisher,zombieWightFeral,GiantDemolisherFire,zombieMoe,GiantDemolisherRad" value="8-10" phase="2"/>
+		<action type="SpawnEnemy" id="GiantUndeadHoundRad,zombieBoeFeral,GiantDemolisher,zombieWightFeral,GiantDemolisherFire,zombiePhantasmFire,GiantDemolisherRad" value="8-10" phase="2"/>
 
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>

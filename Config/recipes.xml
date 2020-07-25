@@ -480,7 +480,7 @@
 
 <recipe name="MsTeresas Burger Patty" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
 	<ingredient name="resourceAnimalFat" count="4"/>
-	<ingredient name="foodShamSandwich" count="1"/>
+	<ingredient name="foodShamSandwich" count="2"/>
 	<ingredient name="foodRawMeat" count="4"/>
 	<ingredient name="foodCanChili" count="1"/>
 </recipe>
@@ -534,6 +534,35 @@
 	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
+<recipe name="Donnas Fubar Stew" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="foodCanSham" count="2"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="foodCanTuna" count="2"/>
+	<ingredient name="resourceBone" count="5"/>
+</recipe>
+
+<recipe name="DD1GGs Sham And Tuna Pie" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="foodCanSham" count="2"/>
+	<ingredient name="resourceBone" count="10"/>
+	<ingredient name="foodCanTuna" count="2"/>
+</recipe>
+
+<recipe name="BR1NXls HotPot Pizza Stew" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodHoney" count="1"/>
+	<ingredient name="foodCanDogfood" count="1"/>
+	<ingredient name="foodCanBeef" count="1"/>
+</recipe>
+
+<recipe name="Lovers Pizza" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodShamSandwich" count="2"/>
+	<ingredient name="foodCanBeef" count="1"/>
+</recipe>
+
 <recipe name="klausgamer14s Beef steak And Fries" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
 	<ingredient name="foodRawMeat" count="4"/>
 	<ingredient name="foodCropPotato" count="2"/>
@@ -560,7 +589,7 @@
 <recipe name="Naoyans Yakitori" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
 	<ingredient name="foodRawMeat" count="5"/>
 	<ingredient name="resourceAnimalFat" count="5"/>
-	<ingredient name="foodCornMeal" count="1"/>
+	<ingredient name="foodCornMeal" count="2"/>
 	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
@@ -1708,53 +1737,6 @@
 
 <recipe name="woodLogSpike1" count="1">
 	<ingredient name="resourceWood" count="10"/>
-</recipe>
-
-<recipe name="Donnas Fubar Stew" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="Donnas Fubar Steak" count="1"/>
-	<ingredient name="foodCanSham" count="1"/>
-	<ingredient name="foodCanStock" count="1"/>
-	<ingredient name="foodCanTuna" count="1"/>
-</recipe>
-		
-<recipe name="Donnas Fubar Steak" count="1" craft_time="2" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="foodRawMeat" count="2"/>
-	<ingredient name="resourceBone" count="1"/>
-	<ingredient name="resourceAnimalFat" count="1"/>
-</recipe>
-
-<recipe name="DD1GGs Sham And Tuna Pie" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="resourceAnimalFat" count="10"/>
-	<ingredient name="foodCanSham" count="2"/>
-	<ingredient name="resourceBone" count="10"/>
-	<ingredient name="foodCanTuna" count="2"/>
-</recipe>
-
-<recipe name="BR1NXls HotPot Pizza Stew" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="resourceAnimalFat" count="5"/>
-	<ingredient name="foodCornMeal" count="2"/>
-	<ingredient name="foodHoney" count="1"/>
-	<ingredient name="foodCanDogfood" count="1"/>
-	<ingredient name="foodCanBeef" count="1"/>
-</recipe>
-
-<recipe name="Lovers Pizza" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="James Ingredients" count="1"/>
-	<ingredient name="Michelles Ingredients" count="1"/>
-	<ingredient name="drinkJarBoiledWater" count="1"/>
-</recipe>
-
-<recipe name="James Ingredients" count="1" craft_time="2" >
-	<ingredient name="resourceAnimalFat" count="5"/>
-	<ingredient name="foodCornMeal" count="1"/>
-	<ingredient name="foodHoney" count="1"/>
-	<ingredient name="foodCanBeef" count="1"/>
-</recipe>
-
-<recipe name="Michelles Ingredients" count="1" craft_time="2" >
-	<ingredient name="resourceAnimalFat" count="5"/>
-	<ingredient name="foodCornMeal" count="2"/>
-	<ingredient name="foodCornBread" count="1"/>
 </recipe>
 
 <recipe name="HD Knife" craft_time = "30" count="10" >
