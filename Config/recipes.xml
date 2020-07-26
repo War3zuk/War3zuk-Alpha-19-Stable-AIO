@@ -610,6 +610,7 @@
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceLeather" count="2"/>
 	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceScrapBrass" count="20"/>
 </recipe>
 	
 <recipe name="HDScrapIronAxe" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">

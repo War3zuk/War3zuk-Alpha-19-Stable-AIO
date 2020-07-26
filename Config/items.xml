@@ -2102,12 +2102,12 @@
 <item name="HD Blunderbuss">
 	<property name="DescriptionKey" value="HDBlunderbussDesc"/>
 	<property name="CustomIcon" value="HD Blunderbuss" />
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,flaredBarrel,magazine,sideAttachments,stock,attStrength,perkBoomstick,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,flaredBarrel,magazine,sideAttachments,stock,noSilencer,attStrength,perkBoomstick,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="39"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD BlunderBuss.unity3d?HD BlunderBuss.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="Mmetal"/>
-	<property name="RepairTools" value="resourceMetalPipe"/>
+	<property name="RepairTools" value="resourceRepairKit"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="CrosshairOnAim" value="true"/>
@@ -2133,9 +2133,7 @@
 		<property name="Particles_muzzle_fire_fpv" value="gunfire_doublebarrel_fpv"/>
 		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
 		<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
-		<property name="ScopeOffset" value="-.00062,.088,.065"/>
-		<property name="SideOffset" value="0,0,0"/>
-		<property name="BarrelOffset" value="0,0,0"/>
+		<property name="ScopeOffset" value="-.000,.088,-.100"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
 	<property class="Action1">
@@ -2169,6 +2167,10 @@
 		<passive_effect name="DegradationMax" operation="base_set" value="50,100" tier="1,6" tags="perkBoomstick"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBoomstick"/>
 		<display_value name="dStatStunEffect" value="4"/>
+		
+        <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
+        <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
+		
 	</effect_group>
 </item>
 

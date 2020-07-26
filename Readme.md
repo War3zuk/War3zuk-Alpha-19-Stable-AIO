@@ -9,8 +9,8 @@ Re-Balanced Phantasm Spawns
 Re-Balanced Demo Spawns
 Re-Balanced Vulture Spawns
 
-Rebuilt HD BlunderBuss
-Added Mag Extender
+Added HD BlunderBuss PBR Model (Paid)
+Added HD BlunderBuss Mag Extender
 Removed Old Addons
 Adjusted Light Mod Position
 
