@@ -1,5 +1,22 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v2.8 to v2.9
+
+Rebuilt (itemInfoPanel UI)
+
+Re-Balanced Animal Spawns
+Re-Balanced Phantasm Spawns
+Re-Balanced Demo Spawns
+Re-Balanced Vulture Spawns
+
+Rebuilt HD BlunderBuss
+Added Mag Extender
+Removed Old Addons
+Adjusted Light Mod Position
+
+Launcher Edits:
+Re-Balanced Spider Spawns
+
 Updated v2.7 to v2.8
 
 Updated ToolAnvil

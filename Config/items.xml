@@ -2102,7 +2102,7 @@
 <item name="HD Blunderbuss">
 	<property name="DescriptionKey" value="HDBlunderbussDesc"/>
 	<property name="CustomIcon" value="HD Blunderbuss" />
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,flaredBarrel,sideAttachments,smallTopAttachments,stock,attStrength,perkBoomstick,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,flaredBarrel,magazine,sideAttachments,stock,attStrength,perkBoomstick,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="39"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD BlunderBuss.unity3d?HD BlunderBuss.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->

@@ -115,14 +115,14 @@
 		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieFatHawaiianFeral" />
-		<entity name="GiantUndeadHound" prob="5"/>
-		<entity name="GiantUndeadHoundFire" prob="5"/>
-		<entity name="zombiePhantasm" prob="0.1"/>
-		<entity name="zombiePhantasmFire" prob=".75"/>
-		<entity name="zombiePhantasmRAD" prob=".75"/>
-		<entity name="zombieDemolition" prob=".50"/>
-		<entity name="GiantUndeadVulture" prob=".75"/>
-		<entity name="GiantUndeadVultureFire" prob=".75"/>
+		<entity name="GiantUndeadHound" prob="0.3"/>
+		<entity name="GiantUndeadHoundFire" prob="0.3"/>
+		<entity name="zombiePhantasm" prob="0.3"/>
+		<entity name="zombiePhantasmFire" prob="0.2"/>
+		<entity name="zombiePhantasmRAD" prob="0.2"/>
+		<entity name="zombieDemolition" prob="0.2"/>
+		<entity name="GiantUndeadVulture" prob="0.1"/>
+		<entity name="GiantUndeadVultureFire" prob="0.1"/>
 	</append>
 	
 	<append xpath="/entitygroups/entitygroup[@name='ZombiesNight']">
@@ -168,81 +168,81 @@
 		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieFatHawaiianFeral" />
-		<entity name="GiantUndeadHound" prob="5"/>
-		<entity name="GiantUndeadHoundFire" prob="5"/>
-		<entity name="zombiePhantasm" prob="0.8"/>
-		<entity name="zombiePhantasmFire" prob="0.5"/>
-		<entity name="zombiePhantasmRAD" prob="0.5"/>
-		<entity name="GiantDemolisher" prob=".50"/>
-		<entity name="zombieDemolition" prob=".50"/>
-		<entity name="GiantDemolisherFire" prob=".50"/>
-		<entity name="GiantDemolisherRad" prob=".50"/>
-		<entity name="GiantUndeadVulture" prob=".50"/>
-		<entity name="GiantUndeadVultureFire" prob=".50"/>
+		<entity name="GiantUndeadHound" prob="0.4"/>
+		<entity name="GiantUndeadHoundFire" prob="0.4"/>
+		<entity name="zombiePhantasm" prob="0.3"/>
+		<entity name="zombiePhantasmFire" prob="0.3"/>
+		<entity name="zombiePhantasmRAD" prob="0.3"/>
+		<entity name="GiantDemolisher" prob="0.3"/>
+		<entity name="zombieDemolition" prob="0.3"/>
+		<entity name="GiantDemolisherFire" prob="0.2"/>
+		<entity name="GiantDemolisherRad" prob="0.2"/>
+		<entity name="GiantUndeadVulture" prob="0.1"/>
+		<entity name="GiantUndeadVultureFire" prob="0.1"/>
 	</append>
 	
 	<append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']">
-		<entity name="zombiePhantasm" />
-		<entity name="zombiePhantasmFire" />
-		<entity name="zombiePhantasmRAD" />
-		<entity name="GiantUndeadHound" prob="5"/>
-		<entity name="GiantUndeadHoundFire" prob="5"/>
-		<entity name="GiantDemolisher" prob=".50"/>
-		<entity name="zombieDemolition" prob=".50"/>
-		<entity name="GiantDemolisher" prob=".50"/>
-		<entity name="GiantDemolisherFire" prob=".50"/>
-		<entity name="GiantDemolisherRad" prob=".50"/>
-		<entity name="GiantUndeadVulture" prob=".50"/>
-		<entity name="GiantUndeadVultureFire" prob=".50"/>
+		<entity name="zombiePhantasm" prob="0.7"/>
+		<entity name="zombiePhantasmFire" prob="0.7"/>
+		<entity name="zombiePhantasmRAD" prob="0.7"/>
+		<entity name="GiantUndeadHound" prob="0.7"/>
+		<entity name="GiantUndeadHoundFire" prob="0.7"/>
+		<entity name="GiantDemolisher" prob="0.7"/>
+		<entity name="zombieDemolition" prob="0.7"/>
+		<entity name="GiantDemolisher" prob="0.7"/>
+		<entity name="GiantDemolisherFire" prob="0.7"/>
+		<entity name="GiantDemolisherRad" prob="0.7"/>
+		<entity name="GiantUndeadVulture" prob="0.7"/>
+		<entity name="GiantUndeadVultureFire" prob="0.7"/>
 	</append>
 	
 	<append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
-		<entity name="zombiePhantasm" />
-		<entity name="zombiePhantasmFire" />
-		<entity name="zombiePhantasmRAD" />
-		<entity name="GiantUndeadHound" prob="5"/>
-		<entity name="GiantUndeadHoundFire" prob="5"/>
-		<entity name="zombieDemolition" prob=".80"/>
-		<entity name="GiantDemolisher" prob=".80"/>
-		<entity name="GiantDemolisherFire" prob=".80"/>
-		<entity name="GiantDemolisherRad" prob=".80"/>
-		<entity name="GiantUndeadVulture" prob=".80"/>
-		<entity name="GiantUndeadVultureFire" prob=".80"/>
+		<entity name="zombiePhantasm" prob="0.7"/>
+		<entity name="zombiePhantasmFire" prob="0.7"/>
+		<entity name="zombiePhantasmRAD" prob="0.7"/>
+		<entity name="GiantUndeadHound" prob="0.7"/>
+		<entity name="GiantUndeadHoundFire" prob="0.7"/>
+		<entity name="zombieDemolition" prob="0.7"/>
+		<entity name="GiantDemolisher" prob="0.7"/>
+		<entity name="GiantDemolisherFire" prob="0.7"/>
+		<entity name="GiantDemolisherRad" prob="0.7"/>
+		<entity name="GiantUndeadVulture" prob="0.7"/>
+		<entity name="GiantUndeadVultureFire" prob="0.7"/>
 	</append>
 		
 	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
-		<entity name="GiantBoarFire" prob="10"/>
-		<entity name="GiantSnakeFire" prob="10"/>
-		<entity name="GiantUndeadHound" prob="5"/>
-		<entity name="GiantUndeadHoundFire" prob="5"/>
+		<entity name="GiantBoarFire" prob="4"/>
+		<entity name="GiantSnakeFire" prob="4"/>
+		<entity name="GiantUndeadHound" prob="4"/>
+		<entity name="GiantUndeadHoundFire" prob="4"/>
 	</append>
 	
 	<append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
-		<entity name="zombiePhantasm" />
-		<entity name="zombiePhantasmFire" />
-		<entity name="zombiePhantasmRAD" />
-		<entity name="GiantUndeadHound" prob="5"/>
-		<entity name="GiantUndeadHoundFire" prob="5"/>
-		<entity name="zombieDemolition" prob="5"/>
-		<entity name="GiantDemolisher" prob="5"/>
-		<entity name="GiantDemolisherFire" prob="5"/>
-		<entity name="GiantDemolisherRad" prob="5"/>
-		<entity name="GiantUndeadVulture" prob="5"/>
-		<entity name="GiantUndeadVultureFire" prob="5"/>
+		<entity name="zombiePhantasm" prob="0.7"/>
+		<entity name="zombiePhantasmFire" prob="0.7"/>
+		<entity name="zombiePhantasmRAD" prob="0.7"/>
+		<entity name="GiantUndeadHound" prob="4"/>
+		<entity name="GiantUndeadHoundFire" prob="4"/>
+		<entity name="zombieDemolition" prob="4"/>
+		<entity name="GiantDemolisher" prob="4"/>
+		<entity name="GiantDemolisherFire" prob="4"/>
+		<entity name="GiantDemolisherRad" prob="4"/>
+		<entity name="GiantUndeadVulture" prob="4"/>
+		<entity name="GiantUndeadVultureFire" prob="4"/>
 	</append>
 		
 	<append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']">
-		<entity name="zombiePhantasm" prob="5"/>
-		<entity name="zombiePhantasmFire" prob="5"/>
-		<entity name="zombiePhantasmRAD" prob="5"/>
-		<entity name="GiantDemolisher" prob="5"/>
-		<entity name="zombieDemolition" prob="5"/>
-		<entity name="GiantDemolisherFire" prob="5"/>
-		<entity name="GiantDemolisherRad" prob="5"/>
-		<entity name="GiantUndeadVulture" prob="5"/>
-		<entity name="GiantUndeadVultureFire" prob="5"/>
-		<entity name="GiantUndeadHound" prob="5"/>
-		<entity name="GiantUndeadHoundFire" prob="5"/>
+		<entity name="zombiePhantasm" prob="0.7"/>
+		<entity name="zombiePhantasmFire" prob="0.7"/>
+		<entity name="zombiePhantasmRAD" prob="0.7"/>
+		<entity name="GiantDemolisher" prob="0.7"/>
+		<entity name="zombieDemolition" prob="0.7"/>
+		<entity name="GiantDemolisherFire" prob="0.7"/>
+		<entity name="GiantDemolisherRad" prob="0.7"/>
+		<entity name="GiantUndeadVulture" prob="0.7"/>
+		<entity name="GiantUndeadVultureFire" prob="0.7"/>
+		<entity name="GiantUndeadHound" prob="0.7"/>
+		<entity name="GiantUndeadHoundFire" prob="0.7"/>
 	</append>
 		  
 </append>
