@@ -16,6 +16,8 @@ Adjusted Light Mod Position
 
 Launcher Edits:
 Re-Balanced Spider Spawns
+Added Custom Alpha 18.4 To Alpha 19 Hybrid RWGMixer File
+Updated CompoPack 44 From Magoli
 
 Updated v2.7 to v2.8
 
