@@ -1,5 +1,10 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v2.9 to v3.0
+
+Updated HD Spas 12 Model (Paid)
+Updated HD MossBerg 500 (Paid)
+
 Updated v2.8 to v2.9
 
 Rebuilt (itemInfoPanel UI)
