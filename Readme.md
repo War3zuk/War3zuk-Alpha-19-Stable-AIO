@@ -4,6 +4,10 @@ Updated v2.9 to v3.0
 
 Updated HD Spas 12 Model (Paid)
 Updated HD MossBerg 500 (Paid)
+Updated HD Class Builder (Paid)
+
+Launcher Edits:
+1st Pass At RWGmixer File Improvements
 
 Updated v2.8 to v2.9
 
