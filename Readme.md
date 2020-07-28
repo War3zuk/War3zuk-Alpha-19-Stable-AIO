@@ -7,7 +7,7 @@ Updated HD MossBerg 500 (Paid)
 Updated HD Class Builder (Paid)
 
 Launcher Edits:
-1st Pass At RWGmixer File Improvements
+RWGmixer File Finished
 
 Updated v2.8 to v2.9
 
