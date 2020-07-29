@@ -6,6 +6,10 @@ Updated HD Spas 12 Model (Paid)
 Updated HD MossBerg 500 (Paid)
 Updated HD Class Builder (Paid)
 
+Fixed HD Vulcan 9mm
+Updated HD Vulcan 7.62mm
+Updated HD Vulcan 50mm
+
 Launcher Edits:
 RWGmixer File Finished
 
