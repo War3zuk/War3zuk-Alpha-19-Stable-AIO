@@ -1,5 +1,7 @@
 <configs>
 	
+	<setattribute xpath="//item[@name='vehicle4x4TruckPlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base</setattribute>
+	
 	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,HDNailGunBolt</append>
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.1</set>
 	<set xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='Material']/@value">MMachineGunParts</set>
@@ -295,6 +297,22 @@
 		<passive_effect name="StaminaLoss" operation="base_set" value="16.3" tags="secondary"/>
 	</effect_group>
 </item> -->
+	
+<item name="War3zUK4x4">
+	<property name="Extends" value="vehicleMinibikePlaceable"/>
+	<property name="Meshfile" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-war3zuk"/>
+	<property name="EconomicValue" value="30000"/>
+	<property name="UnlockedBy" value="perkGreaseMonkey"/>
+	<property class="Action1">
+		<property name="Vehicle" value="War3zUK4x4"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="War3zUK4x4" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
+</item>
 	
 <item name="VanillaEntityLoadingHack">
 	<property name="CreativeMode" value="None"/>

@@ -28,6 +28,9 @@ PossumsPavlovaDesc,items,weapons,New,Traditional Pudding to help in the Zombie S
 MsTeresasBurgerPattyDesc,items,weapons,New,Umm Buns with Bugers. What more can the body need.,
 NaoyansYakitoriDesc,items,weapons,New,Traditional Japanese Skewers Dipped In Chili.,
 
+War3zUK4x4,items,Item,KgNone,HD War3zUK 4x4,
+MadMaxMotoDesc,items,,,HD War3zUK 4x4. Craft the Ultimate in Comfort.\n\n4x4 Model Altered By Éric Beaudon
+
 HDWar3zukBuggy,items,Item,KgNone,HD War3zuk Buggy,
 HDWar3zukBuggyChassis,items,Item,KgNone,HD War3zuk Buggy Chassis,
 HDWar3zukBuggyAccessories,items,Item,KgNone,HD War3zuk Buggy Accessories,

@@ -2,6 +2,8 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v2.9 to v3.0
 
+Added War3zuk 4x4
+
 Updated HD Spas 12 Model (Paid)
 Updated HD MossBerg 500 (Paid)
 Updated HD Class Builder (Paid)
@@ -12,6 +14,9 @@ Updated HD Vulcan 50mm
 
 Launcher Edits:
 RWGmixer File Finished
+Removed Xvanilla For Less Duping
+Edited Sleepers On SlyShip
+Edited Sleepers On Animal Sanctuary
 
 Updated v2.8 to v2.9
 
