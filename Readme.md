@@ -2,7 +2,7 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v2.9 to v3.0
 
-Added War3zuk 4x4
+Added War3zuk 4x4 (By Éric Beaudon)
 
 Updated HD Spas 12 Model (Paid)
 Updated HD MossBerg 500 (Paid)
@@ -17,6 +17,7 @@ RWGmixer File Finished
 Removed Xvanilla For Less Duping
 Edited Sleepers On SlyShip
 Edited Sleepers On Animal Sanctuary
+Edited Flashing Lights From Rave Factory Prefab
 
 Updated v2.8 to v2.9
 
