@@ -46,27 +46,6 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='131']"></remove>
 	
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
-	
-<!--<lootgroup name="SupplyMaterials" count="2,8">
-        <item name="resourceScrapBrass" count="50,200"/>
-		<item name="resourceFeather" count="50,200"/>
-		<item name="resourceGunPowder" count="50,200"/>
-		<item name="resourceNail" count="50,200"/>
-		<item name="resourceGlue" count="4,8"/>
-		<item name="resourceBulletCasing" count="50,200"/>
-		<item name="resourceDuctTape" count="4,8"/>
-		<item name="resourceScrapPolymers" count="50,200"/>
-		<item name="resourceLockPick" count="4,8"/>
-		<item name="resourceSewingKit" count="4,8"/>		 
-        <item name="resourceScrapIron" count="50,200"/>
-        <item name="resourceRockSmallBundle" count="1"/>
-		<item name="resourceWoodBundle" count="1"/>
-		<item name="resourceIronFragmentBundle" count="1"/>
-		<item name="resourcePotassiumNitratePowderBundle" count="1"/>
-		<item name="resourceLeadBundle" count="1"/>
-		<item name="resourceCoalBundle" count="1"/>
-		<item name="resourceOilShaleBundle" count="1"/>	
-</lootgroup> -->
 
 <lootgroup name="War3zukHDWeaponParts">
 		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob=".10"/>
@@ -165,7 +144,7 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical">
-		<item name="HD First Aid Kit Schematic" count="1" prob=".05"/>
+		<item name="HD First Aid Kit Schematic" count="1" prob=".01"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFlares">
@@ -176,52 +155,52 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDCarePackages">
-		<item name="HD Food Care Package" count="1" prob=".10"/>
-		<item name="HD Ammo Care Package" count="1" prob=".10"/>
-		<item name="HD Resource Care Package" count="1" prob=".10"/>
-		<item name="HD Medicine Care Package" count="1" prob=".10"/>
+		<item name="HD Food Care Package" count="1" prob=".05"/>
+		<item name="HD Ammo Care Package" count="1" prob=".05"/>
+		<item name="HD Resource Care Package" count="1" prob=".05"/>
+		<item name="HD Medicine Care Package" count="1" prob=".05"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFoods">
-		<item name="HDBowl" count="1" prob="0.5"/>
-		<item name="Warm Chunky Honey" count="1" prob=".10"/>
-		<item name="Warm Chunky Beef" count="1" prob=".10"/>
-		<item name="Warm Chunky Chicken" count="1" prob=".10"/>
-		<item name="Warm Chunky Lamb" count="1" prob=".10"/>
-		<item name="Warm Chunky Surprise" count="1" prob=".10"/>
-		<item name="Warm Chunky Chili" count="1" prob=".10"/>
-		<item name="Warm Chunky Pasta" count="1" prob=".10"/>
-		<item name="Warm Chunky Salmon" count="1" prob=".10"/>
-		<item name="Warm Chunky Sirloin" count="1" prob=".10"/>
-		<item name="Warm Chunky Vegetable Stew" count="1" prob=".10"/>
-		<item name="Warm Chunky Meat Stew" count="1" prob=".10"/>
-		<item name="Warm Chunky Sham Chowder" count="1" prob=".10"/>
-		<item name="Warm Chunky Hobo Stew" count="1" prob=".10"/>
-		<item name="Warm Chunky Steak And Potato" count="1" prob=".10"/>
-		<item name="Warm Chunky ChiliDog" count="1" prob=".10"/>
-		<item name="Warm Chunky Fish Taco" count="1" prob=".10"/>
-		<item name="Warm Chunky Meat And Mash" count="1" prob=".10"/>
+		<item name="HDBowl" count="1" prob="0.95"/>
+		<item name="Warm Chunky Honey" count="1" prob=".05"/>
+		<item name="Warm Chunky Beef" count="1" prob=".05"/>
+		<item name="Warm Chunky Chicken" count="1" prob=".05"/>
+		<item name="Warm Chunky Lamb" count="1" prob=".05"/>
+		<item name="Warm Chunky Surprise" count="1" prob=".05"/>
+		<item name="Warm Chunky Chili" count="1" prob=".05"/>
+		<item name="Warm Chunky Pasta" count="1" prob=".05"/>
+		<item name="Warm Chunky Salmon" count="1" prob=".05"/>
+		<item name="Warm Chunky Sirloin" count="1" prob=".05"/>
+		<item name="Warm Chunky Vegetable Stew" count="1" prob=".05"/>
+		<item name="Warm Chunky Meat Stew" count="1" prob=".05"/>
+		<item name="Warm Chunky Sham Chowder" count="1" prob=".05"/>
+		<item name="Warm Chunky Hobo Stew" count="1" prob=".05"/>
+		<item name="Warm Chunky Steak And Potato" count="1" prob=".05"/>
+		<item name="Warm Chunky ChiliDog" count="1" prob=".05"/>
+		<item name="Warm Chunky Fish Taco" count="1" prob=".05"/>
+		<item name="Warm Chunky Meat And Mash" count="1" prob=".05"/>
 </lootgroup>
 
 <lootgroup name="HDgroupQuestAmmo">
-	<item name="HDammoBundle45ACPRound" count="1" loot_prob_template="GradeALoot"/>
-	<item name="HDammoBundle9mmBulletBall" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle45ACPRound" count="2" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle9mmBulletBall" count="2" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundle9mmBulletHP" count="1" loot_prob_template="GradeBLoot"/>
 	<item name="HDammoBundle9mmBulletAP" count="1" loot_prob_template="GradeCLoot"/>
-	<item name="HDammoBundle44MagnumBulletBall" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle44MagnumBulletBall" count="2" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundle44MagnumBulletHP" count="1" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundle44MagnumBulletAP" count="1" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundleDeagleRound" count="1" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundle500AutoMax" count="1" loot_prob_template="GradeALoot"/>
-	<item name="HDammoBundle762mmBulletBall" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundle762mmBulletBall" count="2" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundle762mmBulletHP" count="1" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundle762mmBulletAP" count="1" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundle408Round" count="1" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundle50BMGRound" count="1" loot_prob_template="GradeALoot"/>
-	<item name="HDammoBundleShotgunShell" count="1" loot_prob_template="GradeALoot"/>
+	<item name="HDammoBundleShotgunShell" count="2" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundleShotgunSlug" count="1" loot_prob_template="GradeALoot"/>
 	<item name="HDammoBundleShotgunBreachingSlug" count="1" loot_prob_template="GradeALoot"/>
-	<item name="HDBreachingC4" count="2" loot_prob_template="GradeALoot"/>
+	<item name="HDBreachingC4" count="5" loot_prob_template="GradeALoot"/>
 	<item name="MREMilitaryRation" count="2" loot_prob_template="GradeALoot"/>
 </lootgroup>
 
@@ -230,10 +209,10 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='5']" >
 <!-- wallSafe / deskSafe -->
 <lootcontainer id="6" count="2,4" size="6,4" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
-	<item group="War3zukHDMilitary" prob="0.3"/>
-	<item group="War3zukHDAmmo" prob="0.3"/>
-	<item group="War3zukHDWeapons" prob="0.3"/>
-	<item group="War3zukHDWeaponParts" prob="0.3"/>
+	<item group="War3zukHDMilitary" prob="0.2"/>
+	<item group="War3zukHDAmmo" prob="0.2"/>
+	<item group="War3zukHDWeapons" prob="0.2"/>
+	<item group="War3zukHDWeaponParts" prob="0.2"/>
 	<item group="groupSafeLoot"/>
 	<item name="HD Blunderbuss" count="1" prob="0.3"/>
 </lootcontainer>
@@ -273,15 +252,15 @@
 	<item group="groupAmmoRegular"/>
 	<item group="booksAllScaled" prob="0.1"/>
 	<item group="dyes" prob="0.1"/>
-	<item group="War3zukHDFlares" prob="0.3"/>
-	<item group="War3zukHDAmmo" prob="0.3"/>
+	<item group="War3zukHDFlares" prob="0.2"/>
+	<item group="War3zukHDAmmo" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='20']" >
 <!-- microwave oven loot -->
 <lootcontainer id="21" count="2,3" size="6,4" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualPlus1Template">
-	<item group="War3zukHDFoods" prob="0.3"/>
+	<item group="War3zukHDFoods" prob="0.1"/>
 	<item group="rottenFood"/>
 </lootcontainer>
 </insertAfter>
@@ -289,31 +268,13 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='24']" >
 <!-- birds nest-->
 <lootcontainer id="25" count="2,3" size="6,2" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" destroy_on_close="true" loot_quality_template="qualPlus1Template">
-	<item name="resourceFeather" count="5,10" prob="1"/>
-	<item name="foodEgg" count="3,6" prob="1"/>
-	<item name="resourceCloth" count="5,10" prob="1"/>
-	<item name="ammo9mmBulletBall" count="5,10" prob="0.5"/>
-	<item name="BabyChick" count="2,4" prob="1"/>
+	<item name="resourceFeather" count="2,8" prob="1"/>
+	<item name="foodEgg" count="1,3" prob="1"/>
+	<item name="resourceCloth" count="2,6" prob="1"/>
+	<item name="ammo9mmBulletBall" count="2,8" prob="0.5"/>
+	<item name="BabyChick" count="1,3" prob="1"/>
 </lootcontainer>
 </insertAfter>
-
-<!--  <insertAfter xpath="/lootcontainers/lootcontainer[@id='25']" >
-<lootcontainer id="34" count="4" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
-	<item group="cannedfood" count="3,5"/>
-	<item group="groupWeaponsAllScaled"/>
-	<item group="groupAmmoRegular" count="2"/>
-	<item group="booksRareOnlyScaled"/>
-	<item group="airdropMedicine" count="1,4"/>
-	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
-	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
-	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
-	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
-	<item group="War3zukHDFlares" prob="0.2"/>
-	<item group="War3zukHDCarePackages" prob="0.2"/>
-	<item group="War3zukHDAmmo" prob="0.2"/>
-	<item group="War3zukHDFoods" prob="0.2"/>
-</lootcontainer>
-</insertAfter> -->
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='34']" >
 <!-- tree hollowed stump, place where people stash things, -->
@@ -343,7 +304,7 @@
 	<item group="War3zukHDAmmo" prob="0.1"/>
 	<item group="War3zukHDWeapons" prob="0.1"/>
 	<item group="War3zukHDWeaponParts" prob="0.1"/>
-	<item name="HD Blunderbuss" count="1" prob="0.1"/>
+	<item name="HD Blunderbuss" count="1" prob="0.4"/>
 </lootcontainer>
 </insertAfter>
 
@@ -421,9 +382,9 @@
 	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
 	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
 	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
-	<item name="resourceRepairKit" count="2,4"/>
-	<item group="War3zukHDWeapons" prob="0.3"/>
-	<item group="War3zukHDWeaponParts" prob="0.3"/>
+	<item name="resourceRepairKit" count="4,8"/>
+	<item group="War3zukHDWeapons" prob="0.2"/>
+	<item group="War3zukHDWeaponParts" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 
@@ -457,7 +418,7 @@
 	<item name="foodHoney" prob="1"/>
 	<item name="resourcePaper" count="5,10" prob="0.5"/>
 	<item name="resourceScrapPolymers" count="10,20" prob="0.5"/>
-	<item group="War3zukHDFoods" prob="0.2"/>
+	<item group="War3zukHDFoods" prob="0.1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -465,21 +426,21 @@
 <!-- Bookstore bookcase -->
 <lootcontainer id="60" count="2,3" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualPlus1Template">
 	<item group="booksAllScaled"/>
-	<item group="War3zukHDMedical" prob="0.3"/>
-	<item group="War3zukHDMilitary" prob="0.3"/>
-	<item group="War3zukHDTools" prob="0.3"/>
-	<item group="War3zukHDBenchAddons" prob="0.3"/>
-	<item group="War3zukHDBenches" prob="0.3"/>
-	<item group="War3zukHDWeapons" prob="0.3"/>
-	<item group="War3zukHDWeaponParts" prob="0.3"/>
+	<item group="War3zukHDMedical" prob="0.1"/>
+	<item group="War3zukHDMilitary" prob="0.1"/>
+	<item group="War3zukHDTools" prob="0.1"/>
+	<item group="War3zukHDBenchAddons" prob="0.1"/>
+	<item group="War3zukHDBenches" prob="0.1"/>
+	<item group="War3zukHDWeapons" prob="0.1"/>
+	<item group="War3zukHDWeaponParts" prob="0.1"/>
 </lootcontainer>
 </insertAfter>
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='63']" >
 <!-- gas pump loot -->
 <lootcontainer id="64" count="1,2" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
-	<item name="ammoGasCan" count="100,500" prob="1"/>
-	<item name="HD Flame Fuel" count="50,75" prob="1"/>
+	<item name="ammoGasCan" count="100,250" prob="1"/>
+	<item name="HD Flame Fuel" count="50,100" prob="1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -488,7 +449,7 @@
 <lootcontainer id="65" count="0,2" size="3,2" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet" loot_quality_template="qualPlus1Template">
 	<item name="gunHandgunT1Pistol" prob="0.025"/>
 	<item name="meleeWpnBladeT1HuntingKnife" prob="0.025"/>
-	<item name="drinkJarRiverWater" count="2,8"/>
+	<item name="drinkJarRiverWater" count="2,4"/>
 </lootcontainer>
 </insertAfter>
 
@@ -509,7 +470,7 @@
 <!-- army truck-->
 <lootcontainer id="83" count="2,4" size="7,4" sound_open="UseActions/open_vehicle" sound_close="UseActions/close_vehicle" open_time="4" loot_quality_template="qualPlus1Template">
 	<item group="cannedfood" prob="0.5"/>
-	<item group="War3zukHDFoods" prob="0.2"/>
+	<item group="War3zukHDFoods" prob="0.1"/>
 	<item group="groupWeaponsAllScaled" prob="0.1"/>
 	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
 	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
@@ -571,17 +532,17 @@
 	<item group="groupRareToolsTiered"/>
 	<item group="vehiclePartsTiered" prob=".2"/>
 	<item name="workbenchSchematic" prob="0.2"/>
-	<item group="War3zukHDBenchAddons" prob="0.1"/>
-	<item group="War3zukHDBenches" prob="0.1"/>
+	<item group="War3zukHDBenchAddons" prob="0.2"/>
+	<item group="War3zukHDBenches" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='92']" >
 <!-- cntCollapsedCementMixer -->
 <lootcontainer id="93" count="1,2" size="7,4" sound_open="cement_mixer_open" sound_close="cement_mixer_close" loot_quality_template="qualPlus1Template">
-	<item group="cementMixerLoot" count="1"/>
-	<item name="cementMixerSchematic" prob="0.15"/>
-	<item name="HD Cement Mixer Schematic" prob="0.15"/>
+	<item group="cementMixerLoot" count="1,2"/>
+	<item name="cementMixerSchematic" prob="0.1"/>
+	<item name="HD Cement Mixer Schematic" prob="0.1"/>
 </lootcontainer>
 </insertAfter>
 	
@@ -592,7 +553,7 @@
 	<item group="chemistryStationLoot" prob="0.48"/>
 	<item name="chemistryStationSchematic" prob="0.04"/>
 	<item group="War3zukHDMedical" prob="0.1"/>
-	<item group="War3zukHDBenchAddons" prob="0.1"/>
+	<item group="War3zukHDBenchAddons" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 	
@@ -639,8 +600,8 @@
 	<item name="resourceCropGoldenrodPlant" count="5,12" prob=".05"/>
 	<item name="medicalAloeCream" count="4,10" prob=".05"/>
 	<item group="War3zukHDMedical" prob="0.5"/>
-	<item group="War3zukHDFlares" prob="0.5"/>
-	<item group="War3zukHDCarePackages" prob="0.5"/>
+	<item group="War3zukHDFlares" prob="0.2"/>
+	<item group="War3zukHDCarePackages" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 
@@ -653,9 +614,9 @@
 	<item name="resourceCropChrysanthemumPlant" count="5,12" prob=".05"/>
 	<item name="resourceCropGoldenrodPlant" count="5,12" prob=".05"/>
 	<item name="medicalAloeCream" count="4,10" prob=".05"/>
-	<item group="War3zukHDMedical" prob="0.5"/>
-	<item group="War3zukHDFlares" prob="0.5"/>
-	<item group="War3zukHDCarePackages" prob="0.5"/>
+	<item group="War3zukHDMedical" prob="0.2"/>
+	<item group="War3zukHDFlares" prob="0.2"/>
+	<item group="War3zukHDCarePackages" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 
@@ -668,9 +629,9 @@
 	<item name="resourceCropChrysanthemumPlant" count="5,12" prob=".05"/>
 	<item name="resourceCropGoldenrodPlant" count="5,12" prob=".05"/>
 	<item name="medicalAloeCream" count="4,10" prob=".05"/>
-	<item group="War3zukHDMedical" prob="0.5"/>
-	<item group="War3zukHDFlares" prob="0.5"/>
-	<item group="War3zukHDCarePackages" prob="0.5"/>
+	<item group="War3zukHDMedical" prob="0.2"/>
+	<item group="War3zukHDFlares" prob="0.2"/>
+	<item group="War3zukHDCarePackages" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 
@@ -714,43 +675,43 @@
 </lootcontainer>
 
 <lootcontainer id="507" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
-	<item group="rareAutomotive" count="1,2"/>
+	<item group="rareAutomotive" count="1"/>
 	<item group="groupToolsTiered" prob="5"/>
 	<item group="groupToolsT2" loot_prob_template="ProbT2"/>
 	<item group="groupToolsT3" loot_prob_template="ProbT3"/>
-	<item group="toolParts" count="1,2"/>
-	<item group="automotive" count="1,2"/>
-	<item group="minibikeParts" count="1,2"/>
+	<item group="toolParts" count="1"/>
+	<item group="automotive" count="1"/>
+	<item group="minibikeParts" count="1"/>
 </lootcontainer>
 
 <lootcontainer id="508" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
-	<item group="rareMedicine" count="1,2"/>
-	<item group="medicine" count="1,2"/>
-	<item group="rareOres" count="1,2"/>
-	<item group="herbalRecipes" count="1,2"/>
-	<item group="airdropMedicine" count="1,2"/>
-	<item group="warmClothes" count="1,2"/>
+	<item group="rareMedicine" count="1"/>
+	<item group="medicine" count="1"/>
+	<item group="rareOres" count="1"/>
+	<item group="herbalRecipes" count="1"/>
+	<item group="airdropMedicine" count="1"/>
+	<item group="warmClothes" count="1"/>
 </lootcontainer>
 
 <lootcontainer id="509" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
-	<item group="groupAmmoRegularGunslingerT1" count="1,2"/>
-	<item group="groupAmmoRegularGunslingerT2" count="1,2"/>
+	<item group="groupAmmoRegularGunslingerT1" count="1"/>
+	<item group="groupAmmoRegularGunslingerT2" count="1"/>
 	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
 	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
 	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
 	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
-	<item group="groupWeaponsT3_Boomstick" count="1,2"/>
-	<item group="groupWeaponsT3_Machinegunner" count="1,2"/>
-	<item group="groupHeroChestLoot" count="1,2"/>
+	<item group="groupWeaponsT3_Boomstick" count="1"/>
+	<item group="groupWeaponsT3_Machinegunner" count="1"/>
+	<item group="groupHeroChestLoot" count="1"/>
 </lootcontainer>
 
 <lootcontainer id="510" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
-	<item group="cannedfood" count="1,2"/>
-	<item group="coldfood" count="1,2"/>
-	<item group="groupApparelClothes" count="1,2"/>
-	<item group="shamwaySafeFiller" count="1,2"/>
-	<item group="airdropMedicine" count="1,2"/>
-	<item group="rareFoodDrink" count="1,2"/>
+	<item group="cannedfood" count="1"/>
+	<item group="coldfood" count="1"/>
+	<item group="groupApparelClothes" count="1"/>
+	<item group="shamwaySafeFiller" count="1"/>
+	<item group="airdropMedicine" count="1"/>
+	<item group="rareFoodDrink" count="1"/>
 </lootcontainer>
 
 <lootcontainer id="517" count="2,4" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
@@ -770,21 +731,21 @@
 	<item name="resourceOilShale" count="50,500" prob="0.1"/>
 	<item name="resourceCobblestones" count="50,500" prob="0.1"/>
 	<item name="resourceRadiator" count="1,2" prob="0.1"/>
-	<item name="resourceRockSmallBundle" count="1" prob="0.006"/>
-	<item name="resourceWoodBundle" count="1" prob="0.006"/>
-	<item name="resourceIronFragmentBundle" count="1" prob="0.006"/>
-	<item name="resourcePotassiumNitratePowderBundle" count="1" prob="0.006"/>
-	<item name="resourceLeadBundle" count="1" prob="0.006"/>
-	<item name="resourceCoalBundle" count="1" prob="0.006"/>
-	<item name="resourceOilShaleBundle" count="1" prob="0.006"/>
-	<item name="ammoGasCanBundle" count="1,1" prob="0.006"/>
-	<item name="resourceSilverNugget" count="2,6" prob="0.006"/>
-	<item name="resourceGoldNugget" count="2,6" prob="0.006"/>
-	<item name="resourceRawDiamond" count="2,6" prob="0.006"/>
+	<item name="resourceRockSmallBundle" count="1" prob="0.005"/>
+	<item name="resourceWoodBundle" count="1" prob="0.005"/>
+	<item name="resourceIronFragmentBundle" count="1" prob="0.005"/>
+	<item name="resourcePotassiumNitratePowderBundle" count="1" prob="0.005"/>
+	<item name="resourceLeadBundle" count="1" prob="0.005"/>
+	<item name="resourceCoalBundle" count="1" prob="0.005"/>
+	<item name="resourceOilShaleBundle" count="1" prob="0.005"/>
+	<item name="ammoGasCanBundle" count="1,1" prob="0.005"/>
+	<item name="resourceSilverNugget" count="2,6" prob="0.005"/>
+	<item name="resourceGoldNugget" count="2,6" prob="0.005"/>
+	<item name="resourceRawDiamond" count="2,6" prob="0.005"/>
 </lootcontainer>
 		   
 <lootcontainer id="519" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-    <item name="resourceCement" count="10,20" prob="0.1"/>
+    <item name="resourceCement" count="10,10" prob="0.1"/>
 </lootcontainer>
 		   
 <lootcontainer id="520" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
@@ -793,15 +754,14 @@
 </lootcontainer>
 		   
 <lootcontainer id="521" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-	<item name="resourceWood" count="10,20" prob="0.1"/>
-	<item name="resourceRockSmall" count="10,20" prob="0.1"/>
-	<item name="resourceGunPowder" count="5,10" prob="0.1"/>
+	<item name="resourceWood" count="5,10" prob="0.1"/>
+	<item name="resourceRockSmall" count="5,10" prob="0.1"/>
 	<item name="resourceScrapBrass" count="5,10" prob="0.1"/>
 </lootcontainer>
 		   
 <lootcontainer id="522" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-    <item name="resourceCobblestones" count="10,20" prob="0.1"/>
-    <item name="resourceWood" count="10,20" prob="0.1"/>
+    <item name="resourceCobblestones" count="5,10" prob="0.1"/>
+    <item name="resourceWood" count="5,10" prob="0.1"/>
 </lootcontainer>
 
 <lootcontainer id="523" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
@@ -817,7 +777,7 @@
 </lootcontainer>
 
 <lootcontainer id="525" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-	<item name="resourcePaper" count="20,40" prob="1"/>
+	<item name="resourcePaper" count="5,10" prob="1"/>
 	<item name="resourceCloth" count="5,10" prob="1"/>
 </lootcontainer>
 

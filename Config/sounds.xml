@@ -15,30 +15,6 @@
 
 <append xpath="/Sounds">
 	
-<SoundDataNode name="NukeSound"> 
-	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
-	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-		<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="20"/>
-		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?NukeSound"/>
-		<LocalCrouchVolumeScale value="0.5"/> 
-		<CrouchNoiseScale value="0.5"/>
-		<NoiseScale value="1"/> 
-		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
-</SoundDataNode>
-	
-<SoundDataNode name="HDIWrench"> 
-	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
-	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-		<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="20"/>
-		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?HDIWrench"/>
-		<LocalCrouchVolumeScale value="0.5"/> 
-		<CrouchNoiseScale value="0.5"/>
-		<NoiseScale value="1"/> 
-		<MaxVoices value="10"/> 
-		<MaxRepeatRate value="0.001"/>
-</SoundDataNode>
-	
 <SoundDataNode name="M1911Fire"> 
 	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
 	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
@@ -447,6 +423,18 @@
 		<MaxRepeatRate value="0.001"/>
 </SoundDataNode>
 
+<SoundDataNode name="P90Fire"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="5" range="150" volume="500" time="3" heat_map_strength="0.5" heat_map_time="20"/>
+		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?P90Fire"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+</SoundDataNode>
+
 <SoundDataNode name="HDRocketF"> 
 	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
 	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
@@ -500,6 +488,30 @@
 	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 		<Noise ID="5" range="25" volume="500" time="3" heat_map_strength="0.5" heat_map_time="5"/>
 		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?FThrowerStart" Loop="true"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+</SoundDataNode>
+
+<SoundDataNode name="NukeSound"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="20"/>
+		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?NukeSound"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+</SoundDataNode>
+	
+<SoundDataNode name="HDIWrench"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="5" range="140" volume="500" time="3" heat_map_strength="0.5" heat_map_time="20"/>
+		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?HDIWrench"/>
 		<LocalCrouchVolumeScale value="0.5"/> 
 		<CrouchNoiseScale value="0.5"/>
 		<NoiseScale value="1"/> 
@@ -852,6 +864,30 @@
 	<NoiseScale value="1"/>
 	<MaxVoices value="2"/>
 	<MaxRepeatRate value="0.01"/>
+</SoundDataNode>
+
+<SoundDataNode name="LiftSlow"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="5" range="150" volume="500" time="3" heat_map_strength="0.5" heat_map_time="25"/>
+		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?LiftSlow"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
+</SoundDataNode>
+
+<SoundDataNode name="LiftQuick"> 
+	 <AudioSource name="Sounds/AudioSource_WeaponFire"/>
+	 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="5" range="150" volume="500" time="3" heat_map_strength="0.5" heat_map_time="25"/>
+		<AudioClip ClipName="#@modfolder:Resources/HD Weapon Sounds.unity3d?LiftQuick"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="0.5"/>
+		<NoiseScale value="1"/> 
+		<MaxVoices value="10"/> 
+		<MaxRepeatRate value="0.001"/>
 </SoundDataNode>
 	
 </append>

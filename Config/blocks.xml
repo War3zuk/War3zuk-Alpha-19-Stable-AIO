@@ -730,8 +730,9 @@
      <property name="Shape" value="ModelEntity" />
      <property name="FuelValue" value="300" />
      <property name="ImposterExchange" value="imposterCTRPlate" param1="35" />
-     <property name="OpenSound" value="open_garage_door" />
-     <property name="CloseSound" value="close_garage_door" />
+     <property name="OpenSound" value="LiftQuick" />
+     <property name="CloseSound" value="LiftQuick" />
+	 <property name="ActivationDistance" value="14"/>
      <property class="RepairItems">
         <property name="resourceForgedSteel" value="20" />
         </property>
@@ -761,8 +762,9 @@
      <property name="Shape" value="ModelEntity" />
      <property name="FuelValue" value="300" />
      <property name="ImposterExchange" value="imposterCTRPlate" param1="35" />
-     <property name="OpenSound" value="open_garage_door" />
-     <property name="CloseSound" value="close_garage_door" />
+     <property name="OpenSound" value="LiftSlow" />
+     <property name="CloseSound" value="LiftSlow" />
+	 <property name="ActivationDistance" value="14"/>
      <property class="RepairItems">
         <property name="resourceForgedSteel" value="20" />
         </property>
@@ -2678,8 +2680,7 @@
 <block name="WARcntCollapsedChemistryStation">
 	<property name="CreativeMode" value="None"/>
 	<property name="Tags" value="safes"/>
-	<property name="CustomIcon" value="cntGunSafe"/>
-	<property name="CustomIcon" value="rockResourceBroke2"/>
+	<property name="CustomIcon" value="cntCollapsedChemistryStation"/>
     <property name="CreativeMode" value="None"/>
     <property name="ImposterDontBlock" value="true"/>
     <property name="IsTerrainDecoration" value="true"/>
@@ -2701,6 +2702,28 @@
 		</property>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="WARradiatorHouse01">
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="radiatorHouse01"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="ImposterDontBlock" value="true"/>
+    <property name="IsTerrainDecoration" value="true"/>
+    <property name="Material" value="MTitaniumPolish"/>
+	<property name="Shape" value="New"/>
+	<property name="Model" value="pipe_cap"/>
+	<property name="Texture" value="191"/>
+	<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="radiatorHouse01"/>
+    <property name="PlantGrowing.GrowthRate" value="360"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+		<drop event="Destroy" name="resourceRadiator" count="1" tag="salvageHarvest" tool_category="Disassemble"/>
+		<drop event="Harvest" name="terrStone" count="0" tag="salvageHarvest" tool_category="Disassemble"/>
 </block>
 
 <block name="HD Power Relay Block">
@@ -2979,6 +3002,10 @@
 	
 <append xpath="/blocks/block[@name='oreShaleBoulder']">
     <property name="DowngradeBlock" value="WAR Shale Boulder"/>
+</append>
+
+<append xpath="/blocks/block[@name='radiatorHouse01']"> 
+	<property name="DowngradeBlock" value="WARradiatorHouse01"/>
 </append>
 
 <append xpath="/blocks/block[@name='treePlantedMountainPine1m']">

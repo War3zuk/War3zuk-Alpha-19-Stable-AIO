@@ -1,5 +1,29 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v3.0 to v3.1
+
+Rebalanced Loot Tables B173
+Edited HD Truck Elevator x5 Act Distance
+Edited HD Truck Elevator x10 Act Distance
+Added HD Truck Elevator x5 Sound
+Added HD Truck Elevator x10 Sound
+
+Added radiatorHouse01 To Regrow (360)
+
+Rebuilt Building Supply Flare Code (Rebalanced Loot)
+Rebuilt Health Supply Flare Code (Rebalanced Loot)
+Rebuilt Ammo Supply Flare Code (Rebalanced Loot)
+Rebuilt Food Supply Flare Code (Rebalanced Loot)
+
+Launcher Edits:
+Sly Ship Spawns Balanced
+Animal Sanctuary Fixed Spawns Balanced
+Removed 15 Prefabs (Bad FPS)
+Rebalanced Supply Crate Loot
+0-CreaturePackAnimals Updated
+0-CreaturePackHumans Updated
+0-CreaturePackZombies Updated
+
 Updated v2.9 to v3.0
 
 Added War3zuk 4x4 (By Éric Beaudon)

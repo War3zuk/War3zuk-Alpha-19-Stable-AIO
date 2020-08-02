@@ -1113,6 +1113,11 @@
 	<property name="NavObject" value="HDWar3zukBuggyUI" />
 </entity_class>
 
+<entity_class name="War3zUK4x4" extends="vehicle4x4Truck">
+	<property name="Tags" value="vehicle"/>
+	<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-war3zuk"/>
+</entity_class>
+
 <!--  Insperation For These Dedicated Too AwakenedBison33  -->
 
 <entity_class name="zombiePhantasm" extends="zombieTemplateMale">
@@ -1150,7 +1155,6 @@
 		<passive_effect name="HealthMax" operation="base_set" value="550"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> 
 	</effect_group>
-	
 </entity_class>
 
 <entity_class name="zombiePhantasmFire" extends="zombiePhantasm">
@@ -1192,11 +1196,6 @@
 </entity_class>
 
 <!--  Insperation For These Dedicated Too AwakenedBison33  -->
-
-<entity_class name="War3zUK4x4" extends="vehicle4x4Truck">
-	<property name="Tags" value="vehicle"/>
-	<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-war3zuk"/>
-</entity_class>
 
 </append>
 

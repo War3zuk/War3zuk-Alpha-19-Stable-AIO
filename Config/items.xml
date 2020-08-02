@@ -9150,12 +9150,14 @@
 </item>
 
 <item name="Building Supply Flare">
+	<property name="Extends" value="thrownAmmoPipeBomb"/>
 	<property name="DescriptionKey" value="BSFDesc"/>
     <property name="CustomIcon" value="Building Flare" />
     <property name="Class" value="ItemClassTimeBomb" />
     <property name="Meshfile" value="#Other/Items?Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab"/>
     <property name="Material" value="Mmetal" />
     <property name="HoldType" value="25" />
+	<property name="Stacknumber" value="500"/>
     <property class="Action0">
 		<property name="Class" value="PlaceAsBlock" />
 		<property name="Delay" value="0.5" />
@@ -9165,12 +9167,14 @@
 </item>
 
 <item name="Health Supply Flare">
+	<property name="Extends" value="thrownAmmoPipeBomb"/>
 	<property name="DescriptionKey" value="HSFDesc"/>
     <property name="CustomIcon" value="Health Flare" />
     <property name="Class" value="ItemClassTimeBomb" />
     <property name="Meshfile" value="#Other/Items?Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab"/>
     <property name="Material" value="Mmetal" />
     <property name="HoldType" value="25" />
+	<property name="Stacknumber" value="500"/>
     <property class="Action0">
 		<property name="Class" value="PlaceAsBlock" />
 		<property name="Delay" value="0.5" />
@@ -9180,12 +9184,14 @@
 </item>
 
 <item name="Ammo Supply Flare">
+	<property name="Extends" value="thrownAmmoPipeBomb"/>
 	<property name="DescriptionKey" value="ASFDesc"/>
     <property name="CustomIcon" value="Ammo Flare" />
     <property name="Class" value="ItemClassTimeBomb" />
     <property name="Meshfile" value="#Other/Items?Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab"/>
     <property name="Material" value="Mmetal" />
     <property name="HoldType" value="25" />
+	<property name="Stacknumber" value="500"/>
     <property class="Action0">
 		<property name="Class" value="PlaceAsBlock" />
 		<property name="Delay" value="0.5" />
@@ -9195,12 +9201,14 @@
 </item>
 
 <item name="Food Supply Flare">
+	<property name="Extends" value="thrownAmmoPipeBomb"/>
 	<property name="DescriptionKey" value="FSFDesc"/>
     <property name="CustomIcon" value="Food Flare" />
     <property name="Class" value="ItemClassTimeBomb" />
     <property name="Meshfile" value="#Other/Items?Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab"/>
     <property name="Material" value="Mmetal" />
     <property name="HoldType" value="25" />
+	<property name="Stacknumber" value="500"/>
     <property class="Action0">
 		<property name="Class" value="PlaceAsBlock" />
 		<property name="Delay" value="0.5" />
