@@ -1,7 +1,5 @@
 <configs>
 	
-	<!--  <setattribute xpath="//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab']" name="value">#@modfolder:Resources/WARpjJeeps.unity3d?var_Jeep_base</setattribute> -->
-	
 	<!--  DELETE EVERYTHING INBETWEEN THESE LINES TO DISABLE THE RETRO LOOTBAGS FROM THE MOD  -->
 	<set xpath="/entity_classes/entity_class[@name='Backpack']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDPlayerRuckSack.Prefab</set>
 	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDRuckSackLoot.Prefab</set>
@@ -11,13 +9,13 @@
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">Starter Class</set>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">Starter Class</set>
 	
-	<set xpath="/entity_classes/entity_class[contains(@name,'zombie') or contains(@name,'Zombie')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_set'][@value='1']/@value">1.2</set>
+	<!--  <set xpath="/entity_classes/entity_class[contains(@name,'zombie') or contains(@name,'Zombie')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_set'][@value='1']/@value">1.2</set>
 	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalRabbit')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>
 	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalChicken')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>
 	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalSnake')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>	
 	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalBoar')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>	
 	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalStag')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>	
-	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalDoe')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set>	
+	<set xpath="/entity_classes/entity_class[starts-with(@name,'animalDoe')]/effect_group[@name='Base Effects']/passive_effect[@name='HealthMax'][@operation='perc_add'][@value='0']/@value">1.5</set> -->
 	
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='CarryCapacity']/@value">15</set>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize']/@value">105</set>
@@ -1038,57 +1036,6 @@
 		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
-	</effect_group>
-</entity_class>
-
-<entity_class name="zombieSteveCrawler" extends="zombieTemplateMale">
-	<property name="Tags" value="entity,zombie"/>
-	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardCrawlerHDRagdoll.prefab"/>
-	<property name="AvatarController" value="AvatarZombie01Controller"/>
-	<property name="Mass" value="140"/>
-	<property name="Class" value="EntityZombie"/>
-	<property name="WalkType" value="4"/>
-	<property name="RotateToGround" value="true"/>
-	<property name="RootMotion" value="true"/>
-	<property name="TintMaterial2" value="36,38,45"/>
-	<property name="SoundRandomTime" value="16.0"/>
-	<property name="SoundRandom" value="crawler_roam"/>
-	<property name="SoundAlertTime" value="12.0"/>
-	<property name="SoundAlert" value="crawler_alert"/>
-	<property name="SoundSense" value="crawler_sense"/>
-	<property name="SoundHurt" value="crawler_pain"/>
-	<property name="SoundDeath" value="crawler_death"/>
-	<property name="SoundAttack" value="crawler_attack"/>
-	<property name="SoundSleeperSense" value="sleepersense"/>
-	<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
-	<property name="MoveSpeed" value="0.50"/>
-	<property name="MoveSpeedAggro" value="0.5, 1.50"/>
-	<property name="MoveSpeedRand" value="-.2, .25"/>
-	<property name="MoveSpeedPanic" value="0.75"/>
-	<property name="SwimSpeed" value="1"/>
-	<property name="SwimStrokeRate" value="1,1.5"/>
-	<property name="CanClimbLadders" value="true"/>
-	<property name="JumpMaxDistance" value="2.5, 3"/>
-	<property name="HandItem" value="meleeHandZombie02"/>
-	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="150"/>
-		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
-	</effect_group>
-</entity_class>
-
-<entity_class name="zombieSteveCrawlerFeral" extends="zombieSteveCrawler">
-	<property name="Tags" value="entity,zombie"/>
-	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardCrawlerHDRagdoll.prefab"/>
-	<property name="DismemberMultiplierHead" value=".7"/>
-	<property name="DismemberMultiplierArms" value=".7"/>
-	<property name="DismemberMultiplierLegs" value=".7"/>
-	<property name="PainResistPerHit" value=".7"/>
-	<property name="HandItem" value="meleeHandZombie02Feral"/>
-	<property name="ExperienceGain" value="750"/>
-	<property name="LootDropProb" value=".03"/>
-	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="250"/>
-		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
 	</effect_group>
 </entity_class>
 

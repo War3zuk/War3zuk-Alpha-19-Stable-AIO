@@ -250,7 +250,6 @@
 <insertAfter xpath="/entitygroups/entitygroup/entity[@name='zombieBoeFeral']" >
 		<entity name="zombiePhantasm" prob="0.5"/>
 		<entity name="zombiePhantasmFire" prob="0.5"/>
-		<entity name="zombiePhantasmRAD" prob="0.5"/>
 		<entity name="zombieDemolition" prob="0.5"/>
 		<entity name="GiantUndeadHound" prob="0.5"/>
 		<entity name="GiantUndeadHoundFire" prob="0.5"/>
