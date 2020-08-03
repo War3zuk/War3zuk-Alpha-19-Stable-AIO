@@ -1,7 +1,5 @@
 <configs>
 	
-	<setattribute xpath="//item[@name='vehicle4x4TruckPlaceable']/property[@name='Meshfile']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base</setattribute>
-	
 	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,HDNailGunBolt</append>
 	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.1</set>
 	<set xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='Material']/@value">MMachineGunParts</set>
@@ -298,22 +296,6 @@
 	</effect_group>
 </item> -->
 	
-<item name="War3zUK4x4">
-	<property name="Extends" value="vehicleMinibikePlaceable"/>
-	<property name="Meshfile" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-war3zuk"/>
-	<property name="EconomicValue" value="30000"/>
-	<property name="UnlockedBy" value="perkGreaseMonkey"/>
-	<property class="Action1">
-		<property name="Vehicle" value="War3zUK4x4"/>
-		<property name="VehicleSize" value="2.5, 2.1, 5"/>
-	</property>
-	<effect_group name="War3zUK4x4" tiered="false">
-		<passive_effect name="ModSlots" operation="base_set" value="4"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
-	</effect_group>
-</item>
-	
 <item name="VanillaEntityLoadingHack">
 	<property name="CreativeMode" value="None"/>
 	<property name="CustomIcon" value="missingIcon"/><property name="CustomIconTint" value="90ff90"/>
@@ -323,7 +305,7 @@
 	<property name="DropMeshfile" value="#Entities/Zombies?Zombies/zombieStandardBoeRagdoll.prefab"/>
 	<property name="Material" value="MresourceScrapIron"/>
 	<property name="Weight" value="1"/>
-	<property name="Stacknumber" value="1"/> <!-- STK resource -->
+	<property name="Stacknumber" value="1"/>
 	<property name="EconomicValue" value="1"/>
 	<property name="EconomicBundleSize" value="1000"/>
 	<property name="Group" value="Resources"/>
@@ -5895,11 +5877,12 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="MsmallEngine"/>
+	<property name="Stacknumber" value="10"/>
 	<property name="RepairTools" value="resourceRepairKit"/>
-	<property name="Stacknumber" value="1"/>
 	<property name="Material" value="MmechanicalParts"/> <property name="Weight" value="200"/>
 	<property name="EconomicValue" value="1000"/>
 	<property name="Group" value="Resources"/>
+	<property name="ShowQuality" value="false"/>
 	<property name="DescriptionKey" value="HDMotorDesc"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property class="Attributes">
@@ -5923,10 +5906,10 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="MresourceScrapLeadLarge"/>
-	<property name="Stacknumber" value="1"/>
+	<property name="Stacknumber" value="10"/>
 	<property name="Weight" value="160"/>
 	<property name="EconomicValue" value="2000"/>
-	<property name="Group" value="Resources,Chemicals"/>
+	<property name="Group" value="Resources"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="ShowQuality" value="false"/>
 	<property name="DescriptionKey" value="HDCellDesc"/>

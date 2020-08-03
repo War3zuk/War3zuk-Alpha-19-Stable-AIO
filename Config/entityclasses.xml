@@ -1,6 +1,6 @@
 <configs>
 	
-	<setattribute xpath="//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab']" name="value">#@modfolder:Resources/pjJeeps.unity3d?var_Jeep_base</setattribute>
+	<!--  <setattribute xpath="//entity_class[@name='vehicle4x4Truck']/property[@name='Prefab']" name="value">#@modfolder:Resources/WARpjJeeps.unity3d?var_Jeep_base</setattribute> -->
 	
 	<!--  DELETE EVERYTHING INBETWEEN THESE LINES TO DISABLE THE RETRO LOOTBAGS FROM THE MOD  -->
 	<set xpath="/entity_classes/entity_class[@name='Backpack']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDPlayerRuckSack.Prefab</set>
@@ -1111,11 +1111,6 @@
 	<property name="Faction" value="none"/>
 	<property name="MapIcon" value="HDWar3zukBuggyUI"/>
 	<property name="NavObject" value="HDWar3zukBuggyUI" />
-</entity_class>
-
-<entity_class name="War3zUK4x4" extends="vehicle4x4Truck">
-	<property name="Tags" value="vehicle"/>
-	<property name="Prefab" value="#@modfolder:Resources/pjJeepsUK.unity3d?var_4x4_UK-war3zuk"/>
 </entity_class>
 
 <!--  Insperation For These Dedicated Too AwakenedBison33  -->

@@ -608,7 +608,7 @@ FTDesc,items,resource,new,A Forged Titanium Ingot is 1 of the ingredients of Con
 
 SPDesc,items,resource,new,Polished Steel Blocks withstand more and resist explosion damage x1.75 12k Health.
 
-TPDesc,items,resource,new,Polished Titanium Blocks withstand more and resist explosion damage x2.0 20k Health.
+TPDesc,items,resource,new,Polished Titanium Blocks withstand more and resist explosion damage x2.0 15k Health.
 
 CMDesc,items,resource,new,Congealed Metal is an amalgamation of Both Brass And Titanium used in high end polishes.
 

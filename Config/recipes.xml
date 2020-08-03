@@ -25,14 +25,6 @@
 	
 <append xpath="/recipes">
 	
-<recipe name="War3zUK4x4" count="1" craft_time="150" craft_area="workbench" tags="perkGreaseMonkey,learnable">
-	<ingredient name="vehicleWheels" count="5"/>
-	<ingredient name="vehicle4x4TruckChassis" count="1"/>
-	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
-	<ingredient name="smallEngine" count="1"/>
-	<ingredient name="carBattery" count="1"/>
-</recipe>
-	
 <recipe name="HDWar3zukBuggyAccessories" count="1" craft_time="180" craft_tool="HDWelder" craft_area="HD WorkBench" tags="perkGreaseMonkey,learnable">
 	<ingredient name="resourceElectricParts" count="40"/>
 	<ingredient name="resourceHeadlight" count="10"/>
@@ -1669,7 +1661,7 @@
 	<ingredient name="drinkJarEmpty" count="1"/>
 </recipe>
 
-<recipe name="HD Electrolyte" craft_time="30" craft_area="HD WorkBench" count="200">
+<recipe name="HD Electrolyte" craft_time="120" count="200">
 	<ingredient name="carBattery" count="1"/>
 </recipe>
 	

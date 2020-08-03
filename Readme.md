@@ -2,6 +2,8 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v3.0 to v3.1
 
+Removed War3zuk 4x4 (Now PaintJob Modlet)
+
 Rebalanced Loot Tables B173
 Edited HD Truck Elevator x5 Act Distance
 Edited HD Truck Elevator x10 Act Distance
@@ -15,6 +17,12 @@ Rebuilt Health Supply Flare Code (Rebalanced Loot)
 Rebuilt Ammo Supply Flare Code (Rebalanced Loot)
 Rebuilt Food Supply Flare Code (Rebalanced Loot)
 
+Adjuted HD Electrolyte Recipe (Craft On Player)
+Fixed Titanium Polish Localization
+
+Updated Texture HD Gas Generator
+Updated Texture HD Generator
+
 Launcher Edits:
 Sly Ship Spawns Balanced
 Animal Sanctuary Fixed Spawns Balanced
@@ -23,6 +31,7 @@ Rebalanced Supply Crate Loot
 0-CreaturePackAnimals Updated
 0-CreaturePackHumans Updated
 0-CreaturePackZombies Updated
+Added PaintJob Modlet By Eric
 
 Updated v2.9 to v3.0
 
