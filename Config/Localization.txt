@@ -24,6 +24,9 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+BunnyNZsEggPieDesc,items,weapons,New,Traditional Pie to help in the Zombie Slaying.,
+CurmudgeonsChiliPieDesc,items,weapons,New,Beef And Chili wrapped in Puff Pastry.,
+
 PossumsPavlovaDesc,items,weapons,New,Traditional Pudding to help in the Zombie Slaying.,
 MsTeresasBurgerPattyDesc,items,weapons,New,Umm Buns with Bugers. What more can the body need.,
 NaoyansYakitoriDesc,items,weapons,New,Traditional Japanese Skewers Dipped In Chili.,

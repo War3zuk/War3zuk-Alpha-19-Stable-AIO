@@ -593,6 +593,20 @@
 	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
+<recipe name="BunnyNZs Bacon And Egg Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="resourceAnimalFat" count="4"/>
+	<ingredient name="foodCornMeal" count="4"/>
+	<ingredient name="foodEgg" count="4"/>
+</recipe>
+
+<recipe name="Curmudgeons Beef Chili Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
 <recipe name="Aaron Rockst4r" count="1" craft_time = "10">
 	<ingredient name="resourceWood" count="40"/>
 	<ingredient name="resourceNail" count="10"/>

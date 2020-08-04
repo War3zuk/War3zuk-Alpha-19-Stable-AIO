@@ -1,5 +1,26 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v3.1 to v3.2
+
+Added BunnyNZs Bacon And Egg Pie (Campfire + Pot)
+Added Curmudgeons Beef Chili Pie (Campfire + Pot)
+
+Adjusted HD Desert Eagle Handling
+Adjusted HD Desert Eagle Punisher Handling
+
+Rebuilt Shock Ammo Code
+Rebuilt Inc Ammo Code
+
+Rebuilt HD Mac10 Auto Code
+Rebuilt HD M3 Auto Code + Aim Down Sight
+Rebuilt HD HK33 Hybrid Code
+Rebuilt HD AK Hybrid ACP Code
+
+Launcher Edits:
+Added WidowSpider 01
+Added WidowSpider 02
+Added WidowSpider 03
+
 Updated v3.0 to v3.1
 
 Removed War3zuk 4x4 (Now PaintJob Modlet)

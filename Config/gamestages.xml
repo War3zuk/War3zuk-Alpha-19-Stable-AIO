@@ -51,8 +51,8 @@
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='49']/spawn[@group='FwanderingHordeStageGS64' 	and @num='08']/@num">16</set>
 	<set xpath="/gamestages/spawner[@name='WanderingHorde']/gamestage[@stage='50']/spawn[@group='ZombieBearsGroup' 			and @num='02']/@num">4</set>
 	
-<!--  <append xpath='/gamestages/spawner[@name="BloodMoonHorde"]/gamestage[@stage &gt;23]' >
-	<spawn group="ZombiesNight" num="300" maxAlive="20"/>
-</append> -->
+<append xpath='/gamestages/spawner[@name="BloodMoonHorde"]/gamestage[@stage &gt;23]' >
+	<spawn group="ZombiesNight" num="350" maxAlive="20"/>
+</append>
 	
 </gamestages>
