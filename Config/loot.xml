@@ -14,7 +14,6 @@
 	<remove xpath="/lootcontainers/lootcontainer[@id='12']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='21']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='25']"></remove>
-	<!--  <remove xpath="/lootcontainers/lootcontainer[@id='34']"></remove> -->
 	<remove xpath="/lootcontainers/lootcontainer[@id='35']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='40']"></remove>
 	<remove xpath="/lootcontainers/lootcontainer[@id='42']"></remove>
