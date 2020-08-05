@@ -9668,7 +9668,7 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,gunHandgunT3DesertVulture,ammo44MagnumBulletBall,ammoCrossbowBoltSteelAP,gunBowT1IronCrossbow,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolPickT3AugerSchematic,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
+		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,gunHandgunT2Magnum44,ammo44MagnumBulletBall,ammoCrossbowBoltSteelAP,gunBowT1IronCrossbow,foodHoboStew,foodShamChowder,drinkJarGrandpasMoonshine,drinkJarGrandpasLearningElixir,meleeToolPickT3AugerSchematic,drinkJarCoffee,drinkJarCoffeeSchematic,drinkJarGoldenRodTeaSchematic,drinkJarRedTeaSchematic,drinkYuccaJuiceSmoothieSchematic"/>
 		<property name="Create_item_count" value="5,1,1,1,200,200,1,5,5,2,2,1,10,1,1,1,1"/>
 	</property>
 </item>
@@ -9752,7 +9752,7 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidKit,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalSplint,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gunHandgunT2Magnum44Schematic,gunHandgunT2Magnum44,ammo44MagnumBulletBall,medicalAloeCream,medicalPlasterCast"/>
+		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidKit,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalSplint,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gunHandgunT3DesertVulture,gunHandgunT3DesertVultureSchematic,ammo44MagnumBulletBall,medicalAloeCream,medicalPlasterCast"/>
 		<property name="Create_item_count" value="5,1,1,5,5,5,5,5,5,5,5,1,1,1,200,5,5"/>
 	</property>
 </item>

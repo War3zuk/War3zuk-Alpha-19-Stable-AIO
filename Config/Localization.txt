@@ -173,7 +173,7 @@ ClassBuilderDesc,items,,,Each Class gets a set of standard equippment like Food.
 
 ClassEngineerDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nEngineer Class Weapons are 9mm Pistol. CrossBow with Ammo And also Minibike Parts,
 
-ClassFarmerDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nFarmer Class Weapons are Desert Vulture. CrossBow with Ammo And also lots of Drinks and the Auger Schematic,
+ClassFarmerDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nFarmer Class Weapons are Magnum 44. CrossBow with Ammo And also lots of Drinks and the Auger Schematic,
 
 ClassGunmanDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nGunman Class Weapons are the MP5 along with its ammo. MP5 Schematic and Military parts,
 
@@ -181,7 +181,7 @@ ClassHunterDesc,items,,,Each Class gets a set of standard equippment like Food. 
 
 ClassMechanicDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nMechanic Class Weapons are the Magnum with ammo. Mortorbike and minibike schematics,
 
-ClassMedicDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nMedic Class Weapons are the Magnum with ammo. Assorted schematics to do with Medics,
+ClassMedicDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nMedic Class Weapons are the Desert Vulture with ammo. Assorted schematics to do with Medics,
 
 ClassMinerDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nMiner Class Weapons are the Shotgun its ammo and schematic along with Bundles for building and 100 forged Steel and Iron,
 

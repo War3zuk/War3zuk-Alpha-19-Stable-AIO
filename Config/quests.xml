@@ -832,6 +832,13 @@
 		
 		<objective type="Craft" id="Camoes Bifana" value="5" phase="2" />
 		
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="3" />
+		<objective type="FetchKeep" id="resourceAnimalFat" value="20" phase="3" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodCanChili" value="5" phase="3" />
+		
+		<objective type="Craft" id="Naoyans Yakitori" value="5" phase="4" />
+		
 		<reward type="Exp" value="100" />
 		<reward type="Quest" id="HD Cook PreReq 2" />
 </quest>
@@ -874,24 +881,19 @@
 	<property name="category_key" value="Quest" />
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
-
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="1" />
 		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="1" />
-		<objective type="FetchKeep" id="foodCanChili" value="5" phase="1" />
+		<objective type="FetchKeep" id="foodCropPotato" value="10" phase="1" />
 		
-		<objective type="Craft" id="Diggitys Chilli Pork Chops" value="5" phase="2" />
+		<objective type="Craft" id="klausgamer14s Beef steak And Fries" value="5" phase="2" />
 		
-		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="3" />
-		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="3" />
-		<objective type="FetchKeep" id="foodCropPotato" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodCanPears" value="5" phase="3" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodHoney" value="5" phase="3" />
+		<objective type="FetchKeep" id="foodEgg" value="20" phase="3" />
 		
-		<objective type="Craft" id="klausgamer14s Beef steak And Fries" value="5" phase="4" />
-		
-		<objective type="FetchKeep" id="foodCanPears" value="5" phase="5" />
-		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="5" />
-		<objective type="FetchKeep" id="foodHoney" value="5" phase="5" />
-		<objective type="FetchKeep" id="foodEgg" value="20" phase="5" />
-		
-		<objective type="Craft" id="Possums Pavlova" value="5" phase="6" />
+		<objective type="Craft" id="Possums Pavlova" value="5" phase="4" />
 		
 		<reward type="Exp" value="300" />
 		<reward type="Quest" id="HD Cook PreReq 4" />
@@ -920,18 +922,6 @@
 		
 		<objective type="Craft" id="Papas Bare Back Ribs" value="5" phase="4" />
 		
-		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="5" />
-		<objective type="FetchKeep" id="resourceAnimalFat" value="20" phase="5" />
-		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="5" />
-		<objective type="FetchKeep" id="foodCanChili" value="5" phase="5" />
-		
-		<objective type="Craft" id="Naoyans Yakitori" value="5" phase="6" />
-		
-		<objective type="FetchKeep" id="resourceAnimalFat" value="25" phase="7" />
-		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="7" />
-		
-		<objective type="Craft" id="CokaGamings Flaming Hot Cheetos" value="5" phase="8" />
-		
 		<reward type="Exp" value="400" />
 		<reward type="Quest" id="HD Cook PreReq 5" />
 </quest>
@@ -946,39 +936,19 @@
 	<property name="category_key" value="Quest" />
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
-
+		
 		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="1" />
-		<objective type="FetchKeep" id="BabyChick" value="30" phase="1" />
-		<objective type="FetchKeep" id="foodCanChili" value="5" phase="1" />
+		<objective type="FetchKeep" id="foodShamSandwich" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodRawMeat" value="10" phase="1" />
 		
-		<objective type="Craft" id="KillJoyJessicas HotWings" value="5" phase="2" />
+		<objective type="Craft" id="FaxFoxs Furr Burger" value="5" phase="2" />
 		
-		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="3" />
-		<objective type="FetchKeep" id="foodShamSandwich" value="10" phase="3" />
-		<objective type="FetchKeep" id="foodRawMeat" value="10" phase="3" />
+		<objective type="FetchKeep" id="resourceBone" value="25" phase="3" />
+		<objective type="FetchKeep" id="foodCanSham" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodCanStock" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodCanTuna" value="10" phase="3" />
 		
-		<objective type="Craft" id="FaxFoxs Furr Burger" value="5" phase="4" />
-		
-		<objective type="FetchKeep" id="resourceAnimalFat" value="20" phase="3" />
-		<objective type="FetchKeep" id="foodShamSandwich" value="10" phase="3" />
-		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="5" />
-		<objective type="FetchKeep" id="foodCanChili" value="5" phase="5" />
-		
-		<objective type="Craft" id="MsTeresas Burger Patty" value="5" phase="6" />
-		
-		<objective type="FetchKeep" id="resourceAnimalFat" value="25" phase="7" />
-		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="7" />
-		<objective type="FetchKeep" id="foodShamSandwich" value="10" phase="7" />
-		<objective type="FetchKeep" id="foodCanBeef" value="5" phase="7" />
-		
-		<objective type="Craft" id="Lovers Pizza" value="5" phase="8" />
-		
-		<objective type="FetchKeep" id="resourceBone" value="25" phase="9" />
-		<objective type="FetchKeep" id="foodCanSham" value="10" phase="9" />
-		<objective type="FetchKeep" id="foodCanStock" value="10" phase="9" />
-		<objective type="FetchKeep" id="foodCanTuna" value="10" phase="9" />
-		
-		<objective type="Craft" id="Donnas Fubar Stew" value="5" phase="10" />
+		<objective type="Craft" id="Donnas Fubar Stew" value="5" phase="4" />
 		
 		<reward type="Exp" value="1000" />
 		<reward type="SkillPoints" value="1" />

@@ -2,6 +2,8 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v3.1 to v3.2
 
+Rebuilt Backpack XUI Code B177
+
 Added BunnyNZs Bacon And Egg Pie (Campfire + Pot)
 Added Curmudgeons Beef Chili Pie (Campfire + Pot)
 
@@ -16,10 +18,17 @@ Rebuilt HD M3 Auto Code + Aim Down Sight
 Rebuilt HD HK33 Hybrid Code
 Rebuilt HD AK Hybrid ACP Code
 
+Rebuilt Cook Quest Class B177
+Edited Farmer Class (Magnum)
+Edited Medic Class (DesertVulture)
+
 Launcher Edits:
 Added WidowSpider 01
 Added WidowSpider 02
 Added WidowSpider 03
+
+Removed SMXmenu (Till Updated)
+Removed ZMXmenuWAIOCP20 Patch (Till Updated)
 
 Updated v3.0 to v3.1
 
