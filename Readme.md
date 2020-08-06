@@ -1,5 +1,12 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v3.2 to v3.3
+
+Menu Button Alignment Complete B177
+
+Launcher Edits:
+Removed ALL FireArms Bandits IE Guns
+
 Updated v3.1 to v3.2
 
 Rebuilt Backpack XUI Code B177

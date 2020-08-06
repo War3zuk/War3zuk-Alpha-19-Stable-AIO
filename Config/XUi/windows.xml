@@ -142,14 +142,14 @@
 	
 	<window name="windowBackpack" width="1008" height="550" panel="Center" controller="BackpackWindow" cursor_area="true">
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
-			<sprite depth="3" name="windowIcon" style="icon32px" pivot="center" pos="21,-21" sprite="ui_game_symbol_backpack" />
+			<sprite depth="3" name="windowIcon" style="icon32px" pivot="center" pos="-10, -22" sprite="ui_game_symbol_backpack" />
 			<label depth="3" name="windowName" pos="42,-6" width="250" height="32" text="INVENTORY" text_key="xuiInventory" font_size="32" />
 
 
 			<rect pos="450,0" width="300" controller="ContainerStandardControls">
-				<button depth="3" name="btnClearInventory" sprite="ui_game_symbol_trash" tooltip_key="lblClearInventory" pos="195, -21" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="{creativewindowopen}" />
+				<button depth="3" name="btnClearInventory" sprite="ui_game_symbol_trash" tooltip_key="lblClearInventory" pos="320, -21" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="{creativewindowopen}" />
 
-				<button depth="3" name="btnSort" sprite="ui_game_symbol_sort" tooltip_key="lblSortContainer" pos="-10, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
+				<button depth="3" name="btnSort" sprite="ui_game_symbol_sort" tooltip_key="lblSortContainer" pos="-430,-21" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
 				
 				<rect pos="0, 0" visible="{lootingorvehiclestorage}">
 					<button depth="3" name="btnMoveAll" sprite="ui_game_symbol_store_all_down" tooltip_key="lblStashAll" pos="80, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
