@@ -4,8 +4,15 @@ Updated v3.2 to v3.3
 
 Menu Button Alignment Complete B177
 
+Changed Vanilla medicalBandage (Apply Anytime)
+Changed Vanilla medicalSplint (Apply Anytime)
+Changed Vanilla medicalPlasterCast (Apply Anytime)
+
 Launcher Edits:
 Removed ALL FireArms Bandits IE Guns
+Xyth Rebalanced 0-CreaturePackZombies
+Xyth Rebalanced 0-CreaturePackHumans
+Xyth Rebalanced 0-CreaturePackAnimals
 
 Updated v3.1 to v3.2
 
