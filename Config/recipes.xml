@@ -189,7 +189,7 @@
 
 <recipe name="HD Rocket Launcher" count="1" craft_time = "200" craft_area="HD GunBench" tags="learnable,perkDemolitionsExpert">
 	<ingredient name="gunExplosivesT3RocketLauncherParts" count="5"/>
-	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceForgedSteel" count="100"/>
 	<ingredient name="resourceDuctTape" count="20"/>
 	<ingredient name="resourceElectricParts" count="50"/>
 	<ingredient name="resourceSpring" count="20"/>
@@ -203,10 +203,10 @@
 </recipe>
 
 <recipe name="HDRocketLauncherNukeRound" craft_time = "10" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
-	<ingredient name="resourceForgedIron" count="250"/>
+	<ingredient name="resourceForgedIron" count="150"/>
 	<ingredient name="resourceBuckshot" count="150"/>
 	<ingredient name="resourceGunPowder" count="500"/>
-	<ingredient name="resourceMechanicalParts" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
 	<ingredient name="resourceRocketCasing" count="10"/>
 </recipe>
 	
@@ -628,7 +628,7 @@
 </recipe>
 	
 <recipe name="HDScrapIronAxe" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
-	<ingredient name="resourceScrapIron" count="50"/>
+	<ingredient name="resourceScrapIron" count="30"/>
 	<ingredient name="resourceNail" count="2"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceLeather" count="2"/>
@@ -636,7 +636,7 @@
 </recipe>
 
 <recipe name="HDScrapIronPickAxe" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
-	<ingredient name="resourceScrapIron" count="40"/>
+	<ingredient name="resourceScrapIron" count="30"/>
 	<ingredient name="resourceNail" count="2"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceLeather" count="2"/>
@@ -644,7 +644,7 @@
 </recipe>
 
 <recipe name="HDScrapIronShovel" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
-	<ingredient name="resourceScrapIron" count="20"/>
+	<ingredient name="resourceScrapIron" count="30"/>
 	<ingredient name="resourceNail" count="2"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceLeather" count="2"/>
@@ -652,7 +652,7 @@
 </recipe>
 
 <recipe name="HDScrapIronClub" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
-	<ingredient name="resourceScrapIron" count="25"/>
+	<ingredient name="resourceScrapIron" count="30"/>
 	<ingredient name="resourceNail" count="2"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceLeather" count="2"/>
@@ -660,7 +660,7 @@
 </recipe>
 
 <recipe name="HDScrapIronShiv" count="1" craft_time = "10" craft_exp_gain="100" tags="perkDeepCuts">
-	<ingredient name="resourceScrapIron" count="10"/>
+	<ingredient name="resourceScrapIron" count="30"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceLeather" count="2"/>
 	<ingredient name="resourceNail" count="2"/>
@@ -1340,21 +1340,18 @@
 </recipe>
 
 <recipe name="HDCncHandGuns" count="1" craft_time = "30" tags="learnable">
-	<ingredient name="resourceForgedSteel" count="20"/>
 	<ingredient name="resourceForgedIron" count="20"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceSpring" count="20"/>
 </recipe>
 
 <recipe name="HDCncAutomatics" count="1" craft_time = "30" tags="learnable">
-	<ingredient name="resourceForgedSteel" count="20"/>
 	<ingredient name="resourceForgedIron" count="20"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceSpring" count="20"/>
 </recipe>
 
 <recipe name="HDCncRifles" count="1" craft_time = "30" tags="learnable">
-	<ingredient name="resourceForgedSteel" count="20"/>
 	<ingredient name="resourceForgedIron" count="20"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceSpring" count="20"/>

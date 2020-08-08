@@ -841,7 +841,6 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="Group" value="Mods"/>
 		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
-		<property name="Material" value="Mleather"/>
 		<effect_group tiered="false">
 			<passive_effect name="CarryCapacity" operation="base_add" value="15"/>
 			<display_value name="dCarryCapacity" value="15"/>

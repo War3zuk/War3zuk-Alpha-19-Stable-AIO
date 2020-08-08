@@ -8,6 +8,22 @@ Changed Vanilla medicalBandage (Apply Anytime)
 Changed Vanilla medicalSplint (Apply Anytime)
 Changed Vanilla medicalPlasterCast (Apply Anytime)
 
+Updated Recipes As Follows
+HD Rocket Launcher
+HDRocketLauncherNukeRound
+Warm Chunky Meat Stew
+Warm Chunky Sham Chowder
+Warm Chunky Hobo Stew
+Warm Chunky Steak And Potato
+HDScrapIronAxe
+HDScrapIronPickAxe
+HDScrapIronShovel
+HDScrapIronClub
+HDScrapIronShiv
+HDCncHandGuns
+HDCncAutomatics
+HDCncRifles
+
 Launcher Edits:
 Removed ALL FireArms Bandits IE Guns
 Xyth Rebalanced 0-CreaturePackZombies
