@@ -1810,27 +1810,29 @@
 </item>
 
 <item name="HD Knife">
-	<property name="Tags" value="knife,melee,light,perkFlurryOfBlows,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic"/>
-	<property name="DisplayType" value="meleeKnife"/>
 	<property name="DescriptionKey" value="HDKnifeDesc"/>
 	<property name="CustomIcon" value="HD Throwing Knife"/>
 	<property name="HoldType" value="36"/>
+	<property name="Tags" value="knife,melee,light,weapon,meleeWeapon,attPerception,perkJavelinMaster,canHaveCosmetic,thrownWeapon"/>
+	<property name="DisplayType" value="meleeKnife"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Throwing Knife.unity3d?HD Throwing Knife.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="Material" value="MmeleeWpnSpearParts"/>
-	<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spear_sticky.mat"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
+	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="SoundDestroy" value="wooddestroy1"/>
-	<property name="FuelValue" value="150"/>
-	<property name="EconomicValue" value="110"/>
-	<property name="EconomicBundleSize" value="100"/>
-	<property name="SellableToTrader" value="true"/>
+	<property name="FuelValue" value="50"/>
+	<property name="EconomicValue" value="140"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="SellableToTrader" value="false"/>
 	<property name="IsSticky" value="true"/>
 	<property name="StickyOffset" value=".15"/>
 	<property name="StickyColliderUp" value="1"/>
 	<property name="StickyColliderRadius" value=".1"/>
 	<property name="StickyColliderLength" value="2"/>
 	<property name="StickyForwardDirection" value="0,0,1"/>
-	<property name="Stacknumber" value="10"/>
+	<property name="NavObject" value="spear"/>
+	<property name="Stacknumber" value="100"/>
 	<property class="Action0">
 		<property name="Class" value="DynamicMelee"/>
 		<property name="Hitmask_override" value="Melee"/>
@@ -1853,26 +1855,36 @@
 		<requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="20.1"/>
 		<property name="Class" value="ThrownWeapon"/>
 		<property name="Hitmask_override" value="Bullet"/>
-		<property name="Delay" value="0.1"/>
-		<property name="Throw_strength_default" value="18"/>
+		<property name="Delay" value="1.2"/>
+		<property name="Throw_strength_default" value="6"/>
 		<property name="Throw_strength_max" value="18"/>
-		<property name="Max_strain_time" value="0.1"/>
+		<property name="Max_strain_time" value="1"/>
 		<property name="Sound_start" value="spear_throw"/>
 		<property name="Explosion.ParticleIndex" value="0"/>
 		<property name="FlyTime" value="0"/>
-		<property name="Gravity" value="-0.0"/>
+		<property name="Gravity" value="-7.5"/>
 		<property name="LifeTime" value="60"/>
 		<property class="HitSounds">
 			<property name="Override0" value="organic" param1="metalstaborganic"/>
 		</property>
 	</property>
-	<effect_group tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="45.5"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="5"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="65"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="20.0" tags="primary"/>
-		<passive_effect name="MaxRange" operation="base_set" value="3.2"/>
-		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
+	<effect_group name="meleeWpnSpearT1IronSpear">
+		<passive_effect name="EntityDamage" operation="base_set" value="25.5" tags="perkJavelinMaster"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value="-.1" tags="perkJavelinMaster"/><display_value name="dTargetArmor" value="-.1"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="5" tags="perkJavelinMaster"/>
+		<passive_effect name="AttacksPerMinute" operation="base_set" value="65" tags="perkJavelinMaster"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="9.5" tags="primary"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="212,423" tier="1,6" tags="perkJavelinMaster"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkJavelinMaster"/>
+		<passive_effect name="MaxRange" operation="base_set" value="3.2" tags="perkJavelinMaster"/>
+		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkJavelinMaster"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkJavelinMaster"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkJavelinMaster"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkJavelinMaster"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
@@ -1880,6 +1892,12 @@
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="allToolsHarvest"/>
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
 	</effect_group>
+	<effect_group name="Throw">
+		<passive_effect name="EntityDamage" operation="perc_add" value="2" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="2" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="10.5" tags="secondary"/>
+	</effect_group>
+	<property name="Group" value="Ammo/Weapons"/>
 </item>
 
 <item name="HDNailGunBolt">
@@ -2200,7 +2218,7 @@
 	<property name="ShowQuality" value="true"/>
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
-		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP"/>
+		<property name="Magazine_items" value="ammo9mmBulletBall,ammo9mmBulletHP,ammo9mmBulletAP,9mm Bullet INC,9mm Bullet SH"/>
 		<property name="Sound_start" value="HDGlockAutoFire"/>
 		<property name="Sound_loop" value="HDGlockAutoFire"/>
 		<property name="Sound_end" value=""/>

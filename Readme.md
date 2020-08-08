@@ -1,5 +1,16 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v3.3 to v3.4
+
+Rebuilt HD Knife Code
+Fixed GlockG5 Modded Ammo
+
+Updated Recipes On The Following
+Congealed Metal
+Steel Polish
+Titanium Polish
+HD Knife
+
 Updated v3.2 to v3.3
 
 Menu Button Alignment Complete B177
