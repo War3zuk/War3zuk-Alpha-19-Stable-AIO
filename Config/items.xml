@@ -295,6 +295,66 @@
 		<passive_effect name="StaminaLoss" operation="base_set" value="16.3" tags="secondary"/>
 	</effect_group>
 </item> -->
+
+<item name="Pikalyns Patbingsu">
+	<property name="DescriptionKey" value="PikalynsPatbingsuDesc"/>
+	<property name="CustomIcon" value="Pikalyns Patbingsu" />
+	<property name="HoldType" value="3"/>
+	<property name="DisplayType" value="waterMegaCrush"/>
+	<property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="Weight" value="10"/>
+	<property name="EconomicValue" value="110"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</property>
+	<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+	<effect_group tiered="false" name="Drink Tier Found">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+		
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="75"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="20"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
+			
+			<display_value name="dHypothermalResist" value="30"/>
+			<display_value name="dDuration" value="180"/>
+			<display_value name="dStaminaRegen" value=".20"/>
+			<display_value name="dRunSpeed" value=".5"/>
+			
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="add" value="183"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="183">
+				<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="183"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
+	</effect_group>
+
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Shaved Ice">
+	<property name="DescriptionKey" value="ShavedIceDesc"/>
+	<property name="CustomIcon" value="Shaved Ice" />
+	<property name="HoldType" value="40"/>
+	<property name="Meshfile" value="#Other/Items?Misc/snowballPrefab.prefab"/>
+	<property name="HandMeshfile" value="#Other/Items?Misc/snowball_FP_Prefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/snowballPrefab.prefab"/>
+	<property name="DropScale" value="1.5"/>
+	<property name="Material" value="MresourceSnowBall"/>
+	<property name="Weight" value="5"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Resources"/>
+</item>
 	
 <item name="VanillaEntityLoadingHack">
 	<property name="CreativeMode" value="None"/>

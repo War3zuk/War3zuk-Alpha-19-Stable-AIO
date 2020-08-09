@@ -25,6 +25,18 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="Shaved Ice" count="2" craft_time="0.5">
+	<ingredient name="resourceSnowBall" count="1"/>
+</recipe>
+
+<recipe name="Pikalyns Patbingsu" count="1" craft_time="30">
+	<ingredient name="drinkJarEmpty" count="1"/>
+	<ingredient name="foodCanPears" count="1"/>
+	<ingredient name="foodHoney" count="2"/>
+	<ingredient name="resourceCropSnowberryPlant" count="30"/>
+	<ingredient name="Shaved Ice" count="100"/>
+</recipe>
+	
 <recipe name="HDWar3zukBuggyAccessories" count="1" craft_time="180" craft_tool="HDWelder" craft_area="HD WorkBench" tags="perkGreaseMonkey,learnable">
 	<ingredient name="resourceElectricParts" count="40"/>
 	<ingredient name="resourceHeadlight" count="10"/>
