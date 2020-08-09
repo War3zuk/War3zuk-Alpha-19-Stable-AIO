@@ -4464,8 +4464,8 @@
 		<property name="Sound_end" value=""/>
 		<property name="Sound_empty" value="dryfire"/>
 		<property name="Sound_reload" value="sniperrifle_reload"/>
-		<property name="Particles_muzzle_fire" value="m60_fire"/>
-		<property name="Particles_muzzle_fire_fpv" value="m60_fire"/>
+		<property name="Particles_muzzle_fire" value="gunfire_pistol"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_magnum_fpv"/>
 		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
 	</property>
 	<property class="Action1">
