@@ -11,6 +11,11 @@ Steel Polish
 Titanium Polish
 HD Knife
 
+Removed M60_Fire From HD Karabiner 98k
+
+Launcher Edits:
+Removed <property name="LookAtAngle" value="0"/>
+
 Updated v3.2 to v3.3
 
 Menu Button Alignment Complete B177
