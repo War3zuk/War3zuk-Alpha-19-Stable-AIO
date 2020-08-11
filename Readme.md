@@ -16,6 +16,12 @@ Removed M60_Fire From HD Karabiner 98k
 Added Shaved Ice
 Added Pikalyns Patbingsu (Made On Character)
 
+Updated Recipe For The Following
+HD GunBench
+HD WorkBench
+HD PicsBench
+HD AmmoBench
+
 Launcher Edits:
 Removed <property name="LookAtAngle" value="0"/>
 

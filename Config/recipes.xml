@@ -1449,28 +1449,28 @@
 </recipe>
 
 <recipe name="HD GunBench" count="1"  craft_time = "160" tags="learnable">
-	<ingredient name="resourceForgedSteel" count="55"/>
+	<ingredient name="resourceForgedIron" count="55"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceScrapPolymers" count="12"/>
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
 <recipe name="HD WorkBench" count="1"  craft_time = "160" tags="learnable">
-	<ingredient name="resourceForgedSteel" count="55"/>
+	<ingredient name="resourceForgedIron" count="55"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceScrapPolymers" count="12"/>
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
 <recipe name="HD PicsBench" count="1"  craft_time = "160" tags="learnable">
-	<ingredient name="resourceForgedSteel" count="55"/>
+	<ingredient name="resourceForgedIron" count="55"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceScrapPolymers" count="12"/>
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
 <recipe name="HD AmmoBench" count="1"  craft_time = "160" tags="learnable">
-	<ingredient name="resourceForgedSteel" count="55"/>
+	<ingredient name="resourceForgedIron" count="55"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceScrapPolymers" count="12"/>
 	<ingredient name="resourceSpring" count="5"/>
