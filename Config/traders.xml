@@ -1,19 +1,46 @@
 <config>
 
 	<set xpath="/traders/trader_info[@id='1']/@reset_interval">1</set>
-	<set xpath="/traders/trader_info[@id='1']/@min_inventory">50</set>
-	<set xpath="/traders/trader_info[@id='1']/@max_inventory">100</set>
-	<set xpath="/traders/trader_info[@id='1']/@min_items_swapped">50</set>
-	<set xpath="/traders/trader_info[@id='1']/@max_items_swapped">100</set>
- 	<set xpath="/traders/trader_info[@id='1']/@open_time">06:05</set>
-	<set xpath="/traders/trader_info[@id='1']/@close_time">22:05</set>
+	<set xpath="/traders/trader_info[@id='1']/@min_inventory">60</set>
+	<set xpath="/traders/trader_info[@id='1']/@max_inventory">120</set>
+	<set xpath="/traders/trader_info[@id='1']/@min_items_swapped">60</set>
+	<set xpath="/traders/trader_info[@id='1']/@max_items_swapped">120</set>
+ 	<set xpath="/traders/trader_info[@id='1']/@open_time">05:59</set>
+	<set xpath="/traders/trader_info[@id='1']/@close_time">11:59</set>
+	
+	<set xpath="/traders/trader_info[@id='2']/@reset_interval">1</set>
+	<set xpath="/traders/trader_info[@id='2']/@min_inventory">60</set>
+	<set xpath="/traders/trader_info[@id='2']/@max_inventory">120</set>
+	<set xpath="/traders/trader_info[@id='2']/@min_items_swapped">60</set>
+	<set xpath="/traders/trader_info[@id='2']/@max_items_swapped">120</set>
+ 	<set xpath="/traders/trader_info[@id='2']/@open_time">05:59</set>
+	<set xpath="/traders/trader_info[@id='2']/@close_time">11:59</set>
+	
+	<set xpath="/traders/trader_info[@id='3']/@reset_interval">1</set>
+	
+	<set xpath="/traders/trader_info[@id='6']/@reset_interval">1</set>
+	<set xpath="/traders/trader_info[@id='6']/@min_inventory">60</set>
+	<set xpath="/traders/trader_info[@id='6']/@max_inventory">120</set>
+	<set xpath="/traders/trader_info[@id='6']/@min_items_swapped">60</set>
+	<set xpath="/traders/trader_info[@id='6']/@max_items_swapped">120</set>
+ 	<set xpath="/traders/trader_info[@id='6']/@open_time">05:59</set>
+	<set xpath="/traders/trader_info[@id='6']/@close_time">11:59</set>
+	
+	<set xpath="/traders/trader_info[@id='8']/@reset_interval">1</set>
+	<set xpath="/traders/trader_info[@id='8']/@min_inventory">60</set>
+	<set xpath="/traders/trader_info[@id='8']/@max_inventory">120</set>
+	<set xpath="/traders/trader_info[@id='8']/@min_items_swapped">60</set>
+	<set xpath="/traders/trader_info[@id='8']/@max_items_swapped">120</set>
+ 	<set xpath="/traders/trader_info[@id='8']/@open_time">05:59</set>
+	<set xpath="/traders/trader_info[@id='8']/@close_time">11:59</set>
+	
 	<set xpath="/traders/trader_info[@id='3']/@reset_interval">1</set>
 	<set xpath="/traders/trader_info[@id='3']/@allow_sell">true</set>
 	<set xpath="/traders/trader_info[@id='4']/@reset_interval">1</set>
-	<set xpath="/traders/trader_info[@id='4']/@min_inventory">50</set>
-	<set xpath="/traders/trader_info[@id='4']/@max_inventory">100</set>
-	<set xpath="/traders/trader_info[@id='4']/@min_items_swapped">50</set>
-	<set xpath="/traders/trader_info[@id='4']/@max_items_swapped">100</set>
+	<set xpath="/traders/trader_info[@id='4']/@min_inventory">60</set>
+	<set xpath="/traders/trader_info[@id='4']/@max_inventory">120</set>
+	<set xpath="/traders/trader_info[@id='4']/@min_items_swapped">60</set>
+	<set xpath="/traders/trader_info[@id='4']/@max_items_swapped">120</set>
 	<set xpath="/traders/trader_info[@id='4']/@allow_sell">true</set>
 	<set xpath="/traders/trader_info[@id='5']/@reset_interval">1</set>
 	<set xpath="/traders/trader_info[@id='5']/@allow_sell">true</set>

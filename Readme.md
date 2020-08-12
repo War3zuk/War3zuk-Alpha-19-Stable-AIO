@@ -1,5 +1,24 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v3.4 to v3.5
+
+Readded Spas 12 Sounds
+Readded MossBerg 500 Sounds
+
+Find The Trader Quest Paper (Crafted On Player)
+Commented Out On Purpose As It Will Reset Characters
+Will Enable On The Next Exp Update From The Fun Pimps
+
+Rebuild Trader Code
+Opening Times 5:59am
+Closing Times 11:59pm
+Reset Interval 1 Day
+All Traders 1 To 8
+
+Launcher Edits:
+Added Bdubs Vehicle OverHaul
+Kheldon Screamer Bears Adjusted
+
 Updated v3.3 to v3.4
 
 Rebuilt HD Knife Code

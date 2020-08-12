@@ -3187,7 +3187,7 @@
 		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
 		<property name="Reload_time" value="2.6"/>
 		<property name="Sound_start" value="shotgundb_fire"/>
-		<property name="Sound_repeat" value=""/>
+		<property name="Sound_repeat" value="shotgundb_fire"/>
 		<property name="Sound_end" value=""/>
 		<property name="Sound_empty" value="dryfire"/>
 		<property name="Particles_muzzle_fire" value="gunfire_doublebarrel"/>
@@ -3271,9 +3271,9 @@
 		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
 		<property name="Reload_time" value="2.6"/>
 		<property name="Sound_start" value="shotgundb_fire"/>
-		<property name="Sound_repeat" value=""/>
-		<property name="Sound_end" value=""/>
-		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_repeat" value="shotgundb_fire"/>
+		<property name="Sound_end" value="Spas12Pump"/>
+		<property name="Sound_empty" value="Spas12Load"/>
 		<property name="Particles_muzzle_fire" value="gunfire_doublebarrel"/>
 		<property name="Particles_muzzle_fire_fpv" value="gunfire_doublebarrel_fpv"/>
 		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
@@ -3354,10 +3354,10 @@
 		<property name="Delay" value=".8"/>
 		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
 		<property name="Reload_time" value="2.6"/>
-		<property name="Sound_start" value="pump_shotgun_fire"/>
-		<property name="Sound_repeat" value=""/>
-		<property name="Sound_end" value=""/>
-		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_start" value="Spas12Fire"/>
+		<property name="Sound_repeat" value="Spas12Fire"/>
+		<property name="Sound_end" value="Spas12Pump"/>
+		<property name="Sound_empty" value=""/>
 		<property name="Particles_muzzle_fire" value="gunfire_shotgun"/>
 		<property name="Particles_muzzle_fire_fpv" value="gunfire_shotgun_fpv"/>
 		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
@@ -3439,10 +3439,10 @@
 		<property name="Delay" value=".8"/>
 		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
 		<property name="Reload_time" value="2.6"/>
-		<property name="Sound_start" value="pump_shotgun_fire"/>
-		<property name="Sound_repeat" value=""/>
-		<property name="Sound_end" value=""/>
-		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_start" value="Spas12Fire"/>
+		<property name="Sound_repeat" value="Spas12Fire"/>
+		<property name="Sound_end" value="Spas12Pump"/>
+		<property name="Sound_empty" value=""/>
 		<property name="Particles_muzzle_fire" value="gunfire_shotgun"/>
 		<property name="Particles_muzzle_fire_fpv" value="gunfire_shotgun_fpv"/>
 		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
@@ -3524,10 +3524,10 @@
 		<property name="Delay" value=".8"/>
 		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
 		<property name="Reload_time" value="2.6"/>
-		<property name="Sound_start" value="pump_shotgun_fire"/>
-		<property name="Sound_repeat" value=""/>
-		<property name="Sound_end" value=""/>
-		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_start" value="Spas12Fire"/>
+		<property name="Sound_repeat" value="Spas12Fire"/>
+		<property name="Sound_end" value="Spas12Pump"/>
+		<property name="Sound_empty" value=""/>
 		<property name="Particles_muzzle_fire" value="gunfire_shotgun"/>
 		<property name="Particles_muzzle_fire_fpv" value="gunfire_shotgun_fpv"/>
 		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
@@ -3609,10 +3609,10 @@
 		<property name="Delay" value=".8"/>
 		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
 		<property name="Reload_time" value="2.6"/>
-		<property name="Sound_start" value="pump_shotgun_fire"/>
-		<property name="Sound_repeat" value=""/>
-		<property name="Sound_end" value=""/>
-		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_start" value="Spas12Fire"/>
+		<property name="Sound_repeat" value="Spas12Fire"/>
+		<property name="Sound_end" value="Spas12Pump"/>
+		<property name="Sound_empty" value=""/>
 		<property name="Particles_muzzle_fire" value="gunfire_shotgun"/>
 		<property name="Particles_muzzle_fire_fpv" value="gunfire_shotgun_fpv"/>
 		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
@@ -3694,10 +3694,10 @@
 		<property name="Delay" value=".8"/>
 		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
 		<property name="Reload_time" value="2.6"/>
-		<property name="Sound_start" value="pump_shotgun_fire"/>
-		<property name="Sound_repeat" value=""/>
-		<property name="Sound_end" value=""/>
-		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_start" value="Spas12Fire"/>
+		<property name="Sound_repeat" value="Spas12Fire"/>
+		<property name="Sound_end" value="Spas12Pump"/>
+		<property name="Sound_empty" value=""/>
 		<property name="Particles_muzzle_fire" value="gunfire_shotgun"/>
 		<property name="Particles_muzzle_fire_fpv" value="gunfire_shotgun_fpv"/>
 		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
@@ -3780,9 +3780,9 @@
 		<property name="Magazine_items" value="ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug"/>
 		<property name="Reload_time" value="2.6"/>
 		<property name="Sound_start" value="MossBerg500Fire"/>
-		<property name="Sound_repeat" value=""/>
-		<property name="Sound_end" value=""/>
-		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_repeat" value="MossBerg500Fire"/>
+		<property name="Sound_end" value="Spas12Pump"/>
+		<property name="Sound_empty" value=""/>
 		<property name="Particles_muzzle_fire" value="gunfire_shotgun"/>
 		<property name="Particles_muzzle_fire_fpv" value="gunfire_shotgun_fpv"/>
 		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
