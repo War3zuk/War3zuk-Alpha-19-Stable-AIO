@@ -5,16 +5,12 @@
 	<set xpath="/traders/trader_info[@id='1']/@max_inventory">120</set>
 	<set xpath="/traders/trader_info[@id='1']/@min_items_swapped">60</set>
 	<set xpath="/traders/trader_info[@id='1']/@max_items_swapped">120</set>
- 	<set xpath="/traders/trader_info[@id='1']/@open_time">05:59</set>
-	<set xpath="/traders/trader_info[@id='1']/@close_time">11:59</set>
 	
 	<set xpath="/traders/trader_info[@id='2']/@reset_interval">1</set>
 	<set xpath="/traders/trader_info[@id='2']/@min_inventory">60</set>
 	<set xpath="/traders/trader_info[@id='2']/@max_inventory">120</set>
 	<set xpath="/traders/trader_info[@id='2']/@min_items_swapped">60</set>
 	<set xpath="/traders/trader_info[@id='2']/@max_items_swapped">120</set>
- 	<set xpath="/traders/trader_info[@id='2']/@open_time">05:59</set>
-	<set xpath="/traders/trader_info[@id='2']/@close_time">11:59</set>
 	
 	<set xpath="/traders/trader_info[@id='3']/@reset_interval">1</set>
 	
@@ -23,16 +19,12 @@
 	<set xpath="/traders/trader_info[@id='6']/@max_inventory">120</set>
 	<set xpath="/traders/trader_info[@id='6']/@min_items_swapped">60</set>
 	<set xpath="/traders/trader_info[@id='6']/@max_items_swapped">120</set>
- 	<set xpath="/traders/trader_info[@id='6']/@open_time">05:59</set>
-	<set xpath="/traders/trader_info[@id='6']/@close_time">11:59</set>
 	
 	<set xpath="/traders/trader_info[@id='8']/@reset_interval">1</set>
 	<set xpath="/traders/trader_info[@id='8']/@min_inventory">60</set>
 	<set xpath="/traders/trader_info[@id='8']/@max_inventory">120</set>
 	<set xpath="/traders/trader_info[@id='8']/@min_items_swapped">60</set>
 	<set xpath="/traders/trader_info[@id='8']/@max_items_swapped">120</set>
- 	<set xpath="/traders/trader_info[@id='8']/@open_time">05:59</set>
-	<set xpath="/traders/trader_info[@id='8']/@close_time">11:59</set>
 	
 	<set xpath="/traders/trader_info[@id='3']/@reset_interval">1</set>
 	<set xpath="/traders/trader_info[@id='3']/@allow_sell">true</set>
