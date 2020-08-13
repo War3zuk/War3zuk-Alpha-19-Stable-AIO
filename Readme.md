@@ -15,6 +15,18 @@ Closing Times 11:59pm
 Reset Interval 1 Day
 All Traders 1 To 8
 
+Rebalanced The Following Groups B178
+War3zukHDWeaponParts
+War3zukHDWeapons
+War3zukHDBenches
+War3zukHDBenchAddons
+War3zukHDTools
+War3zukHDMilitary
+War3zukHDFlares
+War3zukHDCarePackages
+War3zukHDFoods
+
+
 Launcher Edits:
 Added Bdubs Vehicle OverHaul
 Kheldon Screamer Bears Adjusted
