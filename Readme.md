@@ -2,6 +2,9 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v3.5 to v3.6
 
+HD Night Vision Helmet Light Addon
+Idea For The Night Vision Helmet Addon (Nikolay Lopatyuk)
+
 Find The Trader Quest Paper (Crafted On Player)
 This WILL Reset Your Player But Old Saves Will Work
 

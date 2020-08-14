@@ -25,6 +25,14 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HDNightVisionHelmetLight" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="120">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+	<ingredient name="apparelNightvisionGoggles" count="1"/>
+</recipe>
+	
 <recipe name="Find The Trader" craft_time = "30" count="1">
 	<ingredient name="resourcePaper" count="50"/>
 </recipe>
