@@ -1,5 +1,15 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v3.5 to v3.6
+
+Find The Trader Quest Paper (Crafted On Player)
+This WILL Reset Your Player But Old Saves Will Work
+
+Quests Buried Supplies Tier 1 To 6 B180 (This Will Reset Player Stats)
+
+Launcher Edits:
+Edited Clown
+
 Updated v3.4 to v3.5
 
 Readded Spas 12 Sounds

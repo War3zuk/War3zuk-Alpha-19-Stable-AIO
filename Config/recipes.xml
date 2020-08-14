@@ -25,6 +25,10 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="Find The Trader" craft_time = "30" count="1">
+	<ingredient name="resourcePaper" count="50"/>
+</recipe>
+	
 <recipe name="Shaved Ice" count="2" craft_time="0.5">
 	<ingredient name="resourceSnowBall" count="1"/>
 </recipe>

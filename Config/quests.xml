@@ -1035,6 +1035,46 @@
 		<reward type="Item" id="armorLeatherBoots" value="6" />
 		<reward type="Item" id="armorLeatherHood" value="6" />
 	</quest>
+	
+	<quest id="Find The Trader">
+		<property name="group_name_key" value="quest_next_trader"/>
+		<property name="name_key" value="quest_next_trader"/>
+		<property name="subtitle_key" value="Youve found a New Trader"/>
+		<property name="description_key" value="Youve found a New Trader"/>
+		<property name="icon" value="ui_game_symbol_map_trader"/>
+		<property name="category_key" value="quest"/>
+		<property name="shareable" value="false"/>
+		<property name="repeatable" value="true"/>
+		<property name="difficulty" value="easy"/>
+		<property name="difficulty_tier" value="1"/>
+
+		<property name="unique_key" value="traderquest" />
+
+		<property name="offer_key" value="quest_next_trader_offer"/>
+		<property name="statement_key" value="quest_next_trader_statement"/>
+		<property name="response_key" value="quest_next_trader_response"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_next_trader_completion"/>
+
+		<property name="return_to_quest_giver" value="false" />
+
+		<property name="quest_type" value="special" />
+
+		<objective type="Goto" id="trader" value="5" phase="1">
+			<property name="nav_object" value="go_to_trader" />
+			<property name="biome_filter_type" value="ExcludeBiome" />
+			<property name="biome_filter" value="wasteland" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+			<property name="use_closest" value="true" />
+		</objective>
+
+		<reward type="Exp" value="50"/>
+	</quest>
 
 </insertBefore>
 
@@ -1059,11 +1099,11 @@
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
 			<property name="distance" value="100-200"/>
-			<property name="default_radius" value="10"/>
+			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
-			<property name="blocks_per_reduction" value="2" />
+			<property name="blocks_per_reduction" value="4" />
 			<property name="radius_reduction_sound" value="ui_radius_shrink" />
 		</objective>
 
@@ -1114,11 +1154,11 @@
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
 			<property name="distance" value="200-300"/>
-			<property name="default_radius" value="12"/>
+			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
-			<property name="blocks_per_reduction" value="2" />
+			<property name="blocks_per_reduction" value="4" />
 			<property name="radius_reduction_sound" value="ui_radius_shrink" />
 		</objective>
 
@@ -1169,11 +1209,11 @@
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
 			<property name="distance" value="300-400"/>
-			<property name="default_radius" value="14"/>
+			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
-			<property name="blocks_per_reduction" value="2" />
+			<property name="blocks_per_reduction" value="4" />
 			<property name="radius_reduction_sound" value="ui_radius_shrink" />
 		</objective>
 
@@ -1224,11 +1264,11 @@
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
 			<property name="distance" value="400-500"/>
-			<property name="default_radius" value="16"/>
+			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
-			<property name="blocks_per_reduction" value="2" />
+			<property name="blocks_per_reduction" value="4" />
 			<property name="radius_reduction_sound" value="ui_radius_shrink" />
 		</objective>
 
@@ -1279,11 +1319,11 @@
 		<objective type="TreasureChest">
 			<property name="block" value="cntBuriedLootStashChestInsecure"/>
 			<property name="distance" value="500-600"/>
-			<property name="default_radius" value="18"/>
+			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
-			<property name="blocks_per_reduction" value="2" />
+			<property name="blocks_per_reduction" value="6" />
 			<property name="radius_reduction_sound" value="ui_radius_shrink" />
 		</objective>
 
@@ -1338,7 +1378,7 @@
 			<property name="container_type" value="Supplies"/>
 			<property name="nav_object" value="treasure" />
 			<property name="direct_nav_object" value="treasure_direct" />
-			<property name="blocks_per_reduction" value="2" />
+			<property name="blocks_per_reduction" value="6" />
 			<property name="radius_reduction_sound" value="ui_radius_shrink" />
 		</objective>
 
