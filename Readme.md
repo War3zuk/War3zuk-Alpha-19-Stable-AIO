@@ -2,6 +2,8 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v3.5 to v3.6
 
+HD Noob Block Upgrade Rate Defaulted At 2Mins
+
 HD Night Vision Helmet Light Addon
 Idea For The Night Vision Helmet Addon (Nikolay Lopatyuk)
 
