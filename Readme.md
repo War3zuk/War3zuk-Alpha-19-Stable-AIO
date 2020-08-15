@@ -12,6 +12,7 @@ Quests Buried Supplies Tier 1 To 6 B180 (This Will Reset Player Stats)
 
 Launcher Edits:
 Edited Clown
+Nauti-Baskin Animal Sanctuary Fixed
 
 Updated v3.4 to v3.5
 
