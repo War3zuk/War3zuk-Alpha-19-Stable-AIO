@@ -2034,14 +2034,6 @@
 	<ingredient name="HDGun Oil" count="2"/>
 </recipe>
 
-<recipe name="meleeToolAxeT3Chainsaw" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="10">
-	<ingredient name="resourceForgedSteel" count="10"/>
-	<ingredient name="resourceSpring" count="10"/>
-	<ingredient name="Forged Titanium" count="2"/>
-	<ingredient name="resourceCloth" count="2"/>
-	<ingredient name="HDGun Oil" count="2"/>
-</recipe>
-
 <recipe name="gunMGT1AK47Parts" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="10">
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceSpring" count="10"/>

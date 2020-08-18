@@ -2,7 +2,10 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v3.6 to v3.7
 
+Updated v3.6 to v3.7
+
 Added DrFuzzies Avenged Jukebox
+Removed Vanilla Chainsaw Recipe (No Idea Why That Was There)
 
 Launcher Edits:
 Updated xcostum_VarietiesDepartmentStore(by_Stallionsden)
