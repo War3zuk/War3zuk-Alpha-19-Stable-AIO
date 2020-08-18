@@ -777,8 +777,8 @@
 </block>
 	
 <block name="HDJukeBoxReggaeOFF">
-	<property name="CustomIcon" value="HDJukeBoxReggaeOFF" />
-	<property name="DescriptionKey" value="HDJukeBoxReggaeDesc"/>
+	  <property name="CustomIcon" value="HDJukeBoxReggaeOFF" />
+	  <property name="DescriptionKey" value="HDJukeBoxReggaeDesc"/>
 	  <property name="Model" value="#@modfolder:Resources/HD JukeBox OFF.unity3d?HD JukeBox Reggae OFF.Prefab" />
 	  <property name="Material" value="BoxedWood"/>
 	  <property name="Shape" value="ModelEntity" />
@@ -792,7 +792,8 @@
 </block>
 
 <block name="HDJukeBoxReggaeON">
-	<property name="CustomIcon" value="HDJukeBoxReggaeOFF" />
+	  <property name="CreativeMode" value="Dev"/>
+	  <property name="CustomIcon" value="HDJukeBoxReggaeOFF" />
 	  <property name="Model" value="#@modfolder:Resources/HD JukeBox ON.unity3d?HD JukeBox Reggae ON.Prefab" />
 	  <property name="Material" value="BoxedWood"/>
 	  <property name="Shape" value="ModelEntity" />
@@ -805,8 +806,8 @@
 </block>
 	
 <block name="HDJukeBoxDubStepOFF">
-	<property name="CustomIcon" value="HDJukeBoxDubStepOFF" />
-	<property name="DescriptionKey" value="HDJukeBoxDubStepDesc"/>
+	  <property name="CustomIcon" value="HDJukeBoxDubStepOFF" />
+	  <property name="DescriptionKey" value="HDJukeBoxDubStepDesc"/>
 	  <property name="Model" value="#@modfolder:Resources/HD JukeBox OFF.unity3d?HD JukeBox DubStep OFF.Prefab" />
 	  <property name="Material" value="BoxedWood"/>
 	  <property name="Shape" value="ModelEntity" />
@@ -820,7 +821,8 @@
 </block>
 
 <block name="HDJukeBoxDubStepON">
-	<property name="CustomIcon" value="HDJukeBoxDubStepOFF" />
+	  <property name="CreativeMode" value="Dev"/>
+	  <property name="CustomIcon" value="HDJukeBoxDubStepOFF" />
 	  <property name="Model" value="#@modfolder:Resources/HD JukeBox ON.unity3d?HD JukeBox DubStep ON.Prefab" />
 	  <property name="Material" value="BoxedWood"/>
 	  <property name="Shape" value="ModelEntity" />
@@ -833,8 +835,8 @@
 </block>
 
 <block name="HDJukeBox5FingerOFF">
-	<property name="CustomIcon" value="HDJukeBox5FingerOFF" />
-	<property name="DescriptionKey" value="HDJukeBox5FingerDesc"/>
+	  <property name="CustomIcon" value="HDJukeBox5FingerOFF" />
+	  <property name="DescriptionKey" value="HDJukeBox5FingerDesc"/>
 	  <property name="Model" value="#@modfolder:Resources/HD JukeBox OFF.unity3d?HD JukeBox 5Finger OFF.Prefab" />
 	  <property name="Material" value="BoxedWood"/>
 	  <property name="Shape" value="ModelEntity" />
@@ -848,7 +850,8 @@
 </block>
 
 <block name="HDJukeBox5FingerON">
-	<property name="CustomIcon" value="HDJukeBox5FingerOFF" />
+	  <property name="CreativeMode" value="Dev"/>
+	  <property name="CustomIcon" value="HDJukeBox5FingerOFF" />
 	  <property name="Model" value="#@modfolder:Resources/HD JukeBox ON.unity3d?HD JukeBox 5Finger ON.Prefab" />
 	  <property name="Material" value="BoxedWood"/>
 	  <property name="Shape" value="ModelEntity" />
@@ -858,6 +861,35 @@
 	  <property name="CanPickup" value="false" />
 	  <drop event="Destroy" count="0"/>
 	  <property name="DowngradeBlock" value="HDJukeBox5FingerOFF"/>
+</block>
+
+<block name="HDJukeBoxASevenfoldOFF">
+	<property name="CustomIcon" value="HD JukeBox ASevenfold OFF" />
+	<property name="DescriptionKey" value="HDJukeBoxASevenfoldDesc"/>
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox OFF.unity3d?HD JukeBox ASevenfold OFF.Prefab" />
+	  <property name="Material" value="BoxedWood"/>
+	  <property name="Shape" value="ModelEntity" />
+	  <property name="Path" value="solid"/>
+	  <property name="StabilitySupport" value="false"/>
+	  <property name="OnlySimpleRotations" value="true"/>
+	  <property name="CanPickup" value="true" />
+	  <property name="TakeDelay" value="5"/>
+	  <drop event="Destroy" count="0"/>
+	  <property name="DowngradeBlock" value="HDJukeBoxASevenfoldON"/>
+</block>
+
+<block name="HDJukeBoxASevenfoldON">
+	  <property name="CreativeMode" value="Dev"/>
+	  <property name="CustomIcon" value="HD JukeBox ASevenfold OFF" />
+	  <property name="Model" value="#@modfolder:Resources/HD JukeBox ON.unity3d?HD JukeBox ASevenfold ON.Prefab" />
+	  <property name="Material" value="BoxedWood"/>
+	  <property name="Shape" value="ModelEntity" />
+	  <property name="Path" value="solid"/>
+	  <property name="StabilitySupport" value="false"/>
+	  <property name="OnlySimpleRotations" value="true"/>
+	  <property name="CanPickup" value="false" />
+	  <drop event="Destroy" count="0"/>
+	  <property name="DowngradeBlock" value="HDJukeBoxASevenfoldOFF"/>
 </block>
 
 <block name="HD Working Fire">

@@ -1,5 +1,17 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v3.6 to v3.7
+
+Added DrFuzzies Avenged Jukebox
+
+Launcher Edits:
+Updated xcostum_VarietiesDepartmentStore(by_Stallionsden)
+Updated xcostum_PeerCafe(by_Stallionsden)
+Updated xcostum_FarmerJoesNursery(by_Stallionsden)
+Updated xcostum_LMART_Garage(byStallionsden)
+
+rwgmixer Edits, StallionsDen Prefabs Set To 2
+
 Updated v3.5 to v3.6
 
 HD Noob Block Upgrade Rate Defaulted At 2Mins

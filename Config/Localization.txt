@@ -541,12 +541,16 @@ HDJukeBoxDubStepOFF,items,Item,KgNone,HD JukeBox DubStep,
 HDJukeBoxDubStepON,items,Item,KgNone,HD JukeBox DubStep ON,
 HDJukeBox5FingerOFF,items,Item,KgNone,HD JukeBox 5Finger,
 HDJukeBox5FingerON,items,Item,KgNone,HD JukeBox 5Finger ON,
+HDJukeBoxASevenfoldOFF,items,Item,KgNone,DrFuzzies Avenged Jukebox,
+HDJukeBoxASevenfoldON,items,Item,KgNone,DrFuzzies Avenged Jukebox ON,
 
 HDJukeBoxReggaeDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Miss Fatty.\n\nTrack 002 Hold Yuh.\n\nTrack 003 Rude Boy.\n\nTrack 004 Wine Slow.\n\nTrack 005 Help me.
 
 HDJukeBoxDubStepDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 In My Mind.\n\nTrack 002 Feel Good.\n\nTrack 003 The Girl.\n\nTrack 004 Entropy.\n\nTrack 005 Ghosts N Stuff.
 
 HDJukeBox5FingerDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Wrong Side Of Heaven.\n\nTrack 002 The Bleeding.\n\nTrack 003 The Pride.\n\nTrack 004 Far From Home.\n\nTrack 005 Battle Born.
+
+HDJukeBoxASevenfoldDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Bat Country.\n\nTrack 002 Hail To The King.\n\nTrack 003 Nightmare.\n\nTrack 004 Not Ready To Die.\n\nTrack 005 This Means War.
 
 HDWorkingFireDesc,blocks,Block Building,,A Fully Working Fireplace Stove that uses NO Fuel.
 HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.
