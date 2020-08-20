@@ -845,6 +845,9 @@
 			<passive_effect name="CarryCapacity" operation="base_add" value="15"/>
 			<display_value name="dCarryCapacity" value="15"/>
 		</effect_group>
+			<property name="EconomicValue" value="1950"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
 	
 	<item_modifier name="HDArmorReinforcedPadding" installable_tags="armor" modifier_tags="resistance" type="attachment">
@@ -860,7 +863,7 @@
 		<effect_group tiered="false">
 			<passive_effect name="PhysicalDamageResist" operation="base_add" value="1"/>
 		</effect_group>
-			<property name="EconomicValue" value="150"/>
+			<property name="EconomicValue" value="300"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
@@ -878,7 +881,7 @@
 		<effect_group tiered="false">
 			<passive_effect name="PhysicalDamageResist" operation="base_add" value="2"/>
 		</effect_group>
-			<property name="EconomicValue" value="150"/>
+			<property name="EconomicValue" value="500"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
@@ -896,7 +899,7 @@
 		<effect_group tiered="false">
 			<passive_effect name="PhysicalDamageResist" operation="base_add" value="3"/>
 		</effect_group>
-			<property name="EconomicValue" value="150"/>
+			<property name="EconomicValue" value="700"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
@@ -914,7 +917,7 @@
 		<effect_group tiered="false">
 			<passive_effect name="PhysicalDamageResist" operation="base_add" value="4"/>
 		</effect_group>
-			<property name="EconomicValue" value="150"/>
+			<property name="EconomicValue" value="900"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
@@ -932,7 +935,7 @@
 		<effect_group tiered="false">
 			<passive_effect name="PhysicalDamageResist" operation="base_add" value="5"/>
 		</effect_group>
-			<property name="EconomicValue" value="150"/>
+			<property name="EconomicValue" value="1050"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
@@ -950,7 +953,7 @@
 		<effect_group tiered="false">
 			<passive_effect name="PhysicalDamageResist" operation="base_add" value="6"/>
 		</effect_group>
-			<property name="EconomicValue" value="150"/>
+			<property name="EconomicValue" value="1250"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
@@ -969,6 +972,9 @@
 			<passive_effect name="VehicleVelocityMaxPer" operation="perc_set" value="2"/>
 			<passive_effect name="VehicleVelocityMaxTurboPer" operation="perc_set" value="2"/>
 		</effect_group>
+			<property name="EconomicValue" value="450"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
 	
 	<item_modifier name="HDFuelSaverUpgrade" installable_tags="vehicle" modifier_tags="fuel" type="attachment">
@@ -984,6 +990,9 @@
 		<effect_group tiered="false">
 			<passive_effect name="VehicleFuelUsePer" operation="perc_set" value=".5"/>
 		</effect_group>
+			<property name="EconomicValue" value="450"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
 	
 	<item_modifier name="HDHeadlightsUpgrade" installable_tags="vehicle" modifier_tags="light" type="attachment">
@@ -999,6 +1008,9 @@
 		<effect_group tiered="false">
 			<passive_effect name="LightIntensity" operation="perc_set" value="2.5"/>
 		</effect_group>
+			<property name="EconomicValue" value="450"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
 	
 	<item_modifier name="HDTurboUpgrade" installable_tags="vehicle" modifier_tags="test" type="attachment">
@@ -1015,6 +1027,9 @@
 			<passive_effect name="VehicleVelocityMaxPer" operation="perc_set" value="3"/>
 			<passive_effect name="VehicleVelocityMaxTurboPer" operation="perc_set" value="3"/>
 		</effect_group>
+			<property name="EconomicValue" value="450"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
 	
 	<item_modifier name="HDNightVisionHelmetLight" installable_tags="head" modifier_tags="misc,modArmorHelmetLight" blocked_tags="noMods,clothing" type="attachment">
@@ -1041,6 +1056,9 @@
 		<triggered_effect trigger="onSelfChangedView" action="SetPartActive" part="HeadLightTPV" active="@!.IsFPV"/>
 		<triggered_effect trigger="onSelfChangedView" action="SetPartActive" part="HeadLightFPV" active="@.IsFPV"/>
 		</effect_group>
+			<property name="EconomicValue" value="850"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
 	
 </append>

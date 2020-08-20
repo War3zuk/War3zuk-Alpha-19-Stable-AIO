@@ -5712,7 +5712,7 @@
 		</property>
 	</property>
 	<effect_group name="meleeWpnSledgeT3SteelSledgehammer">
-		<passive_effect name="EntityDamage" operation="base_set" value="45.1" tags="perkSkullCrusher"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="42.1" tags="perkSkullCrusher"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="75" tags="perkSkullCrusher"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="35" tags="perkSkullCrusher"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="40.5" tags="primary"/>
@@ -5734,9 +5734,9 @@
 		<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Sparks"/>
 	</effect_group>
 	<effect_group name="Power Attack">
-		<passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="40" tags="secondary"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.05" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.05" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="60" tags="secondary"/>
 		<passive_effect name="DismemberChance" operation="base_add" value=".3" tags="secondary"/>
 	</effect_group>
 </item>
@@ -5793,7 +5793,7 @@
 		</property>
 	</property>
 	<effect_group name="meleeWpnSledgeT3SteelSledgehammer">
-		<passive_effect name="EntityDamage" operation="base_set" value="45.1" tags="perkSkullCrusher"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="42.1" tags="perkSkullCrusher"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="75" tags="perkSkullCrusher"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="35" tags="perkSkullCrusher"/>
 		<passive_effect name="StaminaLoss" operation="base_set" value="40.5" tags="primary"/>
@@ -5814,9 +5814,9 @@
 		<passive_effect name="HarvestCount" operation="base_add" value="-.75" tags="oreWoodHarvest"/>
 	</effect_group>
 	<effect_group name="Power Attack">
-		<passive_effect name="EntityDamage" operation="perc_add" value="1.25" tags="secondary"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="1.25" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="81" tags="secondary"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="1.05" tags="secondary"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="1.05" tags="secondary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="65" tags="secondary"/>
 		<passive_effect name="DismemberChance" operation="base_add" value=".3" tags="secondary"/>
 	</effect_group>
 </item>
@@ -8121,6 +8121,31 @@
 	<property name="HoldType" value="31"/>
 	<property name="DescriptionKey" value="CurmudgeonsChiliPieDesc"/>
 	<property name="CustomIcon" value="Curmudgeons Beef Chili Pie"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property class="Action0">
+	<property name="Class" value="Eat"/>
+	<property name="Delay" value="1.0"/>
+	<property name="Use_time" value="..."/>
+	<property name="Sound_start" value="player_eating"/>
+	</property>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="55"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="55"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Grabbys Chilli Cheese Fries">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="GrabbysChilliFriesDesc"/>
+	<property name="CustomIcon" value="Grabbys Chilli Cheese Fries"/>
 	<property name="DisplayType" value="food"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->

@@ -127,19 +127,19 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDMilitary">
-		<item name="HD Military Gloves Schematic" count="1" prob=".10"/>
-		<item name="HD Military Boots Schematic" count="1" prob=".10"/>
-		<item name="HD Military Legs Schematic" count="1" prob=".10"/>
-		<item name="HD Military Vest Schematic" count="1" prob=".10"/>
-		<item name="HD Military Helmet Schematic" count="1" prob=".10"/>
+		<item name="HD Military Gloves Schematic" count="1" prob=".05"/>
+		<item name="HD Military Boots Schematic" count="1" prob=".05"/>
+		<item name="HD Military Legs Schematic" count="1" prob=".05"/>
+		<item name="HD Military Vest Schematic" count="1" prob=".05"/>
+		<item name="HD Military Helmet Schematic" count="1" prob=".05"/>
 		<item name="MREMilitaryRation" count="0,1" prob="0.50"/>
 		<item name="Military Purify Tablets" count="2,4" prob="0.50"/>
-		<item name="HDArmorReinforcedPadding" count="1" prob=".09"/>
-		<item name="HDArmorPlasticPlating" count="1" prob=".08"/>
-		<item name="HDArmorMilitaryPlating" count="1" prob=".07"/>
-		<item name="HDArmorScrapPlating" count="1" prob=".06"/>
-		<item name="HDArmorIronPlating" count="1" prob=".05"/>
-		<item name="HDArmorSteelPlating" count="1" prob=".04"/>
+		<item name="HDArmorReinforcedPadding" count="1" prob=".06"/>
+		<item name="HDArmorPlasticPlating" count="1" prob=".05"/>
+		<item name="HDArmorMilitaryPlating" count="1" prob=".04"/>
+		<item name="HDArmorScrapPlating" count="1" prob=".03"/>
+		<item name="HDArmorIronPlating" count="1" prob=".02"/>
+		<item name="HDArmorSteelPlating" count="1" prob=".01"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical">

@@ -631,6 +631,12 @@
 	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
+<recipe name="Grabbys Chilli Cheese Fries" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCropPotato" count="5"/>
+	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
 <recipe name="Aaron Rockst4r" count="1" craft_time = "10">
 	<ingredient name="resourceWood" count="40"/>
 	<ingredient name="resourceNail" count="10"/>

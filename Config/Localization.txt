@@ -24,6 +24,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+GrabbysChilliFriesDesc,items,weapons,New,Grabbys Cheesy Fries with Chilli And Fresh Cheese. But do you see any Cows in this game.,
+
 HDNightVisionHelmetLight,items,Item,KgNone,HD Night Vision Helmet Light,
 HDNightVisionHelmetLightDesc,items,weapons,New,Night Vision Addon For The Mining Helmet.,
 

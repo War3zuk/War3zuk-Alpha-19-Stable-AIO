@@ -2,17 +2,35 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v3.6 to v3.7
 
-Updated v3.6 to v3.7
+Following Items Are Sellable To Traders
+HD Ruck Sack Upgrade
+HD Armor Reinforced Padding
+HD Armor Plastic Plating
+HD Armor Military Plating
+HD Armor Scrap Plating
+HD Armor Iron Plating
+HD Armor Steel Plating
+HD Aero Dynamics Upgrade
+HD Fuel Saver Upgrade
+HD Head lights Upgrade
+HD Turbo Upgrade
+HD Night Vision Helmet Light
+
+Added Grabbys Chilli Cheese Fries
+
+Balanced Ethans Bam Hammer (Secondary Attack)
+Balanced HD Xcalibur (Secondary Attack)
 
 Added DrFuzzies Avenged Jukebox
 Removed Vanilla Chainsaw Recipe (No Idea Why That Was There)
 
 Launcher Edits:
+Updated Apoc MultiTrader (Better FPS)
 Updated xcostum_VarietiesDepartmentStore(by_Stallionsden)
 Updated xcostum_PeerCafe(by_Stallionsden)
 Updated xcostum_FarmerJoesNursery(by_Stallionsden)
 Updated xcostum_LMART_Garage(byStallionsden)
-
+Removed A Few Larger Laggy Prefabs
 rwgmixer Edits, StallionsDen Prefabs Set To 2
 
 Updated v3.5 to v3.6
