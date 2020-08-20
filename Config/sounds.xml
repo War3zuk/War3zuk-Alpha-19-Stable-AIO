@@ -1,17 +1,23 @@
 <configs>
 	
-<remove xpath="/Sounds/SoundDataNode[@name='auger_empty']" />
-<remove xpath="/Sounds/SoundDataNode[@name='Auger_Idle']" />
-<remove xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start']" />
-<remove xpath="/Sounds/SoundDataNode[@name='Auger_Reload']" />
-<remove xpath="/Sounds/SoundDataNode[@name='auger_equip']" />
+	<remove xpath="/Sounds/SoundDataNode[@name='auger_empty']" />
+	<remove xpath="/Sounds/SoundDataNode[@name='Auger_Idle']" />
+	<remove xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start']" />
+	<remove xpath="/Sounds/SoundDataNode[@name='Auger_Reload']" />
+	<remove xpath="/Sounds/SoundDataNode[@name='auger_equip']" />
 
-<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_empty']" />
-<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_idle']" />
-<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_start']" />
-<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_rev']" />
-<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_reload']" />
-<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_equip']" />
+	<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_empty']" />
+	<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_idle']" />
+	<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_start']" />
+	<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_rev']" />
+	<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_reload']" />
+	<remove xpath="/Sounds/SoundDataNode[@name='chainsaw_equip']" />
+	
+	<remove	xpath="/Sounds/SoundDataNode[@name='bullethitearth']"/>
+	<remove	xpath="/Sounds/SoundDataNode[@name='bullethitglass']"/>
+	<remove	xpath="/Sounds/SoundDataNode[@name='bullethitmetal']"/>
+	<remove	xpath="/Sounds/SoundDataNode[@name='bullethitstone']"/>
+	<remove	xpath="/Sounds/SoundDataNode[@name='metalhitmetal']"/>
 
 <append xpath="/Sounds">
 	
