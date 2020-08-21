@@ -13,6 +13,7 @@ Fixed HD BR1NXlS Booper Recipe
 Launcher Edits:
 Removed Fluffy Bottoms pet Store (Bad FPS)
 Removed xcostum_Multi_Trader_by_Sparrow (Bad FPS)
+Updated Laotseu PaintJob (Big Update)
 
 Updated v3.6 to v3.7
 
