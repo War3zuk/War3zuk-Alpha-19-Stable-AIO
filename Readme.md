@@ -1,5 +1,19 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v3.7 to v3.8
+
+Added RabidAries Cute Chick Pie (Campfire + Grill)
+
+Fixed LockedLootContainerBoxCode
+Fixed LockedVehicleLootCode
+
+Fixed HD BR1NXlS Booper Xml
+Fixed HD BR1NXlS Booper Recipe
+
+Launcher Edits:
+Removed Fluffy Bottoms pet Store (Bad FPS)
+Removed xcostum_Multi_Trader_by_Sparrow (Bad FPS)
+
 Updated v3.6 to v3.7
 
 Following Items Are Sellable To Traders
