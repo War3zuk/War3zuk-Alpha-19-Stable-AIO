@@ -1,5 +1,11 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v3.8 to v3.9
+
+Fixed HD Juke Box ASevenfold Recipe
+
+Launcher Edits:
+
 Updated v3.7 to v3.8
 
 Added RabidAries Cute Chick Pie (Campfire + Grill)

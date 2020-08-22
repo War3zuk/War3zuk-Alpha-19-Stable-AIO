@@ -1320,6 +1320,13 @@
 	<ingredient name="resourceNail" count="40"/>
 </recipe>
 
+<recipe name="HDJukeBoxASevenfoldOFF" count="1" craft_time = "120">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="resourceNail" count="40"/>
+</recipe>
+
 <recipe name="HD Truck Elevator x5" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "240">
 	<ingredient name="resourceForgedIron" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
