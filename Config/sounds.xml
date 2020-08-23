@@ -17,7 +17,6 @@
 	<remove	xpath="/Sounds/SoundDataNode[@name='bullethitglass']"/>
 	<remove	xpath="/Sounds/SoundDataNode[@name='bullethitmetal']"/>
 	<remove	xpath="/Sounds/SoundDataNode[@name='bullethitstone']"/>
-	<remove	xpath="/Sounds/SoundDataNode[@name='metalhitmetal']"/>
 
 <append xpath="/Sounds">
 	

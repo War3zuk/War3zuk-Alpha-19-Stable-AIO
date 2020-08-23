@@ -52,6 +52,10 @@
  	<set xpath="/traders/trader_info[@id='8']/@open_time">05:59</set>
 	<set xpath="/traders/trader_info[@id='8']/@close_time">23:59</set>
 	
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodCandy']">
+	<item name="TexsSquirrelBits"/>
+</append>
+	
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT1SecretStash']">
 	<item name="9mm Bullet INC" count="25,50" prob="0.9"/>
 	<item name="45ACPRoundINC" count="25,50" prob="0.9"/>

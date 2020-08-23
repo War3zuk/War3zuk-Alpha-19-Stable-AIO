@@ -296,6 +296,41 @@
 	</effect_group>
 </item> -->
 	
+<item name="TexsSquirrelBits">
+	<property name="DescriptionKey" value="TexsSquirrelBitsDesc"/>
+	<property name="CustomIcon" value="Texs Squirrel Bits" />
+	<property name="Tags" value="medical"/>
+	<property name="DisplayType" value="waterMegaCrush"/>
+	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="Group" value="Science,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_painkillers"/>
+	</property>
+	<effect_group tiered="false" name="Candy Tier 1">
+		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="-5"/>
+		
+		<display_value name="dStaminaRegen" value=".10"/>
+		<display_value name="dRunSpeed" value=".6"/>
+		<display_value name="dDuration" value="10"/>
+		
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="add" value="13"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="13">
+		<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="13"/>
+			</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
+		
+	</effect_group>
+</item>
+	
 <item name="Find The Trader"> 
 	<property name="CustomIcon" value="Find The Trader"/>
 	<property name="Extends" value="questMaster"/>
@@ -2351,7 +2386,7 @@
 <item name="HD Colt M1911">
 	<property name="DescriptionKey" value="HD1911Desc"/>
 	<property name="CustomIcon" value="HD Colt M1911"/>
-	<property name="Tags" value="M1911,HDColtM19,noSilencer,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="M1911,HDColtM19,noSilencer,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Colt M1911.unity3d?HD Colt M1911.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2433,7 +2468,7 @@
 <item name="HD Colt M1911A">
 	<property name="CustomIcon" value="HD Colt M1911A"/>
 	<property name="DescriptionKey" value="HD1911ADesc"/>
-	<property name="Tags" value="M1911A,HDColtM19,noSilencer,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="M1911A,HDColtM19,noSilencer,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,magazine,firingMode,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Colt M1911A.unity3d?HD Colt M1911A.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2515,7 +2550,7 @@
 <item name="HD Desert Eagle">
 	<property name="CustomIcon" value="Desert Eagle 50"/>
 	<property name="DescriptionKey" value="HDDEDesc"/>
-	<property name="Tags" value="HDDESilencer,HDDEReflex,HDDEScope,weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,canHaveCosmetic"/>
+	<property name="Tags" value="HDDESilencer,HDDEReflex,HDDEScope,weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,magazine,firingMode,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="75"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HD Desert Eagle.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2599,7 +2634,7 @@
 <item name="HD Desert Eagle Punisher">
 	<property name="CustomIcon" value="HD Desert Eagle Punisher"/>
 	<property name="DescriptionKey" value="HDDEDesc"/>
-	<property name="Tags" value="HDDEPunisherSilencer,HDDEPUNReflex,HDDEPunScope,weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,canHaveCosmetic"/>
+	<property name="Tags" value="HDDEPunisherSilencer,HDDEPUNReflex,HDDEPunScope,weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,magazine,firingMode,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="75"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HD Desert Eagle Punisher.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3337,7 +3372,7 @@
 <item name="HD Spas 12">
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Default.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3422,7 +3457,7 @@
 <item name="HD Spas 12 Street">
 	<property name="CustomIcon" value="HD Spas 12 Street"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Street.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3507,7 +3542,7 @@
 <item name="HD Spas 12 USA">
 	<property name="CustomIcon" value="HD Spas 12 USA"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 USA.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3592,7 +3627,7 @@
 <item name="HD Spas 12 Alien">
 	<property name="CustomIcon" value="HD Spas 12 Alien"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Alien.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3677,7 +3712,7 @@
 <item name="HD Spas 12 Irish">
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 Irish"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Irish.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3762,7 +3797,7 @@
 <item name="HD Mossberg 500">
 	<property name="CustomIcon" value="HD Mossberg 500"/>
 	<property name="DescriptionKey" value="HDM500Desc"/>
-	<property name="Tags" value="HDMossberg500Reflex,noSilencer,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="HDMossberg500Reflex,noSilencer,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Mossberg 500.unity3d?HD Mossberg 500.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -6831,7 +6866,7 @@
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="MtoolBellows"/>
-	<property name="Stacknumber" value="10"/>
+	<property name="Stacknumber" value="50"/>
 	<property name="Weight" value="100"/>
 	<property name="EconomicValue" value="500"/>
 	<property name="Group" value="Tools/Traps"/>
@@ -6845,20 +6880,21 @@
 
 <item name="toolAnvil">
 	<property name="UnlockedBy" value="toolAnvilSchematic"/>
+	<property name="Tags" value="toolAnvil"/>
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
 	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Msteel"/>
 	<property name="Weight" value="200"/>
-	<property name="Stacknumber" value="10"/>
+	<property name="Stacknumber" value="50"/>
 	<property name="EconomicValue" value="240"/>
 	<property name="Group" value="Tools/Traps"/>
 	<property name="DisplayType" value="toolAnvil"/>
 	<property name="ItemTypeIcon" value="forge"/>
 	<effect_group tiered="false">
 		<requirement name="!HoldingItemHasTags" tags="toolAnvil"/>
-		<passive_effect name="CraftingTime" operation="perc_add" value="-.666"/>
-		<display_value name="dCraftingTime" value=".4"/>
+			<passive_effect name="CraftingTime" operation="perc_add" value="-.666"/>
+			<display_value name="dCraftingTime" value=".4"/>
 	</effect_group>
 </item>
 

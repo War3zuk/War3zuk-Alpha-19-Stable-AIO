@@ -503,144 +503,144 @@
 </recipe>
 
 <recipe name="MsTeresas Burger Patty" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
-	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="resourceAnimalFat" count="4"/>
 	<ingredient name="foodShamSandwich" count="2"/>
-	<ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="foodRawMeat" count="4"/>
 	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
 <recipe name="FaxFoxs Furr Burger" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
-	<ingredient name="resourceAnimalFat" count="10"/>
-	<ingredient name="foodShamSandwich" count="4"/>
-	<ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="foodShamSandwich" count="2"/>
+	<ingredient name="foodRawMeat" count="2"/>
 </recipe>
 
 <recipe name="Camoes Bifana" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill">
-	<ingredient name="resourceAnimalFat" count="10"/>
-	<ingredient name="foodShamSandwich" count="4"/>
-	<ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="foodShamSandwich" count="2"/>
+	<ingredient name="foodRawMeat" count="4"/>
 	<ingredient name="drinkJarBeer" count="1"/>
 </recipe>
 
 <recipe name="Possums Pavlova" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
-	<ingredient name="foodCanPears" count="2"/>
-	<ingredient name="foodCornMeal" count="4"/>
-	<ingredient name="foodHoney" count="2"/>
-	<ingredient name="foodEgg" count="8"/>
-</recipe>
-
-<recipe name="Ralifs Borscht" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
-	<ingredient name="foodRawMeat" count="20"/>
-	<ingredient name="foodCanStock" count="2"/>
-	<ingredient name="foodCropPotato" count="10"/>
-	<ingredient name="foodCropMushrooms" count="10"/>
-</recipe>
-
-<recipe name="AaronRockst4rs Fritos And Eggs" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill">
-	<ingredient name="resourceAnimalFat" count="10"/>
-	<ingredient name="foodCornMeal" count="4"/>
+	<ingredient name="foodCanPears" count="1"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodHoney" count="1"/>
 	<ingredient name="foodEgg" count="4"/>
 </recipe>
 
+<recipe name="Ralifs Borscht" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCanStock" count="1"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
+</recipe>
+
+<recipe name="AaronRockst4rs Fritos And Eggs" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill">
+	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodEgg" count="2"/>
+</recipe>
+
 <recipe name="Chicken Nuggets" count="1" craft_area="campfire" craft_time = "5" craft_tool="toolCookingGrill" >
-	<ingredient name="resourceAnimalFat" count="10"/>
-    <ingredient name="BabyChick" count="6"/>
+	<ingredient name="resourceAnimalFat" count="2"/>
+    <ingredient name="BabyChick" count="4"/>
 </recipe>
 
 <recipe name="KillJoyJessicas HotWings" count="2" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
-	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="resourceAnimalFat" count="2"/>
 	<ingredient name="BabyChick" count="6"/>
-	<ingredient name="foodCanChili" count="2"/>
+	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
 <recipe name="Diggitys Chilli Pork Chops" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
-	<ingredient name="foodRawMeat" count="20"/>
-	<ingredient name="foodCanChili" count="2"/>
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
 <recipe name="Donnas Fubar Stew" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="foodCanSham" count="4"/>
+	<ingredient name="foodCanSham" count="2"/>
 	<ingredient name="foodCanStock" count="2"/>
 	<ingredient name="foodCanTuna" count="2"/>
-	<ingredient name="resourceBone" count="20"/>
+	<ingredient name="resourceBone" count="5"/>
 </recipe>
 
 <recipe name="DD1GGs Sham And Tuna Pie" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
 	<ingredient name="resourceAnimalFat" count="10"/>
 	<ingredient name="foodCanSham" count="2"/>
-	<ingredient name="resourceBone" count="20"/>
+	<ingredient name="resourceBone" count="10"/>
 	<ingredient name="foodCanTuna" count="2"/>
 </recipe>
 
 <recipe name="BR1NXls HotPot Pizza Stew" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="resourceAnimalFat" count="10"/>
-	<ingredient name="foodCornMeal" count="4"/>
-	<ingredient name="foodHoney" count="2"/>
-	<ingredient name="foodCanDogfood" count="2"/>
-	<ingredient name="foodCanBeef" count="2"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodHoney" count="1"/>
+	<ingredient name="foodCanDogfood" count="1"/>
+	<ingredient name="foodCanBeef" count="1"/>
 </recipe>
 
 <recipe name="Lovers Pizza" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
 	<ingredient name="foodCornMeal" count="2"/>
-	<ingredient name="foodShamSandwich" count="4"/>
-	<ingredient name="foodCanBeef" count="2"/>
+	<ingredient name="foodShamSandwich" count="2"/>
+	<ingredient name="foodCanBeef" count="1"/>
 </recipe>
 
 <recipe name="klausgamer14s Beef steak And Fries" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
-	<ingredient name="foodRawMeat" count="20"/>
-	<ingredient name="foodCropPotato" count="10"/>
-	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="resourceAnimalFat" count="2"/>
 </recipe>
 
 <recipe name="QueenOfScreamz8s Chili Burrito" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
-	<ingredient name="foodRawMeat" count="20"/>
-	<ingredient name="foodCornMeal" count="4"/>
-	<ingredient name="foodCanChili" count="2"/>
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
 <recipe name="Papas Bare Back Ribs" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
-	<ingredient name="foodRawMeat" count="20"/>
-	<ingredient name="resourceAnimalFat" count="10"/>
-	<ingredient name="foodCanChili" count="2"/>
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="resourceAnimalFat" count="4"/>
+	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
 <recipe name="CokaGamings Flaming Hot Cheetos" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
-	<ingredient name="resourceAnimalFat" count="10"/>
-	<ingredient name="foodCornMeal" count="4"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="2"/>
 </recipe>
 
 <recipe name="Naoyans Yakitori" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
-	<ingredient name="foodRawMeat" count="20"/>
-	<ingredient name="resourceAnimalFat" count="10"/>
-	<ingredient name="foodCornMeal" count="4"/>
-	<ingredient name="foodCanChili" count="2"/>
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
 <recipe name="BunnyNZs Bacon And Egg Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
-	<ingredient name="foodRawMeat" count="20"/>
-	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="resourceAnimalFat" count="4"/>
 	<ingredient name="foodCornMeal" count="4"/>
-	<ingredient name="foodEgg" count="8"/>
+	<ingredient name="foodEgg" count="4"/>
 </recipe>
 
 <recipe name="Curmudgeons Beef Chili Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
-	<ingredient name="foodRawMeat" count="20"/>
-	<ingredient name="foodCornMeal" count="4"/>
-	<ingredient name="foodCropPotato" count="10"/>
-	<ingredient name="foodCanChili" count="2"/>
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
 <recipe name="Grabbys Chilli Cheese Fries" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
-	<ingredient name="resourceAnimalFat" count="10"/>
-	<ingredient name="foodCropPotato" count="10"/>
-	<ingredient name="foodCanChili" count="2"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCropPotato" count="5"/>
+	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
 <recipe name="RabidAries Cute Chick Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
-	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
     <ingredient name="BabyChick" count="10"/>
-	<ingredient name="foodCropPotato" count="10"/>
+	<ingredient name="foodCropPotato" count="4"/>
 	<ingredient name="resourceBone" count="10"/>
 </recipe>
 

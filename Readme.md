@@ -3,8 +3,22 @@ War3zuk-Alpha-19.0 - AIO
 Updated v3.8 to v3.9
 
 Fixed HD Juke Box ASevenfold Recipe
+Updated Recipes For Custom Foods
+Updated toolAnvil Code
+Updated toolBellows Code
+
+Added Tex's Squirrel Bits
+
+Removed SmallTopAttachments From
+HD Colt M1911
+HD Colt M1911A
+HD Desert Eagle
+HD Desert Eagle Punisher
+HD Spas 12 (All 5)
+
 
 Launcher Edits:
+Adjusted KheldonScreamerBears
 
 Updated v3.7 to v3.8
 
