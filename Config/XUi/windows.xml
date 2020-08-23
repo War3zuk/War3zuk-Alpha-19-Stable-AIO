@@ -133,7 +133,7 @@
 	
 	<window name="windowBackpack" width="1008" height="550" panel="Center" controller="BackpackWindow" cursor_area="true" >
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
-			<sprite depth="3" name="windowIcon" style="icon32px" pivot="center" pos="-10, -22" sprite="ui_game_symbol_backpack" />
+			<sprite depth="3" name="windowIcon" style="icon32px" pivot="center" pos="220, -22" sprite="ui_game_symbol_backpack" />
 			<label depth="3" name="windowName" pos="42,-6" width="250" height="32" text="INVENTORY" text_key="xuiInventory" font_size="32" />
 
 			<rect pos="450,0" width="300" controller="ContainerStandardControls" move_start_bottom_left="true">

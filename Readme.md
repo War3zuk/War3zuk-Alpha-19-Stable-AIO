@@ -1,5 +1,10 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v3.9 to v4.0
+
+Fixed Distance BackPack Not Showing
+Removed 4 Unused Icons
+
 Updated v3.8 to v3.9
 
 Fixed HD Juke Box ASevenfold Recipe
