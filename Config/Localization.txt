@@ -1,0 +1,703 @@
+Key,Source,Context,Changes,English
+
+tutorialTipQuest01_title,,Popup Tip,KeyTrunk KgNone,Welcome to War3zuk OverHaul,,,,
+tutorialTipQuest02_title,,Popup Tip,KeyTrunk KgNone,War3zuk OverHaul Info,,,,
+
+tutorialTipQuest02,,Popup Tip,KeyTrunk KgNone,"Greetings Zombie Slayer,\n\nThis is War3zuk the Mod Author Speaking. Inventory has been Changed, You start the game with 15 Slots And are granted a further 15 with Max Perk Pack Mule giving a Total of 30 Inventory Slots.\n\nThe Only way to add the other 75 Slots is to Find And Use the HD Ruck Sack Upgrades which are found in Dumpsters.  Lockers. Army trucks And added to Armor granting 15 SLots open per Addon, -War3zuk",,,
+
+tutorialTipQuest01,,Popup Tip,KeyTrunk KgNone,"Basic Survival has been shortened to Crafting your BedRoll And placing it down. Once this is done you will be directed to the nearest Trader And once spoken too he will activate your main quests to fulfill during game play. Once a Quest is complete to Tier5 you will be granted a Vending Machine that once placed in the World will give you access to that particular Quests Items Like A Trader. This Mod tries to make Full use of Items normally thrown so always check an item for a new recipe. The Mod itself adds many New Custom Models And Items, Blocks And many other changes most of which affect around 90% of the Core Game. Most Core Items start with the Abbreviation HD for easy Indexing. Items that are meant to be crafted on the player are still crafted there but most other things are Gated behind an HD Bench of some sort,\n\nYou will Find NO HD Weapons in the world -War3zuk",,,
+
+tooltipJammed,UI,Menu,,,[d50937]<{0}> Use {1} ([d50937]Jammed[-]),
+tooltipLocked,UI,Menu,,[3d5aab]<{0}>[-] Open {1} ([3d5aab]Locked[-]),
+tooltipUnlocked,UI,Menu,,[ab8e3d]<{0}>[-] Open {1} ([ab8e3d]UnLocked[-]),
+lootTooltipNew,UI,Use Prompt,,[d50937]<{0}> Search[-] {1} [d50937](Untouched)[-],
+
+lootEntity,UI,Use Prompt,,<{0}> [dfc90d]Search[-]{1},<{0}> [dfc90d]Search[-]{1}
+lootTooltipEmpty,UI,Use Prompt,,[f30f0f]Empty[-] {1},[f30f0f]Empty[-] {1}
+
+pickupCrops,UI,HUD,,"[FFFFFF]Press[-] [d50937]<{{0}}>[-], To Pickup [d50937]{0} {1} [-]",
+pickupPrompt,UI,HUD,,"[FFFFFF]Press[-] [d50937]<{{0}}>[-], To Pickup [d50937]{0} [-]",
+
+tooltipUnlocked,UI,Menu,,<{0}> Use {1} ([d50937]Unlocked[-]),
+lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Search[-] {1},
+
+useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
+lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
+
+TexsSquirrelBits,items,Item,KgNone,Tex's Squirrel Bits,
+TexsSquirrelBitsDesc,items,weapons,New,Tex's Squirrel Bits Candy Bar will give you 10s of burst Speed.,
+
+RabidAriesChickPieDesc,items,weapons,New,Nutritious And Good For You. What more could you ask for. Oh Yeah NOT killing more Innocent Chicks Lol.,
+
+GrabbysChilliFriesDesc,items,weapons,New,Grabbys Cheesy Fries with Chilli And Fresh Cheese. But do you see any Cows in this game.,
+
+HDNightVisionHelmetLight,items,Item,KgNone,HD Night Vision Helmet Light,
+HDNightVisionHelmetLightDesc,items,weapons,New,Night Vision Addon For The Mining Helmet.,
+
+ShavedIceDesc,items,weapons,New,Shaved Ice is a part of Pikalyns Patbingsu recipe.,
+PikalynsPatbingsuDesc,items,weapons,New,A Special blend of Shaved Ice. Pears. SnowBerries And Honey.,
+
+BunnyNZsEggPieDesc,items,weapons,New,Traditional Pie to help in the Zombie Slaying.,
+CurmudgeonsChiliPieDesc,items,weapons,New,Beef And Chili wrapped in Puff Pastry.,
+
+PossumsPavlovaDesc,items,weapons,New,Traditional Pudding to help in the Zombie Slaying.,
+MsTeresasBurgerPattyDesc,items,weapons,New,Umm Buns with Bugers. What more can the body need.,
+NaoyansYakitoriDesc,items,weapons,New,Traditional Japanese Skewers Dipped In Chili.,
+
+War3zUK4x4,items,Item,KgNone,HD War3zUK 4x4,
+MadMaxMotoDesc,items,,,HD War3zUK 4x4. Craft the Ultimate in Comfort.\n\n4x4 Model Altered By Éric Beaudon
+
+HDWar3zukBuggy,items,Item,KgNone,HD War3zuk Buggy,
+HDWar3zukBuggyChassis,items,Item,KgNone,HD War3zuk Buggy Chassis,
+HDWar3zukBuggyAccessories,items,Item,KgNone,HD War3zuk Buggy Accessories,
+
+HDWar3zukBuggyDesc,items,weapons,New,War3zuk Buggy For When You Want Too Drive In Style.\n\nModel Purchased From Unity Store By Myself.\n\nModel Altered By Éric Beaudon.,
+HDWar3zukBuggyChassisDesc,items,weapons,New,Chassis For The War3zuk Dune Buggy.,
+HDWar3zukBuggyAccessoriesDesc,items,weapons,New,Accessories For The War3zuk Dune Buggy.,
+
+HDTacticalARSilencer,items,Item,KgNone,HD Tactical AR Silencer,
+HDTacticalARReflex,items,Item,KgNone,HD Tactical AR Reflex,
+HDTacticalARScope,items,Item,KgNone,HD Tactical AR Scope,
+
+HDTacticalARSilencerDesc,items,,,Military Grade Silencer For The HD Tactical AR.,
+TacticalARReflexDesc,items,,,Military Grade Reflex Sight For The HD Tactical AR.,
+HDTacticalARScopeDesc,items,,,Military Grade Scope For The HD Tactical AR.,
+
+HDCrashBandicootDesc,items,,,Craft your very own Crash Bandicoot to Guard Your Base haha.,
+HDKillingFloorZombie,items,Item,KgNone,HD Killing Floor Zombie,
+HDKillingFloorZombieDesc,items,,,Craft your very own Killing Floor Zombie to Guard Your Base haha.,
+
+CokaGamingsHotCheetosDesc,items,,,Flaming Hot Cheetos. Made with Real Cheese. But do you see any Cows in this game.,
+
+PapasBareBackRibsDesc,items,,,Taking things from Nature And crafting the Best Ribs in Town. Perfect for Zombie Killin on a Full Stomach.,
+
+QueenOfScreamz8sBurritoDesc,items,,,For when you just need food for on the run.,
+
+klausgamer14sBeefFriesDesc,items,,,Umm Sauteed Steak with freshly cooked fries. Just what every zombie killer needs.,
+
+DiggitysChilliPorkChopsDesc,items,,,So youve killed yourself a Piggy. Now its time to take those skills along with some chili And make yourself the Best Pork Chop the Apocalypse can manage.,
+
+urinalCommercialMounted,blocks,Block Building,KgNone,Urinal,
+HDRuckSackUpgrade,items,Item,KgNone,HD RuckSack Upgrade,
+
+HDMeatCleaverDesc,items,,,Cooks Meat Cleaver. 50% Better at harvesting meat And Leather,
+HDMeatHammerDesc,items,,,Cooks Hammer. Used to smash those Fuckin Heads In,
+
+HDConcreteBarrierDesc,items,,,A Simple Barrier 1x1x2.,
+HDModularWallDesc,items,,,A Simple Modular Barrier 2x1x4.,
+
+HDRocketLauncherRound,items,Item,KgNone,HD Rocket Round,
+HDRocketLauncherNukeRound,items,Item,KgNone,HD Rocket Nuke Round,
+HDRocketLauncherRoundDesc,items,,,The K9 Round is used ONLY In the HD Rocket Launcher.,
+HDRocketLauncherNukeRoundDesc,items,,,The K9 Nuke Round is used ONLY In the HD Rocket Launcher.,
+
+StarterClassDesc,items,weapons,New,Select This And Use Its Recipe To Craft Your Class,
+
+HDRuckSackUpgradeDesc,items,weapons,New,RuckSack Upgrade. Adds 15 Slots To Your Carry Capacity when placed into your Armor pieces.,
+
+EthansBamHammerDesc,items,weapons,New,Ethans Bam Hammer. Only The Just Can Wield This Sort Of POWER,
+
+OrigamiGurusDesc,items,weapons,New,The OrigamiGurus Pain Meds. When You Cant Fight This Feeling Any Longer And you need to keep Zombie Slayin,
+
+HDAeroDynamicsUpgrade,items,Item,KgNone,HD Aero Dynamics Upgrade,
+HDFuelSaverUpgrade,items,Item,KgNone,HD Fuel Saver Upgrade,
+HDHeadlightsUpgrade,items,Item,KgNone,HD Headlights Upgrade,
+HDTurboUpgrade,items,Item,KgNone,HD Turbo Upgrade,
+
+AeroDynamicsUpgradeDesc,items,weapons,New,Improves Speed through AeroDynamics.\n\nAdd To Bicycle.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
+
+FuelSaverUpgradeDesc,items,weapons,New,Use 50% less Fuel on your journeys.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
+
+HeadlightsUpgradeDesc,items,weapons,New,Brighten Up the Map with this Ultra Cool Light Addon.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
+
+TurboUpgradeDesc,items,weapons,New,Speed Speed Speed Muhhaaaa.\n\nAdd To Bicycle.\n\nAdd To MiniBike.\n\nAdd To MotorBike.\n\nAdd To Offroad Truck.\n\nAdd To Gyrocopter.,
+
+HDArmorReinforcedPadding,items,Item,KgNone,HD Armor Reinforced Padding,
+HDArmorPlasticPlating,items,Item,KgNone,HD Armor Plastic Plating,
+HDArmorMilitaryPlating,items,Item,KgNone,HD Armor Military Plating,
+HDArmorScrapPlating,items,Item,KgNone,HD Armor Scrap Plating,
+HDArmorIronPlating,items,Item,KgNone,HD Armor Iron Plating,
+HDArmorSteelPlating,items,Item,KgNone,HD Armor Steel Plating,
+
+storeShelving01Full,blocks,Block Building,KgNone,HD Store Shelf,
+
+storeShelving01DoubleFull,blocks,Block Building,KgNone,HD Store Shelf,
+
+storeShelving01TopFull,blocks,Block Building,KgNone,HD Store Shelf,
+
+storeShelving01TopDoubleFull,blocks,Block Building,KgNone,HD Store Shelf,
+
+HDGSBladeDesc,items,weapons,New,The xiphos is a double-edged. one-handed Iron Age straight shortsword used by the ancient Greeks. It was a secondary battlefield weapon for the Greek armies after the dory or javelin. The classic blade was generally long. although the Spartans supposedly started to use blades as short as 35 cm around the era of the Greco-Persian Wars. The xiphos sometimes has a midrib. A diamond or lenticular in cross-section. It was generally hung from a baldric under the left arm,
+
+MrsSpBladeDesc,items,weapons,New,Greek Hoplite Sword. one-handed Iron Age straight shortsword used by the ancient Greek Women. It was a primary battlefield weapon for the Greek armies. The classic blade was generally short and light enough to be wielded,
+
+HD1911Desc,items,weapons,New,The M1911 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the .45 ACP Rounds,
+
+HD1911ADesc,items,weapons,New,The M1911A1 also known as the Colt Government is a single action semi automatic magazine fed recoil operated pistol chambered for the .45 ACP Rounds,
+
+HDDEDesc,items,weapons,New,The Desert Eagle .50cal Rounds is a semi automatic handgun notable for chambering the largest centerfire cartridge of any magazine fed self loading pistol place points into Gunslinger to craft better version,
+
+HDMac10ADesc,items,weapons,New,The Military Armament Corporation Model 10 officially abbreviated as M10 or M-10 and more commonly known as the MAC-10 is a compact blowback operated machine pistol It is chambered in either .45 ACP or 9mm Rounds,
+
+HDM3AutoADesc,items,weapons,New,The M3 is an American 45 Caliber submachine gun adopted for United States Army Service. It uses .45 ACP Rounds,
+
+HDHK33HybridDesc,items,,,The Hybrid HK33 has been Moddified to take the .45 ACP Rounds so it has a quicker fire rate along with less Recoil,
+
+HDSAK47Desc,items,,,The Hybrid AK47 has been Moddified to take the .45 ACP Rounds so it has a quicker fire rate along with less Recoil,
+
+HDM4A1CDesc,items,weapons,New,The M4A1 carbine is a fully automatic variant of the basic M4 carbine intended for special operations use place points into MachineGunner to craft better versions And fires 7.62 Rounds
+
+HDTARDesc,items,weapons,New,Manufactured with extensive use of aluminium alloys and synthetic materials. It is a semi-automatic version of the United States military M16 rifle that fires 500 Automax Rounds
+
+HDDBarrelDesc,items,weapons,New,Modern double barreled shotguns often known as doubles are almost universally break open actions with the barrels tilting up at the rear to expose the breech ends of the barrels for unloading, reloading And fires standard shotgun shells along with the Slug variant,
+
+HDDoubleBarrelSnubDesc,items,weapons,New,Modern double barreled shotguns often known as doubles are almost universally break open actions with the barrels tilting up at the rear to expose the breech ends of the barrels for unloading, reloading And fires standard shotgun shells along with the Slug variant,
+
+HDS12Desc,items,weapons,New,The Franchi SPAS-12 is a combat shotgun manufactured by Italian firearms company Franchi from 1979 to 2000. The SPAS-12 is a dual-mode shotgun. adjustable for semi-automatic or pump-action operation. The SPAS-12 fires standard shotgun shells along with the Slug variant,
+
+HDM500Desc,items,,,Mossberg 500 is a pump action shotguns manufactured by O.F. Mossberg And Sons. The 500 series comprises widely varying models of hammerless repeaters. all of which share the same basic receiver and action. but differ in bore size. barrel length And choke length. The Mossberg fires standard shotgun shells along with the Slug variant,
+
+HDVulcan9mmDesc,items,,,The HD Vulcan 9mm is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
+
+HDVulcan762mmDesc,items,,,The HD Vulcan 7.62mm is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
+
+HDVulcan50BmgDesc,items,,,The HD Vulcan 50mm Bmg is a Fast firing Multibarreled Gun thats deals a Ton of Zombie Fuckery.
+
+HDAWarDesc,items,,,The Accuracy International Arctic Warfare rifle was designed and manufactured by the British company Accuracy International It uses the 7.62 Rounds And can be improved by adding points into the DeadEye Perk.
+
+HDCheyTacM300Desc,items,,,The CheyTac Intervention is an American bolt action sniper rifle manufactured by CheyTac LLC. Which can also be classified as an anti-material rifle. It is fed by a 7 round detachable single stack magazine that uses the renound 408mm CT Ammo,
+
+HDDSVDDesc,items,weapons,New,The Dragunov is a semi automatic gas operated rifle with a short stroke gas piston system that fires 7.62 Rounds,
+
+HDW1866Desc,items,weapons,New,Winchester 1866 continued the trend towards chambering heavier rounds and had an all new and considerably stronger locking block action than the toggle link Model 1886 was a true American express rifle as it could be chambered in the more powerful black powder cartridges of the day such as the .45 ACP Round,
+
+HDKarabiner98kDesc,items,weapons,New,The Karabiner 98k is a controlled-feed bolt-action rifle based on the Mauser M98 system. Its internal magazine can be loaded with five 7.62 Rounds.
+
+HDLauncherDesc,items,weapons,New,The K9 Dual Launcher will do small damage to Blocks And High damage to Entities,
+
+HDFlameThrowerDesc,items,weapons,New,State Of The Art firey Pew Pew Just ADD Petrol. Add points into Miner69er to improve its Quality,
+
+HDNuke,items,Item,KgNone,HD Nuke,
+HDNukeDesc,items,,,This Is A Nuke. Be Careful With Your Nuke.\n\nBlow Shit Up like a BOSS,
+
+ClassBruiserDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nBruiser Class Weapons are IronClub SledgeHammer And CompoundBow along with ammunition,
+
+ClassBuilderDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nBuilder Class Weapons are 9mm Pistol with Ammo And also Bundles for building,
+
+ClassEngineerDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nEngineer Class Weapons are 9mm Pistol. CrossBow with Ammo And also Minibike Parts,
+
+ClassFarmerDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nFarmer Class Weapons are Magnum 44. CrossBow with Ammo And also lots of Drinks and the Auger Schematic,
+
+ClassGunmanDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nGunman Class Weapons are the MP5 along with its ammo. MP5 Schematic and Military parts,
+
+ClassHunterDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nHunter Class Weapons are the Hunting Rifle. Its schematic and addons along with ammo,
+
+ClassMechanicDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nMechanic Class Weapons are the Magnum with ammo. Mortorbike and minibike schematics,
+
+ClassMedicDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nMedic Class Weapons are the Desert Vulture with ammo. Assorted schematics to do with Medics,
+
+ClassMinerDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nMiner Class Weapons are the Shotgun its ammo and schematic along with Bundles for building and 100 forged Steel and Iron,
+
+ClassRiflemanDesc,items,,,Each Class gets a set of standard equippment like Food. Bandages and Water.\n\nRifleman Class Weapons are the Magnum and the Hunting Rifle along with schematics and ammo
+
+HDImpactWrenchDesc,Block,,,The Impact Wrench will gather resources quicker than any tool in the game.\n\nPlace Points Into SalvageOperations To Gain Max Resources,
+
+KillJoyHotWingsDesc,items,,,Umm Youve taken 3 Things in the Wild. Mashed them all together And made the juiciest Most succulent Spicy Wings the apocalypse has ever seen. KillJoyJessicas Special Recipe,
+
+FaxFoxsFurrBurgerDesc,items,,,The Burger To End All Burgers. Get your zombie slaying chops around this Furry Burger Of Joy. Just watch out for the Juice Drips,
+
+HDGSBladeDesc,items,,,Spartan Blades crafted with the Finest Metal. Just kidding its probably Blunt,
+
+HDTeslaCoilDesc,Block,,,The Tesla Fence acts much the same as the Electric Fence with the exception of its overall power. damage and overall extra HP.\n\nDeath will happen if you get caught in this,
+
+HDSpas12Reflex,items,Item,KgNone,HD Spas 12 Reflex,
+BabyChick,items,Item,KgNone,Cute Baby Chick,
+BabyChickDesc,items,,,OMG Youve found a Cute Baby Chick. Gotta be useful for something Right.,
+ChickenNuggetsDesc,items,,,Like McDonalds Only REAL MEAT lol.,
+
+HDSpas12ReflexDesc,items,,,Military Grade Reflex Sight that can be attached to the HD Spas 12,
+HDMossberg500ReflexDesc,items,,,Military Grade Reflex Sight that can be attached to the HD Mossberg 500,
+
+AaronFritosEggsDesc,items,,,AaronRockst4rs Fritos And Eggs. Is just how your Momma use to make Em. Fritos And Eggs delicately cooked until golden brown. Tastes Good And Helps in the Zombie Slayin.,
+
+AaronRockst4rDesc,items,,,In-Game Poster Is Dedicated To Aaron Rockst4r for His 24 Hour stream of the Mod.,
+
+RalifsBorschtDesc,items,,,Ralifs Borscht. Is most often associated with the soups variant of Ukrainian And Russian origin. This delicious beet soup even helps you regulate blood pressure and protects The heart. The liver. The stomach And helps you Kill Zombies.,
+
+HDGlock18Auto,items,Item,KgNone,HD GlockG5 18 Auto,
+HDGlockAutoSilencer,items,Item,KgNone,HD GlockG5 18 Auto Silencer,
+HDGlockAutoReflex,items,Item,KgNone,HD GlockG5 18 Auto Reflex,
+
+HDGlockAutoDesc,items,,,GlockG5 18 Auto is a fully-automatic pistol. It is a fully-automatic version of the Glock 17. This pistol was developed by an Austrian Glock company. headed by Gaston Glock,
+HDGlockAutoSilencerDesc,items,,,Military Grade Silencer that can be attached to the HD GlockG5 18 Auto,
+HDGlockAutoReflexDesc,items,,,Military Grade Reflex that can be attached to the HD GlockG5 18 Auto,
+
+CamoesBifanaDesc,items,,,The bifana is a Portuguese sandwich that comprises of a light but crusty bread roll filled with sauteed strips of pork that have been seasoned with garlic. spices. and white wine.,
+
+HDCementMixerDesc,,blocks,Workstation,Cement Mixing At Its Finest With Improved Speeds. There are different Engine Torques Giving a Total reduction in time of 50 Percent with 0 Heat Penalty. Engine Models are as follows.\n\nHD Motor 125cc.\n\nHD Motor 250cc.\n\nHD Motor 500cc
+
+HDCementMixer,items,Item,KgNone,HD Cement Mixer,
+
+HDMotor125cc,items,Item,KgNone,HD Motor 125 cc,
+HDMotor250cc,items,Item,KgNone,HD Motor 250 cc,
+HDMotor500cc,items,Item,KgNone,HD Motor 500 cc,
+
+HDMotor125ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 5 Percent speed Increase,
+HDMotor250ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 15 Percent speed Increase,
+HDMotor500ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 30 Percent speed Increase,
+
+War3zuksStoggyDesc,items,,,So Youve Crafted The Ultimate In Nicotine. Enjoy 20 Percent Quicker Crafting,
+
+HDM4A1CarbineScope,items,Item,KgNone,HD M4A1 Carbine Scope,
+HDColtM1911REFLEX,items,Item,KgNone,HD M1911 REFLEX,
+HDColtM1911AREFLEX,items,Item,KgNone,HD Colt M1911A REFLEX,
+HDDEPUNReflex,items,Item,KgNone,HD Desert Eagle Punisher Reflex,
+
+HDGasGeneratorDesc,blocks,,,High Powered High Torque For ALL Your Base Needs.
+HDGeneratorDesc,blocks,,,High Powered High Torque For ALL Your Base Needs.
+
+HDMotorDesc,items,,,A specialised High Torque Motor that once applied will act like a Mini Nuclear power plant. This Item is placed into the HD Generator which requires 6 Motors.
+
+HDCellDesc,items,,,A specialised Hd Battery Cell that once applied will act like a Mini Nuclear power plant. This Item is placed into the HD Generator which requires 6 Cells.
+
+medicalBloodDrawKitDesc,items,,,Medical Blood Draw Kit IMPORTANT.\n\nThis Kit is used for the creation of BloodBags.\n\nIt will Remove 50 Percent of your HP And Deplete Water And Food.\n\nIf Exploited It will also Reduce ALL Skills To L3.
+
+medicalBloodDrawKit,items,Item,KgNone,Blood Draw Kit,
+
+StormFallMonsterColaDesc,items,Food,New,Yum StormFall Monster Cola! Recover quicker. Increased Melee Damage. Also restores some stamina And some Health,
+
+HDplantedMushroom1,blocks,Block Building,KgNone,HD Mushroom Seedling,
+HDplantedYucca1,blocks,Block Building,KgNone,HD Yucca Seedling,
+HDplantedCotton1,blocks,Block Building,KgNone,HD Cotton Seedling,
+HDplantedCoffee1,blocks,Block Building,KgNone,HD Coffee Seedling,
+HDplantedGoldenrod1,blocks,Block Building,KgNone,HD Goldenrod Seedling,
+HDplantedAloe1,blocks,Block Building,KgNone,HD Aloe Seedling,
+HDplantedBlueberry1,blocks,Block Building,KgNone,HD Blueberry Seedling,
+HDplantedPotato1,blocks,Block Building,KgNone,HD Potato Seedling,
+HDplantedChrysanthemum1,blocks,Block Building,KgNone,HD Chrysanthemum Seedling,
+HDplantedCorn1,blocks,Block Building,KgNone,HD Corn Seedling,
+HDplantedHop1,blocks,Block Building,KgNone,HD Hops Seedling,
+HDplantedSnowberry1,blocks,Block Building,KgNone,HD SnowBerry Seedling,
+HDplantedPumpkin1,blocks,Block Building,KgNone,HD Pumpkin Seedling,
+
+CPTampax,items,Item,KgNone,CP Tampax,
+CPTeadybear,items,Item,KgNone,CP Teadybear,
+CPWaterBottle,items,Item,KgNone,CP Water Bottle,
+CPDvd,items,Item,KgNone,CP Dvd,
+
+HDCarePackageDesc,items,Item,New,OMG A Care Package For All You Rage Quitters.
+
+CPTampaxDesc,items,Item,New,Scrap Me For Resources.
+
+HDCarePackageDesc,items,Item,New,Open Me to get some ammo resources,
+
+HDFoodCarePackageDesc,items,Item,New,Open Me to get some Food resources,
+
+HDMedicineCarePackageDesc,items,Item,New,Open Me to get some Medicine resources,
+
+HDResourceCarePackageDesc,items,Item,New,Open Me to get some Mining resources,
+
+medicalBloodDrawKit,items,Item,KgNone,Blood Draw Kit,
+
+HDBowl,items,Item,KgNone,HD Bowl,
+
+HDBowlDesc,items,Item,New,A Basic Clay Bowl used for Hot Meals.
+
+WarmChunkyFoodDesc,items,Item,New,Umm Warmed Grub Always tastes Better And is Good for You.
+
+BrassWire,items,Item,KgNone,Brass Wire,
+
+BrassWireDesc,items,Item,New,Scrapped Reel of Brass Wiring. Probably good for Smelting.
+
+HDGun Oil,items,Item,KgNone,HD Gun Oil,
+
+HDBlunderbussDesc,items,Item,New,HD BlunderBuss. A Powerful Starter Weapon when combined with Gunpowder And Stone.
+
+RepairKitSteelToolsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Forged Steel Tools.
+
+RepairKitIronTools,items,Item,KgNone,HD Repair Kit Iron Tools,
+
+RepairKitIronToolsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Forged Iron Tools.
+
+RepairKitSteelTools,items,Item,KgNone,HD Repair Kit Steel Tools,
+
+RepairKitSteelArmorDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Steel Armor Parts.
+
+RepairKitSteelArmor,items,Item,KgNone,HD Repair Kit Steel Armor,
+
+RepairKitKevlarArmorDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Military Armor Parts.
+
+RepairKitKevlarArmor,items,Item,KgNone,HD Repair Kit Kevlar Armor,
+
+HDScrapIronAxe,items,Item,KgNone,HD Scrap Iron Axe,
+
+HDScrapIronPickAxe,items,Item,KgNone,HD Scrap Iron Pick Axe,
+
+HDScrapIronShovel,items,Item,KgNone,HD Scrap Iron Shovel,
+
+HDScrapIronClub,items,Item,KgNone,HD Scrap Iron Club,
+
+HDScrapIronShiv,items,Item,KgNone,HD Scrap Iron Shiv,
+
+HDScrapIronAxeDesc,items,,,High Quality Scrap Iron Tool Meant For Early Game.
+
+HDCncHandGuns,items,Item,KgNone,HD Cnc HandGuns,
+
+HDCncAutomatics,items,Item,KgNone,HD Cnc Automatics,
+
+HDCncRifles,items,Item,KgNone,HD Cnc Rifles,
+
+HDCncHandGunsDesc,items,,,Add this Item to the HD GunBench To allow for the Production Of HD HandGuns.
+
+HDCncAutomaticsDesc,items,,,Add this Item to the HD GunBench To allow for the Production Of HD Automatics.
+
+HDCncRiflesDesc,items,,,Add this Item to the HD GunBench To allow for the Production Of HD Sniper Rifles.
+
+45ACPRound,items,Item,KgNone,HD Ammo .45mm ACP,
+45ACPRoundSH,items,Item,KgNone,HD Ammo .45mm ACP SH,
+45ACPRoundINC,items,Item,KgNone,HD Ammo .45mm ACP INC,
+
+DeagleRound,items,Item,KgNone,HD Ammo .50mm AE,
+50MagBulletINC,items,Item,KgNone,HD Ammo .50mm AE INC,
+50MagBulletSH,items,Item,KgNone,HD Ammo .50mm AE SH,
+
+408Round,items,Item,KgNone,HD Ammo .408mm CT,
+408RoundINC,items,Item,KgNone,HD Ammo .408mm CT INC,
+408RoundSH,items,Item,KgNone,HD Ammo .408mm CT SH,
+
+500AutoMax,items,Item,KgNone,HD Ammo .500mm AM,
+500MagBulletINC,items,Item,KgNone,HD Ammo .500mm AM INC,
+500MagBulletSH,items,Item,KgNone,HD Ammo .500mm AM SH,
+
+50BMGRound,items,Item,KgNone,HD Ammo .50mm BMG,
+50BMGRoundINC,items,Item,KgNone,HD Ammo .50mm BMG INC,
+50BMGRoundSH,items,Item,KgNone,HD Ammo .50mm BMG SH,
+
+HDammoBundle45ACPRound,items,Item,KgNone,HD Ammo Bundle .45mm ACP,
+
+HDammoBundle9mmBulletBall,items,Item,KgNone,HD Ammo Bundle .9mm,
+
+HDammoBundle9mmBulletHP,items,Item,KgNone,HD Ammo Bundle .9mm HP,
+
+HDammoBundle9mmBulletAP,items,Item,KgNone,HD Ammo Bundle .9mm AP,
+
+HDammoBundle44MagnumBulletBall,items,Item,KgNone,HD Ammo Bundle .44mm,
+
+HDammoBundle44MagnumBulletHP,items,Item,KgNone,HD Ammo Bundle .44mm HP,
+
+HDammoBundle44MagnumBulletAP,items,Item,KgNone,HD Ammo Bundle .44mm AP,
+
+HDammoBundleDeagleRound,items,Item,KgNone,HD Ammo Bundle .50mm AE,
+
+HDammoBundle500AutoMax,items,Item,KgNone,HD Ammo Bundle .500mm AM,
+
+HDammoBundle762mmBulletBall,items,Item,KgNone,HD Ammo Bundle 7.62mm,
+
+HDammoBundle762mmBulletHP,items,Item,KgNone,HD Ammo Bundle 7.62mm HP,
+
+HDammoBundle762mmBulletAP,items,Item,KgNone,HD Ammo Bundle 7.62mm AP,
+
+HDammoBundle408Round,items,Item,KgNone,HD Ammo Bundle .408mm CT,
+
+HDammoBundle50BMGRound,items,Item,KgNone,HD Ammo Bundle .50mm BMG,
+
+HDammoBundleShotgunShell,items,Item,KgNone,HD Ammo Bundle Shotgun Shell,
+
+HDammoBundleShotgunSlug,items,Item,KgNone,HD Ammo Bundle Shotgun Slug,
+
+HDammoBundleShotgunBreachingSlug,items,Item,KgNone,HD Ammo Bundle Shotgun Breaching Slug,
+
+HDBreachingC4,items,Item,KgNone,HD Breaching C4,
+MREMilitaryRation,items,Item,KgNone,HD MRE Military Ration,
+
+HDGunPowderBundle,items,Item,KgNone,HD GunPowder Bundle,
+HDammoGasCanBundle,items,Item,KgNone,HD ammoGasCan Bundle,
+
+HDGeneratorDesc,blocks,,,This Thing will power a City. Use the HD Cells to power.
+
+HDBulletPress,items,Item,KgNone,HD Bullet Press,
+
+HDBulletPressDesc,items,,,Add this Item to the HD AmmoBench To allow for the Production Of Ammo.
+
+HDBulletTumblerDesc,items,,,Add this Item to the HD AmmoBench To allow for the Dismantling Of Ammo.
+
+HDBulletTumbler,items,Item,KgNone,HD Bullet Tumbler,
+
+HDNailGunBolt,items,Item,KgNone,HD Nail Gun Bolt,
+
+HDNailGunBoltDesc,items,,,Your a Builder. Your out of Ammo. No problems Load These Bad Boys Up And Kick Ass You Gimpy Builder YOU.
+
+HDKnifeDesc,items,,,Throwing Knifes can be used as distraction or a weapon.
+
+HDGrinder,items,Item,KgNone,HD Grinder,
+
+HDGrinderDesc,items,,,Add this to the HD AmmoBench To Grind Specialized items Like GunPowder.
+
+LoversPizzaDesc,items,,,James And Michelles Lovers Pizza. Perfectly Prepared To Be Enjoyed While Killing Zombies And Twitching The Night Away.
+
+HDWelder,items,Item,KgNone,HD Welder,
+
+HDCarbonSewingKit,items,Item,KgNone,HD Carbon Sewing Kit,
+
+HDToolAndDieSet,items,Item,KgNone,HD Tool And Die Set,
+
+HDWelderDesc,items,,,The HD Welder Is placed into the HD WorkBench so that the HD Truck Elevators can be crafted from a selection of Materials.
+
+HDCarbonSewingKitDesc,items,,,The HD Carbon Sewing Kit Is placed into the HD WorkBench so that the HD Military Gear can be crafted from a selection of Materials.
+
+HDToolAndDieSetDesc,items,,,The HD Tool And Die Set Is placed into the HD WorkBench so that the HD Truck Elevators can be crafted from a selection of Materials.
+
+HDBR1NXlSBooperDesc,items,,,Fuck Some Shit Up With The Hammer To End All Apocalyptic Zombie Infestations.
+
+BR1NXlsHotPotStewDesc,items,,,BR1NXls HotPot Stew Brings you a Carb Hit Fit for any Zombie Slayer. A BIG thanks for Streaming my OverHaul.
+
+DD1GGsShamTunaPieDesc,items,,,DD1GGs Sham And Tuna Pie Will keep you Zombie killin for Hours. A BIG thanks for being the 1st to Stream my OverHaul.
+
+HDMacheteDesc,items,,,Extra Sharp And Serrated for cleaner Kills.
+
+HDElectrolyteDesc,items,,,HD Electrolyte is made using Batteries And is used in the production of Shock Ammo And is made in the HD WorkBench.
+
+HDGroundMineDesc,blocks,,,Player built Ground Mine for Defensive purposes.
+
+HDBreachingC4Desc,items,,,Player Built Breaching C4 for when you just need to blow shit up.
+
+HDMiniHatchetDesc,items,,,Good Quality Starter Hatchet. Add points into Miner69er to improve its Quality,
+
+HDTazasHatchetDesc,items,,,Good Quality Taza Hatchet. Add points into Miner69er to improve its Quality,
+
+HDFlameFuelDesc,items,,,Advanced Fuel for the HD Flame Thrower.
+
+HDBladeTrapDesc,blocks,,,Titanium Reenforced Blade Trap that requires its Polish to be repaired.
+
+HDDartTrapDesc,blocks,,,Titanium Reenforced Dart Trap that requires its Polish to be repaired.
+
+HDGunBenchDesc,blocks,,,Build All Weapons And Parts In Here.
+
+HDWorkBenchDesc,blocks,,,Build All Tools And Parts In Here.
+
+HDPicsBenchDesc,blocks,,,Build All XXX Picture Frames And Parts In Here.
+
+HDAmmoBenchDesc,blocks,,,Build All Ammo Types In Here.
+
+HDColtM1911SilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Colts.
+HDDesertEagleSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Desert Eagles.
+HDMac10AutoSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Mac10 Auto.
+HDMossberg500SilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD ShotGuns.
+HDArcticWarfareSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Arctic Warfare or the HD CheyTac M300.
+
+HDDEPunScope,items,Item,KgNone,HD DE Punisher Scope,
+HDDEScope,items,Item,KgNone,HD DE Scope,
+HDDEScopeDesc,items,,,Military Grade Scope for the HD Desert Eagle,
+HDDEPunScopeDesc,items,,,Military Grade Scope for the HD Desert Eagle Punisher,
+
+HDDEReflexDesc,items,,,Military Grade Reflex that can be attached to the HD Desert Eagle.
+
+HDDEReflex,items,Item,KgNone,HD Desert Eagle Reflex.
+
+HDColtM1911REFLEXDesc,items,,,Military Grade Reflex that can be attached to the HD Colt M1911.
+
+HDColtM1911AREFLEXDesc,items,,,Military Grade Reflex that can be attached to the HD Colt M1911A.
+
+HDDragunovSVDScopeDesc,items,,,Military Grade Scope that can be attached to the HD Dragunov SVD.
+
+HDDragunovSVDSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Dragunov SVD.
+
+HDM4A1CarbineScopeDesc,items,,,Military Grade Scope that can be attached to the HD M4A1 Carbine.
+
+HDColtM1911Silencer,items,Item,KgNone,HD Colt M1911 Silencer.
+
+HDDEPunisherSilencer,items,Item,KgNone,HD DE Punisher Silencer.
+
+HDDESilencer,items,Item,KgNone,HD Desert Eagle Silencer.
+
+HDMac10AutoSilencer,items,Item,KgNone,HD Mac 10 Auto Silencer.
+
+HDMossberg500Silencer,items,Item,KgNone,HD Mossberg 500 Silencer.
+
+HDArcticWarfareSilencer,items,Item,KgNone,HD Arctic Warfare Silencer.
+
+HDDragunovSVDScope,items,Item,KgNone,HD Dragunov SVD Scope.
+
+HDDragunovSVDSilencer,items,Item,KgNone,HD Dragunov SVD Silencer.
+
+HDM4A1CarbineScope,items,Item,KgNone,HD M4A1 Carbine Scope.
+
+HDFuelSDesc,Block,,,A Very Tough Fuel Tanker for storing Fuel.
+
+HDPumpJackE,items,Block,KgNone,HD Pump Jack,
+
+HDPumpJackF,items,Block,KgNone,HD Pump Jack,
+
+HDPJEDesc,Block,,,This Pump Jack Will Mine Resources Over Time And Deliver Them For Collection.\n\nLoot From Either The Front Or The Rear Of The Pump
+
+HDMegaVaultDesc,Block,,,A Very Tough Mega Vault for storing Items.
+
+HDTEx5Desc,items,,,Truck Lift = 5Widthx1Depthx6Length.\n\nThis Lift Will Go Up 5 Blocks From Ground Level When Placed.\n\nLift Is Also Lockable
+
+HDTEx10Desc,items,,,Truck Lift = 5Widthx1Depthx6Length.\n\nThis Lift Will Go Up 10 Blocks From Ground Level When Placed.\n\nLift Is Also Lockable
+
+HDDragonDesc,items,,,HD Dragon Katana made from the Finest Steel Just kidding its probably Blunt Improve quality by putting points into perkDeepCuts.
+
+HDKatanaDesc,items,,,HD Shuriken Katana made from the Finest Steel Just kidding its probably Blunt Improve quality by putting points into perkDeepCuts.
+
+HDWakizashiDesc,items,,,HD Wakizashi Katana made from the Finest Steel Just kidding its probably Blunt Improve quality by putting points into perkDeepCuts.
+
+HDJukeBoxReggaeOFF,items,Item,KgNone,HD JukeBox Reggae,
+HDJukeBoxReggaeON,items,Item,KgNone,HD JukeBox Reggae ON,
+HDJukeBoxDubStepOFF,items,Item,KgNone,HD JukeBox DubStep,
+HDJukeBoxDubStepON,items,Item,KgNone,HD JukeBox DubStep ON,
+HDJukeBox5FingerOFF,items,Item,KgNone,HD JukeBox 5Finger,
+HDJukeBox5FingerON,items,Item,KgNone,HD JukeBox 5Finger ON,
+HDJukeBoxASevenfoldOFF,items,Item,KgNone,DrFuzzies Avenged Jukebox,
+HDJukeBoxASevenfoldON,items,Item,KgNone,DrFuzzies Avenged Jukebox ON,
+
+HDJukeBoxReggaeDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Miss Fatty.\n\nTrack 002 Hold Yuh.\n\nTrack 003 Rude Boy.\n\nTrack 004 Wine Slow.\n\nTrack 005 Help me.
+
+HDJukeBoxDubStepDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 In My Mind.\n\nTrack 002 Feel Good.\n\nTrack 003 The Girl.\n\nTrack 004 Entropy.\n\nTrack 005 Ghosts N Stuff.
+
+HDJukeBox5FingerDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Wrong Side Of Heaven.\n\nTrack 002 The Bleeding.\n\nTrack 003 The Pride.\n\nTrack 004 Far From Home.\n\nTrack 005 Battle Born.
+
+HDJukeBoxASevenfoldDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that will Autoplay.\n\nTrack 001 Bat Country.\n\nTrack 002 Hail To The King.\n\nTrack 003 Nightmare.\n\nTrack 004 Not Ready To Die.\n\nTrack 005 This Means War.
+
+HDWorkingFireDesc,blocks,Block Building,,A Fully Working Fireplace Stove that uses NO Fuel.
+HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.
+
+HDWDDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item And Use LMB
+
+HDWorkingFridgeDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item And Use LMB
+
+PenthroxDesc,items,,,This will Render you Almost invisible to ALL Zombies unless you Engage them.
+
+PoisonVileDesc,items,,,A Key Ingredient in making the Penthrox Injection.
+
+HDObonjanTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
+
+HDBrainPoxTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
+
+HDKrytosTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
+
+HDSpattergroitTestKitDesc,items,,,Crafting This will allow you to Cure the Pathogen you have been infected with. You have 60 Mins from Infection before it Mutates into an infection that cant be cured which will lead to your DEATH.
+
+BulletINCDesc,items,,,Ammo designed to set your target on fire.
+
+BulletSHDesc,items,,,Ammo designed to Shock your target.
+
+HDGunOilDesc,itmes,,,HDGun Oil is required in the making of ALL specialised Repair kits.
+
+RepairKitHandGuns,items,Item,KgNone,HD Repair Kit Hand Guns,
+
+RepairKitHandGunsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hand Guns.
+
+RepairKitAutomaticRifles,items,Item,KgNone,HD Repair Kit Automatic Rifles,
+
+RepairKitAutomaticRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Automatic Guns.
+
+RepairKitShotGuns,items,Item,KgNone,HD Repair Kit Shot Guns,
+
+RepairKitShotGunsDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Shot Guns.
+
+RepairKitHuntingRifles,items,Item,KgNone,HD Repair Kit Hunting Rifles,
+
+RepairKitHuntingRiflesDesc,items,Item,New,This is a specialised version of the Standard Repair Kit designed to repair ALL Hunting And Sniper Rifles.
+
+HDM134MBDesc,items,,,This is the Barrel part of the HD Minigun.
+
+HDM134MPDesc,items,,,This is the Housing And Parts of the HD Minigun.
+
+HDM134MMDesc,items,,,This is the Motor And other moving parts to the HD Minigun.
+
+HDFAKDesc,items,,,A More advanced version of the Medical Kit with Max Healing Also removes negative Buffs.
+
+HDLPDesc,items,Tools,New,Hd Lock Picks will allow you to Unlock Hidden Paintings as well as Upgrade broken Work Benches,Forges,Chemistry Stations And Cement Mixers.
+
+HDWrenchDesc,items,Tools,New,Crafted from the Finest Steel this BadBoi will be there for you Craft a better version by putting skill points into the Salvage Operations Perk.
+
+HDChainsawDesc,items,Tools,New,The HD ChainSaw will do 50% more Damage than the vanilla version Improve it by putting skill points into the perkMiner69r.
+
+HDAugerDesc,items,Tools,New,The HD Auger will do 50% more Damage than the vanilla version Improve it by putting skill points into the perkMiner69r.
+
+HDMASDesc,items,armor,New,The highest quality money can buy so these give less penalties place points into LightArmor to craft better versions.
+
+Ammo Supply 500 AMDesc,items,Ammo,New,You've Just found a bag of .500 AR AutoMax ammo !!
+
+WW5000Desc,items,tools,New,A simple tool for clearing weeds and collecting grass.
+
+FBDesc,items,resource,new,A Forged Brass Ingot is 1 of the ingredients of Congealed Metal.
+
+FTDesc,items,resource,new,A Forged Titanium Ingot is 1 of the ingredients of Congealed Metal.
+
+SPDesc,items,resource,new,Polished Steel Blocks withstand more and resist explosion damage x1.75 12k Health.
+
+TPDesc,items,resource,new,Polished Titanium Blocks withstand more and resist explosion damage x2.0 15k Health.
+
+CMDesc,items,resource,new,Congealed Metal is an amalgamation of Both Brass And Titanium used in high end polishes.
+
+HDForgeDesc,blocks,,,Used to smelt advanced metals like Brass And Titanium.
+
+DonnasFubarStewDesc,items,Food,New,Donnas Fubar Stew comes straight from the Heart And Warms your Balls as well as your Soul.
+
+DonnasFubarSteakDesc,items,Food,New,A Fubar Steak used in making the Fubar Stew.
+
+HDXDesc,items,,,Xcalibur the ONLY bashing tool you need early game.
+
+HDMiniHDesc,items,,,A simple replacement for the early game Axe much better And more durable.
+
+BSFDesc,items,,,You have found a Building Supply Flare left click the ground when active to spawn the crate.
+
+HSFDesc,items,,,You have found a Health Supply Flare left click the ground when active to spawn the crate.
+
+ASFDesc,items,,,You have found a Ammo Supply Flare left click the ground when active to spawn the crate.
+
+FSFDesc,items,,,You have found a Food Supply Flare left click the ground when active to spawn the crate.
+
+HDEDescitems,,,Used in the creation of Shock Ammo.
+
+HDNFDesc,items,,,A self upgrading Wood Frame For Noobs goes from Wood to Rwood to Iron at 1k Health
+
+HDRDDesc,items,,,A Titanium Re-Enforced Rolling Door to secure you from those Brain Eating Morons.
+
+D9A10Desc,items,Ammo,New,Now that your 9mm Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DHP9A10Desc,items,Ammo,New,Now that your 9mm HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DAP9A10Desc,items,Ammo,New,Now that your 9mm AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D44MA10Desc,items,Ammo,New,Now that your 44Mag Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DHP44MA10Desc,items,Ammo,New,Now that your 44Mag HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DAP44MA10Desc,items,Ammo,New,Now that your 44Mag AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D762A10Desc,items,Ammo,New,Now that your 762 Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DHP762A10Desc,items,Ammo,New,Now that your 762 HP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DAP762A10Desc,items,Ammo,New,Now that your 762 AP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DDeagleR10Desc,items,Ammo,New,Now that your Desert Eagle Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D500AM10Desc,items,Ammo,New,Now that your 500 Auto Max Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DBA10Desc,items,Ammo,New,Now that your BlunderBuss Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DSSA10Desc,items,Ammo,New,Now that your ShotGun Shell Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DSSlugA10Desc,items,Ammo,New,Now that your ShotGun Slug Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DSBreachSA10Desc,items,Ammo,New,Now that your ShotGun Breaching Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+DMC10Desc,items,Ammo,New,Now that your Molotov Cocktail Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D45ACPR10Desc,items,Ammo,New,Now that your 45 ACP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D408Desc,items,Ammo,New,Now that your 45 ACP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources.,,,,,
+
+D50BMGDesc,items,Ammo,New,Now that your 45 ACP Ammo has been converted.\n\nOpen this item to convert it back to 50% of its original resources,
+
+45ACPRoundDesc,items,,,45 ACP Rounds are used in the M1911A as well as the HybridAK ACP,
+
+DERoundDesc,items,,,Deagle Rounds are used in the HD Desert Eagle,
+
+50BMGRoundDesc,items,,,50 BMG Rounds are used in the HD Arctic Warfare,
+
+408RoundDesc,items,,,408 Rounds are used in the HD CheyTac M300,

@@ -1,0 +1,1414 @@
+<configs>
+	
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival1']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival2']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival3']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival4']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival5']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival6']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival7']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival8']"/>
+	<remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']"/>
+	
+	<remove xpath="/quests/quest[@id='tier1_buried_supplies']"/>
+	<remove xpath="/quests/quest[@id='tier2_buried_supplies']"/>
+	
+<insertBefore xpath="/quests/quest[@id='challenge_silenceofthelambs']" >
+	
+<quest id="quest_BasicSurvival1">
+		<property name="group_name_key" value="quest_BasicSurvival"/>
+		<property name="name_key" value="quest_BasicSurvival1"/>
+		<property name="subtitle_key" value="quest_BasicSurvival1_subtitle"/>
+		<property name="description_key" value="quest_BasicSurvival1_description"/>
+		<property name="icon" value="ui_game_symbol_map_bed"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="veryeasy"/>
+		<property name="offer_key" value="quest_BasicSurvival_offer"/>
+		<property name="shareable" value="false"/>
+
+		<action type="ShowTip" value="tutorialTipQuest02"/>
+		<action type="TrackQuest"/>
+
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="10" phase="1"/>
+		<objective type="Craft">
+			<property name="phase" value="2"/>
+			<property name="item" value="bedroll"/>
+			<property name="count" value="1"/>
+		</objective>
+
+		<objective type="BlockPlace" id="bedroll" value="1" phase="2"/>
+
+		<reward type="Exp" value="50"/>
+		<reward type="Quest" id="quest_whiteRiverCitizen1"/>
+</quest>
+
+<quest id="quest_whiteRiverCitizen1">
+		<property name="group_name_key" value="quest_WhiteRiverCitizen"/>
+		<property name="name_key" value="quest_WhiteRiverCitizen1"/>
+		<property name="subtitle_key" value="quest_WhiteRiverCitizen1_subtitle"/>
+		<property name="description_key" value="quest_WhiteRiverCitizen1_description"/>
+		<property name="icon" value="ui_game_symbol_map_trader"/>
+		<property name="category_key" value="quest"/>
+		<property name="difficulty" value="medium"/>
+		<property name="shareable" value="false"/>
+
+		<action type="ShowTip" value="quest_WhiteRiverCitizen1_description">
+			<property name="delay" value="3"/>
+		</action>
+		<objective type="Goto" id="trader" value="5" phase="1">
+			<property name="biome_filter_type" value="OnlyBiome" />
+			<property name="biome_filter" value="pine_forest" />
+			<property name="nav_object" value="go_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+			<property name="use_closest" value="true" />
+		</objective>
+
+		<reward type="SkillPoints" value="5" />
+		<reward type="Exp" value="100" />
+		<reward type="Quest" id="HD Bruiser PreReq 1" stage="aftercomplete"/>
+		<reward type="Quest" id="HD Builder PreReq 1" stage="aftercomplete"/>
+		<reward type="Quest" id="HD Engineer PreReq 1" stage="aftercomplete"/>
+		<reward type="Quest" id="HD Farmer PreReq 1" stage="aftercomplete"/>
+		<reward type="Quest" id="HD Gunman PreReq 1" stage="aftercomplete"/>
+		<reward type="Quest" id="HD Mechanic PreReq 1" stage="aftercomplete"/>
+		<reward type="Quest" id="HD Medic PreReq 1" stage="aftercomplete"/>
+		<reward type="Quest" id="HD Cook PreReq 1" stage="aftercomplete"/>
+</quest>
+	
+<quest id="HD Bruiser PreReq 1">
+	<property name="name_key" value="HD Bruiser PreReq 1" />
+	<property name="subtitle_key" value="HD Bruiser PreReq 1 Of 5" />
+	<property name="group_name_key" value="HD Bruiser PreReq" />
+	<property name="description_key" value="Your a Bruiser so time to Bludgeon some zombies" />
+	<property name="icon" value="ui_game_symbol_ClassBruiser1" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="resourceWood" value="5" phase="1"/>
+		<objective type="Craft" id="meleeWpnClubT0WoodenClub" value="1" phase="2"/>
+		
+		<reward type="Exp" value="100" />
+		<reward type="Quest" id="HD Bruiser PreReq 2" />
+</quest>
+	
+<quest id="HD Bruiser PreReq 2">
+	<property name="name_key" value="HD Bruiser PreReq 2" />
+	<property name="subtitle_key" value="HD Bruiser PreReq 2 Of 5" />
+	<property name="group_name_key" value="HD Bruiser PreReq" />
+	<property name="description_key" value="Time to collect some additional resources" />
+	<property name="icon" value="ui_game_symbol_ClassBruiser2" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="FetchKeep" id="meleeWpnKnucklesT3SteelKnucklesParts" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="3" phase="1"/>
+		<objective type="Craft" id="meleeWpnKnucklesT3SteelKnuckles" value="1" phase="2"/>
+		
+		<reward type="Exp" value="200" />
+		<reward type="Quest" id="HD Bruiser PreReq 3" />
+</quest>
+	
+<quest id="HD Bruiser PreReq 3">
+	<property name="name_key" value="HD Bruiser PreReq 3" />
+	<property name="subtitle_key" value="HD Bruiser PreReq 3 Of 5" />
+	<property name="group_name_key" value="HD Bruiser PreReq" />
+	<property name="description_key" value="Time to Craft the Ultimate Helper" />
+	<property name="icon" value="ui_game_symbol_ClassBruiser3" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="FetchKeep" id="meleeWpnBladeT3MacheteParts" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="3" phase="1"/>
+		<objective type="Craft" id="meleeWpnBladeT3Machete" value="1" phase="2"/>
+		
+		<reward type="Exp" value="300" />
+		<reward type="Quest" id="HD Bruiser PreReq 4" />
+</quest>
+	
+<quest id="HD Bruiser PreReq 4">
+	<property name="name_key" value="HD Bruiser PreReq 4" />
+	<property name="subtitle_key" value="HD Bruiser PreReq 4 Of 5" />
+	<property name="group_name_key" value="HD Bruiser PreReq" />
+	<property name="description_key" value="Time to lay some building blocks to help in base creation" />
+	<property name="icon" value="ui_game_symbol_ClassBruiser4" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="resourceForgedIron" value="30" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="2" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="2" phase="1"/>
+		<objective type="Craft" id="meleeWpnSledgeT1IronSledgehammer" value="1" phase="2"/>
+		
+		<reward type="Exp" value="400" />
+		<reward type="Quest" id="HD Bruiser PreReq 5" />
+</quest>
+	
+<quest id="HD Bruiser PreReq 5">
+	<property name="name_key" value="HD Bruiser PreReq 5" />
+	<property name="subtitle_key" value="HD Bruiser PreReq 5 Of 5" />
+	<property name="group_name_key" value="HD Bruiser PreReq" />
+	<property name="description_key" value="Time to Craft some Serious Help for great results" />
+	<property name="icon" value="ui_game_symbol_ClassBruiser5" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="FetchKeep" id="meleeWpnSledgeT3SteelSledgehammerParts" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="3" phase="1"/>
+		<objective type="Craft" id="meleeWpnSledgeT3SteelSledgehammer" value="1" phase="2"/>
+		
+		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Item" id="meleeWpnSledgeT3SteelSledgehammer" value="6" />
+		<reward type="Item" id="meleeWpnSledgeT1IronSledgehammer" value="6" />
+		<reward type="Item" id="meleeWpnKnucklesT3SteelKnuckles" value="6" />
+		<reward type="Item" id="HD Machete" value="6" />
+		<reward type="Item" id="Class Bruiser VM" value="1" />
+</quest>
+
+<quest id="HD Builder PreReq 1">
+	<property name="name_key" value="HD Builder PreReq 1" />
+	<property name="subtitle_key" value="HD Builder PreReq 1 Of 5" />
+	<property name="group_name_key" value="HD Builder PreReq" />
+	<property name="description_key" value="Start collecting the various resources needed" />
+	<property name="icon" value="ui_game_symbol_ClassBuilder1" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="resourceWood" value="3000" />
+		<objective type="FetchKeep" id="resourceRockSmall" value="3000" />
+		<objective type="FetchKeep" id="resourceClayLump" value="3000" />
+		
+		<reward type="Exp" value="100" />
+		<reward type="Quest" id="HD Builder PreReq 2" />
+</quest>
+	
+<quest id="HD Builder PreReq 2">
+	<property name="name_key" value="HD Builder PreReq 2" />
+	<property name="subtitle_key" value="HD Builder PreReq 2 Of 5" />
+	<property name="group_name_key" value="HD Builder PreReq" />
+	<property name="description_key" value="Time to collect some additional resources" />
+	<property name="icon" value="ui_game_symbol_ClassBuilder2" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="FetchKeep" id="resourceScrapIron" value="3000" />
+		<objective type="FetchKeep" id="resourceIronFragment" value="1500" />
+		<objective type="FetchKeep" id="resourceForgedIron" value="20" />
+		<objective type="FetchKeep" id="resourceDuctTape" value="10" />
+		<objective type="FetchKeep" id="resourceLeather" value="10" />
+		
+		<reward type="Exp" value="200" />
+		<reward type="Quest" id="HD Builder PreReq 3" />
+</quest>
+	
+<quest id="HD Builder PreReq 3">
+	<property name="name_key" value="HD Builder PreReq 3" />
+	<property name="subtitle_key" value="HD Builder PreReq 3 Of 5" />
+	<property name="group_name_key" value="HD Builder PreReq" />
+	<property name="description_key" value="Time to Craft the Ultimate Helper" />
+	<property name="icon" value="ui_game_symbol_ClassBuilder3" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="Craft" id="HD Mini Hatchet" value="1" phase="1" />
+		<objective type="Repair" id="HD Mini Hatchet" value="1" phase="2" />
+		
+		<reward type="Exp" value="300" />
+		<reward type="Quest" id="HD Builder PreReq 4" />
+</quest>
+	
+<quest id="HD Builder PreReq 4">
+	<property name="name_key" value="HD Builder PreReq 4" />
+	<property name="subtitle_key" value="HD Builder PreReq 4 Of 5" />
+	<property name="group_name_key" value="HD Builder PreReq" />
+	<property name="description_key" value="Time to lay some building blocks to help in base creation" />
+	<property name="icon" value="ui_game_symbol_ClassBuilder4" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="Craft" id="woodFrameBlockVariantHelper" value="50" phase="1" />
+		<objective type="BlockPlace" id="woodFrameBlock" value="50" phase="2" />
+		<objective type="BlockUpgrade" id="woodFrameBlock" value="50" phase="2" />
+		<objective type="BlockUpgrade" id="woodBlock" value="50" phase="2" />
+		
+		<reward type="Exp" value="400" />
+		<reward type="Quest" id="HD Builder PreReq 5" />
+</quest>
+	
+<quest id="HD Builder PreReq 5">
+	<property name="name_key" value="HD Builder PreReq 5" />
+	<property name="subtitle_key" value="HD Builder PreReq 5 Of 5" />
+	<property name="group_name_key" value="HD Builder PreReq" />
+	<property name="description_key" value="Time to Craft some Serious Help for great results" />
+	<property name="icon" value="ui_game_symbol_ClassBuilder5" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="Craft" id="HD Auger" value="1" phase="1" />
+		<objective type="Repair" id="HD Auger" value="1" phase="2" />
+		<objective type="Craft" id="HD Chainsaw" value="1" phase="3" />
+		<objective type="Repair" id="HD Chainsaw" value="1" phase="4" />
+		
+		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Item" id="pouredConcreteBlockVariantHelper" value="1000" />
+		<reward type="Item" id="Class Builder VM" value="1" />
+</quest>
+
+<quest id="HD Engineer PreReq 1">
+	<property name="name_key" value="HD Engineer PreReq 1" />
+	<property name="subtitle_key" value="HD Engineer PreReq 1 Of 5" />
+	<property name="group_name_key" value="HD Engineer PreReq" />
+	<property name="description_key" value="Time to gather some items" />
+	<property name="icon" value="ui_game_symbol_ClassEngineer1" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="resourceElectricParts" value="200" />
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="200" />
+		<objective type="FetchKeep" id="resourceScrapPolymers" value="100" />
+		<objective type="FetchKeep" id="resourceDuctTape" value="40" />
+		<objective type="FetchKeep" id="resourceLeather" value="50" />
+		<objective type="FetchKeep" id="resourceOil" value="20" />
+		
+		<reward type="Exp" value="100" />
+		<reward type="Quest" id="HD Engineer PreReq 2" />
+</quest>
+	
+<quest id="HD Engineer PreReq 2">
+	<property name="name_key" value="HD Engineer PreReq 2" />
+	<property name="subtitle_key" value="HD Engineer PreReq 2 Of 5" />
+	<property name="group_name_key" value="HD Engineer PreReq" />
+	<property name="description_key" value="Time to craft some power" />
+	<property name="icon" value="ui_game_symbol_ClassEngineer2" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="Craft" id="generatorbank" value="1" phase="1" />
+		<objective type="BlockPlace" id="generatorbank" value="1" phase="2" />
+		
+		<reward type="Exp" value="200" />
+		<reward type="Quest" id="HD Engineer PreReq 3" />
+</quest>
+	
+<quest id="HD Engineer PreReq 3">
+	<property name="name_key" value="HD Engineer PreReq 3" />
+	<property name="subtitle_key" value="HD Engineer PreReq 3 Of 5" />
+	<property name="group_name_key" value="HD Engineer PreReq" />
+	<property name="description_key" value="Time to Craft some additional power" />
+	<property name="icon" value="ui_game_symbol_ClassEngineer3" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="Craft" id="batterybank" value="1" phase="1" />
+		<objective type="BlockPlace" id="batterybank" value="1" phase="2" />
+		
+		<reward type="Exp" value="300" />
+		<reward type="Quest" id="HD Engineer PreReq 4" />
+</quest>
+	
+<quest id="HD Engineer PreReq 4">
+	<property name="name_key" value="HD Engineer PreReq 4" />
+	<property name="subtitle_key" value="HD Engineer PreReq 4 Of 5" />
+	<property name="group_name_key" value="HD Engineer PreReq" />
+	<property name="description_key" value="Time to craft some needed tools" />
+	<property name="icon" value="ui_game_symbol_ClassEngineer4" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="Craft" id="meleeToolWireTool" value="1" phase="1" />
+		<objective type="Craft" id="electricwirerelay" value="1" phase="1" />
+		<objective type="BlockPlace" id="electricwirerelay" value="1" phase="2" />
+		
+		<reward type="Exp" value="400" />
+		<reward type="Quest" id="HD Engineer PreReq 5" />
+</quest>
+	
+<quest id="HD Engineer PreReq 5">
+	<property name="name_key" value="HD Engineer PreReq 5" />
+	<property name="subtitle_key" value="HD Engineer PreReq 5 Of 5" />
+	<property name="group_name_key" value="HD Engineer PreReq" />
+	<property name="description_key" value="Time to Craft the ONLY power youll ever need" />
+	<property name="icon" value="ui_game_symbol_ClassEngineer5" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="Craft" id="HD Generator" value="1" phase="1" />
+		<objective type="Craft" id="HD Cell" value="6" phase="1" />
+		<objective type="BlockPlace" id="HD Generator" value="1" phase="2" />
+		
+		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Item" id="HDBreachingC4" value="20" />
+		<reward type="Item" id="HD Ground Mine" value="20" />
+		<reward type="Item" id="HD Blade Trap" value="5" />
+		<reward type="Item" id="HD Dart Trap" value="5" />
+		<reward type="Item" id="Class Engineer VM" value="1" />
+</quest>
+
+<quest id="HD Farmer PreReq 1">
+	<property name="name_key" value="HD Farmer PreReq 1" />
+	<property name="subtitle_key" value="HD Farmer PreReq 1 Of 5" />
+	<property name="group_name_key" value="HD Farmer PreReq" />
+	<property name="description_key" value="Start collecting the various resources needed" />
+	<property name="icon" value="ui_game_symbol_ClassFarmer1" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="resourceWood" value="100" phase="1" />
+		<objective type="FetchKeep" id="foodRottingFlesh" value="200" phase="1" />
+		<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="500" phase="1" />
+		<objective type="FetchKeep" id="resourceClayLump" value="2000" phase="1" />
+		
+		<reward type="Exp" value="100" />
+		<reward type="Quest" id="HD Farmer PreReq 2" />
+</quest>
+	
+<quest id="HD Farmer PreReq 2">
+	<property name="name_key" value="HD Farmer PreReq 2" />
+	<property name="subtitle_key" value="HD Farmer PreReq 2 Of 5" />
+	<property name="group_name_key" value="HD Farmer PreReq" />
+	<property name="description_key" value="Time to collect some crops" />
+	<property name="icon" value="ui_game_symbol_ClassFarmer2" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="FetchKeep" id="resourceCropGoldenrodPlant" value="25" />
+		<objective type="FetchKeep" id="resourceCropChrysanthemumPlant" value="25" />
+		<objective type="FetchKeep" id="foodCropCorn" value="25" />
+		
+		<reward type="Exp" value="200" />
+		<reward type="Quest" id="HD Farmer PreReq 3" />
+</quest>
+	
+<quest id="HD Farmer PreReq 3">
+	<property name="name_key" value="HD Farmer PreReq 3" />
+	<property name="subtitle_key" value="HD Farmer PreReq 3 Of 5" />
+	<property name="group_name_key" value="HD Farmer PreReq" />
+	<property name="description_key" value="Time to collect more crops" />
+	<property name="icon" value="ui_game_symbol_ClassFarmer3" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="FetchKeep" id="foodCropPotato" value="25" />
+		<objective type="FetchKeep" id="foodCropBlueberries" value="25" />
+		<objective type="FetchKeep" id="resourceCropCoffeeBeans" value="25" />
+		
+		<reward type="Exp" value="300" />
+		<reward type="Quest" id="HD Farmer PreReq 4" />
+</quest>
+	
+<quest id="HD Farmer PreReq 4">
+	<property name="name_key" value="HD Farmer PreReq 4" />
+	<property name="subtitle_key" value="HD Farmer PreReq 4 Of 5" />
+	<property name="group_name_key" value="HD Farmer PreReq" />
+	<property name="description_key" value="Time to craft some farm plots" />
+	<property name="icon" value="ui_game_symbol_ClassFarmer4" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="Craft" id="farmPlotBlockPlayer" value="20" phase="1" />
+		<objective type="BlockPlace" id="farmPlotBlockPlayer" value="20" phase="2" />
+		
+		<reward type="Exp" value="400" />
+		<reward type="Quest" id="HD Farmer PreReq 5" />
+</quest>
+	
+<quest id="HD Farmer PreReq 5">
+	<property name="name_key" value="HD Farmer PreReq 5" />
+	<property name="subtitle_key" value="HD Farmer PreReq 5 Of 5" />
+	<property name="group_name_key" value="HD Farmer PreReq" />
+	<property name="description_key" value="Time to grow your hard labour" />
+	<property name="icon" value="ui_game_symbol_ClassFarmer5" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="BlockPlace" id="plantedGoldenrod1" value="3" />
+		<objective type="BlockPlace" id="plantedChrysanthemum1" value="3" />
+		<objective type="BlockPlace" id="plantedCorn1" value="3" />
+		<objective type="BlockPlace" id="plantedPotato1" value="3" />
+		<objective type="BlockPlace" id="plantedBlueberry1" value="3" />
+		<objective type="BlockPlace" id="plantedCoffee1" value="3" />
+		
+		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Item" id="HD Spas 12 USA" value="6" />
+		<reward type="Item" id="Class Farmer VM" value="1" />
+</quest>
+
+<quest id="HD Gunman PreReq 1">
+	<property name="name_key" value="HD Gunman PreReq 1" />
+	<property name="subtitle_key" value="HD Gunman PreReq 1 Of 5" />
+	<property name="group_name_key" value="HD Gunman PreReq" />
+	<property name="description_key" value="Time to kill some animals for their resources" />
+	<property name="icon" value="ui_game_symbol_ClassGunman1" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="AnimalKill" value="40" />
+		
+		<reward type="Exp" value="100" />
+		<reward type="Quest" id="HD Gunman PreReq 2" />
+</quest>
+	
+<quest id="HD Gunman PreReq 2">
+	<property name="name_key" value="HD Gunman PreReq 2" />
+	<property name="subtitle_key" value="HD Gunman PreReq 2 Of 5" />
+	<property name="group_name_key" value="HD Gunman PreReq" />
+	<property name="description_key" value="Time to get it on with the Z's" />
+	<property name="icon" value="ui_game_symbol_ClassGunman2" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="ZombieKill" value="50" />
+		<requirement type="Group" id="requirementGroupHDPistols" value="OR">
+			<requirement type="Holding" id="HDGlock18Auto" />
+			<requirement type="Holding" id="HD Colt M1911" />
+			<requirement type="Holding" id="HD Colt M1911A" />
+			<requirement type="Holding" id="HD Desert Eagle" />
+			<requirement type="Holding" id="HD Desert Eagle Punisher" />
+		</requirement>
+		
+		<reward type="Exp" value="200" />
+		<reward type="Quest" id="HD Gunman PreReq 3" />
+</quest>
+	
+<quest id="HD Gunman PreReq 3">
+	<property name="name_key" value="HD Gunman PreReq 3" />
+	<property name="subtitle_key" value="HD Gunman PreReq 3 Of 5" />
+	<property name="group_name_key" value="HD Gunman PreReq" />
+	<property name="description_key" value="WTF More Z killin" />
+	<property name="icon" value="ui_game_symbol_ClassGunman3" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="ZombieKill" value="60" />
+		<requirement type="Group" id="requirementGroupHDShotguns" value="OR">
+			<requirement type="Holding" id="HD Double Barrel" />
+			<requirement type="Holding" id="HD Mossberg 500" />
+			<requirement type="Holding" id="HD Spas 12" />
+			<requirement type="Holding" id="HD Spas 12 Street" />
+			<requirement type="Holding" id="HD Spas 12 USA" />
+			<requirement type="Holding" id="HD Spas 12 Alien" />
+			<requirement type="Holding" id="HD Spas 12 Irish" />
+		</requirement>
+		
+		<reward type="Exp" value="300" />
+		<reward type="Quest" id="HD Gunman PreReq 4" />
+</quest>
+	
+<quest id="HD Gunman PreReq 4">
+	<property name="name_key" value="HD Gunman PreReq 4" />
+	<property name="subtitle_key" value="HD Gunman PreReq 4 Of 5" />
+	<property name="group_name_key" value="HD Gunman PreReq" />
+	<property name="description_key" value="Even MORE Z Killin" />
+	<property name="icon" value="ui_game_symbol_ClassGunman4" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="ZombieKill" value="70" />
+		<requirement type="Group" id="requirementGroupHDAutoRifles" value="OR">
+			<requirement type="Holding" id="HD HK33 Hybrid" />
+			<requirement type="Holding" id="HD AK Hybrid ACP" />
+			<requirement type="Holding" id="HD M4A1 Carbine" />
+			<requirement type="Holding" id="HD Tactical AR" />
+		</requirement>
+		
+		<reward type="Exp" value="400" />
+		<reward type="Quest" id="HD Gunman PreReq 5" />
+</quest>
+	
+<quest id="HD Gunman PreReq 5">
+	<property name="name_key" value="HD Gunman PreReq 5" />
+	<property name="subtitle_key" value="HD Gunman PreReq 5 Of 5" />
+	<property name="group_name_key" value="HD Gunman PreReq" />
+	<property name="description_key" value="Take Em Out with the Big Guns" />
+	<property name="icon" value="ui_game_symbol_ClassGunman5" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="ZombieKill" value="80" />
+		<requirement type="Group" id="requirementGroupHDSniperRifles" value="OR">
+			<requirement type="Holding" id="HD Arctic Warfare" />
+			<requirement type="Holding" id="HD CheyTac M300" />
+			<requirement type="Holding" id="HD Dragunov SVD" />
+			<requirement type="Holding" id="HD Winchester 1866" />
+			<requirement type="Holding" id="HD Karabiner 98k" />
+		</requirement>
+		
+		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Item" id="HD Dragunov SVD" value="6" />
+		<reward type="Item" id="HDDragunovSVDScope" value="1" />
+		<reward type="Item" id="HDDragunovSVDSilencer" value="1" />
+		<reward type="Item" id="Class Gunman VM" value="1" />
+</quest>
+
+<quest id="HD Mechanic PreReq 1">
+	<property name="name_key" value="HD Mechanic PreReq 1" />
+	<property name="subtitle_key" value="HD Mechanic PreReq 1 Of 5" />
+	<property name="group_name_key" value="HD Mechanic PreReq" />
+	<property name="description_key" value="Start collecting the various resources needed" />
+	<property name="icon" value="ui_game_symbol_Mechanic1" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="resourceSpring" value="50" />
+		<objective type="FetchKeep" id="resourceForgedSteel" value="250" />
+		<objective type="FetchKeep" id="resourceOil" value="100" />
+		<objective type="FetchKeep" id="resourceForgedIron" value="500" />
+		<objective type="FetchKeep" id="resourceDuctTape" value="100" />
+		<objective type="FetchKeep" id="resourceLeather" value="200" />
+		
+		<reward type="Exp" value="100" />
+		<reward type="Quest" id="HD Mechanic PreReq 2" />
+</quest>
+	
+<quest id="HD Mechanic PreReq 2">
+	<property name="name_key" value="HD Mechanic PreReq 2" />
+	<property name="subtitle_key" value="HD Mechanic PreReq 2 Of 5" />
+	<property name="group_name_key" value="HD Mechanic PreReq" />
+	<property name="description_key" value="Time to collect some additional resources" />
+	<property name="icon" value="ui_game_symbol_Mechanic2" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="Craft" id="vehicleBicycleChassis" value="1" phase="1" />
+		<objective type="Craft" id="vehicleBicycleHandlebars" value="1" phase="1" />
+		<objective type="Craft" id="vehicleBicyclePlaceable" value="1" phase="2" />
+		
+		<reward type="Exp" value="200" />
+		<reward type="Quest" id="HD Mechanic PreReq 3" />
+</quest>
+	
+<quest id="HD Mechanic PreReq 3">
+	<property name="name_key" value="HD Mechanic PreReq 3" />
+	<property name="subtitle_key" value="HD Mechanic PreReq 3 Of 5" />
+	<property name="group_name_key" value="HD Mechanic PreReq" />
+	<property name="description_key" value="Time to Craft the Ultimate Helper" />
+	<property name="icon" value="ui_game_symbol_Mechanic3" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="Craft" id="vehicleMinibikeChassis" value="1" phase="1" />
+		<objective type="Craft" id="vehicleMinibikeHandlebars" value="1" phase="1" />
+		<objective type="Craft" id="vehicleMinibikePlaceable" value="1" phase="2" />
+		
+		<reward type="Exp" value="300" />
+		<reward type="Quest" id="HD Mechanic PreReq 4" />
+</quest>
+	
+<quest id="HD Mechanic PreReq 4">
+	<property name="name_key" value="HD Mechanic PreReq 4" />
+	<property name="subtitle_key" value="HD Mechanic PreReq 4 Of 5" />
+	<property name="group_name_key" value="HD Mechanic PreReq" />
+	<property name="description_key" value="Time to lay some building blocks to help in base creation" />
+	<property name="icon" value="ui_game_symbol_Mechanic4" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="Craft" id="vehicleMotorcycleChassis" value="1" phase="1" />
+		<objective type="Craft" id="vehicleMotorcycleHandlebars" value="1" phase="1" />
+		<objective type="Craft" id="vehicleMotorcyclePlaceable" value="1" phase="2" />
+		
+		<reward type="Exp" value="400" />
+		<reward type="Quest" id="HD Mechanic PreReq 5" />
+</quest>
+	
+<quest id="HD Mechanic PreReq 5">
+	<property name="name_key" value="HD Mechanic PreReq 5" />
+	<property name="subtitle_key" value="HD Mechanic PreReq 5 Of 5" />
+	<property name="group_name_key" value="HD Mechanic PreReq" />
+	<property name="description_key" value="Time to Craft some Serious Help for great results" />
+	<property name="icon" value="ui_game_symbol_Mechanic5" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="Craft" id="vehicle4x4TruckChassis" value="1" phase="1" />
+		<objective type="Craft" id="vehicle4x4TruckAccessories" value="1" phase="1" />
+		<objective type="Craft" id="vehicle4x4TruckPlaceable" value="1" phase="2" />
+		
+		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Item" id="HD Impact Wrench" value="6" />
+		<reward type="Item" id="Class Mechanic VM" value="1" />
+</quest>
+
+<quest id="HD Medic PreReq 1">
+	<property name="name_key" value="HD Medic PreReq 1" />
+	<property name="subtitle_key" value="HD Medic PreReq 1 Of 5" />
+	<property name="group_name_key" value="HD Medic PreReq" />
+	<property name="description_key" value="Being able to Heal is Important So time to gather what you need" />
+	<property name="icon" value="ui_game_symbol_Medic1" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+
+		<objective type="FetchKeep" id="resourceDuctTape" value="5" phase="1" />
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1" />
+		<objective type="FetchKeep" id="resourceCloth" value="10" phase="1" />
+		<objective type="Craft" id="medicalSplint" value="5" phase="2" />
+		
+		<reward type="Exp" value="100" />
+		<reward type="Quest" id="HD Medic PreReq 2" />
+</quest>
+	
+<quest id="HD Medic PreReq 2">
+	<property name="name_key" value="HD Medic PreReq 2" />
+	<property name="subtitle_key" value="HD Medic PreReq 2 Of 5" />
+	<property name="group_name_key" value="HD Medic PreReq" />
+	<property name="description_key" value="Time to collect some additional resources" />
+	<property name="icon" value="ui_game_symbol_Medic2" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="FetchKeep" id="medicalAloeCream" value="5" phase="1" />
+		<objective type="FetchKeep" id="resourceCloth" value="20" phase="1" />
+		<objective type="Craft" id="medicalBandage" value="5" phase="2" />
+		<objective type="Craft" id="medicalFirstAidBandage" value="5" phase="2" />
+		
+		<reward type="Exp" value="200" />
+		<reward type="Quest" id="HD Medic PreReq 3" />
+</quest>
+	
+<quest id="HD Medic PreReq 3">
+	<property name="name_key" value="HD Medic PreReq 3" />
+	<property name="subtitle_key" value="HD Medic PreReq 3 Of 5" />
+	<property name="group_name_key" value="HD Medic PreReq" />
+	<property name="description_key" value="Time to Craft the Ultimate Helper" />
+	<property name="icon" value="ui_game_symbol_Medic3" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+	
+		<objective type="FetchKeep" id="resourceCrushedSand" value="50" phase="1" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="1" />
+		<objective type="FetchKeep" id="resourceCloth" value="10" phase="1" />
+		<objective type="FetchKeep" id="drinkJarRiverWater" value="5" phase="1" />
+		<objective type="Craft" id="medicalPlasterCast" value="5" phase="2" />
+		
+		<reward type="Exp" value="300" />
+		<reward type="Quest" id="HD Medic PreReq 4" />
+</quest>
+	
+<quest id="HD Medic PreReq 4">
+	<property name="name_key" value="HD Medic PreReq 4" />
+	<property name="subtitle_key" value="HD Medic PreReq 4 Of 5" />
+	<property name="group_name_key" value="HD Medic PreReq" />
+	<property name="description_key" value="Time to lay some building blocks to help in base creation" />
+	<property name="icon" value="ui_game_symbol_Medic4" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="medicalBloodBag" value="5" phase="1" />
+		<objective type="FetchKeep" id="drinkJarGrainAlcohol" value="5" phase="1" />
+		<objective type="FetchKeep" id="medicalBandage" value="5" phase="1" />
+		<objective type="FetchKeep" id="resourceSewingKit" value="5" phase="1" />
+		<objective type="Craft" id="medicalFirstAidKit" value="5" phase="2" />
+		
+		<reward type="Exp" value="400" />
+		<reward type="Quest" id="HD Medic PreReq 5" />
+</quest>
+	
+<quest id="HD Medic PreReq 5">
+	<property name="name_key" value="HD Medic PreReq 5" />
+	<property name="subtitle_key" value="HD Medic PreReq 5 Of 5" />
+	<property name="group_name_key" value="HD Medic PreReq" />
+	<property name="description_key" value="Time to Craft some Serious Help for great results" />
+	<property name="icon" value="ui_game_symbol_Medic5" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="medicalBloodBag" value="5" phase="1" />
+		<objective type="FetchKeep" id="drinkJarGrainAlcohol" value="5" phase="1" />
+		<objective type="FetchKeep" id="medicalFirstAidKit" value="5" phase="1" />
+		<objective type="Craft" id="HD First Aid Kit" value="5" phase="2" />
+		
+		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Item" id="HD Bollock Rot Injection" value="2" />
+		<reward type="Item" id="HD Bird Flu Injection" value="2" />
+		<reward type="Item" id="HD Brain Herpes Injection" value="2" />
+		<reward type="Item" id="HD MRSA Injection" value="2" />
+		<reward type="Item" id="Class Medic VM" value="1" />
+</quest>
+
+<quest id="HD Cook PreReq 1">
+	<property name="name_key" value="HD Cook PreReq 1" />
+	<property name="subtitle_key" value="HD Cook PreReq 1 Of 5" />
+	<property name="group_name_key" value="HD Cook PreReq 1" />
+	<property name="description_key" value="Time for you to show off your Cooking Skillz." />
+	<property name="icon" value="ui_game_symbol_Cook1" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+
+		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodShamSandwich" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="1" />
+		<objective type="FetchKeep" id="drinkJarBeer" value="5" phase="1" />
+		
+		<objective type="Craft" id="Camoes Bifana" value="5" phase="2" />
+		
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="3" />
+		<objective type="FetchKeep" id="resourceAnimalFat" value="20" phase="3" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodCanChili" value="5" phase="3" />
+		
+		<objective type="Craft" id="Naoyans Yakitori" value="5" phase="4" />
+		
+		<reward type="Exp" value="100" />
+		<reward type="Quest" id="HD Cook PreReq 2" />
+</quest>
+
+<quest id="HD Cook PreReq 2">
+	<property name="name_key" value="HD Cook PreReq 2" />
+	<property name="subtitle_key" value="HD Cook PreReq 2 Of 5" />
+	<property name="group_name_key" value="HD Cook PreReq 2" />
+	<property name="description_key" value="Time for you to Cook some Warm Chunky Beef which also cures Infection" />
+	<property name="icon" value="ui_game_symbol_Cook2" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+
+		<objective type="FetchKeep" id="foodCanStock" value="5" phase="1" />
+		<objective type="FetchKeep" id="foodCropMushrooms" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCropPotato" value="10" phase="1" />
+		
+		<objective type="Craft" id="Ralifs Borscht" value="5" phase="2" />
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodEgg" value="10" phase="3" />
+		
+		<objective type="Craft" id="AaronRockst4rs Fritos And Eggs" value="5" phase="4" />
+		
+		<reward type="Exp" value="200" />
+		<reward type="Quest" id="HD Cook PreReq 3" />
+</quest>
+
+<quest id="HD Cook PreReq 3">
+	<property name="name_key" value="HD Cook PreReq 3" />
+	<property name="subtitle_key" value="HD Cook PreReq 3 Of 5" />
+	<property name="group_name_key" value="HD Cook PreReq 3" />
+	<property name="description_key" value="Time for you to Cook some Warm Chunky Lamb which also cures Infection" />
+	<property name="icon" value="ui_game_symbol_Cook3" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCropPotato" value="10" phase="1" />
+		
+		<objective type="Craft" id="klausgamer14s Beef steak And Fries" value="5" phase="2" />
+		
+		<objective type="FetchKeep" id="foodCanPears" value="5" phase="3" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodHoney" value="5" phase="3" />
+		<objective type="FetchKeep" id="foodEgg" value="20" phase="3" />
+		
+		<objective type="Craft" id="Possums Pavlova" value="5" phase="4" />
+		
+		<reward type="Exp" value="300" />
+		<reward type="Quest" id="HD Cook PreReq 4" />
+</quest>
+
+<quest id="HD Cook PreReq 4">
+	<property name="name_key" value="HD Cook PreReq 4" />
+	<property name="subtitle_key" value="HD Cook PreReq 4 Of 5" />
+	<property name="group_name_key" value="HD Cook PreReq 4" />
+	<property name="description_key" value="Time for you to Cook some Warm Chunky Sirloin which also cures Infection" />
+	<property name="icon" value="ui_game_symbol_Cook4" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+
+		<objective type="FetchKeep" id="foodCanChili" value="5" phase="1" />
+		<objective type="FetchKeep" id="foodRawMeat" value="20" phase="1" />
+		<objective type="FetchKeep" id="foodCornMeal" value="10" phase="1" />
+		
+		<objective type="Craft" id="QueenOfScreamz8s Chili Burrito" value="5" phase="2" />
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="20" phase="3" />
+		<objective type="FetchKeep" id="foodCanChili" value="5" phase="3" />
+		<objective type="FetchKeep" id="foodRawMeat" value="25" phase="3" />
+		
+		<objective type="Craft" id="Papas Bare Back Ribs" value="5" phase="4" />
+		
+		<reward type="Exp" value="400" />
+		<reward type="Quest" id="HD Cook PreReq 5" />
+</quest>
+
+<quest id="HD Cook PreReq 5">
+	<property name="name_key" value="HD Cook PreReq 5" />
+	<property name="subtitle_key" value="HD Cook PreReq 5 Of 5" />
+	<property name="group_name_key" value="HD Cook PreReq 5" />
+	<property name="description_key" value="Time for you to Cook some Warm Chunky Meat And Mash which also cures Infection" />
+	<property name="icon" value="ui_game_symbol_Cook5" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="FetchKeep" id="resourceAnimalFat" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodShamSandwich" value="10" phase="1" />
+		<objective type="FetchKeep" id="foodRawMeat" value="10" phase="1" />
+		
+		<objective type="Craft" id="FaxFoxs Furr Burger" value="5" phase="2" />
+		
+		<objective type="FetchKeep" id="resourceBone" value="25" phase="3" />
+		<objective type="FetchKeep" id="foodCanSham" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodCanStock" value="10" phase="3" />
+		<objective type="FetchKeep" id="foodCanTuna" value="10" phase="3" />
+		
+		<objective type="Craft" id="Donnas Fubar Stew" value="5" phase="4" />
+		
+		<reward type="Exp" value="1000" />
+		<reward type="SkillPoints" value="1" />
+		<reward type="Item" id="Warm Chunky ChiliDog" value="5" />
+		<reward type="Item" id="Warm Chunky Steak And Potato" value="5" />
+		<reward type="Item" id="Warm Chunky Hobo Stew" value="5" />
+		<reward type="Item" id="HD Meat Hammer" value="6" />
+		<reward type="Item" id="HD Meat Cleaver" value="6" />
+		<reward type="Item" id="Class Cook VM" value="1" />
+</quest>
+
+<quest id="War3zuk Quest 01">
+		<property name="group_name" value="quest_ToolsOfCitizenship" />
+		<property name="offer" value="Blessed with the chance to Fight with the famous Machete You Hold your Old one in your Hand And You Fight, Take out the Zombies." />
+		<property name="name" value="Prove Your Worthy To Danny" />
+		<property name="subtitle_key" value="Kill Zombies" />
+		<property name="description_key" value="Blessed with the chance to Fight with the famous Machete You Hold your Old one in your Hand And You Fight, Take out the Zombies." />
+		<property name="icon" value="ui_game_symbol_zombie" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="insane" />
+		<property name="shareable" value="false" />
+		<property name="repeatable" value="false" />
+		<property name="completiontype" value="TurnIn"/>
+
+		<objective type="RandomGoto" value="500-800" phase="1">
+			<property name="completion_distance" value="50"/>
+			<property name="nav_object" value="quest" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="start_mode" value="Create"/>
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally" />
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieUtilityWorker" value="10" phase="3" />
+		<objective type="ZombieKill" id="zombieUtilityWorker" value="5" phase="3" />
+		<requirement type="Holding" id="meleeWpnBladeT3Machete" phase="3" />
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="4"/>
+		</objective>
+
+		<reward type="Exp" value="500" />
+		<reward type="Item" id="HD Machete" value="6" />
+</quest>
+
+	<quest id="War3zuk Quest 02">
+		<property name="name_key" value="War3zuk Quest 02"/>
+		<property name="subtitle_key" value="War3zuk Quest 02"/>
+		<property name="description_key" value="This is your oppertunity to see how you handle 10 Dogs And 10 Boars."/>
+		<property name="icon" value="ui_game_symbol_zombie"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="challenge"/>
+		<property name="offer_key" value="This is your oppertunity to see how you handle 10 Dogs And 10 Boars."/>
+		<property name="difficulty" value="medium"/>
+		<property name="completiontype" value="TurnIn"/>
+
+		<objective type="RandomGoto" value="200-400" phase="1">
+			<property name="completion_distance" value="50"/>
+			<property name="nav_object" value="quest" />
+		</objective>
+
+		<objective type="RallyPoint">
+			<property name="start_mode" value="Create"/>
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="rally" />
+		</objective>
+
+		<action type="SpawnEnemy" id="animalZombieDog" value="8" phase="3" />
+		<objective type="ZombieKill" id="animalZombieDog" value="4" phase="3" />
+		<action type="SpawnEnemy" id="GiantBoar" value="8" phase="4" />
+		<objective type="AnimalKill" id="GiantBoar" value="4" phase="4" />
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="5"/>
+		</objective>
+
+		<reward type="Exp" value="500" />
+		<reward type="Item" id="casinoCoin" value="1000"/>
+		<reward type="Item" id="armorLeatherChest" value="6" />
+		<reward type="Item" id="armorLeatherGloves" value="6" />
+		<reward type="Item" id="armorLeatherPants" value="6" />
+		<reward type="Item" id="armorLeatherBoots" value="6" />
+		<reward type="Item" id="armorLeatherHood" value="6" />
+	</quest>
+	
+	<quest id="Find The Trader">
+		<property name="group_name_key" value="quest_next_trader"/>
+		<property name="name_key" value="quest_next_trader"/>
+		<property name="subtitle_key" value="Youve found a New Trader"/>
+		<property name="description_key" value="Youve found a New Trader"/>
+		<property name="icon" value="ui_game_symbol_map_trader"/>
+		<property name="category_key" value="quest"/>
+		<property name="shareable" value="false"/>
+		<property name="repeatable" value="true"/>
+		<property name="difficulty" value="easy"/>
+		<property name="difficulty_tier" value="1"/>
+
+		<property name="unique_key" value="traderquest" />
+
+		<property name="offer_key" value="quest_next_trader_offer"/>
+		<property name="statement_key" value="quest_next_trader_statement"/>
+		<property name="response_key" value="quest_next_trader_response"/>
+
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_next_trader_completion"/>
+
+		<property name="return_to_quest_giver" value="false" />
+
+		<property name="quest_type" value="special" />
+
+		<objective type="Goto" id="trader" value="5" phase="1">
+			<property name="nav_object" value="go_to_trader" />
+			<property name="biome_filter_type" value="ExcludeBiome" />
+			<property name="biome_filter" value="wasteland" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+			<property name="use_closest" value="true" />
+		</objective>
+
+		<reward type="Exp" value="50"/>
+	</quest>
+
+</insertBefore>
+
+<insertBefore xpath="/quests/quest[@id='test_sleepers']" >
+	
+<quest id="tier1_buried_supplies">
+		<property name="name_key" value="Tier 1 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 1 Buried Supplies"/>
+		<property name="description_key" value="Tier 1 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="Camoes Gamer And his Gang of Cut Throat Thirsty Bastards have run off with my Porn Stash. Track them down. Kill them all And bring back my Shit"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="1"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="100-200"/>
+			<property name="default_radius" value="20"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="4" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieArlene,zombieMarlene,zombieMarlene,zombieWightFeral,zombiePhantasm,zombieMoe,zombieFemaleFat" value="3-5" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="1000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+	
+<quest id="tier2_buried_supplies">
+		<property name="name_key" value="Tier 2 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 2 Buried Supplies"/>
+		<property name="description_key" value="Tier 2 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="Nuklehed Has done it again. Shes stole all the Backup Grub. Go get my Stuff And if you see her Crew Fuck Them Up"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="2"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="200-300"/>
+			<property name="default_radius" value="20"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="4" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieArlene,zombieBoeFeral,zombieMarlene,zombieWightFeral,zombieJoe,zombiePhantasm,zombieFemaleFatFeral" value="4-6" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="2000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+	
+<quest id="tier3_buried_supplies">
+		<property name="name_key" value="Tier 3 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 3 Buried Supplies"/>
+		<property name="description_key" value="Tier 3 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="Mrs Spartan has knicked off with Mr Spartans Stoggy Stash. The finest Cigars on this heavenly Earth. Get them back at ANY cost"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="3"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="300-400"/>
+			<property name="default_radius" value="20"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="4" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieMarlene,zombieWightFeral,zombiePhantasm,zombieMoe,zombieFemaleFatFeral" value="5-7" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="3000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+
+<quest id="tier4_buried_supplies">
+		<property name="name_key" value="Tier 4 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 4 Buried Supplies"/>
+		<property name="description_key" value="Tier 4 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="That Varment Coach Life has Killed all my Chickens. Go find my Spare box of Chicks. If you see him kill him"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="4"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="400-500"/>
+			<property name="default_radius" value="20"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="4" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieScreamerRadiated,zombieWightFeral,zombiePhantasmFire,GiantDemolisher,zombieFemaleFatFeral" value="6-8" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="4000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+
+<quest id="tier5_buried_supplies">
+		<property name="name_key" value="Tier 5 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 5 Buried Supplies"/>
+		<property name="description_key" value="Tier 5 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="Hes Stole My Wife. If you see that MoFo The Lovin One Fuck him up Proper And Bring back any stash he has"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="5"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="500-600"/>
+			<property name="default_radius" value="20"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="6" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="zombieLabRadiated,zombieBoeFeral,zombieScreamerRadiated,zombieWightFeral,zombieDarleneFeral,zombiePhantasmFire,zombieFemaleFatFeral" value="7-9" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="5000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+
+<quest id="tier6_buried_supplies">
+		<property name="name_key" value="Tier 6 Buried Supplies"/>
+		<property name="subtitle_key" value="Tier 6 Buried Supplies"/>
+		<property name="description_key" value="Tier 6 Buried Supplies"/>
+		<property name="icon" value="ui_game_symbol_treasure"/>
+		<property name="repeatable" value="true"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="War3zuk And the Misses Nauti Angel were enjoying Nookie Time when Our Moment was shattered By The Cultured Goon And his Croonies. Kill them all And take Their Shit"/>
+		<property name="difficulty" value="medium"/>
+		<property name="difficulty_tier" value="6"/>
+		<property name="statement_key" value="quest_buried_supplies_statement"/>
+		<property name="response_key" value="quest_buried_supplies_response"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_buried_supplies_completion"/>
+		<property name="shareable" value="true"/>
+
+		<objective type="TreasureChest">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="distance" value="600-800"/>
+			<property name="default_radius" value="20"/>
+			<property name="container_type" value="Supplies"/>
+			<property name="nav_object" value="treasure" />
+			<property name="direct_nav_object" value="treasure_direct" />
+			<property name="blocks_per_reduction" value="6" />
+			<property name="radius_reduction_sound" value="ui_radius_shrink" />
+		</objective>
+
+		<objective type="FetchFromTreasure">
+			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="quest_item_ID" value="1"/>
+			<property name="item_count" value="1"/>
+		</objective>
+
+		<action type="SpawnEnemy" id="GiantUndeadHoundRad,zombieBoeFeral,GiantDemolisher,zombieWightFeral,GiantDemolisherFire,zombiePhantasmFire,GiantDemolisherRad" value="8-10" phase="2"/>
+
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader" />
+		</objective>
+
+		<reward type="Exp" value="10000"/>
+		<reward type="Item" id="casinoCoin" value="500"/>
+
+		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
+		<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+</quest>
+	
+</insertBefore>
+</configs>

@@ -1,0 +1,495 @@
+<configs> <!--  Thanks To Xipher7934 For His Original HealthBar Code  -->
+	
+	<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
+	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">105</set>
+	
+<append xpath="/buffs">
+	
+	<buff name="HDNukeExp">
+		<damage_type value="disease"/>
+		<stack_type value="replace"/>
+		<duration value="9"/>
+		<update_rate value="0.5"/>
+		<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HDNukeExp.unity3d?HDNukeExp" />
+				<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HDNukeExp.unity3d?HDNukeExp" />
+				<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="" />
+				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="HDNukeExp"/>
+				<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="HDNukeExp"/>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,1,2" value="25,40,55"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHDFirstAidKit" name_key="HDFirstAidKit" description_key="Your 1st Aid Kit has healed YOU !!" icon="ui_game_symbol_pills">
+		<stack_type value="replace"/>
+		<duration value="0"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="80"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffTeslaShocked" description_key="buffShockedDesc" tooltip_key="buffShockedTooltip" icon="ui_game_symbol_electric_power" name_key="buffShockedName" icon_color="255,0,0">
+		<damage_type value="electrical"/>
+		<stack_type value="replace"/>
+		<duration value="5"/>
+		<effect_group>
+			<passive_effect name="HealthChangeOT" operation="base_add" value="-30"/>
+			<passive_effect name="RunSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+			<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+			<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+			<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffShocked">
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="0,0.60,0"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="0,0.60,0"/>
+
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+
+			<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="ETrapHit" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="electric_fence_impact"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="electric_fence_impact"/>
+			<triggered_effect trigger="onSelfLeaveGame" action="StopSound" sound="electric_fence_impact"/>
+		</effect_group>
+	</buff>
+	
+<buff name="BUFFStormFall" name_key="StormFall" description_key="Yum StormFall Monster Cola! Recover quicker, Increased Melee Damage, Also restores some stamina And some Health. Your Max Run Speed has also been Buffed use it wisely haha!" icon="ui_game_symbol_StormFall">
+	<stack_type value="replace"/>
+	<display_value value=".buffDrugSteroidsDisplay"/>
+	<display_value_format value="time"/>
+	<duration value="260"/>
+	<effect_group>
+		<passive_effect name="RunSpeed" operation="perc_add" value=".4"/>
+		<passive_effect name="WaterChangeOT" operation="base_subtract" value="0.10"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.30">
+			<requirement name="NotHasBuff" buff="buffHealWaterMax"/>
+		</passive_effect>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value="0.30">
+			<requirement name="HasBuff" buff="buffHealWaterMax"/>
+		</passive_effect>
+		<passive_effect name="EntityDamage" operation="perc_add" value="5">
+			<requirement name="HoldingItemHasTags" tags="fists,melee" />
+		</passive_effect>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="20"/>
+	</effect_group>
+</buff>
+	
+<buff name="buffMREInfectionAddCure" name_key="buff Infection Add Cure" hidden="true" icon="ui_game_symbol_pills">
+	<stack_type value="ignore"/>
+	<duration value=".1"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="multiply" value="@$infectionMaxDuration"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="divide" value="300"/>
+
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$infectionCureCounter" operation="add" value="@$buffInfectionAddCurePerc"/>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffInfectionAddCurePerc" operation="set" value="0"/>
+
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$infectionCureCounter" operation="set" value="@$infectionMaxDuration">
+			<requirement name="CVarCompare" cvar="$infectionCureCounter" operation="GT" value="@$infectionMaxDuration"/>
+		</triggered_effect>
+		<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffInfectionMain"/>
+	</effect_group>
+</buff>
+	
+<buff name="buffBandolier" hidden="true">
+	<stack_type value="ignore"/>
+	<duration value="0"/>
+	<effect_group>
+		<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".01"/>
+	</effect_group>
+</buff>
+
+<buff name="buffPenthrox" tags="drug" icon="ui_game_symbol_stealth">
+	<stack_type value="duration"/>
+	<duration value="120"/>
+	<effect_group>
+		<passive_effect name="LightMultiplier" operation="perc_subtract" value="0.9999" />
+		<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="0.9999"/>
+	</effect_group>
+</buff>
+
+<buff name="BuffBollockRot" name_key="Bollock Rot" description_key="You Have Contracted Bollock Rot From An Infected Stripper, You have 60 Minutes To Craft And Use The HD Bollock Rot Injection Or your Infection Evolves into Bollock Rot-Z Granting You A Further 60s Of Life Before DEATH." tooltip_key="Shit!! You've Contracted Bollock Rot"  icon="ui_game_symbol_BollockRot" remove_on_death="false">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="3600"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffBollockRot-Z">
+			</triggered_effect>
+		</effect_group>
+</buff>
+
+<buff name="BuffBollockRot-Z" name_key="Bollock Rot-Z" description_key="Shit!! You've Contracted Bollock Rot-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted Bollock Rot-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="60"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>
+		</effect_group>
+</buff>
+
+<buff name="BuffBirdFlu" name_key="Bird Flu" description_key="You Have Contracted Bird Flu From An Infected Vulture, You have 60 Minutes To Craft And Use The HD Bird Flu Injection Or your Infection Evolves into Bird Flu-Z Granting You A Further 60s Of Life Before DEATH." tooltip_key="Shit!! You've Contracted Bird Flu"  icon="ui_game_symbol_BirdFlu" remove_on_death="false">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="3600"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffBirdFlu-Z">
+			</triggered_effect>
+		</effect_group>
+</buff>
+
+<buff name="BuffBirdFlu-Z" name_key="Bird Flu-Z" description_key="Shit!! You've Contracted Bird Flu-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted Bird Flu-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="60"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>
+		</effect_group>
+</buff>
+
+<buff name="BuffBrainHerpes" name_key="Brain Herpes" description_key="You Have Contracted Brain Herpes From An Infected Hazmat Worker, You have 60 Minutes To Craft And Use The HD BrainHerpes Injection Or your Infection Evolves into Brain Herpes-Z Granting You A Further 60s Of Life Before DEATH." tooltip_key="Shit!! You've Contracted Brain Herpes"  icon="ui_game_symbol_BrainHerpes" remove_on_death="false">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="3600"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffBrainHerpes-Z">
+			</triggered_effect>
+		</effect_group>
+</buff>
+
+<buff name="BuffBrainHerpes-Z" name_key="Brain Herpes-Z" description_key="Shit!! You've Contracted Brain Herpes-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted Brain Herpes-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="60"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>
+		</effect_group>
+</buff>
+
+<buff name="BuffMRSA" name_key="MRSA" description_key="You Have Contracted MRSA From An Infected Nurse, You have 60 Minutes To Craft And Use The HD MRSA Injection Or your Infection Evolves into MRSA-Z Granting You A Further 60s Of Life Before DEATH." tooltip_key="Shit!! You've Contracted MRSA"  icon="ui_game_symbol_MRSA" remove_on_death="false">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="3600"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="BuffMRSA-Z">
+			</triggered_effect>
+		</effect_group>
+</buff>
+
+<buff name="BuffMRSA-Z" name_key="MRSA-Z" description_key="Shit!! You've Contracted MRSA-Z, Only DEATH Awaits You Now." tooltip_key="You've Contracted MRSA-Z"  icon="ui_game_symbol_DEATH" remove_on_death="true">
+		<damage_type value="Disease"/>
+		<stack_type value="ignore"/>
+		<duration value="60"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffFinish" action="ModifyStats" stat="Health" operation="subtract" value="99999999"/>
+		</effect_group>
+</buff>
+
+<buff name="BUFFBloodDraw" name_key="Blood Draw" description_key="Youve made yourself a bloodbag, Warning, make too many And suffer the consequences, YOU HAVE BEEN WARNED!" icon="ui_game_symbol_BLOODDRAW" remove_on_death="true">
+	<stack_type value="replace"/>
+	<duration value="30"/>
+	<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="BUFFBloodDrawSideEffect"/>
+		<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" target="self" buff="BUFFBloodDrawSideEffect">
+		<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="5"/>
+		</triggered_effect>
+		</effect_group>
+</buff>
+
+<buff name="BUFFBloodDrawSideEffect" name_key="Blood Draw SideEffect" description_key="You have drawn too much Blood! Keep this up And each time you Die the timer will be Reset" icon="ui_game_symbol_BLOODDRAW1" remove_on_death="false">
+    <stack_type value="ignore"/>
+    <duration value="600"/>
+    <effect_group>
+        <passive_effect name="AttributeLevel" tags="attIntellect" operation="base_set" value="3"/> <!-- base_subtract -->
+        <passive_effect name="AttributeLevel" tags="attPerception" operation="base_set" value="3"/> <!-- base_subtract -->
+        <passive_effect name="AttributeLevel" tags="attStrength" operation="base_set" value="3"/> <!-- base_subtract -->
+        <passive_effect name="AttributeLevel" tags="attAgility" operation="base_set" value="3"/> <!-- base_subtract -->
+        <passive_effect name="AttributeLevel" tags="attFortitude" operation="base_set" value="3"/> <!-- base_subtract -->
+            <triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
+            <triggered_effect trigger="onSelfBuffRemove" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
+            <triggered_effect trigger="onSelfRespawn" action="AddBuff" target="self" buff="BUFFBloodDrawSideEffect"/>
+    </effect_group>
+</buff>
+
+<buff name="buffEmbers" hidden="true">
+		<stack_type value="ignore" />
+		<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".buffIsOnFireDisplay" operation="set" value="199999" />
+		<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,.25,0" parent_transform="Hips"/>
+		<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,.25,0" parent_transform="Hips"/>
+
+		<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
+		<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
+	</effect_group>
+</buff>
+
+<buff name="buffIsOnFire" name_key="buffIsOnFireName" description_key="buffIsOnFireDesc" tooltip_key="buffIsOnFireTooltip" icon="ui_game_symbol_fire" icon_color="255,0,0" icon_blink="true">
+		<damage_type value="Heat" />
+		<stack_type value="ignore" />
+		<duration value="0" /><update_rate value="1" />
+		<display_value value=".buffIsOnFireDisplay" /><display_value_format value="time" />
+		<effect_group>
+		<requirements compare_type="or">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,1" operation="LTE" value="@_wetness" />
+			<requirement name="HasBuff" buff="buffExtinguishFire" />
+		</requirements>
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningFlamingArrow" />
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningMolotov" />
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningEnvironmentHack" />
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningEnvironment" />
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningElement" />
+		</effect_group>
+		<effect_group>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".buffIsOnFireDisplay" operation="set" value="@$buffBurningFlamingArrowDuration" />
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".buffIsOnFireDisplay" operation="set" value="@buffBurningMolotovDuration">
+			<requirement name="CVarCompare" cvar="buffBurningMolotovDuration" operation="GT" value="@.buffIsOnFireDisplay" /></triggered_effect>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".buffIsOnFireDisplay" operation="set" value="@$BurningEnvironmentDuration">
+			<requirement name="CVarCompare" cvar="$BurningEnvironmentDuration" operation="GT" value="@.buffIsOnFireDisplay" /></triggered_effect>
+		<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".buffIsOnFireDisplay" operation="set" value="@$buffBurningElementDuration">
+			<requirement name="CVarCompare" cvar="$buffBurningElementDuration" operation="GT" value="@.buffIsOnFireDisplay" /></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffIsOnFireDisplay" operation="set" value="@$buffBurningFlamingArrowDuration" />
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffIsOnFireDisplay" operation="set" value="@buffBurningMolotovDuration">
+			<requirement name="CVarCompare" cvar="buffBurningMolotovDuration" operation="GT" value="@.buffIsOnFireDisplay" /></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffIsOnFireDisplay" operation="set" value="@$BurningEnvironmentDuration">
+			<requirement name="CVarCompare" cvar="$BurningEnvironmentDuration" operation="GT" value="@.buffIsOnFireDisplay" /></triggered_effect>
+		<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffIsOnFireDisplay" operation="set" value="@$buffBurningElementDuration">
+			<requirement name="CVarCompare" cvar="$buffBurningElementDuration" operation="GT" value="@.buffIsOnFireDisplay" /></triggered_effect>
+		</effect_group>
+		<effect_group>
+			<requirements>
+			<requirement name="NotHasBuff" buff="buffBurningFlamingArrow" />
+			<requirement name="NotHasBuff" buff="buffBurningMolotov" />
+			<requirement name="NotHasBuff" buff="buffBurningEnvironmentHack" />
+			<requirement name="NotHasBuff" buff="buffBurningEnvironment" />
+			<requirement name="NotHasBuff" buff="buffBurningElement" />
+			<requirement name="NotHasBuff" buff="buffEmbers" />
+			</requirements>
+		<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffIsOnFire" />
+		</effect_group>
+		<effect_group name="run particles, cleanup">
+		<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffIsOnFireDisplay" operation="set" value="0" />
+		<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,-.2,0" parent_transform="Hips" />
+		<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,-.2,0" parent_transform="Hips" />
+		<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_onFire" />
+		<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_onFire" />
+		<triggered_effect trigger="onSelfBuffStart" action="AddJournalEntry" journal="onFireTip" />
+		</effect_group>
+</buff>
+	
+<buff name="buffIncendiaryRound" >
+	
+		<damage_type value="heat"/>
+		<stack_type value="replace"/><duration value="0"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="buffIncendiaryRoundDuration" operation="add" value="-1"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="buffIncendiaryRoundDuration" operation="set" value="0"/>
+		</effect_group>
+
+		<effect_group>
+		<requirement name="CVarCompare" cvar="buffIncendiaryRoundDuration" operation="LT" value="16"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="buffIncendiaryRoundDuration" operation="set" value="16"/>
+			<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="buffIncendiaryRoundDuration" operation="set" value="16"/>
+		</effect_group>
+
+		<effect_group>
+		<requirement name="CVarCompare" cvar="buffIncendiaryRoundDuration" operation="LTE" value="0"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="buffIncendiaryRoundDuration" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffIncendiaryRound"/>
+		</effect_group>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIsOnFire"/>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="1,5,11,13">
+			<requirement name="EntityTagCompare" tags="player"/>
+			</passive_effect>
+
+			<passive_effect name="WaterChangeOT" operation="base_subtract" value="1.5"/>
+			<passive_effect name="HypothermalResist" operation="base_add" value="35"/>
+			<passive_effect name="HyperthermalResist" operation="base_add" value="-15"/>
+		</effect_group>
+
+		<effect_group>
+		<requirement name="!EntityTagCompare" tags="player"/>
+		<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="10,36,51,56">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="0"/></passive_effect>
+		<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="7.5,27,38.2,42">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="1"/></passive_effect>
+
+		<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="5,18,25.5,28">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="2"/></passive_effect>
+
+		<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="4.2,14.9,21.1,23.2">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="3"/></passive_effect>
+		<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="3.3,11.9,16.8,18.5">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="4"/></passive_effect>
+		<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,8,14,18" value="2.5,9,12.7,14">
+			<requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="5"/></passive_effect>
+		</effect_group>
+</buff>
+		
+<buff name="buffFlameThrower" >
+		<damage_type value="disease"/>
+		<stack_type value="replace"/>
+		<duration value="8"/>
+		<update_rate value="1"/>
+		<effect_group>
+		<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+				<passive_effect name="HealthChangeOT" operation="base_subtract" duration="1,3,8" value="45,10,20"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="buffBurning"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="selfAOE" range="1" buff="buffFlameThrower">
+				</triggered_effect>
+		</effect_group>
+</buff>
+
+	<buff name="buffHDShocked" description_key="buffShockedDesc" tooltip_key="buffShockedTooltip" icon="ui_game_symbol_electric_power" name_key="buffShockedName" icon_color="255,0,0">
+		<damage_type value="electrical"/>
+		<stack_type value="replace"/>
+		<duration value="5"/>
+		<effect_group>
+			<passive_effect name="HealthChangeOT" operation="base_add" value="-6"/>
+			<passive_effect name="RunSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+			<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+			<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.9,0" duration="0,3.2"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="0,0.75,0"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="0,0.75,0"/>
+
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+
+			<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="ETrapHit" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="electric_fence_impact"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="electric_fence_impact"/>
+			<triggered_effect trigger="onSelfLeaveGame" action="StopSound" sound="electric_fence_impact"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="HealthBar" name_key="healthBarName" tooltip_key="buffRadiation3Tooltip" icon="ui_game_symbol_radiation" icon_color="255,255,0" remove_on_death="true">
+		<stack_type value="replace"/>
+		<duration value="6"/>
+		
+		<effect_group>
+		
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_4" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".20"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_3" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".20"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".40"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_2" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".40"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".60"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_1" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".60"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".80"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_0" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".80"/>
+			</triggered_effect>
+		
+			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_4" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".20"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_3" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".20"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".40"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_2" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".40"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".60"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_1" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".60"/>
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".80"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_0" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".80"/>
+			</triggered_effect>
+		
+			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_0">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".80"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_1">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".60"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_2">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".40"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_3">
+				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".20"/>
+			</triggered_effect>
+		
+			
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_1"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_2"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_3"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_4"/>
+			
+		</effect_group>
+	</buff>
+	
+	<buff name="buffSpiderRadiation" name_key="Spider Radiation" description_key="buffSpiderRadiationTooltip" icon="ui_game_symbol_SpiderRadiation">
+		<damage_type value="radiation"/>
+		<stack_type value="ignore"/>
+		<duration value="10"/>
+		<update_rate value="1"/>
+		<effect_group>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,10" value="1,1"/>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="10,50" value="1,30"/>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="50,1000" value="40,1000"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="add" value="1"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="set" value="0">
+				<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="2"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="set" value="0"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="1" fade=".7" effect_name="Hot">
+				<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="1"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="0" fade=".7" effect_name="Hot">
+				<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="0"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Hot"/>
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffRadiation03">
+				<requirement name="CVarCompare" cvar="_biomeradiation" operation="LT" value="2.5"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" effect_name="Radiation" intensity=".6" fade="2"/>
+			<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="0"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="2"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffBlackOut" name_key="BlackOut" description_key="Youve been Knocked Out" tooltip_key="Youve been Knocked Out" icon="ui_game_symbol_BlackOut">
+		<damage_type value="knockout"/>
+		<stack_type value="replace"/>
+		<duration value="5"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="1" effect_name="Blur"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Blur"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" effect_name="FadeToBlack"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="FadeToBlack"/>
+			<triggered_effect trigger="onSelfBuffStart" action="Ragdoll" duration="5">
+				<requirement name="!EntityTagCompare" tags="trader"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="buff_stunned" play_in_head="true"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="buff_stunned" play_in_head="true"/>
+			<triggered_effect trigger="onSelfLeaveGame" action="StopSound" sound="buff_stunned" play_in_head="true"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="PlaySound" sound="buff_stunned" play_in_head="true"/>
+		</effect_group>
+	</buff>
+
+</append>
+</configs>

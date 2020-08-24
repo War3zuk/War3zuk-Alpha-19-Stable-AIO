@@ -1,0 +1,401 @@
+<config>
+
+	<set xpath="/traders/trader_info[@id='1']/@reset_interval">1</set>
+	<set xpath="/traders/trader_info[@id='1']/@min_inventory">60</set>
+	<set xpath="/traders/trader_info[@id='1']/@max_inventory">120</set>
+	<set xpath="/traders/trader_info[@id='1']/@min_items_swapped">60</set>
+	<set xpath="/traders/trader_info[@id='1']/@max_items_swapped">120</set>
+ 	<set xpath="/traders/trader_info[@id='1']/@open_time">05:59</set>
+	<set xpath="/traders/trader_info[@id='1']/@close_time">23:59</set>
+	
+	<set xpath="/traders/trader_info[@id='2']/@reset_interval">1</set>
+	<set xpath="/traders/trader_info[@id='2']/@min_inventory">60</set>
+	<set xpath="/traders/trader_info[@id='2']/@max_inventory">120</set>
+	<set xpath="/traders/trader_info[@id='2']/@min_items_swapped">60</set>
+	<set xpath="/traders/trader_info[@id='2']/@max_items_swapped">120</set>
+ 	<set xpath="/traders/trader_info[@id='2']/@open_time">05:59</set>
+	<set xpath="/traders/trader_info[@id='2']/@close_time">23:59</set>
+	
+	<set xpath="/traders/trader_info[@id='3']/@reset_interval">1</set>
+	<set xpath="/traders/trader_info[@id='3']/@allow_sell">true</set>
+	
+	<set xpath="/traders/trader_info[@id='4']/@allow_sell">true</set>
+	<set xpath="/traders/trader_info[@id='4']/@reset_interval">1</set>
+	<set xpath="/traders/trader_info[@id='4']/@min_inventory">40</set>
+	<set xpath="/traders/trader_info[@id='4']/@max_inventory">80</set>
+	<set xpath="/traders/trader_info[@id='4']/@min_items_swapped">40</set>
+	<set xpath="/traders/trader_info[@id='4']/@max_items_swapped">80</set>
+	
+	<set xpath="/traders/trader_info[@id='5']/@reset_interval">1</set>
+	
+	<set xpath="/traders/trader_info[@id='6']/@reset_interval">1</set>
+	<set xpath="/traders/trader_info[@id='6']/@min_inventory">60</set>
+	<set xpath="/traders/trader_info[@id='6']/@max_inventory">120</set>
+	<set xpath="/traders/trader_info[@id='6']/@min_items_swapped">60</set>
+	<set xpath="/traders/trader_info[@id='6']/@max_items_swapped">120</set>
+ 	<set xpath="/traders/trader_info[@id='6']/@open_time">05:59</set>
+	<set xpath="/traders/trader_info[@id='6']/@close_time">23:59</set>
+	
+	<set xpath="/traders/trader_info[@id='7']/@reset_interval">1</set>
+	<set xpath="/traders/trader_info[@id='7']/@min_inventory">60</set>
+	<set xpath="/traders/trader_info[@id='7']/@max_inventory">120</set>
+	<set xpath="/traders/trader_info[@id='7']/@min_items_swapped">60</set>
+	<set xpath="/traders/trader_info[@id='7']/@max_items_swapped">120</set>
+ 	<set xpath="/traders/trader_info[@id='7']/@open_time">05:59</set>
+	<set xpath="/traders/trader_info[@id='7']/@close_time">23:59</set>
+	
+	<set xpath="/traders/trader_info[@id='8']/@reset_interval">1</set>
+	<set xpath="/traders/trader_info[@id='8']/@min_inventory">60</set>
+	<set xpath="/traders/trader_info[@id='8']/@max_inventory">120</set>
+	<set xpath="/traders/trader_info[@id='8']/@min_items_swapped">60</set>
+	<set xpath="/traders/trader_info[@id='8']/@max_items_swapped">120</set>
+ 	<set xpath="/traders/trader_info[@id='8']/@open_time">05:59</set>
+	<set xpath="/traders/trader_info[@id='8']/@close_time">23:59</set>
+	
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='foodCandy']">
+	<item name="TexsSquirrelBits"/>
+</append>
+	
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT1SecretStash']">
+	<item name="9mm Bullet INC" count="25,50" prob="0.9"/>
+	<item name="45ACPRoundINC" count="25,50" prob="0.9"/>
+	<item name="44Mag Bullet INC" count="25,50" prob="0.8"/>
+	<item name="50MagBulletINC" count="25,50" prob="0.8"/>
+	<item name="500MagBulletINC" count="25,50" prob="0.7"/>
+	<item name="762Mag Bullet INC" count="25,50" prob="0.7"/>
+	<item name="408RoundINC" count="25,50" prob="0.6"/>
+	<item name="50BMGRoundINC" count="25,50" prob="0.5"/>
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT2SecretStash']">
+	<item name="9mm Bullet SH" count="25,50" prob="0.9"/>
+	<item name="45ACPRoundSH" count="25,50" prob="0.9"/>
+	<item name="44Mag Bullet SH" count="25,50" prob="0.8"/>
+	<item name="50MagBulletSH" count="25,50" prob="0.8"/>
+	<item name="500MagBulletSH" count="25,50" prob="0.7"/>
+	<item name="762Mag Bullet SH" count="25,50" prob="0.7"/>
+	<item name="408RoundSH" count="25,50" prob="0.6"/>
+	<item name="50BMGRoundSH" count="25,50" prob="0.5"/>
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT3SecretStash']">
+	<item name="HD Military Helmet" count="1" prob="0.5"/>
+	<item name="HD Military Vest" count="1" prob="0.5"/>
+	<item name="HD First Aid Kit" count="1" prob="0.5"/>
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT4SecretStash']">
+	<item name="HD Military Gloves" count="1" prob="0.5"/>
+	<item name="HD Military Legs" count="1" prob="0.5"/>
+	<item name="HD Military Boots" count="1" prob="0.5"/>
+</append>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='modAllT5SecretStash']">
+	<item name="HD Auger" count="1" prob="0.3"/>
+	<item name="HD Chainsaw" count="1" prob="0.3"/>
+</append>
+
+<append xpath="/traders">
+	
+	<trader_info id="10" full_reset="false" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
+		<trader_items count="all">
+			<item name="resourceForgedIron" count="5000,7500"/>
+			<item name="resourceForgedSteel" count="4000,4500"/>
+			<item name="resourceScrapPolymers" count="5000,12500"/>
+			<item name="resourceElectricParts" count="5000,12500"/>
+			<item name="resourceElectronicParts" count="5000,12500"/>
+			<item name="resourceMechanicalParts" count="5000,12500"/>
+			<item group="weaponsMeleeT0-1" count="10,2" prob="0.3"/>
+			<item group="weaponsMeleeT2" count="10,2" prob="0.3"/>
+			<item name="resourceScrapPolymers" count="5000,15000"/>
+			<item name="resourceElectricParts" count="5000,15000"/>
+			<item name="resourceMechanicalParts" count="5000,15000"/>
+			<item name="resourceSpring" count="500,1000"/>
+			<item group="tools" count="100,300" prob="0.4"/>
+			<item group="rareTools" count="100" prob="0.2"/>
+			<item name="meleeWpnSledgeT1IronSledgehammerSchematic" count="10" prob="1"/>
+			<item name="meleeWpnSledgeT3SteelSledgehammerSchematic" count="10" prob="1"/>
+		</trader_items>
+	</trader_info>
+
+	<trader_info id="11" full_reset="false" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
+		<trader_items count="all">
+			<item name="resourceCement" count="500,5000"/>
+			<item name="resourceCobblestones" count="500,5000"/>
+			<item name="resourceConcreteMix" count="1000,5000"/>
+			<item name="resourceNail" count="1000,1000"/>
+			<item name="rebarFrameBlockVariantHelper" count="1000,1000"/>
+			<item group="landMines" count="10" prob="0.3"/>
+			<item name="resourceWood" count="500,1000"/>
+			<item name="resourceYuccaFibers" count="500,5000"/>
+			<item name="resourceCrushedSand" count="500,5000"/>
+			<item name="resourceScrapIron" count="250,2500"/>
+			<item name="resourceScrapPolymers" count="300,1500"/>
+			<item name="resourceForgedIron" count="50,500"/>
+			<item name="resourceForgedSteel" count="50,500"/>
+			<item name="resourceMetalPipe" count="50,200"/>
+			<item name="resourceOilShale" count="200,600"/>
+			<item name="resourceLeather" count="50,250"/>
+			<item name="resourceScrapBrass" count="300,800"/>
+			<item name="resourceClayLump" count="500,2500"/>
+			<item name="resourceScrapLead" count="500,900"/>
+			<item name="resourceCloth" count="500,1000"/>
+			<item name="resourceMilitaryFiber" count="50,200" prob="0.6"/>
+			<item name="resourceCoal" count="200,600"/>
+			<item name="resourcePotassiumNitratePowder" count="200,600"/>
+			<item name="resourceGunPowder" count="30,300"/>
+			<item name="resourceOil" count="30,100"/>
+			<item name="resourceAcid" count="100" prob="0.6"/>
+			<item name="resourceAnimalFat" count="50,400"/>
+			<item name="bucketEmpty" prob="10.60"/>
+			<item name="candle" count="50,200"/>
+			<item name="resourceHeadlight" count="50,200" prob="0.6"/>
+			<item name="resourceDuctTape" count="100,300"/>
+			<item name="resourceGlue" count="50,150"/>
+			<item name="resourceSpring" count="50,300"/>
+			<item name="resourceMechanicalParts" count="150,800" prob="0.8"/>
+			<item name="resourceElectricParts" count="150,500" prob="0.7"/>
+			<item name="resourceElectricParts" count="100,300" prob="0.6"/>
+			<item name="resourceLockPick" count="10,100"/>
+		</trader_items>
+	</trader_info>
+	
+	<trader_info id="12" full_reset="false" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
+		<trader_items count="all">
+			<item name="resourceWood" count="2500,5000"/>
+			<item name="resourceScrapIron" count="2500,5000"/>
+			<item name="resourceForgedIron" count="250,750"/>
+			<item name="resourceForgedSteel" count="200,50"/>
+			<item name="resourceConcreteMix" count="1000,5000"/>
+			<item name="resourceCobblestones" count="2500,10000"/>
+			<item name="resourceScrapPolymers" count="200,600"/>
+			<item name="resourceElectricParts" count="200,600"/>
+			<item name="resourceElectronicParts" count="100,300"/>
+			<item name="resourceMechanicalParts" count="200,600"/>
+			<item group="generalResources" count="90,140"/>
+			<item group="constructionSupplies" count="20,80"/>
+			<item group="decorativeBlocks" count="20,70"/>
+			<item group="tools" count="10" quality="10,30"/>
+			<item group="tools" count="10"/>
+			<item group="traderElectrical" count="10,20"/>
+			<item group="modAllT1SecretStash" count="10,20"/>
+			<item name="forge"/>
+			<item name="workbench"/>
+			<item name="cementMixer"/>
+			<item name="chemistryStation"/>
+		</trader_items>
+	</trader_info>
+
+	<trader_info id="13" full_reset="false" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
+		<trader_items count="all">
+			<item name="plantedPotato1"/>
+			<item name="plantedCoffee1"/>
+			<item name="plantedCorn1"/>
+			<item name="plantedBlueberry1"/>
+			<item name="plantedCotton1" prob="0.5"/>
+			<item name="plantedGoldenrod1"/>
+			<item name="plantedAloe1"/>
+			<item name="plantedMushroom1"/>
+			<item name="plantedYucca1"/>
+			<item name="plantedHop1"/>
+			<item name="plantedChrysanthemum1" prob="0.5"/>
+			<item name="plantedPumpkin1"/>
+			<item name="treePlantedMountainPine1m" prob="0.3"/>
+			<item name="treePlantedWinterPine1m" prob="0.3"/>
+			<item name="drinkJarCoffeeSchematic"/>
+			<item name="drinkJarGoldenRodTeaSchematic"/>
+			<item name="drinkJarRedTeaSchematic"/>
+			<item name="foodBaconAndEggsSchematic"/>
+			<item name="foodBakedPotatoSchematic"/>
+			<item name="foodBlueberryPieSchematic"/>
+			<item name="foodBoiledMeatSchematic"/>
+			<item name="foodCornBreadSchematic"/>
+			<item name="foodCornOnTheCobSchematic"/>
+			<item name="foodGrilledMeatSchematic"/>
+			<item name="foodMeatStewSchematic"/>
+			<item name="foodSteakAndPotatoSchematic"/>
+			<item name="foodVegetableStewSchematic"/>
+			<item name="foodShamChowderSchematic"/>
+			<item name="foodHoboStewSchematic"/>
+			<item name="foodFishTacosSchematic"/>
+			<item name="foodChiliDogSchematic"/>
+			<item name="foodPumpkinPieSchematic"/>
+			<item name="foodPumpkinCheesecakeSchematic"/>
+			<item name="foodPumpkinBreadSchematic"/>
+			<item name="drinkYuccaJuiceSmoothieSchematic"/>
+			<item name="drinkJarBeerSchematic"/>
+			<item name="drinkJarGrandpasAwesomeSauceSchematic"/>
+			<item name="drinkJarGrandpasLearningElixirSchematic"/>
+			<item name="drinkJarGrandpasMoonshineSchematic"/>
+			<item name="plantedAloe1Schematic"/>
+			<item name="plantedBlueberry1Schematic"/>
+			<item name="plantedChrysanthemum1Schematic"/>
+			<item name="plantedCoffee1Schematic"/>
+			<item name="plantedCorn1Schematic"/>
+			<item name="plantedCotton1Schematic"/>
+			<item name="plantedGoldenrod1Schematic"/>
+			<item name="plantedGraceCorn1Schematic"/>
+			<item name="plantedHop1Schematic"/>
+			<item name="plantedMushroom1Schematic"/>
+			<item name="plantedPotato1Schematic"/>
+			<item name="plantedYucca1Schematic"/>
+			<item name="plantedPumpkin1Schematic"/>
+		</trader_items>
+	</trader_info>
+
+	<trader_info id="14" full_reset="false" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
+		<trader_items count="all">
+			<item name="ammo9mmBulletBall" count="40,150"/>
+			<item name="ammo9mmBulletAP" count="40,150"/>
+			<item name="ammo762mmBulletBall" count="20,100"/>
+			<item name="ammo762mmBulletAP" count="20,100"/>
+			<item name="ammo44MagnumBulletBall" count="15,60" prob="0.5"/>
+			<item name="ammo44MagnumBulletAP" count="15,60" prob="0.5"/>
+			<item name="ammoShotgunShell" count="15,100"/>
+			<item name="ammoShotgunSlug" count="6,25" prob="0.2"/>
+			<item name="ammoRocketHE" count="1,4"/>
+			<item name="ammoRocketFrag" count="1,4"/>
+			<item name="ammoArrowIron" count="20,60"/>
+			<item name="ammoArrowSteelAP" count="20,60"/>
+			<item name="ammoCrossbowBoltIron" count="20,60"/>
+			<item name="ammoCrossbowBoltSteelAP" count="20,60"/>
+			<item name="gunHandgunT1PistolParts" count="1,5"/>
+			<item name="gunShotgunT1DoubleBarrelParts" count="1,5"/>
+			<item name="gunMGT1AK47Parts" count="1,5"/>
+			<item name="gunRifleT1HuntingRifleParts" count="1,5"/>
+			<item name="gunBowT1WoodenBowParts" count="1,5"/>
+			<item name="gunBotRoboticsParts" count="1,5"/>
+			<item name="gunExplosivesT3RocketLauncherParts" count="1,5"/>
+			<item name="gunHandgunT1Pistol" quality="1,5"/>
+			<item name="gunHandgunT2Magnum44" prob="0.7" quality="1,5"/>
+			<item name="gunShotgunT1DoubleBarrel" quality="1,5"/>
+			<item name="gunBotT2JunkTurret" quality="1,5"/>
+			<item name="gunMGT1AK47" quality="1,5"/>
+			<item name="gunMGT2TacticalAR" quality="1,5"/>
+			<item name="gunBowT3CompoundBow" prob="0.7" quality="1,5"/>
+			<item name="gunHandgunT3DesertVulture" prob="0.7" quality="1,5"/>
+			<item name="armorSteelBoots" quality="1,4"/>
+			<item name="armorSteelLegs" quality="1,4"/>
+			<item name="armorSteelChest" quality="1,4"/>
+			<item name="armorSteelGloves" quality="1,4"/>
+			<item name="armorSwatHelmet" mods="modArmorHelmetLight" mod_chance=".2"  quality="1,4"/>
+			<item name="armorMiningHelmet" mods="modArmorHelmetLight" mod_chance="1" quality="1,4"/>
+			<item name="armorMilitaryGloves" quality="1,4"/>
+			<item name="armorMilitaryHelmet" mods="modArmorHelmetLight" mod_chance=".2" quality="1,4"/>
+			<item name="armorMilitaryBoots" quality="1,4"/>
+			<item name="armorMilitaryLegs" quality="1,4"/>
+			<item name="armorMilitaryVest" quality="1,4"/>
+			<item name="resourceMilitaryFiber" count="1,5" prob="2"/>
+			<item name="apparelNightvisionGoggles"/>
+			<item group="weaponsMeleeT0-1" count="10,2" prob="0.3"/>
+			<item group="weaponsMeleeT2" count="10,2" prob="0.3"/>
+			<item group="weaponsGunsT2" count="100" quality="1,3"/>
+			<item group="weaponsGunParts" count="100"/>
+			<item group="groupArmorLightMixed" prob="0.1"/>
+			<item group="groupArmorHeavyMixed" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+
+	<trader_info id="15" full_reset="false" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
+		<trader_items count="all">
+			<item name="resourceCement" count="500,5000"/>
+			<item name="resourceCobblestones" count="500,5000"/>
+			<item name="resourceConcreteMix" count="1000,5000"/>
+			<item name="resourceNail" count="1000,1000"/>
+			<item name="rebarFrameBlockVariantHelper" count="1000,1000"/>
+			<item name="resourceForgedIron" count="5000,7500"/>
+			<item name="resourceForgedSteel" count="4000,4500"/>
+			<item name="resourceScrapPolymers" count="5000,12500"/>
+			<item name="resourceElectricParts" count="5000,12500"/>
+			<item name="resourceElectronicParts" count="5000,12500"/>
+			<item name="resourceMechanicalParts" count="5000,12500"/>
+			<item name="resourceSpring" count="500,1000"/>
+			<item name="ammoGasCan" count="2000,10000"/>
+			<item name="resourceAcid" count="200,600" prob="0.6"/>
+			<item name="vehicleWheels"/>
+			<item name="smallEngine"/>
+			<item name="vehicle4x4TruckChassis"/>
+			<item name="vehicle4x4TruckAccessories"/>
+			<item name="vehicle4x4TruckPlaceable"/>
+			<item name="vehicleGyroCopterChassis"/>
+			<item name="vehicleGyroCopterAccessories"/>
+			<item name="vehicleGyrocopterPlaceable"/>
+			<item name="resourceForgedIron" count="5000,10000"/>
+			<item name="resourceScrapPolymers" count="5000,15000"/>
+			<item name="resourceElectricParts" count="5000,15000"/>
+			<item name="resourceMechanicalParts" count="5000,15000"/>
+			<item name="resourceSpring" count="500,1000"/>
+			<item group="tools" count="100,300" prob="0.4"/>
+			<item group="rareTools" count="100" prob="0.2"/>
+			<item name="meleeWpnSledgeT1IronSledgehammerSchematic" count="10" prob="0.15"/>
+			<item name="meleeWpnSledgeT3SteelSledgehammerSchematic" count="10" prob="0.1"/>
+		</trader_items>
+	</trader_info>
+
+	<trader_info id="16" full_reset="false" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
+		<trader_items count="all">
+			<item name="medicalFirstAidKit"/>
+			<item name="toolBeaker"/>
+			<item name="drugAntibiotics"/>
+			<item name="drugFortBites"/>
+			<item name="drugRecog"/>
+			<item name="drugSteroids"/>
+			<item name="drinkJarGrandpasMoonshine"/>
+			<item name="drinkJarGrandpasAwesomeSauce"/>
+			<item name="drinkJarGrandpasLearningElixir"/>
+			<item name="apparelCigar" />
+			<item name="drugPainkillers"/>
+			<item name="medicalFirstAidBandage"/>
+			<item name="medicalBandage"/>
+			<item name="drinkJarEmpty"/>
+			<item name="medicalBloodBag" count="2,4"/>
+			<item name="drugVitamins"/>
+			<item name="drinkJarGrainAlcohol"/>
+			<item name="medicalSplint"/>
+		</trader_items>
+	</trader_info>
+	
+	<trader_info id="17" full_reset="false" reset_interval="1" override_buy_markup="1.0" allow_sell="false" min_inventory="20" max_inventory="40" min_items_swapped="10" max_items_swapped="20">
+		<trader_items count="all">
+			<item name="Warm Chunky Honey"/>
+			<item name="Warm Chunky Beef"/>
+			<item name="Warm Chunky Chicken"/>
+			<item name="Warm Chunky Lamb"/>
+			<item name="Warm Chunky Surprise"/>
+			<item name="Warm Chunky Chili"/>
+			<item name="Warm Chunky Pasta"/>
+			<item name="Warm Chunky Salmon"/>
+			<item name="Warm Chunky Sirloin"/>
+			<item name="Warm Chunky Vegetable Stew"/>
+			<item name="Warm Chunky Meat Stew"/>
+			<item name="Warm Chunky Sham Chowder"/>
+			<item name="Warm Chunky Hobo Stew"/>
+			<item name="Warm Chunky Steak And Potato"/>
+			<item name="Warm Chunky ChiliDog"/>
+			<item name="Warm Chunky Fish Taco"/>
+			<item name="Warm Chunky Meat And Mash"/>
+			<item name="Warm Chunky Gumbo Stew"/>
+			<item name="Warm Chunky Shepards Pie"/>
+			<item name="foodBaconAndEggs"/>
+			<item name="foodBakedPotato"/>
+			<item name="foodBlueberryPie"/>
+			<item name="foodBoiledMeat"/>
+			<item name="foodCornBread"/>
+			<item name="foodCornOnTheCob"/>
+			<item name="foodGrilledMeat"/>
+			<item name="foodMeatStew"/>
+			<item name="foodSteakAndPotato"/>
+			<item name="foodVegetableStew"/>
+			<item name="foodShamChowder"/>
+			<item name="foodHoboStew"/>
+			<item name="foodFishTacos"/>
+			<item name="foodChiliDog"/>
+			<item name="foodPumpkinPie"/>
+			<item name="foodPumpkinCheesecake"/>
+			<item name="foodPumpkinBread"/>
+		</trader_items>
+	</trader_info>
+
+</append>
+	
+</config>

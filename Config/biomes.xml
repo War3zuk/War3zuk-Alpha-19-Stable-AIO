@@ -1,0 +1,39 @@
+<War3zuk>
+
+    <append xpath="worldgeneration/biomes/biome[@name='snow']/decorations">
+        <decoration type="block" blockname="plantedAloe3Harvest" prob="0.003"/>
+    </append>
+	
+    <append xpath="worldgeneration/biomes/biome[@name='snow']/decorations">
+        <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002"/>
+    </append>
+	
+    <append xpath="worldgeneration/biomes/biome[@name='snow']/decorations">
+        <decoration type="block" blockname="plantedYucca3Harvest" prob="0.001"/>
+    </append>
+	
+    <append xpath="worldgeneration/biomes/biome[@name='pine_forest']/decorations">
+        <decoration type="block" blockname="plantedAloe3Harvest" prob="0.003"/>
+    </append>
+	
+    <append xpath="worldgeneration/biomes/biome[@name='pine_forest']/decorations">
+        <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002"/>
+    </append>
+	
+    <append xpath="worldgeneration/biomes/biome[@name='pine_forest']/decorations">
+        <decoration type="block" blockname="plantedYucca3Harvest" prob="0.001"/>
+    </append>
+	
+    <append xpath="worldgeneration/biomes/biome[@name='burnt_forest']/decorations">
+        <decoration type="block" blockname="plantedAloe3Harvest" prob="0.003"/>
+    </append>
+	
+    <append xpath="worldgeneration/biomes/biome[@name='burnt_forest']/decorations">
+        <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002"/>
+    </append>
+	
+    <append xpath="worldgeneration/biomes/biome[@name='burnt_forest']/decorations">
+        <decoration type="block" blockname="plantedYucca3Harvest" prob="0.001"/>
+    </append>
+	
+</War3zuk>

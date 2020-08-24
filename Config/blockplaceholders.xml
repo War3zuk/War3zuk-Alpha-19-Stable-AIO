@@ -1,0 +1,84 @@
+<blockplaceholders>
+	
+	<remove xpath="/blockplaceholders/placeholder[@name='paintingPictureRandomHelper']"/>
+	<remove xpath="/blockplaceholders/placeholder[@name='cntPaintingPictureSafeRandomLootHelper']"/>
+	
+<append xpath="/blockplaceholders">
+		
+<placeholder name="paintingPictureRandomHelper">
+	<block name="HD ZTPH 001" prob="1"/>
+	<block name="HD ZTPH 002" prob="1"/>
+	<block name="HD ZTPH 003" prob="1"/>
+	<block name="HD ZTPH 004" prob="1"/>
+	<block name="HD ZTPH 005" prob="1"/>
+	<block name="HD ZTPH 006" prob="1"/>
+	<block name="HD ZTPH 007" prob="1"/>
+	<block name="HD ZTPH 008" prob="1"/>
+	<block name="HD ZTPH 009" prob="1"/>
+	<block name="HD ZTPH 010" prob="1"/>
+	<block name="HD ZTPH 011" prob="1"/>
+	<block name="HD ZTPH 012" prob="1"/>
+	<block name="HD ZTPH 013" prob="1"/>
+	<block name="HD ZTPH 014" prob="1"/>
+	<block name="HD ZTPH 015" prob="1"/>
+	<block name="HD ZTPH 016" prob="1"/>
+	<block name="HD ZTPH 017" prob="1"/>
+	<block name="HD ZTPH 018" prob="1"/>
+	<block name="HD ZTPH 019" prob="1"/>
+	<block name="HD ZTPH 020" prob="1"/>
+</placeholder>
+
+<placeholder name="cntPaintingPictureSafeRandomLootHelper">
+	<block name="HiddenHD ZTPH 001" prob="1"/>
+	<block name="HiddenHD ZTPH 002" prob="1"/>
+	<block name="HiddenHD ZTPH 003" prob="1"/>
+	<block name="HiddenHD ZTPH 004" prob="1"/>
+	<block name="HiddenHD ZTPH 005" prob="1"/>
+	<block name="HiddenHD ZTPH 006" prob="1"/>
+	<block name="HiddenHD ZTPH 007" prob="1"/>
+	<block name="HiddenHD ZTPH 008" prob="1"/>
+	<block name="HiddenHD ZTPH 009" prob="1"/>
+	<block name="HiddenHD ZTPH 010" prob="1"/>
+	<block name="HiddenHD ZTPH 011" prob="1"/>
+	<block name="HiddenHD ZTPH 012" prob="1"/>
+	<block name="HiddenHD ZTPH 013" prob="1"/>
+	<block name="HiddenHD ZTPH 014" prob="1"/>
+	<block name="HiddenHD ZTPH 015" prob="1"/>
+	<block name="HiddenHD ZTPH 016" prob="1"/>
+	<block name="HiddenHD ZTPH 017" prob="1"/>
+	<block name="HiddenHD ZTPH 018" prob="1"/>
+	<block name="HiddenHD ZTPH 019" prob="1"/>
+	<block name="HiddenHD ZTPH 020" prob="1"/>
+</placeholder>
+	
+</append>
+
+<append xpath="/blockplaceholders">
+	<placeholder name="storeShelving01">
+		<block name="storeShelving01Empty" prob=".80"/>
+		<block name="storeShelving01Full" prob=".20"/>
+	</placeholder>
+</append>
+
+<append xpath="/blockplaceholders">
+	<placeholder name="storeShelving01Double">
+		<block name="storeShelving01DoubleEmpty" prob=".80"/>
+		<block name="storeShelving01DoubleFull" prob=".20"/>
+	</placeholder>
+</append>
+	
+<append xpath="/blockplaceholders">
+	<placeholder name="storeShelving01Top">
+		<block name="storeShelving01TopEmpty" prob=".80"/>
+		<block name="storeShelving01TopFull" prob=".20"/>
+	</placeholder>
+</append>
+	
+<append xpath="/blockplaceholders">
+	<placeholder name="storeShelving01TopDouble">
+		<block name="storeShelving01TopDoubleEmpty" prob=".80"/>
+		<block name="storeShelving01TopDoubleFull" prob=".20"/>
+	</placeholder>
+</append>
+
+</blockplaceholders>

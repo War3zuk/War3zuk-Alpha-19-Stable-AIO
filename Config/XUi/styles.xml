@@ -1,0 +1,7 @@
+<configs>
+	
+	<insertAfter xpath="/styles/global/style_entry[@name='disabledLabelColor']">
+		<style_entry name="Golden" value="255,255,0" />
+	</insertAfter>
+	
+</configs>

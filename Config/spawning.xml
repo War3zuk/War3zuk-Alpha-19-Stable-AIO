@@ -1,0 +1,37 @@
+<configs>
+
+<append xpath="/spawning/biome[@name='pine_forest']">
+		<spawn maxcount="2" respawndelay="10" time="Day" entitygroup="ZombiesAll" />
+		<spawn maxcount="3" respawndelay="10" time="Night" entitygroup="ZombiesNight" />
+		<spawn maxcount="2" respawndelay="10" time="Any" entitygroup="WildGameForest" spawnDeadChance="0" />
+		<spawn maxcount="2" respawndelay="10" time="Night" entitygroup="EnemyAnimalsForest" spawnDeadChance="0" />
+</append>
+
+<append xpath="/spawning/biome[@name='burnt_forest']">
+		<spawn maxcount="2" respawndelay="10" time="Day" entitygroup="ZombiesBurntForest" />
+		<spawn maxcount="3" respawndelay="10" time="Night" entitygroup="ZombiesNight" />
+		<spawn maxcount="2" respawndelay="10" time="Any" entitygroup="WildGameForest" spawnDeadChance="0" />
+		<spawn maxcount="2" respawndelay="10" time="Night" entitygroup="EnemyAnimalsBurntForest" spawnDeadChance="0" />
+</append>
+
+<append xpath="/spawning/biome[@name='desert']">
+		<spawn maxcount="2" respawndelay="10" time="Any" entitygroup="ZombiesAll" />
+		<spawn maxcount="3" respawndelay="10" time="Night" entitygroup="ZombiesNight" />
+		<spawn maxcount="2" respawndelay="10" time="Any" entitygroup="WildGameForest" spawnDeadChance="0" />
+		<spawn maxcount="2" respawndelay="10" time="Any" entitygroup="EnemyAnimalsDesert" spawnDeadChance="0" />
+</append>
+
+<append xpath="/spawning/biome[@name='wasteland']">
+		<spawn maxcount="2" respawndelay="10" time="Day"	entitygroup="ZombiesAll" />
+		<spawn maxcount="3" respawndelay="10" time="Night" entitygroup="ZombiesWastelandNight" />
+		<spawn maxcount="2" respawndelay="10" time="Any" entitygroup="EnemyAnimalsWasteland" spawnDeadChance="0" />
+</append>
+
+<append xpath="/spawning/biome[@name='snow']">
+		<spawn maxcount="3" respawndelay="10" time="Any" entitygroup="SnowZombies" />
+		<spawn maxcount="2" respawndelay="10" time="Night" entitygroup="ZombiesNight" />
+		<spawn maxcount="2" respawndelay="10" time="Any" entitygroup="WildGameForest" spawnDeadChance="0" />
+		<spawn maxcount="2" respawndelay="10" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
+</append>
+
+</configs>

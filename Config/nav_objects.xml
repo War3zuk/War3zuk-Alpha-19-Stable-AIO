@@ -1,0 +1,31 @@
+<configs>
+
+    <append xpath="nav_object_classes">
+		
+		<nav_object_class name="HDWar3zukBuggyUI">
+			
+			<property name="requirement_type" value="IsVehicleOwner" />
+
+			<compass_settings>
+				<property name="sprite_name" value="HDWar3zukBuggyUI"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="-1"/>
+				<property name="max_scale_distance" value="1024"/>
+				<property name="color" value="255,255,0,255"/>
+				<property name="has_pulse" value="true"/>
+				<property name="icon_clamped" value="false" />
+			</compass_settings>
+
+			<onscreen_settings>
+				<property name="sprite_name" value="HDWar3zukBuggyUI"/>
+				<property name="min_distance" value="0"/>
+				<property name="max_distance" value="20"/>
+				<property name="max_scale_distance" value="64"/>
+				<property name="color" value="255,255,0,255"/>
+				<property name="has_pulse" value="false"/>
+			</onscreen_settings>
+			
+		</nav_object_class>
+		
+</append>	
+</configs>

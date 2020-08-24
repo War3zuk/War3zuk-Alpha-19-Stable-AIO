@@ -1,0 +1,37 @@
+<configs>
+	
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,HDWar3zukBuggy,HDWar3zukBuggyChassis,HDWar3zukBuggyAccessories,War3zUK4x4</append>
+	<set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity' and @value]/@value">2,4,6,8,15</set>
+	
+	
+	<set xpath="/progression/level/@skill_points_per_level">2</set>
+	<set xpath="/progression/level/@exp_to_level">7500</set>
+	
+	<set xpath="progression/perks/perk[@name='perkArtOfMiningComplete']/effect_group/passive_effect[@name='BlockDamage' and @value]/@value">300</set>
+	<set xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@name='JunkTurretActiveRange']/@value">50,60,70,80,90,100</set>
+	
+	<!--  Tier 6 crafting By Lam  -->
+	
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkJavelinMaster']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkBrawler']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkMachineGunner']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkArchery']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkDeepCuts']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkElectrocutioner']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	<set xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@name='CraftingTier'][@value='1,2,3,4,4']/@value">1,2,3,4,5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/effect_group/passive_effect[@name='CraftingTier'][@value='1,4']/@value">2,5</set>
+	<set xpath="/progression/perks/perk[@name='perkLightArmor']/effect_group/passive_effect[@name='CraftingTier'][@value='1,4']/@value">2,5</set>
+	<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@name='CraftingTier'][@value='0,5']/@value">2,6</set>
+	
+	<!--  Tier 6 crafting By Lam  -->
+	
+</configs>

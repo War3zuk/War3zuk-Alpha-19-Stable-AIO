@@ -1,0 +1,2509 @@
+<configs>
+	
+	<remove xpath="/recipes/recipe[@name='resourceGlue']"/>
+	<remove xpath="/recipes/recipe[@name='drinkJarBoiledWater']"/>
+	<remove xpath="/recipes/recipe[@name='medicalPlasterCast']"/>
+	
+	<remove xpath="/recipes/recipe[@name='plantedAloe1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedBlueberry1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedChrysanthemum1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedCoffee1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedCorn1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedCotton1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedGoldenrod1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedHop1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedMushroom1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedPotato1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedYucca1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedPumpkin1']"/>
+	<remove xpath="/recipes/recipe[@name='plantedGraceCorn1']"/>
+	
+	<remove xpath="/recipes/recipe[@name='vehicleBicycleChassis']"/>
+	<remove xpath="/recipes/recipe[@name='vehicleMinibikeChassis']"/>
+	<remove xpath="/recipes/recipe[@name='vehicle4x4TruckChassis']"/>
+	<remove xpath="/recipes/recipe[@name='vehicleGyroCopterChassis']"/>
+	
+<append xpath="/recipes">
+	
+<recipe name="HDNightVisionHelmetLight" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="120">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+	<ingredient name="apparelNightvisionGoggles" count="1"/>
+</recipe>
+	
+<recipe name="Find The Trader" craft_time = "30" count="1">
+	<ingredient name="resourcePaper" count="50"/>
+</recipe>
+	
+<recipe name="Shaved Ice" count="2" craft_time="0.5">
+	<ingredient name="resourceSnowBall" count="1"/>
+</recipe>
+
+<recipe name="Pikalyns Patbingsu" count="1" craft_time="30">
+	<ingredient name="drinkJarEmpty" count="1"/>
+	<ingredient name="foodCanPears" count="1"/>
+	<ingredient name="foodHoney" count="2"/>
+	<ingredient name="resourceCropSnowberryPlant" count="30"/>
+	<ingredient name="Shaved Ice" count="100"/>
+</recipe>
+	
+<recipe name="HDWar3zukBuggyAccessories" count="1" craft_time="180" craft_tool="HDWelder" craft_area="HD WorkBench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="resourceElectricParts" count="40"/>
+	<ingredient name="resourceHeadlight" count="10"/>
+	<ingredient name="resourceMetalPipe" count="50"/>
+	<ingredient name="resourceSpring" count="8"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+</recipe>
+
+<recipe name="HDWar3zukBuggyChassis" count="1" craft_time="180" craft_tool="HDWelder" craft_area="HD WorkBench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="resourceForgedSteel" count="250"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+	<ingredient name="resourceDuctTape" count="40"/>
+	<ingredient name="resourceLeather" count="100"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+</recipe>
+
+<recipe name="HDWar3zukBuggy" count="1" craft_time="180" craft_tool="HDWelder" craft_area="HD WorkBench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="vehicleWheels" count="4"/>
+	<ingredient name="HDWar3zukBuggyChassis" count="1"/>
+	<ingredient name="HDWar3zukBuggyAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+	
+<recipe name="HDKillingFloorZombie" count="1" craft_time="30">
+	<ingredient name="resourceScrapPolymers" count="500"/>
+</recipe>
+
+<recipe name="HD Crash Bandicoot" count="1" craft_time="30">
+	<ingredient name="resourceScrapPolymers" count="500"/>
+</recipe>
+	
+<recipe name="OrigamiGurus Pain Meds" count="1" craft_time="30">
+	<ingredient name="drugPainkillers" count="5"/>
+	<ingredient name="drugVitamins" count="2"/>
+</recipe>
+	
+<recipe name="vehicleBicycleChassis" count="1" craft_time="30" craft_area="workbench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="resourceForgedIron" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceSpring" count="2"/>
+</recipe>
+
+<recipe name="vehicleMinibikeChassis" count="1" craft_time="90" craft_area="workbench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="4"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceLeather" count="4"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+</recipe>
+	
+<recipe name="vehicle4x4TruckChassis" count="1" craft_time="210" craft_area="workbench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="resourceForgedSteel" count="250"/>
+	<ingredient name="resourceMechanicalParts" count="40"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceLeather" count="40"/>
+	<ingredient name="resourceElectricParts" count="16"/>
+</recipe>
+
+<recipe name="vehicleGyroCopterChassis" count="1" craft_time="270" craft_area="workbench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="resourceForgedSteel" count="125"/>
+	<ingredient name="resourceMechanicalParts" count="40"/>
+	<ingredient name="resourceDuctTape" count="25"/>
+	<ingredient name="resourceLeather" count="40"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+</recipe>
+	
+<recipe name="HD Impact Wrench" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "120" tags="learnable,perkSalvageOperations">
+	<ingredient name="resourceForgedSteel" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+	<ingredient name="resourceElectricParts" count="50"/>
+	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="HD Cell" count="1"/>
+</recipe>
+	
+<recipe name="Grand Spartans Blade" count="1" craft_time = "120" tags="perkDeepCuts">
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceOil" count="2"/>
+</recipe>
+
+<recipe name="Mrs Spartans Blade" count="1" craft_time = "120" tags="perkDeepCuts">
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceOil" count="2"/>
+</recipe>
+	
+<recipe name="HD Tesla Fence" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "20" tags="learnable">
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+	
+<recipe name="HD wood Bars Centered" count="1" craft_time = "1">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="5"/>
+</recipe>
+
+<recipe name="HD Wood Bars" count="1" craft_time = "1">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="5"/>
+</recipe>
+
+<recipe name="HDGlock18Auto" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1" craft_time = "90" tags="perkGunslinger">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HDGlockAutoReflex" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDGlockAutoSilencer" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDSpas12Reflex" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDTacticalARSilencer" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDTacticalARReflex" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDTacticalARScope" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HD Rocket Launcher" count="1" craft_time = "200" craft_area="HD GunBench" tags="learnable,perkDemolitionsExpert">
+	<ingredient name="gunExplosivesT3RocketLauncherParts" count="5"/>
+	<ingredient name="resourceForgedSteel" count="100"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceElectricParts" count="50"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+	
+<recipe name="HDRocketLauncherRound" craft_time = "10" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceBuckshot" count="20"/>
+	<ingredient name="resourceGunPowder" count="10"/>
+	<ingredient name="ammoGasCan" count="200"/>
+	<ingredient name="resourceRocketCasing" count="2"/>
+</recipe>
+
+<recipe name="HDRocketLauncherNukeRound" craft_time = "10" craft_area="HD AmmoBench" craft_tool="HDBulletPress">
+	<ingredient name="resourceForgedIron" count="150"/>
+	<ingredient name="resourceBuckshot" count="150"/>
+	<ingredient name="resourceGunPowder" count="500"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+	<ingredient name="resourceRocketCasing" count="10"/>
+</recipe>
+	
+<recipe name="medicalPlasterCast" count="1" craft_time = "10" tags="learnable">
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="resourceCrushedSand" count="10"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+	
+<recipe name="HDCementMixer" count="1" craft_area="HD WorkBench" craft_time = "120" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="100"/>
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceMechanicalParts" count="30"/>
+</recipe>
+
+<recipe name="HDMotor125cc" count="1" craft_area="HD WorkBench" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceCloth" count="10"/>
+</recipe>
+
+<recipe name="HDMotor250cc" count="1" craft_area="HD WorkBench" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="25"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceCloth" count="10"/>
+</recipe>
+
+<recipe name="HDMotor500cc" count="1" craft_area="HD WorkBench" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="resourceOil" count="2"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceCloth" count="10"/>
+</recipe>
+	
+<recipe name="War3zuks Stoggy" craft_time = "30" count="1">
+	<ingredient name="resourceYuccaFibers" count="1000"/>
+	<ingredient name="resourceCropHopsFlower" count="10"/>
+	<ingredient name="resourcePaper" count="50"/>
+</recipe>
+	
+<recipe name="StormFall Monster Cola" count="1" craft_time = "10">
+	<ingredient name="drugPainkillers" count="1"/>
+	<ingredient name="drugSteroids" count="1"/>
+	<ingredient name="drinkJarBeer" count="2"/>
+</recipe>
+
+<recipe name="HDammoBundle45ACPRound" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="80"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+	
+<recipe name="HDammoBundle9mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="80"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle9mmBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="160"/>
+	<ingredient name="resourceGunPowder" count="80"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle9mmBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="160"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle44MagnumBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="240"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle44MagnumBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="160"/>
+	<ingredient name="resourceGunPowder" count="240"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle44MagnumBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="400"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundleDeagleRound" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="180"/>
+	<ingredient name="resourceGunPowder" count="180"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle500AutoMax" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="180"/>
+	<ingredient name="resourceGunPowder" count="180"/>
+	<ingredient name="resourceBulletCasing" count="180"/>
+</recipe>
+
+<recipe name="HDammoBundle762mmBulletBall" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="240"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle762mmBulletHP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="160"/>
+	<ingredient name="resourceGunPowder" count="240"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle762mmBulletAP" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="80"/>
+	<ingredient name="resourceGunPowder" count="400"/>
+	<ingredient name="resourceBulletCasing" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundle408Round" count="1" craft_time = "300" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="180"/>
+	<ingredient name="resourceGunPowder" count="360"/>
+	<ingredient name="resourceBulletCasing" count="180"/>
+</recipe>
+
+<recipe name="HDammoBundle50BMGRound" count="1" craft_time = "350" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="260"/>
+	<ingredient name="resourceGunPowder" count="520"/>
+	<ingredient name="resourceBulletCasing" count="260"/>
+</recipe>
+
+<recipe name="HDammoBundleShotgunShell" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBuckshot" count="80"/>
+	<ingredient name="resourceGunPowder" count="320"/>
+	<ingredient name="resourcePaper" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundleShotgunSlug" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceBulletTip" count="160"/>
+	<ingredient name="resourceGunPowder" count="320"/>
+	<ingredient name="resourceScrapPolymers" count="80"/>
+</recipe>
+
+<recipe name="HDammoBundleShotgunBreachingSlug" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
+	<ingredient name="resourceForgedSteel" count="320"/>
+	<ingredient name="resourceClayLump" count="160"/>
+	<ingredient name="resourceGunPowder" count="320"/>
+	<ingredient name="resourceScrapPolymers" count="80"/>
+</recipe>	
+	
+<recipe name="HDBowl" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="resourceClayLump" count="10"/>
+    <ingredient name="resourceYuccaFibers" count="5"/>
+</recipe>
+	
+<recipe name="Warm Chunky Honey" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodHoney" count="5"/>
+    <ingredient name="foodCanPears" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Beef" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanBeef" count="4"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Chicken" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanChicken" count="4"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Lamb" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanLamb" count="4"/>
+	<ingredient name="foodCanSham" count="4"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Surprise" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanCatfood" count="4"/>
+    <ingredient name="foodCanDogfood" count="4"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Chili" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanChili" count="4"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+	
+<recipe name="Warm Chunky Pasta" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanPasta" count="4"/>
+	<ingredient name="foodCanTuna" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>	
+	
+<recipe name="Warm Chunky Salmon" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanSalmon" count="2"/>
+    <ingredient name="foodCanSoup" count="2"/>
+	<ingredient name="foodCanPeas" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Sirloin" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodCanStock" count="2"/>
+    <ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="foodCanMiso" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Vegetable Stew" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodVegetableStew" count="2"/>
+    <ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Meat Stew" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodMeatStew" count="2"/>
+    <ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Sham Chowder" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodShamChowder" count="2"/>
+    <ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Hobo Stew" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+    <ingredient name="foodHoboStew" count="2"/>
+    <ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Steak And Potato" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodSteakAndPotato" count="2"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky ChiliDog" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodChiliDog" count="2"/>
+	<ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Fish Taco" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodFishTacos" count="1"/>
+	<ingredient name="foodCanTuna" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Meat And Mash" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="foodCropPotato" count="10"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Shepards Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodShepardsPie" count="2"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="Warm Chunky Gumbo Stew" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodGumboStew" count="2"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HDBowl" count="1"/>
+</recipe>
+
+<recipe name="MsTeresas Burger Patty" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="resourceAnimalFat" count="4"/>
+	<ingredient name="foodShamSandwich" count="2"/>
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
+<recipe name="FaxFoxs Furr Burger" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="foodShamSandwich" count="2"/>
+	<ingredient name="foodRawMeat" count="2"/>
+</recipe>
+
+<recipe name="Camoes Bifana" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill">
+	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="foodShamSandwich" count="2"/>
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="drinkJarBeer" count="1"/>
+</recipe>
+
+<recipe name="Possums Pavlova" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodCanPears" count="1"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodHoney" count="1"/>
+	<ingredient name="foodEgg" count="4"/>
+</recipe>
+
+<recipe name="Ralifs Borscht" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCanStock" count="1"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCropMushrooms" count="2"/>
+</recipe>
+
+<recipe name="AaronRockst4rs Fritos And Eggs" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill">
+	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodEgg" count="2"/>
+</recipe>
+
+<recipe name="Chicken Nuggets" count="1" craft_area="campfire" craft_time = "5" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="2"/>
+    <ingredient name="BabyChick" count="4"/>
+</recipe>
+
+<recipe name="KillJoyJessicas HotWings" count="2" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="BabyChick" count="6"/>
+	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
+<recipe name="Diggitys Chilli Pork Chops" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
+<recipe name="Donnas Fubar Stew" count="1" craft_time="10" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="foodCanSham" count="2"/>
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="foodCanTuna" count="2"/>
+	<ingredient name="resourceBone" count="5"/>
+</recipe>
+
+<recipe name="DD1GGs Sham And Tuna Pie" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="foodCanSham" count="2"/>
+	<ingredient name="resourceBone" count="10"/>
+	<ingredient name="foodCanTuna" count="2"/>
+</recipe>
+
+<recipe name="BR1NXls HotPot Pizza Stew" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodHoney" count="1"/>
+	<ingredient name="foodCanDogfood" count="1"/>
+	<ingredient name="foodCanBeef" count="1"/>
+</recipe>
+
+<recipe name="Lovers Pizza" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodShamSandwich" count="2"/>
+	<ingredient name="foodCanBeef" count="1"/>
+</recipe>
+
+<recipe name="klausgamer14s Beef steak And Fries" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="resourceAnimalFat" count="2"/>
+</recipe>
+
+<recipe name="QueenOfScreamz8s Chili Burrito" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
+<recipe name="Papas Bare Back Ribs" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="resourceAnimalFat" count="4"/>
+	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
+<recipe name="CokaGamings Flaming Hot Cheetos" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="2"/>
+</recipe>
+
+<recipe name="Naoyans Yakitori" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
+<recipe name="BunnyNZs Bacon And Egg Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="resourceAnimalFat" count="4"/>
+	<ingredient name="foodCornMeal" count="4"/>
+	<ingredient name="foodEgg" count="4"/>
+</recipe>
+
+<recipe name="Curmudgeons Beef Chili Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
+<recipe name="Grabbys Chilli Cheese Fries" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="foodCropPotato" count="5"/>
+	<ingredient name="foodCanChili" count="1"/>
+</recipe>
+
+<recipe name="RabidAries Cute Chick Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="5"/>
+    <ingredient name="BabyChick" count="10"/>
+	<ingredient name="foodCropPotato" count="4"/>
+	<ingredient name="resourceBone" count="10"/>
+</recipe>
+
+<recipe name="Aaron Rockst4r" count="1" craft_time = "10">
+	<ingredient name="resourceWood" count="40"/>
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceBrokenGlass" count="30"/>
+</recipe>
+
+<recipe name="ammoBlunderbuss" count="2">
+	<ingredient name="resourceRockSmall" count="1"/>
+	<ingredient name="resourceGunPowder" count="1"/>
+	<ingredient name="resourcePaper" count="1"/>
+</recipe>
+
+<recipe name="HD Blunderbuss" count="1" craft_time = "10" tags="perkBoomstick">
+	<ingredient name="resourceMetalPipe" count="4"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="resourceScrapBrass" count="20"/>
+</recipe>
+	
+<recipe name="HDScrapIronAxe" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
+	<ingredient name="resourceScrapIron" count="30"/>
+	<ingredient name="resourceNail" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDScrapIronPickAxe" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
+	<ingredient name="resourceScrapIron" count="30"/>
+	<ingredient name="resourceNail" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDScrapIronShovel" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
+	<ingredient name="resourceScrapIron" count="30"/>
+	<ingredient name="resourceNail" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDScrapIronClub" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
+	<ingredient name="resourceScrapIron" count="30"/>
+	<ingredient name="resourceNail" count="2"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDScrapIronShiv" count="1" craft_time = "10" craft_exp_gain="100" tags="perkDeepCuts">
+	<ingredient name="resourceScrapIron" count="30"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceLeather" count="2"/>
+	<ingredient name="resourceNail" count="2"/>
+	<ingredient name="resourceWood" count="2"/>
+</recipe>
+	
+<recipe name="drinkJarBoiledWater" count="1" craft_time="10">
+    <ingredient name="Military Purify Tablets" count="6" />
+    <ingredient name="drinkJarRiverWater" count="1" />
+</recipe>
+	
+<recipe name="drinkJarPureMineralWater" count="1" craft_time="5">
+    <ingredient name="Military Purify Tablets" count="3" />
+    <ingredient name="drinkJarBoiledWater" count="1" />
+</recipe>
+	
+<recipe name="Scrapped Schematics" count="1" craft_time="0.5">
+	<wildcard_forge_category />
+</recipe>
+
+<recipe name="Scrapped Schematics Bundle" count="1" craft_time="0.5">
+	<ingredient name="Scrapped Schematics" count="5"/>
+</recipe>
+	
+<recipe name="HD Ground Mine" count="1" craft_area="HD WorkBench" craft_time = "30" >
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceGunPowder" count="10"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceNail" count="10"/>
+</recipe>
+
+<recipe name="HDBreachingC4" count="1" craft_area="HD WorkBench" craft_time = "30" >
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="resourceGunPowder" count="50"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="resourceNail" count="100"/>
+</recipe>
+	
+<recipe name="HD Blade Trap" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "100" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="Titanium Polish" count="100"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HD Dart Trap" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "100" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="Titanium Polish" count="50"/>
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+	
+<recipe name="HDColtM1911Silencer" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDDEPunisherSilencer" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDDEPunScope" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="35"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDDESilencer" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDDEScope" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="35"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDMac10AutoSilencer" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="25"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDMossberg500Silencer" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="45"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDArcticWarfareSilencer" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="45"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDDragunovSVDScope" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="45"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDDragunovSVDSilencer" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="55"/>
+	<ingredient name="resourceGlue" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDM4A1CarbineScope" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="25"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="3"/>
+</recipe>
+
+<recipe name="HDColtM1911REFLEX" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDColtM1911AREFLEX" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDDEReflex" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HDDEPUNReflex" count="1" craft_time = "30" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+	
+<recipe name="HD Colt M1911" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1" craft_time = "60" tags="perkGunslinger">
+	<ingredient name="resourceForgedIron" count="15"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceSpring" count="3"/>
+</recipe>
+	
+<recipe name="HD Colt M1911A" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1" craft_time = "120" tags="perkGunslinger">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Desert Eagle" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1"  craft_time = "60" tags="learnable,perkGunslinger">
+	<ingredient name="resourceForgedSteel" count="55"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceScrapPolymers" count="12"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Desert Eagle Punisher" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1"  craft_time = "60" tags="learnable,perkGunslinger">
+	<ingredient name="resourceForgedSteel" count="55"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceScrapPolymers" count="12"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Mac10 Auto" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "60" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="35"/>
+	<ingredient name="resourceMechanicalParts" count="35"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD AK Hybrid ACP" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="150"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceSpring" count="15"/>
+</recipe>
+
+<recipe name="HD HK33 Hybrid" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "150" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedSteel" count="100"/>
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD M4A1 Carbine" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="150"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+	<ingredient name="resourceDuctTape" count="30"/>
+	<ingredient name="resourceScrapPolymers" count="30"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD Tactical AR" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "90" tags="learnable,perkMachineGunner">
+	<ingredient name="resourceForgedIron" count="160"/>
+	<ingredient name="resourceMechanicalParts" count="35"/>
+	<ingredient name="resourceScrapPolymers" count="25"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD Spas 12" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+	<ingredient name="resourceForgedIron" count="250"/>
+	<ingredient name="resourceMechanicalParts" count="40"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="modDyeBlack" count="2"/>
+</recipe>
+
+<recipe name="HD Spas 12 Street" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+	<ingredient name="HD Spas 12" count="1"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="modDyePink" count="1"/>
+</recipe>
+
+<recipe name="HD Spas 12 USA" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+	<ingredient name="HD Spas 12" count="1"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="modDyeRed" count="1"/>
+</recipe>
+
+<recipe name="HD Spas 12 Alien" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+	<ingredient name="HD Spas 12" count="1"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="modDyeBlue" count="1"/>
+</recipe>
+
+<recipe name="HD Spas 12 Irish" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+	<ingredient name="HD Spas 12" count="1"/>
+	<ingredient name="resourceDuctTape" count="2"/>
+	<ingredient name="modDyeGreen" count="1"/>
+</recipe>
+
+<recipe name="HD Mossberg 500" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="45"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="25"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Flame Thrower" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkMiner69r">
+	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Vulcan 9mm" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkGunslinger">
+	<ingredient name="HD Vulcan 9mm Barrel" count="3"/>
+	<ingredient name="HD Vulcan 9mm Parts" count="1"/>
+	<ingredient name="HD Vulcan 9mm Motor" count="1"/>
+	<ingredient name="modDyeBlack" count="2"/>
+</recipe>
+
+<recipe name="HD Vulcan 9mm Barrel" craft_area="HD GunBench" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Vulcan 9mm Parts" craft_area="HD GunBench" count="1" craft_time = "60" tags="learnable">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="100"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="30"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HD Vulcan 9mm Motor" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="100"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD Vulcan 7.62mm" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkMachineGunner">
+	<ingredient name="HD Vulcan 7.62mm Barrel" count="4"/>
+	<ingredient name="HD Vulcan 7.62mm Parts" count="1"/>
+	<ingredient name="HD Vulcan 7.62mm Motor" count="1"/>
+	<ingredient name="modDyeBlack" count="2"/>
+</recipe>
+
+<recipe name="HD Vulcan 7.62mm Barrel" craft_area="HD GunBench" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD Vulcan 7.62mm Parts" craft_area="HD GunBench" count="1" craft_time = "60" tags="learnable">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="200"/>
+	<ingredient name="resourceDuctTape" count="40"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceSpring" count="40"/>
+</recipe>
+
+<recipe name="HD Vulcan 7.62mm Motor" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="200"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HD Vulcan 50Bmg" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkMachineGunner">
+	<ingredient name="HD Vulcan 50Bmg Barrel" count="6"/>
+	<ingredient name="HD Vulcan 50Bmg Parts" count="1"/>
+	<ingredient name="HD Vulcan 50Bmg Motor" count="1"/>
+	<ingredient name="modDyeBlack" count="2"/>
+</recipe>
+
+<recipe name="HD Vulcan 50Bmg Barrel" craft_area="HD GunBench" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedIron" count="300"/>
+	<ingredient name="resourceMechanicalParts" count="60"/>
+	<ingredient name="resourceScrapPolymers" count="60"/>
+	<ingredient name="resourceSpring" count="30"/>
+</recipe>
+
+<recipe name="HD Vulcan 50Bmg Parts" craft_area="HD GunBench" count="1" craft_time = "60" tags="learnable">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="200"/>
+	<ingredient name="resourceDuctTape" count="40"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceSpring" count="40"/>
+</recipe>
+
+<recipe name="HD Vulcan 50Bmg Motor" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="200"/>
+	<ingredient name="resourceDuctTape" count="40"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="resourceSpring" count="40"/>
+</recipe>
+	
+<recipe name="HD Auger" craft_area="HD WorkBench" count="1"  craft_time = "60" tags="learnable,perkMiner69r">
+	<ingredient name="meleeToolPickT3Auger" count="1"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceRepairKit" count="10"/>
+	<ingredient name="meleeToolAxeT3ChainsawParts" count="4"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HD Chainsaw" craft_area="HD WorkBench" count="1"  craft_time = "60" tags="learnable,perkMiner69r">
+	<ingredient name="meleeToolAxeT3Chainsaw" count="1"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceRepairKit" count="10"/>
+	<ingredient name="meleeToolAxeT3ChainsawParts" count="4"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HD Shuriken Katana" count="1" craft_time = "60" tags="perkDeepCuts">
+	<ingredient name="resourceForgedSteel" count="35"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HD Wakizashi Katana" count="1" craft_time = "60" tags="perkDeepCuts">
+	<ingredient name="resourceForgedSteel" count="35"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HD Dragon Katana" count="1" craft_time = "60" tags="perkDeepCuts">
+	<ingredient name="resourceForgedSteel" count="35"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceOil" count="10"/>
+</recipe>
+
+<recipe name="HD M3 Auto" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkDeadEye">
+	<ingredient name="resourceForgedSteel" count="150"/>
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Double Barrel" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+	<ingredient name="resourceForgedIron" count="150"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="25"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Double Barrel Snub" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceDuctTape" count="8"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceSpring" count="4"/>
+</recipe>
+
+<recipe name="HD Winchester 1866" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkDeadEye">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Arctic Warfare" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "200" tags="learnable,perkDeadEye">
+	<ingredient name="resourceForgedSteel" count="250"/>
+	<ingredient name="resourceForgedIron" count="150"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD Dragunov SVD" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkDeadEye">
+	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceWood" count="150"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD CheyTac M300" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "150" tags="learnable,perkDeadEye">
+	<ingredient name="resourceForgedSteel" count="250"/>
+	<ingredient name="resourceForgedIron" count="150"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+	<ingredient name="resourceDuctTape" count="30"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HD Karabiner 98k" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkDeadEye">
+	<ingredient name="resourceForgedIron" count="75"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="Weed Wacker 5000" count="1"  craft_time = "10">
+	<ingredient name="resourceForgedIron" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+</recipe>
+
+<recipe name="HD First Aid Kit" count="1" craft_time = "5" tags="learnable,perkYeahScience" >
+	<ingredient name="medicalBloodBag" count="1"/>
+	<ingredient name="drinkJarGrainAlcohol" count="1"/>
+	<ingredient name="medicalFirstAidKit" count="1"/>
+</recipe>
+
+<recipe name="HD Military Vest" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+	
+<recipe name="HD Military Gloves" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+		
+<recipe name="HD Military Legs" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+	
+<recipe name="HD Military Boots" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+	
+<recipe name="HD Military Helmet" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="armorMilitarySetParts" count="5"/>
+	<ingredient name="resourceMilitaryFiber" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+
+<recipe name="HD Wrench" craft_area="HD WorkBench" count="1" craft_time = "90" tags="learnable,perkSalvageOperations">
+	<ingredient name="resourceForgedSteel" count="25"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="2"/>
+</recipe>
+
+<recipe name="HD Scrap Wrench" count="1" craft_time = "60" tags="perkSalvageOperations">
+	<ingredient name="resourceScrapIron" count="250"/>
+	<ingredient name="resourceMechanicalParts" count="8"/>
+	<ingredient name="resourceDuctTape" count="4"/>
+	<ingredient name="resourceScrapPolymers" count="16"/>
+	<ingredient name="resourceSpring" count="4"/>
+</recipe>
+		
+<recipe name="HD Mini Hatchet" count="1"  craft_time = "30" tags="perkMiner69r">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceWood" count="10"/>
+</recipe>
+
+<recipe name="HD Tazas Hatchet" count="1"  craft_time = "15" tags="perkMiner69r">
+	<ingredient name="resourceRockSmall" count="40"/>
+	<ingredient name="resourceYuccaFibers" count="20"/>
+	<ingredient name="resourceWood" count="10"/>
+</recipe>
+
+<recipe name="HD Xcalibur" count="1" craft_time = "30" tags="perkMiner69r">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="5"/>
+	<ingredient name="resourceWood" count="50"/>
+</recipe>
+
+<recipe name="Ethans Bam Hammer" count="1" craft_time = "30" tags="perkSkullCrusher">
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HD Bollock Rot Injection" count="1" craft_time = "60">
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="HD First Aid Kit" count="1"/>
+	<ingredient name="medicalBandage" count="10"/>
+	<ingredient name="drugVitamins" count="2"/>
+</recipe>
+
+<recipe name="HD Bird Flu Injection" count="1" craft_time = "60">
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="HD First Aid Kit" count="1"/>
+	<ingredient name="medicalBandage" count="10"/>
+	<ingredient name="drugVitamins" count="2"/>
+</recipe>
+
+<recipe name="HD Brain Herpes Injection" count="1" craft_time = "60">
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="HD First Aid Kit" count="1"/>
+	<ingredient name="medicalBandage" count="10"/>
+	<ingredient name="drugVitamins" count="2"/>
+</recipe>
+
+<recipe name="HD MRSA Injection" count="1" craft_time = "60">
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="HD First Aid Kit" count="1"/>
+	<ingredient name="medicalBandage" count="10"/>
+	<ingredient name="drugVitamins" count="2"/>
+</recipe>
+
+<recipe name="HDJukeBoxDubStepOFF" count="1" craft_time = "120">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="resourceNail" count="40"/>
+</recipe>
+
+<recipe name="HDJukeBoxReggaeOFF" count="1" craft_time = "120">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="resourceNail" count="40"/>
+</recipe>
+
+<recipe name="HDJukeBox5FingerOFF" count="1" craft_time = "120">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="resourceNail" count="40"/>
+</recipe>
+
+<recipe name="HDJukeBoxASevenfoldOFF" count="1" craft_time = "120">
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="resourceNail" count="40"/>
+</recipe>
+
+<recipe name="HD Truck Elevator x5" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "240">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Truck Elevator x10" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "240">
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HDToolAndDieSet" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDCarbonSewingKit" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceSewingKit" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HDGrinder" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HDBulletTumbler" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HDBulletPress" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HDWelder" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HDCncHandGuns" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HDCncAutomatics" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HDCncRifles" count="1" craft_time = "30" tags="learnable">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HD BR1NXlS Booper" count="1" craft_time = "120" tags="learnable,perkSkullCrusher">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceWood" count="50"/>
+	<ingredient name="meleeWpnBatonT2StunBaton" count="1"/>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="campfire" craft_time = "6" craft_tool="toolCookingPot">
+	<ingredient name="resourceBone" count="6"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="chemistryStation" craft_time = "4" tags="perkYeahScienceCrafting,chemStationCrafting">
+	<ingredient name="resourceBone" count="3"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="chemistryStation" craft_time = "2" tags="perkAdvancedEngineering,chemStationCrafting">
+	<ingredient name="foodCropGraceCorn" count="2"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="HD Working Oven" count="1" craft_area="HD WorkBench" craft_time="45" >
+    <ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+    <ingredient name="campfire" count="1"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Working Fire" count="1" craft_area="HD WorkBench" craft_time="25" >
+    <ingredient name="resourceForgedIron" count="25"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+    <ingredient name="campfire" count="1"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+	
+<recipe name="HD Working Dispenser" count="1" craft_area="HD WorkBench" craft_time="30" >
+	<ingredient name="resourceScrapPolymers" count="100"/>
+    <ingredient name="resourceWood" count="20"/>
+    <ingredient name="resourceForgedIron" count="30"/>
+    <ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+
+<recipe name="HD Working Fridge" count="1" craft_area="HD WorkBench" craft_time="60" >
+	<ingredient name="resourceForgedSteel" count="20"/>
+    <ingredient name="resourceForgedIron" count="75"/>
+    <ingredient name="resourceMechanicalParts" count="30"/>
+    <ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+
+<recipe name="HD Mega Vault" count="1" craft_time = "240" craft_tool="HDWelder" craft_area="HD WorkBench">
+	<ingredient name="resourceForgedSteel" count="150"/>
+	<ingredient name="resourceForgedIron" count="150"/>
+	<ingredient name="resourceMechanicalParts" count="50"/>
+	<ingredient name="resourceScrapPolymers" count="40"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD Fuel Storage" count="1" craft_time = "140" craft_tool="HDWelder" craft_area="HD WorkBench">
+	<ingredient name="resourceForgedSteel" count="100"/>
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HDPumpJackE" count="1"  craft_time="120" craft_tool="HDWelder" craft_area="HD WorkBench" tags="learnable">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HD GunBench" count="1"  craft_time = "160" tags="learnable">
+	<ingredient name="resourceForgedIron" count="55"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceScrapPolymers" count="12"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD WorkBench" count="1"  craft_time = "160" tags="learnable">
+	<ingredient name="resourceForgedIron" count="55"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceScrapPolymers" count="12"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD PicsBench" count="1"  craft_time = "160" tags="learnable">
+	<ingredient name="resourceForgedIron" count="55"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceScrapPolymers" count="12"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD AmmoBench" count="1"  craft_time = "160" tags="learnable">
+	<ingredient name="resourceForgedIron" count="55"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceScrapPolymers" count="12"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="barbedWireSheet" count="1">
+    <ingredient name="resourceScrapIron" count="20"/>
+</recipe>
+	
+<recipe name="drinkJarBoiledWater" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="20">
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="HD Concrete Barrier" count="1" craft_time="10" craft_area="cementMixer" tags="cementMixerCrafting">
+	<ingredient name="resourceConcreteMix" count="100"/>
+</recipe>
+
+<recipe name="HD Modular Wall" count="1" craft_time="30" craft_area="cementMixer" tags="cementMixerCrafting">
+	<ingredient name="resourceConcreteMix" count="500"/>
+</recipe>
+
+<recipe name="ammo9mmBulletBall" count="30">
+	<ingredient name="Ammo Supply 9mm" count="1"/>
+</recipe>
+	
+<recipe name="ammo9mmBulletHP" count="30">
+	<ingredient name="Ammo Supply 9mm" count="1"/>
+</recipe>
+		
+<recipe name="ammo9mmBulletAP" count="30">
+	<ingredient name="Ammo Supply 9mm" count="1"/>
+</recipe>
+	
+<recipe name="ammo44MagnumBulletBall" count="30">
+	<ingredient name="Ammo Supply 44Mag" count="1"/>
+</recipe>
+	
+<recipe name="ammo44MagnumBulletHP" count="30">
+	<ingredient name="Ammo Supply 44Mag" count="1"/>
+</recipe>
+		
+<recipe name="ammo44MagnumBulletAP" count="30">
+	<ingredient name="Ammo Supply 44Mag" count="1"/>
+</recipe>
+	
+<recipe name="ammo762mmBulletBall" count="30">
+	<ingredient name="Ammo Supply 762mm" count="1"/>
+</recipe>
+	
+<recipe name="ammo762mmBulletHP" count="30">
+	<ingredient name="Ammo Supply 762mm" count="1"/>
+</recipe>
+		
+<recipe name="ammo762mmBulletAP" count="30">
+	<ingredient name="Ammo Supply 762mm" count="1"/>
+</recipe>
+		
+<recipe name="ammoShotgunShell" count="30">
+	<ingredient name="Ammo Supply Shotgun" count="1"/>
+</recipe>
+
+<recipe name="ammoShotgunSlug" count="30">
+	<ingredient name="Ammo Supply ShotgunSlug" count="1"/>
+</recipe>
+		
+<recipe name="ammoShotgunBreachingSlug" count="30">
+	<ingredient name="Ammo Supply Breach Slug" count="1"/>
+</recipe>
+		
+<recipe name="ammoBlunderbuss" count="30">
+	<ingredient name="Ammo Supply Shredder" count="1"/>
+</recipe>
+
+<recipe name="45ACPRound" count="30">
+	<ingredient name="Ammo Supply 45 ACP" count="1"/>
+</recipe>
+
+<recipe name="DeagleRound" count="30">
+	<ingredient name="Ammo Supply DE50" count="1"/>
+</recipe>
+
+<recipe name="500AutoMax" count="30">
+	<ingredient name="Ammo Supply 500 Auto Max" count="1"/>
+</recipe>
+
+<recipe name="408Round" count="20">
+	<ingredient name="Ammo Supply 408 Round" count="1"/>
+</recipe>
+
+<recipe name="50BMGRound" count="20">
+	<ingredient name="Ammo Supply 50 BMG Round" count="1"/>
+</recipe>
+		
+<recipe name="Fat Soaked Log Bundle" craft_time = "5" count="1000">
+	<ingredient name="drinkJarGrainAlcohol" count="5" />
+	<ingredient name="resourceWood" count="500"/>
+	<ingredient name="resourceAnimalFat" count="5" />
+</recipe>
+			   
+<recipe name="HD Ammo Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Building Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Forge Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Fuel Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Medical Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Duke Coin Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Grocery Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+
+<recipe name="HD Junk Supplies" craft_time="5" count="1">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceGlue" count="2"/>
+</recipe>
+		
+<recipe name="HD Penthrox Injection" craft_time="60" craft_area="HD WorkBench" count="1">
+	<ingredient name="HD Poison Vile" count="1"/>
+	<ingredient name="resourceBone" count="10"/>
+	<ingredient name="foodRottingFlesh" count="10"/>
+</recipe>
+
+<recipe name="HD Poison Vile" craft_time="60" craft_area="HD WorkBench" count="1">
+	<ingredient name="foodRottingFlesh" count="10"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
+	<ingredient name="resourceAcid" count="5"/>
+	<ingredient name="resourceBone" count="5"/>
+</recipe>
+	
+<recipe name="War3zuk Quest 01" count="1" craft_time="1" craft_exp_gain="0" >
+	<ingredient name="resourcePaper" count="50"/>
+</recipe>
+
+<recipe name="War3zuk Quest 02" count="1" craft_time="1" craft_exp_gain="0" >
+	<ingredient name="resourcePaper" count="50"/>
+</recipe>
+
+<recipe name="HD Gas Generator" count="1" craft_area="HD WorkBench" craft_time = "60" tags="learnable">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="30"/>
+	<ingredient name="resourceElectricParts" count="15"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceOil" count="5"/>
+</recipe>
+
+<recipe name="HD Generator" count="1" craft_area="HD WorkBench" craft_time = "60" tags="learnable">
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="30"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceOil" count="5"/>
+</recipe>
+	
+<recipe name="HD High Torque Motor" count="1" craft_area="HD WorkBench" craft_time="30" tags="perkYeahScience" >
+	<ingredient name="resourceForgedIron" count="30"/>
+	<ingredient name="smallEngine" count="4"/>
+	<ingredient name="resourceOil" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="30"/>
+	<ingredient name="resourceElectricParts" count="20"/>
+</recipe>
+
+<recipe name="HD Cell" count="1" craft_area="HD WorkBench" craft_time="30" tags="perkYeahScience" >
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceDuctTape" count="6"/>
+	<ingredient name="carBattery" count="4"/>
+	<ingredient name="resourceOil" count="5"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+</recipe>
+
+<recipe name="Golden Coin" craft_time="5" count="1">
+	<ingredient name="casinoCoin" count="10000"/>
+</recipe>
+		
+<recipe name="casinoCoin" craft_time="1" count="10000">
+	<ingredient name="Golden Coin" count="1"/>
+</recipe>
+		
+<recipe name="resourceAcid" count="1" craft_time = "5" tags="perkMiner69r">
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="drinkJarEmpty" count="1"/>
+</recipe>
+
+<recipe name="HD Electrolyte" craft_time="120" count="200">
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+	
+<recipe name="HD Junk Turret 9mm" count="1" craft_time = "60" craft_area="HD WorkBench" tags="learnable,perkTurrets">
+	<ingredient name="gunBotT2JunkTurret" count="1"/>
+	<ingredient name="gunBotRoboticsParts" count="2"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+</recipe>
+
+<recipe name="HD Junk Turret 762mm" count="1" craft_time = "100" craft_area="HD WorkBench" tags="learnable,perkTurrets">
+	<ingredient name="gunBotT2JunkTurret" count="1"/>
+	<ingredient name="gunBotRoboticsParts" count="4"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceSpring" count="20"/>
+</recipe>
+
+<recipe name="HD Junk Turret 50mm" count="1" craft_time = "120" craft_area="HD WorkBench" tags="learnable,perkTurrets">
+	<ingredient name="gunBotT2JunkTurret" count="1"/>
+	<ingredient name="gunBotRoboticsParts" count="6"/>
+	<ingredient name="resourceDuctTape" count="30"/>
+	<ingredient name="resourceScrapPolymers" count="30"/>
+	<ingredient name="resourceSpring" count="30"/>
+</recipe>
+
+<recipe name="Crop Plot" count="1" craft_time="10">
+	<ingredient name="resourceWood" count="10"/>
+	<ingredient name="foodRottingFlesh" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="5"/>
+	<ingredient name="resourceClayLump" count="10"/>
+</recipe>
+
+<recipe name="HD Forge" count="1" craft_time="60" tags="learnable">
+	<ingredient name="resourceRockSmall" count="100"/>
+	<ingredient name="resourceClayLump" count="100"/>
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
+	<ingredient name="toolBellows" count="2"/>
+</recipe>
+
+<recipe name="Forged Brass" count="1" material_based="true" craft_area="HD Forge" craft_time="1" craft_tool="toolForgeCrucible">
+	<ingredient name="unit_brass" count="2"/>
+	<ingredient name="unit_clay" count="2"/>
+	<ingredient name="unit_stone" count="2"/>
+</recipe>
+
+<recipe name="Forged Titanium" count="1" material_based="true" craft_area="HD Forge" craft_time="1" craft_tool="toolForgeCrucible">
+	<ingredient name="unit_iron" count="2"/>
+	<ingredient name="unit_brass" count="2"/>
+	<ingredient name="unit_clay" count="2"/>
+	<ingredient name="unit_lead" count="2"/>
+</recipe>
+
+<recipe name="Congealed Metal" count="2" craft_area="chemistryStation">
+	<ingredient name="Forged Brass" count="1"/>
+	<ingredient name="Forged Titanium" count="1"/>
+</recipe>
+
+<recipe name="Steel Polish" count="1" craft_area="chemistryStation">
+	<ingredient name="Congealed Metal" count="1"/>
+	<ingredient name="resourceCrushedSand" count="1"/>
+</recipe>
+
+<recipe name="Titanium Polish" count="1" craft_area="chemistryStation">
+	<ingredient name="Congealed Metal" count="1"/>
+	<ingredient name="Steel Polish" count="1"/>
+</recipe>
+
+<recipe name="scrapIronLogSpike4" count="1">
+	<ingredient name="resourceScrapIron" count="10"/>
+</recipe>
+
+<recipe name="woodLogSpike1" count="1">
+	<ingredient name="resourceWood" count="10"/>
+</recipe>
+
+<recipe name="HD Knife" craft_time = "30" count="10" >
+	<ingredient name="resourceForgedIron" count="10"/>
+	<ingredient name="resourceLeather" count="10"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+</recipe>
+
+<recipe name="HDNailGunBolt" craft_time = "0.5" count="1">
+	<ingredient name="resourceScrapIron" count="10"/>
+	<ingredient name="resourceScrapPolymers" count="2"/>
+</recipe>
+
+<recipe name="HD Power Relay Block" count="1" craft_area="HD WorkBench" craft_time = "10">
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceElectricParts" count="5"/>
+	<ingredient name="resourceScrapIron" count="20"/>
+</recipe>
+
+<recipe name="45ACPRound" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+	<ingredient name="resourceBulletTip" count="1"/>
+	<ingredient name="resourceGunPowder" count="1"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+
+<recipe name="DeagleRound" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+	<ingredient name="resourceBulletTip" count="2"/>
+	<ingredient name="resourceGunPowder" count="2"/>
+	<ingredient name="resourceBulletCasing" count="1"/>
+</recipe>
+
+<recipe name="50BMGRound" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+	<ingredient name="resourceBulletTip" count="3"/>
+	<ingredient name="resourceGunPowder" count="6"/>
+	<ingredient name="resourceBulletCasing" count="3"/>
+</recipe>
+
+<recipe name="408Round" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+	<ingredient name="resourceBulletTip" count="2"/>
+	<ingredient name="resourceGunPowder" count="4"/>
+	<ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+<recipe name="500AutoMax" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+	<ingredient name="resourceBulletTip" count="2"/>
+	<ingredient name="resourceGunPowder" count="2"/>
+	<ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+<recipe name="9mm Bullet SH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+	 <ingredient name="HD Electrolyte" count="2"/>
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+	
+<recipe name="44Mag Bullet SH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+	 <ingredient name="HD Electrolyte" count="2"/>
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+	
+<recipe name="50MagBulletSH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+	 <ingredient name="HD Electrolyte" count="2"/>
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+	
+<recipe name="500MagBulletSH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+	 <ingredient name="HD Electrolyte" count="2"/>
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+	
+<recipe name="762Mag Bullet SH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+	 <ingredient name="HD Electrolyte" count="2"/>
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+<recipe name="45ACPRoundSH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+	 <ingredient name="HD Electrolyte" count="2"/>
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+<recipe name="408RoundSH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="4" />
+	 <ingredient name="HD Electrolyte" count="4"/>
+     <ingredient name="resourceGunPowder" count="4"/>
+     <ingredient name="resourceBulletCasing" count="4"/>
+</recipe>
+
+<recipe name="50BMGRoundSH" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="5" />
+	 <ingredient name="HD Electrolyte" count="5"/>
+     <ingredient name="resourceGunPowder" count="10"/>
+     <ingredient name="resourceBulletCasing" count="4"/>
+</recipe>
+
+<recipe name="Hollow Tip" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.1">
+     <ingredient name="resourceScrapLead" count="2"/>
+</recipe>
+	
+<recipe name="9mm Bullet INC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+	
+<recipe name="44Mag Bullet INC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+	
+<recipe name="50MagBulletINC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+	
+<recipe name="500MagBulletINC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+	
+<recipe name="762Mag Bullet INC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+<recipe name="45ACPRoundINC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="2"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+<recipe name="408RoundINC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="5"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+<recipe name="50BMGRoundINC" count="1" craft_area="HD AmmoBench" craft_tool="HDBulletPress" craft_time = "0.5">
+     <ingredient name="Hollow Tip" count="2" />
+     <ingredient name="resourceGunPowder" count="5"/>
+     <ingredient name="resourceBulletCasing" count="2"/>
+</recipe>
+
+<recipe name="HD Noob Frame" count="1" craft_time = "1" >
+		<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HD Rolling Door" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "200">
+	<ingredient name="resourceForgedSteel" count="200"/>
+	<ingredient name="resourceForgedIron" count="200"/>
+	<ingredient name="resourceSpring" count="20"/>
+	<ingredient name="Titanium Polish" count="50"/>
+</recipe>
+
+<recipe name="HDGun Oil" count="2" craft_time = "0.5">
+	<ingredient name="resourceDuctTape" count="1"/>
+	<ingredient name="resourceOil" count="1"/>
+</recipe>
+
+<recipe name="RepairKitHandGuns" count="1" craft_time = "2">
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="gunHandgunT1PistolParts" count="1"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="HDGun Oil" count="1"/>
+</recipe>
+
+<recipe name="RepairKitAutomaticRifles" count="1" craft_time = "2">
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="gunMGT1AK47Parts" count="1"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="HDGun Oil" count="1"/>
+</recipe>
+
+<recipe name="RepairKitShotGuns" count="1" craft_time = "2">
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="gunShotgunT1DoubleBarrelParts" count="1"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="HDGun Oil" count="1"/>
+</recipe>
+
+<recipe name="RepairKitHuntingRifles" count="1" craft_time = "2">
+	<ingredient name="resourceForgedIron" count="1"/>
+	<ingredient name="gunRifleT1HuntingRifleParts" count="1"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceCloth" count="1"/>
+	<ingredient name="HDGun Oil" count="1"/>
+</recipe>
+
+<recipe name="gunHandgunT1PistolParts" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="gunRifleT1HuntingRifleParts" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="gunShotgunT1DoubleBarrelParts" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="gunExplosivesT3RocketLauncherParts" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="gunBotRoboticsParts" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="armorMilitarySetParts" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="armorSteelSetParts" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="gunMGT1AK47Parts" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="10">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="Forged Titanium" count="2"/>
+	<ingredient name="resourceCloth" count="2"/>
+	<ingredient name="HDGun Oil" count="2"/>
+</recipe>
+
+<recipe name="HD Flame Fuel" count="100" craft_tool="HDGrinder" craft_area="HD AmmoBench" craft_time="3">
+	<ingredient name="ammoGasCan" count="200"/>
+	<ingredient name="resourceOilShale" count="10"/>
+</recipe>
+
+<recipe name="ammoGasCan" count="200" craft_tool="HDGrinder" craft_area="HD AmmoBench" craft_time="5">
+	<ingredient name="HD Flame Fuel" count="100"/>
+</recipe>
+
+<recipe name="resourceGunPowder" count="1" craft_tool="HDGrinder" craft_area="HD AmmoBench" craft_time="0.5">
+	<ingredient name="resourceCoal" count="1"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="1"/>
+</recipe>
+
+<recipe name="ammoGasCan" count="100" craft_tool="HDGrinder" craft_area="HD AmmoBench" craft_time="0.5">
+	<ingredient name="resourceOilShale" count="10"/>
+</recipe>
+
+<recipe name="HDGunPowderBundle" count="1" craft_time="1000" craft_tool="HDGrinder" craft_area="HD AmmoBench" tags="workbenchCrafting">
+	<ingredient name="resourceCoal" count="800"/>
+	<ingredient name="resourcePotassiumNitratePowder" count="800"/>
+</recipe>
+
+<recipe name="HDammoGasCanBundle" count="1" craft_time="500" craft_tool="HDGrinder" craft_area="HD AmmoBench" tags="workbenchCrafting">
+	<ingredient name="resourceOilShale" count="800"/>
+</recipe>
+
+<recipe name="Class Bruiser"> <ingredient name="Starter Class" count="1"/></recipe>
+<recipe name="Class Builder"> <ingredient name="Starter Class" count="1"/></recipe>
+<recipe name="Class Engineer"> <ingredient name="Starter Class" count="1"/></recipe>
+<recipe name="Class Farmer"> <ingredient name="Starter Class" count="1"/></recipe>
+<recipe name="Class Gunman"> <ingredient name="Starter Class" count="1"/></recipe>
+<recipe name="Class Hunter"> <ingredient name="Starter Class" count="1"/></recipe>
+<recipe name="Class Mechanic"> <ingredient name="Starter Class" count="1"/></recipe>
+<recipe name="Class Medic"> <ingredient name="Starter Class" count="1"/></recipe>
+<recipe name="Class Miner"> <ingredient name="Starter Class" count="1"/></recipe>
+<recipe name="Class Rifleman"> <ingredient name="Starter Class" count="1"/></recipe>
+
+<recipe name="Disassemble 9mm Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammo9mmBulletBall" count="10"/>
+</recipe>
+
+<recipe name="Disassemble HP 9mm Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammo9mmBulletHP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble AP 9mm Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammo9mmBulletAP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble 44 Magnum Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammo44MagnumBulletBall" count="10"/>
+</recipe>
+
+<recipe name="Disassemble HP 44 Magnum Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammo44MagnumBulletHP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble AP 44 Magnum Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammo44MagnumBulletAP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble 7.62mm Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammo762mmBulletBall" count="10"/>
+</recipe>
+
+<recipe name="Disassemble HP 7.62mm Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammo762mmBulletHP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble AP 7.62mm Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammo762mmBulletAP" count="10"/>
+</recipe>
+
+<recipe name="Disassemble Deagle Round 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="DeagleRound" count="10"/>
+</recipe>
+
+<recipe name="Disassemble 500 Auto Max 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="500AutoMax" count="10"/>
+</recipe>
+
+<recipe name="Disassemble Blunderbuss Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammoBlunderbuss" count="10"/>
+</recipe>
+
+<recipe name="Disassemble Shotgun Shell Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammoShotgunShell" count="10"/>
+</recipe>
+
+<recipe name="Disassemble Shotgun Slug Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammoShotgunSlug" count="10"/>
+</recipe>
+
+<recipe name="Disassemble Shotgun Breaching Slug Ammo 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="ammoShotgunBreachingSlug" count="10"/>
+</recipe>
+
+<recipe name="Disassemble Molotov Cocktail 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="thrownAmmoMolotovCocktail" count="10"/>
+</recipe>
+
+<recipe name="Disassemble 45 ACP Round 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="45ACPRound" count="10"/>
+</recipe>
+
+<recipe name="Disassemble 408 Round 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="408Round" count="10"/>
+</recipe>
+
+<recipe name="Disassemble 50 BMG Round 10" craft_area="HD AmmoBench" craft_tool="HDBulletTumbler" craft_time = "0.5">
+	<ingredient name="50BMGRound" count="10"/>
+</recipe>
+
+<recipe name="concreteTunnelCenter" count="1" craft_time="5" craft_area="cementMixer" tags="cementMixerCrafting">
+	<ingredient name="resourceConcreteMix" count="10"/>
+</recipe>
+
+<recipe name="concreteTunnelCorner" count="1" craft_time="5" craft_area="cementMixer" tags="cementMixerCrafting">
+	<ingredient name="resourceConcreteMix" count="20"/>
+</recipe>
+
+<recipe name="concreteTubeCenter" count="1" craft_time="5" craft_area="cementMixer" tags="cementMixerCrafting">
+	<ingredient name="resourceConcreteMix" count="10"/>
+</recipe>
+
+<recipe name="concreteTubeCorner" count="1" craft_time="5" craft_area="cementMixer" tags="cementMixerCrafting">
+	<ingredient name="resourceConcreteMix" count="20"/>
+</recipe>
+
+<recipe name="BulletGlassTunnelCenter" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
+	<ingredient name="unit_glass" count="25"/>
+	<ingredient name="unit_stone" count="10"/>
+	<ingredient name="unit_lead" count="10"/>
+	<ingredient name="unit_iron" count="10"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+
+<recipe name="BulletGlassTunnelCorner" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
+	<ingredient name="unit_glass" count="25"/>
+	<ingredient name="unit_stone" count="10"/>
+	<ingredient name="unit_lead" count="10"/>
+	<ingredient name="unit_iron" count="10"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+
+<recipe name="BulletGlassTubeCenter" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
+	<ingredient name="unit_glass" count="25"/>
+	<ingredient name="unit_stone" count="10"/>
+	<ingredient name="unit_lead" count="10"/>
+	<ingredient name="unit_iron" count="10"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+
+<recipe name="BulletGlassTubeCorner" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
+	<ingredient name="unit_glass" count="25"/>
+	<ingredient name="unit_stone" count="10"/>
+	<ingredient name="unit_lead" count="10"/>
+	<ingredient name="unit_iron" count="10"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+
+<recipe name="HD DrawBridge" count="1" craft_time = "150" craft_tool="HDWelder" craft_area="HD WorkBench">
+     <ingredient name="resourceForgedIron" count="200" />
+     <ingredient name="resourceSpring" count="20"/>
+     <ingredient name="resourceWood" count="1000"/>
+     <ingredient name="resourceScrapIron" count="1000"/>
+</recipe>
+
+<recipe name="Painting XXX 001" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 002" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 003" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 004" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 005" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 006" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 007" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 008" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 009" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Painting XXX 010" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 011" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 012" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 013" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 014" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 015" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 016" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 017" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 018" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 019" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 020" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="modDyeWhite" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeRed" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeGreen" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeBlack" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeBlue" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeBrown" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyePink" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyePurple" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="modDyeYellow" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourcePaint" count="20"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="HDplantedMushroom1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedYucca1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedCotton1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedCoffee1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedGoldenrod1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedAloe1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedBlueberry1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedPotato1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedChrysanthemum1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedCorn1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedHop1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedSnowberry1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="HDplantedPumpkin1" count="1">
+	<ingredient name="plantedGraceCorn1" count="2"/>
+</recipe>
+
+<recipe name="foodCropGraceCorn" count="1" craft_time = "0.5">
+	<ingredient name="foodCropCorn" count="10"/>
+</recipe>
+
+<recipe name="plantedAloe1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropAloeLeaf" count="1"/>
+</recipe>
+
+<recipe name="plantedBlueberry1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropBlueberries" count="1"/>
+</recipe>
+
+<recipe name="plantedChrysanthemum1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+</recipe>
+
+<recipe name="plantedCoffee1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropCoffeeBeans" count="1"/>
+</recipe>
+
+<recipe name="plantedCorn1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropCorn" count="1"/>
+</recipe>
+
+<recipe name="plantedCotton1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropCottonPlant" count="1"/>
+</recipe>
+
+<recipe name="plantedGoldenrod1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropGoldenrodPlant" count="1"/>
+</recipe>
+
+<recipe name="plantedGraceCorn1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropGraceCorn" count="1"/>
+</recipe>
+
+<recipe name="plantedHop1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="resourceCropHopsFlower" count="1"/>
+</recipe>
+
+<recipe name="plantedMushroom1" count="1" craft_time="2" tags="learnable">
+	<ingredient name="foodCropMushrooms" count="1"/>
+	<ingredient name="resourceClayLump" count="1"/>
+</recipe>
+
+<recipe name="plantedPotato1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropPotato" count="1"/>
+</recipe>
+
+<recipe name="plantedYucca1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropYuccaFruit" count="1"/>
+</recipe>
+
+<recipe name="plantedPumpkin1" count="1" craft_time="1" tags="learnable">
+	<ingredient name="foodCropPumpkin" count="1"/>
+</recipe>
+
+</append>
+</configs>
