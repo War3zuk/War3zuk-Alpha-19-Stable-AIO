@@ -5364,12 +5364,12 @@
 	<property name="Model" value="#@modfolder:Resources/bodyBagPairMixed.unity3d?bodyBagPairMixed.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </append>
 
-<append xpath="/blocks/block[@name='houseFrontDoor1_v1']">
+<!--  <append xpath="/blocks/block[@name='houseFrontDoor1_v1']">
 	<property name="DowngradeBlock" value="BooMotherFucker"/>
 </append>
 
 <append xpath="/blocks/block[@name='secureDoorWooden']">
 	<property name="DowngradeBlock" value="BooMotherFucker"/>
-</append>
+</append> -->
 
 </configs>

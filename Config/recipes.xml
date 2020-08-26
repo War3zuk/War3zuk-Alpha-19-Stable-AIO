@@ -1236,12 +1236,11 @@
 	<ingredient name="resourceSpring" count="2"/>
 </recipe>
 
-<recipe name="HD Scrap Wrench" count="1" craft_time = "60" tags="perkSalvageOperations">
-	<ingredient name="resourceScrapIron" count="250"/>
-	<ingredient name="resourceMechanicalParts" count="8"/>
-	<ingredient name="resourceDuctTape" count="4"/>
-	<ingredient name="resourceScrapPolymers" count="16"/>
-	<ingredient name="resourceSpring" count="4"/>
+<recipe name="HD Scrap Wrench" count="1" craft_time = "60">
+	<ingredient name="resourceScrapIron" count="500"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 		
 <recipe name="HD Mini Hatchet" count="1"  craft_time = "30" tags="perkMiner69r">

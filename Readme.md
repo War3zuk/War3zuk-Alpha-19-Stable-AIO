@@ -1,5 +1,14 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v4.0 to v4.1
+
+Fixed HD Scrap Wrench Recipe
+Added HD Scrap Wrench Localization
+Fixed HD Impact Wrench Schematic Scrap Recipe
+
+Launcher Edits:
+Removed xcostum_SuperStore(by_Volar) Bad FPS
+
 Updated v3.9 to v4.0
 
 Fixed Distance BackPack Not Showing
