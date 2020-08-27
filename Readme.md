@@ -6,8 +6,17 @@ Fixed HD Scrap Wrench Recipe
 Added HD Scrap Wrench Localization
 Fixed HD Impact Wrench Schematic Scrap Recipe
 
+Balanced Schematics Drops (Down .1)
+
 Launcher Edits:
 Removed xcostum_SuperStore(by_Volar) Bad FPS
+Combined CompoPack 45 B180
+
+Added Custom NitroMap (War3zukMPAIO) All Wasteland
+Added Oil_Shale To WasteLand Decoration
+Added Oil_Shale To WasteLand Viens
+Removed WasteLand Cinderpiles
+Removed Wasteland ScrapPiles
 
 Updated v3.9 to v4.0
 

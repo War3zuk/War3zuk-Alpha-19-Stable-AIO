@@ -47,82 +47,82 @@
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
 
 <lootgroup name="War3zukHDWeaponParts">
-		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob=".05"/>
-		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob=".05"/>
-		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob=".05"/>
-		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob=".05"/>
-		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob=".05"/>
-		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob=".05"/>
-		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob=".05"/>
-		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob=".05"/>
-		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob=".05"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob=".03"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob=".03"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob=".03"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob=".03"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob=".03"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob=".03"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob=".03"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob=".03"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob=".03"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDWeapons">
-		<item name="HD Mods Schematic" count="1" prob=".10"/>
-		<item name="HD Desert Eagle Schematic" count="1" prob=".10"/>
-		<item name="HD Mac10 Auto Schematic" count="1" prob=".10"/>
-		<item name="HD M3 Auto Schematic" count="1" prob=".10"/>
-		<item name="HD AK Hybrid ACP Schematic" count="1" prob=".10"/>
-		<item name="HD HK33 Hybrid Schematic" count="1" prob=".10"/>		
-		<item name="HD M4A1 Carbine Schematic" count="1" prob=".10"/>
-		<item name="HD Tactical AR Schematic" count="1" prob=".10"/>
-		<item name="HD Spas 12 Schematic" count="1" prob=".10"/>
-		<item name="HD Mossberg 500 Schematic" count="1" prob=".10"/>
-		<item name="HD Double Barrel Schematic" count="1" prob=".10"/>
-		<item name="HD Winchester 1866 Schematic" count="1" prob=".10"/>
-		<item name="HD Karabiner 98k Schematic" count="1" prob=".10"/>
-		<item name="HD Dragunov SVD Schematic" count="1" prob=".10"/>
-		<item name="HD CheyTac M300 Schematic" count="1" prob=".10"/>
-		<item name="HD Arctic Warfare Schematic" count="1" prob=".10"/>
-		<item name="HD Flame Thrower Schematic" count="1" prob=".10"/>
-		<item name="HD Rocket Launcher Schematic" count="1" prob=".10"/>
+		<item name="HD Mods Schematic" count="1" prob=".04"/>
+		<item name="HD Desert Eagle Schematic" count="1" prob=".04"/>
+		<item name="HD Mac10 Auto Schematic" count="1" prob=".04"/>
+		<item name="HD M3 Auto Schematic" count="1" prob=".04"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" prob=".04"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob=".04"/>		
+		<item name="HD M4A1 Carbine Schematic" count="1" prob=".04"/>
+		<item name="HD Tactical AR Schematic" count="1" prob=".04"/>
+		<item name="HD Spas 12 Schematic" count="1" prob=".04"/>
+		<item name="HD Mossberg 500 Schematic" count="1" prob=".04"/>
+		<item name="HD Double Barrel Schematic" count="1" prob=".04"/>
+		<item name="HD Winchester 1866 Schematic" count="1" prob=".04"/>
+		<item name="HD Karabiner 98k Schematic" count="1" prob=".04"/>
+		<item name="HD Dragunov SVD Schematic" count="1" prob=".04"/>
+		<item name="HD CheyTac M300 Schematic" count="1" prob=".04"/>
+		<item name="HD Arctic Warfare Schematic" count="1" prob=".04"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob=".04"/>
+		<item name="HD Rocket Launcher Schematic" count="1" prob=".04"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenches">
-		<item name="HD GunBench Schematic" count="1" prob=".20"/>
-		<item name="HD WorkBench Schematic" count="1" prob=".20"/>
-		<item name="HD AmmoBench Schematic" count="1" prob=".20"/>
-		<item name="HD PicsBench Schematic" count="1" prob=".20"/>
+		<item name="HD GunBench Schematic" count="1" prob=".05"/>
+		<item name="HD WorkBench Schematic" count="1" prob=".05"/>
+		<item name="HD AmmoBench Schematic" count="1" prob=".05"/>
+		<item name="HD PicsBench Schematic" count="1" prob=".05"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenchAddons">
-		<item name="HD Tool And Die Set Schematic" count="1" prob=".15"/>
-		<item name="HD Carbon Sewing Kit Schematic" count="1" prob=".15"/>
-		<item name="HD Grinder Schematic" count="1" prob=".15"/>
-		<item name="HD Bullet Tumbler Schematic" count="1" prob=".15"/>
-		<item name="HD Bullet Press Schematic" count="1" prob=".15"/>
-		<item name="HD Welder Schematic" count="1" prob=".15"/>
-		<item name="HD Cnc HandGuns Schematic" count="1" prob=".15"/>
-		<item name="HD Cnc Automatics Schematic" count="1" prob=".15"/>
-		<item name="HD Cnc Rifles Schematic" count="1" prob=".15"/>
+		<item name="HD Tool And Die Set Schematic" count="1" prob=".10"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1" prob=".10"/>
+		<item name="HD Grinder Schematic" count="1" prob=".10"/>
+		<item name="HD Bullet Tumbler Schematic" count="1" prob=".10"/>
+		<item name="HD Bullet Press Schematic" count="1" prob=".10"/>
+		<item name="HD Welder Schematic" count="1" prob=".10"/>
+		<item name="HD Cnc HandGuns Schematic" count="1" prob=".10"/>
+		<item name="HD Cnc Automatics Schematic" count="1" prob=".10"/>
+		<item name="HD Cnc Rifles Schematic" count="1" prob=".10"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDTools">
-		<item name="HD Forge Schematic" count="1" prob=".15"/>
-		<item name="HD Cement Mixer Schematic" count="1" prob=".15"/>
-		<item name="HD Generator Schematic" count="1" prob=".15"/>
-		<item name="HD Gas Generator Schematic" count="1" prob=".15"/>
-		<item name="HDPumpJackE Schematic" count="1" prob=".15"/>
-		<item name="HD Junk Turret Schematic" count="1" prob=".15"/>
-		<item name="HD Wrench Schematic" count="1" prob=".15"/>
-		<item name="HD Auger Schematic" count="1" prob=".15"/>
-		<item name="HD Chainsaw Schematic" count="1" prob=".15"/>
-		<item name="HD Impact Wrench Schematic" count="1" prob=".15"/>
+		<item name="HD Forge Schematic" count="1" prob=".10"/>
+		<item name="HD Cement Mixer Schematic" count="1" prob=".10"/>
+		<item name="HD Generator Schematic" count="1" prob=".10"/>
+		<item name="HD Gas Generator Schematic" count="1" prob=".10"/>
+		<item name="HDPumpJackE Schematic" count="1" prob=".10"/>
+		<item name="HD Junk Turret Schematic" count="1" prob=".10"/>
+		<item name="HD Wrench Schematic" count="1" prob=".10"/>
+		<item name="HD Auger Schematic" count="1" prob=".10"/>
+		<item name="HD Chainsaw Schematic" count="1" prob=".10"/>
+		<item name="HD Impact Wrench Schematic" count="1" prob=".10"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo">
-		<item name="Ammo Supply Shredder" count="1,2" prob=".60"/>
-		<item name="Ammo Supply 9mm" count="1,2" prob=".50"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob=".50"/>
+		<item name="Ammo Supply 9mm" count="1,2" prob=".40"/>
 		<item name="Ammo Supply 44Mag" count="1,2" prob=".40"/>
 		<item name="Ammo Supply 45 ACP" count="1,2" prob=".40"/>
-		<item name="Ammo Supply DE50" count="1,2" prob=".40"/>
+		<item name="Ammo Supply DE50" count="1,2" prob=".30"/>
 		<item name="Ammo Supply 500 Auto Max" count="1,2" prob=".30"/>
 		<item name="Ammo Supply 762mm" count="1,2" prob=".30"/>
-		<item name="Ammo Supply Shotgun" count="1,2" prob=".30"/>
+		<item name="Ammo Supply Shotgun" count="1,2" prob=".20"/>
 		<item name="Ammo Supply ShotgunSlug" count="1,2" prob=".20"/>
-		<item name="Ammo Supply Breach Slug" count="1,2" prob=".20"/>
-		<item name="Ammo Supply 408 Round" count="1,2" prob=".20"/>
+		<item name="Ammo Supply Breach Slug" count="1,2" prob=".10"/>
+		<item name="Ammo Supply 408 Round" count="1,2" prob=".10"/>
 		<item name="Ammo Supply 50 BMG Round" count="1,2" prob=".10"/>
 </lootgroup>
 
@@ -143,14 +143,14 @@
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical">
-		<item name="HD First Aid Kit Schematic" count="1" prob=".05"/>
+		<item name="HD First Aid Kit Schematic" count="1" prob=".01"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFlares">
-		<item name="Food Supply Flare" count="1" prob=".08"/>
-		<item name="Ammo Supply Flare" count="1" prob=".08"/>
-		<item name="Building Supply Flare" count="1" prob=".08"/>
-		<item name="Health Supply Flare" count="1" prob=".08"/>
+		<item name="Food Supply Flare" count="1" prob=".05"/>
+		<item name="Ammo Supply Flare" count="1" prob=".05"/>
+		<item name="Building Supply Flare" count="1" prob=".05"/>
+		<item name="Health Supply Flare" count="1" prob=".05"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDCarePackages">
