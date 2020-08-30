@@ -9928,8 +9928,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidKit,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalSplint,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gunHandgunT3DesertVulture,gunHandgunT3DesertVultureSchematic,ammo44MagnumBulletBall,medicalAloeCream,medicalPlasterCast"/>
-		<property name="Create_item_count" value="5,1,1,5,5,5,5,5,5,5,5,1,1,1,200,5,5"/>
+		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalSplint,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gunHandgunT3DesertVulture,gunHandgunT3DesertVultureSchematic,ammo44MagnumBulletBall,medicalAloeCream,medicalPlasterCast,medicalFirstAidBandageSchematic"/>
+		<property name="Create_item_count" value="5,1,1,5,5,5,5,5,5,5,1,1,1,200,5,5,1"/>
 	</property>
 </item>
 
@@ -10079,6 +10079,30 @@
 	<property name="EconomicValue" value="25"/>
 	<property name="EconomicBundleSize" value="5"/>
 	<property name="Group" value="Resources"/>
+</item>
+
+<item name="HDSilverIngot">
+	<property name="CustomIcon" value="HD Silver Ingot"/>
+	<property name="DescriptionKey" value="HDSilverIngotDesc"/>
+	<property name="Extends" value="resourceSilverNugget"/>
+	<property name="Tags" value="gems"/>
+	<property name="EconomicValue" value="3500"/>
+</item>
+
+<item name="HDGoldIngot">
+	<property name="CustomIcon" value="HD Gold Ingot"/>
+	<property name="DescriptionKey" value="HDGoldIngotDesc"/>
+	<property name="Extends" value="resourceSilverNugget"/>
+	<property name="Tags" value="gems"/>
+	<property name="EconomicValue" value="8500"/>
+</item>
+
+<item name="HDDiamondIngot">
+	<property name="CustomIcon" value="HD Diamond Ingot"/>
+	<property name="DescriptionKey" value="HDDiamondIngotDesc"/>
+	<property name="Extends" value="resourceSilverNugget"/>
+    <property name="Tags" value="gems"/>
+    <property name="EconomicValue" value="17500"/>
 </item>
 
 </append>

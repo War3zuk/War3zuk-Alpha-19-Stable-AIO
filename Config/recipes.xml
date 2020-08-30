@@ -2191,6 +2191,18 @@
 	<ingredient name="resourceConcreteMix" count="20"/>
 </recipe>
 
+<recipe name="HDSilverIngot" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time="300">
+	<ingredient name="resourceSilverNugget" count="10"/>
+</recipe>
+
+<recipe name="HDGoldIngot" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time="480">
+	<ingredient name="resourceGoldNugget" count="10"/>
+</recipe>
+	
+<recipe name="HDDiamondIngot" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="720">
+	<ingredient name="resourceRawDiamond" count="10"/>
+</recipe>
+
 <recipe name="BulletGlassTunnelCenter" count="1" material_based="true" craft_area="forge" craft_tool="toolForgeCrucible" tags="perkAdvancedEngineering">
 	<ingredient name="unit_glass" count="25"/>
 	<ingredient name="unit_stone" count="10"/>

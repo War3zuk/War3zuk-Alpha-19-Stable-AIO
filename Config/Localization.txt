@@ -24,6 +24,15 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+HDSilverIngot,items,Item,KgNone,HD SilverIngot,
+HDSilverIngotDesc,items,weapons,New,Silver Nuggets Carefully Smelted Down And Purified For Superior Quality.,
+
+HDGoldIngot,items,Item,KgNone,HD GoldIngot,
+HDGoldIngotDesc,items,weapons,New,Gold Nuggets Carefully Smelted Down And Purified For Superior Quality.,
+
+HDDiamondIngot,items,Item,KgNone,HD DiamondIngot,
+HDDiamondIngotDesc,items,weapons,New,Raw Diamond Carefully Cut For Superior Quality.,
+
 HDScrapWrenchDesc,items,weapons,New,Put together with Scrap but it works.,
 
 TexsSquirrelBits,items,Item,KgNone,Tex's Squirrel Bits,
