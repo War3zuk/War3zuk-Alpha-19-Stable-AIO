@@ -644,6 +644,12 @@
 	<ingredient name="resourceBone" count="10"/>
 </recipe>
 
+<recipe name="RyuSen101s Ramen Noodles" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="foodEgg" count="4"/>
+	<ingredient name="foodCornMeal" count="4"/>
+</recipe>
+
 <recipe name="Aaron Rockst4r" count="1" craft_time = "10">
 	<ingredient name="resourceWood" count="40"/>
 	<ingredient name="resourceNail" count="10"/>

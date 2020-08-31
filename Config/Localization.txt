@@ -24,6 +24,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+RyuSen101sRamenDesc,items,weapons,New,Ramen Noodles. For killing zombies On The Run.,
+
 HDSilverIngot,items,Item,KgNone,HD SilverIngot,
 HDSilverIngotDesc,items,weapons,New,Silver Nuggets Carefully Smelted Down And Purified For Superior Quality.,
 

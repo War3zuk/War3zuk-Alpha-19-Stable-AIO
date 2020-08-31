@@ -1,10 +1,13 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v4.2 to v4.3
+
+Added RyuSen101's Ramen Noodles (Campfire + Cookingpot)
+
 Updated v4.1 to v4.2
 
 Added medicalFirstAidBandageSchematic
 Removed MedicalFirstAidKit
-Loot Probability Templates Added
 
 Added HD Silver Ingot (Sellable)
 Added HD Gold Ingot (Sellable)
@@ -13,7 +16,6 @@ Added HD Diamond Ingot (Sellable)
 Launcher Edits:
 Added OfficialWar3zukAIOMap Custom Map (Edited)
 Added War3zukWasteLandAIO (100% WasteLand)
-Added Code To Quest XML So Trader Quests Work
 Updated 0-CreaturePackAnimals
 Updated 0-CreaturePackHumans
 Updated 0-CreaturePackZombies
