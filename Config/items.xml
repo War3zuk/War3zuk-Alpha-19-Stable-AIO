@@ -5798,7 +5798,7 @@
 	<property name="DisplayType" value="meleeRepairTool"/>
 	<property name="HoldType" value="32"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Hatchet.unity3d?HD Mini Taza Hatchet.Prefab"/>
-	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="RepairTools" value="resourceRockSmall"/>
 	<property name="EconomicValue" value="175"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="SellableToTrader" value="true"/>
@@ -9953,8 +9953,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalSplint,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gunHandgunT3DesertVulture,gunHandgunT3DesertVultureSchematic,ammo44MagnumBulletBall,medicalAloeCream,medicalPlasterCast,medicalFirstAidBandageSchematic"/>
-		<property name="Create_item_count" value="5,1,1,5,5,5,5,5,5,5,1,1,1,200,5,5,1"/>
+		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalPlasterCastSchematic,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gunHandgunT3DesertVulture,gunHandgunT3DesertVultureSchematic,ammo44MagnumBulletBall,medicalAloeCream,medicalPlasterCast,medicalFirstAidBandageSchematic"/>
+		<property name="Create_item_count" value="5,1,1,5,5,5,1,5,5,5,1,1,1,200,5,5,1"/>
 	</property>
 </item>
 

@@ -2,7 +2,29 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v4.2 to v4.3
 
+Fixed Hd Taza Hatchet (Repair Smallstone)
+
+Removed Old Shader From The Following Models
+HD BedRoll
+cntDumpster
+HD Colt M1911A
+
 Added RyuSen101's Ramen Noodles (Campfire + Cookingpot)
+Removed Excluded Biome (Wasteland) Vanilla xml
+Added All Vanilla Quests To Wasteland Biome
+
+Added Localization For All HD Bench Addons
+
+Launcher Edits:
+Fixed War3zuk Military Camp Prefab
+Updated 0-CreaturePackAnimals
+Updated 0-CreaturePackHumans
+Updated 0-CreaturePackZombies
+Added OilShale To Deco Ores
+
+Fixed 2 Prefabs Causing Restart Errors
+xcostum_PeerCafe(by_Stallionsden)
+xcostum_Stallionsdens_Ranch(by_Stallionsden)
 
 Updated v4.1 to v4.2
 

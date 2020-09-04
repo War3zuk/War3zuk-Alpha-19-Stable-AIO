@@ -419,7 +419,6 @@
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 	<property name="TakeDelay" value="5"/>
-	<property name="DescriptionKey" value="workbenchDesc"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Building,advBuilding"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
@@ -469,7 +468,6 @@
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 	<property name="TakeDelay" value="5"/>
-	<property name="DescriptionKey" value="workbenchDesc"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Building,advBuilding"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
@@ -519,7 +517,6 @@
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 	<property name="TakeDelay" value="5"/>
-	<property name="DescriptionKey" value="workbenchDesc"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Building,advBuilding"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
@@ -569,7 +566,6 @@
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
 	<property name="TakeDelay" value="5"/>
-	<property name="DescriptionKey" value="workbenchDesc"/>
 	<property name="EconomicValue" value="2000"/>
 	<property name="Group" value="Building,advBuilding"/>
 	<property name="FilterTags" value="fdecor,fother,ffurniture"/>

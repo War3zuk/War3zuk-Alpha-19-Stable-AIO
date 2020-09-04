@@ -24,6 +24,14 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+HDGunBenchDesc,blocks,,,HD GunBench allows you to Craft All Weapon Items. Addons are as follows..\n\nHD Cnc Hand Guns . HD Cnc Automatics . HD Welder,
+
+HDWorkBenchDesc,blocks,,,HD WorkBench allows you to Craft All Weapon Items. Addons are as follows..\n\nHD Tool And Die Set . HD Carbon Sewing Kit . HD Cnc Rifles,
+
+HDAmmoBenchDesc,blocks,,,HD AmmoBench allows you to Craft All Weapon Items. Addons are as follows..\n\nHD Bullet Tumbler . HD Bullet Press . HD Grinder,
+
+HDPicsBenchDesc,blocks,,,Build All XXX Picture Frames And Parts In Here.
+
 RyuSen101sRamenDesc,items,weapons,New,Ramen Noodles. For killing zombies On The Run.,
 
 HDSilverIngot,items,Item,KgNone,HD SilverIngot,
@@ -483,14 +491,6 @@ HDFlameFuelDesc,items,,,Advanced Fuel for the HD Flame Thrower.
 HDBladeTrapDesc,blocks,,,Titanium Reenforced Blade Trap that requires its Polish to be repaired.
 
 HDDartTrapDesc,blocks,,,Titanium Reenforced Dart Trap that requires its Polish to be repaired.
-
-HDGunBenchDesc,blocks,,,Build All Weapons And Parts In Here.
-
-HDWorkBenchDesc,blocks,,,Build All Tools And Parts In Here.
-
-HDPicsBenchDesc,blocks,,,Build All XXX Picture Frames And Parts In Here.
-
-HDAmmoBenchDesc,blocks,,,Build All Ammo Types In Here.
 
 HDColtM1911SilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Colts.
 HDDesertEagleSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Desert Eagles.
