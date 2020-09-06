@@ -26,6 +26,10 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
 HDGunBenchDesc,blocks,,,HD GunBench allows you to Craft All Weapon Items. Addons are as follows..\n\nHD Cnc Hand Guns . HD Cnc Automatics . HD Welder,
 
+HDIceMachineE,items,Block,KgNone,HD Ice Machine,
+HDIceMachineF,items,Block,KgNone,HD Ice Machine,
+HDIceMachineEDesc,items,weapons,New,Turns the surrounding  moist air into Snowballs And Shaved Ice over time.,
+
 HDWorkBenchDesc,blocks,,,HD WorkBench allows you to Craft All Weapon Items. Addons are as follows..\n\nHD Tool And Die Set . HD Carbon Sewing Kit . HD Cnc Rifles,
 
 HDAmmoBenchDesc,blocks,,,HD AmmoBench allows you to Craft All Weapon Items. Addons are as follows..\n\nHD Bullet Tumbler . HD Bullet Press . HD Grinder,

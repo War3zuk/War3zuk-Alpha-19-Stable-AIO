@@ -28,6 +28,47 @@
 	
 <append xpath="/blocks">
 	
+<block name="HDIceMachineE">
+	<property name="DescriptionKey" value="HDIceMachineEDesc"/>
+	<property name="Class" value="PlantGrowing"/>
+	<property name="CustomIcon" value="HD Ice Machine" />
+	<property name="Extends" value="decoEntityMetalMaster"/>
+	<property name="MaxDamage" value="1000"/>
+	<property name="Model" value="Entities/OutdoorDecor/iceMachinePrefab"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="MultiBlockDim" value="2,2,1"/><property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value=".5,.5,0"/>
+	<property name="PlantGrowing.Next" value="HDIceMachineF"/>
+	<property name="PlantGrowing.GrowthRate" value="20"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="Collide" value="melee,bullet,arrow,rocket"/>
+     <drop event="Harvest" name="resourceForgedIron" count="50" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceMetalPipe" count="10" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceMechanicalParts" count="10" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceElectricParts" count="10" tool_category="Disassemble"/>
+	 <drop event="Harvest" name="resourceSpring" count="20" tool_category="Disassemble"/>
+     <drop event="Destroy" count="0" />
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="10"/>
+	</property>
+</block>
+
+<block name="HDIceMachineF">
+	<property name="CreativeMode" value="Dev"/>
+	<property name="Class" value="Loot" />
+	<property name="CustomIcon" value="HD Ice Machine" />
+	<property name="Extends" value="decoEntityMetalMaster"/>
+	<property name="MaxDamage" value="500"/>
+	<property name="Model" value="Entities/OutdoorDecor/iceMachinePrefab"/> <property name="Place" value="TowardsPlacerInverted"/>
+	<property name="MultiBlockDim" value="2,2,1"/><property name="DisplayType" value="blockMulti"/>
+	<property name="ModelOffset" value=".5,.5,0"/>
+    <property name="LootList" value="530" />
+  <drop event="Destroy" count="0"/>
+  <property name="DowngradeBlock" value="HDIceMachineE"/>
+</block>
+	
 <block name="HDKillingFloorZombie">
 	<property name="Material" value="Mplastics"/>
 	<property name="MaxDamage" value="500"/>
@@ -574,6 +615,7 @@
 
 <block name="HDPumpJackE">
 	<property name="UnlockedBy" value="HDPumpJackE Schematic"/>
+	<property name="DescriptionKey" value="HDPJEDesc"/>
 	<property name="Class" value="PlantGrowing"/>
 	<property name="CustomIcon" value="HD Pump Jack" />
 	<property name="Material" value="Mwood_weak"/>
@@ -584,7 +626,7 @@
 	<property name="MultiBlockDim" value="1,3,3"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="PlantGrowing.Next" value="HDPumpJackF"/>
-	<property name="PlantGrowing.GrowthRate" value="10"/>
+	<property name="PlantGrowing.GrowthRate" value="20"/>
     <property name="PlantGrowing.IsRandom" value="false"/>
     <property name="PlantGrowing.FertileLevel" value="0"/>
     <property name="PlantGrowing.LightLevelGrow" value="0"/>

@@ -47,117 +47,117 @@
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
 
 <lootgroup name="War3zukHDWeaponParts">
-		<item name="HD Vulcan 9mm Barrel Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Vulcan 9mm Parts Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Vulcan 9mm Motor Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Vulcan 7.62mm Barrel Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Vulcan 7.62mm Parts Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Vulcan 7.62mm Motor Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Vulcan 50Bmg Barrel Schematic" loot_prob_template="ProbT3"/>
-		<item name="HD Vulcan 50Bmg Parts Schematic" loot_prob_template="ProbT3"/>
-		<item name="HD Vulcan 50Bmg Motor Schematic" loot_prob_template="ProbT3"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob=".01"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob=".01"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob=".01"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob=".01"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob=".01"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob=".01"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob=".01"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob=".01"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob=".01"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDWeapons">
-		<item name="HD Mods Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Desert Eagle Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Mac10 Auto Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD M3 Auto Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD AK Hybrid ACP Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD HK33 Hybrid Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD M4A1 Carbine Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Tactical AR Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Spas 12 Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Mossberg 500 Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Double Barrel Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Winchester 1866 Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Karabiner 98k Schematic" loot_prob_template="ProbT3"/>
-		<item name="HD Dragunov SVD Schematic" loot_prob_template="ProbT3"/>
-		<item name="HD CheyTac M300 Schematic" loot_prob_template="ProbT3"/>
-		<item name="HD Arctic Warfare Schematic" loot_prob_template="ProbT3"/>
-		<item name="HD Flame Thrower Schematic" loot_prob_template="ProbT3"/>
-		<item name="HD Rocket Launcher Schematic" loot_prob_template="ProbT3"/>
+		<item name="HD Mods Schematic" count="1" prob=".02"/>
+		<item name="HD Desert Eagle Schematic" count="1" prob=".02"/>
+		<item name="HD Mac10 Auto Schematic" count="1" prob=".02"/>
+		<item name="HD M3 Auto Schematic" count="1" prob=".02"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1" prob=".02"/>
+		<item name="HD HK33 Hybrid Schematic" count="1" prob=".02"/>		
+		<item name="HD M4A1 Carbine Schematic" count="1" prob=".02"/>
+		<item name="HD Tactical AR Schematic" count="1" prob=".02"/>
+		<item name="HD Spas 12 Schematic" count="1" prob=".02"/>
+		<item name="HD Mossberg 500 Schematic" count="1" prob=".02"/>
+		<item name="HD Double Barrel Schematic" count="1" prob=".02"/>
+		<item name="HD Winchester 1866 Schematic" count="1" prob=".02"/>
+		<item name="HD Karabiner 98k Schematic" count="1" prob=".02"/>
+		<item name="HD Dragunov SVD Schematic" count="1" prob=".02"/>
+		<item name="HD CheyTac M300 Schematic" count="1" prob=".02"/>
+		<item name="HD Arctic Warfare Schematic" count="1" prob=".02"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob=".02"/>
+		<item name="HD Rocket Launcher Schematic" count="1" prob=".02"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenches">
-		<item name="HD GunBench Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD WorkBench Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD AmmoBench Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD PicsBench Schematic" loot_prob_template="ProbT2"/>
+		<item name="HD GunBench Schematic" count="1" prob=".05"/>
+		<item name="HD WorkBench Schematic" count="1" prob=".05"/>
+		<item name="HD AmmoBench Schematic" count="1" prob=".05"/>
+		<item name="HD PicsBench Schematic" count="1" prob=".05"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenchAddons">
-		<item name="HD Tool And Die Set Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Carbon Sewing Kit Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Grinder Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Bullet Tumbler Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Bullet Press Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Welder Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Cnc HandGuns Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Cnc Automatics Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Cnc Rifles Schematic" loot_prob_template="ProbT1"/>
+		<item name="HD Tool And Die Set Schematic" count="1" prob=".04"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1" prob=".04"/>
+		<item name="HD Grinder Schematic" count="1" prob=".04"/>
+		<item name="HD Bullet Tumbler Schematic" count="1" prob=".04"/>
+		<item name="HD Bullet Press Schematic" count="1" prob=".04"/>
+		<item name="HD Welder Schematic" count="1" prob=".04"/>
+		<item name="HD Cnc HandGuns Schematic" count="1" prob=".04"/>
+		<item name="HD Cnc Automatics Schematic" count="1" prob=".04"/>
+		<item name="HD Cnc Rifles Schematic" count="1" prob=".04"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDTools">
-		<item name="HD Forge Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Cement Mixer Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Generator Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Gas Generator Schematic" loot_prob_template="ProbT2"/>
-		<item name="HDPumpJackE Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Junk Turret Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Wrench Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Auger Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Chainsaw Schematic" loot_prob_template="ProbT1"/>
-		<item name="HD Impact Wrench Schematic" loot_prob_template="ProbT3"/>
+		<item name="HD Forge Schematic" count="1" prob=".02"/>
+		<item name="HD Cement Mixer Schematic" count="1" prob=".02"/>
+		<item name="HD Generator Schematic" count="1" prob=".02"/>
+		<item name="HD Gas Generator Schematic" count="1" prob=".02"/>
+		<item name="HDPumpJackE Schematic" count="1" prob=".02"/>
+		<item name="HD Junk Turret Schematic" count="1" prob=".02"/>
+		<item name="HD Wrench Schematic" count="1" prob=".02"/>
+		<item name="HD Auger Schematic" count="1" prob=".02"/>
+		<item name="HD Chainsaw Schematic" count="1" prob=".02"/>
+		<item name="HD Impact Wrench Schematic" count="1" prob=".02"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo">
-		<item name="Ammo Supply Shredder" loot_prob_template="QLTemplateT0" count="1,2"/>
-		<item name="Ammo Supply 9mm" loot_prob_template="QLTemplateT0" count="1,2"/>
-		<item name="Ammo Supply 44Mag" loot_prob_template="QLTemplateT1" count="1,2"/>
-		<item name="Ammo Supply 45 ACP" loot_prob_template="QLTemplateT1" count="1,2"/>
-		<item name="Ammo Supply DE50" loot_prob_template="QLTemplateT1" count="1,2"/>
-		<item name="Ammo Supply 500 Auto Max" loot_prob_template="QLTemplateT2" count="1,2"/>
-		<item name="Ammo Supply 762mm" loot_prob_template="QLTemplateT2" count="1,2"/>
-		<item name="Ammo Supply Shotgun" loot_prob_template="QLTemplateT2" count="1,2"/>
-		<item name="Ammo Supply ShotgunSlug" loot_prob_template="QLTemplateT2" count="1,2"/>
-		<item name="Ammo Supply Breach Slug" loot_prob_template="QLTemplateT2" count="1,2"/>
-		<item name="Ammo Supply 408 Round" loot_prob_template="QLTemplateT2" count="1,2"/>
-		<item name="Ammo Supply 50 BMG Round" loot_prob_template="QLTemplateT3" count="1,2"/>
+		<item name="Ammo Supply Shredder" count="1,2" prob=".50"/>
+		<item name="Ammo Supply 9mm" count="1,2" prob=".40"/>
+		<item name="Ammo Supply 44Mag" count="1,2" prob=".40"/>
+		<item name="Ammo Supply 45 ACP" count="1,2" prob=".40"/>
+		<item name="Ammo Supply DE50" count="1,2" prob=".30"/>
+		<item name="Ammo Supply 500 Auto Max" count="1,2" prob=".30"/>
+		<item name="Ammo Supply 762mm" count="1,2" prob=".30"/>
+		<item name="Ammo Supply Shotgun" count="1,2" prob=".20"/>
+		<item name="Ammo Supply ShotgunSlug" count="1,2" prob=".20"/>
+		<item name="Ammo Supply Breach Slug" count="1,2" prob=".10"/>
+		<item name="Ammo Supply 408 Round" count="1,2" prob=".10"/>
+		<item name="Ammo Supply 50 BMG Round" count="1,2" prob=".10"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMilitary">
-		<item name="HD Military Gloves Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Military Boots Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Military Legs Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Military Vest Schematic" loot_prob_template="ProbT2"/>
-		<item name="HD Military Helmet Schematic" loot_prob_template="ProbT2"/>
+		<item name="HD Military Gloves Schematic" count="1" prob=".01"/>
+		<item name="HD Military Boots Schematic" count="1" prob=".01"/>
+		<item name="HD Military Legs Schematic" count="1" prob=".01"/>
+		<item name="HD Military Vest Schematic" count="1" prob=".01"/>
+		<item name="HD Military Helmet Schematic" count="1" prob=".01"/>
 		<item name="MREMilitaryRation" count="0,1" prob="0.50"/>
 		<item name="Military Purify Tablets" count="2,4" prob="0.50"/>
-		<item name="HDArmorReinforcedPadding" loot_prob_template="ProbT1"/>
-		<item name="HDArmorPlasticPlating" loot_prob_template="ProbT1"/>
-		<item name="HDArmorMilitaryPlating" loot_prob_template="ProbT1"/>
-		<item name="HDArmorScrapPlating" loot_prob_template="ProbT1"/>
-		<item name="HDArmorIronPlating" loot_prob_template="ProbT1"/>
-		<item name="HDArmorSteelPlating" loot_prob_template="ProbT1"/>
+		<item name="HDArmorReinforcedPadding" count="1" prob=".01"/>
+		<item name="HDArmorPlasticPlating" count="1" prob=".01"/>
+		<item name="HDArmorMilitaryPlating" count="1" prob=".01"/>
+		<item name="HDArmorScrapPlating" count="1" prob=".01"/>
+		<item name="HDArmorIronPlating" count="1" prob=".01"/>
+		<item name="HDArmorSteelPlating" count="1" prob=".01"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical">
-		<item name="HD First Aid Kit Schematic" loot_prob_template="ProbT2"/>
+		<item name="HD First Aid Kit Schematic" count="1" prob=".01"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFlares">
-		<item name="Food Supply Flare" loot_prob_template="ProbT1"/>
-		<item name="Ammo Supply Flare" loot_prob_template="ProbT2"/>
-		<item name="Building Supply Flare" loot_prob_template="ProbT1"/>
-		<item name="Health Supply Flare" loot_prob_template="ProbT1"/>
+		<item name="Food Supply Flare" count="1" prob=".03"/>
+		<item name="Ammo Supply Flare" count="1" prob=".03"/>
+		<item name="Building Supply Flare" count="1" prob=".03"/>
+		<item name="Health Supply Flare" count="1" prob=".03"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDCarePackages">
-		<item name="HD Food Care Package" loot_prob_template="ProbT1"/>
-		<item name="HD Ammo Care Package" loot_prob_template="ProbT1"/>
-		<item name="HD Resource Care Package" loot_prob_template="ProbT1"/>
-		<item name="HD Medicine Care Package" loot_prob_template="ProbT2"/>
+		<item name="HD Food Care Package" count="1" prob=".03"/>
+		<item name="HD Ammo Care Package" count="1" prob=".03"/>
+		<item name="HD Resource Care Package" count="1" prob=".03"/>
+		<item name="HD Medicine Care Package" count="1" prob=".03"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFoods">
@@ -743,44 +743,44 @@
 	<item name="resourceRawDiamond" count="2,6" prob="0.005"/>
 </lootcontainer>
 		   
-<lootcontainer id="519" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="519" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
     <item name="resourceCement" count="10,10" prob="0.1"/>
 </lootcontainer>
 		   
-<lootcontainer id="520" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="520" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
     <item name="resourcePaper" count="2,4" prob="0.1"/>
     <item name="resourceScrapPolymers" count="2,10" prob="0.1"/>
 </lootcontainer>
 		   
-<lootcontainer id="521" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="521" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item name="resourceWood" count="5,10" prob="0.1"/>
 	<item name="resourceRockSmall" count="5,10" prob="0.1"/>
 	<item name="resourceScrapBrass" count="5,10" prob="0.1"/>
 </lootcontainer>
 		   
-<lootcontainer id="522" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="522" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
     <item name="resourceCobblestones" count="5,10" prob="0.1"/>
     <item name="resourceWood" count="5,10" prob="0.1"/>
 </lootcontainer>
 
-<lootcontainer id="523" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="523" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item name="resourceGunPowder" count="5,10" prob="0.1"/>
 	<item name="BrassWire" count="2,10" prob="0.1"/>
 </lootcontainer>
 
-<lootcontainer id="524" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="524" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item name="resourceSpring" count="3,6" prob="1"/>
 	<item name="resourceElectricParts" count="3,6" prob="1"/>
 	<item name="resourceMetalPipe" count="3,6" prob="1"/>
 	<item name="resourceMechanicalParts" count="3,6" prob="1"/>
 </lootcontainer>
 
-<lootcontainer id="525" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="525" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item name="resourcePaper" count="5,10" prob="1"/>
 	<item name="resourceCloth" count="5,10" prob="1"/>
 </lootcontainer>
 
-<lootcontainer id="526" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="526" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="coldfood" count="1" prob=".25"/>
 	<item group="War3zukHDFoods" count="1" prob=".25"/>
 	<item group="beverages" count="1" prob=".25"/>
@@ -789,7 +789,7 @@
 	<item name="drinkJarEmpty" count="5" prob=".25"/>
 </lootcontainer>
 
-<lootcontainer id="527" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="527" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="coldfood" count="1" prob=".25"/>
 	<item group="War3zukHDFoods" count="1" prob=".25"/>
 	<item group="beverages" count="1" prob=".25"/>
@@ -797,7 +797,7 @@
 	<item name="drinkJarEmpty" count="5" prob=".25"/>
 </lootcontainer>
 
-<lootcontainer id="528" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="528" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="coldfood" count="1" prob=".25"/>
 	<item group="War3zukHDFoods" count="1" prob=".25"/>
 	<item group="beverages" count="1" prob=".25"/>
@@ -805,12 +805,17 @@
 	<item name="drinkJarEmpty" count="5" prob=".25"/>
 </lootcontainer>
 
-<lootcontainer id="529" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualBaseTemplate">
+<lootcontainer id="529" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="coldfood" count="1" prob=".25"/>
 	<item group="War3zukHDFoods" count="1" prob=".25"/>
 	<item group="beverages" count="1" prob=".25"/>
 	<item name="foodHoney" count="1" prob=".25"/>
 	<item name="drinkJarEmpty" count="5" prob=".25"/>
+</lootcontainer>
+
+<lootcontainer id="530" count="2,4" size="6,8" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+	<item name="resourceSnowBall" count="20,40" prob="1"/>
+	<item name="Shaved Ice" count="10,20" prob="1"/>
 </lootcontainer>
 	
 </insertAfter>

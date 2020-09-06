@@ -1,5 +1,36 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v4.3 to v4.4
+
+Animal LootTemplate Updated
+Fixed PumpJack Localization Code
+Updated HD Weapon Sounds (IceMachine.ogg)
+
+Final Loot Rebalance Stable 19.0
+
+Added HD Ice Machine Vanilla Model
+Added HD Ice Machine Localization Code
+Added HD Ice Machine 256x256 Icons
+
+Removed Old Shaders From The Following Models
+HD Cement Mixer
+HD PicsBench
+HD JukeBoxs
+HD Mini Hatchet
+HD Taza Hatchet
+HD Paintings XXX
+HD Penthrox Injection
+HD Shuriken Katana
+HD Wakizashi Katana
+HD Dragon Katana
+
+Updated The Following Models To Unity 2019.2
+HD Impact Wrench
+
+
+Launcher Edits:
+Updated Bdubs Vehicle Overhaul
+
 Updated v4.2 to v4.3
 
 Fixed Hd Taza Hatchet (Repair Smallstone)
