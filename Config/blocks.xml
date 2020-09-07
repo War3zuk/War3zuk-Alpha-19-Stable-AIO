@@ -2797,6 +2797,7 @@
 </block>
 
 <block name="HD Power Relay Block">
+	<property name="DescriptionKey" value="HDPowerRelayBlockDesc"/>
 	<property name="CustomIcon" value="HD Power Relay Block"/>
 	<property name="Class" value="ElectricWire"/>
 	<property name="Material" value="MTitaniumPolish"/>
@@ -4995,6 +4996,7 @@
 	<property name="FilterTags" value="fbuilding,fdecor,fother,fwindows,fdoors"/>
 	<property name="SortOrder1" value="7060"/>
 	<property name="SortOrder2" value="0051"/>
+	<property name="SellableToTrader" value="false"/>
 </block>
 
 <block name="HD Modular Wall">
@@ -5010,6 +5012,7 @@
 	<property name="FilterTags" value="fbuilding,fdecor,fother,fwindows,fdoors"/>
 	<property name="SortOrder1" value="7060"/>
 	<property name="SortOrder2" value="0051"/>
+	<property name="SellableToTrader" value="false"/>
 </block>
 
 <block name="BulletGlassTunnelCenter">

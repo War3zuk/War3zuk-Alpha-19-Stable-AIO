@@ -24,6 +24,22 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
+HDPowerRelayBlockDesc,items,,,HD Power Relay Shows NO Wires.\n\nConnect the 1st Relay And from that point NO wires will be shown.,
+
+HDWar3zukMoto,items,Item,KgNone,HD War3zuk Moto,
+HDMadMaxMotoDesc,items,,,Craft the Ultimate in Comfort.\n\nBike Model Altered By Éric Beaudon.,
+
+HDWar3zuk4x4,items,Item,KgNone,HD War3zuk 4x4,
+HDWar3zuk4x4Desc,items,,,Craft the Ultimate in Comfort.\n\nTruck Model Altered By Éric Beaudon.,
+
+HDWar3zukBuggy,items,Item,KgNone,HD War3zuk Buggy,
+HDWar3zukBuggyChassis,items,Item,KgNone,HD War3zuk Buggy Chassis,
+HDWar3zukBuggyAccessories,items,Item,KgNone,HD War3zuk Buggy Accessories,
+
+HDWar3zukBuggyDesc,items,weapons,New,War3zuk Buggy For When You Want Too Drive In Style.\n\nModel Purchased From Unity Store By Myself.\n\nModel Altered By Éric Beaudon.,
+HDWar3zukBuggyChassisDesc,items,weapons,New,Chassis For The War3zuk Dune Buggy.,
+HDWar3zukBuggyAccessoriesDesc,items,weapons,New,Accessories For The War3zuk Dune Buggy.,
+
 HDGunBenchDesc,blocks,,,HD GunBench allows you to Craft All Weapon Items. Addons are as follows..\n\nHD Cnc Hand Guns . HD Cnc Automatics . HD Welder,
 
 HDIceMachineE,items,Block,KgNone,HD Ice Machine,
@@ -68,17 +84,6 @@ CurmudgeonsChiliPieDesc,items,weapons,New,Beef And Chili wrapped in Puff Pastry.
 PossumsPavlovaDesc,items,weapons,New,Traditional Pudding to help in the Zombie Slaying.,
 MsTeresasBurgerPattyDesc,items,weapons,New,Umm Buns with Bugers. What more can the body need.,
 NaoyansYakitoriDesc,items,weapons,New,Traditional Japanese Skewers Dipped In Chili.,
-
-War3zUK4x4,items,Item,KgNone,HD War3zUK 4x4,
-MadMaxMotoDesc,items,,,HD War3zUK 4x4. Craft the Ultimate in Comfort.\n\n4x4 Model Altered By Éric Beaudon
-
-HDWar3zukBuggy,items,Item,KgNone,HD War3zuk Buggy,
-HDWar3zukBuggyChassis,items,Item,KgNone,HD War3zuk Buggy Chassis,
-HDWar3zukBuggyAccessories,items,Item,KgNone,HD War3zuk Buggy Accessories,
-
-HDWar3zukBuggyDesc,items,weapons,New,War3zuk Buggy For When You Want Too Drive In Style.\n\nModel Purchased From Unity Store By Myself.\n\nModel Altered By Éric Beaudon.,
-HDWar3zukBuggyChassisDesc,items,weapons,New,Chassis For The War3zuk Dune Buggy.,
-HDWar3zukBuggyAccessoriesDesc,items,weapons,New,Accessories For The War3zuk Dune Buggy.,
 
 HDTacticalARSilencer,items,Item,KgNone,HD Tactical AR Silencer,
 HDTacticalARReflex,items,Item,KgNone,HD Tactical AR Reflex,

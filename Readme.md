@@ -2,6 +2,22 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v4.3 to v4.4
 
+Fixed HD Concrete Barrier Sell Price
+Fixed HD Modular Wall Sell Price
+
+Added HD War3zuk Moto (Motorbike)
+Added HD War3zuk 4x4 (4x4 Truck)
+Added HD War3zuk Buggy (Dune Buggy)
+
+Added Localization For HD Power Relay
+
+Added MuzzleBreak Mod To HD GlockG5 Auto
+Removed Vanilla Silencer HD Mac10 Auto
+Removed Vanilla Silencer HD Desert Eagle
+Removed Vanilla Silencer HD Desert Eagle Punisher
+Adjusted Texs Squirrel Bits Timer 30s
+Fixed HD Impact Wrench Recipe (HDToolAndDieSet)
+
 Animal LootTemplate Updated
 Fixed PumpJack Localization Code
 Updated HD Weapon Sounds (IceMachine.ogg)
@@ -30,6 +46,10 @@ HD Impact Wrench
 
 Launcher Edits:
 Updated Bdubs Vehicle Overhaul
+Updated Gamestage.xml
+Updated 0-CreaturePackAnimals
+Updated 0-CreaturePackHumans
+Updated 0-CreaturePackZombies
 
 Updated v4.2 to v4.3
 

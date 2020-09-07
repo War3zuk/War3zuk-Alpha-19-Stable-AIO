@@ -25,6 +25,22 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HDWar3zukMoto" count="1" craft_time="100" craft_area="workbench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="vehicleWheels" count="2"/>
+	<ingredient name="vehicleMotorcycleChassis" count="1"/>
+	<ingredient name="vehicleMotorcycleHandlebars" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+
+<recipe name="HDWar3zuk4x4" count="1" craft_time="120" craft_area="workbench" tags="perkGreaseMonkey,learnable">
+	<ingredient name="vehicleWheels" count="5"/>
+	<ingredient name="vehicle4x4TruckChassis" count="1"/>
+	<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="carBattery" count="1"/>
+</recipe>
+	
 <recipe name="HDNightVisionHelmetLight" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="120">
 	<ingredient name="resourceForgedSteel" count="20"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
@@ -118,7 +134,7 @@
 	<ingredient name="resourceElectricParts" count="20"/>
 </recipe>
 	
-<recipe name="HD Impact Wrench" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "120" tags="learnable,perkSalvageOperations">
+<recipe name="HD Impact Wrench" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time = "120" tags="learnable,perkSalvageOperations">
 	<ingredient name="resourceForgedSteel" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="50"/>
 	<ingredient name="resourceElectricParts" count="50"/>

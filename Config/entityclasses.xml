@@ -43,6 +43,69 @@
 	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='SmellAlertThreshold']/@value">50</set>
 
 <append xpath="/entity_classes">
+	
+<entity_class name="HDWar3zukMoto">
+		<property name="Tags" value="vehicle"/>
+		<property name="Class" value="EntityMotorcycle"/>
+		<property name="Parent" value="Cars"/>
+		<property name="Prefab" value="#@modfolder:Resources/HDWar3zukMoto.unity3d?HDWar3zukMoto"/>
+		<property name="ModelType" value="Standard"/>
+		<property name="SurfaceCategory" value="metal"/>
+		<property name="IgnoreTrigger" value="true"/>
+		<property name="LootListAlive" value="78"/>
+		<property name="IsEnemyEntity" value="false"/>
+		<property name="Explosion.ParticleIndex" value="6"/>
+		<property name="Explosion.RadiusBlocks" value="4"/>
+		<property name="Explosion.RadiusEntities" value="4"/>
+		<property name="Explosion.BlockDamage" value="50"/>
+		<property name="Explosion.EntityDamage" value="50"/>
+		<property name="RotateToGround" value="true"/>
+		<property name="Faction" value="none"/>
+		<property name="MapIcon" value="ui_game_symbol_motorcycle"/>
+		<property name="NavObject" value="motorcycle" />
+</entity_class>
+
+<entity_class name="HDWar3zuk4x4">
+	<property name="Tags" value="vehicle"/>
+	<property name="Class" value="EntityVJeep"/>
+	<property name="Parent" value="Cars"/>
+	<property name="Prefab" value="#@modfolder:Resources/HDWar3zuk4x4.unity3d?HDWar3zuk4x4"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="metal"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="79"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Explosion.ParticleIndex" value="6"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlockDamage" value="100"/>
+	<property name="Explosion.EntityDamage" value="100"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="ui_game_symbol_4x4"/>
+	<property name="NavObject" value="4x4" />
+</entity_class>
+
+<entity_class name="HDWar3zukBuggy">
+	<property name="Tags" value="vehicle"/>
+	<property name="Class" value="EntityVJeep"/>
+	<property name="Parent" value="Cars"/>
+	<property name="Prefab" value="#@modfolder:Resources/HD War3zuk Buggy.unity3d?HD War3zuk Buggy"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="ModelType" value="Standard"/>
+	<property name="SurfaceCategory" value="metal"/>
+	<property name="IgnoreTrigger" value="true"/>
+	<property name="LootListAlive" value="79"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="Explosion.ParticleIndex" value="6"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlockDamage" value="100"/>
+	<property name="Explosion.EntityDamage" value="100"/>
+	<property name="RotateToGround" value="true"/>
+	<property name="Faction" value="none"/>
+	<property name="MapIcon" value="HDWar3zukBuggyUI"/>
+	<property name="NavObject" value="HDWar3zukBuggyUI" />
+</entity_class>
 
 <entity_class name="GiantRabbit" extends="animalTemplateTimid">
 	<property name="Tags" value="entity,animal,rabbit,perkAT01,perkAT02,perkAT03"/>
@@ -1037,27 +1100,6 @@
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
 		<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
 	</effect_group>
-</entity_class>
-
-<entity_class name="HDWar3zukBuggy">
-	<property name="Tags" value="vehicle"/>
-	<property name="Class" value="EntityVJeep"/>
-	<property name="Parent" value="Cars"/>
-	<property name="Prefab" value="#@modfolder:Resources/HD War3zuk Buggy.unity3d?HD War3zuk Buggy"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
-	<property name="ModelType" value="Standard"/>
-	<property name="SurfaceCategory" value="metal"/>
-	<property name="IgnoreTrigger" value="true"/>
-	<property name="LootListAlive" value="79"/>
-	<property name="IsEnemyEntity" value="false"/>
-	<property name="Explosion.ParticleIndex" value="6"/>
-	<property name="Explosion.RadiusBlocks" value="5"/>
-	<property name="Explosion.RadiusEntities" value="5"/>
-	<property name="Explosion.BlockDamage" value="100"/>
-	<property name="Explosion.EntityDamage" value="100"/>
-	<property name="RotateToGround" value="true"/>
-	<property name="Faction" value="none"/>
-	<property name="MapIcon" value="HDWar3zukBuggyUI"/>
-	<property name="NavObject" value="HDWar3zukBuggyUI" />
 </entity_class>
 
 <!--  Insperation For These Dedicated Too AwakenedBison33  -->

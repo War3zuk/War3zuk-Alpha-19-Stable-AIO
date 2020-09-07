@@ -1,6 +1,7 @@
 <configs>
 	
-	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,HDWar3zukBuggy,HDWar3zukBuggyChassis,HDWar3zukBuggyAccessories,War3zUK4x4</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='3,5']/@tags">,HDWar3zukMoto</append>
+	<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,HDWar3zukBuggy,HDWar3zukBuggyChassis,HDWar3zukBuggyAccessories,HDWar3zuk4x4</append>
 	<set xpath="progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity' and @value]/@value">2,4,6,8,15</set>
 	
 	

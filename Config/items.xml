@@ -296,67 +296,42 @@
 	</effect_group>
 </item> -->
 	
-<item name="TexsSquirrelBits">
-	<property name="DescriptionKey" value="TexsSquirrelBitsDesc"/>
-	<property name="CustomIcon" value="Texs Squirrel Bits" />
-	<property name="Tags" value="medical"/>
-	<property name="DisplayType" value="waterMegaCrush"/>
-	<property name="HoldType" value="16"/>
-	<property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
-	<property name="DropMeshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
-	<property name="Material" value="Morganic"/>
-	<property name="EconomicValue" value="250"/>
-	<property name="Stacknumber" value="25000"/>
-	<property name="Group" value="Science,Medical"/>
-	<property class="Action0">
-		<property name="Class" value="Eat"/>
-		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
-		<property name="Sound_start" value="player_painkillers"/>
+<item name="HDWar3zukMoto">
+	<property name="CustomIcon" value="HD Mad Max Moto"/>
+	<property name="Extends" value="vehicleMinibikePlaceable"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HDWar3zukMoto.unity3d?HDWar3zukMoto"/>
+	<property name="EconomicValue" value="10000"/>
+	<property name="DescriptionKey" value="HDMadMaxMotoDesc"/>
+	<property name="UnlockedBy" value="perkGreaseMonkey"/>
+	<property class="Action1">
+		<property name="Vehicle" value="HDWar3zukMoto"/>
+		<property name="VehicleSize" value="1.3, 1.9, 3"/>
 	</property>
-	<effect_group tiered="false" name="Candy Tier 1">
-		
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="-5"/>
-		
-		<display_value name="dStaminaRegen" value=".10"/>
-		<display_value name="dRunSpeed" value=".6"/>
-		<display_value name="dDuration" value="10"/>
-		
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="add" value="13"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="13">
-		<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="13"/>
-			</triggered_effect>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
-		
+	<effect_group name="HDWar3zukMoto" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="6000"/>
 	</effect_group>
 </item>
-	
-<item name="Find The Trader"> 
-	<property name="CustomIcon" value="Find The Trader"/>
-	<property name="Extends" value="questMaster"/>
-	<property class="Action0">
-	<property name="Class" value="Quest"/>
-	<property name="QuestGiven" value="Find The Trader"/>
-	<property name="Delay" value="0"/>
-	</property>			
-	<property name="Group" value="Special Items"/>			
+
+<item name="HDWar3zuk4x4">
+	<property name="CustomIcon" value="HD War3zuk 4x4"/>
+	<property name="Extends" value="vehicleMinibikePlaceable"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HDWar3zuk4x4.unity3d?HDWar3zuk4x4"/>
+	<property name="EconomicValue" value="30000"/>
+	<property name="DescriptionKey" value="HDWar3zuk4x4Desc"/>
+	<property name="UnlockedBy" value="perkGreaseMonkey"/>
+	<property class="Action1">
+		<property name="Vehicle" value="HDWar3zuk4x4"/>
+		<property name="VehicleSize" value="2.5, 2.1, 5"/>
+	</property>
+	<effect_group name="HDWar3zuk4x4" tiered="false">
+		<passive_effect name="ModSlots" operation="base_set" value="4"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="7500"/>
+	</effect_group>
 </item>
-	
-<item name="VanillaEntityLoadingHack">
-	<property name="CreativeMode" value="None"/>
-	<property name="CustomIcon" value="missingIcon"/><property name="CustomIconTint" value="90ff90"/>
-	<property name="HoldType" value="45"/>
-	<property name="HoldingItemHidden" value="true"/>
-	<property name="Meshfile" value="#Entities/Zombies?Zombies/zombieStandardBoeRagdoll.prefab"/>
-	<property name="DropMeshfile" value="#Entities/Zombies?Zombies/zombieStandardBoeRagdoll.prefab"/>
-	<property name="Material" value="MresourceScrapIron"/>
-	<property name="Weight" value="1"/>
-	<property name="Stacknumber" value="1"/>
-	<property name="EconomicValue" value="1"/>
-	<property name="EconomicBundleSize" value="1000"/>
-	<property name="Group" value="Resources"/>
-</item>
-	
+
 <item name="HDWar3zukBuggy">
 	<property name="DescriptionKey" value="HDWar3zukBuggyDesc"/>
 	<property name="CustomIcon" value="HD War3zuk Buggy" />
@@ -389,6 +364,63 @@
 	<property name="Extends" value="vehicleBicycleHandlebars"/>
 	<property name="EconomicValue" value="9000"/>
 	<property name="UnlockedBy" value="perkGreaseMonkey"/>
+</item>
+	
+<item name="TexsSquirrelBits">
+	<property name="DescriptionKey" value="TexsSquirrelBitsDesc"/>
+	<property name="CustomIcon" value="Texs Squirrel Bits" />
+	<property name="Tags" value="medical"/>
+	<property name="DisplayType" value="waterMegaCrush"/>
+	<property name="HoldType" value="16"/>
+	<property name="Meshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Health/painkillersPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="Stacknumber" value="25000"/>
+	<property name="Group" value="Science,Medical"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_painkillers"/>
+	</property>
+	<effect_group tiered="false" name="Candy Tier 1">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="-5"/>
+		<display_value name="dStaminaRegen" value=".10"/>
+		<display_value name="dRunSpeed" value=".6"/>
+		<display_value name="dDuration" value="30"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="add" value="33"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="33">
+		<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="33"/>
+			</triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
+	</effect_group>
+</item>
+	
+<item name="Find The Trader"> 
+	<property name="CustomIcon" value="Find The Trader"/>
+	<property name="Extends" value="questMaster"/>
+	<property class="Action0">
+	<property name="Class" value="Quest"/>
+	<property name="QuestGiven" value="Find The Trader"/>
+	<property name="Delay" value="0"/>
+	</property>			
+	<property name="Group" value="Special Items"/>			
+</item>
+	
+<item name="VanillaEntityLoadingHack">
+	<property name="CreativeMode" value="None"/>
+	<property name="CustomIcon" value="missingIcon"/><property name="CustomIconTint" value="90ff90"/>
+	<property name="HoldType" value="45"/>
+	<property name="HoldingItemHidden" value="true"/>
+	<property name="Meshfile" value="#Entities/Zombies?Zombies/zombieStandardBoeRagdoll.prefab"/>
+	<property name="DropMeshfile" value="#Entities/Zombies?Zombies/zombieStandardBoeRagdoll.prefab"/>
+	<property name="Material" value="MresourceScrapIron"/>
+	<property name="Weight" value="1"/>
+	<property name="Stacknumber" value="1"/>
+	<property name="EconomicValue" value="1"/>
+	<property name="EconomicBundleSize" value="1000"/>
+	<property name="Group" value="Resources"/>
 </item>
 	
 <item name="HD Meat Cleaver">
@@ -2165,7 +2197,7 @@
 <item name="HDGlock18Auto">
 	<property name="DescriptionKey" value="HDGlockAutoDesc"/>
 	<property name="CustomIcon" value="HD Glock Auto"/>
-	<property name="Tags" value="HDGlockAutoSilencer,HDGlockAutoReflex,sideAttachments,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="HDGlockAutoSilencer,HDGlockAutoReflex,sideAttachments,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,noSilencer,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Glock Auto.unity3d?HD Glock Auto.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2414,7 +2446,7 @@
 <item name="HD Desert Eagle">
 	<property name="CustomIcon" value="Desert Eagle 50"/>
 	<property name="DescriptionKey" value="HDDEDesc"/>
-	<property name="Tags" value="HDDESilencer,HDDEReflex,HDDEScope,weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,magazine,firingMode,attAgility,perkGunslinger,canHaveCosmetic"/>
+	<property name="Tags" value="HDDESilencer,HDDEReflex,HDDEScope,weapon,ranged,revolver,holdBreathAiming,noSilencer,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,magazine,firingMode,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="75"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HD Desert Eagle.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2498,7 +2530,7 @@
 <item name="HD Desert Eagle Punisher">
 	<property name="CustomIcon" value="HD Desert Eagle Punisher"/>
 	<property name="DescriptionKey" value="HDDEDesc"/>
-	<property name="Tags" value="HDDEPunisherSilencer,HDDEPUNReflex,HDDEPunScope,weapon,ranged,revolver,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,magazine,firingMode,attAgility,perkGunslinger,canHaveCosmetic"/>
+	<property name="Tags" value="HDDEPunisherSilencer,HDDEPUNReflex,HDDEPunScope,weapon,ranged,revolver,noSilencer,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,magazine,firingMode,attAgility,perkGunslinger,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="75"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Desert Eagle Punisher.unity3d?HD Desert Eagle Punisher.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2582,7 +2614,7 @@
 <item name="HD Mac10 Auto">
 	<property name="DescriptionKey" value="HDMac10ADesc"/>
 	<property name="CustomIcon" value="HD Mac10 Auto"/>
-	<property name="Tags" value="Mac10,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="Mac10,weapon,ranged,holdBreathAiming,noSilencer,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,perkGunslinger,9mmGun,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Mac10 Auto.unity3d?HD Mac10 Auto.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
