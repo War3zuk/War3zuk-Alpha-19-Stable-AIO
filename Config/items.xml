@@ -297,7 +297,7 @@
 </item> -->
 	
 <item name="HDWar3zukMoto">
-	<property name="CustomIcon" value="HD Mad Max Moto"/>
+	<property name="CustomIcon" value="HD War3zuk Moto"/>
 	<property name="Extends" value="vehicleMinibikePlaceable"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HDWar3zukMoto.unity3d?HDWar3zukMoto"/>
 	<property name="EconomicValue" value="10000"/>
