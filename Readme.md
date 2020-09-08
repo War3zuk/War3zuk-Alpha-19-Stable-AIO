@@ -48,8 +48,12 @@ Launcher Edits:
 Updated Bdubs Vehicle Overhaul
 Updated Gamestage.xml
 Updated 0-CreaturePackAnimals
-Updated 0-CreaturePackHumans
 Updated 0-CreaturePackZombies
+Edited 0-CreaturePackAnimals
+Edited 0-CreaturePackHumans
+(Removed Ambient Sounds)
+Removed 0-CreaturePackHumans
+Will do a stripped down version at some point
 
 Updated v4.2 to v4.3
 
