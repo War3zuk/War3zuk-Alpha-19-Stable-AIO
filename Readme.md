@@ -1,5 +1,12 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v4.4 to v4.5
+
+
+Launcher Edits:
+War3zuk Added 0-CreaturePackHumans
+War3zuk Edited 0-CreaturePackHumans
+
 Updated v4.3 to v4.4
 
 Fixed HD Concrete Barrier Sell Price
