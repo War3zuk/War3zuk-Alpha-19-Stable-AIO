@@ -45,7 +45,7 @@
     </append>
 	
 	<insertAfter xpath="/worldgeneration/biomes/biome[@name='wasteland']/weather">	
-		<subbiome prob="0.302"> <!-- Ore Sub Biome: oilDeposit *** -->
+		<subbiome prob="0.302">
 			<layers>
 				<layer depth="4" blockname="terrDesertGround"/>
 				<layer depth="1" blockname="terrSandStone"> <resource blockname="terrGravel" prob="0.7830" rwgGenerationType="all"/> </layer>

@@ -2,10 +2,14 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v4.4 to v4.5
 
+Updated HD First Aid Kit Recipe
+Updated resourceGlue Recipe
+Updated resourceGlue Recipe
+Updated HD High Torque Motor Recipe
+Updated HD Cell Recipe
 
 Launcher Edits:
-War3zuk Added 0-CreaturePackHumans
-War3zuk Edited 0-CreaturePackHumans
+Removed 0-CreaturePackHumans
 
 Updated v4.3 to v4.4
 

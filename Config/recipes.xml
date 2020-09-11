@@ -1204,7 +1204,7 @@
 	<ingredient name="resourceScrapPolymers" count="5"/>
 </recipe>
 
-<recipe name="HD First Aid Kit" count="1" craft_time = "5" tags="learnable,perkYeahScience" >
+<recipe name="HD First Aid Kit" count="1" craft_time = "5" tags="learnable" >
 	<ingredient name="medicalBloodBag" count="1"/>
 	<ingredient name="drinkJarGrainAlcohol" count="1"/>
 	<ingredient name="medicalFirstAidKit" count="1"/>
@@ -1435,12 +1435,12 @@
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 
-<recipe name="resourceGlue" count="1" craft_area="chemistryStation" craft_time = "4" tags="perkYeahScienceCrafting,chemStationCrafting">
+<recipe name="resourceGlue" count="1" craft_area="chemistryStation" craft_time = "4" tags="chemStationCrafting">
 	<ingredient name="resourceBone" count="3"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 
-<recipe name="resourceGlue" count="1" craft_area="chemistryStation" craft_time = "2" tags="perkAdvancedEngineering,chemStationCrafting">
+<recipe name="resourceGlue" count="1" craft_area="chemistryStation" craft_time = "2">
 	<ingredient name="foodCropGraceCorn" count="2"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
@@ -1716,7 +1716,7 @@
 	<ingredient name="resourceOil" count="5"/>
 </recipe>
 	
-<recipe name="HD High Torque Motor" count="1" craft_area="HD WorkBench" craft_time="30" tags="perkYeahScience" >
+<recipe name="HD High Torque Motor" count="1" craft_area="HD WorkBench" craft_time="30">
 	<ingredient name="resourceForgedIron" count="30"/>
 	<ingredient name="smallEngine" count="4"/>
 	<ingredient name="resourceOil" count="5"/>
@@ -1724,7 +1724,7 @@
 	<ingredient name="resourceElectricParts" count="20"/>
 </recipe>
 
-<recipe name="HD Cell" count="1" craft_area="HD WorkBench" craft_time="30" tags="perkYeahScience" >
+<recipe name="HD Cell" count="1" craft_area="HD WorkBench" craft_time="30">
 	<ingredient name="resourceForgedSteel" count="20"/>
 	<ingredient name="resourceDuctTape" count="6"/>
 	<ingredient name="carBattery" count="4"/>
