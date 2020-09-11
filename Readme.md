@@ -2,11 +2,27 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v4.4 to v4.5
 
+Updated HD Pump Jack Code
+Updated HD Pump Jack Material
+
 Updated HD First Aid Kit Recipe
 Updated resourceGlue Recipe
 Updated resourceGlue Recipe
 Updated HD High Torque Motor Recipe
 Updated HD Cell Recipe
+
+Added MagExtender Mod To
+HD Double Barrel Snub
+HD Spas 12 (All Versions)
+HD MossBerg 500
+
+Added StackSize 25k To
+MedicalSplint
+MedicalBandage
+MedicalFirstAidBandage
+
+Adjusted All HD Spas 12 Aim Down Sight
+
 
 Launcher Edits:
 Removed 0-CreaturePackHumans

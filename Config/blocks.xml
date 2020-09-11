@@ -618,7 +618,7 @@
 	<property name="DescriptionKey" value="HDPJEDesc"/>
 	<property name="Class" value="PlantGrowing"/>
 	<property name="CustomIcon" value="HD Pump Jack" />
-	<property name="Material" value="Mwood_weak"/>
+	<property name="Material" value="Mmetal"/>
 	<property name="StabilitySupport" value="true"/>
 	<property name="Model" value="#@modfolder:Resources/HD Pump Jack.unity3d?HD Pump Jack Empty.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Shape" value="ModelEntity"/>
@@ -638,6 +638,7 @@
 	 <drop event="Harvest" name="resourceElectricParts" count="10" tool_category="Disassemble"/>
 	 <drop event="Harvest" name="resourceSpring" count="20" tool_category="Disassemble"/>
      <drop event="Destroy" count="0" />
+	 <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="10"/>
 	</property>
@@ -655,7 +656,8 @@
 	<property name="MultiBlockDim" value="1,3,3"/>
     <property name="Collide" value="movement,rockets,sight,melee" />
     <property name="LootList" value="517" />
-  <drop event="Destroy" count="0"/>
+    <drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
   <property name="DowngradeBlock" value="HDPumpJackE"/>
 </block>
 
