@@ -1430,13 +1430,18 @@
 	<ingredient name="meleeWpnBatonT2StunBaton" count="1"/>
 </recipe>
 
-<recipe name="resourceGlue" count="1" craft_area="campfire" craft_time = "6" craft_tool="toolCookingPot">
+<recipe name="resourceGlue" count="1" craft_area="campfire" craft_time = "4" craft_tool="toolCookingPot">
 	<ingredient name="resourceBone" count="6"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 
-<recipe name="resourceGlue" count="1" craft_area="chemistryStation" craft_time = "4" tags="chemStationCrafting">
+<recipe name="resourceGlue" count="1" craft_area="chemistryStation" craft_time = "2">
 	<ingredient name="resourceBone" count="3"/>
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+
+<recipe name="resourceGlue" count="1" craft_area="campfire" craft_time = "4" craft_tool="toolCookingPot">
+	<ingredient name="foodCropGraceCorn" count="4"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
 </recipe>
 
