@@ -951,9 +951,9 @@
 	<effect_group tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<passive_effect name="AttributeLevel" operation="base_add" value="1" tags="attIntellect"/>
-		<passive_effect name="CraftingTime" operation="perc_add" value="-.2"/>
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.1"/>
 		<passive_effect name="PlayerExpGain" operation="perc_add" value=".2"/>
-		<display_value name="dCraftingTime" value="-.2"/>
+		<display_value name="dCraftingTime" value="-.1"/>
 		<display_value name="dPlayerExpGain" value=".2"/>
 	</effect_group>
 </item>
