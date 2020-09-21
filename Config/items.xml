@@ -305,7 +305,7 @@
 	<property name="HoldType" value="30"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD M1 Garand.unity3d?HD M1 Garand"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="4"/>
-	<property name="RepairTools" value="resourceRepairKit"/>
+	<property name="RepairTools" value="RepairKitHuntingRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="ItemNeedsRepair"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
