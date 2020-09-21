@@ -2,11 +2,40 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v4.5 to v4.6
 
-Added GraceCornGlue To Campfire
-Adjusted War3zuk Stoggy (craftTime)
-Updated Camoes Biffana Icon
+Added M1 Garand PBR Model (Paid)
+Added M1 Garand LiveFire Sounds
+Added M1 Garand Iconic Ping On Eject
+Added M1 Garand Icons
+Added M1 Garand Schematic
+
+Added RabidAries Cute Chick Pie PBR Model (Paid)
+Updated RabidAries Cute Chick Pie Recipe
+
+Rebuilt HD Desert Eagle Model
+Adjusted HD Desert Eagle Reflex Sight
+Adjusted HD Desert Eagle Mag Size, Dmg
+Adjusted HD Desert Eagle Punisher Reflex Sight
+
+Removed PerkGunSlinger From The Following Guns
+These Guns Are Already Maxed Out (Fixes Animations)
+HD Glock18 Auto
+HD Colt M1911
+HD Colt M1911A
+HD Desert Eagle
+HD Desert Eagle Punisher
+HD Mac10 Auto
+HD M3 Auto
+HD HK33 Hybrid
+HD AK Hybrid ACP
+
+Removed PerkBoomStick From The Following Guns
+These Guns Are Already Maxed Out (Fixes Animations)
+HD Blunderbuss (Dmg Comp Added)
+HD Double Barrel (Dmg Comp Added)
+HD Double Barrel Snub (Dmg Comp Added)
 
 Fixed HD Cement Mixer Ambient Sound
+Adjusted HD Karabiner 98k Dmg
 
 Updated v4.4 to v4.5
 

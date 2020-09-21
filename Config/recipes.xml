@@ -25,6 +25,14 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HD M1 Garand" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkDeadEye">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceWood" count="200"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+	
 <recipe name="HDWar3zukMoto" count="1" craft_time="100" craft_area="workbench" tags="perkGreaseMonkey,learnable">
 	<ingredient name="vehicleWheels" count="2"/>
 	<ingredient name="vehicleMotorcycleChassis" count="1"/>
@@ -657,7 +665,7 @@
 	<ingredient name="resourceAnimalFat" count="5"/>
     <ingredient name="BabyChick" count="10"/>
 	<ingredient name="foodCropPotato" count="4"/>
-	<ingredient name="resourceBone" count="10"/>
+	<ingredient name="foodCornMeal" count="4"/>
 </recipe>
 
 <recipe name="RyuSen101s Ramen Noodles" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >

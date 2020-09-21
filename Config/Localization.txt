@@ -26,6 +26,11 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
 HDPowerRelayBlockDesc,items,,,HD Power Relay Shows NO Wires.\n\nConnect the 1st Relay And from that point NO wires will be shown.,
 
+HDM1GarandDesc,items,,,The M1 Garand is a semi-automatic rifle.\n\n that was the standard U.S. service rifle during World War II and the Korean War and also saw limited service during the Vietnam War.,
+
+HDDecochimneyPOI,blocks,Block,KgNone,HD Deco Chimney,
+HDDecochimneyBlackPOI,blocks,Block,KgNone,HD Deco Chimney,
+
 HDWar3zukMoto,items,Item,KgNone,HD War3zuk Moto,
 HDMadMaxMotoDesc,items,,,Craft the Ultimate in Comfort.\n\nBike Model Altered By Éric Beaudon.,
 
