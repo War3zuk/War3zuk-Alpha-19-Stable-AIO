@@ -33,6 +33,8 @@
 	<remove xpath="/quests/quest[@id='tier5_fetch_clear']"/>
 	<remove xpath="/quests/quest[@id='tier6_fetch_clear']"/>
 	
+	<remove xpath="/quests/quest_list[@id='trader_quests']"/>
+	
 <insertBefore xpath="/quests/quest[@id='challenge_silenceofthelambs']" >
 	
 <quest id="quest_BasicSurvival1">
@@ -1010,7 +1012,7 @@
 			<property name="phase" value="4"/>
 		</objective>
 
-		<reward type="Exp" value="500" />
+		<reward type="Exp" value="50" />
 		<reward type="Item" id="HD Machete" value="6" />
 </quest>
 
@@ -1045,13 +1047,13 @@
 			<property name="phase" value="5"/>
 		</objective>
 
-		<reward type="Exp" value="500" />
+		<reward type="Exp" value="50" />
 		<reward type="Item" id="casinoCoin" value="1000"/>
-		<reward type="Item" id="armorLeatherChest" value="6" />
-		<reward type="Item" id="armorLeatherGloves" value="6" />
-		<reward type="Item" id="armorLeatherPants" value="6" />
-		<reward type="Item" id="armorLeatherBoots" value="6" />
-		<reward type="Item" id="armorLeatherHood" value="6" />
+		<reward type="Item" id="armorLeatherChest" value="3" />
+		<reward type="Item" id="armorLeatherGloves" value="3" />
+		<reward type="Item" id="armorLeatherPants" value="3" />
+		<reward type="Item" id="armorLeatherBoots" value="3" />
+		<reward type="Item" id="armorLeatherHood" value="3" />
 	</quest>
 	
 	<quest id="Find The Trader">
@@ -2151,17 +2153,17 @@
 		<property name="icon" value="ui_game_symbol_treasure"/>
 		<property name="repeatable" value="true"/>
 		<property name="category_key" value="quest"/>
-		<property name="offer_key" value="Camoes Gamer And his Gang of Cut Throat Thirsty Bastards have run off with my Porn Stash. Track them down. Kill them all And bring back my Shit"/>
+		<property name="offer_key" value="War3zuk And his Gang of Cut Throat Thirsty Bastards have run off with my Porn Stash. Track them down. Kill them all And bring back my Shit"/>
 		<property name="difficulty" value="medium"/>
 		<property name="difficulty_tier" value="1"/>
 		<property name="statement_key" value="quest_buried_supplies_statement"/>
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="true"/>
+		<property name="shareable" value="false"/>
 
 		<objective type="TreasureChest">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT1"/>
 			<property name="distance" value="100-200"/>
 			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
@@ -2172,7 +2174,7 @@
 		</objective>
 
 		<objective type="FetchFromTreasure">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT1"/>
 			<property name="quest_item_ID" value="1"/>
 			<property name="item_count" value="1"/>
 		</objective>
@@ -2189,8 +2191,8 @@
 			<property name="nav_object" value="return_to_trader" />
 		</objective>
 
-		<reward type="Exp" value="1000"/>
-		<reward type="Item" id="casinoCoin" value="500"/>
+		<reward type="Exp" value="500"/>
+		<reward type="Item" id="casinoCoin" value="1000"/>
 
 		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
 		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
@@ -2206,17 +2208,17 @@
 		<property name="icon" value="ui_game_symbol_treasure"/>
 		<property name="repeatable" value="true"/>
 		<property name="category_key" value="quest"/>
-		<property name="offer_key" value="Nuklehed Has done it again. Shes stole all the Backup Grub. Go get my Stuff And if you see her Crew Fuck Them Up"/>
+		<property name="offer_key" value="War3zuk Has done it again. hes stole all the Backup Grub. Go get my Stuff And if you see his Crew Fuck Them Up"/>
 		<property name="difficulty" value="medium"/>
 		<property name="difficulty_tier" value="2"/>
 		<property name="statement_key" value="quest_buried_supplies_statement"/>
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="true"/>
+		<property name="shareable" value="false"/>
 
 		<objective type="TreasureChest">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT2"/>
 			<property name="distance" value="200-300"/>
 			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
@@ -2227,7 +2229,7 @@
 		</objective>
 
 		<objective type="FetchFromTreasure">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT2"/>
 			<property name="quest_item_ID" value="1"/>
 			<property name="item_count" value="1"/>
 		</objective>
@@ -2244,8 +2246,8 @@
 			<property name="nav_object" value="return_to_trader" />
 		</objective>
 
-		<reward type="Exp" value="2000"/>
-		<reward type="Item" id="casinoCoin" value="500"/>
+		<reward type="Exp" value="500"/>
+		<reward type="Item" id="casinoCoin" value="2000"/>
 
 		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
 		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
@@ -2261,17 +2263,17 @@
 		<property name="icon" value="ui_game_symbol_treasure"/>
 		<property name="repeatable" value="true"/>
 		<property name="category_key" value="quest"/>
-		<property name="offer_key" value="Mrs Spartan has knicked off with Mr Spartans Stoggy Stash. The finest Cigars on this heavenly Earth. Get them back at ANY cost"/>
+		<property name="offer_key" value="War3zuk has knicked off with My Stoggy Stash. The finest Cigars on this heavenly Earth. Get them back at ANY cost"/>
 		<property name="difficulty" value="medium"/>
 		<property name="difficulty_tier" value="3"/>
 		<property name="statement_key" value="quest_buried_supplies_statement"/>
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="true"/>
+		<property name="shareable" value="false"/>
 
 		<objective type="TreasureChest">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT3"/>
 			<property name="distance" value="300-400"/>
 			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
@@ -2282,7 +2284,7 @@
 		</objective>
 
 		<objective type="FetchFromTreasure">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT3"/>
 			<property name="quest_item_ID" value="1"/>
 			<property name="item_count" value="1"/>
 		</objective>
@@ -2299,8 +2301,8 @@
 			<property name="nav_object" value="return_to_trader" />
 		</objective>
 
-		<reward type="Exp" value="3000"/>
-		<reward type="Item" id="casinoCoin" value="500"/>
+		<reward type="Exp" value="500"/>
+		<reward type="Item" id="casinoCoin" value="4000"/>
 
 		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
 		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
@@ -2316,17 +2318,17 @@
 		<property name="icon" value="ui_game_symbol_treasure"/>
 		<property name="repeatable" value="true"/>
 		<property name="category_key" value="quest"/>
-		<property name="offer_key" value="That Varment Coach Life has Killed all my Chickens. Go find my Spare box of Chicks. If you see him kill him"/>
+		<property name="offer_key" value="War3zuk has Killed all my Chickens. Go find my Spare box of Chicks. If you see him kill him"/>
 		<property name="difficulty" value="medium"/>
 		<property name="difficulty_tier" value="4"/>
 		<property name="statement_key" value="quest_buried_supplies_statement"/>
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="true"/>
+		<property name="shareable" value="false"/>
 
 		<objective type="TreasureChest">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT4"/>
 			<property name="distance" value="400-500"/>
 			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
@@ -2337,7 +2339,7 @@
 		</objective>
 
 		<objective type="FetchFromTreasure">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT4"/>
 			<property name="quest_item_ID" value="1"/>
 			<property name="item_count" value="1"/>
 		</objective>
@@ -2354,8 +2356,8 @@
 			<property name="nav_object" value="return_to_trader" />
 		</objective>
 
-		<reward type="Exp" value="4000"/>
-		<reward type="Item" id="casinoCoin" value="500"/>
+		<reward type="Exp" value="500"/>
+		<reward type="Item" id="casinoCoin" value="8000"/>
 
 		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
 		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
@@ -2371,17 +2373,17 @@
 		<property name="icon" value="ui_game_symbol_treasure"/>
 		<property name="repeatable" value="true"/>
 		<property name="category_key" value="quest"/>
-		<property name="offer_key" value="Hes Stole My Wife. If you see that MoFo The Lovin One Fuck him up Proper And Bring back any stash he has"/>
+		<property name="offer_key" value="War3zuk Stole My Wife. If you see Him Fuck him up Proper And Bring back any stash he has"/>
 		<property name="difficulty" value="medium"/>
 		<property name="difficulty_tier" value="5"/>
 		<property name="statement_key" value="quest_buried_supplies_statement"/>
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="true"/>
+		<property name="shareable" value="false"/>
 
 		<objective type="TreasureChest">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT5"/>
 			<property name="distance" value="500-600"/>
 			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
@@ -2392,7 +2394,7 @@
 		</objective>
 
 		<objective type="FetchFromTreasure">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT5"/>
 			<property name="quest_item_ID" value="1"/>
 			<property name="item_count" value="1"/>
 		</objective>
@@ -2409,8 +2411,8 @@
 			<property name="nav_object" value="return_to_trader" />
 		</objective>
 
-		<reward type="Exp" value="5000"/>
-		<reward type="Item" id="casinoCoin" value="500"/>
+		<reward type="Exp" value="500"/>
+		<reward type="Item" id="casinoCoin" value="10000"/>
 
 		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
 		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
@@ -2426,17 +2428,17 @@
 		<property name="icon" value="ui_game_symbol_treasure"/>
 		<property name="repeatable" value="true"/>
 		<property name="category_key" value="quest"/>
-		<property name="offer_key" value="War3zuk And the Misses Nauti Angel were enjoying Nookie Time when Our Moment was shattered By The Cultured Goon And his Croonies. Kill them all And take Their Shit"/>
+		<property name="offer_key" value="War3zuk And Nauti Angel were enjoying Nookie Time when Our Moment was shattered By a Band Of Outlaws. Kill them all And take Their Shit"/>
 		<property name="difficulty" value="medium"/>
 		<property name="difficulty_tier" value="6"/>
 		<property name="statement_key" value="quest_buried_supplies_statement"/>
 		<property name="response_key" value="quest_buried_supplies_response"/>
 		<property name="completiontype" value="TurnIn"/>
 		<property name="completion_key" value="quest_buried_supplies_completion"/>
-		<property name="shareable" value="true"/>
+		<property name="shareable" value="false"/>
 
 		<objective type="TreasureChest">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT6"/>
 			<property name="distance" value="600-800"/>
 			<property name="default_radius" value="20"/>
 			<property name="container_type" value="Supplies"/>
@@ -2447,7 +2449,7 @@
 		</objective>
 
 		<objective type="FetchFromTreasure">
-			<property name="block" value="cntBuriedLootStashChestInsecure"/>
+			<property name="block" value="cntBuriedLootStashT6"/>
 			<property name="quest_item_ID" value="1"/>
 			<property name="item_count" value="1"/>
 		</objective>
@@ -2464,8 +2466,8 @@
 			<property name="nav_object" value="return_to_trader" />
 		</objective>
 
-		<reward type="Exp" value="10000"/>
-		<reward type="Item" id="casinoCoin" value="500"/>
+		<reward type="Exp" value="500"/>
+		<reward type="Item" id="casinoCoin" value="12000"/>
 
 		<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
 		<reward type="LootItem" id="HDgroupQuestAmmo" ischosen="true" isfixed="true" value="2"/>
@@ -2474,5 +2476,54 @@
 		<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
 </quest>
 	
+</insertBefore>
+
+<insertBefore xpath="/quests/quest_list[@id='test_quests']" >
+	
+<quest_list id="trader_quests">
+	
+        <!-- Tier 1 -->
+        <quest id="tier1_clear"/>
+        <quest id="tier1_fetch"/>
+        <quest id="tier1_buried_supplies"/>
+
+        <!-- Tier 2 -->
+        <quest id="tier2_clear"/>
+        <quest id="tier2_fetch"/>
+        <quest id="tier2_fetch_clear"/>
+        <quest id="tier2_buried_supplies"/>
+
+        <!-- Tier 3 -->
+        <quest id="tier3_clear"/>
+        <quest id="tier3_fetch"/>
+        <quest id="tier3_fetch_clear"/>
+        <quest id="tier3_buried_supplies"/>
+
+        <!-- Tier 4 -->
+        <quest id="tier4_clear"/>
+        <quest id="tier4_fetch"/>
+        <quest id="tier4_fetch_clear"/>
+        <quest id="tier4_buried_supplies"/>
+
+        <!-- Tier 5 -->
+        <quest id="tier5_clear"/>
+        <quest id="tier5_fetch"/>
+        <quest id="tier5_fetch_clear"/>
+        <quest id="tier5_buried_supplies"/>
+		
+		<!-- Tier 6 -->
+		<quest id="tier6_clear"/>
+		<quest id="tier6_fetch"/>
+		<quest id="tier6_fetch_clear"/>
+		<quest id="tier6_buried_supplies"/>
+
+			<!-- Special Quests -->
+		<quest id="tier2_nexttrader" />
+		<quest id="tier3_nexttrader" />
+		<quest id="tier4_nexttrader" />
+		<quest id="tier5_nexttrader" />
+		
+</quest_list>
+
 </insertBefore>
 </configs>

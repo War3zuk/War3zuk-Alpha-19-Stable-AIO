@@ -25,12 +25,10 @@
 	
 <append xpath="/recipes">
 	
-<recipe name="HD M1 Garand" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkDeadEye">
-	<ingredient name="resourceForgedSteel" count="10"/>
-	<ingredient name="resourceForgedIron" count="50"/>
-	<ingredient name="resourceMechanicalParts" count="20"/>
-	<ingredient name="resourceWood" count="200"/>
-	<ingredient name="resourceSpring" count="5"/>
+<recipe name="HDDecochimneyPOI" count="1" craft_time="30">
+	<ingredient name="resourceConcreteMix" count="50"/>
+	<ingredient name="burningBarrelPlayer" count="1"/>
+	<ingredient name="resourceMetalPipe" count="20"/>
 </recipe>
 	
 <recipe name="HDWar3zukMoto" count="1" craft_time="100" craft_area="workbench" tags="perkGreaseMonkey,learnable">
@@ -1203,6 +1201,22 @@
 	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceDuctTape" count="5"/>
 	<ingredient name="resourceWood" count="100"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD M1 Garand" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkDeadEye">
+	<ingredient name="resourceForgedSteel" count="10"/>
+	<ingredient name="resourceForgedIron" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceWood" count="200"/>
+	<ingredient name="resourceSpring" count="5"/>
+</recipe>
+
+<recipe name="HD Royal Enfield" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkDeadEye">
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="resourceForgedIron" count="70"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
+	<ingredient name="resourceWood" count="150"/>
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 

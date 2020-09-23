@@ -70,14 +70,15 @@
 		<item name="HD Spas 12 Schematic" count="1" prob=".02"/>
 		<item name="HD Mossberg 500 Schematic" count="1" prob=".02"/>
 		<item name="HD Double Barrel Schematic" count="1" prob=".02"/>
+		<item name="HD Winchester 1866 Schematic" count="1" prob=".01"/>
+		<item name="HD Royal Enfield Schematic" count="1" prob=".01"/>
 		<item name="HD M1 Garand Schematic" count="1" prob=".01"/>
-		<item name="HD Winchester 1866 Schematic" count="1" prob=".02"/>
-		<item name="HD Karabiner 98k Schematic" count="1" prob=".02"/>
-		<item name="HD Dragunov SVD Schematic" count="1" prob=".02"/>
-		<item name="HD CheyTac M300 Schematic" count="1" prob=".02"/>
-		<item name="HD Arctic Warfare Schematic" count="1" prob=".02"/>
-		<item name="HD Flame Thrower Schematic" count="1" prob=".02"/>
-		<item name="HD Rocket Launcher Schematic" count="1" prob=".02"/>
+		<item name="HD Karabiner 98k Schematic" count="1" prob=".01"/>
+		<item name="HD Dragunov SVD Schematic" count="1" prob=".01"/>
+		<item name="HD CheyTac M300 Schematic" count="1" prob=".01"/>
+		<item name="HD Arctic Warfare Schematic" count="1" prob=".01"/>
+		<item name="HD Flame Thrower Schematic" count="1" prob=".01"/>
+		<item name="HD Rocket Launcher Schematic" count="1" prob=".01"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenches">
@@ -202,6 +203,102 @@
 	<item name="HDammoBundleShotgunBreachingSlug" count="1" loot_prob_template="GradeALoot"/>
 	<item name="HDBreachingC4" count="5" loot_prob_template="GradeALoot"/>
 	<item name="MREMilitaryRation" count="2" loot_prob_template="GradeALoot"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART1" count="1,4">
+	<item group="War3zukHDMilitary" count="1" prob="0.5"/>
+	<item group="War3zukHDFoods" count="1,2" prob="0.5"/>
+	<item group="groupArmorScaledTPlus" prob="0.5"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".5"/>
+	<item group="rareOres" count="2,4"/>
+	<item name="oldCash" count="200,250"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT1" count="all">
+	<item group="groupBuriedLootStashTreasureWART1"/>
+	<item name="casinoCoin" count="2000,4000"/>
+	<item group="treasureAmmo"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART2" count="1,4">
+	<item group="War3zukHDMilitary" count="1" prob="0.5"/>
+	<item group="War3zukHDFoods" count="1,2" prob="0.5"/>
+	<item group="groupArmorScaledTPlus" prob="0.5"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".5"/>
+	<item group="rareOres" count="3,5"/>
+	<item name="oldCash" count="200,350"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT2" count="all">
+	<item group="groupBuriedLootStashTreasureWART2"/>
+	<item name="casinoCoin" count="4000,8000"/>
+	<item group="treasureAmmo"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART3" count="1,4">
+	<item group="War3zukHDMilitary" count="1" prob="0.6"/>
+	<item group="War3zukHDFoods" count="1,2" prob="0.6"/>
+	<item group="groupArmorScaledTPlus" prob="0.6"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".6"/>
+	<item group="rareOres" count="4,6"/>
+	<item name="oldCash" count="150,300"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT3" count="all">
+	<item group="groupBuriedLootStashTreasureWART3"/>
+	<item name="casinoCoin" count="8000,10000"/>
+	<item group="treasureAmmo"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART4" count="1,4">
+	<item group="War3zukHDMilitary" count="1" prob="0.7"/>
+	<item group="War3zukHDFoods" count="1,2" prob="0.7"/>
+	<item group="groupArmorScaledTPlus" prob="0.7"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".7"/>
+	<item group="rareOres" count="5,7"/>
+	<item name="oldCash" count="300,450"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT4" count="all">
+	<item group="groupBuriedLootStashTreasureWART4"/>
+	<item name="casinoCoin" count="10000,12000"/>
+	<item group="treasureAmmo"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART5" count="1,4">
+	<item group="War3zukHDMilitary" count="1" prob="0.8"/>
+	<item group="War3zukHDFoods" count="1,2" prob="0.8"/>
+	<item group="groupArmorScaledTPlus" prob="0.8"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".8"/>
+	<item group="rareOres" count="6,8"/>
+	<item name="oldCash" count="450,600"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT5" count="all">
+	<item group="groupBuriedLootStashTreasureWART5"/>
+	<item name="casinoCoin" count="12000,14000"/>
+	<item group="treasureAmmo"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureWART6" count="1,4">
+	<item group="War3zukHDMilitary" count="1" prob="0.9"/>
+	<item group="War3zukHDFoods" count="1,2" prob="0.9"/>
+	<item group="groupArmorScaledTPlus" prob="0.9"/>
+	<item group="groupWeaponsAllScaledTPlus"/>
+	<item group="groupModAllScaled" prob=".9"/>
+	<item group="rareOres" count="8,10"/>
+	<item name="oldCash" count="600,900"/>
+</lootgroup>
+
+<lootgroup name="groupBuriedLootStashTreasureT6" count="all">
+	<item group="groupBuriedLootStashTreasureWART6"/>
+	<item name="casinoCoin" count="14000,16000"/>
+	<item group="treasureAmmo"/>
 </lootgroup>
 
 </insertAfter>
@@ -817,6 +914,30 @@
 <lootcontainer id="530" count="2,4" size="6,8" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
 	<item name="resourceSnowBall" count="20,40" prob="1"/>
 	<item name="Shaved Ice" count="10,20" prob="1"/>
+</lootcontainer>
+
+<lootcontainer id="531" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedLootStashTreasureT1"/>
+</lootcontainer>
+
+<lootcontainer id="532" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedLootStashTreasureT2"/>
+</lootcontainer>
+
+<lootcontainer id="533" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedLootStashTreasureT3"/>
+</lootcontainer>
+
+<lootcontainer id="534" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedLootStashTreasureT4"/>
+</lootcontainer>
+
+<lootcontainer id="535" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedLootStashTreasureT5"/>
+</lootcontainer>
+
+<lootcontainer id="536" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+	<item group="groupBuriedLootStashTreasureT6"/>
 </lootcontainer>
 	
 </insertAfter>

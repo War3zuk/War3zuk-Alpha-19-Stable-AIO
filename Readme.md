@@ -1,6 +1,48 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v4.6 to v4.7
+
+Edited Buried Supplies Quests (Non Sharable)
+
+Added HD Royal Enfield PBR Model (Paid)
+Added HD Royal Enfield Icons 256x256
+Added HD Royal Enfield Schematic
+Added HD Royal Enfield MuzzleFlash
+
+Adjusted HD M1 Garand Muzzle Flash
+
+Reduced Gained XP From HD Schematics
+Reduced Chance For Spawned SniperRifle Type Schematics
+
+Added HD Deco Chimney
+
+Added GraceCornGlue To Campfire
+Adjusted War3zuk Stoggy (craftTime)
+Updated Camoes Biffana Icon
+
+Updated Buried Supplies Quests Code
+Added CntBuriedSupplies Tier 1
+Added CntBuriedSupplies Tier 2
+Added CntBuriedSupplies Tier 3
+Added CntBuriedSupplies Tier 4
+Added CntBuriedSupplies Tier 5
+Added CntBuriedSupplies Tier 6
+Added cntBuriedLootT1 Box + SubBox
+Added cntBuriedLootT2 Box + SubBox
+Added cntBuriedLootT3 Box + SubBox
+Added cntBuriedLootT4 Box + SubBox
+Added cntBuriedLootT5 Box + SubBox
+Added cntBuriedLootT6 Box + SubBox
+WasteLand And Sub Biomes
+
+Launcher Edits:
+Updated Sparrow MultiTrader (Better FPS)
+Added Underground Train Prefab
+
 Updated v4.5 to v4.6
+
+Reduced Gained XP From HD Schematics
+Reduced Chance For Spawned SniperRifle Type Schematics
 
 Added M1 Garand PBR Model (Paid)
 Added M1 Garand LiveFire Sounds
@@ -34,8 +76,32 @@ HD Blunderbuss (Dmg Comp Added)
 HD Double Barrel (Dmg Comp Added)
 HD Double Barrel Snub (Dmg Comp Added)
 
+Added HD Deco Chimney
+
+Added GraceCornGlue To Campfire
+Adjusted War3zuk Stoggy (craftTime)
+Updated Camoes Biffana Icon
+
 Fixed HD Cement Mixer Ambient Sound
 Adjusted HD Karabiner 98k Dmg
+
+Updated Buried Supplies Quests Code
+Added CntBuriedSupplies Tier 1
+Added CntBuriedSupplies Tier 2
+Added CntBuriedSupplies Tier 3
+Added CntBuriedSupplies Tier 4
+Added CntBuriedSupplies Tier 5
+Added CntBuriedSupplies Tier 6
+Added cntBuriedLootT1 Box + SubBox
+Added cntBuriedLootT2 Box + SubBox
+Added cntBuriedLootT3 Box + SubBox
+Added cntBuriedLootT4 Box + SubBox
+Added cntBuriedLootT5 Box + SubBox
+Added cntBuriedLootT6 Box + SubBox
+
+Launcher Edits:
+Updated Sparrow MultiTrader (Better FPS)
+Added Underground Train Prefab
 
 Updated v4.4 to v4.5
 

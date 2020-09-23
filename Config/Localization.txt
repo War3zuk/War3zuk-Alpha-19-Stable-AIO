@@ -24,12 +24,15 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},<{0}> [d50937]Sear
 useBlock,UI,Menu,,<{0}> [d50937]use [-]{1},<{0}> [d50937]Use [-]{1},
 lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 
-HDPowerRelayBlockDesc,items,,,HD Power Relay Shows NO Wires.\n\nConnect the 1st Relay And from that point NO wires will be shown.,
+War3zuk Quest 01,items,Item,KgNone,War3zuk Machete Skills Needed,
+War3zuk Quest 02,items,Item,KgNone,War3zuk Kill The Dogs And Pigs,
 
 HDM1GarandDesc,items,,,The M1 Garand is a semi-automatic rifle.\n\n that was the standard U.S. service rifle during World War II and the Korean War and also saw limited service during the Vietnam War.,
 
 HDDecochimneyPOI,blocks,Block,KgNone,HD Deco Chimney,
 HDDecochimneyBlackPOI,blocks,Block,KgNone,HD Deco Chimney,
+
+HDPowerRelayBlockDesc,items,,,HD Power Relay Shows NO Wires.\n\nConnect the 1st Relay And from that point NO wires will be shown.,
 
 HDWar3zukMoto,items,Item,KgNone,HD War3zuk Moto,
 HDMadMaxMotoDesc,items,,,Craft the Ultimate in Comfort.\n\nBike Model Altered By Éric Beaudon.,
@@ -281,7 +284,7 @@ HDMotor125ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 5 P
 HDMotor250ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 15 Percent speed Increase,
 HDMotor500ccDesc,items,,,Adding This to the HD Cement Mixer will grant you a 30 Percent speed Increase,
 
-War3zuksStoggyDesc,items,,,So Youve Crafted The Ultimate In Nicotine. Enjoy 20 Percent Quicker Crafting,
+War3zuksStoggyDesc,items,,,So Youve Crafted The Ultimate In Nicotine. Enjoy 5 Percent Quicker Crafting And 10 Percent more XP,
 
 HDM4A1CarbineScope,items,Item,KgNone,HD M4A1 Carbine Scope,
 HDColtM1911REFLEX,items,Item,KgNone,HD M1911 REFLEX,

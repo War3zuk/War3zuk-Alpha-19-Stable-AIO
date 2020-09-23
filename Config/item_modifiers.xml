@@ -127,7 +127,7 @@
 	
 		<item_property_overrides name="HD Desert Eagle Punisher">
 			<property name="CrosshairOnAim" value="false"/>
-			<property name="ScopeCameraOffset" value="0.0018,-0.035,0.05"/>
+			<property name="ScopeCameraOffset" value="0.0018,-0.033,0.05"/>
 		</item_property_overrides>
 		
 		<item_property_overrides name="HD Desert Eagle">
@@ -582,7 +582,7 @@
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="Zoom_max_out" value="55"/>
 			<property name="Zoom_max_in" value="55"/>
-			<property name="ScopeCameraOffset" value="-0.00,-0.018,-0.00"/>
+			<property name="ScopeCameraOffset" value="-0.00,-0.015,-0.00"/>
 		</item_property_overrides>
 
 		<effect_group tiered="false">
@@ -603,7 +603,7 @@
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="Zoom_max_out" value="55"/>
 			<property name="Zoom_max_in" value="55"/>
-			<property name="ScopeCameraOffset" value="-0.001,-0.015,0"/>
+			<property name="ScopeCameraOffset" value="-0.001,-0.013,0"/>
 		</item_property_overrides>
 
 		<effect_group tiered="false">

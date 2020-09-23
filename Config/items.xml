@@ -52,6 +52,9 @@
 	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action0']/property[@name='Sound_start']/@value">DEALTFire01</set>
 	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action0']/property[@name='Sound_loop']/@value">DEALTFire01</set>
 	
+<!--<set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Meshfile']/@value">#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab</set>
+	<set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='DropMeshfile']/@value">#@modfolder:Resources/HD Ammo Box.unity3d?HD Ammo Box.Prefab</set>-->
+	
 <append xpath="/items">
 <item name="Golden Coin">
 		<property name="DescriptionKey" value="GoldenCoinDesc"/>
@@ -297,13 +300,103 @@
 	</effect_group>
 </item> -->
 	
+<item name="HD Royal Enfield">
+	<property name="CustomIcon" value="HD Royal Enfield"/>
+	<property name="DescriptionKey" value="HDRoyalEnfieldDesc"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="DisplayType" value="rangedGun"/>
+	<property name="HoldType" value="30"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Royal Enfield.unity3d?HD Royal Enfield.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="MRifleParts"/> <property name="Weight" value="4"/>
+	<property name="RepairTools" value="RepairKitHuntingRifles"/>
+	<property name="DegradationBreaksAfter" value="false"/>
+	<property name="SoundJammed" value="ItemNeedsRepair"/>
+	<property name="Attachments" value="meleeToolFlashlight02"/>
+	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairUpAfterShot" value="true"/>
+	<property name="Sound_Sight_In" value="rifle_sight_in"/>
+	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
+	<property name="LightSource" value="lightSource"/>
+	<property name="ActivateObject" value="Attachments/flashlight/lightSource"/>
+	<property name="AttachmentFlashlight" value="meleeToolFlashlight02"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="RepairExpMultiplier" value="10.8"/>
+	<property name="LightValue" value=".45"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="UnlockedBy" value="HD Royal Enfield Schematic"/>
+	<property name="ShowQuality" value="true"/>
+	<property class="Action0">
+		<property name="Class" value="Ranged"/>
+		<property name="Delay" value=".5"/>
+		<property name="Magazine_items" value="ammo762mmBulletBall,ammo762mmBulletHP,ammo762mmBulletAP"/>
+		<property name="Reload_time" value="2.66"/>
+		<property name="Sound_start" value="MGarandFire"/>
+		<property name="Sound_repeat" value="MGarandFire"/>
+		<property name="Sound_end" value=""/>
+		<property name="Sound_empty" value="dryfire"/>
+		<property name="Sound_reload" value=""/>
+		<property name="AutoReload" value="false"/>
+		<property name="Particles_muzzle_fire" value="gunfire_m60"/>
+		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_m60_fpv"/>
+		<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
+		<property name="ScopeOffset" value="-.00000,.05,-.100"/>
+		<property name="SideOffset" value="0,0,0"/>
+		<property name="BarrelOffset" value="0,0,0"/>
+		<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".98"/>
+	</property>
+	<property class="Action1">
+		<property name="Class" value="Zoom"/>
+		<property name="Zoom_max_out" value="55"/>
+		<property name="Zoom_max_in" value="55"/>
+	</property>
+	<effect_group name="gunRifleT1HuntingRifle">
+		<passive_effect name="MaxRange" operation="base_set" value="110" tags="perkDeadEye"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="75" tags="perkDeadEye"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="40" tags="perkDeadEye"/>
+		<passive_effect name="RoundsPerMinute" operation="base_set" value="150" tags="perkDeadEye"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="6" tags="perkDeadEye"/>
+		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDeadEye"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
+		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
+		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeadEye"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
+		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="perc_add" value="-.2,.2" tags="perkDeadEye"/>
+		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkDeadEye"/>
+		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.1" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.1" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".04" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.0" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="1.2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.15" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".15" tags="perkDeadEye"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1" tags="perkDeadEye"/>
+		<passive_effect name="WeaponHandling" operation="base_set" value=".85" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="1170,2370" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
+		
+        <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
+        <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
+		
+	</effect_group>
+</item>
+	
 <item name="HD M1 Garand">
 	<property name="CustomIcon" value="HD M1 Garand"/>
 	<property name="DescriptionKey" value="HDM1GarandDesc"/>
 	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="30"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD M1 Garand.unity3d?HD M1 Garand"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Meshfile" value="#@modfolder:Resources/HD M1 Garand.unity3d?HD M1 Garand.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MRifleParts"/> <property name="Weight" value="4"/>
 	<property name="RepairTools" value="RepairKitHuntingRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -333,8 +426,10 @@
 		<property name="Sound_empty" value="MGarandClipEject"/>
 		<property name="Sound_reload" value=""/>
 		<property name="AutoReload" value="false"/>
-		<property name="Particles_muzzle_fire" value="gunfire_magnum"/>
-		<property name="Particles_muzzle_fire_fpv" value="gunfire_magnum_fpv"/>
+		<property name="Particles_muzzle_fire" value="gunfire_m60"/>
+		<property name="Particles_muzzle_smoke" value="gunfire_smoke"/>
+		<property name="Particles_muzzle_fire_fpv" value="gunfire_m60_fpv"/>
+		<property name="Particles_muzzle_smoke_fpv" value="gunfire_smoke_fpv"/>
 		<property name="ScopeOffset" value="-.00000,.05,-.100"/>
 		<property name="SideOffset" value="0,0,0"/>
 		<property name="BarrelOffset" value="0,0,0"/>
@@ -1039,10 +1134,10 @@
 	<effect_group tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
 		<passive_effect name="AttributeLevel" operation="base_add" value="1" tags="attIntellect"/>
-		<passive_effect name="CraftingTime" operation="perc_add" value="-.1"/>
-		<passive_effect name="PlayerExpGain" operation="perc_add" value=".2"/>
-		<display_value name="dCraftingTime" value="-.1"/>
-		<display_value name="dPlayerExpGain" value=".2"/>
+		<passive_effect name="CraftingTime" operation="perc_add" value="-.05"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value=".1"/>
+		<display_value name="dCraftingTime" value="-.05"/>
+		<display_value name="dPlayerExpGain" value=".1"/>
 	</effect_group>
 </item>
 
@@ -3038,7 +3133,7 @@
 <item name="HD M4A1 Carbine">
 	<property name="CustomIcon" value="HD M4A1 Carbine"/>
 	<property name="DescriptionKey" value="HDM4A1CDesc"/>
-	<property name="Tags" value="HDM4A1,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+	<property name="Tags" value="HDM4A1,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,selfLoading,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD M4A1 Carbine.unity3d?HD M4A1 Carbine.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3115,7 +3210,7 @@
 <item name="HD Tactical AR">
 	<property name="DescriptionKey" value="HDTARDesc"/>
 	<property name="CustomIcon" value="HD Tactical AR"/>
-	<property name="Tags" value="TacticalAR,attachmentsIncluded,weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
+	<property name="Tags" value="TacticalAR,attachmentsIncluded,weapon,ranged,holdBreathAiming,selfLoading,reloadPenalty,gun,sideAttachments,stock,magazine,drumMagazine,firingMode,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Tactical AR.unity3d?HD Tactical AR.Prefab"/>
@@ -3364,7 +3459,7 @@
 <item name="HD Spas 12">
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,perkBoomstick,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Default.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3430,6 +3525,8 @@
 		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.24"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkBoomstick"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.5"/>
 		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2.5" tags="perkBoomstick"/>
@@ -3515,6 +3612,8 @@
 		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.24"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkBoomstick"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.5"/>
 		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2.5" tags="perkBoomstick"/>
@@ -3600,6 +3699,8 @@
 		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.24"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkBoomstick"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.5"/>
 		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2.5" tags="perkBoomstick"/>
@@ -3685,6 +3786,8 @@
 		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.24"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkBoomstick"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.5"/>
 		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2.5" tags="perkBoomstick"/>
@@ -3770,6 +3873,8 @@
 		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.24"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkBoomstick"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.5"/>
 		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2.5" tags="perkBoomstick"/>
@@ -3839,7 +3944,7 @@
 	<effect_group name="gunShotgunT2PumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="15"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="4"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="6"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="75" tags="perkBoomstick"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkBoomstick"/>
@@ -3855,6 +3960,8 @@
 		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="perc_add" value="-.122,.24"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkBoomstick"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.5"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.5"/>
 		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="4.2" tags="perkBoomstick"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-2.5" tags="perkBoomstick"/>
@@ -4576,7 +4683,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="165"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="145"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="32"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="42"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="150"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="5"/>
@@ -8887,7 +8994,7 @@
 	<property name="Unlocks" value="HD Wrench"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Wrench" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -8898,7 +9005,7 @@
 	<property name="Unlocks" value="HD Auger"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Auger" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -8909,7 +9016,7 @@
 	<property name="Unlocks" value="HD Chainsaw"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Chainsaw" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -8920,7 +9027,7 @@
 	<property name="Unlocks" value="HD Military Helmet"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Military Helmet" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -8931,7 +9038,7 @@
 	<property name="Unlocks" value="HD Military Vest"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Military Vest" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -8942,7 +9049,7 @@
 	<property name="Unlocks" value="HD Military Legs"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Military Legs" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -8953,7 +9060,7 @@
 	<property name="Unlocks" value="HD Military Boots"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Military Boots" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -8964,7 +9071,7 @@
 	<property name="Unlocks" value="HD Military Gloves"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Military Gloves" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -8975,7 +9082,7 @@
 	<property name="Unlocks" value="HD Mossberg 500"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Mossberg 500" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -8987,7 +9094,7 @@
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Desert Eagle" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Desert Eagle Punisher" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -8998,7 +9105,7 @@
 	<property name="Unlocks" value="HD First Aid Kit"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD First Aid Kit" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9009,7 +9116,7 @@
 	<property name="Unlocks" value="HD M4A1 Carbine"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD M4A1 Carbine" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9020,7 +9127,7 @@
 	<property name="Unlocks" value="HD Tactical AR"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Tactical AR" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9031,7 +9138,7 @@
 	<property name="Unlocks" value="HD Forge"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Forge" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9042,7 +9149,7 @@
 	<property name="Unlocks" value="HD Generator"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Generator" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9053,7 +9160,7 @@
 	<property name="Unlocks" value="HD Gas Generator"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Gas Generator" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9064,7 +9171,7 @@
 	<property name="Unlocks" value="HD Vulcan 9mm Barrel"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 9mm Barrel" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9075,7 +9182,7 @@
 	<property name="Unlocks" value="HD Vulcan 9mm Parts"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 9mm Parts" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9086,7 +9193,7 @@
 	<property name="Unlocks" value="HD Vulcan 9mm Motor"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 9mm Motor" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9097,7 +9204,7 @@
 	<property name="Unlocks" value="HD Vulcan 7.62mm Barrel"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 7.62mm Barrel" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9108,7 +9215,7 @@
 	<property name="Unlocks" value="HD Vulcan 7.62mm Parts"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 7.62mm Parts" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9119,7 +9226,7 @@
 	<property name="Unlocks" value="HD Vulcan 7.62mm Motor"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 7.62mm Motor" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9130,7 +9237,7 @@
 	<property name="Unlocks" value="HD Vulcan 50Bmg Barrel"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 50Bmg Barrel" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9141,7 +9248,7 @@
 	<property name="Unlocks" value="HD Vulcan 50Bmg Parts"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 50Bmg Parts" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9152,7 +9259,7 @@
 	<property name="Unlocks" value="HD Vulcan 50Bmg Motor"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 50Bmg Motor" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9167,7 +9274,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12 USA" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12 Alien" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12 Irish" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9178,7 +9285,7 @@
 	<property name="Unlocks" value="HD AK Hybrid ACP"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD AK Hybrid ACP" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9189,7 +9296,7 @@
 	<property name="Unlocks" value="HD HK33 Hybrid"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD HK33 Hybrid" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9200,7 +9307,7 @@
 	<property name="Unlocks" value="HD Mac10 Auto"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Mac10 Auto" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9211,7 +9318,7 @@
 	<property name="Unlocks" value="HD Arctic Warfare"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Arctic Warfare" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>
 
@@ -9222,6 +9329,17 @@
 	<property name="Unlocks" value="HD M1 Garand"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD M1 Garand" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
+	</effect_group>
+</item>
+
+<item name="HD Royal Enfield Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Royal Enfield Schematic"/>
+	<property name="Unlocks" value="HD Royal Enfield"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Royal Enfield" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="20"/>
 	</effect_group>
 </item>

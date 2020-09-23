@@ -28,6 +28,62 @@
 	
 <append xpath="/blocks">
 	
+<block name="cntBuriedLootStashT1">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="531"/>
+	<property name="CreativeMode" value="None"/>
+</block>
+
+<block name="cntBuriedLootStashT2">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="532"/>
+	<property name="CreativeMode" value="None"/>
+</block>
+
+<block name="cntBuriedLootStashT3">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="533"/>
+	<property name="CreativeMode" value="None"/>
+</block>
+
+<block name="cntBuriedLootStashT4">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="534"/>
+	<property name="CreativeMode" value="None"/>
+</block>
+
+<block name="cntBuriedLootStashT5">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="535"/>
+	<property name="CreativeMode" value="None"/>
+</block>
+
+<block name="cntBuriedLootStashT6">
+	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
+	<property name="Tags" value="buriedTreasure"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="LootList" value="536"/>
+	<property name="CreativeMode" value="None"/>
+</block>
+	
+<block name="HDDecochimneyPOI">
+	<property name="CustomIcon" value="chimneyPOI" />
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Buildings/chimneyPrefab"/>
+	<property name="CreativeMode" value="Dev"/>
+</block>
+	
 <block name="HDIceMachineE">
 	<property name="DescriptionKey" value="HDIceMachineEDesc"/>
 	<property name="Class" value="PlantGrowing"/>
