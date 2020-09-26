@@ -1072,8 +1072,8 @@
 	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
-	<property name="Class" value="SecureLoot"/>
-	<property name="LootList" value="1"/>
+	<!-- <property name="Class" value="SecureLoot"/> -->
+	<!-- <property name="LootList" value="1"/> -->
 		<drop event="Destroy" name="HD Working Dispenser" count="1" />
 		<drop event="Fall" name="woodDebris" count="1" prob="1.0"  stick_chance="1" />
 	<property name="EconomicValue" value="750"/>

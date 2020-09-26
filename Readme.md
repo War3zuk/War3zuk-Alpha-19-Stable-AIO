@@ -1,5 +1,20 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v4.7 to v4.8
+
+Edited HD Working Dispenser (Inventory Removed)
+This Is So It Doesnt Show As Jammed When Spawned
+
+Rebuilt Spawning Code As Follows
+Rebuilt biome Spawning Code
+Rebuilt Entity Spawning Code
+
+
+Launcher Edits:
+Updated SMXHud
+Updated SMXMenu
+Updated SMXLib
+
 Updated v4.6 to v4.7
 
 Edited Buried Supplies Quests (Non Sharable)

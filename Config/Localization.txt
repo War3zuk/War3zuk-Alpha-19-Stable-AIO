@@ -592,7 +592,7 @@ HDJukeBoxASevenfoldDesc,items,,,Punch Me To Turn On And Off 5 Tracks Joined that
 HDWorkingFireDesc,blocks,Block Building,,A Fully Working Fireplace Stove that uses NO Fuel.
 HDWODesc,blocks,Block Building,,A Fully Working oven that uses NO Fuel.
 
-HDWDDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item And Use LMB
+HDWDDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the HD Water Dispencer And Use Left Mouse Button.,
 
 HDWorkingFridgeDesc,blocks,Block Building,,Place Empty Glass Jars in your Toolbelt. Face the Item And Use LMB
 
