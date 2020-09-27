@@ -2427,6 +2427,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="65"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="45"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="0"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="12"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="earth"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="750"/>
@@ -2511,6 +2512,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="50" tags="9mmGun"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="35" tags="9mmGun"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="9mmGun"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="25"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="350"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="15"/>
@@ -2593,6 +2595,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="50" tags="9mmGun"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="35" tags="9mmGun"/>
 		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="9mmGun"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="25"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="350"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="15"/>

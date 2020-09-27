@@ -9,6 +9,10 @@ Rebuilt Spawning Code As Follows
 Rebuilt biome Spawning Code
 Rebuilt Entity Spawning Code
 
+Adjusted HD Colt M1911 Dmg (Base_Add)
+Adjusted HD Colt M1911A Dmg (Base_Add)
+Adjusted HDGlock18Auto Dmg (Base_Add)
+
 
 Launcher Edits:
 Updated SMXHud
