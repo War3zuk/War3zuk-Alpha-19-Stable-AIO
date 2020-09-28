@@ -2,6 +2,9 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v4.7 to v4.8
 
+Added ScyFangs Sweet Pumpkin Pie (CampFire + Grill)
+Added ScyFangs Sweet Pumpkin Pie Custom PBR Model
+
 Edited HD Working Dispenser (Inventory Removed)
 This Is So It Doesnt Show As Jammed When Spawned
 
@@ -18,6 +21,7 @@ Launcher Edits:
 Updated SMXHud
 Updated SMXMenu
 Updated SMXLib
+Enabled TargetBar Overlay
 
 Updated v4.6 to v4.7
 

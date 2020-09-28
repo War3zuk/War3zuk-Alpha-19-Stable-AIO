@@ -672,6 +672,12 @@
 	<ingredient name="foodCornMeal" count="4"/>
 </recipe>
 
+<recipe name="ScyFangs Sweet Pumpkin Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodCropPumpkin" count="4"/>
+	<ingredient name="foodEgg" count="4"/>
+	<ingredient name="foodCornMeal" count="4"/>
+</recipe>
+
 <recipe name="Aaron Rockst4r" count="1" craft_time = "10">
 	<ingredient name="resourceWood" count="40"/>
 	<ingredient name="resourceNail" count="10"/>
