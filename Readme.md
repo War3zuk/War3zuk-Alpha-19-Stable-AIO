@@ -2,6 +2,8 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v4.7 to v4.8
 
+Fixed HD Blunderbuss Dmg
+
 Added HD Hazmat Fiber Schematic (Found In Army Trucks Only)
 Added HD Hazmat Mask Schematic
 Added HD Hazmat Gloves Schematic
