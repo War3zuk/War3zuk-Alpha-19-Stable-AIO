@@ -685,6 +685,13 @@
 	<ingredient name="foodCornMeal" count="4"/>
 </recipe>
 
+<recipe name="MajorZNations MeatFeast Pizza" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="foodRawMeat" count="10"/>
+	<ingredient name="foodShamSandwich" count="4"/>
+	<ingredient name="foodCanBeef" count="1"/>
+</recipe>
+
 <recipe name="Aaron Rockst4r" count="1" craft_time = "10">
 	<ingredient name="resourceWood" count="40"/>
 	<ingredient name="resourceNail" count="10"/>

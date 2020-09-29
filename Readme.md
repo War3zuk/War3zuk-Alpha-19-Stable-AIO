@@ -22,6 +22,8 @@ Edited XPToLevel (10,500) OLD (7500)
 
 Added ScyFangs Sweet Pumpkin Pie (CampFire + Grill)
 Added ScyFangs Sweet Pumpkin Pie Custom PBR Model
+Added MajorZNations MeatFeast Pizza (CampFire + Grill)
+Added MajorZNations MeatFeast Pizza Custom PBR Model
 
 Edited HD Working Dispenser (Inventory Removed)
 This Is So It Doesnt Show As Jammed When Spawned

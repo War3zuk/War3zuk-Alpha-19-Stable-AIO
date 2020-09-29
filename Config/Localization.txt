@@ -27,6 +27,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 War3zuk Quest 01,items,Item,KgNone,War3zuk Machete Skills Needed,
 War3zuk Quest 02,items,Item,KgNone,War3zuk Kill The Dogs And Pigs,
 
+MajorZNationsPizzaDesc,items,,,MeatFeast Pizza will keep your Tummy Full While zombie Slayin.,
+
 HDHazmatFiber,items,Item,KgNone,HD Hazmat Fiber,
 HDHazmatBoots,items,Item,KgNone,HD Hazmat Boots,
 HDHazmatPants,items,Item,KgNone,HD Hazmat Pants,
