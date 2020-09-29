@@ -25,6 +25,13 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HDHazmatFiber" count="10" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable">
+	<ingredient name="resourceYuccaFibers" count="100"/>
+	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="resourceDuctTape" count="10"/>
+	<ingredient name="resourceAcid" count="2"/>
+</recipe>
+	
 <recipe name="HDDecochimneyPOI" count="1" craft_time="30">
 	<ingredient name="resourceConcreteMix" count="50"/>
 	<ingredient name="burningBarrelPlayer" count="1"/>
@@ -1236,6 +1243,41 @@
 	<ingredient name="medicalBloodBag" count="1"/>
 	<ingredient name="drinkJarGrainAlcohol" count="1"/>
 	<ingredient name="medicalFirstAidKit" count="1"/>
+</recipe>
+
+<recipe name="HDHazmatMask" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="resourceSewingKit" count="4"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="HDHazmatFiber" count="20"/>
+</recipe>
+
+<recipe name="HDHazmatGloves" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="resourceSewingKit" count="4"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="HDHazmatFiber" count="20"/>
+</recipe>
+
+<recipe name="HDHazmatJacket" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="resourceSewingKit" count="4"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="HDHazmatFiber" count="20"/>
+</recipe>
+
+<recipe name="HDHazmatPants" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="resourceSewingKit" count="4"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="HDHazmatFiber" count="20"/>
+</recipe>
+
+<recipe name="HDHazmatBoots" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">
+	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="resourceSewingKit" count="4"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="HDHazmatFiber" count="20"/>
 </recipe>
 
 <recipe name="HD Military Vest" count="1" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable,perkLightArmor">

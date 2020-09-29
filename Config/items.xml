@@ -228,77 +228,23 @@
 	
 <append xpath="/items">
 	
-<!--  <item name="HD Scrap Iron Knuckles">
-	<property name="CustomIcon" value="HD Scrap Iron Knuckles"/>
-	<property name="Tags" value="blunt,melee,grunting,light,perkFlurryOfBlows,weapon,attFortitude,perkBrawler,canHaveCosmetic"/>
-	<property name="Material" value="Mmetal"/>
-	<property name="Meshfile" value="#@modfolder:Resources/HD Scrap Iron Knuckles.unity3d?HD Scrap Iron Knuckles R.Prefab"/>
-	<property name="HoldType" value="61"/>
-	<property name="RepairTools" value="resourceRepairKit"/>
-	<property name="DegradationBreaksAfter" value="false"/>
-	<property name="SoundJammed" value="ItemNeedsRepair"/>
-	<property name="SoundDestroy" value="wooddestroy1"/>
-	<property name="DisplayType" value="melee"/>
-	<property name="Canhold" value="true"/>
-	<property name="Group" value="Ammo/Weapons"/>
-	<property name="EconomicValue" value="350"/>
-	<property name="ShowQuality" value="true"/>
-	<property class="Action0">
-		<property name="Class" value="DynamicMelee"/>
-		<property name="Sphere" value=".15"/>
-		<property name="Damage_type" value="Bashing"/>
-		<property name="ToolCategory.Butcher" value="0" param1="4.7"/>
-		<property name="UseGrazingHits" value="true"/>
-		<property name="GrazeStart" value=".3"/>
-		<property name="GrazeEnd" value=".5"/>
-		<property name="SwingDegrees" value="90"/>
-		<property name="SwingAngle" value="-90"/>
-	</property>
-	<property class="Action1">
-		<property name="Class" value="DynamicMelee"/>
-		<property name="Sphere" value=".15"/>
-		<property name="UsePowerAttackAnimation" value="true"/>
-		<property name="ToolCategory.Butcher" value="0" param1="4.7"/>
-		<property name="UseGrazingHits" value="true"/>
-		<property name="GrazeStart" value=".35"/>
-		<property name="GrazeEnd" value=".4"/>
-		<property name="SwingDegrees" value="30"/>
-		<property name="SwingAngle" value="90"/>
-	</property>
-	<effect_group name="meleeWpnKnucklesT1IronKnuckles">
-		<passive_effect name="EntityDamage" operation="base_set" value="9.1" tags="perkBrawler"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="3" tags="perkBrawler"/>
-		<passive_effect name="AttacksPerMinute" operation="base_set" value="100" tags="perkBrawler"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="9.6" tags="primary"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="385,961" tier="1,6" tags="perkBrawler"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkBrawler"/>
-		<passive_effect name="MaxRange" operation="base_set" value="2.0" tags="perkBrawler"/>
-		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkBrawler"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
-		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
-		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkBrawler"/>
-		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBrawler"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="-.15,.15" tags="perkBrawler"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkBrawler"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="stone"/>
-		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
-		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#@modfolder:Resources/HD Scrap Iron Knuckles.unity3d?HD Scrap Iron Knuckles L.Prefab" parentTransform="Propjoint" localPos="0,0,0" localRot="0,0,0">
-			<requirement name="IsFPV"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="LeftKnuckles" prefab="#@modfolder:Resources/HD Scrap Iron Knuckles.unity3d?HD Scrap Iron Knuckles L.Prefab" parentTransform="LeftHand" localPos="-0.0878,-0.0016,-0.0013" localRot="3.841982,9.94,94.3">
-			<requirement name="!IsFPV"/>
-		</triggered_effect>
-		<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="LeftKnuckles"/>
-	</effect_group>
-	<effect_group name="Power Attack">
-		<passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary"/>
-		<passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary"/>
-		<passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="secondary"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="16.3" tags="secondary"/>
-	</effect_group>
-</item> -->
+<item name="HDHazmatFiber">
+	<property name="CustomIcon" value="HD Hazmat Fiber"/>
+	<property name="DescriptionKey" value="HDHazmatFiberDesc"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="MHazmatFiber"/>
+	<property name="Stacknumber" value="500"/>
+	<property name="CraftingIngredientExp" value="10"/>
+	<property name="CraftingIngredientTime" value="10"/>
+	<property name="RepairTime" value="15"/>
+	<property name="RepairAmount" value="400"/>
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="50"/>
+	<property name="UnlockedBy" value="HD Hazmat Fiber Schematic"/>
+	<property name="Group" value="Resources,Clothing,Chemicals"/>
+</item>
 	
 <item name="HD Royal Enfield">
 	<property name="CustomIcon" value="HD Royal Enfield"/>
@@ -9705,6 +9651,72 @@
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Impact Wrench" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
+	</effect_group>
+</item>
+
+<item name="HD Hazmat Mask Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Hazmat Mask Schematic"/>
+	<property name="Unlocks" value="HDHazmatMask"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDHazmatMask" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+	</effect_group>
+</item>
+
+<item name="HD Hazmat Gloves Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Hazmat Gloves Schematic"/>
+	<property name="Unlocks" value="HDHazmatGloves"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDHazmatGloves" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+	</effect_group>
+</item>
+
+<item name="HD Hazmat Jacket Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Hazmat Jacket Schematic"/>
+	<property name="Unlocks" value="HDHazmatJacket"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDHazmatJacket" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+	</effect_group>
+</item>
+
+<item name="HD Hazmat Pants Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Hazmat Pants Schematic"/>
+	<property name="Unlocks" value="HDHazmatPants"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDHazmatPants" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+	</effect_group>
+</item>
+
+<item name="HD Hazmat Boots Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Hazmat Boots Schematic"/>
+	<property name="Unlocks" value="HDHazmatBoots"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDHazmatBoots" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+	</effect_group>
+</item>
+
+<item name="HD Hazmat Fiber Schematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="HD Hazmat Fiber Schematic"/>
+	<property name="Unlocks" value="HDHazmatFiber"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDHazmatFiber" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
 	</effect_group>
 </item>
 

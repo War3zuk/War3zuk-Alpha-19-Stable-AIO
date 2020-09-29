@@ -1061,5 +1061,173 @@
 			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
 	
+	<item_modifier name="HDHazmatMask" installable_tags="armorHead" blocked_tags="noMods,clothing" modifier_tags="radresistance" type="attachment">
+		<property name="DisplayType" value="armor"/>
+		<property name="CustomIcon" value="apparelHazmatMask" />
+		<property name="DescriptionKey" value="HDHazmatMasterDesc"/>
+		<property name="UnlockedBy" value="HD Hazmat Mask Schematic"/>
+		<property name="Material" value="MHazmatFiber"/>
+		<property name="Group" value="Mods"/>
+		<property name="EconomicValue" value="10000"/>
+		<property name="SellableToTrader" value="true"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		
+		<item_property_overrides name="*">
+			<property name="Mesh" value="armor_hazmat_head"/>
+			<property name="Overlay0" value="armor_hazmat_hood"/>
+			<property name="Layer" value="middle"/>
+			<property name="UISlot" value="Headgear"/>
+			<property name="Mask1" value="Head" param1="inner"/>
+			<property name="Mask3" value="Face" param1="inner"/>
+			<property name="Mask4" value="Face" param1="middle"/>
+			<property name="Mask5" value="Face" param1="outer"/>
+			<property name="ShowAltHair" value="true"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="BuffResistance" operation="base_add" value="0.2" tags="buffMilitaryRadiation"/>
+			
+			<passive_effect name="Mobility" operation="perc_add" value="-.05"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0225" tags="walking"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.045" tags="running"/>
+
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffHDHazmatMask"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" target="self" buff="buffHDHazmatMask"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDHazmatGloves" installable_tags="armorHands" blocked_tags="noMods,clothing" modifier_tags="radresistance" type="attachment">
+		<property name="DisplayType" value="armor"/>
+		<property name="CustomIcon" value="apparelHazmatGloves" />
+		<property name="DescriptionKey" value="HDHazmatMasterDesc"/>
+		<property name="UnlockedBy" value="HD Hazmat Gloves Schematic"/>
+		<property name="Material" value="MHazmatFiber"/>
+		<property name="Group" value="Mods"/>
+		<property name="EconomicValue" value="10000"/>
+		<property name="SellableToTrader" value="true"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		
+		<item_property_overrides name="*">
+			<property name="Mesh" value="armor_hazmat_hands"/>
+			<property name="Overlay0" value="armor_hazmat_gloves"/>
+			<property name="Layer" value="0"/>
+			<property name="UISlot" value="Gloves"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="BuffResistance" operation="base_add" value="0.2" tags="buffMilitaryRadiation"/>
+			
+			<passive_effect name="Mobility" operation="perc_add" value="-.05"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0225" tags="walking"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.045" tags="running"/>
+
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffHDHazmatGloves"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" target="self" buff="buffHDHazmatGloves"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDHazmatJacket" installable_tags="armorChest" blocked_tags="noMods,clothing" modifier_tags="radresistance" type="attachment">
+		<property name="DisplayType" value="armor"/>
+		<property name="CustomIcon" value="apparelHazmatJacket" />
+		<property name="DescriptionKey" value="HDHazmatMasterDesc"/>
+		<property name="UnlockedBy" value="HD Hazmat Jacket Schematic"/>
+		<property name="Material" value="MHazmatFiber"/>
+		<property name="Group" value="Mods"/>
+		<property name="EconomicValue" value="10000"/>
+		<property name="SellableToTrader" value="true"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		
+		<item_property_overrides name="*">
+			<property name="Mesh" value="armor_hazmat_chest"/>
+			<property name="Overlay0" value="armor_hazmat_chest"/>
+			<property name="Layer" value="3"/>
+			<property name="Mask0" value="chest" param1="middle"/>
+			<property name="Mask2" value="chest" param1="inner"/>
+			<property name="UISlot" value="Jacket"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="BuffResistance" operation="base_add" value="0.2" tags="buffMilitaryRadiation"/>
+			
+			<passive_effect name="Mobility" operation="perc_add" value="-.05"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0225" tags="walking"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.045" tags="running"/>
+
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffHDHazmatShirt"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" target="self" buff="buffHDHazmatShirt"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDHazmatPants" installable_tags="armorLegs" blocked_tags="noMods,clothing" modifier_tags="radresistance" type="attachment">
+		<property name="DisplayType" value="armor"/>
+		<property name="CustomIcon" value="apparelHazmatPants" />
+		<property name="DescriptionKey" value="HDHazmatMasterDesc"/>
+		<property name="UnlockedBy" value="HD Hazmat Pants Schematic"/>
+		<property name="Material" value="MHazmatFiber"/>
+		<property name="Group" value="Mods"/>
+		<property name="EconomicValue" value="10000"/>
+		<property name="SellableToTrader" value="true"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		
+		<item_property_overrides name="*">
+			<property name="Mesh" value="armor_hazmat_legs"/>
+			<property name="Mask0" value="legs" param1="middle"/>
+			<property name="Overlay0" value="armor_hazmat_pants"/>
+			<property name="Layer" value="1"/>
+			<property name="UISlot" value="Pants"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="BuffResistance" operation="base_add" value="0.2" tags="buffMilitaryRadiation"/>
+			
+			<passive_effect name="Mobility" operation="perc_add" value="-.05"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0225" tags="walking"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.045" tags="running"/>
+
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffHDHazmatPants"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" target="self" buff="buffHDHazmatPants"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="HDHazmatBoots" installable_tags="armorFeet" blocked_tags="noMods,clothing" modifier_tags="radresistance" type="attachment">
+		<property name="DisplayType" value="armor"/>
+		<property name="CustomIcon" value="apparelHazmatBoots" />
+		<property name="DescriptionKey" value="HDHazmatMasterDesc"/>
+		<property name="UnlockedBy" value="HD Hazmat Boots Schematic"/>
+		<property name="Material" value="MHazmatFiber"/>
+		<property name="Group" value="Mods"/>
+		<property name="EconomicValue" value="10000"/>
+		<property name="SellableToTrader" value="true"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		
+		<item_property_overrides name="*">
+			<property name="Mesh" value="armor_hazmat_feet"/>
+			<property name="Overlay0" value="armor_hazmat_boots"/>
+			<property name="Layer" value="0"/>
+			<property name="UISlot" value="Footwear"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false">
+			<passive_effect name="BuffResistance" operation="base_add" value="0.2" tags="buffMilitaryRadiation"/>
+			
+			<passive_effect name="Mobility" operation="perc_add" value="-.05"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.0225" tags="walking"/>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.045" tags="running"/>
+
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" target="self" buff="buffHDHazmatBoots"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" target="self" buff="buffHDHazmatBoots"/>			
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
 </append>
 </configs>

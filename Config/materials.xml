@@ -105,5 +105,19 @@
 	<property name="Experience" value="0"/>
 </material>
 
+<material id="MHazmatFiber">
+	<property name="damage_category" value="cloth"/>
+	<property name="surface_category" value="cloth"/>
+	<property name="forge_category" value="resourceMilitaryFiber"/>
+	<property name="Hardness" type="float" value="1"/>
+	<property name="stepsound" value="cloth"/>
+	<property name="lightopacity" value="4"/>
+	<property name="stability_glue" value="2"/>
+	<property name="Mass" type="int" value="1"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="MaxDamage" value="5"/>
+	<property name="Experience" value="4"/>
+</material>
+
 </append>
 </configs>

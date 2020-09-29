@@ -27,6 +27,16 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 War3zuk Quest 01,items,Item,KgNone,War3zuk Machete Skills Needed,
 War3zuk Quest 02,items,Item,KgNone,War3zuk Kill The Dogs And Pigs,
 
+HDHazmatFiber,items,Item,KgNone,HD Hazmat Fiber,
+HDHazmatBoots,items,Item,KgNone,HD Hazmat Boots,
+HDHazmatPants,items,Item,KgNone,HD Hazmat Pants,
+HDHazmatJacket,items,Item,KgNone,HD Hazmat Jacket,
+HDHazmatGloves,items,Item,KgNone,HD Hazmat Gloves,
+HDHazmatMask,items,Item,KgNone,HD Hazmat Mask,
+
+HDHazmatFiberDesc,items,,,Used in the production of HD Radiation Hazmat Gear ADDONS.,
+HDHazmatMasterDesc,items,,,HD Radiation Suit Addons.\n\nEach Piece Adds 20 Percent Protection Against Radiation. But you will not survive unless you have ALL 5 Pieces Equipped Into Armor.\n\nSchematics can ONLY be Found as a Reward for completing the Mods Main Quests.,
+
 ScyFangsPumpkinPieDesc,items,,,Hot. Sweet. Pumpkin Pie for when killing Zombies needs a Sweet Tooth.,
 
 HDM1GarandDesc,items,,,The M1 Garand is a semi-automatic rifle.\n\n that was the standard U.S. service rifle during World War II and the Korean War and also saw limited service during the Vietnam War.,

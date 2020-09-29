@@ -2,6 +2,22 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v4.7 to v4.8
 
+Added HD Hazmat Fiber Schematic (Found In Army Trucks Only)
+Added HD Hazmat Mask Schematic
+Added HD Hazmat Gloves Schematic
+Added HD Hazmat Jacket Schematic
+Added HD Hazmat Pants Schematic
+Added HD Hazmat Boots Schematic
+Added HD Hazmat Fiber Material
+
+Added HD Hazmat Mask (Armor Addon) Quest Reward
+Added HD Hazmat Gloves (Armor Addon) Quest Reward
+Added HD Hazmat Jacket (Armor Addon) Quest Reward
+Added HD Hazmat Pants (Armor Addon) Quest Reward
+Added HD Hazmat Boots (Armor Addon) Quest Reward
+
+Edited XPToLevel (10,500) OLD (7500)
+
 Added ScyFangs Sweet Pumpkin Pie (CampFire + Grill)
 Added ScyFangs Sweet Pumpkin Pie Custom PBR Model
 
@@ -22,6 +38,7 @@ Updated SMXHud
 Updated SMXMenu
 Updated SMXLib
 Enabled TargetBar Overlay
+Converted War3zuk_Military_Base (Radiated)
 
 Updated v4.6 to v4.7
 

@@ -28,6 +28,33 @@
 	
 <append xpath="/blocks">
 	
+<block name="HDterraRadiated">
+	<property name="Material" value="Mrubble"/>
+	<property name="Shape" value="Terrain"/>
+	<property name="Mesh" value="terrain"/>
+	<property name="Texture" value="178"/>
+	<property name="TintColor" value="110,5,0"/>
+	<property name="Map.Color" value="170,0,0"/>	
+	<property name="ImposterExclude" value="true"/>
+	<property name="StabilitySupport" value="true"/>
+	<property name="Weight" value="90"/>
+	<property name="BuffsWhenWalkedOn" value="buffMilitaryRadiation"/>
+	<property class="RepairItems"> <property name="resourceCobblestones" value="6"/> </property>
+	<property name="HarvestOverdamage" value="true"/>
+	<drop event="Harvest" name="resourceCrushedSand" count="4" tag="oreWoodHarvest"/>
+	<drop event="Harvest" name="resourceRockSmall" count="12" tag="oreWoodHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<property name="CanMobsSpawnOn" value="true"/>
+	<property name="CanPlayersSpawnOn" value="false"/>
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="FilterTags" value="fterrain,fconstruction,fdestruction"/>
+	<property name="SortOrder1" value="d0k0"/>
+	<property name="SortOrder2" value="0050"/>
+	<property name="DisplayType" value="blockTerrainFertile" />
+</block>
+	
 <block name="cntBuriedLootStashT1">
 	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
 	<property name="Tags" value="buriedTreasure"/>

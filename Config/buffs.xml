@@ -371,80 +371,13 @@
 		</effect_group>
 	</buff>
 	
-	<buff name="HealthBar" name_key="healthBarName" tooltip_key="buffRadiation3Tooltip" icon="ui_game_symbol_radiation" icon_color="255,255,0" remove_on_death="true">
-		<stack_type value="replace"/>
-		<duration value="6"/>
-		
-		<effect_group>
-		
-			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_4" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".20"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_3" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".20"/>
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".40"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_2" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".40"/>
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".60"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_1" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".60"/>
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".80"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_0" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".80"/>
-			</triggered_effect>
-		
-			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_4" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".20"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_3" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".20"/>
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".40"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_2" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".40"/>
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".60"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_1" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".60"/>
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".80"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStack" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HealthBar.unity3d?p_health_0" local_rotation="-90, 0, 0" local_offset = "0,2.2,0">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="GTE" value=".80"/>
-			</triggered_effect>
-		
-			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_0">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".80"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_1">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".60"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_2">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".40"/>
-			</triggered_effect>
-			<triggered_effect trigger="onSelfBuffStack" action="RemoveParticleEffectFromEntity" particle="p_health_3">
-				<requirement name="StatComparePercCurrentToMax" stat="Health" operation="LT" value=".20"/>
-			</triggered_effect>
-		
-			
-			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_0"/>
-			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_1"/>
-			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_2"/>
-			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_3"/>
-			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_health_4"/>
-			
-		</effect_group>
-	</buff>
-	
 	<buff name="buffSpiderRadiation" name_key="Spider Radiation" description_key="buffSpiderRadiationTooltip" icon="ui_game_symbol_SpiderRadiation">
 		<damage_type value="radiation"/>
 		<stack_type value="ignore"/>
 		<duration value="10"/>
 		<update_rate value="1"/>
 		<effect_group>
-			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,10" value="1,1"/>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,10" value="2,8"/>
 			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="10,50" value="1,30"/>
 			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="50,1000" value="40,1000"/>
 
@@ -490,6 +423,102 @@
 			<triggered_effect trigger="onSelfEnteredGame" action="PlaySound" sound="buff_stunned" play_in_head="true"/>
 		</effect_group>
 	</buff>
+	
+	<buff name="buffMilitaryRadiation" name_key="buffMilitaryRadiation" description_key="buffMilitaryRadiation" tooltip_key="buffRadiation03Tooltip" icon="ui_game_symbol_War3zukRadiationTerrain" icon_color="255,0,0" icon_blink="true">
+		<damage_type value="radiation"/>
+		<stack_type value="ignore"/>
+		<duration value="10"/>
+		<update_rate value="10"/>
+		<requirement name="!InBiome" biome="8"/>
+		<effect_group>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,10" value="2,8"/>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="10,50" value="1,30"/>
+			<passive_effect name="HealthChangeOT" operation="base_subtract" duration="50,1000" value="40,1000"/>
+
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="set" value="0">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="2"/>
+				</triggered_effect>
+
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="1" fade=".7" effect_name="Hot">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="0" fade=".7" effect_name="Hot">
+					<requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="0"/>
+				</triggered_effect>
+
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Hot"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" effect_name="Radiation" intensity=".6" fade="2"/>
+				<triggered_effect trigger="onSelfDied" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" effect_name="Radiation" intensity="0" fade="2"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHDHazmatBoots" name_key="HD Hazmat Boots" hidden="false" icon="ui_game_symbol_HazmatBoots" icon_blink="true">>
+		<effect_group name="display">
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="add" value="20"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="subtract" value="20"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHDHazmatPants" name_key="HD Hazmat Pants" hidden="false" icon="ui_game_symbol_HazmatPants" icon_blink="true">>
+		<effect_group name="display">
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="add" value="20"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="subtract" value="20"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHDHazmatShirt" name_key="HD Hazmat Shirt" hidden="false" icon="ui_game_symbol_HazmatJacket" icon_blink="true">>
+		<effect_group name="display">
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="add" value="20"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="subtract" value="20"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHDHazmatGloves" name_key="HD Hazmat Gloves" hidden="false" icon="ui_game_symbol_HazmatGloves" icon_blink="true">>
+		<effect_group name="display">
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="add" value="20"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="subtract" value="20"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHDHazmatMask" name_key="HD Hazmat Mask" hidden="false" icon="ui_game_symbol_HazmatMask" icon_blink="true">>
+		<effect_group name="display">
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="add" value="20"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="subtract" value="20"/>
+		</effect_group>
+	</buff>
+	
+<!--	<buff name="buffRadResistDisplay" name_key="buffRadResistDisplayName" description_key="buffRadResistDisplayDesc" icon="ui_game_symbol_War3zukRadiationTerrain" icon_color="255,0,0" icon_blink="true">
+		<stack_type value="ignore"/>
+		<display_value value="RadResistChanceDisplay"/><display_value_key value=" {0:0}%"/>
+		<effect_group name="display">
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="RadResistChanceDisplay" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="buffMilitaryRadiation"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHazmatComplete" name_key="buffHazmatCompleteName" description_key="buffHazmatCompleteDesc" tooltip_key="buffHazmatCompleteTooltip" icon="ui_game_symbol_War3zukRadiationTerrain" icon_color="255,0,0" icon_blink="true">
+		<stack_type value="ignore"/>
+		<duration value=".1"/> 
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="buffMilitaryRadiation"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHazmatChecking" hidden="true" remove_on_death="false" icon="ui_game_symbol_War3zukRadiationTerrain" icon_color="255,0,0" icon_blink="true">
+		<stack_type value="ignore"/>
+		<update_rate value="0.5"/>
+		<effect_group name="Hazmat Armor Checking">
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="self" buff="buffRadResistDisplay">
+				<requirement name="CVarCompare" target="self" cvar="RadResistChanceDisplay" operation="GTE" value="1"/>
+			</triggered_effect>
+			
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffRadResistDisplay">
+				<requirement name="CVarCompare" target="self" cvar="RadResistChanceDisplay" operation="LT" value="1"/>
+			</triggered_effect>
+		</effect_group>
+	</buff> -->
 
 </append>
 </configs>
