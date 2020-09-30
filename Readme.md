@@ -2,7 +2,11 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v4.7 to v4.8
 
-Fixed HD Blunderbuss Dmg
+************THIS WILL ACTIVATE AT THE NEXT STABLE SO 19.2*************
+****THE QUEST.XML & PROGRESSION.XML HAVE BEEN LEFT OUT ON PURPOSE*****
+****AS THESE 2 FILES WOULD RESULT IN CHARACTER RESETTING TO LEVEL1****
+*********SO TO RECAP STABLE 19.2 WILL ADD BOTH EDITED FILES***********
+*WHICH WILL FULLY ENABLE ALL HAZMAT ADDITIONS AS A MINI ENDGAME ADDON*
 
 Added HD Hazmat Fiber Schematic (Found In Army Trucks Only)
 Added HD Hazmat Mask Schematic
@@ -18,7 +22,31 @@ Added HD Hazmat Jacket (Armor Addon) Quest Reward
 Added HD Hazmat Pants (Armor Addon) Quest Reward
 Added HD Hazmat Boots (Armor Addon) Quest Reward
 
-Edited XPToLevel (10,500) OLD (7500)
+Edited XPToLevel (10,500) OLD (7500) Vanilla (10,000)
+Added Converted Prefabs To Radiation (HazMat Suit Required)
+
+**********THIS WILL ALL ACTIVATE AT THE NEXT STABLE SO 19.2***********
+****THE QUEST.XML & PROGRESSION.XML HAVE BEEN LEFT OUT ON PURPOSE*****
+****AS THESE 2 FILES WOULD RESULT IN CHARACTER RESETTING TO LEVEL1****
+*********SO TO RECAP STABLE 19.2 WILL ADD BOTH EDITED FILES***********
+*WHICH WILL FULLY ENABLE ALL HAZMAT ADDITIONS AS A MINI ENDGAME ADDON*
+
+Adjusted The Following Recipes
+Shaved Ice
+OrigamiGurus Pain Meds
+HD Impact Wrench
+Grand Spartans Blade
+Mrs Spartans Blade
+HD Tesla Fence
+HD wood Bars Centered
+HDGlock18Auto
+HDMotor125cc
+HDMotor250cc
+HDMotor500cc
+War3zuks Stoggy
+StormFall Monster Cola
+
+Fixed HD Blunderbuss Dmg
 
 Added ScyFangs Sweet Pumpkin Pie (CampFire + Grill)
 Added ScyFangs Sweet Pumpkin Pie Custom PBR Model
@@ -42,7 +70,6 @@ Updated SMXHud
 Updated SMXMenu
 Updated SMXLib
 Enabled TargetBar Overlay
-Converted War3zuk_Military_Base (Radiated)
 
 Updated v4.6 to v4.7
 

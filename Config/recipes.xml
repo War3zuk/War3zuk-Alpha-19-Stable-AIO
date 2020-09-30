@@ -66,7 +66,7 @@
 	<ingredient name="resourcePaper" count="50"/>
 </recipe>
 	
-<recipe name="Shaved Ice" count="2" craft_time="0.5">
+<recipe name="Shaved Ice" count="1" craft_time="0.5">
 	<ingredient name="resourceSnowBall" count="1"/>
 </recipe>
 
@@ -111,7 +111,7 @@
 </recipe>
 	
 <recipe name="OrigamiGurus Pain Meds" count="1" craft_time="30">
-	<ingredient name="drugPainkillers" count="5"/>
+	<ingredient name="drugPainkillers" count="4"/>
 	<ingredient name="drugVitamins" count="2"/>
 </recipe>
 	
@@ -148,9 +148,9 @@
 </recipe>
 	
 <recipe name="HD Impact Wrench" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time = "120" tags="learnable,perkSalvageOperations">
-	<ingredient name="resourceForgedSteel" count="50"/>
-	<ingredient name="resourceMechanicalParts" count="50"/>
-	<ingredient name="resourceElectricParts" count="50"/>
+	<ingredient name="resourceForgedSteel" count="25"/>
+	<ingredient name="resourceMechanicalParts" count="100"/>
+	<ingredient name="resourceElectricParts" count="100"/>
 	<ingredient name="resourceScrapPolymers" count="100"/>
 	<ingredient name="HD Cell" count="1"/>
 </recipe>
@@ -158,25 +158,27 @@
 <recipe name="Grand Spartans Blade" count="1" craft_time = "120" tags="perkDeepCuts">
 	<ingredient name="resourceForgedIron" count="30"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceOil" count="2"/>
 </recipe>
 
 <recipe name="Mrs Spartans Blade" count="1" craft_time = "120" tags="perkDeepCuts">
 	<ingredient name="resourceForgedIron" count="30"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
+	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceOil" count="2"/>
 </recipe>
 	
 <recipe name="HD Tesla Fence" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time = "20" tags="learnable">
-	<ingredient name="resourceForgedIron" count="30"/>
-	<ingredient name="resourceElectricParts" count="20"/>
-	<ingredient name="resourceMechanicalParts" count="10"/>
-	<ingredient name="resourceSpring" count="10"/>
+	<ingredient name="resourceForgedIron" count="100"/>
+	<ingredient name="resourceElectricParts" count="100"/>
+	<ingredient name="resourceMechanicalParts" count="100"/>
+	<ingredient name="resourceSpring" count="50"/>
 </recipe>
 	
 <recipe name="HD wood Bars Centered" count="1" craft_time = "1">
 	<ingredient name="resourceWood" count="20"/>
-	<ingredient name="resourceNail" count="5"/>
+	<ingredient name="resourceNail" count="10"/>
 </recipe>
 
 <recipe name="HD Wood Bars" count="1" craft_time = "1">
@@ -186,7 +188,7 @@
 
 <recipe name="HDGlock18Auto" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1" craft_time = "90" tags="perkGunslinger">
 	<ingredient name="resourceForgedIron" count="50"/>
-	<ingredient name="resourceMechanicalParts" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceDuctTape" count="10"/>
 	<ingredient name="resourceScrapPolymers" count="50"/>
 	<ingredient name="resourceSpring" count="5"/>
@@ -279,21 +281,21 @@
 </recipe>
 
 <recipe name="HDMotor125cc" count="1" craft_area="HD WorkBench" craft_time = "30" tags="learnable">
-	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceForgedSteel" count="50"/>
 	<ingredient name="resourceOil" count="2"/>
 	<ingredient name="smallEngine" count="1"/>
 	<ingredient name="resourceCloth" count="10"/>
 </recipe>
 
 <recipe name="HDMotor250cc" count="1" craft_area="HD WorkBench" craft_time = "30" tags="learnable">
-	<ingredient name="resourceForgedSteel" count="25"/>
+	<ingredient name="resourceForgedSteel" count="75"/>
 	<ingredient name="resourceOil" count="2"/>
 	<ingredient name="smallEngine" count="1"/>
 	<ingredient name="resourceCloth" count="10"/>
 </recipe>
 
 <recipe name="HDMotor500cc" count="1" craft_area="HD WorkBench" craft_time = "30" tags="learnable">
-	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="resourceForgedSteel" count="150"/>
 	<ingredient name="resourceOil" count="2"/>
 	<ingredient name="smallEngine" count="1"/>
 	<ingredient name="resourceCloth" count="10"/>
@@ -301,14 +303,14 @@
 	
 <recipe name="War3zuks Stoggy" craft_time = "30" count="1">
 	<ingredient name="resourceYuccaFibers" count="1000"/>
-	<ingredient name="resourceCropHopsFlower" count="10"/>
+	<ingredient name="resourceCropHopsFlower" count="20"/>
 	<ingredient name="resourcePaper" count="50"/>
 </recipe>
 	
 <recipe name="StormFall Monster Cola" count="1" craft_time = "10">
 	<ingredient name="drugPainkillers" count="1"/>
 	<ingredient name="drugSteroids" count="1"/>
-	<ingredient name="drinkJarBeer" count="2"/>
+	<ingredient name="drinkJarBeer" count="4"/>
 </recipe>
 
 <recipe name="HDammoBundle45ACPRound" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
