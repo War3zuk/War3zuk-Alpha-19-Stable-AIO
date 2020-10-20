@@ -1,0 +1,20 @@
+<configs>
+	
+	<set xpath="/qualityinfo">
+		<!--Common White-->	
+			<quality key="0" color="000000"/>
+		<!--Uncommon Brown-->
+			<quality key="1" color="964B00"/>
+		<!--Rare Yellow-->
+			<quality key="2" color="006400"/>
+		<!--Epic Green-->
+			<quality key="3" color="9132C8"/>
+		<!--Legendary Purple-->
+			<quality key="4" color="00008B"/>
+		<!--Seraph Cyan-->
+			<quality key="5" color="FFD700"/>
+		<!--Pearlescent Pink-->
+			<quality key="6" color="8B0000"/>
+	</set>
+	
+</configs>
