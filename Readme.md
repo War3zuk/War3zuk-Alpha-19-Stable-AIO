@@ -1,5 +1,25 @@
 War3zuk-Alpha-19.0 - AIO
 
+Updated v4.9 to v5.0
+
+Fixed HD Cement Mixer Addons Schematic (Ta factura/Cert)
+
+Rebuilt WanderingHordes Template
+Rebuilt Animal Groups Spawning
+Removed Duplicate Zombie Entries
+
+Added HD Union Roasted (High Grade Coffee Drink)
+Rebalanced Some Food Bonuses
+
+Added Rad Animals Back
+Added Radiated Glow To All Rad Zombies
+
+
+Launcher Edits:
+Updated Creature Pack Zombies
+Updated Creature Pack Animals
+Added HD Mumpfy Skins Modlet
+
 Updated v4.8 to v4.9
 
 Added HD BR1NXlS Booper Schematic
