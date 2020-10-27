@@ -71,8 +71,8 @@
 	<set xpath="/gamestages/group[@name='S_Zom_Burnt']/spawner[@name='ZombieBurntHorde']/@count">4,8</set>
 	<set xpath="/gamestages/group[@name='S_-_Group_Test_Chamber_Decoy']/spawner[@name='SleeperTestChamberGSList']/@count">4,8</set>
 	
-<append xpath='/gamestages/spawner[@name="BloodMoonHorde"]/gamestage[ @stage &gt;1]' >
-	<spawn group="ZombiesNight" num="500" maxAlive="25"/>
+<append xpath='/gamestages/spawner[@name="BloodMoonHorde"]/gamestage[ @stage &gt;23]' >
+	<spawn group="ZombiesNight" num="500" maxAlive="30"/>
 </append>
 	
 </gamestages>
