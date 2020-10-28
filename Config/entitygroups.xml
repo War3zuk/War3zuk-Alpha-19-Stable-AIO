@@ -31,9 +31,9 @@
 <append xpath="/entitygroups/entitygroup[@name='WildGameForest']">
 		<entity name="animalWolf" prob="20"/>
 		<entity name="animalCoyote" prob="20"/>
-		<entity name="GiantUndeadHound" prob="5"/>
-		<entity name="GiantUndeadHoundFire" prob="5"/>
-		<entity name="GiantUndeadHoundRad" prob="5"/>
+		<entity name="GiantUndeadHound" prob="10"/>
+		<entity name="GiantUndeadHoundFire" prob="10"/>
+		<entity name="GiantUndeadHoundRad" prob="10"/>
 </append>
 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsDesert']">
@@ -47,12 +47,12 @@
 		<entity name="GiantBoarFire" prob="20"/>
 		<entity name="GiantUndeadHound" prob="20"/>
 		<entity name="GiantUndeadHoundFire" prob="20"/>
-		<entity name="GiantUndeadHoundRad" prob="5"/>
+		<entity name="GiantUndeadHoundRad" prob="10"/>
 </append>
 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsSnow']">
 		<entity name="GiantUndeadHound" prob="20"/>
-		<entity name="GiantUndeadHoundRad" prob="5"/>
+		<entity name="GiantUndeadHoundRad" prob="10"/>
 		<entity name="animalStag" prob="20"/>
 		<entity name="animalDoe" prob="20"/>
 		<entity name="animalWolf" prob="20"/>
@@ -70,31 +70,23 @@
 		<entity name="GiantBoarFire" prob="20"/>
 		<entity name="GiantSnakeFire" prob="20"/>
 		<entity name="GiantUndeadHound" prob="20"/>
-		<entity name="GiantUndeadHoundRad" prob="5"/>
+		<entity name="GiantUndeadHoundRad" prob="10"/>
 </append>
 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsBurntForest']">
-		<entity name="GiantRabbitFire" prob="5"/>
-		<entity name="GiantChickenFire" prob="5"/>
-		<entity name="GiantSnakeFire" prob="5"/>
-		<entity name="GiantBoarFire" prob="5"/>
-		<entity name="GiantUndeadHoundFire" prob="5"/>
-		<entity name="GiantUndeadVulture" prob=".25"/>
-		<entity name="GiantUndeadVultureFire" prob=".25"/>
-		<entity name="GiantUndeadVultureRad" prob=".25"/>
+		<entity name="GiantRabbitFire" prob="10"/>
+		<entity name="GiantChickenFire" prob="10"/>
+		<entity name="GiantSnakeFire" prob="10"/>
+		<entity name="GiantBoarFire" prob="10"/>
+		<entity name="GiantUndeadHoundFire" prob="10"/>
+		<entity name="GiantUndeadVulture" prob="1"/>
+		<entity name="GiantUndeadVultureFire" prob="1"/>
+		<entity name="GiantUndeadVultureRad" prob="1"/>
 </append>
 
 <append xpath="/entitygroups/entitygroup[@name='EnemyAnimalsWasteland']">
-		<entity name="GiantRabbitFire" prob="10"/>
-		<entity name="GiantRabbitRad" prob="10"/>
-		<entity name="GiantChickenFire" prob="10"/>
-		<entity name="GiantChickenRad" prob="10"/>
-		<entity name="GiantSnakeFire" prob="10"/>
-		<entity name="GiantSnakeRad" prob="10"/>
-		<entity name="GiantBoarFire" prob="10"/>
-		<entity name="GiantBoarRad" prob="10"/>
-		<entity name="GiantUndeadHoundFire" prob="5"/>
-		<entity name="GiantUndeadHoundRad" prob="5"/>
+		<entity name="GiantUndeadHoundFire" prob="10"/>
+		<entity name="GiantUndeadHoundRad" prob="10"/>
 </append>
 
 <insertAfter xpath="/entitygroups/entitygroup[@name='ZombiesAll']/entity[@name='zombieSteveCrawler']" >
@@ -362,32 +354,24 @@
 		<entity name="GiantDemolisherRad" prob=".50" />
 </insertAfter>
 
-<append xpath="/entitygroups/entitygroup[@name='WolfGroup']">	
-		<entity name="GiantUndeadHound" />
-		<entity name="GiantUndeadHoundFire" />
-		<entity name="GiantUndeadHoundRad" />
-</append>
-	
-<append xpath="/entitygroups/entitygroup[@name='WolfPack']">	
+<append xpath="/entitygroups/entitygroup[@name='WolfGroup']">
 		<entity name="GiantUndeadHound" />
 		<entity name="GiantUndeadHoundFire" />
 		<entity name="GiantUndeadHoundRad" />
 </append>
 
-<append xpath="/entitygroups/entitygroup[@name='VultureGroup']">	
+<append xpath="/entitygroups/entitygroup[@name='VultureGroup']">
 		<entity name="GiantUndeadVulture" />
 		<entity name="GiantUndeadVultureFire" />
 		<entity name="GiantUndeadVultureRad" />
 </append>
 
-<append xpath="/entitygroups/entitygroup[@name='SnakeGroup']">	
-		<entity name="GiantSnake" />
+<append xpath="/entitygroups/entitygroup[@name='SnakeGroup']">
 		<entity name="GiantSnakeFire" />
 		<entity name="GiantSnakeRad" />
 </append>
 
-<append xpath="/entitygroups/entitygroup[@name='BoarGroup']">	
-		<entity name="GiantBoar" />
+<append xpath="/entitygroups/entitygroup[@name='BoarGroup']">
 		<entity name="GiantBoarFire" />
 		<entity name="GiantBoarRad" />
 </append>
