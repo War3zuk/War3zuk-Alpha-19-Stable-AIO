@@ -54,6 +54,8 @@
 	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action0']/property[@name='Sound_start']/@value">DEALTFire01</set>
 	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action0']/property[@name='Sound_loop']/@value">DEALTFire01</set>
 	
+	<set xpath="/items/item[@name='drugSteroids']/effect_group/display_value[@name='dCarryCapacity' and @value]/@value">105</set>
+	
 <append xpath="/items">
 <item name="Golden Coin">
 		<property name="DescriptionKey" value="GoldenCoinDesc"/>

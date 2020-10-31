@@ -2,6 +2,10 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v4.9 to v5.0
 
+Edited GiantDemolisher Walk Speed/Agro
+Edited GiantDemolisherRad Walk Speed/Agro
+Edited GiantDemolisherFire Walk Speed/Agro
+
 Fixed HD Cement Mixer Addons Schematic (Ta factura/Cert)
 
 Rebuilt WanderingHordes Template
@@ -20,6 +24,11 @@ Updated Creature Pack Zombies
 Updated Creature Pack Animals
 Added HD Mumpfy Skins Modlet
 Edited xcostum_Firestation Removed TestLootBox
+
+**Important** Work In Progress
+Added NEW Modlet 160 Backpack Intergrated Into AIO
+**Important** Delete The Following Folder To Remove
+War3zuk Alpha 19 AIO 160 BBM ADDON
 
 Updated v4.8 to v4.9
 

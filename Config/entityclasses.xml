@@ -1000,6 +1000,9 @@
 	<property name="SoundFootstepModifier" value="bear_footstep"/>
 	<property name="HandItem" value="meleeHandZombieDemolitionWAR"/>
 	<property name="JumpMaxDistance" value="1, 2"/>
+	<property name="MoveSpeed" value=".35"/>
+	<property name="MoveSpeedAggro" value="1.1, 1.5"/>
+	<property name="MoveSpeedPanic" value="1.4"/>
 	<property name="PainResistPerHit" value=".5"/>
 	<property name="Explosion.ParticleIndex" value="2"/>
 	<property name="Explosion.RadiusBlocks" value="3"/>
@@ -1047,6 +1050,9 @@
 	<property name="SoundFootstepModifier" value="bear_footstep"/>
 	<property name="HandItem" value="meleeHandZombieDemolitionWAR"/>
 	<property name="JumpMaxDistance" value="1, 2"/>
+	<property name="MoveSpeed" value=".35"/>
+	<property name="MoveSpeedAggro" value="1.1, 1.5"/>
+	<property name="MoveSpeedPanic" value="1.4"/>
 	<property name="PainResistPerHit" value=".5"/>
 	<property name="Explosion.ParticleIndex" value="2"/>
 	<property name="Explosion.RadiusBlocks" value="3"/>
@@ -1095,6 +1101,9 @@
 	<property name="SoundFootstepModifier" value="bear_footstep"/>
 	<property name="HandItem" value="meleeHandZombieDemolitionWAR"/>
 	<property name="JumpMaxDistance" value="1, 2"/>
+	<property name="MoveSpeed" value=".35"/>
+	<property name="MoveSpeedAggro" value="1.1, 1.5"/>
+	<property name="MoveSpeedPanic" value="1.4"/>
 	<property name="PainResistPerHit" value=".5"/>
 	<property name="Explosion.ParticleIndex" value="2"/>
 	<property name="Explosion.RadiusBlocks" value="3"/>
