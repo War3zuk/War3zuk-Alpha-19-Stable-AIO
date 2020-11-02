@@ -27,6 +27,9 @@ Rebalanced Some Food Bonuses
 Added Rad Animals Back
 Added Radiated Glow To All Rad Zombies
 
+Edited Vanilla Animal Spawning Groups
+Edited Vanilla Zombie Spawning Groups
+
 
 Launcher Edits:
 Updated Creature Pack Zombies
