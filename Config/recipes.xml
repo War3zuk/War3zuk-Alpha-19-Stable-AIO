@@ -25,6 +25,12 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HD Advanced Shredder Ammo" count="1" craft_time = "0.5">
+	<ingredient name="ammoBlunderbuss" count="2"/>
+	<ingredient name="resourceScrapLead" count="2"/>
+	<ingredient name="resourceGunPowder" count="2"/>
+</recipe>
+	
 <recipe name="HDUnionRoasted" count="1" craft_area="campfire" craft_time = "30" craft_tool="toolCookingPot">
 	<ingredient name="drinkJarBlackStrapCoffee" count="1"/>
 	<ingredient name="drinkJarBoiledWater" count="1"/>

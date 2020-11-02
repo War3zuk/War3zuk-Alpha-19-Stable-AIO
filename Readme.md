@@ -2,6 +2,15 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v4.9 to v5.0
 
+Added MagExtender To Correct Weapons
+Added DrumMag To Correct Weapons
+
+Added HD Advanced Shredder Ammo
+Removed x8 Scope From HD Winchester 1866
+
+Unlocked Items ModSlots
+Unlocked Weapons ModSlots
+
 Edited GiantDemolisher Walk Speed/Agro
 Edited GiantDemolisherRad Walk Speed/Agro
 Edited GiantDemolisherFire Walk Speed/Agro

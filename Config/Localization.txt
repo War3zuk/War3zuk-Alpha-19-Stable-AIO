@@ -27,6 +27,8 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 War3zuk Quest 01,items,Item,KgNone,War3zuk Machete Skills Needed,
 War3zuk Quest 02,items,Item,KgNone,War3zuk Kill The Dogs And Pigs,
 
+HDShredderAmmoDesc,items,,,A Few extra Ingredients And you have yourself some Advanced Blunderbuss Ammo.,
+
 HDUnionRoasted,items,Item,KgNone,HD Union Roasted,
 HDUnionRoastedDesc,items,,,Kick Ass Coffee Just when you need the Buzz.,
 

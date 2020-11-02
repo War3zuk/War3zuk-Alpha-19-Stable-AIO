@@ -37,6 +37,8 @@
 	<remove xpath="/items/item[@name='apparelNerdGlasses']"/>
 	<remove xpath="/items/item[@name='resourceIronFragmentBundle']"/>
 	
+	<set xpath="/items/item/effect_group/passive_effect[@name='ModSlots' and(@value='1,1,2,2,3,4')]/@value">1,2,3,4,5,6</set>
+	
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='SellableToTrader']/@value">true</set>
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='EconomicValue']/@value">8500</set>
 	
@@ -291,7 +293,7 @@
 <item name="HD Royal Enfield">
 	<property name="CustomIcon" value="HD Royal Enfield"/>
 	<property name="DescriptionKey" value="HDRoyalEnfieldDesc"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,magazine,sideAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="30"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Royal Enfield.unity3d?HD Royal Enfield.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -347,7 +349,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="6" tags="perkDeadEye"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDeadEye"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
@@ -381,7 +383,7 @@
 <item name="HD M1 Garand">
 	<property name="CustomIcon" value="HD M1 Garand"/>
 	<property name="DescriptionKey" value="HDM1GarandDesc"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,magazine,sideAttachments,largeTopAttachments,stock,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="30"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD M1 Garand.unity3d?HD M1 Garand.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -437,7 +439,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="8" tags="perkDeadEye"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".81" tags="perkDeadEye"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
@@ -659,7 +661,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.3" tags="perkDeepCuts"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkDeepCuts"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/>
@@ -731,7 +733,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.2" tags="perkMiner69r"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkMiner69r"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
@@ -925,7 +927,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.3" tags="perkDeepCuts"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkDeepCuts"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/>
@@ -1015,7 +1017,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.3" tags="perkDeepCuts"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkDeepCuts"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/>
@@ -1610,7 +1612,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkMiner69r"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
@@ -1682,7 +1684,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
@@ -1726,7 +1728,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.6" tags="perkMiner69r"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkMiner69r"/>
@@ -1811,7 +1813,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkPummelPete"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkPummelPete"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkPummelPete"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkPummelPete"/>
@@ -1893,7 +1895,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.0" tags="perkDeepCuts"/>
 		<passive_effect name="BlockRange" operation="base_set" value="2.5" tags="perkDeepCuts"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeepCuts"/>
@@ -2055,7 +2057,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkJavelinMaster"/>
 		<passive_effect name="MaxRange" operation="base_set" value="3.2" tags="perkJavelinMaster"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkJavelinMaster"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkJavelinMaster"/>
@@ -2316,7 +2318,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".8"/>
-		<property name="Magazine_items" value="ammoBlunderbuss"/>
+		<property name="Magazine_items" value="ammoBlunderbuss,HD Advanced Shredder Ammo"/>
 		<property name="Reload_time" value="3.9"/>
 		<property name="Sound_start" value="blunderbuss_fire"/>
 		<property name="Sound_repeat" value=""/>
@@ -2342,9 +2344,9 @@
 		<passive_effect name="EntityDamage" operation="base_add" value="2"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="75" tags="perkBoomstick"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick"/>
-		<passive_effect name="MagazineSize" operation="base_set" value="2"/>
+		<passive_effect name="MagazineSize" operation="base_set" value="2" tags="perkBoomstick"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkBoomstick"/>
@@ -2427,7 +2429,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="450"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="21"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".15"/>
@@ -2510,7 +2512,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="15"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
@@ -2593,7 +2595,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="15"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
@@ -2677,7 +2679,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="7.7"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
@@ -2762,7 +2764,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="8.8"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
@@ -2845,7 +2847,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="35"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="-5"/>
@@ -2933,7 +2935,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="700"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="40"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="-5"/>
@@ -3013,7 +3015,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="900"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="45"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="-7"/>
@@ -3093,7 +3095,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="900"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="45"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="-7"/>
@@ -3193,7 +3195,7 @@
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95" tags="perkMachineGunner"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1225,1500" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		
@@ -3270,7 +3272,7 @@
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7" tags="perkMachineGunner"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="225,500" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		
@@ -3283,7 +3285,7 @@
 <item name="HD Double Barrel">
 	<property name="DescriptionKey" value="HDDBarrelDesc"/>
 	<property name="CustomIcon" value="HD Double Barrel"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,selfLoading,dBarrel,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,selfLoading,dBarrel,drumMagazine,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Double Barrel.unity3d?HD Double Barrel.Prefab"/>
@@ -3338,7 +3340,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="2"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
@@ -3369,7 +3371,7 @@
 <item name="HD Double Barrel Snub">
 	<property name="DescriptionKey" value="HDDoubleBarrelSnubDesc"/>
 	<property name="CustomIcon" value="HD Double Barrel Snub"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,magazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,perkBoomstick,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,magazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,drumMagazine,perkBoomstick,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="56"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Double Barrel Snub.unity3d?HD Double Barrel Snub.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3424,7 +3426,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkBoomstick"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkBoomstick"/>
@@ -3456,7 +3458,7 @@
 <item name="HD Spas 12">
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,perkBoomstick,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,perkBoomstick,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Default.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3511,7 +3513,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkBoomstick"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkBoomstick"/>
@@ -3543,7 +3545,7 @@
 <item name="HD Spas 12 Street">
 	<property name="CustomIcon" value="HD Spas 12 Street"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,magazine,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,magazine,drumMagazine,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Street.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3598,7 +3600,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkBoomstick"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkBoomstick"/>
@@ -3630,7 +3632,7 @@
 <item name="HD Spas 12 USA">
 	<property name="CustomIcon" value="HD Spas 12 USA"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 USA.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3685,7 +3687,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkBoomstick"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkBoomstick"/>
@@ -3717,7 +3719,7 @@
 <item name="HD Spas 12 Alien">
 	<property name="CustomIcon" value="HD Spas 12 Alien"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Alien.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3772,7 +3774,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkBoomstick"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkBoomstick"/>
@@ -3804,7 +3806,7 @@
 <item name="HD Spas 12 Irish">
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 Irish"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Irish.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3859,7 +3861,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkBoomstick"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkBoomstick"/>
@@ -3891,7 +3893,7 @@
 <item name="HD Mossberg 500">
 	<property name="CustomIcon" value="HD Mossberg 500"/>
 	<property name="DescriptionKey" value="HDM500Desc"/>
-	<property name="Tags" value="HDMossberg500Reflex,noSilencer,Moss500,weapon,ranged,holdBreathAiming,magazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="HDMossberg500Reflex,noSilencer,Moss500,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Mossberg 500.unity3d?HD Mossberg 500.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3946,7 +3948,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkBoomstick"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkBoomstick"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkBoomstick"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkBoomstick"/>
@@ -4027,7 +4029,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="850" tags="perkGunslinger"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="250" tags="perkGunslinger"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkGunslinger"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkGunslinger"/>
@@ -4130,7 +4132,7 @@
 		<passive_effect name="WeaponHandling" operation="base_set" value=".83" tags="perkMachineGunner"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="300,650" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		
@@ -4211,7 +4213,7 @@
 		<passive_effect name="WeaponHandling" operation="base_set" value=".83"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="750,1450" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMachineGunner,perkBookAutoWeapons"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		
@@ -4275,7 +4277,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkDeadEye"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDeadEye"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
@@ -4361,7 +4363,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkDeadEye"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDeadEye"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
@@ -4447,7 +4449,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="10" tags="perkDeadEye"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5" tags="perkDeadEye"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
@@ -4482,7 +4484,7 @@
 <item name="HD Winchester 1866">
 	<property name="DescriptionKey" value="HDW1866Desc"/>
 	<property name="CustomIcon" value="HD Winchester 1866"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Winchester 1866.unity3d?HD Winchester 1866.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -4534,7 +4536,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="22" tags="perkDeadEye"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1" tags="perkDeadEye"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeadEye"/>
@@ -4685,7 +4687,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="5"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15"/>
@@ -4774,7 +4776,7 @@
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="1"/>
 		<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="7"/>
@@ -4950,7 +4952,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="2.6" tags="perkSkullCrusher"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSkullCrusher"/>
 		<passive_effect name="DismemberChance" operation="base_add" value=".1" tags="perkSkullCrusher,primary"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkSkullCrusher"/>
@@ -5035,6 +5037,32 @@
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="Equals" value="3"/></triggered_effect>
 		<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="stunbaton_hit5">
 			<requirement name="CVarCompare" cvar="stunBatonCharge" operation="GTE" value="4"/></triggered_effect>
+	</effect_group>
+</item>
+
+<item name="HD Advanced Shredder Ammo">
+	<property name="CustomIcon" value="HD Advanced Shredder Ammo"/>
+	<property name="DescriptionKey" value="HDShredderAmmoDesc"/>
+	<property name="Tags" value="ammo,shotgun"/>
+	<property name="DisplayType" value="ammoShotgun"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mlead_scrap"/>
+	<property name="Stacknumber" value="2500"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="EconomicValue" value="120"/>
+	<effect_group name="ammoBlunderbuss" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="12.5" tags="perkBoomstick"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="1.6" tags="perkBoomstick"/>
+		<passive_effect name="RoundRayCount" operation="base_set" value="10" tags="perkBoomstick"/>
+		<passive_effect name="TargetArmor" operation="perc_add" value=".6" tags="perkBoomstick"/><display_value name="dTargetArmor" value=".6"/>
+		<passive_effect name="MaxRange" operation="base_set" value="15" tags="perkBoomstick"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="10" tags="perkBoomstick"/>
+		<passive_effect name="EntityPenetrationCount" operation="base_set" value="1" tags="perkBoomstick"/>
+		<passive_effect name="BlockPenetrationFactor" operation="base_set" value="50" tags="perkBoomstick"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="earth"/>
+		<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="wood"/>
 	</effect_group>
 </item>
 
@@ -5292,7 +5320,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkSalvageOperations"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkSalvageOperations"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSalvageOperations"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkSalvageOperations"/>
@@ -5358,7 +5386,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkSalvageOperations"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkSalvageOperations"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSalvageOperations"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkSalvageOperations"/>
@@ -5645,7 +5673,7 @@
 	<property name="DescriptionKey" value="HDMASDesc"/>
 	<property name="UnlockedBy" value="HD Military Helmet Schematic"/>
 	<effect_group name="military armor">
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_add" value="6.23,8.93"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,3.27" tier="1,6"/>
@@ -5677,7 +5705,7 @@
 	<property name="DescriptionKey" value="HDMASDesc"/>
 	<property name="UnlockedBy" value="HD Military Vest Schematic"/>
 	<effect_group name="military armor">
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_add" value="6.23,8.93"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,3.27" tier="1,6"/>
@@ -5708,7 +5736,7 @@
 	<property name="DescriptionKey" value="HDMASDesc"/>
 	<property name="UnlockedBy" value="HD Military Gloves Schematic"/>
 	<effect_group name="military armor">
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_add" value="6.23,8.93"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,3.27" tier="1,6"/>
@@ -5739,7 +5767,7 @@
 	<property name="DescriptionKey" value="HDMASDesc"/>
 	<property name="UnlockedBy" value="HD Military Legs Schematic"/>
 	<effect_group name="military armor">
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_add" value="6.23,8.93"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,3.27" tier="1,6"/>
@@ -5770,7 +5798,7 @@
 	<property name="DescriptionKey" value="HDMASDesc"/>
 	<property name="UnlockedBy" value="HD Military Boots Schematic"/>
 	<effect_group name="military without penalties">
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_add" value="6.23,8.93"/>
 		<passive_effect name="PhysicalDamageResist" operation="base_add" value="0,3.27" tier="1,6"/>
@@ -5850,7 +5878,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="2.6" tags="perkSkullCrusher"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSkullCrusher"/>
 		<passive_effect name="DismemberChance" operation="base_add" value=".1" tags="perkSkullCrusher,primary"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkSkullCrusher"/>
@@ -5931,7 +5959,7 @@
 		<passive_effect name="MaxRange" operation="base_set" value="2.6" tags="perkSkullCrusher"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkSkullCrusher"/>
 		<passive_effect name="DismemberChance" operation="base_add" value=".1" tags="perkSkullCrusher,primary"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkSkullCrusher"/>
@@ -6002,7 +6030,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkMiner69r"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkMiner69r"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
@@ -6071,7 +6099,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkMiner69r"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3" tags="perkMiner69r"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
@@ -6246,7 +6274,7 @@
 		<passive_effect name="JunkTurretActiveRange" operation="base_set" value="30"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1000,2500" tier="1,6" tags="perkTurrets"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="0.5" tags="perkTurrets"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 	</effect_group>
@@ -6327,7 +6355,7 @@
 		<passive_effect name="JunkTurretActiveRange" operation="base_set" value="30"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1000,2500" tier="1,6" tags="perkTurrets"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="0.5" tags="perkTurrets"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 	</effect_group>
@@ -6408,7 +6436,7 @@
 		<passive_effect name="JunkTurretActiveRange" operation="base_set" value="30"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="1000,2500" tier="1,6" tags="perkTurrets"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="0.5" tags="perkTurrets"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 	</effect_group>
@@ -6455,7 +6483,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="5" tags="perkMiner69r"/>
 		<passive_effect name="BlockRange" operation="base_set" value="5" tags="perkMiner69r"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
@@ -6525,7 +6553,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.5" tags="perkMiner69r"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkMiner69r"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="SphereCastRadius" operation="base_set" value=".1"/>
@@ -6642,7 +6670,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.3" tags="perkDeepCuts"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkDeepCuts"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/>
@@ -6731,7 +6759,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.3" tags="perkDeepCuts"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkDeepCuts"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/>
@@ -6820,7 +6848,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.3" tags="perkDeepCuts"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkDeepCuts"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/>
@@ -6909,7 +6937,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeepCuts"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.3" tags="perkDeepCuts"/>
 		<passive_effect name="BlockRange" operation="base_set" value="3.5" tags="perkDeepCuts"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.15,.15" tags="perkDeepCuts"/>
@@ -7242,7 +7270,7 @@
 		<passive_effect name="DegradationPerUse" operation="base_set" value="0.1" tags="perkDeepCuts"/>
 		<passive_effect name="MaxRange" operation="base_set" value="5.10"/>
 		<passive_effect name="BlockRange" operation="base_set" value="10"/>
-		<passive_effect name="ModSlots" operation="base_set" value="1,1,2,2,3,4" tier="1,2,3,4,5,6"/>
+		<passive_effect name="ModSlots" operation="base_set" value="1,2,3,4,5,6" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value="0" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="0" tags="EconomicValue"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="0"/>
