@@ -10171,8 +10171,8 @@
 </item>
 
 <item name="Starter Class">
+	<property name="CreativeMode" 	  value="Dev"/>
 	<property name="DescriptionKey"   value="StarterClassDesc"/>
-	<property name="CreativeMode"     value="None"/>
 	<property name="DisplayInfo" 	  value="Name" />
 	<property name="HoldType"         value="21"/>
 	<property name="Meshfile" 		  value="#@modfolder:Resources/HD Clip Board.unity3d?HD Clip Board.Prefab"/>
@@ -10186,7 +10186,7 @@
 </item>
 
 <item name="Class Bruiser">
-	<property name="CreativeMode"     value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="Class Bruiser"/>
 	<property name="DescriptionKey" value="ClassBruiserDesc"/>
 	<property name="HoldType" value="45"/>
@@ -10207,7 +10207,7 @@
 </item>
 
 <item name="Class Builder">
-	<property name="CreativeMode"     value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="Class Builder"/>
 	<property name="DescriptionKey" value="ClassBuilderDesc"/>
 	<property name="HoldType" value="45"/>
@@ -10228,7 +10228,7 @@
 </item>
 
 <item name="Class Engineer">
-	<property name="CreativeMode"     value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="Class Engineer"/>
 	<property name="DescriptionKey" value="ClassEngineerDesc"/>
 	<property name="HoldType" value="45"/>
@@ -10249,7 +10249,7 @@
 </item>
 
 <item name="Class Farmer">
-	<property name="CreativeMode"     value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="Class Farmer"/>
 	<property name="DescriptionKey" value="ClassFarmerDesc"/>
 	<property name="HoldType" value="45"/>
@@ -10270,7 +10270,7 @@
 </item>
 
 <item name="Class Gunman">
-	<property name="CreativeMode"     value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="Class Gunman"/>
 	<property name="DescriptionKey" value="ClassGunmanDesc"/>
 	<property name="HoldType" value="45"/>
@@ -10291,7 +10291,7 @@
 </item>
 
 <item name="Class Hunter">
-	<property name="CreativeMode"     value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="Class Hunter"/>
 	<property name="DescriptionKey" value="ClassHunterDesc"/>
 	<property name="HoldType" value="45"/>
@@ -10312,7 +10312,7 @@
 </item>
 
 <item name="Class Mechanic">
-	<property name="CreativeMode"     value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="Class Mechanic"/>
 	<property name="DescriptionKey" value="ClassMechanicDesc"/>
 	<property name="HoldType" value="45"/>
@@ -10333,7 +10333,7 @@
 </item>
 
 <item name="Class Medic">
-	<property name="CreativeMode"     value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="Class Medic"/>
 	<property name="DescriptionKey" value="ClassMedicDesc"/>
 	<property name="HoldType" value="45"/>
@@ -10354,7 +10354,7 @@
 </item>
 
 <item name="Class Miner">
-	<property name="CreativeMode"     value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="Class Miner"/>
 	<property name="DescriptionKey" value="ClassMinerDesc"/>
 	<property name="HoldType" value="45"/>
@@ -10375,7 +10375,7 @@
 </item>
 
 <item name="Class Rifleman">
-	<property name="CreativeMode"     value="None"/>
+	<property name="CreativeMode" value="Dev"/>
 	<property name="CustomIcon" value="Class Rifleman"/>
 	<property name="DescriptionKey" value="ClassRiflemanDesc"/>
 	<property name="HoldType" value="45"/>

@@ -115,8 +115,8 @@
 	<set xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain']/@width">1007</set>
 	
 	<set xpath="/windows/window[@name='craftingInfoPanel']/@width">1007</set>
-	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@depth='5']/@width">1007</set>
-	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/@width">852</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@depth='5']/@width">1009</set>
+	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/@width">854</set>
 	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/@width">851</set>
 	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/sprite[@name='backgroundMain']/@width">857</set>
 	<set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/rect/label[@name='descriptionText']/@width">844</set>
