@@ -2,7 +2,7 @@
 	
 	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,HDNailGunBolt</append>
 	
-	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.1</set>
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Delay']/@value">0.3</set>
 	<set xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='Material']/@value">MMachineGunParts</set>
 	
 	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">Steel Polish</append>
@@ -20,7 +20,6 @@
 	<set xpath="/items/item[@name='toolAnvil']/property[@name='Stacknumber']/@value">25000</set>
 	<set xpath="/items/item[@name='toolAndDieSet']/property[@name='Stacknumber']/@value">25000</set>
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='Stacknumber']/@value">25000</set>
-	<set xpath="/items/item[@name='solarCell']/property[@name='Stacknumber']/@value">25000</set>
 	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">25000</set>
 	<set xpath="/items/item[@name='casinoCoin']/property[@name='Weight']/@value">2</set>
 	<set xpath="/items/item[@name='medicalBandage']/property[@name='Weight']/@value">2</set>
