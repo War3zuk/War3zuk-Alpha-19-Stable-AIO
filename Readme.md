@@ -9,6 +9,7 @@ Fixed BookPanel/Size
 
 Launcher Edits:
 160 BackPack UI Complete :)
+Fixed Trader Spawning Bug
 
 Updated v4.9 to v5.0
 
