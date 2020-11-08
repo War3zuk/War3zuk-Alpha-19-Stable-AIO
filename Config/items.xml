@@ -10913,4 +10913,8 @@
 
 <!--  HACKS INCLUDING MEDICAL  -->
 
+<append xpath="/items/item[@name='resourceScrapBrass']">
+	<property name="CraftingIngredientTime" value="0.1"/>
+</append>
+
 </configs>

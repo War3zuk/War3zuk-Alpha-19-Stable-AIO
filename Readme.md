@@ -6,6 +6,7 @@ Fixed 105 BackPack Recipe UI Overlap
 Fixed LockedRecipe UI
 Fixed BookPanel/Size
 
+Brass Scrapping Time Now Balanced
 
 Launcher Edits:
 160 BackPack UI Complete :)
