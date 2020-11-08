@@ -6,7 +6,9 @@ Fixed 105 BackPack Recipe UI Overlap
 Fixed LockedRecipe UI
 Fixed BookPanel/Size
 
+
 Launcher Edits:
+160 BackPack UI Complete :)
 
 Updated v4.9 to v5.0
 
