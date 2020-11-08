@@ -10,6 +10,7 @@ Fixed BookPanel/Size
 Launcher Edits:
 160 BackPack UI Complete :)
 Fixed Trader Spawning Bug
+Added Moddified 0-CreaturePackMechs
 
 Updated v4.9 to v5.0
 
