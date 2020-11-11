@@ -27,6 +27,11 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 War3zuk Quest 01,items,Item,KgNone,War3zuk Machete Skills Needed,
 War3zuk Quest 02,items,Item,KgNone,War3zuk Kill The Dogs And Pigs,
 
+TikkidsBeefStripsDesc,items,,,Succulent Strips Of Beef gently coated And Cooked during the Zombie Apocalypse.,
+InxanitysTacoSurpriseDesc,items,,,A Blend Of Ingredients combined to produce the Best looking Taco to help during Hordes.,
+
+DroppedBloodDesc,items,,,Youve Found Blood. Probably from a Dead Corpse. This can be made into something im sure.,
+
 HDShredderAmmoDesc,items,,,A Few extra Ingredients And you have yourself some Advanced Blunderbuss Ammo.,
 
 HDUnionRoasted,items,Item,KgNone,HD Union Roasted,

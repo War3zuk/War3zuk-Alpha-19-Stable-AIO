@@ -2,6 +2,11 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v5.0 to v5.1
 
+Added Tikkids Peppered Beef Strips
+Added Inxanitys Taco Surprise
+
+Added RescourceBlood (BloodBags)
+
 Fixed 105 BackPack Recipe UI Overlap
 Fixed LockedRecipe UI
 Fixed BookPanel/Size

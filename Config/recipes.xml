@@ -25,6 +25,10 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="medicalBloodBag" count="1" craft_time = "20">
+	<ingredient name="Dropped Blood" count="100"/>
+</recipe>
+	
 <recipe name="HD Advanced Shredder Ammo" count="1" craft_time = "0.5">
 	<ingredient name="ammoBlunderbuss" count="2"/>
 	<ingredient name="resourceScrapLead" count="2"/>
@@ -715,6 +719,20 @@
 	<ingredient name="foodRawMeat" count="10"/>
 	<ingredient name="foodShamSandwich" count="4"/>
 	<ingredient name="foodCanBeef" count="5"/>
+</recipe>
+
+<recipe name="Tikkids Peppered Beef Strips" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="foodRawMeat" count="10"/>
+	<ingredient name="foodCanChili" count="1"/>
+	<ingredient name="foodCornMeal" count="2"/>
+</recipe>
+
+<recipe name="Inxanitys Taco Surprise" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodCropPotato" count="4"/>
+	<ingredient name="foodShamSandwich" count="1"/>
+	<ingredient name="resourceAnimalFat" count="10"/>
+	<ingredient name="foodRawMeat" count="10"/>
 </recipe>
 
 <recipe name="Aaron Rockst4r" count="1" craft_time = "10">

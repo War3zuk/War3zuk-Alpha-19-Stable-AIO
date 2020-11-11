@@ -753,30 +753,35 @@
 	
 <!-- Standard Animal -->
 <lootcontainer id="500" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="foodRawMeat" count="2,4" prob="1"/>
-<item name="resourceAnimalFat" count="2,4" prob="1"/>
-<item name="resourceBone" count="2,4" prob="0.1"/>
-<item name="resourceLeather" count="2,4" prob="0.1"/>
+	<item name="foodRawMeat" count="1,2" prob="1"/>
+	<item name="Dropped Blood" count="1,2" prob="1"/>
+	<item name="resourceAnimalFat" count="1,2" prob="1"/>
+	<item name="resourceBone" count="1,3" prob="0.1"/>
 </lootcontainer>
 
 <!-- Boneless Animal -->
 <lootcontainer id="501" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="foodRawMeat" count="2,4" prob="1"/>
-<item name="resourceAnimalFat" count="2,4" prob="1"/>
-<item name="resourceLeather" count="2,4" prob="0.1"/>
+	<item name="foodRawMeat" count="1,2" prob="1"/>
+	<item name="Dropped Blood" count="1,2" prob="1"/>
+	<item name="resourceAnimalFat" count="1,2" prob="1"/>
 </lootcontainer>
 
 <!-- Undead Animal -->
 <lootcontainer id="502" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="resourceBone" count="2,4" prob="1"/>
-<item name="foodRottingFlesh" count="2,4" prob="1"/>
+	<item name="Dropped Blood" count="1,2" prob="1"/>
+	<item name="resourceAnimalFat" count="1,2" prob="1"/>
+	<item name="resourceBone" count="1,3" prob="0.1"/>
+	<item name="foodRottingFlesh" count="1,3" prob="1"/>
 </lootcontainer>
 
 <!-- Animal Chicken -->
 <lootcontainer id="503" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
-<item name="foodEgg" count="2,4" prob="1"/>
-<item name="foodRawMeat" count="2,4" prob="1"/>
-<item name="resourceFeather" count="5,10" prob="1"/>
+	<item name="foodRawMeat" count="1,2" prob="1"/>
+	<item name="Dropped Blood" count="1,2" prob="1"/>
+	<item name="resourceAnimalFat" count="1,2" prob="1"/>
+	<item name="resourceBone" count="1,3" prob="0.1"/>
+	<item name="foodEgg" count="2,4" prob="1"/>
+	<item name="resourceFeather" count="5,10" prob="1"/>
 </lootcontainer>
 
 <lootcontainer id="507" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
