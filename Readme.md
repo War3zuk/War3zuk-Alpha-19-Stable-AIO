@@ -2,8 +2,12 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v5.0 to v5.1
 
-Added Tikkids Peppered Beef Strips
-Added Inxanitys Taco Surprise
+Edited HD Mini Hatchet Organic Dmg
+Edited HD Tazas Hatchet Organic Dmg
+
+Added Tikkids Peppered Beef Strips (CampFire + Grill)
+Added Inxanitys Taco Surprise (CampFire + Grill)
+Added Coach's Chilli Donner Kebab (CampFire + Grill)
 
 Added RescourceBlood (BloodBags)
 

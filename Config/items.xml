@@ -6021,10 +6021,10 @@
 		<property name="UsePowerAttackAnimation" value="false"/>
 	</property>
 	<effect_group name="meleeToolRepairT0StoneAxe">
-		<passive_effect name="EntityDamage" operation="base_set" value="20" tags="perkMiner69r"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="40.5" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="10" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="35.5" tags="perkMiner69r"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="85" tags="perkMiner69r,axe"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="10" tags="primary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="8" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="112,300" tier="1,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkMiner69r"/>
@@ -6090,10 +6090,10 @@
 		<property name="UsePowerAttackAnimation" value="false"/>
 	</property>
 	<effect_group name="meleeToolRepairT0StoneAxe">
-		<passive_effect name="EntityDamage" operation="base_set" value="15" tags="perkMiner69r"/>
-		<passive_effect name="BlockDamage" operation="base_set" value="32.5" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="8" tags="perkMiner69r"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="30.5" tags="perkMiner69r"/>
 		<passive_effect name="AttacksPerMinute" operation="base_set" value="90" tags="perkMiner69r,axe"/>
-		<passive_effect name="StaminaLoss" operation="base_set" value="8" tags="primary"/>
+		<passive_effect name="StaminaLoss" operation="base_set" value="10" tags="primary"/>
 		<passive_effect name="DegradationMax" operation="base_set" value="112,300" tier="1,6" tags="perkMiner69r"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
 		<passive_effect name="MaxRange" operation="base_set" value="2.4" tags="perkMiner69r"/>
@@ -8589,6 +8589,31 @@
 	<property name="HoldType" value="31"/>
 	<property name="DescriptionKey" value="InxanitysTacoSurpriseDesc"/>
 	<property name="CustomIcon" value="Inxanitys Taco Surprise"/>
+	<property name="DisplayType" value="food"/>
+	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="250"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+	<property class="Action0">
+	<property name="Class" value="Eat"/>
+	<property name="Delay" value="1.0"/>
+	<property name="Use_time" value="..."/>
+	<property name="Sound_start" value="player_eating"/>
+	</property>
+	<effect_group tiered="false" name="Food Tier 0">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="45"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="20"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="Coachs Chilli Donner Kebab">
+	<property name="HoldType" value="31"/>
+	<property name="DescriptionKey" value="CoachsDonnerKebabDesc"/>
+	<property name="CustomIcon" value="Coachs Chilli Donner Kebab"/>
 	<property name="DisplayType" value="food"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DropMeshfile" value="#@modfolder:Resources/HD Food Bowl.unity3d?HD Food Bowl.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
