@@ -16,9 +16,6 @@
  	<set xpath="/traders/trader_info[@id='2']/@open_time">05:59</set>
 	<set xpath="/traders/trader_info[@id='2']/@close_time">23:59</set>
 	
-	<set xpath="/traders/trader_info[@id='3']/@reset_interval">1</set>
-	<set xpath="/traders/trader_info[@id='3']/@allow_sell">true</set>
-	
 	<set xpath="/traders/trader_info[@id='4']/@allow_sell">true</set>
 	<set xpath="/traders/trader_info[@id='4']/@reset_interval">1</set>
 	<set xpath="/traders/trader_info[@id='4']/@min_inventory">40</set>
