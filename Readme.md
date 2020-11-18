@@ -4,6 +4,11 @@ Updated v5.1 to v5.2
 
 Fixed PlayerVendingMachine Bug (Doron)
 
+
+Launcher Edits:
+Updated Snuffkins Zombies
+Edited Snuffkins Zombies
+
 Updated v5.0 to v5.1
 
 Edited HD Mini Hatchet Organic Dmg
