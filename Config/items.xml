@@ -9138,6 +9138,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Wrench Schematic"/>
 	<property name="Unlocks" value="HD Wrench"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Wrench" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9149,6 +9150,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Auger Schematic"/>
 	<property name="Unlocks" value="HD Auger"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Auger" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9160,6 +9162,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Chainsaw Schematic"/>
 	<property name="Unlocks" value="HD Chainsaw"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Chainsaw" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9171,6 +9174,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Military Helmet Schematic"/>
 	<property name="Unlocks" value="HD Military Helmet"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Military Helmet" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9182,6 +9186,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Military Vest Schematic"/>
 	<property name="Unlocks" value="HD Military Vest"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Military Vest" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9193,6 +9198,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Military Legs Schematic"/>
 	<property name="Unlocks" value="HD Military Legs"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Military Legs" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9204,6 +9210,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Military Boots Schematic"/>
 	<property name="Unlocks" value="HD Military Boots"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Military Boots" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9215,6 +9222,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Military Gloves Schematic"/>
 	<property name="Unlocks" value="HD Military Gloves"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Military Gloves" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9226,6 +9234,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Mossberg 500 Schematic"/>
 	<property name="Unlocks" value="HD Mossberg 500"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Mossberg 500" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9237,6 +9246,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Desert Eagle Schematic"/>
 	<property name="Unlocks" value="HD Desert Eagle"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Desert Eagle" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Desert Eagle Punisher" operation="set" value="1"/>
@@ -9249,6 +9259,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD First Aid Kit Schematic"/>
 	<property name="Unlocks" value="HD First Aid Kit"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD First Aid Kit" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9260,6 +9271,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD M4A1 Carbine Schematic"/>
 	<property name="Unlocks" value="HD M4A1 Carbine"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD M4A1 Carbine" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9271,6 +9283,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Tactical AR Schematic"/>
 	<property name="Unlocks" value="HD Tactical AR"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Tactical AR" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9282,6 +9295,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Forge Schematic"/>
 	<property name="Unlocks" value="HD Forge"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Forge" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9293,6 +9307,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Generator Schematic"/>
 	<property name="Unlocks" value="HD Generator"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Generator" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9304,6 +9319,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Gas Generator Schematic"/>
 	<property name="Unlocks" value="HD Gas Generator"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Gas Generator" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9315,6 +9331,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Vulcan 9mm Barrel Schematic"/>
 	<property name="Unlocks" value="HD Vulcan 9mm Barrel"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 9mm Barrel" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9326,6 +9343,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Vulcan 9mm Parts Schematic"/>
 	<property name="Unlocks" value="HD Vulcan 9mm Parts"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 9mm Parts" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9337,6 +9355,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Vulcan 9mm Motor Schematic"/>
 	<property name="Unlocks" value="HD Vulcan 9mm Motor"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 9mm Motor" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9348,6 +9367,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Vulcan 7.62mm Barrel Schematic"/>
 	<property name="Unlocks" value="HD Vulcan 7.62mm Barrel"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 7.62mm Barrel" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9359,6 +9379,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Vulcan 7.62mm Parts Schematic"/>
 	<property name="Unlocks" value="HD Vulcan 7.62mm Parts"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 7.62mm Parts" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9370,6 +9391,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Vulcan 7.62mm Motor Schematic"/>
 	<property name="Unlocks" value="HD Vulcan 7.62mm Motor"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 7.62mm Motor" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9381,6 +9403,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Vulcan 50Bmg Barrel Schematic"/>
 	<property name="Unlocks" value="HD Vulcan 50Bmg Barrel"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 50Bmg Barrel" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9392,6 +9415,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Vulcan 50Bmg Parts Schematic"/>
 	<property name="Unlocks" value="HD Vulcan 50Bmg Parts"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 50Bmg Parts" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9403,6 +9427,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Vulcan 50Bmg Motor Schematic"/>
 	<property name="Unlocks" value="HD Vulcan 50Bmg Motor"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Vulcan 50Bmg Motor" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9414,6 +9439,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Spas 12 Schematic"/>
 	<property name="Unlocks" value="HD Spas 12"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Spas 12 Street" operation="set" value="1"/>
@@ -9429,6 +9455,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD AK Hybrid ACP Schematic"/>
 	<property name="Unlocks" value="HD AK Hybrid ACP"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD AK Hybrid ACP" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9440,6 +9467,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD HK33 Hybrid Schematic"/>
 	<property name="Unlocks" value="HD HK33 Hybrid"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD HK33 Hybrid" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9451,6 +9479,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Mac10 Auto Schematic"/>
 	<property name="Unlocks" value="HD Mac10 Auto"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Mac10 Auto" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9462,6 +9491,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Arctic Warfare Schematic"/>
 	<property name="Unlocks" value="HD Arctic Warfare"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Arctic Warfare" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9473,6 +9503,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD M1 Garand Schematic"/>
 	<property name="Unlocks" value="HD M1 Garand"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD M1 Garand" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9484,6 +9515,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Royal Enfield Schematic"/>
 	<property name="Unlocks" value="HD Royal Enfield"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Royal Enfield" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9495,6 +9527,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Mods Schematic"/>
 	<property name="Unlocks" value="HDColtM1911Silencer"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDColtM1911Silencer" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDColtM1911ASilencer" operation="set" value="1"/>
@@ -9528,6 +9561,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD CheyTac M300 Schematic"/>
 	<property name="Unlocks" value="HD CheyTac M300"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD CheyTac M300" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9539,6 +9573,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD M3 Auto Schematic"/>
 	<property name="Unlocks" value="HD M3 Auto"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD M3 Auto" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9550,6 +9585,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Double Barrel Schematic"/>
 	<property name="Unlocks" value="HD Double Barrel"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Double Barrel" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Double Barrel Snub" operation="set" value="1"/>
@@ -9562,6 +9598,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD WorkBench Schematic"/>
 	<property name="Unlocks" value="HD WorkBench"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD WorkBench" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9573,6 +9610,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD GunBench Schematic"/>
 	<property name="Unlocks" value="HD GunBench"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD GunBench" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9584,6 +9622,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD PicsBench Schematic"/>
 	<property name="Unlocks" value="HD PicsBench"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD PicsBench" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9595,6 +9634,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD AmmoBench Schematic"/>
 	<property name="Unlocks" value="HD AmmoBench"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD AmmoBench" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9606,6 +9646,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Winchester 1866 Schematic"/>
 	<property name="Unlocks" value="HD Winchester 1866"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Winchester 1866" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9617,32 +9658,9 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Dragunov SVD Schematic"/>
 	<property name="Unlocks" value="HD Dragunov SVD"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Dragunov SVD" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
-	</effect_group>
-</item>
-
-<item name="bladeTrapSchematic">
-	<property name="Extends" value="schematicNoQualityMaster"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="bladeTrap"/>
-	<property name="Unlocks" value="bladeTrap"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="bladeTrap" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Blade Trap" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
-	</effect_group>
-</item>
-
-<item name="dartTrapSchematic">
-	<property name="Extends" value="schematicNoQualityMaster"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="dartTrap"/>
-	<property name="Unlocks" value="dartTrap"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="dartTrap" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Dart Trap" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>
@@ -9652,6 +9670,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HDPumpJackE Schematic"/>
 	<property name="Unlocks" value="HDPumpJackE"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDPumpJackE" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9663,6 +9682,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Flame Thrower Schematic"/>
 	<property name="Unlocks" value="HD Flame Thrower"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Flame Thrower" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9674,6 +9694,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Tool And Die Set Schematic"/>
 	<property name="Unlocks" value="HDToolAndDieSet"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDToolAndDieSet" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9685,6 +9706,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Carbon Sewing Kit Schematic"/>
 	<property name="Unlocks" value="HDCarbonSewingKit"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDCarbonSewingKit" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9696,6 +9718,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Grinder Schematic"/>
 	<property name="Unlocks" value="HDGrinder"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDGrinder" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9707,6 +9730,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Bullet Tumbler Schematic"/>
 	<property name="Unlocks" value="HDBulletTumbler"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDBulletTumbler" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9718,6 +9742,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Bullet Press Schematic"/>
 	<property name="Unlocks" value="HDBulletPress"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDBulletPress" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9729,6 +9754,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Welder Schematic"/>
 	<property name="Unlocks" value="HDWelder"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDWelder" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9740,6 +9766,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Cnc HandGuns Schematic"/>
 	<property name="Unlocks" value="HDCncHandGuns"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDCncHandGuns" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9751,6 +9778,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Cnc Automatics Schematic"/>
 	<property name="Unlocks" value="HDCncAutomatics"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDCncAutomatics" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9762,6 +9790,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Cnc Rifles Schematic"/>
 	<property name="Unlocks" value="HDCncRifles"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDCncRifles" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9773,6 +9802,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD BR1NXlS Booper Schematic"/>
 	<property name="Unlocks" value="HD BR1NXlS Booper"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD BR1NXlS Booper" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9784,6 +9814,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Karabiner 98k Schematic"/>
 	<property name="Unlocks" value="HD Karabiner 98k"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Karabiner 98k" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9795,6 +9826,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Cement Mixer Schematic"/>
 	<property name="Unlocks" value="HDCementMixer"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDCementMixer" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMotorUpgrade" operation="set" value="1"/>
@@ -9809,6 +9841,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Rocket Launcher Schematic"/>
 	<property name="Unlocks" value="HD Rocket Launcher"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Rocket Launcher" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9820,6 +9853,7 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="HD Impact Wrench Schematic"/>
 	<property name="Unlocks" value="HD Impact Wrench"/>
+	<property name="Group" value="Resources"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Impact Wrench" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
@@ -9888,18 +9922,6 @@
 	<property name="Unlocks" value="HDHazmatFiber"/>
 	<effect_group tiered="false">
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDHazmatFiber" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
-	</effect_group>
-</item>
-
-<item name="electricfencepostSchematic">
-	<property name="Extends" value="schematicNoQualityMaster"/>
-	<property name="CreativeMode" value="Player"/>
-	<property name="CustomIcon" value="electricfencepost"/>
-	<property name="Unlocks" value="electricfencepost"/>
-	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="electricfencepost" operation="set" value="1"/>
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HD Tesla Fence" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>

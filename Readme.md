@@ -2,7 +2,14 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v5.1 to v5.2
 
+Added Ability To Craft HD Schematics (HD PicsBench)
+Added Resource Catagory To HD PicsBench
+Added Resource Code To All Schematics (Shows In HD PicsBench)
+
 Fixed PlayerVendingMachine Bug (Doron)
+Edited HD Dart Trap (Unlocked PerkEngineering)
+Edited HD Blade Trap (Unlocked PerkEngineering)
+Edited HD Tesla Coil (Unlocked PerkEngineering)
 
 
 Launcher Edits:

@@ -262,7 +262,6 @@
 	<property name="Mesh" value="models"/>
 	<property name="MaxDamage" value="2500"/>
 	<property name="DamageReceived" value="0.01"/>
-	<property name="UnlockedBy" value="electricfencepostSchematic"/>
 	<property name="Model" value="#@modfolder:Resources/HD Tesla Coil Pole.unity3d?HD Tesla Coil Pole.Prefab"/>
 	<property class="RepairItems"> <property name="resourceElectricParts" value="1"/> <property name="resourceScrapIron" value="1"/> </property>
 	<property name="DisplayType" value="blockElectricalMulti"/>
@@ -273,6 +272,7 @@
 	<property name="Buff" value="buffTeslaShocked"/>
 	<property name="BuffChance" value="1"/>
 	<property name="Group" value="Tools/Traps,Science"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="4"/>
 		<property name="resourceElectricParts" value="1"/>
@@ -423,7 +423,6 @@
 	<property name="CustomIcon" value="bladeTrap" />
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="BladeTrap"/>
-	<property name="UnlockedBy" value="bladeTrapSchematic"/>
 	<property name="Material" value="MTitaniumPolish"/>
 	<property name="Damage" value="30"/>
 	<property name="DamageReceived" value="5"/>
@@ -446,6 +445,7 @@
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="RequiredPower" value="30"/>
 	<property name="Group" value="Tools/Traps,Science"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 	<property name="ActivationDistance" value="6"/>
 	<property class="RepairItems">
 		<property name="Titanium Polish" value="10"/>
@@ -467,7 +467,6 @@
 	<property name="CreativeMode" value="Player"/>
 	<property name="Class" value="Launcher"/>
 	<property name="DisplayType" value="blockElectricalHardened"/>
-	<property name="UnlockedBy" value="dartTrapSchematic"/>
 	<property name="Material" value="MTitaniumPolish"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Mesh" value="models"/>
@@ -482,6 +481,7 @@
 	<property name="AmmoItem" value="ammoDartIron"/>
 	<property name="RequiredPower" value="20"/>
 	<property name="Group" value="Tools/Traps,Science"/>
+	<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="16"/>
 		<property name="resourceMechanicalParts" value="3"/>

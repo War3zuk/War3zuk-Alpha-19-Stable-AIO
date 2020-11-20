@@ -25,6 +25,238 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="HD Wrench Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="100"/>
+</recipe>
+
+<recipe name="HD Auger Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Chainsaw Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Military Helmet Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Military Vest Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Military Legs Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Military Boots Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Military Gloves Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Mossberg 500 Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Desert Eagle Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD First Aid Kit Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD M4A1 Carbine Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Tactical AR Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Forge Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Generator Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Gas Generator Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Vulcan 9mm Barrel Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Vulcan 9mm Parts Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Vulcan 9mm Motor Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Vulcan 7.62mm Barrel Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Vulcan 7.62mm Parts Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Vulcan 7.62mm Motor Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Vulcan 50Bmg Barrel Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Vulcan 50Bmg Parts Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Vulcan 50Bmg Motor Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Spas 12 Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD AK Hybrid ACP Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD HK33 Hybrid Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Mac10 Auto Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Arctic Warfare Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD M1 Garand Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Royal Enfield Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Mods Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD CheyTac M300 Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD M3 Auto Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Double Barrel Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD WorkBench Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD GunBench Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD PicsBench Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD AmmoBench Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Winchester 1866 Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Dragunov SVD Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HDPumpJackE Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Flame Thrower Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Tool And Die Set Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Carbon Sewing Kit Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Grinder Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Bullet Tumbler Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Bullet Press Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Welder Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Cnc HandGuns Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Cnc Automatics Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Cnc Rifles Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD BR1NXlS Booper Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Karabiner 98k Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Cement Mixer Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Rocket Launcher Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
+<recipe name="HD Impact Wrench Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
+	<ingredient name="Scrapped Schematics" count="50"/>
+</recipe>
+
 <recipe name="medicalBloodBag" count="1" craft_time = "20">
 	<ingredient name="Dropped Blood" count="100"/>
 </recipe>

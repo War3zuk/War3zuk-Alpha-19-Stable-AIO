@@ -37,6 +37,7 @@
 		
 		<crafting_category_list display_type="HD PicsBench">
 			<crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" />
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
 		</crafting_category_list>
 		
 		<crafting_category_list display_type="HD AmmoBench">
