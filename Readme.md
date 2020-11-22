@@ -2,6 +2,8 @@ War3zuk-Alpha-19.0 - AIO
 
 Updated v5.1 to v5.2
 
+Edited CntBoxJammed (Lootlist 51 Medical)
+
 Added Ability To Craft HD Schematics (HD PicsBench)
 Added Resource Catagory To HD PicsBench
 Added Resource Code To All Schematics (Shows In HD PicsBench)
@@ -13,8 +15,11 @@ Edited HD Tesla Coil (Unlocked PerkEngineering)
 
 
 Launcher Edits:
+Edited Khelldon Screamer Bears (HP)
 Updated Snuffkins Zombies
 Edited Snuffkins Zombies
+Added War3zuk Alpha 19 AIO 160 BBM Addon 10 CC (Zipped)
+Added War3zuk Alpha 19 AIO 160 BBM Addon 15 CC (Zipped)
 
 Updated v5.0 to v5.1
 

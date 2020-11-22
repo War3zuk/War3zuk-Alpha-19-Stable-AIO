@@ -22,6 +22,12 @@
 	
 	<append xpath="/blocks/block[@name='pouredRConcreteMaster']"> <property name="MaxDamage" value="3000"/> </append>
 	
+	<append xpath="/blocks/block[@name='cntStorageGeneric']"> <property name="LootList" value="51"/> </append>
+	<append xpath="/blocks/block[@name='cntStorageGeneric']"> <property name="CreativeMode" value="None"/> </append>
+	
+	<append xpath="/blocks/block[@name='cntStorageGenericInsecure']"> <property name="LootList" value="51"/> </append>
+	<append xpath="/blocks/block[@name='cntStorageGenericInsecure']"> <property name="CreativeMode" value="None"/> </append>
+	
 	<remove xpath="/blocks/block[@name='bedroll']"/>
 	<remove xpath="/blocks/block[@name='cntBirdnest']"/>
 	<remove xpath="/blocks/block[@name='urinalCommercialMounted']"/>
