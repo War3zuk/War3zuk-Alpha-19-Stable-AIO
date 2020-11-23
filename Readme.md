@@ -15,9 +15,11 @@ Edited HD Tesla Coil (Unlocked PerkEngineering)
 
 
 Launcher Edits:
+Adjusted Juggernaut HP
+Added Juggernaut To Wasteland Night
 Edited Khelldon Screamer Bears (HP)
-Updated Snuffkins Zombies
-Edited Snuffkins Zombies
+Updated Snuffkins Zombies (Removed HandMelee)
+Edited Snuffkins Zombies (SpawnGroups)
 Added War3zuk Alpha 19 AIO 160 BBM Addon 10 CC (Zipped)
 Added War3zuk Alpha 19 AIO 160 BBM Addon 15 CC (Zipped)
 
