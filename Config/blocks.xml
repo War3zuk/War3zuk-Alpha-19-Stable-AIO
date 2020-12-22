@@ -31,7 +31,7 @@
 	<remove xpath="/blocks/block[@name='bedroll']"/>
 	<remove xpath="/blocks/block[@name='cntBirdnest']"/>
 	<remove xpath="/blocks/block[@name='urinalCommercialMounted']"/>
-	<remove xpath="/blocks/block[@name='airConditionVentFanDouble']"/>
+	<!--  <remove xpath="/blocks/block[@name='airConditionVentFanDouble']"/> -->
 	
 <append xpath="/blocks">
 	
