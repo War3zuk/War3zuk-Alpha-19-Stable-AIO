@@ -5,19 +5,19 @@
 	
 	<set xpath="/blocks/block[@name='electricwirerelay']/property[@name='RequiredPower']/@value">0</set>
 	
-	<set xpath="/blocks/block[@name='woodLogSpike1']/property[@name='Damage']/@value">15</set>
-	<set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage']/@value">20</set>
-	<set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage']/@value">25</set>
-	<set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage']/@value">30</set>
-	<set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage']/@value">35</set>
-	<set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage']/@value">40</set>
+	<set xpath="/blocks/block[@name='woodLogSpike1']/property[@name='Damage']/@value">20</set>
+	<set xpath="/blocks/block[@name='rWoodLogSpike2']/property[@name='Damage']/@value">25</set>
+	<set xpath="/blocks/block[@name='rWoodMetalLogSpike3']/property[@name='Damage']/@value">30</set>
+	<set xpath="/blocks/block[@name='scrapIronLogSpike4']/property[@name='Damage']/@value">35</set>
+	<set xpath="/blocks/block[@name='rScrapIronLogSpike5']/property[@name='Damage']/@value">40</set>
+	<set xpath="/blocks/block[@name='steelLogSpike6']/property[@name='Damage']/@value">45</set>
 	
 	<set xpath="/blocks/block[@name='hayBaleBlock']/property[@name='Material']/@value">Mplants</set>
 	
-	<set xpath="/blocks/block[@name='terrOreIron']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">50</set>
+	<set xpath="/blocks/block[@name='terrOreIron']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">55</set>
 	<set xpath="/blocks/block[@name='terrOreIron']/drop[@event='Harvest' and @name='resourceScrapIron']/@name">resourceIronFragment</set>
 
-	<set xpath="/blocks/block[@name='oreIronBoulder']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">50</set>
+	<set xpath="/blocks/block[@name='oreIronBoulder']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">55</set>
 	<set xpath="/blocks/block[@name='oreIronBoulder']/drop[@event='Harvest' and @name='resourceScrapIron']/@name">resourceIronFragment</set>
 	
 	<append xpath="/blocks/block[@name='pouredRConcreteMaster']"> <property name="MaxDamage" value="3000"/> </append>
@@ -31,8 +31,20 @@
 	<remove xpath="/blocks/block[@name='bedroll']"/>
 	<remove xpath="/blocks/block[@name='cntBirdnest']"/>
 	<remove xpath="/blocks/block[@name='urinalCommercialMounted']"/>
+	<remove xpath="/blocks/block[@name='airConditionVentFanDouble']"/>
 	
 <append xpath="/blocks">
+	
+<!--  <block name="airConditionVentFanDouble">
+	<property name="Extends" value="airConditionVentFan"/>
+	<property name="Model" value="#@modfolder:Resources/HD AirCon Unity.unity3d?HD AirCon Unity.Prefab"/>
+	<property name="MultiBlockDim" value="2,1,1"/><property name="DisplayType" value="blockMulti"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="3,12" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1,5" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5,20"/>
+</block> -->
 	
 <block name="HDterraRadiated">
 	<property name="Material" value="Mrubble"/>

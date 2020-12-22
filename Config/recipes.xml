@@ -690,7 +690,7 @@
 	
 <recipe name="Warm Chunky Lamb" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
     <ingredient name="foodCanLamb" count="2"/>
-	<ingredient name="foodCanSham" count="5"/>
+	<ingredient name="foodCanSham" count="2"/>
 	<ingredient name="HDBowl" count="1"/>
 </recipe>
 	
@@ -797,16 +797,16 @@
 </recipe>
 
 <recipe name="FaxFoxs Furr Burger" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
-	<ingredient name="foodCanLamb" count="5"/>
+	<ingredient name="foodCanLamb" count="2"/>
 	<ingredient name="resourceAnimalFat" count="2"/>
 	<ingredient name="foodShamSandwich" count="2"/>
 	<ingredient name="foodRawMeat" count="2"/>
 </recipe>
 
 <recipe name="Camoes Bifana" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill">
-	<ingredient name="resourceAnimalFat" count="2"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
 	<ingredient name="foodShamSandwich" count="2"/>
-	<ingredient name="foodRawMeat" count="4"/>
+	<ingredient name="foodRawMeat" count="5"/>
 	<ingredient name="drinkJarBeer" count="1"/>
 </recipe>
 
@@ -865,15 +865,15 @@
 	<ingredient name="foodCornMeal" count="2"/>
 	<ingredient name="foodHoney" count="1"/>
 	<ingredient name="foodCanDogfood" count="1"/>
-	<ingredient name="foodCanBeef" count="5"/>
+	<ingredient name="foodCanBeef" count="2"/>
 </recipe>
 
 <recipe name="Lovers Pizza" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
-	<ingredient name="foodCanLamb" count="5"/>
+	<ingredient name="foodCanLamb" count="2"/>
 	<ingredient name="resourceAnimalFat" count="5"/>
 	<ingredient name="foodCornMeal" count="2"/>
 	<ingredient name="foodShamSandwich" count="2"/>
-	<ingredient name="foodCanBeef" count="5"/>
+	<ingredient name="foodCanBeef" count="2"/>
 </recipe>
 
 <recipe name="klausgamer14s Beef steak And Fries" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
@@ -914,7 +914,7 @@
 </recipe>
 
 <recipe name="Curmudgeons Beef Chili Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
-	<ingredient name="foodCanLamb" count="5"/>
+	<ingredient name="foodCanLamb" count="2"/>
 	<ingredient name="foodRawMeat" count="4"/>
 	<ingredient name="foodCornMeal" count="2"/>
 	<ingredient name="foodCropPotato" count="2"/>
@@ -950,7 +950,7 @@
 	<ingredient name="resourceAnimalFat" count="10"/>
 	<ingredient name="foodRawMeat" count="10"/>
 	<ingredient name="foodShamSandwich" count="4"/>
-	<ingredient name="foodCanBeef" count="5"/>
+	<ingredient name="foodCanBeef" count="2"/>
 </recipe>
 
 <recipe name="Tikkids Peppered Beef Strips" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
@@ -970,8 +970,16 @@
 <recipe name="Coachs Chilli Donner Kebab" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
 	<ingredient name="foodCornMeal" count="2"/>
 	<ingredient name="foodCanChili" count="1"/>
-	<ingredient name="foodCanLamb" count="1"/>
+	<ingredient name="foodCanLamb" count="2"/>
 	<ingredient name="foodRawMeat" count="10"/>
+</recipe>
+
+<recipe name="TwistedAngels Peach Cobbler" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
+	<ingredient name="drinkJarEmpty" count="1"/>
+	<ingredient name="foodCanPears" count="1"/>
+	<ingredient name="foodHoney" count="2"/>
+	<ingredient name="foodEgg" count="4"/>
+	<ingredient name="foodCornMeal" count="4"/>
 </recipe>
 
 <recipe name="Aaron Rockst4r" count="1" craft_time = "10">
@@ -1326,7 +1334,7 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Flame Thrower" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkMiner69r">
+<recipe name="HD Flame Thrower" craft_area="HD AmmoBench" count="1"  craft_time = "100" tags="learnable,perkMiner69r">
 	<ingredient name="resourceForgedSteel" count="200"/>
 	<ingredient name="resourceForgedIron" count="100"/>
 	<ingredient name="resourceDuctTape" count="20"/>

@@ -1,4 +1,24 @@
-War3zuk-Alpha-19.0 - AIO
+War3zuk-Alpha-19.3 B6 - AIO STABLE
+
+Updated v5.2 to v5.3
+
+Added TwistedAngels Peach Cobbler (Campfire + Pot)
+Edited HD Flame Thrower Ammo (HD AmmoBench)
+
+Fixed Recipes For Canned Beef,Chicken,Lamb
+
+Updated Vehicle Addons Icons
+Adjusted ChunkMargin In Desert (Fps)
+
+Edited HD Vending Coke Model Colider
+
+Removed PlantHP Due To Bug
+
+
+Launcher Edits:
+Edited Juggernaut Hp
+Edited Juggernaut Dmg
+Edited Juggernaut Missiles
 
 Updated v5.1 to v5.2
 

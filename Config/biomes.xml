@@ -94,10 +94,24 @@
 		<CloudThickness min="2" max="4" prob=".1"/>
 		<CloudThickness min="4" max="8" prob=".1"/>
 		<Precipitation min="0" max="0" prob=".0"/>
-		<Precipitation min="50" max="100" prob=".25"/>
+		<Precipitation min="30" max="40" prob=".25"/>
 		<Wind min="5" max="10" prob="0.9"/>
-		<Wind min="10" max="100" prob="0.1"/>
+		<Wind min="10" max="50" prob="0.1"/>
 	</weather>
 </append>
-	
+
+<append xpath="worldgeneration/biomes/biome[@name='desert']/weather">
+	<weather>
+		<Temperature min="20" max="40" prob="1"/>
+		<CloudThickness min="5" max="20" prob="1"/>
+		<CloudThickness min="0" max="0" prob=".3"/>
+		<CloudThickness min="10" max="40" prob=".6"/>
+		<CloudThickness min="50" max="50" prob=".1"/>
+		<Precipitation min="0" max="0" prob=".0"/>
+		<Precipitation min="50" max="100" prob=".75"/>
+		<Wind min="10" max="20" prob="0.9"/>
+		<Wind min="20" max="40" prob="0.1"/>
+	</weather>
+</append>
+
 </War3zuk>

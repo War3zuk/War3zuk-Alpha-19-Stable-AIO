@@ -131,7 +131,6 @@
 	<property name="stability_glue" value="0"/>
 	<property name="Mass" type="int" value="1"/>
 	<property name="StabilitySupport" value="false"/>
-	<property name="MaxDamage" value="150"/>
 	<property name="Experience" value="0"/>
 </material>
 
