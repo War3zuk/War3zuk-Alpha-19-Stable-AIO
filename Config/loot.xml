@@ -563,10 +563,10 @@
 <lootcontainer id="66" count="1,2" size="8,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualPlus1Template">
 	<item group="junk" prob="0.9"/>
 	<item name="vehicleBicyclePlaceable" count="1" prob="0.025"/>
-	<item name="HDAeroDynamicsUpgrade" count="1" prob="0.1"/>
-	<item name="HDFuelSaverUpgrade" count="1" prob="0.1"/>
-	<item name="HDHeadlightsUpgrade" count="1" prob="0.1"/>
-	<item name="HDTurboUpgrade" count="1" prob="0.1"/>
+	<item name="HDAeroDynamicsUpgrade" count="1" prob=".9"/>
+	<item name="HDFuelSaverUpgrade" count="1" prob=".9"/>
+	<item name="HDHeadlightsUpgrade" count="1" prob=".9"/>
+	<item name="HDTurboUpgrade" count="1" prob=".9"/>
 	<item name="HDRuckSackUpgrade" count="1,2" prob="0.2"/>
 </lootcontainer>
 </insertAfter>

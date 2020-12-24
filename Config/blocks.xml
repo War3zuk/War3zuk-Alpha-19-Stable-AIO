@@ -31,20 +31,57 @@
 	<remove xpath="/blocks/block[@name='bedroll']"/>
 	<remove xpath="/blocks/block[@name='cntBirdnest']"/>
 	<remove xpath="/blocks/block[@name='urinalCommercialMounted']"/>
-	<!--  <remove xpath="/blocks/block[@name='airConditionVentFanDouble']"/> -->
+	<remove xpath="/blocks/block[@name='airConditioner']"/>
+	<remove xpath="/blocks/block[@name='airConditionVentFan']"/>
+	<remove xpath="/blocks/block[@name='airConditionVentFanDouble']"/>
 	
 <append xpath="/blocks">
 	
-<!--  <block name="airConditionVentFanDouble">
+<block name="airConditioner">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#@modfolder:Resources/HD AirCon Unit Block.unity3d?HD AirCon Unit Block.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="HandleFace" value="Bottom"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="52"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="3,12" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1,5" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="1,20"/>
+	<drop event="Destroy" name="resourceRadiator" count="1" prob="0.7" tag="salvageHarvest"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="450"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+</block>
+	
+<block name="airConditionVentFan">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#@modfolder:Resources/HD AirCon Unit Single.unity3d?HD AirCon Unit Single.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="HandleFace" value="Bottom"/>
+	<property name="ImposterExchange" value="imposterPlate" param1="168"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="3,12" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMechanicalParts" count="1,4" tag="salvageHarvest"/>
+	<drop event="Harvest" name="resourceMetalPipe" count="1,5" tag="salvageHarvest"/>
+	<drop event="Destroy" name="resourceScrapIron" count="5,20"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="EconomicValue" value="450"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+</block>
+	
+<block name="airConditionVentFanDouble">
 	<property name="Extends" value="airConditionVentFan"/>
-	<property name="Model" value="#@modfolder:Resources/HD AirCon Unity.unity3d?HD AirCon Unity.Prefab"/>
+	<property name="Model" value="#@modfolder:Resources/HD AirCon Unit Double.unity3d?HD AirCon Unit Double.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="MultiBlockDim" value="2,1,1"/><property name="DisplayType" value="blockMulti"/>
 	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
 	<drop event="Harvest" name="resourceElectricParts" count="3,12" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceMechanicalParts" count="1,4" tag="salvageHarvest"/>
 	<drop event="Harvest" name="resourceMetalPipe" count="1,5" tag="salvageHarvest"/>
 	<drop event="Destroy" name="resourceScrapIron" count="5,20"/>
-</block> -->
+</block>
 	
 <block name="HDterraRadiated">
 	<property name="Material" value="Mrubble"/>
@@ -176,7 +213,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
-	<property name="Model" value="#@modfolder:Resources/HDKillingFloorZombie.unity3d?HDKillingFloorZombie.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDKillingFloorZombie.unity3d?HDKillingFloorZombie.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -198,7 +235,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
-	<property name="Model" value="#@modfolder:Resources/HD Crash Bandicoot.unity3d?HD Crash Bandicoot.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HD Crash Bandicoot.unity3d?HD Crash Bandicoot.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -247,7 +284,7 @@
 	<property name="Material" value="Mplants"/>
 	<property name="MaxDamage" value="100"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/HDBedRoll.unity3d?HDBedRoll.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDBedRoll.unity3d?HDBedRoll.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="2,2,1"/>
 	<property name="FallDamage" value=".8"/>
@@ -362,7 +399,7 @@
 	<property name="StabilitySupport" value="true"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
-	<property name="Model" value="#@modfolder:Resources/HD Cement Mixer.unity3d?HD Cement Mixer.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HD Cement Mixer.unity3d?HD Cement Mixer.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="ImposterDontBlock" value="true"/>
@@ -410,7 +447,7 @@
 	<property name="Material" value="MLandMine"/>
 	<property name="Mesh" value="models"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/HD Ground Mine.unity3d?HD Ground Mine.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HD Ground Mine.unity3d?HD Ground Mine.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="IsTerrainDecoration" value="true"/>
 	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
 	<property name="Stacknumber" value="50"/>
@@ -526,7 +563,7 @@
 	<property name="MaxDamage" value="2500"/>
 	<property name="StabilitySupport" value="false"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/HD GunBench.unity3d?HD GunBench.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HD GunBench.unity3d?HD GunBench.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="ModelOffset" value=".5,.5,0"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="UnlockedBy" value="HD GunBench Schematic"/>
@@ -721,7 +758,7 @@
 	<property name="CustomIcon" value="HD Pump Jack" />
 	<property name="Material" value="Mmetal"/>
 	<property name="StabilitySupport" value="true"/>
-	<property name="Model" value="#@modfolder:Resources/HD Pump Jack.unity3d?HD Pump Jack Empty.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HD Pump Jack.unity3d?HD Pump Jack Empty.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Shape" value="ModelEntity"/>
 	<property name="MaxDamage" value="1000"/>
 	<property name="MultiBlockDim" value="1,3,3"/>
@@ -751,7 +788,7 @@
     <property name="Class" value="Loot" />
    	<property name="Material" value="Mmetal"/>
 	<property name="Shape" value="ModelEntity" />
-	<property name="Model" value="#@modfolder:Resources/HD Pump Jack.unity3d?HD Pump Jack Full.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HD Pump Jack.unity3d?HD Pump Jack Full.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Collide" value="movement,rockets,sight,melee" />
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,3,3"/>
@@ -767,7 +804,7 @@
 	<property name="Class" value="Loot"/>
 	<property name="Material" value="Mwood_weak"/>
 	<property name="StabilitySupport" value="false"/>
-	<property name="Model" value="#@modfolder:Resources/cntBirdnest.unity3d?cntBirdnest.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/cntBirdnest.unity3d?cntBirdnest.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Shape" value="ModelEntity"/>
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
@@ -793,7 +830,7 @@
     <property name="PlantGrowing.LightLevelGrow" value="0"/>
     <property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="StabilitySupport" value="false"/>
-	<property name="Model" value="#@modfolder:Resources/cntBirdnestEmpty.unity3d?cntBirdnestEmpty.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/cntBirdnestEmpty.unity3d?cntBirdnestEmpty.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Shape" value="ModelEntity"/>
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
@@ -2376,7 +2413,7 @@
 	<property name="MultiBlockDim" value="1,2,1"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
-	<property name="Model" value="#@modfolder:Resources/HD Forge.unity3d?HD Forge.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HD Forge.unity3d?HD Forge.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="UnlockedBy" value="HD Forge Schematic"/>
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="OnlySimpleRotations" value="true"/>
@@ -3390,7 +3427,7 @@
 	<property name="StabilitySupport" value="false"/>
 	<property name="Mesh" value="models"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/HD Munitions Crate.unity3d?HD Munitions Crate.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HD Munitions Crate.unity3d?HD Munitions Crate.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Place" value="TowardsPlacer"/>
 	<property name="ImposterExchange" value="imposterHalf" param1="112"/>
 	<property name="IsTerrainDecoration" value="true"/>
@@ -3448,7 +3485,7 @@
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
 	<property name="Shape" value="ModelEntity" />
-	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="1,1,2"/>
 	<property name="ImposterExchange" value="imposterPlate" param1="1"/>
@@ -3468,7 +3505,7 @@
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
 	<property name="Shape" value="ModelEntity" />
-	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="1,1,2"/>
 	<property name="ImposterExchange" value="imposterPlate" param1="1"/>
@@ -3486,7 +3523,7 @@
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="CreativeMode" value="Dev"/>
 </append>
 
@@ -3495,7 +3532,7 @@
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/cntCoffin01.unity3d?cntCoffin01.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/cntCoffin01.unity3d?cntCoffin01.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="15"/>
@@ -3506,7 +3543,7 @@
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/cntCoffin.unity3d?cntCoffin.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="CreativeMode" value="Dev"/>
 </append>
 
@@ -3515,7 +3552,7 @@
 	<property name="Mesh" value="models"/>
 	<property name="Path" value="solid"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/cntCoffin01.unity3d?cntCoffin01.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/cntCoffin01.unity3d?cntCoffin01.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="CreativeMode" value="Dev"/>
 </append>
 
@@ -3524,7 +3561,7 @@
 	<property name="Material" value="Mmetal"/>
 	<property name="Path" value="solid"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/cntDumpster.unity3d?cntDumpster.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/cntDumpster.unity3d?cntDumpster.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Place" value="TowardsPlacer"/>
 	<property name="ModelOffset" value="0,.5,.5"/>
 	<property name="DisplayType" value="blockMulti"/>
@@ -3540,7 +3577,7 @@
 	<property name="Material" value="Mmetal"/>
 	<property name="Path" value="solid"/>
 	<property name="Shape" value="ModelEntity"/>
-	<property name="Model" value="#@modfolder:Resources/cntDumpster.unity3d?cntDumpster.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/cntDumpster.unity3d?cntDumpster.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Place" value="TowardsPlacer"/>
 	<property name="DisplayType" value="blockMulti"/>
 	<property name="MultiBlockDim" value="3,2,2"/>
@@ -5471,7 +5508,7 @@
 	<property name="Material" value="Mmetal"/>
 	<property name="Mesh" value="models"/>
 	<property name="Shape" value="ModelEntity" />
-	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk --> 
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesFull.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk --> 
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Path" value="solid"/>
 	<property name="Class" value="Loot"/>
@@ -5491,7 +5528,7 @@
 	<property name="Material" value="Mmetal"/>
 	<property name="Mesh" value="models"/>
 	<property name="Shape" value="ModelEntity" />
-	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesEmpty.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Path" value="solid"/>
 	<drop event="Harvest" name="resourceScrapIron" count="17" tag="allHarvest"/>
@@ -5508,14 +5545,14 @@
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="527"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleFull.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01DoubleEmpty">
 	<property name="CustomIcon" value="storeShelving01Double"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Empty"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleEmpty.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01TopFull">
@@ -5524,14 +5561,14 @@
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="528"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesFull.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01TopEmpty">
 	<property name="CustomIcon" value="storeShelving01Top"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Empty"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesEmpty.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01TopDoubleFull">
@@ -5540,54 +5577,54 @@
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
 	<property name="LootList" value="529"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleFull.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleFull.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 <block name="storeShelving01TopDoubleEmpty">
 	<property name="CustomIcon" value="storeShelving01TopDouble"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Empty"/>
-	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleEmpty.Prefab"/>   <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleEmpty.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
 </append>
 
 <append xpath="/blocks/block[@name='hospitalBed']">
-	<property name="Model" value="#@modfolder:Resources/hospitalBed.unity3d?hospitalBed.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/hospitalBed.unity3d?hospitalBed.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<drop event="Harvest" name="foodRottingFlesh" count="10,30" prob="1" tag="butcherHarvest"/>
 </append>
 
 <append xpath="/blocks/block[@name='gurneyBed']">
-	<property name="Model" value="#@modfolder:Resources/gurneyBed.unity3d?gurneyBed.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/gurneyBed.unity3d?gurneyBed.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<drop event="Harvest" name="foodRottingFlesh" count="10,30" prob="1" tag="butcherHarvest"/>
 </append>
 
 <append xpath="/blocks/block[@name='bodyBagBlack']">
-	<property name="Model" value="#@modfolder:Resources/bodyBagBlack.unity3d?bodyBagBlack.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/bodyBagBlack.unity3d?bodyBagBlack.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </append>
 
 <append xpath="/blocks/block[@name='bodyBagYellow']">
-	<property name="Model" value="#@modfolder:Resources/bodyBagYellow.unity3d?bodyBagYellow.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/bodyBagYellow.unity3d?bodyBagYellow.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </append>
 
 <append xpath="/blocks/block[@name='bodyBagPile']">
-	<property name="Model" value="#@modfolder:Resources/bodyBagPile.unity3d?bodyBagPile.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/bodyBagPile.unity3d?bodyBagPile.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </append>
 
 <append xpath="/blocks/block[@name='bodyBagPileMix']">
-	<property name="Model" value="#@modfolder:Resources/bodyBagPileMix.unity3d?bodyBagPileMix.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/bodyBagPileMix.unity3d?bodyBagPileMix.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </append>
 
 <append xpath="/blocks/block[@name='bodyBagPair']">
-	<property name="Model" value="#@modfolder:Resources/bodyBagPair.unity3d?bodyBagPair.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/bodyBagPair.unity3d?bodyBagPair.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </append>
 
 <append xpath="/blocks/block[@name='bodyBagPairYellow']">
-	<property name="Model" value="#@modfolder:Resources/bodyBagPairYellow.unity3d?bodyBagPairYellow.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/bodyBagPairYellow.unity3d?bodyBagPairYellow.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </append>
 
 <append xpath="/blocks/block[@name='bodyBagPairMixed']">
-	<property name="Model" value="#@modfolder:Resources/bodyBagPairMixed.unity3d?bodyBagPairMixed.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+	<property name="Model" value="#@modfolder:Resources/bodyBagPairMixed.unity3d?bodyBagPairMixed.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </append>
 	
 </configs>

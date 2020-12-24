@@ -1,5 +1,18 @@
 War3zuk-Alpha-19.3 B6 - AIO STABLE
 
+Updated v5.3 to v5.4
+
+Added AirCon PBR Model (Paid)
+Added AirCon Single PBR Model (Paid)
+Added AirCon Double PBR Model (Paid)
+
+Fixed HD Bulnderbuss (Mag Rounds)
+
+Added LadyDahlia28's Cowboy Hat Armor Mod
+Added LadyDahlia28's Cowboy Boots Armor Mod
+
+Launcher Edits:
+
 Updated v5.2 to v5.3
 
 Added TwistedAngels Peach Cobbler (Campfire + Pot)

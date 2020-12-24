@@ -3,7 +3,6 @@
 	<remove xpath="/recipes/recipe[@name='resourceGlue']"/>
 	<remove xpath="/recipes/recipe[@name='drinkJarBoiledWater']"/>
 	<remove xpath="/recipes/recipe[@name='medicalPlasterCast']"/>
-	
 	<remove xpath="/recipes/recipe[@name='plantedAloe1']"/>
 	<remove xpath="/recipes/recipe[@name='plantedBlueberry1']"/>
 	<remove xpath="/recipes/recipe[@name='plantedChrysanthemum1']"/>
@@ -17,13 +16,24 @@
 	<remove xpath="/recipes/recipe[@name='plantedYucca1']"/>
 	<remove xpath="/recipes/recipe[@name='plantedPumpkin1']"/>
 	<remove xpath="/recipes/recipe[@name='plantedGraceCorn1']"/>
-	
 	<remove xpath="/recipes/recipe[@name='vehicleBicycleChassis']"/>
 	<remove xpath="/recipes/recipe[@name='vehicleMinibikeChassis']"/>
 	<remove xpath="/recipes/recipe[@name='vehicle4x4TruckChassis']"/>
 	<remove xpath="/recipes/recipe[@name='vehicleGyroCopterChassis']"/>
 	
 <append xpath="/recipes">
+	
+<recipe name="LadyDahlia28CowboyHat" count="1" craft_area="HD WorkBench" craft_time = "60">
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceLeather" count="50"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
+
+<recipe name="LadyDahlia28CowboyBoots" count="1" craft_area="HD WorkBench" craft_time = "60">
+	<ingredient name="resourceScrapPolymers" count="50"/>
+	<ingredient name="resourceLeather" count="50"/>
+	<ingredient name="resourceSewingKit" count="2"/>
+</recipe>
 	
 <recipe name="HD Wrench Schematic" count="1" craft_area="HD PicsBench" craft_time = "60">
 	<ingredient name="Scrapped Schematics" count="100"/>

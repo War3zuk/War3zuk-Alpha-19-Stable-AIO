@@ -1247,5 +1247,40 @@
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 	
+	<item_modifier name="LadyDahlia28CowboyHat" installable_tags="head" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="CustomIcon" value="apparelCowboyHat"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="540"/>
+		<property name="DisplayType" value="clothing"/>
+		<property name="DescriptionKey" value="LadyDahlia28CowboyHatDesc"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_cowboyhat"/>
+			<property name="UMA.Overlay0" value="gear_cowboyhat"/>
+			<property name="UMA.ShowAltHair" value="true"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+		<passive_effect name="HypothermalResist" operation="base_add" value="1.8,4.2"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="7.5,10.5"/>
+		</effect_group>
+	</item_modifier>
+	
+	<item_modifier name="LadyDahlia28CowboyBoots" installable_tags="armorFeet" modifier_tags="rare" blocked_tags="noMods,clothing" type="attachment">
+		<property name="CustomIcon" value="apparelCowboyBoots"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="540"/>
+		<property name="DisplayType" value="clothing"/>
+		<property name="DescriptionKey" value="LadyDahlia28CowboyBootsDesc"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="boot02"/>
+			<property name="UMA.Overlay0" value="boot02"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+		<passive_effect name="HypothermalResist" operation="base_add" value="1.8,4.2"/>
+		<passive_effect name="HyperthermalResist" operation="base_add" value="7.5,10.5"/>
+		</effect_group>
+	</item_modifier>
+	
 </append>
 </configs>

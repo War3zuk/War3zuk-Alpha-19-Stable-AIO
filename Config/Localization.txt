@@ -27,6 +27,12 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 War3zuk Quest 01,items,Item,KgNone,War3zuk Machete Skills Needed,
 War3zuk Quest 02,items,Item,KgNone,War3zuk Kill The Dogs And Pigs,
 
+LadyDahlia28CowboyHat,items,Item,KgNone,LadyDahlia28's Cowboy Hat,
+LadyDahlia28CowboyBoots,items,Item,KgNone,LadyDahlia28's Cowboy Boots,
+
+LadyDahlia28CowboyHatDesc,items,,,Add this to your Armor to sport that CowBoy look.\n\nCrafted in the HD WorkBench.,
+LadyDahlia28CowboyBootsDesc,items,,,Add this to your Armor to sport that CowBoy look.\n\nCrafted in the HD WorkBench.,
+
 TikkidsBeefStripsDesc,items,,,Succulent Strips Of Beef gently coated And Cooked during the Zombie Apocalypse.,
 InxanitysTacoSurpriseDesc,items,,,A Blend Of Ingredients combined to produce the Best looking Taco to help during Hordes.,
 
