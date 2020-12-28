@@ -34,7 +34,7 @@
 		<spawn maxcount="1" respawndelay="2" time="Any" entitygroup="EnemyAnimalsSnow" spawnDeadChance="0" />
 </append>
 
-<append xpath="/spawning/entityspawner">
+<!--<append xpath="/spawning/entityspawner">
 
 <entityspawner name="Dog_Sm_Territorial">
 
@@ -809,5 +809,5 @@
 		
 </entityspawner>
 
-</append>
+</append>-->
 </configs>
