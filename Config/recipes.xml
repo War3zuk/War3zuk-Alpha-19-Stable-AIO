@@ -1651,7 +1651,7 @@
 	<ingredient name="resourceSpring" count="2"/>
 </recipe>
 
-<recipe name="HD Scrap Wrench" count="1" craft_time = "60">
+<recipe name="HD Scrap Wrench" count="1" craft_time = "60" tags="perkSalvageOperations">
 	<ingredient name="resourceScrapIron" count="500"/>
 	<ingredient name="resourceDuctTape" count="20"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>

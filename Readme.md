@@ -11,7 +11,10 @@ Fixed HD Bulnderbuss (Mag Rounds)
 Added LadyDahlia28's Cowboy Hat Armor Mod
 Added LadyDahlia28's Cowboy Boots Armor Mod
 
+Fixed HD Scrap Wrench Recipe TAG
+
 Launcher Edits:
+Fixed A Spawning Issue
 
 Updated v5.2 to v5.3
 
