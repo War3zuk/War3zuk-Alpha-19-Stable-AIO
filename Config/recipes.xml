@@ -1244,7 +1244,7 @@
 	<ingredient name="resourceSpring" count="3"/>
 </recipe>
 	
-<recipe name="HD Colt M1911A" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1" craft_time = "120" tags="perkGunslinger">
+<recipe name="HD Colt M1911A" craft_tool="HDCncHandGuns" craft_area="HD GunBench" count="1" craft_time = "60" tags="perkGunslinger">
 	<ingredient name="resourceForgedIron" count="20"/>
 	<ingredient name="resourceMechanicalParts" count="10"/>
 	<ingredient name="resourceDuctTape" count="5"/>
@@ -1266,7 +1266,7 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Mac10 Auto" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "60" tags="learnable,perkMachineGunner">
+<recipe name="HD Mac10 Auto" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedIron" count="35"/>
 	<ingredient name="resourceMechanicalParts" count="35"/>
 	<ingredient name="resourceDuctTape" count="10"/>
@@ -1274,14 +1274,14 @@
 	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
-<recipe name="HD AK Hybrid ACP" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkMachineGunner">
+<recipe name="HD AK Hybrid ACP" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedIron" count="150"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceScrapPolymers" count="20"/>
 	<ingredient name="resourceSpring" count="15"/>
 </recipe>
 
-<recipe name="HD HK33 Hybrid" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "150" tags="learnable,perkMachineGunner">
+<recipe name="HD HK33 Hybrid" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedSteel" count="100"/>
 	<ingredient name="resourceForgedIron" count="100"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
@@ -1297,14 +1297,14 @@
 	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
-<recipe name="HD Tactical AR" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "90" tags="learnable,perkMachineGunner">
+<recipe name="HD Tactical AR" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedIron" count="160"/>
 	<ingredient name="resourceMechanicalParts" count="35"/>
 	<ingredient name="resourceScrapPolymers" count="25"/>
 	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
-<recipe name="HD Spas 12" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+<recipe name="HD Spas 12" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkBoomstick">
 	<ingredient name="resourceForgedIron" count="250"/>
 	<ingredient name="resourceMechanicalParts" count="40"/>
 	<ingredient name="resourceDuctTape" count="10"/>
@@ -1312,31 +1312,31 @@
 	<ingredient name="modDyeBlack" count="2"/>
 </recipe>
 
-<recipe name="HD Spas 12 Street" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+<recipe name="HD Spas 12 Street" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkBoomstick">
 	<ingredient name="HD Spas 12" count="1"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="modDyePink" count="1"/>
 </recipe>
 
-<recipe name="HD Spas 12 USA" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+<recipe name="HD Spas 12 USA" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkBoomstick">
 	<ingredient name="HD Spas 12" count="1"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="modDyeRed" count="1"/>
 </recipe>
 
-<recipe name="HD Spas 12 Alien" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+<recipe name="HD Spas 12 Alien" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkBoomstick">
 	<ingredient name="HD Spas 12" count="1"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="modDyeBlue" count="1"/>
 </recipe>
 
-<recipe name="HD Spas 12 Irish" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+<recipe name="HD Spas 12 Irish" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkBoomstick">
 	<ingredient name="HD Spas 12" count="1"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="modDyeGreen" count="1"/>
 </recipe>
 
-<recipe name="HD Mossberg 500" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+<recipe name="HD Mossberg 500" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkBoomstick">
 	<ingredient name="resourceForgedIron" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="45"/>
 	<ingredient name="resourceDuctTape" count="10"/>
@@ -1344,7 +1344,7 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Flame Thrower" craft_area="HD AmmoBench" count="1"  craft_time = "100" tags="learnable,perkMiner69r">
+<recipe name="HD Flame Thrower" craft_area="HD AmmoBench" count="1"  craft_time = "120" tags="learnable,perkMiner69r">
 	<ingredient name="resourceForgedSteel" count="200"/>
 	<ingredient name="resourceForgedIron" count="100"/>
 	<ingredient name="resourceDuctTape" count="20"/>
@@ -1476,7 +1476,7 @@
 	<ingredient name="resourceOil" count="10"/>
 </recipe>
 
-<recipe name="HD M3 Auto" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkDeadEye">
+<recipe name="HD M3 Auto" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkDeadEye">
 	<ingredient name="resourceForgedSteel" count="150"/>
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
@@ -1484,7 +1484,7 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Double Barrel" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+<recipe name="HD Double Barrel" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkBoomstick">
 	<ingredient name="resourceForgedIron" count="150"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceDuctTape" count="10"/>
@@ -1492,7 +1492,7 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Double Barrel Snub" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkBoomstick">
+<recipe name="HD Double Barrel Snub" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkBoomstick">
 	<ingredient name="resourceForgedIron" count="100"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
 	<ingredient name="resourceDuctTape" count="8"/>
@@ -1508,7 +1508,7 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Arctic Warfare" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "200" tags="learnable,perkDeadEye">
+<recipe name="HD Arctic Warfare" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkDeadEye">
 	<ingredient name="resourceForgedSteel" count="250"/>
 	<ingredient name="resourceForgedIron" count="150"/>
 	<ingredient name="resourceMechanicalParts" count="50"/>
@@ -1516,7 +1516,7 @@
 	<ingredient name="resourceSpring" count="10"/>
 </recipe>
 
-<recipe name="HD Dragunov SVD" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1"  craft_time = "100" tags="learnable,perkDeadEye">
+<recipe name="HD Dragunov SVD" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkDeadEye">
 	<ingredient name="resourceForgedSteel" count="200"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceDuctTape" count="10"/>
@@ -1524,7 +1524,7 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD CheyTac M300" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "150" tags="learnable,perkDeadEye">
+<recipe name="HD CheyTac M300" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkDeadEye">
 	<ingredient name="resourceForgedSteel" count="250"/>
 	<ingredient name="resourceForgedIron" count="150"/>
 	<ingredient name="resourceMechanicalParts" count="50"/>
@@ -1532,7 +1532,7 @@
 	<ingredient name="resourceSpring" count="20"/>
 </recipe>
 
-<recipe name="HD Karabiner 98k" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkDeadEye">
+<recipe name="HD Karabiner 98k" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkDeadEye">
 	<ingredient name="resourceForgedIron" count="75"/>
 	<ingredient name="resourceMechanicalParts" count="25"/>
 	<ingredient name="resourceDuctTape" count="5"/>
@@ -1540,7 +1540,7 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD M1 Garand" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkDeadEye">
+<recipe name="HD M1 Garand" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkDeadEye">
 	<ingredient name="resourceForgedSteel" count="10"/>
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>
@@ -1548,7 +1548,7 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Royal Enfield" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "100" tags="learnable,perkDeadEye">
+<recipe name="HD Royal Enfield" craft_tool="HDCncRifles" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkDeadEye">
 	<ingredient name="resourceForgedSteel" count="15"/>
 	<ingredient name="resourceForgedIron" count="70"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>

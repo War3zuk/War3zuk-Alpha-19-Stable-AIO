@@ -12,6 +12,10 @@ Added LadyDahlia28's Cowboy Hat Armor Mod
 Added LadyDahlia28's Cowboy Boots Armor Mod
 
 Fixed HD Scrap Wrench Recipe TAG
+Fixed HD Colt M1911 Code
+Fixed HD Colt M1911A Code
+Fixed HD Desert Eagle Range Code
+Fixed HD Desert Eagle Punisher Range Code
 
 Launcher Edits:
 Fixed A Spawning Issue

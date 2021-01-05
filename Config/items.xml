@@ -2502,9 +2502,9 @@
 		<property name="ScopeCameraOffset" value="0,.012,0"/>
 	</property>
 	<effect_group name="gunHandgunT1Pistol">
-		<passive_effect name="MaxRange" operation="base_set" value="50" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="35" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="9mmGun"/>
+		<passive_effect name="MaxRange" operation="base_set" value="50"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="45"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="25"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="350"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
@@ -2585,9 +2585,9 @@
 		<property name="ScopeCameraOffset" value="0,.012,0"/>
 	</property>
 	<effect_group name="gunHandgunT1Pistol">
-		<passive_effect name="MaxRange" operation="base_set" value="50" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="35" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="9mmGun"/>
+		<passive_effect name="MaxRange" operation="base_set" value="50"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="45"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="25"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="350"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
@@ -2669,9 +2669,9 @@
 		<property name="ScopeCameraOffset" value="-.0005,-.000,-.0010"/>
 	</property>
 	<effect_group name="gunHandgunT3DesertVulture">
-		<passive_effect name="MaxRange" operation="base_set" value="60" tags="revolver"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="45" tags="revolver"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="revolver"/>
+		<passive_effect name="MaxRange" operation="base_set" value="60"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="55"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="20"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="130"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
@@ -2754,9 +2754,9 @@
 		<property name="ScopeCameraOffset" value="-.0003,.003,-.0010"/>
 	</property>
 	<effect_group name="gunHandgunT3DesertVulture">
-		<passive_effect name="MaxRange" operation="base_set" value="60" tags="revolver"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="45" tags="revolver"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="revolver"/>
+		<passive_effect name="MaxRange" operation="base_set" value="60"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="55"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="EntityDamage" operation="base_add" value="15"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="130"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
