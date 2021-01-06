@@ -27,6 +27,9 @@ lootTooltipTouched,UI,Use Prompt,,<{0}> [d50937]Search[-] {1},
 War3zuk Quest 01,items,Item,KgNone,War3zuk Machete Skills Needed,
 War3zuk Quest 02,items,Item,KgNone,War3zuk Kill The Dogs And Pigs,
 
+Takayans Sashimi,items,Item,KgNone,Takayan's Sashimi,
+TakayansSashimiDesc,items,,,Delicately sliced And prepare Fish to keep you full And ready for Zombie Slaying.,
+
 LadyDahlia28CowboyHat,items,Item,KgNone,LadyDahlia28's Cowboy Hat,
 LadyDahlia28CowboyBoots,items,Item,KgNone,LadyDahlia28's Cowboy Boots,
 

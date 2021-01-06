@@ -992,6 +992,11 @@
 	<ingredient name="foodCornMeal" count="4"/>
 </recipe>
 
+<recipe name="Takayans Sashimi" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodCanSalmon" count="1"/>
+	<ingredient name="foodCanStock" count="1"/>
+</recipe>
+
 <recipe name="Aaron Rockst4r" count="1" craft_time = "10">
 	<ingredient name="resourceWood" count="40"/>
 	<ingredient name="resourceNail" count="10"/>

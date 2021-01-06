@@ -2,6 +2,8 @@ War3zuk-Alpha-19.3 B6 - AIO STABLE
 
 Updated v5.3 to v5.4
 
+Added Takayan Sashimi (Campfire + Grill)
+
 Added AirCon PBR Model (Paid)
 Added AirCon Single PBR Model (Paid)
 Added AirCon Double PBR Model (Paid)
