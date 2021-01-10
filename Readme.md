@@ -2,6 +2,8 @@ War3zuk-Alpha-19.3 B6 - AIO STABLE
 
 Updated v5.3 to v5.4
 
+Edited Biome Weather ChunkMargin (ALL)
+
 Added Takayan Sashimi (Campfire + Grill)
 
 Added AirCon PBR Model (Paid)
@@ -21,6 +23,7 @@ Fixed HD Desert Eagle Punisher Range Code
 
 Launcher Edits:
 Fixed A Spawning Issue
+Removed 2 prefabs Causing FPS Drops
 
 Updated v5.2 to v5.3
 

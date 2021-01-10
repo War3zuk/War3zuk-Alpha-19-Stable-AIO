@@ -87,16 +87,30 @@
 		</subbiome>
 	</insertAfter>
 	
-<append xpath="worldgeneration/biomes/biome[@name='wasteland']/weather">
+<append xpath="worldgeneration/biomes/biome[@name='pine_forest']/weather">
 	<weather>
-		<Temperature min="-20" max="20" prob="1"/>
-		<CloudThickness min="0" max="0" prob=".8"/>
-		<CloudThickness min="2" max="4" prob=".1"/>
-		<CloudThickness min="4" max="8" prob=".1"/>
+		<Temperature min="-35" max="15" prob="1"/>
+		<CloudThickness min="0" max="0" prob=".3"/>
+		<CloudThickness min="10" max="70" prob=".6"/>
+		<CloudThickness min="100" max="100" prob=".1"/>
 		<Precipitation min="0" max="0" prob=".0"/>
-		<Precipitation min="30" max="40" prob=".25"/>
-		<Wind min="5" max="10" prob="0.9"/>
-		<Wind min="10" max="50" prob="0.1"/>
+		<Precipitation min="50" max="100" prob=".75"/>
+		<Wind min="10" max="20" prob="0.9"/>
+		<Wind min="20" max="100" prob="0.1"/>
+	</weather>
+</append>
+
+<append xpath="worldgeneration/biomes/biome[@name='snow']/weather">
+	<weather>
+		<Temperature min="-60" max="-30" prob="1"/>
+		<Fog min="0" max="0" prob=".9"/>
+		<Fog min="100" max="100" prob=".1"/>
+		<CloudThickness min="0" max="100" prob=".5"/>
+		<CloudThickness min="95" max="100" prob=".5"/>
+		<Precipitation min="0" max="0" prob=".0"/>
+		<Precipitation min="50" max="100" prob=".75"/>
+		<Wind min="20" max="40" prob="0.9"/>
+		<Wind min="40" max="100" prob="0.1"/>
 	</weather>
 </append>
 
@@ -111,6 +125,19 @@
 		<Precipitation min="50" max="100" prob=".75"/>
 		<Wind min="10" max="20" prob="0.9"/>
 		<Wind min="20" max="40" prob="0.1"/>
+	</weather>
+</append>
+	
+<append xpath="worldgeneration/biomes/biome[@name='wasteland']/weather">
+	<weather>
+		<Temperature min="-20" max="20" prob="1"/>
+		<CloudThickness min="0" max="0" prob=".8"/>
+		<CloudThickness min="2" max="4" prob=".1"/>
+		<CloudThickness min="4" max="8" prob=".1"/>
+		<Precipitation min="0" max="0" prob=".0"/>
+		<Precipitation min="30" max="40" prob=".25"/>
+		<Wind min="5" max="10" prob="0.9"/>
+		<Wind min="10" max="50" prob="0.1"/>
 	</weather>
 </append>
 
