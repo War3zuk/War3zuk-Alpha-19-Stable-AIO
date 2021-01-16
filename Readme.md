@@ -1,5 +1,15 @@
 War3zuk-Alpha-19.3 B6 - AIO STABLE
 
+Updated v5.4 to v5.5
+
+Edited AirCon Sound / Distance (Multiples Will Still Be Loud)
+
+
+Launcher Edits:
+Added NukaSafe To Prefab (Nuka Recipe)
+Edited QualTemplate For Nuka Recipe
+Updated 0-CreaturePackAnimals Buffs
+
 Updated v5.3 to v5.4
 
 Edited Biome Weather ChunkMargin (ALL)
