@@ -3,6 +3,8 @@ War3zuk-Alpha-19.3 B6 - AIO STABLE
 Updated v5.4 to v5.5
 
 Edited AirCon Sound / Distance (Multiples Will Still Be Loud)
+Removed War3zukHDFoods (All Places Except Ovens / Microwave)
+Re-Balanced All Loot Tables (Slower Gameplay)
 
 
 Launcher Edits:
