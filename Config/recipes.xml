@@ -349,18 +349,6 @@
 	<ingredient name="resourcePaper" count="50"/>
 </recipe>
 	
-<recipe name="Shaved Ice" count="1" craft_time="0.5">
-	<ingredient name="resourceSnowBall" count="1"/>
-</recipe>
-
-<recipe name="Pikalyns Patbingsu" count="1" craft_time="30">
-	<ingredient name="drinkJarEmpty" count="1"/>
-	<ingredient name="foodCanPears" count="1"/>
-	<ingredient name="foodHoney" count="2"/>
-	<ingredient name="resourceCropSnowberryPlant" count="30"/>
-	<ingredient name="Shaved Ice" count="100"/>
-</recipe>
-	
 <recipe name="HDKillingFloorZombie" count="1" craft_time="30">
 	<ingredient name="resourceScrapPolymers" count="500"/>
 </recipe>
@@ -995,6 +983,18 @@
 <recipe name="Takayans Sashimi" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
 	<ingredient name="foodCanSalmon" count="1"/>
 	<ingredient name="foodCanStock" count="1"/>
+</recipe>
+
+<recipe name="Shaved Ice" count="1" craft_time="0.5">
+	<ingredient name="resourceSnowBall" count="1"/>
+</recipe>
+
+<recipe name="Pikalyns Patbingsu" count="1" craft_time="30">
+	<ingredient name="drinkJarEmpty" count="1"/>
+	<ingredient name="foodCanPears" count="1"/>
+	<ingredient name="foodHoney" count="2"/>
+	<ingredient name="resourceCropSnowberryPlant" count="30"/>
+	<ingredient name="Shaved Ice" count="100"/>
 </recipe>
 
 <recipe name="Aaron Rockst4r" count="1" craft_time = "10">
