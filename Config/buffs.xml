@@ -5,6 +5,22 @@
 	
 <append xpath="/buffs">
 	
+	<buff name="buffBandolierChest" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<effect_group>
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0"/>
+		</effect_group>
+	</buff>
+	<buff name="buffBandolierLegs" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+		<effect_group>
+			<requirement name="NotHasBuff" buff="buffBandolierChest"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0"/>
+		</effect_group>
+	</buff>
+	
 	<buff name="HDNukeExp">
 		<damage_type value="disease"/>
 		<stack_type value="replace"/>

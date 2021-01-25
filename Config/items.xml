@@ -2698,9 +2698,9 @@
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="4"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.3"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".15"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="3.2" tags="revolver"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="3.2" tags="perkGunslinger"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="250,400" tier="1,6" tags="revolver"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="250,400" tier="1,6" tags="perkGunslinger"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -2783,9 +2783,9 @@
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="4"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.3"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".15"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="3.2" tags="revolver"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="3.2" tags="perkGunslinger"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="250,400" tier="1,6" tags="revolver"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="250,400" tier="1,6" tags="perkGunslinger"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
