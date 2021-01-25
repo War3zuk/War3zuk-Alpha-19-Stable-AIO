@@ -6,13 +6,15 @@ Edited AirCon Sound / Distance (Multiples Will Still Be Loud)
 Removed War3zukHDFoods (All Places Except Ovens / Microwave)
 Re-Balanced All Loot Tables (Slower Gameplay)
 Removed Reload Multiplier Bonus (HD Guns)
+Fixed Multiplier For HD Desert Eagle
+Fixed Multiplier For HD Desert Eagle Punisher
 
 
 Launcher Edits:
 Added NukaSafe To Prefab (Nuka Recipe)
 Edited QualTemplate For Nuka Recipe
 Updated 0-CreaturePackAnimals Buffs
-Updated CompoPack C47 Edited
+Updated CompoPack C47 Edited (Added Next Alpha)
 
 Updated v5.3 to v5.4
 
