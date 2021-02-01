@@ -8,13 +8,16 @@ Re-Balanced All Loot Tables (Slower Gameplay)
 Removed Reload Multiplier Bonus (HD Guns)
 Fixed Multiplier For HD Desert Eagle
 Fixed Multiplier For HD Desert Eagle Punisher
+Rebuilt HD Desert Eagle
+Rebuilt HD Desert Eagle Punisher
+Updated Localization Animals And Zombies
 
 
 Launcher Edits:
 Added NukaSafe To Prefab (Nuka Recipe)
 Edited QualTemplate For Nuka Recipe
 Updated 0-CreaturePackAnimals Buffs
-Updated CompoPack C47 Edited (Added Next Alpha)
+Updated CompoPack C47 Edited
 
 Updated v5.3 to v5.4
 

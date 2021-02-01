@@ -436,7 +436,7 @@
 	<item name="oldCash" count="1,40" prob="0.3"/>
 	<item group="medicine" prob="0.05"/>
 	<item name="resourceGunPowder" count="10,50"/>
-	<item group="War3zukHDCarePackages" count="1" prob="0.2"/>
+	<item group="War3zukHDCarePackages" count="1" prob="0.3"/>
 	<item group="War3zukHDMilitary" count="1" prob="0.2"/>
 	<item name="HDRuckSackUpgrade" count="1,2" prob="0.2"/>
 </lootcontainer>
@@ -488,7 +488,7 @@
 <lootcontainer id="51" count="1,3" size="6,4" sound_open="UseActions/open_pill_case" sound_close="UseActions/close_pill_case" loot_quality_template="qualPlus1Template">
 	<item group="medicine" count="1,2" prob="0.4"/>
 	<item name="resourceScrapPolymers" count="10,20" prob="0.2"/>
-	<item group="War3zukHDCarePackages" count="1" prob="0.1"/>
+	<item group="War3zukHDCarePackages" count="1" prob="0.2"/>
 	<item group="War3zukHDMedical" count="1" prob="0.1"/>
 </lootcontainer>
 </insertAfter>
