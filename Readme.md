@@ -11,6 +11,7 @@ Fixed Multiplier For HD Desert Eagle Punisher
 Rebuilt HD Desert Eagle
 Rebuilt HD Desert Eagle Punisher
 Updated Localization Animals And Zombies
+Added Primate's Run N Gun Juice
 
 
 Launcher Edits:

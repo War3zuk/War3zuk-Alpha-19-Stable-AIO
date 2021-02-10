@@ -1130,42 +1130,6 @@
 	</effect_group>
 </item>
 
-<item name="StormFall Monster Cola">
-	<property name="HoldType" value="3"/>
-	<property name="Extends" value="drinkJarRedTea"/>
-	<property name="DisplayType" value="waterMegaCrush"/>
-	<property name="EconomicValue" value="240"/>
-	<property name="DescriptionKey" value="StormFallMonsterColaDesc"/>
-	<property name="Meshfile" value="#@modfolder:Resources/StormFall Monster Cola.unity3d?StormFall Monster Cola.prefab"/>
-	<property name="DropMeshfile" value="#@modfolder:Resources/StormFall Monster Cola.unity3d?StormFall Monster Cola.prefab"/>
-	<property name="Material" value="Mglass"/>
-	<property name="CustomIcon" value="StormFall Monster Cola"/>
-	<property name="Stacknumber" value="25000"/> 
-	<property name="EconomicValue" value="80"/>
-	<property class="Action0">
-		<property name="Class" value="Eat"/>
-		<property name="Delay" value="1.0"/>
-		<property name="Use_time" value="..."/>
-		<property name="Sound_start" value="player_drinking"/>
-		<property name="Create_item" value="drinkJarEmpty"/>
-	</property>
-	<effect_group tiered="false">
-		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="60"/>
-			<display_value name="dStaminaRegen" value=".35"/>
-			<display_value name="dRunSpeed" value=".6"/>
-			<display_value name="dDuration" value="183"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="add" value="183"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="363">
-				<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="363"/></triggered_effect>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
-	</effect_group>
-	<effect_group tiered="false">
-		<requirement name="HasBuff" buff="buffIsOnFire"/>
-			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
-	</effect_group>
-</item>
-	
 <item name="HDammoBundle9mmBulletBall">
 	<property name="CustomIcon" value="ammo9mmBulletBall"/>
 	<property name="ItemTypeIcon" value="bundle"/>
@@ -8681,6 +8645,73 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="35"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="35"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="25"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+	</effect_group>
+</item>
+
+<item name="StormFall Monster Cola">
+	<property name="HoldType" value="3"/>
+	<property name="Extends" value="drinkJarRedTea"/>
+	<property name="DisplayType" value="waterMegaCrush"/>
+	<property name="EconomicValue" value="240"/>
+	<property name="DescriptionKey" value="StormFallMonsterColaDesc"/>
+	<property name="Meshfile" value="#@modfolder:Resources/StormFall Monster Cola.unity3d?StormFall Monster Cola.prefab"/>
+	<property name="DropMeshfile" value="#@modfolder:Resources/StormFall Monster Cola.unity3d?StormFall Monster Cola.prefab"/>
+	<property name="Material" value="Mglass"/>
+	<property name="CustomIcon" value="StormFall Monster Cola"/>
+	<property name="Stacknumber" value="25000"/> 
+	<property name="EconomicValue" value="80"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+		<property name="Create_item" value="drinkJarEmpty"/>
+	</property>
+	<effect_group tiered="false">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="60"/>
+			<display_value name="dStaminaRegen" value=".35"/>
+			<display_value name="dRunSpeed" value=".6"/>
+			<display_value name="dDuration" value="183"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="add" value="183"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffMegaCrushDuration" operation="set" value="363">
+				<requirement name="CVarCompare" cvar="$buffMegaCrushDuration" operation="GT" value="363"/></triggered_effect>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables,buffMegaCrush"/>
+	</effect_group>
+	<effect_group tiered="false">
+		<requirement name="HasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+	</effect_group>
+</item>
+
+<item name="Primates Run N Gun Juice">
+	<property name="HoldType" value="3"/>
+	<property name="Extends" value="drinkJarRedTea"/>
+	<property name="DisplayType" value="drugSkullCrushers"/>
+	<property name="EconomicValue" value="240"/>
+	<property name="DescriptionKey" value="PrimatesJuiceDesc"/>
+	<property name="Meshfile" value="#Other/Items?Food/emptyJarPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Mglass"/>
+	<property name="CustomIcon" value="Primates Run N Gun Juice"/>
+	<property name="Stacknumber" value="25000"/> 
+	<property name="EconomicValue" value="160"/>
+	<property class="Action0">
+		<property name="Class" value="Eat"/>
+		<property name="Delay" value="1.0"/>
+		<property name="Use_time" value="..."/>
+		<property name="Sound_start" value="player_drinking"/>
+	</property>
+	<effect_group tiered="false" name="Candy Tier 1">
+		<display_value name="dEntityDamage" value="1"/>
+		<display_value name="dDuration" value="60"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSkullCrushersDuration" operation="add" value="61"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSkullCrushersDuration" operation="set" value="61">
+			<requirement name="CVarCompare" cvar="$buffDrugSkullCrushersDuration" operation="GT" value="61"/></triggered_effect>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugSkullCrushers"/>
+
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
 	</effect_group>
 </item>

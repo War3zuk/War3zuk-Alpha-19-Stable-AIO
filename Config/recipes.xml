@@ -553,12 +553,6 @@
 	<ingredient name="resourceCropHopsFlower" count="20"/>
 	<ingredient name="resourcePaper" count="50"/>
 </recipe>
-	
-<recipe name="StormFall Monster Cola" count="1" craft_time = "10">
-	<ingredient name="drugPainkillers" count="1"/>
-	<ingredient name="drugSteroids" count="1"/>
-	<ingredient name="drinkJarBeer" count="4"/>
-</recipe>
 
 <recipe name="HDammoBundle45ACPRound" count="1" craft_time = "200" craft_area="HD AmmoBench" craft_tool="HDBulletPress" tags="workbenchCrafting">
 	<ingredient name="resourceBulletTip" count="80"/>
@@ -995,6 +989,19 @@
 	<ingredient name="foodHoney" count="2"/>
 	<ingredient name="resourceCropSnowberryPlant" count="30"/>
 	<ingredient name="Shaved Ice" count="100"/>
+</recipe>
+
+<recipe name="StormFall Monster Cola" count="1" craft_time = "10">
+	<ingredient name="drugPainkillers" count="1"/>
+	<ingredient name="drugSteroids" count="1"/>
+	<ingredient name="drinkJarBeer" count="4"/>
+</recipe>
+
+<recipe name="Primates Run N Gun Juice" count="1" craft_time = "10">
+	<ingredient name="foodHoney" count="2"/>
+	<ingredient name="drugSteroids" count="1"/>
+	<ingredient name="foodEgg" count="4"/>
+	<ingredient name="drinkJarBeer" count="2"/>
 </recipe>
 
 <recipe name="Aaron Rockst4r" count="1" craft_time = "10">
