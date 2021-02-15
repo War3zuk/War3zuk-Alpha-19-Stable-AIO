@@ -8706,9 +8706,12 @@
 	<effect_group tiered="false" name="Candy Tier 1">
 		<display_value name="dEntityDamage" value="1"/>
 		<display_value name="dDuration" value="60"/>
+		
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSkullCrushersDuration" operation="add" value="61"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDrugSkullCrushersDuration" operation="set" value="61">
+			
 			<requirement name="CVarCompare" cvar="$buffDrugSkullCrushersDuration" operation="GT" value="61"/></triggered_effect>
+			
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrugSkullCrushers"/>
 
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="1"/>

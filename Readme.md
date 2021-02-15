@@ -19,6 +19,9 @@ Added NukaSafe To Prefab (Nuka Recipe)
 Edited QualTemplate For Nuka Recipe
 Updated 0-CreaturePackAnimals Buffs
 Updated CompoPack C47 Edited
+Balanced Snow Zombies
+Balanced Wateland Zombies
+Balanced Forrest Zombies
 
 Updated v5.3 to v5.4
 

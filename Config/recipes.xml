@@ -2742,6 +2742,66 @@
 	<ingredient name="resourceBrokenGlass" count="25"/>
 </recipe>
 
+<recipe name="HD ZTPH 001" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 002" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 003" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 004" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 005" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 006" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 007" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 008" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 009" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="HD ZTPH 010" count="1" craft_area="HD PicsBench" craft_time = "10">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceNail" count="4"/>
+	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
 <recipe name="HD ZTPH 011" count="1" craft_area="HD PicsBench" craft_time = "10">
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceNail" count="4"/>
