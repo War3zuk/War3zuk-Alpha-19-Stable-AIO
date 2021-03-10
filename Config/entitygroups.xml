@@ -149,13 +149,13 @@
 		<entity name="zombieDarleneFeral" />
 		<entity name="zombieMarleneFeral" />
 		<entity name="zombieFatHawaiianFeral" />
-		<entity name="zombiePhantasm" prob=".50"/>
-		<entity name="zombiePhantasmFire" prob=".50"/>
-		<entity name="zombiePhantasmRAD" prob=".50"/>
-		<entity name="GiantDemolisher" prob=".50"/>
-		<entity name="zombieDemolition" prob=".50"/>
-		<entity name="GiantDemolisherFire" prob=".50"/>
-		<entity name="GiantDemolisherRad" prob=".50"/>
+		<entity name="zombiePhantasm" prob=".40"/>
+		<entity name="zombiePhantasmFire" prob=".40"/>
+		<entity name="zombiePhantasmRAD" prob=".40"/>
+		<entity name="GiantDemolisher" prob=".20"/>
+		<entity name="zombieDemolition" prob=".20"/>
+		<entity name="GiantDemolisherFire" prob=".20"/>
+		<entity name="GiantDemolisherRad" prob=".20"/>
 </insertAfter>
 
 <insertAfter xpath="/entitygroups/entitygroup[@name='ZombiesNight']/entity[@name='zombieSpider']" >
@@ -201,19 +201,19 @@
 		<entity name="zombieSteveCrawler" />
 		<entity name="zombieFatHawaiian" />
 		<entity name="zombieFatHawaiianFeral" />
-		<entity name="GiantUndeadHound" prob=".50" />
-		<entity name="GiantUndeadHoundFire" prob=".50" />
-		<entity name="GiantUndeadHoundRad" prob=".50" />
-		<entity name="zombiePhantasm" prob=".50" />
-		<entity name="zombiePhantasmFire" prob=".50" />
-		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="GiantDemolisher" prob=".50" />
-		<entity name="zombieDemolition" prob=".50" />
-		<entity name="GiantDemolisherFire" prob=".50" />
-		<entity name="GiantDemolisherRad" prob=".50" />
-		<entity name="GiantUndeadVulture" prob=".50" />
-		<entity name="GiantUndeadVultureFire" prob=".50" />
-		<entity name="GiantUndeadVultureRad" prob=".50" />
+		<entity name="GiantUndeadHound" prob=".30" />
+		<entity name="GiantUndeadHoundFire" prob=".30" />
+		<entity name="GiantUndeadHoundRad" prob=".30" />
+		<entity name="zombiePhantasm" prob=".20" />
+		<entity name="zombiePhantasmFire" prob=".20" />
+		<entity name="zombiePhantasmRAD" prob=".20" />
+		<entity name="GiantDemolisher" prob=".10" />
+		<entity name="zombieDemolition" prob=".10" />
+		<entity name="GiantDemolisherFire" prob=".10" />
+		<entity name="GiantDemolisherRad" prob=".10" />
+		<entity name="GiantUndeadVulture" prob=".10" />
+		<entity name="GiantUndeadVultureFire" prob=".10" />
+		<entity name="GiantUndeadVultureRad" prob=".10" />
 </insertAfter>
 	
 <insertAfter xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/entity[@name='zombieBoe']" >
@@ -223,13 +223,11 @@
 		<entity name="GiantUndeadHound" prob="0.25" />
 		<entity name="GiantUndeadHoundFire" prob="0.25" />
 		<entity name="GiantUndeadHoundRad" prob="0.25" />
-		<entity name="GiantDemolisher" prob=".25" />
-		<entity name="zombieDemolition" prob=".25" />
-		<entity name="GiantDemolisherFire" prob=".25" />
-		<entity name="GiantDemolisherRad" prob=".25" />
-		<entity name="GiantUndeadVulture" prob=".25" />
-		<entity name="GiantUndeadVultureFire" prob=".25" />
-		<entity name="GiantUndeadVultureRad" prob=".25" />
+		<entity name="GiantDemolisherFire" prob=".20" />
+		<entity name="GiantDemolisherRad" prob=".20" />
+		<entity name="GiantUndeadVulture" prob=".20" />
+		<entity name="GiantUndeadVultureFire" prob=".20" />
+		<entity name="GiantUndeadVultureRad" prob=".20" />
 </insertAfter>
 	
 <insertAfter xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/entity[@name='zombieSteveFeral']" >
@@ -252,106 +250,102 @@
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="GiantDemolisher" prob=".25" />
-		<entity name="zombieDemolition" prob=".25" />
-		<entity name="GiantDemolisherFire" prob=".25" />
-		<entity name="GiantDemolisherRad" prob=".25" />
-		<entity name="GiantUndeadHound" prob="5" />
-		<entity name="GiantUndeadHoundFire" prob="5" />
-		<entity name="GiantUndeadHoundRad" prob="5" />
-		<entity name="GiantUndeadVulture" prob=".25" />
-		<entity name="GiantUndeadVultureFire" prob=".25" />
-		<entity name="GiantUndeadVultureRad" prob=".25" />
+		<entity name="GiantUndeadHound" prob=".50" />
+		<entity name="GiantUndeadHoundFire" prob=".50" />
+		<entity name="GiantUndeadHoundRad" prob=".50" />
+		<entity name="GiantUndeadVulture" prob=".20" />
+		<entity name="GiantUndeadVultureFire" prob=".20" />
+		<entity name="GiantUndeadVultureRad" prob=".20" />
 </insertAfter>
 	
 <insertAfter xpath="/entitygroups/entitygroup[@name='ZombieBadassGroup']/entity[@name='zombieBoeFeral']" >
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="zombieDemolition" prob=".50" />
-		<entity name="GiantDemolisherFire" prob=".50" />
-		<entity name="GiantDemolisherRad" prob=".50" />
+		<entity name="zombieDemolition" prob=".20" />
+		<entity name="GiantDemolisherFire" prob=".20" />
+		<entity name="GiantDemolisherRad" prob=".20" />
 </insertAfter>
 
 <insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'scoutHordeStageGS')]/entity[@name='zombieBoe']">
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="zombieDemolition" prob=".50" />
-		<entity name="GiantDemolisherFire" prob=".50" />
-		<entity name="GiantDemolisherRad" prob=".50" />
+		<entity name="zombieDemolition" prob=".20" />
+		<entity name="GiantDemolisherFire" prob=".20" />
+		<entity name="GiantDemolisherRad" prob=".20" />
 </insertAfter>
 	
 <insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'scoutHordeStageGS')]/entity[@name='zombieJoe']">
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="zombieDemolition" prob=".50" />
-		<entity name="GiantDemolisherFire" prob=".50" />
-		<entity name="GiantDemolisherRad" prob=".50" />
+		<entity name="zombieDemolition" prob=".20" />
+		<entity name="GiantDemolisherFire" prob=".20" />
+		<entity name="GiantDemolisherRad" prob=".20" />
 </insertAfter>
 	
 <insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'scoutHordeStageGS')]/entity[@name='zombieSteve']">
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="zombieDemolition" prob=".50" />
-		<entity name="GiantDemolisherFire" prob=".50" />
-		<entity name="GiantDemolisherRad" prob=".50" />
+		<entity name="zombieDemolition" prob=".20" />
+		<entity name="GiantDemolisherFire" prob=".20" />
+		<entity name="GiantDemolisherRad" prob=".20" />
 </insertAfter>	
 	
 <insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'wanderingHordeStageGS')]/entity[@name='zombieBoe']">
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="zombieDemolition" prob=".50" />
-		<entity name="GiantDemolisherFire" prob=".50" />
-		<entity name="GiantDemolisherRad" prob=".50" />
+		<entity name="zombieDemolition" prob=".20" />
+		<entity name="GiantDemolisherFire" prob=".20" />
+		<entity name="GiantDemolisherRad" prob=".20" />
 </insertAfter>
 	
 <insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'wanderingHordeStageGS')]/entity[@name='zombieJoe']">
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="zombieDemolition" prob=".50" />
-		<entity name="GiantDemolisherFire" prob=".50" />
-		<entity name="GiantDemolisherRad" prob=".50" />
+		<entity name="zombieDemolition" prob=".20" />
+		<entity name="GiantDemolisherFire" prob=".20" />
+		<entity name="GiantDemolisherRad" prob=".20" />
 </insertAfter>
 	
 <insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'wanderingHordeStageGS')]/entity[@name='zombieSteve']">
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="zombieDemolition" prob=".50" />
-		<entity name="GiantDemolisherFire" prob=".50" />
-		<entity name="GiantDemolisherRad" prob=".50" />
+		<entity name="zombieDemolition" prob=".20" />
+		<entity name="GiantDemolisherFire" prob=".20" />
+		<entity name="GiantDemolisherRad" prob=".20" />
 </insertAfter>	
 
 <insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'FwanderingHordeStageGS')]/entity[@name='zombieBoe']">
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="zombieDemolition" prob=".50" />
-		<entity name="GiantDemolisherFire" prob=".50" />
-		<entity name="GiantDemolisherRad" prob=".50" />
+		<entity name="zombieDemolition" prob=".20" />
+		<entity name="GiantDemolisherFire" prob=".20" />
+		<entity name="GiantDemolisherRad" prob=".20" />
 </insertAfter>
 	
 <insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'FwanderingHordeStageGS')]/entity[@name='zombieJoe']">
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="zombieDemolition" prob=".50" />
-		<entity name="GiantDemolisherFire" prob=".50" />
-		<entity name="GiantDemolisherRad" prob=".50" />
+		<entity name="zombieDemolition" prob=".20" />
+		<entity name="GiantDemolisherFire" prob=".20" />
+		<entity name="GiantDemolisherRad" prob=".20" />
 </insertAfter>
 	
 <insertAfter xpath="/entitygroups/entitygroup[ starts-with(@name, 'FwanderingHordeStageGS')]/entity[@name='zombieSteve']">
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
-		<entity name="zombieDemolition" prob=".50" />
-		<entity name="GiantDemolisherFire" prob=".50" />
-		<entity name="GiantDemolisherRad" prob=".50" />
+		<entity name="zombieDemolition" prob=".20" />
+		<entity name="GiantDemolisherFire" prob=".20" />
+		<entity name="GiantDemolisherRad" prob=".20" />
 </insertAfter>
 
 <append xpath="/entitygroups/entitygroup[@name='WolfGroup']">

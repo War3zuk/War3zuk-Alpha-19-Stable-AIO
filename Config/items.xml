@@ -36,7 +36,7 @@
 	<remove xpath="/items/item[@name='apparelNerdGlasses']"/>
 	<remove xpath="/items/item[@name='resourceIronFragmentBundle']"/>
 	
-	<set xpath="/items/item/effect_group/passive_effect[@name='ModSlots' and(@value='1,1,2,2,3,4')]/@value">1,2,3,4,5,6</set>
+	<!--  <set xpath="/items/item/effect_group/passive_effect[@name='ModSlots' and(@value='1,1,2,2,3,4')]/@value">1,2,3,4,5,6</set> -->
 	
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='SellableToTrader']/@value">true</set>
 	<set xpath="/items/item[@name='toolForgeCrucible']/property[@name='EconomicValue']/@value">8500</set>
@@ -10757,7 +10757,7 @@
 	</property>
 	<effect_group name="meleeHandZombieStripperFeral" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffBollockRot"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="BuffBollockRot"/>
 		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
 			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
 			weights=".11,.07,.07,.05,.29,.36,.11"/>
@@ -10778,7 +10778,7 @@
 	</property>
 	<effect_group name="meleeHandZombieHazMatFeral" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffBrainHerpes"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="BuffBrainHerpes"/>
 		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
 			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
 			weights=".11,.07,.07,.05,.29,.36,.11"/>
@@ -10797,7 +10797,7 @@
 	</property>
 	<effect_group name="meleeHandZombieFeral" tiered="false">
 		<passive_effect name="ModSlots" operation="base_set" value="0"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffMRSA"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="BuffMRSA"/>
 		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
 			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
 			weights=".11,.07,.07,.05,.29,.36,.11"/>
@@ -10877,7 +10877,7 @@
 		<passive_effect name="SpreadMultiplierIdle" operation="base_set" value="1"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="50"/>
 		<passive_effect name="MaxRange" operation="base_set" value="50"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value=".10" tags="BuffBirdFlu"/>
+		<passive_effect name="BuffProcChance" operation="base_set" value=".30" tags="BuffBirdFlu"/>
 		<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" fireOneBuff="true"
 			buff="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffLaceration,buffAbrasionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo"
 			weights=".11,.07,.07,.05,.29,.36,.11"/>

@@ -89,17 +89,17 @@ HDWar3zukBuggyDesc,items,weapons,New,War3zuk Buggy For When You Want Too Drive I
 HDWar3zukBuggyChassisDesc,items,weapons,New,Chassis For The War3zuk Dune Buggy.,
 HDWar3zukBuggyAccessoriesDesc,items,weapons,New,Accessories For The War3zuk Dune Buggy.,
 
-HDGunBenchDesc,blocks,,,HD GunBench allows you to Craft All Weapon Items. Addons are as follows..\n\nHD Cnc Hand Guns . HD Cnc Automatics . HD Welder,
+HDGunBenchDesc,blocks,,,HD GunBench allows you to Craft All Weapon Items. Addons are as follows..\n\nHD Cnc Hand Guns . HD Cnc Automatics . HD Rifles,
 
 HDIceMachineE,items,Block,KgNone,HD Ice Machine,
 HDIceMachineF,items,Block,KgNone,HD Ice Machine,
 HDIceMachineEDesc,items,weapons,New,Turns the surrounding  moist air into Snowballs And Shaved Ice over time.,
 
-HDWorkBenchDesc,blocks,,,HD WorkBench allows you to Craft All Weapon Items. Addons are as follows..\n\nHD Tool And Die Set . HD Carbon Sewing Kit . HD Cnc Rifles,
+HDWorkBenchDesc,blocks,,,HD WorkBench allows you to Craft All Tool Items. Addons are as follows..\n\nHD Tool And Die Set . HD Carbon Sewing Kit . HD Welder,
 
-HDAmmoBenchDesc,blocks,,,HD AmmoBench allows you to Craft All Weapon Items. Addons are as follows..\n\nHD Bullet Tumbler . HD Bullet Press . HD Grinder,
+HDAmmoBenchDesc,blocks,,,HD AmmoBench allows you to Craft All Bullet Items. Addons are as follows..\n\nHD Bullet Tumbler . HD Bullet Press . HD Grinder,
 
-HDPicsBenchDesc,blocks,,,Build All XXX Picture Frames And Parts In Here.
+HDPicsBenchDesc,blocks,,,Build All XXX Picture Frames And Parts In Here As well as Schematics And Dyes.
 
 RyuSen101sRamenDesc,items,weapons,New,Ramen Noodles. For killing zombies On The Run.,
 

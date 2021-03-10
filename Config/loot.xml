@@ -53,142 +53,142 @@
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupBirdNestMain']">
 
 <lootgroup name="War3zukHDWeaponParts">
-		<item name="HD Vulcan 9mm Barrel Schematic" count="1" prob=".5"/>
-		<item name="HD Vulcan 9mm Parts Schematic" count="1" prob=".5"/>
-		<item name="HD Vulcan 9mm Motor Schematic" count="1" prob=".5"/>
-		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1" prob=".5"/>
-		<item name="HD Vulcan 7.62mm Parts Schematic" count="1" prob=".5"/>
-		<item name="HD Vulcan 7.62mm Motor Schematic" count="1" prob=".5"/>
-		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1" prob=".5"/>
-		<item name="HD Vulcan 50Bmg Parts Schematic" count="1" prob=".5"/>
-		<item name="HD Vulcan 50Bmg Motor Schematic" count="1" prob=".5"/>
+		<item name="HD Vulcan 9mm Barrel Schematic" count="1"/>
+		<item name="HD Vulcan 9mm Parts Schematic" count="1"/>
+		<item name="HD Vulcan 9mm Motor Schematic" count="1"/>
+		<item name="HD Vulcan 7.62mm Barrel Schematic" count="1"/>
+		<item name="HD Vulcan 7.62mm Parts Schematic" count="1"/>
+		<item name="HD Vulcan 7.62mm Motor Schematic" count="1"/>
+		<item name="HD Vulcan 50Bmg Barrel Schematic" count="1"/>
+		<item name="HD Vulcan 50Bmg Parts Schematic" count="1"/>
+		<item name="HD Vulcan 50Bmg Motor Schematic" count="1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDWeapons">
-		<item name="HD Mods Schematic" count="1" prob=".5"/>
-		<item name="HD Desert Eagle Schematic" count="1" prob=".5"/>
-		<item name="HD Mac10 Auto Schematic" count="1" prob=".5"/>
-		<item name="HD M3 Auto Schematic" count="1" prob=".5"/>
-		<item name="HD AK Hybrid ACP Schematic" count="1" prob=".5"/>
-		<item name="HD HK33 Hybrid Schematic" count="1" prob=".5"/>		
-		<item name="HD M4A1 Carbine Schematic" count="1" prob=".5"/>
-		<item name="HD Tactical AR Schematic" count="1" prob=".5"/>
-		<item name="HD Spas 12 Schematic" count="1" prob=".5"/>
-		<item name="HD Mossberg 500 Schematic" count="1" prob=".5"/>
-		<item name="HD Double Barrel Schematic" count="1" prob=".5"/>
-		<item name="HD Winchester 1866 Schematic" count="1" prob=".5"/>
-		<item name="HD Royal Enfield Schematic" count="1" prob=".5"/>
-		<item name="HD M1 Garand Schematic" count="1" prob=".5"/>
-		<item name="HD Karabiner 98k Schematic" count="1" prob=".5"/>
-		<item name="HD Dragunov SVD Schematic" count="1" prob=".5"/>
-		<item name="HD CheyTac M300 Schematic" count="1" prob=".5"/>
-		<item name="HD Arctic Warfare Schematic" count="1" prob=".5"/>
-		<item name="HD Flame Thrower Schematic" count="1" prob=".5"/>
-		<item name="HD Rocket Launcher Schematic" count="1" prob=".5"/>
-		<item name="HD BR1NXlS Booper Schematic" count="1" prob=".5"/>
+		<item name="HD Mods Schematic" count="1"/>
+		<item name="HD Desert Eagle Schematic" count="1"/>
+		<item name="HD Mac10 Auto Schematic" count="1"/>
+		<item name="HD M3 Auto Schematic" count="1"/>
+		<item name="HD AK Hybrid ACP Schematic" count="1"/>
+		<item name="HD HK33 Hybrid Schematic" count="1"/>		
+		<item name="HD M4A1 Carbine Schematic" count="1"/>
+		<item name="HD Tactical AR Schematic" count="1"/>
+		<item name="HD Spas 12 Schematic" count="1"/>
+		<item name="HD Mossberg 500 Schematic" count="1"/>
+		<item name="HD Double Barrel Schematic" count="1"/>
+		<item name="HD Winchester 1866 Schematic" count="1"/>
+		<item name="HD Royal Enfield Schematic" count="1"/>
+		<item name="HD M1 Garand Schematic" count="1"/>
+		<item name="HD Karabiner 98k Schematic" count="1"/>
+		<item name="HD Dragunov SVD Schematic" count="1"/>
+		<item name="HD CheyTac M300 Schematic" count="1"/>
+		<item name="HD Arctic Warfare Schematic" count="1"/>
+		<item name="HD Flame Thrower Schematic" count="1"/>
+		<item name="HD Rocket Launcher Schematic" count="1"/>
+		<item name="HD BR1NXlS Booper Schematic" count="1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenches">
-		<item name="HD GunBench Schematic" count="1" prob=".8"/>
-		<item name="HD WorkBench Schematic" count="1" prob=".8"/>
-		<item name="HD AmmoBench Schematic" count="1" prob=".8"/>
-		<item name="HD PicsBench Schematic" count="1" prob=".8"/>
+		<item name="HD GunBench Schematic" count="1"/>
+		<item name="HD WorkBench Schematic" count="1"/>
+		<item name="HD AmmoBench Schematic" count="1"/>
+		<item name="HD PicsBench Schematic" count="1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDBenchAddons">
-		<item name="HD Tool And Die Set Schematic" count="1" prob=".6"/>
-		<item name="HD Carbon Sewing Kit Schematic" count="1" prob=".6"/>
-		<item name="HD Grinder Schematic" count="1" prob=".6"/>
-		<item name="HD Bullet Tumbler Schematic" count="1" prob=".6"/>
-		<item name="HD Bullet Press Schematic" count="1" prob=".6"/>
-		<item name="HD Welder Schematic" count="1" prob=".6"/>
-		<item name="HD Cnc HandGuns Schematic" count="1" prob=".6"/>
-		<item name="HD Cnc Automatics Schematic" count="1" prob=".6"/>
-		<item name="HD Cnc Rifles Schematic" count="1" prob=".6"/>
+		<item name="HD Tool And Die Set Schematic" count="1"/>
+		<item name="HD Carbon Sewing Kit Schematic" count="1"/>
+		<item name="HD Grinder Schematic" count="1"/>
+		<item name="HD Bullet Tumbler Schematic" count="1"/>
+		<item name="HD Bullet Press Schematic" count="1"/>
+		<item name="HD Welder Schematic" count="1"/>
+		<item name="HD Cnc HandGuns Schematic" count="1"/>
+		<item name="HD Cnc Automatics Schematic" count="1"/>
+		<item name="HD Cnc Rifles Schematic" count="1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDTools">
-		<item name="HD Forge Schematic" count="1" prob=".4"/>
-		<item name="HD Cement Mixer Schematic" count="1" prob=".4"/>
-		<item name="HD Generator Schematic" count="1" prob=".4"/>
-		<item name="HD Gas Generator Schematic" count="1" prob=".4"/>
-		<item name="HDPumpJackE Schematic" count="1" prob=".4"/>
-		<item name="HD Junk Turret Schematic" count="1" prob=".4"/>
-		<item name="HD Wrench Schematic" count="1" prob=".4"/>
-		<item name="HD Auger Schematic" count="1" prob=".4"/>
-		<item name="HD Chainsaw Schematic" count="1" prob=".4"/>
-		<item name="HD Impact Wrench Schematic" count="1" prob=".4"/>
+		<item name="HD Forge Schematic" count="1"/>
+		<item name="HD Cement Mixer Schematic" count="1"/>
+		<item name="HD Generator Schematic" count="1"/>
+		<item name="HD Gas Generator Schematic" count="1"/>
+		<item name="HDPumpJackE Schematic" count="1"/>
+		<item name="HD Junk Turret Schematic" count="1"/>
+		<item name="HD Wrench Schematic" count="1"/>
+		<item name="HD Auger Schematic" count="1"/>
+		<item name="HD Chainsaw Schematic" count="1"/>
+		<item name="HD Impact Wrench Schematic" count="1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDAmmo">
-		<item name="Ammo Supply Shredder" count="1,2" prob=".6"/>
-		<item name="Ammo Supply 9mm" count="1,2" prob=".5"/>
-		<item name="Ammo Supply 44Mag" count="1,2" prob=".5"/>
-		<item name="Ammo Supply 45 ACP" count="1,2" prob=".5"/>
-		<item name="Ammo Supply DE50" count="1,2" prob=".3"/>
-		<item name="Ammo Supply 500 Auto Max" count="1,2" prob=".3"/>
-		<item name="Ammo Supply 762mm" count="1,2" prob=".3"/>
-		<item name="Ammo Supply Shotgun" count="1,2" prob=".2"/>
-		<item name="Ammo Supply ShotgunSlug" count="1,2" prob=".2"/>
-		<item name="Ammo Supply Breach Slug" count="1,2" prob=".1"/>
-		<item name="Ammo Supply 408 Round" count="1,2" prob=".1"/>
-		<item name="Ammo Supply 50 BMG Round" count="1,2" prob=".1"/>
+		<item name="Ammo Supply Shredder" count="1,2"/>
+		<item name="Ammo Supply 9mm" count="1,2"/>
+		<item name="Ammo Supply 44Mag" count="1,2"/>
+		<item name="Ammo Supply 45 ACP" count="1,2"/>
+		<item name="Ammo Supply DE50" count="1,2"/>
+		<item name="Ammo Supply 500 Auto Max" count="1,2"/>
+		<item name="Ammo Supply 762mm" count="1,2"/>
+		<item name="Ammo Supply Shotgun" count="1,2"/>
+		<item name="Ammo Supply ShotgunSlug" count="1,2"/>
+		<item name="Ammo Supply Breach Slug" count="1,2"/>
+		<item name="Ammo Supply 408 Round" count="1,2"/>
+		<item name="Ammo Supply 50 BMG Round" count="1,2"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMilitary">
-		<item name="HD Military Gloves Schematic" count="1" prob=".6"/>
-		<item name="HD Military Boots Schematic" count="1" prob=".6"/>
-		<item name="HD Military Legs Schematic" count="1" prob=".6"/>
-		<item name="HD Military Vest Schematic" count="1" prob=".6"/>
-		<item name="HD Military Helmet Schematic" count="1" prob=".6"/>
-		<item name="MREMilitaryRation" count="1,2" prob=".01"/>
-		<item name="Military Purify Tablets" count="2,4" prob=".01"/>
-		<item name="HDArmorReinforcedPadding" count="1" prob=".2"/>
-		<item name="HDArmorPlasticPlating" count="1" prob=".2"/>
-		<item name="HDArmorMilitaryPlating" count="1" prob=".2"/>
-		<item name="HDArmorScrapPlating" count="1" prob=".2"/>
-		<item name="HDArmorIronPlating" count="1" prob=".2"/>
-		<item name="HDArmorSteelPlating" count="1" prob=".2"/>
-		<item name="HD Hazmat Fiber Schematic" count="1" prob=".9"/>
+		<item name="HD Military Gloves Schematic" count="1"/>
+		<item name="HD Military Boots Schematic" count="1"/>
+		<item name="HD Military Legs Schematic" count="1"/>
+		<item name="HD Military Vest Schematic" count="1"/>
+		<item name="HD Military Helmet Schematic" count="1"/>
+		<item name="MREMilitaryRation" count="1,2" prob=".2"/>
+		<item name="Military Purify Tablets" count="2,4"/>
+		<item name="HDArmorReinforcedPadding" count="1"/>
+		<item name="HDArmorPlasticPlating" count="1"/>
+		<item name="HDArmorMilitaryPlating" count="1"/>
+		<item name="HDArmorScrapPlating" count="1"/>
+		<item name="HDArmorIronPlating" count="1"/>
+		<item name="HDArmorSteelPlating" count="1"/>
+		<item name="HD Hazmat Fiber Schematic" count="1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDMedical">
-		<item name="HD First Aid Kit Schematic" count="1" prob=".1"/>
+		<item name="HD First Aid Kit Schematic" count="1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFlares">
-		<item name="Food Supply Flare" count="1" prob=".5"/>
-		<item name="Ammo Supply Flare" count="1" prob=".5"/>
-		<item name="Building Supply Flare" count="1" prob=".5"/>
-		<item name="Health Supply Flare" count="1" prob=".5"/>
+		<item name="Food Supply Flare" count="1"/>
+		<item name="Ammo Supply Flare" count="1"/>
+		<item name="Building Supply Flare" count="1"/>
+		<item name="Health Supply Flare" count="1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDCarePackages">
-		<item name="HD Food Care Package" count="1" prob=".5"/>
-		<item name="HD Ammo Care Package" count="1" prob=".5"/>
-		<item name="HD Resource Care Package" count="1" prob=".5"/>
-		<item name="HD Medicine Care Package" count="1" prob=".5"/>
+		<item name="HD Food Care Package" count="1"/>
+		<item name="HD Ammo Care Package" count="1"/>
+		<item name="HD Resource Care Package" count="1"/>
+		<item name="HD Medicine Care Package" count="1"/>
 </lootgroup>
 
 <lootgroup name="War3zukHDFoods">
-		<item name="HDBowl" count="1" prob="0.50"/>
-		<item name="Warm Chunky Honey" count="1" prob=".2"/>
-		<item name="Warm Chunky Beef" count="1" prob=".2"/>
-		<item name="Warm Chunky Chicken" count="1" prob=".2"/>
-		<item name="Warm Chunky Lamb" count="1" prob=".2"/>
-		<item name="Warm Chunky Surprise" count="1" prob=".2"/>
-		<item name="Warm Chunky Chili" count="1" prob=".2"/>
-		<item name="Warm Chunky Pasta" count="1" prob=".2"/>
-		<item name="Warm Chunky Salmon" count="1" prob=".2"/>
-		<item name="Warm Chunky Sirloin" count="1" prob=".2"/>
-		<item name="Warm Chunky Vegetable Stew" count="1" prob=".2"/>
-		<item name="Warm Chunky Meat Stew" count="1" prob=".2"/>
-		<item name="Warm Chunky Sham Chowder" count="1" prob=".2"/>
-		<item name="Warm Chunky Hobo Stew" count="1" prob=".2"/>
-		<item name="Warm Chunky Steak And Potato" count="1" prob=".2"/>
-		<item name="Warm Chunky ChiliDog" count="1" prob=".2"/>
-		<item name="Warm Chunky Fish Taco" count="1" prob=".2"/>
-		<item name="Warm Chunky Meat And Mash" count="1" prob=".2"/>
+		<item name="HDBowl" count="1"/>
+		<item name="Warm Chunky Honey" count="1"/>
+		<item name="Warm Chunky Beef" count="1"/>
+		<item name="Warm Chunky Chicken" count="1"/>
+		<item name="Warm Chunky Lamb" count="1"/>
+		<item name="Warm Chunky Surprise" count="1"/>
+		<item name="Warm Chunky Chili" count="1"/>
+		<item name="Warm Chunky Pasta" count="1"/>
+		<item name="Warm Chunky Salmon" count="1"/>
+		<item name="Warm Chunky Sirloin" count="1"/>
+		<item name="Warm Chunky Vegetable Stew" count="1"/>
+		<item name="Warm Chunky Meat Stew" count="1"/>
+		<item name="Warm Chunky Sham Chowder" count="1"/>
+		<item name="Warm Chunky Hobo Stew" count="1"/>
+		<item name="Warm Chunky Steak And Potato" count="1"/>
+		<item name="Warm Chunky ChiliDog" count="1"/>
+		<item name="Warm Chunky Fish Taco" count="1"/>
+		<item name="Warm Chunky Meat And Mash" count="1"/>
 </lootgroup>
 
 <lootgroup name="HDgroupQuestAmmo">
@@ -308,12 +308,12 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='5']" >
 <!-- wallSafe / deskSafe -->
 <lootcontainer id="6" count="2,4" size="6,4" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
-	<item group="War3zukHDMilitary" prob="0.1"/>
-	<item group="War3zukHDAmmo" prob="0.1"/>
-	<item group="War3zukHDWeapons" prob="0.1"/>
-	<item group="War3zukHDWeaponParts" prob="0.1"/>
+	<item group="War3zukHDMilitary" prob=".1"/>
+	<item group="War3zukHDAmmo" prob=".1"/>
+	<item group="War3zukHDWeapons" prob=".1"/>
+	<item group="War3zukHDWeaponParts" prob=".1"/>
 	<item group="groupSafeLoot"/>
-	<item name="HD Blunderbuss" count="1" prob="0.2"/>
+	<item name="HD Blunderbuss" count="1" prob=".1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -321,12 +321,12 @@
 	<!-- gun safe -->
 <lootcontainer id="7" count="2,6" size="8,8" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time="1" loot_quality_template="qualPlus1Template">
 	<item group="groupSafeLoot"/>
-	<item group="War3zukHDFlares" prob="0.1"/>
-	<item group="War3zukHDMilitary" prob="0.1"/>
-	<item group="War3zukHDAmmo" prob="0.1"/>
-	<item group="War3zukHDWeapons" prob="0.1"/>
-	<item group="War3zukHDWeaponParts" prob="0.1"/>
-	<item name="HD Blunderbuss" count="1" prob="0.2"/>
+	<item group="War3zukHDFlares" prob=".1"/>
+	<item group="War3zukHDMilitary" prob=".1"/>
+	<item group="War3zukHDAmmo" prob=".1"/>
+	<item group="War3zukHDWeapons" prob=".1"/>
+	<item group="War3zukHDWeaponParts" prob=".1"/>
+	<item name="HD Blunderbuss" count="1" prob=".1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -340,7 +340,7 @@
 	<item name="drinkJarEmpty" count="1,2"/>
 	<item name="drinkCanEmpty" count="1,2"/>
 	<item name="resourceCoal" count="4,12" prob="0.5"/>
-	<item group="War3zukHDFoods"/>
+	<item group="War3zukHDFoods" count="1" prob="0.1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -352,14 +352,14 @@
 	<item group="booksAllScaled" prob="0.1"/>
 	<item group="dyes" prob="0.2"/>
 	<item group="War3zukHDFlares" prob="0.1"/>
-	<item group="War3zukHDAmmo" prob="0.1"/>
+	<item group="War3zukHDAmmo" prob=".5"/>
 </lootcontainer>
 </insertAfter>
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='20']" >
 <!-- microwave oven loot -->
 <lootcontainer id="21" count="2,3" size="6,4" sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler" loot_quality_template="qualPlus1Template">
-	<item group="War3zukHDFoods" prob="0.1"/>
+	<item group="War3zukHDFoods" count="1" prob="0.1"/>
 	<item group="rottenFood"/>
 </lootcontainer>
 </insertAfter>
@@ -370,7 +370,7 @@
 	<item name="resourceFeather" count="2,8" prob="1"/>
 	<item name="foodEgg" count="1,3" prob="1"/>
 	<item name="resourceCloth" count="2,6" prob="1"/>
-	<item name="ammo9mmBulletBall" count="2,8" prob="0.5"/>
+	<item name="ammo9mmBulletBall" count="2,8" prob="0.2"/>
 	<item name="BabyChick" count="1,3" prob="1"/>
 </lootcontainer>
 </insertAfter>
@@ -380,7 +380,7 @@
 <lootcontainer id="35" count="2,3" size="6,2" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" loot_quality_template="qualPlus1Template">
 	<item group="sportingGoods" count="1" prob="0.1"/>
 	<item name="foodHoney" count="1" prob="0.1"/>
-	<item name="ammo9mmBulletBall" count="5,10" prob="0.5"/>
+	<item name="ammo9mmBulletBall" count="5,10" prob="0.2"/>
 	<item name="BabyChick" count="2,4" prob="1"/>
 </lootcontainer>
 </insertAfter>
@@ -389,19 +389,19 @@
 <!-- military munitions ammo box -->
 <lootcontainer id="40" count="2,3" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="8" loot_quality_template="qualPlus1Template">
 	<item group="groupAmmoRegular" prob=".7" count="2"/>
-	<item group="groupWeaponsAllScaled" prob=".3"/>
+	<item group="groupWeaponsAllScaled" prob=".5"/>
 	<item group="groupModAllScaled" prob=".15"/>
 	<item group="groupAmmoAdvanced"/>
 	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
 	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
 	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
 	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
-	<item group="War3zukHDFlares" prob="0.1"/>
-	<item group="War3zukHDMilitary" prob="0.1"/>
-	<item group="War3zukHDAmmo" prob="0.1"/>
-	<item group="War3zukHDWeapons" prob="0.1"/>
-	<item group="War3zukHDWeaponParts" prob="0.1"/>
-	<item name="HD Blunderbuss" count="1" prob="0.2"/>
+	<item group="War3zukHDFlares" prob=".2"/>
+	<item group="War3zukHDMilitary" prob=".1"/>
+	<item group="War3zukHDAmmo" prob=".1"/>
+	<item group="War3zukHDWeapons" prob=".1"/>
+	<item group="War3zukHDWeaponParts" prob=".1"/>
+	<item name="HD Blunderbuss" count="1" prob="0.1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -415,7 +415,7 @@
 	<item group="medicine"/>
 	<item name="meleeToolFlashlight02"/>
 	<item name="apparelCigar" prob=".5"/>
-	<item name="oldCash" count="1,20" prob="0.6"/>
+	<item name="oldCash" count="1,20" prob="0.5"/>
 	<item name="resourceSewingKit"/>
 	<item group="War3zukHDFlares"/>
 </lootcontainer>
@@ -436,9 +436,9 @@
 	<item name="oldCash" count="1,40" prob="0.3"/>
 	<item group="medicine" prob="0.05"/>
 	<item name="resourceGunPowder" count="10,50"/>
-	<item group="War3zukHDCarePackages" count="1" prob="0.3"/>
-	<item group="War3zukHDMilitary" count="1" prob="0.2"/>
-	<item name="HDRuckSackUpgrade" count="1,2" prob="0.2"/>
+	<item group="War3zukHDCarePackages" count="1" prob="0.1"/>
+	<item group="War3zukHDMilitary" count="1" prob=".1"/>
+	<item name="HDRuckSackUpgrade" count="1" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 
@@ -455,13 +455,13 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='48']" >
 <!-- bookcase -->
 <lootcontainer id="49" count="2,4" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualPlus1Template">
-	<item group="War3zukHDMedical" prob=".7"/>
-	<item group="War3zukHDMilitary" prob=".7"/>
-	<item group="War3zukHDTools" prob=".7"/>
-	<item group="War3zukHDBenchAddons" prob=".7"/>
-	<item group="War3zukHDBenches" prob=".7"/>
-	<item group="War3zukHDWeapons" prob=".7"/>
-	<item group="War3zukHDWeaponParts" prob=".7"/>
+	<item group="War3zukHDMedical" prob=".1"/>
+	<item group="War3zukHDMilitary" prob=".1"/>
+	<item group="War3zukHDTools" prob=".1"/>
+	<item group="War3zukHDBenchAddons" prob=".1"/>
+	<item group="War3zukHDBenches" prob=".1"/>
+	<item group="War3zukHDWeapons" prob=".1"/>
+	<item group="War3zukHDWeaponParts" prob=".1"/>
 	<item group="booksAllScaled"/>
 </lootcontainer>
 </insertAfter>
@@ -478,8 +478,8 @@
 	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
 	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
 	<item name="resourceRepairKit" count="2,4"/>
-	<item group="War3zukHDWeapons" prob="0.2"/>
-	<item group="War3zukHDWeaponParts" prob="0.2"/>
+	<item group="War3zukHDWeapons" prob=".1"/>
+	<item group="War3zukHDWeaponParts" prob=".1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -489,7 +489,7 @@
 	<item group="medicine" count="1,2" prob="0.4"/>
 	<item name="resourceScrapPolymers" count="10,20" prob="0.2"/>
 	<item group="War3zukHDCarePackages" count="1" prob="0.2"/>
-	<item group="War3zukHDMedical" count="1" prob="0.1"/>
+	<item group="War3zukHDMedical" count="1" prob=".1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -497,9 +497,9 @@
 <!-- working stiffs -->
 <lootcontainer id="53" count="2,4" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
 	<item group="workingStiffsBox" prob="0.7"/>
-	<item group="War3zukHDTools" prob="0.1"/>
-	<item group="War3zukHDBenchAddons" prob="0.1"/>
-	<item group="War3zukHDBenches" prob="0.1"/>	
+	<item group="War3zukHDTools" prob=".1"/>
+	<item group="War3zukHDBenchAddons" prob=".1"/>
+	<item group="War3zukHDBenches" prob=".1"/>	
 </lootcontainer>
 </insertAfter>
 
@@ -520,13 +520,13 @@
 <!-- Bookstore bookcase -->
 <lootcontainer id="60" count="2,3" size="6,2" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="qualPlus1Template">
 	<item group="booksAllScaled"/>
-	<item group="War3zukHDMedical" prob=".7"/>
-	<item group="War3zukHDMilitary" prob=".7"/>
-	<item group="War3zukHDTools" prob=".7"/>
-	<item group="War3zukHDBenchAddons" prob=".7"/>
-	<item group="War3zukHDBenches" prob=".7"/>
-	<item group="War3zukHDWeapons" prob=".7"/>
-	<item group="War3zukHDWeaponParts" prob=".7"/>
+	<item group="War3zukHDMedical" prob=".1"/>
+	<item group="War3zukHDMilitary" prob=".1"/>
+	<item group="War3zukHDTools" prob=".1"/>
+	<item group="War3zukHDBenchAddons" prob=".1"/>
+	<item group="War3zukHDBenches" prob=".1"/>
+	<item group="War3zukHDWeapons" prob=".1"/>
+	<item group="War3zukHDWeaponParts" prob=".1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -552,11 +552,11 @@
 <lootcontainer id="66" count="1,2" size="8,4" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualPlus1Template">
 	<item group="junk" prob="0.9"/>
 	<item name="vehicleBicyclePlaceable" count="1" prob="0.025"/>
-	<item name="HDAeroDynamicsUpgrade" count="1" prob=".5"/>
-	<item name="HDFuelSaverUpgrade" count="1" prob=".5"/>
-	<item name="HDHeadlightsUpgrade" count="1" prob=".5"/>
-	<item name="HDTurboUpgrade" count="1" prob=".5"/>
-	<item name="HDRuckSackUpgrade" count="1,2" prob="0.2"/>
+	<item name="HDAeroDynamicsUpgrade" count="1" prob=".3"/>
+	<item name="HDFuelSaverUpgrade" count="1" prob=".3"/>
+	<item name="HDHeadlightsUpgrade" count="1" prob=".3"/>
+	<item name="HDTurboUpgrade" count="1" prob=".3"/>
+	<item name="HDRuckSackUpgrade" count="1" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 
@@ -569,13 +569,13 @@
 	<item group="groupArmorT1" loot_prob_template="ProbT1"/>
 	<item name="armorMilitarySetParts" count="2,5" loot_prob_template="ProbT1"/>
 	<item group="groupArmorT2" loot_prob_template="ProbT2"/>
-	<item group="War3zukHDMedical" prob=".7"/>
-	<item group="War3zukHDMilitary" prob=".7"/>
-	<item group="War3zukHDWeapons" prob=".7"/>
-	<item group="War3zukHDWeaponParts" prob=".7"/>
+	<item group="War3zukHDMedical" prob=".1"/>
+	<item group="War3zukHDMilitary" prob=".1"/>
+	<item group="War3zukHDWeapons" prob=".1"/>
+	<item group="War3zukHDWeaponParts" prob=".1"/>
 	<item name="Military Purify Tablets" count="2,4" prob="1"/>
-	<item name="MREMilitaryRation" count="1,2" prob="1"/>
-	<item name="HDRuckSackUpgrade" prob="0.2"/>
+	<item name="MREMilitaryRation" count="1,2" prob=".5"/>
+	<item name="HDRuckSackUpgrade" count="1" prob="0.2"/>
 </lootcontainer>
 </insertAfter>
 
@@ -583,12 +583,12 @@
 <!-- bookstore shipping crate -->
 <lootcontainer id="89" count="1,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
 	<item group="booksAllScaled"/>
-	<item group="War3zukHDBenchAddons" prob=".8"/>
-	<item group="War3zukHDBenches" prob=".8"/>
-	<item group="War3zukHDMedical" prob=".8"/>
-	<item group="War3zukHDMilitary" prob=".8"/>
-	<item group="War3zukHDWeapons" prob=".8"/>
-	<item group="War3zukHDWeaponParts" prob=".8"/>
+	<item group="War3zukHDBenchAddons" prob=".1"/>
+	<item group="War3zukHDBenches" prob=".1"/>
+	<item group="War3zukHDMedical" prob=".1"/>
+	<item group="War3zukHDMilitary" prob=".1"/>
+	<item group="War3zukHDWeapons" prob=".1"/>
+	<item group="War3zukHDWeaponParts" prob=".1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -601,8 +601,8 @@
 	<item group="groupRareToolsTiered" prob="0.1"/>
 	<item group="schematicsToolsCommon" prob=".5"/>
 	<item group="schematicsToolsRare" prob=".1"/>
-	<item group="War3zukHDBenchAddons" prob=".8"/>
-	<item group="War3zukHDBenches" prob=".8"/>
+	<item group="War3zukHDBenchAddons" prob=".1"/>
+	<item group="War3zukHDBenches" prob=".1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -612,8 +612,8 @@
 	<item group="forgeLoot"/>
 	<item name="forgeSchematic" prob=".15"/>
 	<item name="HD Forge Schematic" prob=".15"/>
-	<item group="War3zukHDBenchAddons" prob=".8"/>
-	<item group="War3zukHDBenches" prob=".8"/>
+	<item group="War3zukHDBenchAddons" prob=".1"/>
+	<item group="War3zukHDBenches" prob=".1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -623,10 +623,10 @@
 	<item group="workbenchLoot"/>
 	<item group="groupToolsTiered" prob=".2"/>
 	<item group="groupRareToolsTiered"/>
-	<item group="vehiclePartsTiered" prob=".2"/>
-	<item name="workbenchSchematic" prob="0.2"/>
-	<item group="War3zukHDBenchAddons" prob=".8"/>
-	<item group="War3zukHDBenches" prob=".8"/>
+	<item group="vehiclePartsTiered" prob=".1"/>
+	<item name="workbenchSchematic" prob="0.1"/>
+	<item group="War3zukHDBenchAddons" prob=".1"/>
+	<item group="War3zukHDBenches" prob=".1"/>
 </lootcontainer>
 </insertAfter>
 
@@ -634,8 +634,8 @@
 <!-- cntCollapsedCementMixer -->
 <lootcontainer id="93" count="1,2" size="7,4" sound_open="cement_mixer_open" sound_close="cement_mixer_close" loot_quality_template="qualPlus1Template">
 	<item group="cementMixerLoot" count="1,2"/>
-	<item name="cementMixerSchematic" prob=".9"/>
-	<item name="HD Cement Mixer Schematic" prob=".9"/>
+	<item name="cementMixerSchematic" prob=".5"/>
+	<item name="HD Cement Mixer Schematic" prob=".5"/>
 </lootcontainer>
 </insertAfter>
 	
@@ -645,8 +645,8 @@
 	<item group="labEquipment" prob="0.48"/>
 	<item group="chemistryStationLoot" prob="0.48"/>
 	<item name="chemistryStationSchematic" prob="0.04"/>
-	<item group="War3zukHDMedical" prob=".9"/>
-	<item group="War3zukHDBenchAddons" prob=".9"/>
+	<item group="War3zukHDMedical" prob=".1"/>
+	<item group="War3zukHDBenchAddons" prob=".1"/>
 </lootcontainer>
 </insertAfter>
 	
@@ -655,7 +655,7 @@
 <lootcontainer id="96" count="2,3" size="6,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualPlus1Template">
 	<item group="labEquipment" prob="16"/>
 	<item name="resourcePaper" count="5,15"/>
-	<item group="War3zukHDMedical" prob="0.1"/>
+	<item group="War3zukHDMedical" prob=".4"/>
 </lootcontainer>
 </insertAfter>
 	
@@ -692,9 +692,9 @@
 	<item name="resourceCropChrysanthemumPlant" count="5,12" prob=".05"/>
 	<item name="resourceCropGoldenrodPlant" count="5,12" prob=".05"/>
 	<item name="medicalAloeCream" count="4,10" prob=".05"/>
-	<item group="War3zukHDMedical" prob="0.5"/>
-	<item group="War3zukHDFlares" prob="0.2"/>
-	<item group="War3zukHDCarePackages" prob="0.2"/>
+	<item group="War3zukHDMedical" prob=".5"/>
+	<item group="War3zukHDFlares" prob=".5"/>
+	<item group="War3zukHDCarePackages" prob=".5"/>
 </lootcontainer>
 </insertAfter>
 
@@ -707,9 +707,9 @@
 	<item name="resourceCropChrysanthemumPlant" count="5,12" prob=".05"/>
 	<item name="resourceCropGoldenrodPlant" count="5,12" prob=".05"/>
 	<item name="medicalAloeCream" count="4,10" prob=".05"/>
-	<item group="War3zukHDMedical" prob="0.2"/>
-	<item group="War3zukHDFlares" prob="0.2"/>
-	<item group="War3zukHDCarePackages" prob="0.2"/>
+	<item group="War3zukHDMedical" prob=".5"/>
+	<item group="War3zukHDFlares" prob=".5"/>
+	<item group="War3zukHDCarePackages" prob=".5"/>
 </lootcontainer>
 </insertAfter>
 
@@ -722,9 +722,9 @@
 	<item name="resourceCropChrysanthemumPlant" count="5,12" prob=".05"/>
 	<item name="resourceCropGoldenrodPlant" count="5,12" prob=".05"/>
 	<item name="medicalAloeCream" count="4,10" prob=".05"/>
-	<item group="War3zukHDMedical" prob="0.2"/>
-	<item group="War3zukHDFlares" prob="0.2"/>
-	<item group="War3zukHDCarePackages" prob="0.2"/>
+	<item group="War3zukHDMedical" prob=".5"/>
+	<item group="War3zukHDFlares" prob=".5"/>
+	<item group="War3zukHDCarePackages" prob=".5"/>
 </lootcontainer>
 </insertAfter>
 
@@ -732,7 +732,7 @@
 <!-- medicine cabinets -->
 <lootcontainer id="131" count="2,3" size="6,4" sound_open="UseActions/open_medicine_cabinet" sound_close="UseActions/close_medicine_cabinet" loot_quality_template="qualPlus1Template">
 	<item group="War3zukHDCarePackages" prob="0.3"/>
-	<item group="War3zukHDMedical" prob="0.3"/>
+	<item group="War3zukHDMedical" prob=".5"/>
 	<item group="medicine"/>
 </lootcontainer>
 </insertAfter>

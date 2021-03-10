@@ -1,5 +1,25 @@
 War3zuk-Alpha-19.3 B6 - AIO STABLE
 
+Updated v5.5 to v5.6
+
+Edited MeleeHandItem (GiantHounds) Greater Dmg
+Re-Balanced War3zukHDWeaponParts Schematics
+Re-Balanced War3zukHDWeapons Schematics
+Re-Balanced War3zukHDBenches Schematics
+Re-Balanced War3zukHDBenchAddons Schematics
+Re-Balanced War3zukHDTools Schematics
+Re-Balanced War3zukHDAmmo Schematics
+Re-Balanced War3zukHDMilitary Schematics
+Re-Balanced Finable Packages
+
+
+Launcher Edits:
+Fixed Marauder Correctly Set To 4x4 Skills
+Balanced Demos
+Balanced Dogs
+Balanced Phantasms
+Updated Bdubs Vehicles Overhaul
+
 Updated v5.4 to v5.5
 
 Edited AirCon Sound / Distance (Multiples Will Still Be Loud)
