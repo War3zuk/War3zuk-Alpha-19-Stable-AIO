@@ -720,7 +720,7 @@
 		<property name="DescriptionKey" value="HDDEScopeDesc"/>
 		<property name="UnlockedBy" value="HD Mods Schematic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDERScope.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Desert Eagle.unity3d?HDDEScope.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 
 		<item_property_overrides name="HD Desert Eagle">
 			<property name="ScopeScale" value="0.5,0.5,0.5"/>
@@ -1280,6 +1280,33 @@
 		<passive_effect name="HypothermalResist" operation="base_add" value="1.8,4.2"/>
 		<passive_effect name="HyperthermalResist" operation="base_add" value="7.5,10.5"/>
 		</effect_group>
+	</item_modifier>
+	
+	
+	
+	
+	
+	
+	
+	
+	<item_modifier name="modShotgunSawedOffBarrelS" installable_tags="Winchester" modifier_tags="barrelAttachment" blocked_tags="noMods,dBarrel" type="attachment" icon="resourceScrapIron">
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+
+		<item_property_overrides name="gunShotgunT2PumpShotgun">
+			<property name="HandMeshfile" value="#Other/Items?Weapons/Ranged/SawedOffPumpShotgun/SawedOffPumpShotgunPrefab.prefab"/>
+		</item_property_overrides>
+
+		<effect_group tiered="false" name="Base Effects">
+			<passive_effect name="MaxRange" operation="perc_add" value="-.20"/>
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.20"/>
+			<passive_effect name="Magazine_items" value="ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammo44MagnumBulletAP"/>
+			
+			<passive_effect name="SpreadDegreesVertical" operation="perc_set" value="0.1"/>
+			<passive_effect name="SpreadDegreesHorizontal" operation="perc_set" value="0.1"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 	
 </append>

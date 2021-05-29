@@ -1,5 +1,40 @@
 War3zuk-Alpha-19.3 B6 - AIO STABLE
 
+Updated v5.6 to v5.7
+
+Updated To 19.5 B60
+Updated LootTables  Due To 19.5 (B53)
+Updated Loot Table (Duplicates) Due To 19.5 (B50)
+Updated Lootlist (Custom Blocks) Due To 19.5 (B50)
+Updated LootList (Custom Items) Due To 19.5 (B50)
+
+Fixed HD M3 Auto Perk
+Fixed HD Glock 18 Auto Stats
+Fixed HD Colt M1911 Stats
+Fixed HD Colt M1911A Stats
+Fixed HD Desert Eagle Degradation
+Fixed HD Desert Eagle Punisher Degradation
+Fixed HD Mac10 Auto Stats
+Fixed HD M3 Auto Stats
+Fixed HD HK33 Hybrid Stats
+Fixed HD AK Hybrid ACP Stats
+
+Re-Built Model HD Desert Eagle (Addons) Scope Texture
+Re-Built Model HD Desert Eagle Punisher Scope Texture
+
+Re-Built Model HD Double Barrel (Flashlight)
+Re-Built Model HD Snub (Flashlight)
+
+Fixed HD M3 Auto (Skill Attributes)
+Fixed HD Mac10 Auto (Skill Attributes)
+Fixed HD Vulcan 9mm (Skill Attributes)
+Fixed HD Vulcan 7.62mm (Skill Attributes)
+Fixed HD Vulcan 50mm (Skill Attributes)
+
+
+Launcher Edits:
+Removed Duplicate Entries (Animals)
+
 Updated v5.5 to v5.6
 
 Edited MeleeHandItem (GiantHounds) Greater Dmg

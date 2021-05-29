@@ -1364,7 +1364,7 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Vulcan 9mm" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkGunslinger">
+<recipe name="HD Vulcan 9mm" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "180" tags="perkMachineGunner">
 	<ingredient name="HD Vulcan 9mm Barrel" count="3"/>
 	<ingredient name="HD Vulcan 9mm Parts" count="1"/>
 	<ingredient name="HD Vulcan 9mm Motor" count="1"/>
@@ -1488,7 +1488,7 @@
 	<ingredient name="resourceOil" count="10"/>
 </recipe>
 
-<recipe name="HD M3 Auto" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkDeadEye">
+<recipe name="HD M3 Auto" craft_tool="HDCncAutomatics" craft_area="HD GunBench" count="1" craft_time = "120" tags="learnable,perkMachineGunner">
 	<ingredient name="resourceForgedSteel" count="150"/>
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceMechanicalParts" count="20"/>

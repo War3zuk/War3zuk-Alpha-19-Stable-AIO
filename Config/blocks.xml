@@ -114,7 +114,7 @@
 	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
 	<property name="Tags" value="buriedTreasure"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="LootList" value="531"/>
+	<property name="LootList" value="331"/>
 	<property name="CreativeMode" value="None"/>
 </block>
 
@@ -122,7 +122,7 @@
 	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
 	<property name="Tags" value="buriedTreasure"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="LootList" value="532"/>
+	<property name="LootList" value="332"/>
 	<property name="CreativeMode" value="None"/>
 </block>
 
@@ -130,7 +130,7 @@
 	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
 	<property name="Tags" value="buriedTreasure"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="LootList" value="533"/>
+	<property name="LootList" value="333"/>
 	<property name="CreativeMode" value="None"/>
 </block>
 
@@ -138,7 +138,7 @@
 	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
 	<property name="Tags" value="buriedTreasure"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="LootList" value="534"/>
+	<property name="LootList" value="334"/>
 	<property name="CreativeMode" value="None"/>
 </block>
 
@@ -146,7 +146,7 @@
 	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
 	<property name="Tags" value="buriedTreasure"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="LootList" value="535"/>
+	<property name="LootList" value="335"/>
 	<property name="CreativeMode" value="None"/>
 </block>
 
@@ -154,7 +154,7 @@
 	<property name="Extends" value="cntLootChestHeroInsecure" param1="DescriptionKey"/>
 	<property name="Tags" value="buriedTreasure"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="LootList" value="536"/>
+	<property name="LootList" value="336"/>
 	<property name="CreativeMode" value="None"/>
 </block>
 	
@@ -202,7 +202,7 @@
 	<property name="Model" value="Entities/OutdoorDecor/iceMachinePrefab"/> <property name="Place" value="TowardsPlacerInverted"/>
 	<property name="MultiBlockDim" value="2,2,1"/><property name="DisplayType" value="blockMulti"/>
 	<property name="ModelOffset" value=".5,.5,0"/>
-    <property name="LootList" value="530" />
+    <property name="LootList" value="330" />
   <drop event="Destroy" count="0"/>
   <property name="DowngradeBlock" value="HDIceMachineE"/>
 </block>
@@ -793,7 +793,7 @@
 	<property name="DisplayType" value="blockMulti" />
 	<property name="MultiBlockDim" value="1,3,3"/>
     <property name="Collide" value="movement,rockets,sight,melee" />
-    <property name="LootList" value="517" />
+    <property name="LootList" value="317" />
     <drop event="Destroy" count="0"/>
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
   <property name="DowngradeBlock" value="HDPumpJackE"/>
@@ -2468,7 +2468,7 @@
 
 <block name="Building Supplys">
 	<property name="Extends" value="cntGarageStorage"/>
-	<property name="LootList" value="507"/>
+	<property name="LootList" value="307"/>
 </block>
 
 <block name="Wars Health Supply Crate">
@@ -2483,7 +2483,7 @@
 
 <block name="Health Supplys">
 	<property name="Extends" value="cntGarageStorage"/>
-	<property name="LootList" value="508"/>
+	<property name="LootList" value="308"/>
 </block>
 
 <block name="Wars Ammo Supply Crate">
@@ -2498,7 +2498,7 @@
 
 <block name="Ammo Supplys">
 	<property name="Extends" value="cntGarageStorage"/>
-	<property name="LootList" value="509"/>
+	<property name="LootList" value="309"/>
 </block>
 
 <block name="Wars Food Supply Crate">
@@ -2513,7 +2513,7 @@
 
 <block name="Food Supplys">
 	<property name="Extends" value="cntGarageStorage"/>
-	<property name="LootList" value="510"/>
+	<property name="LootList" value="310"/>
 </block>
 
 <block name="HD Rolling Door">
@@ -3103,47 +3103,47 @@
 	
 <append xpath="/blocks/block[@name='palletWhiteBagsBase']">
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="519"/>
+	<property name="LootList" value="319"/>
 </append>
 	
 <append xpath="/blocks/block[@name='palletBrownBoxesBase']">
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="520"/>
+	<property name="LootList" value="320"/>
 </append>
 	
 <append xpath="/blocks/block[@name='palletBricksBase']">
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="521"/>
+	<property name="LootList" value="321"/>
 </append>
 	
 <append xpath="/blocks/block[@name='palletBlueTarpBase']">
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="522"/>
+	<property name="LootList" value="322"/>
 </append>
 
 <append xpath="/blocks/block[@name='wineBarrel']">
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="523"/>
+	<property name="LootList" value="323"/>
 </append>
 
 <append xpath="/blocks/block[@name='airConditioner']">
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="524" />
+	<property name="LootList" value="324" />
 </append>
 
 <append xpath="/blocks/block[@name='airConditionVentFan']">
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="524" />
+	<property name="LootList" value="324" />
 </append>
 
 <append xpath="/blocks/block[@name='airConditionVentFanDouble']">
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="524" />
+	<property name="LootList" value="324" />
 </append>
 
 <append xpath="/blocks/block[@name='palletCompressedCardboard']">
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="525"/>
+	<property name="LootList" value="325"/>
 </append>
 
 <append xpath="/blocks/block[@name='cntGunSafeInsecure']"> 
@@ -5512,7 +5512,7 @@
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Path" value="solid"/>
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="526"/>
+	<property name="LootList" value="326"/>
 	<drop event="Harvest" name="resourceScrapIron" count="17" tag="allHarvest"/>
 	<drop event="Destroy" count="0"/>
 	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
@@ -5544,7 +5544,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="527"/>
+	<property name="LootList" value="327"/>
 	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleFull.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
@@ -5560,7 +5560,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="528"/>
+	<property name="LootList" value="328"/>
 	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesFull.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 
@@ -5576,7 +5576,7 @@
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Extends" value="storeShelving01Full"/>
 	<property name="Class" value="Loot"/>
-	<property name="LootList" value="529"/>
+	<property name="LootList" value="329"/>
 	<property name="Model" value="#@modfolder:Resources/HDShelves.unity3d?HDShelvesDoubleFull.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </block>
 

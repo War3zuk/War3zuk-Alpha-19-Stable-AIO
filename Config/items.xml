@@ -2412,10 +2412,10 @@
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".8"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.25"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".25"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="perkGunslinger"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="1000,1600" tier="1,6" tags="9mmGun"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
@@ -2495,10 +2495,10 @@
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".8"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.25"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".25"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="9mmGun"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="perkGunslinger"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="250,450" tier="1,6" tags="9mmGun"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
@@ -2578,10 +2578,10 @@
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".8"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.25"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".25"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="9mmGun"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="perkGunslinger"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="250,450" tier="1,6" tags="9mmGun"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="500,1000" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
@@ -2664,7 +2664,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".15"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="3.2" tags="perkGunslinger"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="250,400" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="750,1200" tier="1,6" tags="perkGunslinger"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -2749,7 +2749,7 @@
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".15"/>
 		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="3.2" tags="perkGunslinger"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="250,400" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="750,1200" tier="1,6" tags="perkGunslinger"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -2761,7 +2761,7 @@
 <item name="HD Mac10 Auto">
 	<property name="DescriptionKey" value="HDMac10ADesc"/>
 	<property name="CustomIcon" value="HD Mac10 Auto"/>
-	<property name="Tags" value="Mac10,weapon,ranged,holdBreathAiming,noSilencer,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,canHaveCosmetic"/>
+	<property name="Tags" value="Mac10,weapon,ranged,holdBreathAiming,noSilencer,reloadPenalty,gun,shortRange,pistol,noSilencer,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,selfLoading,attAgility,9mmGun,perkMachineGunner,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="1"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Mac10 Auto.unity3d?HD Mac10 Auto.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2802,9 +2802,9 @@
 		<property name="ScopeCameraOffset" value=".0000,-.0250,.0000"/>
 	</property>
 	<effect_group name="gunHandgunT1Pistol">
-		<passive_effect name="MaxRange" operation="base_set" value="55" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="35" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="9mmGun"/>
+		<passive_effect name="MaxRange" operation="base_set" value="55"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="35"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="550"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="35"/>
@@ -2831,10 +2831,10 @@
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".8"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.25"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".25"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="9mmGun"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="perkGunslinger"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="550,750" tier="1,6" tags="9mmGun"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="550,750" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
@@ -2846,7 +2846,7 @@
 <item name="HD M3 Auto">
 	<property name="DescriptionKey" value="HDM3AutoADesc"/>
 	<property name="CustomIcon" value="HD M3 Auto"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,9mmGun,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,stock,magazine,drumMagazine,firingMode,selfLoading,bottomAttachments,attFortitude,9mmGun,perkBookAutoWeapons,perkAutoWeaponsDrumMag,perkMachineGunner,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="6"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD M3 Auto.unity3d?HD M3 Auto.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -2890,9 +2890,9 @@
 		<property name="ScopeCameraOffset" value="-.0003,.02,.0000"/>
 	</property>
 	<effect_group name="gunHandgunT1Pistol">
-		<passive_effect name="MaxRange" operation="base_set" value="55" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="35" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="9mmGun"/>
+		<passive_effect name="MaxRange" operation="base_set" value="55"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="35"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="450"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="700"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="40"/>
@@ -2919,10 +2919,10 @@
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".8"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.25"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".25"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="9mmGun"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="perkGunslinger"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="550,750" tier="1,6" tags="9mmGun"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="550,750" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
@@ -2970,9 +2970,9 @@
 		<property name="ScopeCameraOffset" value="-.00110,0,.225"/>
 	</property>
 	<effect_group name="gunHandgunT1Pistol">
-		<passive_effect name="MaxRange" operation="base_set" value="85" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="55" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="9mmGun"/>
+		<passive_effect name="MaxRange" operation="base_set" value="85"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="55"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="650"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="900"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="45"/>
@@ -2999,10 +2999,10 @@
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".8"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.25"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".25"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="9mmGun"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="perkGunslinger"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="550,750" tier="1,6" tags="9mmGun"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="550,750" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
@@ -3050,9 +3050,9 @@
 		<property name="ScopeCameraOffset" value="-.00080,.0110,.300"/>
 	</property>
 	<effect_group name="gunHandgunT1Pistol">
-		<passive_effect name="MaxRange" operation="base_set" value="85" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="base_set" value="65" tags="9mmGun"/>
-		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2" tags="9mmGun"/>
+		<passive_effect name="MaxRange" operation="base_set" value="85"/>
+		<passive_effect name="DamageFalloffRange" operation="base_set" value="65"/>
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.2,.2"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="650"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="900"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="45"/>
@@ -3079,10 +3079,10 @@
 		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".8"/>
 		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.25"/>
 		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".25"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="9mmGun"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="2.0" tags="perkGunslinger"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".95"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="550,750" tier="1,6" tags="9mmGun"/>
-		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="9mmGun"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="550,750" tier="1,6" tags="perkGunslinger"/>
+		<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
         <triggered_effect trigger="onReloadStop" action="AnimatorSetBool" target="self" property="WeaponReload" value="false"/>
@@ -3297,7 +3297,7 @@
 	<effect_group name="gunShotgunT1DoubleBarrel">
 		<passive_effect name="MaxRange" operation="base_set" value="15"/>
 		<passive_effect name="DamageFalloffRange" operation="base_set" value="10"/>
-		<passive_effect name="EntityDamage" operation="base_add" value="235"/>
+		<passive_effect name="EntityDamage" operation="base_add" value="200"/>
 		<passive_effect name="RoundsPerMinute" operation="base_set" value="1000"/>
 		<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 		<passive_effect name="MagazineSize" operation="base_set" value="2"/>
@@ -3942,7 +3942,7 @@
 <item name="HD Vulcan 9mm">
 	<property name="DescriptionKey" value="HDVulcan9mmDesc"/>
 	<property name="CustomIcon" value="HD Vulcan 9mm"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkGunslinger,perkBookAutoWeapons,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,magazine,drumMagazine,bottomAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="60"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Vulcan 9mm.unity3d?HD Vulcan 9mm.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -4107,7 +4107,7 @@
 <item name="HD Vulcan 50Bmg">
 	<property name="DescriptionKey" value="HDVulcan50BmgDesc"/>
 	<property name="CustomIcon" value="HD Vulcan 50Bmg"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkBookAutoWeapons,perkAutoWeaponsDrumMag,canHaveCosmetic"/>
+	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,magazine,drumMagazine,selfLoading,attFortitude,perkBookAutoWeapons,perkAutoWeaponsDrumMag,perkMachineGunner,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="60"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Vulcan 50Bmg.unity3d?HD Vulcan 50Bmg.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -4446,7 +4446,7 @@
 <item name="HD Winchester 1866">
 	<property name="DescriptionKey" value="HDW1866Desc"/>
 	<property name="CustomIcon" value="HD Winchester 1866"/>
-	<property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="Tags" value="Winchester,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="11"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Winchester 1866.unity3d?HD Winchester 1866.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -4471,7 +4471,7 @@
 	<property class="Action0">
 		<property name="Class" value="Ranged"/>
 		<property name="Delay" value=".5"/>
-		<property name="Magazine_items" value="45ACPRound,45ACPRoundSH,45ACPRoundINC"/>
+		<property name="Magazine_items" value="45ACPRound,45ACPRoundSH,45ACPRoundINC,ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammo44MagnumBulletAP"/>
 		<property name="Reload_time" value="2.5"/>
 		<property name="Sound_start" value="WinchesterF"/>
 		<property name="Sound_loop" value="WinchesterF"/>

@@ -15,4 +15,4 @@ shared other than on your PC or on a Dedicated server for private use.
 too taking (parts of) the code, XML or assets as well as altered versions of these. War3zuk is intended to be used as is and not to be broken down or redistributed
 in an altered form unless you have explicit permission. This includes adding any part of War3zuk into any kind of overhaul mod or mod collection pack.
 
-All Rights Reserved, 2018,2019,2020.2021.
+All Rights Reserved,2018,2019,2020,2021.

@@ -740,7 +740,7 @@
 <insertAfter xpath="/lootcontainers/lootcontainer[@id='124']">
 	
 <!-- Standard Animal -->
-<lootcontainer id="500" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<lootcontainer id="300" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
 	<item name="foodRawMeat" count="1,2" prob="1"/>
 	<item name="Dropped Blood" count="1,2" prob="1"/>
 	<item name="resourceAnimalFat" count="1,2" prob="1"/>
@@ -748,14 +748,14 @@
 </lootcontainer>
 
 <!-- Boneless Animal -->
-<lootcontainer id="501" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<lootcontainer id="301" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
 	<item name="foodRawMeat" count="1,2" prob="1"/>
 	<item name="Dropped Blood" count="1,2" prob="1"/>
 	<item name="resourceAnimalFat" count="1,2" prob="1"/>
 </lootcontainer>
 
 <!-- Undead Animal -->
-<lootcontainer id="502" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<lootcontainer id="302" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
 	<item name="Dropped Blood" count="1,2" prob="1"/>
 	<item name="resourceAnimalFat" count="1,2" prob="1"/>
 	<item name="resourceBone" count="1,3" prob="0.1"/>
@@ -763,7 +763,7 @@
 </lootcontainer>
 
 <!-- Animal Chicken -->
-<lootcontainer id="503" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
+<lootcontainer id="303" count="2,3" size="6,3" destroy_on_close="false" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" open_time="1" loot_quality_template="qualPlus1Template">
 	<item name="foodRawMeat" count="1,2" prob="1"/>
 	<item name="Dropped Blood" count="1,2" prob="1"/>
 	<item name="resourceAnimalFat" count="1,2" prob="1"/>
@@ -772,7 +772,7 @@
 	<item name="resourceFeather" count="5,10" prob="1"/>
 </lootcontainer>
 
-<lootcontainer id="507" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+<lootcontainer id="307" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="rareAutomotive" count="1"/>
 	<item group="groupToolsTiered" prob="5"/>
 	<item group="groupToolsT2" loot_prob_template="ProbT2"/>
@@ -782,7 +782,7 @@
 	<item group="minibikeParts" count="1"/>
 </lootcontainer>
 
-<lootcontainer id="508" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+<lootcontainer id="308" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="rareMedicine" count="1"/>
 	<item group="medicine" count="1"/>
 	<item group="rareOres" count="1"/>
@@ -791,7 +791,7 @@
 	<item group="warmClothes" count="1"/>
 </lootcontainer>
 
-<lootcontainer id="509" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+<lootcontainer id="309" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="groupAmmoRegularGunslingerT1" count="1"/>
 	<item group="groupAmmoRegularGunslingerT2" count="1"/>
 	<item group="groupArmorT0" loot_prob_template="ProbT0"/>
@@ -803,7 +803,7 @@
 	<item group="groupHeroChestLoot" count="1"/>
 </lootcontainer>
 
-<lootcontainer id="510" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+<lootcontainer id="310" count="2,3" size="6,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item group="cannedfood" count="1"/>
 	<item group="coldfood" count="1"/>
 	<item group="groupApparelClothes" count="1"/>
@@ -812,7 +812,7 @@
 	<item group="rareFoodDrink" count="1"/>
 </lootcontainer>
 
-<lootcontainer id="517" count="2,4" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+<lootcontainer id="317" count="2,4" size="6,8" sound_open="UseActions/open_mailbox" sound_close="UseActions/close_mailbox" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
 	<item name="resourceIronFragment" count="50,100" prob="0.1"/>
 	<item name="resourceBone" count="5,10" prob="0.1"/>
 	<item name="resourceNail" count="25,50" prob="0.1"/>
@@ -842,97 +842,97 @@
 	<item name="resourceRawDiamond" count="2,6" prob="0.005"/>
 </lootcontainer>
 		   
-<lootcontainer id="519" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+<lootcontainer id="319" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
     <item name="resourceCement" count="10,20" prob="0.1"/>
 </lootcontainer>
 		   
-<lootcontainer id="520" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+<lootcontainer id="320" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
     <item name="resourcePaper" count="2,4" prob="0.1"/>
     <item name="resourceScrapPolymers" count="2,10" prob="0.1"/>
 </lootcontainer>
 		   
-<lootcontainer id="521" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+<lootcontainer id="321" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item name="resourceWood" count="5,10" prob="0.1"/>
 	<item name="resourceRockSmall" count="5,10" prob="0.1"/>
 	<item name="resourceScrapBrass" count="5,10" prob="0.1"/>
 </lootcontainer>
 		   
-<lootcontainer id="522" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+<lootcontainer id="322" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
     <item name="resourceCobblestones" count="5,10" prob="0.1"/>
     <item name="resourceWood" count="5,10" prob="0.1"/>
 </lootcontainer>
 
-<lootcontainer id="523" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+<lootcontainer id="323" count="2,3" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item name="resourceGunPowder" count="5,10" prob="0.1"/>
 	<item name="BrassWire" count="2,10" prob="0.1"/>
 </lootcontainer>
 
-<lootcontainer id="524" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+<lootcontainer id="324" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item name="resourceSpring" count="3,6" prob="1"/>
 	<item name="resourceElectricParts" count="3,6" prob="1"/>
 	<item name="resourceMetalPipe" count="3,6" prob="1"/>
 	<item name="resourceMechanicalParts" count="3,6" prob="1"/>
 </lootcontainer>
 
-<lootcontainer id="525" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
+<lootcontainer id="325" count="2,4" size="3,3" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualPlus1Template">
 	<item name="resourcePaper" count="5,10" prob="1"/>
 	<item name="resourceCloth" count="5,10" prob="1"/>
 </lootcontainer>
 
-<lootcontainer id="526" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+<lootcontainer id="326" count="1,2" size="8,9" destroy_on_close="false" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="coldfood" count="1" prob=".15"/>
 	<item group="beverages" count="1" prob=".25"/>
 	<item name="foodHoney" count="1" prob=".25"/>
 	<item name="drinkJarEmpty" count="5" prob=".25"/>
 </lootcontainer>
 
-<lootcontainer id="527" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+<lootcontainer id="327" count="1,2" size="8,9" destroy_on_close="false" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="coldfood" count="1" prob=".15"/>
 	<item group="beverages" count="1" prob=".25"/>
 	<item name="foodHoney" count="1" prob=".25"/>
 	<item name="drinkJarEmpty" count="5" prob=".25"/>
 </lootcontainer>
 
-<lootcontainer id="528" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+<lootcontainer id="328" count="1,2" size="8,9" destroy_on_close="false" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="coldfood" count="1" prob=".15"/>
 	<item group="beverages" count="1" prob=".25"/>
 	<item name="foodHoney" count="1" prob=".25"/>
 	<item name="drinkJarEmpty" count="5" prob=".25"/>
 </lootcontainer>
 
-<lootcontainer id="529" count="1,2" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
+<lootcontainer id="329" count="1,2" size="8,9" destroy_on_close="false" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" loot_quality_template="qualPlus1Template">
 	<item group="coldfood" count="1" prob=".15"/>
 	<item group="beverages" count="1" prob=".25"/>
 	<item name="foodHoney" count="1" prob=".25"/>
 	<item name="drinkJarEmpty" count="5" prob=".25"/>
 </lootcontainer>
 
-<lootcontainer id="530" count="2,4" size="6,8" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
+<lootcontainer id="330" count="2,4" size="6,8" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" destroy_on_close="true" loot_quality_template="qualPlus1Template" >
 	<item name="resourceSnowBall" count="20,40" prob="1"/>
 	<item name="Shaved Ice" count="10,20" prob="1"/>
 </lootcontainer>
 
-<lootcontainer id="531" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+<lootcontainer id="331" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
 	<item group="groupBuriedLootStashTreasureT1"/>
 </lootcontainer>
 
-<lootcontainer id="532" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+<lootcontainer id="332" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
 	<item group="groupBuriedLootStashTreasureT2"/>
 </lootcontainer>
 
-<lootcontainer id="533" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+<lootcontainer id="333" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
 	<item group="groupBuriedLootStashTreasureT3"/>
 </lootcontainer>
 
-<lootcontainer id="534" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+<lootcontainer id="334" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
 	<item group="groupBuriedLootStashTreasureT4"/>
 </lootcontainer>
 
-<lootcontainer id="535" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+<lootcontainer id="335" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
 	<item group="groupBuriedLootStashTreasureT5"/>
 </lootcontainer>
 
-<lootcontainer id="536" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualPlus1Template">
+<lootcontainer id="336" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
 	<item group="groupBuriedLootStashTreasureT6"/>
 </lootcontainer>
 	

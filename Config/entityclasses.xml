@@ -116,7 +116,7 @@
 	<property name="SwimOffset" value="2"/>
 	<property name="HasRagdoll" value="false"/>
 	<property name="SizeScale" value="2"/>
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 	<property name="AITask-1" value="RunawayWhenHurt"/>
 	<property name="AITask-2" value="RunawayFromEntity" data="class=EntityPlayer,EntityZombie,EntityEnemyAnimal;safeDistance=20"/>
 	<property name="AITask-3" value="Look"/>
@@ -157,7 +157,7 @@
 	<property name="SwimOffset" value="2"/>
 	<property name="HasRagdoll" value="false"/>
 	<property name="SizeScale" value="2"/>
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 	<property name="AITask-1" value="RunawayWhenHurt"/>
 	<property name="AITask-2" value="RunawayFromEntity" data="class=EntityPlayer,EntityZombie,EntityEnemyAnimal;safeDistance=20"/>
 	<property name="AITask-3" value="Look"/>
@@ -200,7 +200,7 @@
 	<property name="SwimOffset" value="2"/>
 	<property name="HasRagdoll" value="false"/>
 	<property name="SizeScale" value="2"/>
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 	<property name="AITask-1" value="RunawayWhenHurt"/>
 	<property name="AITask-2" value="RunawayFromEntity" data="class=EntityPlayer,EntityZombie,EntityEnemyAnimal;safeDistance=20"/>
 	<property name="AITask-3" value="Look"/>
@@ -243,7 +243,7 @@
 	<property name="HasRagdoll" value="false"/>
 	<property name="HasDeathAnim" value="false"/>
 	<property name="SizeScale" value="2"/>
-	<property name="LootListOnDeath" value="503"/>
+	<property name="LootListOnDeath" value="303"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
 	<property name="DeadBodyHitPoints" value="175"/>
@@ -281,7 +281,7 @@
 	<property name="HasRagdoll" value="false"/>
 	<property name="HasDeathAnim" value="false"/>
 	<property name="SizeScale" value="2"/>
-	<property name="LootListOnDeath" value="503"/>
+	<property name="LootListOnDeath" value="303"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
 	<property name="DeadBodyHitPoints" value="175"/>
@@ -321,7 +321,7 @@
 	<property name="HasRagdoll" value="false"/>
 	<property name="HasDeathAnim" value="false"/>
 	<property name="SizeScale" value="2"/>
-	<property name="LootListOnDeath" value="503"/>
+	<property name="LootListOnDeath" value="303"/>
 	<property name="MoveSpeedPanic" value="1"/>
 	<property name="ExperienceGain" value="130"/>
 	<property name="DeadBodyHitPoints" value="175"/>
@@ -349,7 +349,7 @@
 	<property name="EntityType" value="Animal"/>
 	<property name="Class" value="EntityAnimalSnake"/>
 	<property name="SizeScale" value="1.5"/>
-	<property name="LootListOnDeath" value="501"/>
+	<property name="LootListOnDeath" value="301"/>
 	<property name="Prefab" value="/Entities/Animals/Snake/snake_Prefab"/>
 	<property name="Mesh" value=""/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
@@ -415,7 +415,7 @@
 	<property name="EntityType" value="Animal"/>
 	<property name="Class" value="EntityAnimalSnake"/>
 	<property name="SizeScale" value="1.5"/>
-	<property name="LootListOnDeath" value="501"/>
+	<property name="LootListOnDeath" value="301"/>
 	<property name="Prefab" value="/Entities/Animals/Snake/snake_Prefab"/>
 	<property name="Mesh" value=""/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
@@ -483,7 +483,7 @@
 	<property name="EntityType" value="Animal"/>
 	<property name="Class" value="EntityAnimalSnake"/>
 	<property name="SizeScale" value="1.5"/>
-	<property name="LootListOnDeath" value="501"/>
+	<property name="LootListOnDeath" value="301"/>
 	<property name="Prefab" value="/Entities/Animals/Snake/snake_Prefab"/>
 	<property name="Mesh" value=""/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
@@ -554,7 +554,7 @@
 	<property name="Mass" value="35"/>
 	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
 	<property name="SizeScale" value="1.7"/>
-	<property name="LootListOnDeath" value="502"/>
+	<property name="LootListOnDeath" value="302"/>
 	<property name="AITask-1" value=""/>
 	<property name="AITarget-1" value=""/>
 	<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -599,7 +599,7 @@
 	<property name="Mass" value="35"/>
 	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
 	<property name="SizeScale" value="1.7"/>
-	<property name="LootListOnDeath" value="502"/>
+	<property name="LootListOnDeath" value="302"/>
 	<property name="AITask-1" value=""/>
 	<property name="AITarget-1" value=""/>
 	<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -646,7 +646,7 @@
 	<property name="Mass" value="35"/>
 	<property name="Mesh" value="Animals/Vulture/animalVultureStandardRagdoll"/>
 	<property name="SizeScale" value="1.7"/>
-	<property name="LootListOnDeath" value="502"/>
+	<property name="LootListOnDeath" value="302"/>
 	<property name="AITask-1" value=""/>
 	<property name="AITarget-1" value=""/>
 	<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
@@ -696,7 +696,7 @@
 	<property name="RootMotion" value="true"/>
 	<property name="RagdollOnDeathChance" value=".5"/>
 	<property name="SizeScale" value="2"/>
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 	<property name="SoundRandom" value="Animals/Boar/boarroam"/>
 	<property name="SoundAlert" value="Animals/Boar/boaralert"/>
 	<property name="SoundHurt" value="Animals/Boar/boarpain"/>
@@ -741,7 +741,7 @@
 	<property name="RootMotion" value="true"/>
 	<property name="RagdollOnDeathChance" value=".5"/>
 	<property name="SizeScale" value="2"/>
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 	<property name="SoundRandom" value="Animals/Boar/boarroam"/>
 	<property name="SoundAlert" value="Animals/Boar/boaralert"/>
 	<property name="SoundHurt" value="Animals/Boar/boarpain"/>
@@ -788,7 +788,7 @@
 	<property name="RootMotion" value="true"/>
 	<property name="RagdollOnDeathChance" value=".5"/>
 	<property name="SizeScale" value="2"/>
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 	<property name="SoundRandom" value="Animals/Boar/boarroam"/>
 	<property name="SoundAlert" value="Animals/Boar/boaralert"/>
 	<property name="SoundHurt" value="Animals/Boar/boarpain"/>
@@ -833,7 +833,7 @@
 	<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense"/>
 	<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup"/>
 	<property name="SizeScale" value="1.5"/>
-	<property name="LootListOnDeath" value="502"/>
+	<property name="LootListOnDeath" value="302"/>
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="Territorial"/>
 	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityNPC,20"/>
@@ -885,7 +885,7 @@
 	<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense"/>
 	<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup"/>
 	<property name="SizeScale" value="1.5"/>
-	<property name="LootListOnDeath" value="502"/>
+	<property name="LootListOnDeath" value="302"/>
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="Territorial"/>
 	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityNPC,20"/>
@@ -939,7 +939,7 @@
 	<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense"/>
 	<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup"/>
 	<property name="SizeScale" value="1.5"/>
-	<property name="LootListOnDeath" value="502"/>
+	<property name="LootListOnDeath" value="302"/>
 	<property name="AITask-1" value="BreakBlock"/>
 	<property name="AITask-2" value="Territorial"/>
 	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityPlayer,20,EntityNPC,20"/>
@@ -1219,51 +1219,51 @@
 <set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">900</set>
 
 <append xpath="/entity_classes/entity_class[@name='animalZombieVulture']">
-	<property name="LootListOnDeath" value="502"/>
+	<property name="LootListOnDeath" value="302"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='animalZombieDog']">
-	<property name="LootListOnDeath" value="502"/>
+	<property name="LootListOnDeath" value="302"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='animalRabbit']">
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='animalChicken']">
-	<property name="LootListOnDeath" value="503"/>
+	<property name="LootListOnDeath" value="303"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='animalSnake']">
-	<property name="LootListOnDeath" value="501"/>
+	<property name="LootListOnDeath" value="301"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='animalBoar']">
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='animalStag']">
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='animalDoe']">
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='animalCoyote']">
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='animalWolf']">
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='animalDireWolf']">
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='animalBear']">
-	<property name="LootListOnDeath" value="500"/>
+	<property name="LootListOnDeath" value="300"/>
 </append>
 
 <append xpath="/entity_classes/entity_class[@name='zombieSpider']">
