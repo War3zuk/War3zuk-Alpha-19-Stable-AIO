@@ -81,7 +81,7 @@
 				<decoration type="block" blockname="cntBirdnest" prob="0.001"/>
 				<decoration type="block" blockname="decoCowSkull" prob="0.00025"/>
 				<decoration type="block" blockname="treeCactus06" prob="0.0009" rotatemax="3"/>
-				<decoration type="block" blockname="treeBrownGrassDiagonal" prob=".00025"/>
+				<decoration type="block" blockname="treeBrownGrassDiagonal" prob=".00020"/>
 				<decoration type="block" blockname="treeOakMed01" prob="0.0003" rotatemax="7"/>
 				<decoration type="block" blockname="treeOakSml01" prob="0.002" rotatemax="7"/></decorations>
 		</subbiome>
