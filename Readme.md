@@ -1,4 +1,8 @@
-War3zuk-Alpha-19.3 B6 - AIO STABLE
+War3zuk-Alpha-19.6 B8 - AIO STABLE
+
+Updated v5.7 to v5.8
+
+Updated For Alpha 19.6 B8
 
 Updated v5.6 to v5.7
 
