@@ -159,6 +159,8 @@ DiggitysChilliPorkChopsDesc,items,,,So youve killed yourself a Piggy. Now its ti
 urinalCommercialMounted,blocks,Block Building,KgNone,Urinal,
 HDRuckSackUpgrade,items,Item,KgNone,HD RuckSack Upgrade,
 
+MREMilitaryRationDesc,items,,,Military Rations. Just Add Water. Just kidding. Tastes like shit but will heal And fill a hole.,
+
 HDMeatCleaverDesc,items,,,Cooks Meat Cleaver. 50% Better at harvesting meat And Leather,
 HDMeatHammerDesc,items,,,Cooks Hammer. Used to smash those Fuckin Heads In,
 

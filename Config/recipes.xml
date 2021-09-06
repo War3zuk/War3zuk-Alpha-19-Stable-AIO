@@ -1070,7 +1070,7 @@
 </recipe>
 	
 <recipe name="drinkJarPureMineralWater" count="1" craft_time="5">
-    <ingredient name="Military Purify Tablets" count="3" />
+    <ingredient name="Military Purify Tablets" count="4" />
     <ingredient name="drinkJarBoiledWater" count="1" />
 </recipe>
 	

@@ -4360,7 +4360,7 @@
 <item name="HD Dragunov SVD">
 	<property name="DescriptionKey" value="HDDSVDDesc"/>
 	<property name="CustomIcon" value="HD Dragunov SVD"/>
-	<property name="Tags" value="Dragunov,weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
+	<property name="Tags" value="Dragunov,weapon,ranged,holdBreathAiming,reloadPenalty,gun,sideAttachments,noSilencer,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedGun"/>
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Dragunov SVD.unity3d?HD Dragunov SVD.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -4564,7 +4564,7 @@
 				<property name="Class" value="Zoom"/>
 				<property name="Zoom_max_out" value="55"/>
 				<property name="Zoom_max_in" value="55"/>
-				<property name="ScopeCameraOffset" value="0.000,0,0.065"/>
+				<property name="ScopeCameraOffset" value="0.065,0,0.065"/>
 				</property>
 		<effect_group name="Base Effects">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>

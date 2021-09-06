@@ -1,4 +1,20 @@
-War3zuk-Alpha-19.6 B8 - AIO STABLE
+War3zuk-Alpha-19.6 B8 - AIO OverHaul STABLE
+
+War3zuk-Alpha-19.6 - AIO STABLE
+
+Updated v5.8 to v5.9
+
+HD Dragunov SVD (Smalltopattachments Removed)
+Adjusted Military Purify Tablets Recipe (4)
+Fixed MRE Info
+Fixed HD Flame Thrower Player View Offset
+
+Launcher Edits:
+Added The Walking Dead Woodbury Prefab
+Edited RWGmixer.cfg The Walking Dead Woodbury
+Added War3zuk Official Map 10k
+Added War3zuk Official Map 8k
+!!Warning!! Re-Copy Data Contents As They Have Changed
 
 Updated v5.7 to v5.8
 
