@@ -8,6 +8,9 @@ HD Dragunov SVD (Smalltopattachments Removed)
 Adjusted Military Purify Tablets Recipe (4)
 Fixed MRE Info
 Fixed HD Flame Thrower Player View Offset
+Adjusted AirCon Blocks Sound Distance
+Adjusted HD Cement Mixer Sound Distance
+Fixed HD Tactical AR Skin Properties
 
 Launcher Edits:
 Added The Walking Dead Woodbury Prefab
