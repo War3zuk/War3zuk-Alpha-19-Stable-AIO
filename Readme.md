@@ -8,11 +8,18 @@ HD Dragunov SVD (Smalltopattachments Removed)
 Adjusted Military Purify Tablets Recipe (4)
 Fixed MRE Info
 Fixed HD Flame Thrower Player View Offset
+Fixed HD Flame Thrower Craft Recipe
 Adjusted AirCon Blocks Sound Distance
 Adjusted HD Cement Mixer Sound Distance
 Fixed HD Tactical AR Skin Properties
 
+!!Recommended Settings When Creating World!!
+Max Spawned Zombies = 100 (Less Than 75 Will Cause Lag)
+Max Spawned Animals = 75
+Claim Blocks = 1
+
 Launcher Edits:
+Fixed War3zuk_Ure_Bike_Repair Prefab
 Added The Walking Dead Woodbury Prefab
 Edited RWGmixer.cfg The Walking Dead Woodbury
 Added War3zuk Official Map 10k

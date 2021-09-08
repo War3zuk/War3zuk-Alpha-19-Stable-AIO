@@ -1356,11 +1356,11 @@
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
-<recipe name="HD Flame Thrower" craft_area="HD AmmoBench" count="1"  craft_time = "120" tags="learnable,perkMiner69r">
-	<ingredient name="resourceForgedSteel" count="200"/>
-	<ingredient name="resourceForgedIron" count="100"/>
+<recipe name="HD Flame Thrower" craft_area="HD GunBench" count="1"  craft_time = "120" tags="learnable,perkMiner69r">
+	<ingredient name="resourceForgedSteel" count="150"/>
+	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceDuctTape" count="20"/>
-	<ingredient name="resourceScrapPolymers" count="100"/>
+	<ingredient name="resourceScrapPolymers" count="200"/>
 	<ingredient name="resourceSpring" count="5"/>
 </recipe>
 
