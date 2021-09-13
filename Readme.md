@@ -12,6 +12,8 @@ Fixed HD Flame Thrower Craft Recipe
 Adjusted AirCon Blocks Sound Distance
 Adjusted HD Cement Mixer Sound Distance
 Fixed HD Tactical AR Skin Properties
+Fixed HD Spas 12 (Variations) Reflex Position
+Cleaned 40 Lines Of Code
 
 !!Recommended Settings When Creating World!!
 Max Spawned Zombies = 100 (Less Than 75 Will Cause Lag)

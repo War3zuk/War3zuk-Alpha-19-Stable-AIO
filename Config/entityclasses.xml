@@ -5,6 +5,38 @@
 	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDRuckSackLoot.Prefab</set>
 	<!--  DELETE EVERYTHING INBETWEEN THESE LINES TO DISABLE THE RETRO LOOTBAGS FROM THE MOD  -->
 	
+	<!--  Original Idea By DW420
+	
+	<append xpath="/entity_classes/entity_class[@name='npcTraderJen']"><property name="NavObject" value="traderJen" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderJen']"><property name="Tags" value="entity,npc,human,ally,Jen" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderJen']"><property name="MapIcon" value="Icon_NPCMeds" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderJen']"><property name="TrackerIcon" value="Icon_NPCMeds" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderJen']"><property name="CompassIcon" value="Icon_NPCMeds" /></append>
+	
+	<append xpath="/entity_classes/entity_class[@name='npcTraderBob']"><property name="NavObject" value="traderBob" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderBob']"><property name="Tags" value="entity,npc,human,ally,Bob" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderBob']"><property name="MapIcon" value="Icon_NPCTools" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderBob']"><property name="TrackerIcon" value="Icon_NPCTools" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderBob']"><property name="CompassIcon" value="Icon_NPCTools" /></append>
+	
+	<append xpath="/entity_classes/entity_class[@name='npcTraderJoel']"><property name="NavObject" value="traderJoel" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderJoel']"><property name="Tags" value="entity,npc,human,ally,Joel" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderJoel']"><property name="MapIcon" value="Icon_NPCArmor" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderJoel']"><property name="TrackerIcon" value="Icon_NPCArmor" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderJoel']"><property name="CompassIcon" value="Icon_NPCArmor" /></append>
+	
+	<append xpath="/entity_classes/entity_class[@name='npcTraderHugh']"><property name="NavObject" value="traderHugh" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderHugh']"><property name="Tags" value="entity,npc,human,ally,Hugh" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderHugh']"><property name="MapIcon" value="Icon_NPCAmmo" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderHugh']"><property name="TrackerIcon" value="Icon_NPCAmmo" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderHugh']"><property name="CompassIcon" value="Icon_NPCAmmo" /></append>
+	
+	<append xpath="/entity_classes/entity_class[@name='npcTraderRekt']"><property name="NavObject" value="traderRekt" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderRekt']"><property name="Tags" value="entity,npc,human,ally,Rekt" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderRekt']"><property name="MapIcon" value="Icon_NPCFood" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderRekt']"><property name="TrackerIcon" value="Icon_NPCFood" /></append>
+	<append xpath="/entity_classes/entity_class[@name='npcTraderRekt']"><property name="CompassIcon" value="Icon_NPCFood" /></append>  -->
+	
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">Starter Class</set>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">Starter Class</set>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">Starter Class</set>

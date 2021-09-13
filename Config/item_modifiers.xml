@@ -150,11 +150,6 @@
 			<property name="ScopeCameraOffset" value="0.0001,-0.013,0.35"/>
 		</item_property_overrides>
 		
-		<item_property_overrides name="HD Spas 12">
-			<property name="CrosshairOnAim" value="false"/>
-			<property name="ScopeCameraOffset" value="0.0000,-0.013,0.35"/>
-		</item_property_overrides>
-		
 		<item_property_overrides name="HD Tactical AR">
 			<property name="CrosshairOnAim" value="true"/>
 			<property name="ScopeCameraOffset" value="-0.0008,-.022,.25"/>
@@ -177,21 +172,8 @@
 		
 	</append>
 	
-<!--###################################ReflexSight##########################################-->
+<!--###################################ReflexSight###########################################-->
 	
-<!--####################################LaserSight##########################################-->
-	
-	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
-	
-		<item_property_overrides name="HD Spas 12">
-			<property name="CrosshairOnAim" value="false"/>
-		</item_property_overrides>
-		
-		<item_property_overrides name="HD Mossberg 500">
-			<property name="CrosshairOnAim" value="false"/>
-		</item_property_overrides>
-		
-	</append>
 	
 <!--#####################################Silencers###########################################-->
 	
@@ -649,7 +631,35 @@
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="Zoom_max_out" value="55"/>
 			<property name="Zoom_max_in" value="55"/>
-			<property name="ScopeCameraOffset" value="0.000,-0.033,-0.000"/>
+			<property name="ScopeCameraOffset" value="0.000,-0.032,-0.020"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Spas 12 Street">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0.000,-0.032,-0.020"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Spas 12 USA">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0.000,-0.032,-0.020"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Spas 12 Alien">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0.000,-0.032,-0.020"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Spas 12 Irish">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="Zoom_max_out" value="55"/>
+			<property name="Zoom_max_in" value="55"/>
+			<property name="ScopeCameraOffset" value="0.000,-0.032,-0.020"/>
 		</item_property_overrides>
 
 		<effect_group tiered="false">
