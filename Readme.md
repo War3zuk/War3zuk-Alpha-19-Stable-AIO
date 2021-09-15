@@ -21,12 +21,18 @@ Max Spawned Animals = 75
 Claim Blocks = 1
 
 Launcher Edits:
+Added Snufkins Custom Zombies Plus (Edited)
 Fixed War3zuk_Ure_Bike_Repair Prefab
 Added The Walking Dead Woodbury Prefab
 Edited RWGmixer.cfg The Walking Dead Woodbury
 Added War3zuk Official Map 10k
 Added War3zuk Official Map 8k
 !!Warning!! Re-Copy Data Contents As They Have Changed
+
+Updated Prefabs
+Nauti Lattez
+War3zuk MultiTrader
+Swag_CollegeDorm
 
 Updated v5.7 to v5.8
 
