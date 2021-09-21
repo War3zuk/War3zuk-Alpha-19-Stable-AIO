@@ -5265,14 +5265,20 @@
 		<property name="SwingAngle" value="180"/>
 	</property>
 		<property class="Action1">
-		<property name="Class" value="Repair"/>
+		<property name="Class" value="DynamicMelee"/>
 		<property name="Delay" value="0.4"/>
 		<property name="Repair_amount" value="150"/>
 		<property name="Upgrade_hit_offset" value="-5"/>
 		<property name="Repair_action_sound" value="wrench_harvest"/>
 		<property name="Upgrade_action_sound" value="wrench_harvest"/>
 		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,Steel Polish,Titanium Polish"/>
-		</property>
+		
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".25"/>
+		<property name="GrazeEnd" value=".3"/>
+		<property name="SwingDegrees" value="50"/>
+		<property name="SwingAngle" value="180"/>
+	</property>
 	<effect_group name="meleeToolSalvageT1Wrench">
 		<passive_effect name="EntityDamage" operation="base_set" value="5.5" tags="perkSalvageOperations"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="25.5" tags="perkSalvageOperations"/>
@@ -5331,14 +5337,20 @@
 		<property name="SwingAngle" value="180"/>
 	</property>
 		<property class="Action1">
-		<property name="Class" value="Repair"/>
+		<property name="Class" value="DynamicMelee"/>
 		<property name="Delay" value="0.3"/>
 		<property name="Repair_amount" value="500"/>
 		<property name="Upgrade_hit_offset" value="-5"/>
 		<property name="Repair_action_sound" value="wrench_harvest"/>
 		<property name="Upgrade_action_sound" value="wrench_harvest"/>
 		<property name="Allowed_upgrade_items" value="resourceWood,resourceClayLump,resourceSnowBall,resourceScrapIron,resourceForgedIron,resourceForgedSteel,resourceConcreteMix,resourceCobblestones,ironDoor1_v1,vaultDoor01,scrapHatch_v1,vaultHatch_v1,resourceYuccaFibers,resourceCloth,resourceScrapPolymers,resourceNail,Steel Polish,Titanium Polish"/>
-		</property>
+		
+		<property name="UseGrazingHits" value="true"/>
+		<property name="GrazeStart" value=".25"/>
+		<property name="GrazeEnd" value=".3"/>
+		<property name="SwingDegrees" value="50"/>
+		<property name="SwingAngle" value="180"/>
+	</property>
 	<effect_group name="meleeToolSalvageT1Wrench">
 		<passive_effect name="EntityDamage" operation="base_set" value="5.5" tags="perkSalvageOperations"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="45.5" tags="perkSalvageOperations"/>

@@ -4,6 +4,11 @@ War3zuk-Alpha-19.6 - AIO STABLE
 
 Updated v5.8 to v5.9
 
+!!Recommended Min Settings When Creating World!!
+Max Spawned Zombies = 85 (Less Than 75 Will Cause Lag)
+Max Spawned Animals = 65
+Claim Blocks = 1
+
 HD Dragunov SVD (Smalltopattachments Removed)
 Adjusted Military Purify Tablets Recipe (4)
 Fixed MRE Info
@@ -14,11 +19,8 @@ Adjusted HD Cement Mixer Sound Distance
 Fixed HD Tactical AR Skin Properties
 Fixed HD Spas 12 (Variations) Reflex Position
 Cleaned 40 Lines Of Code
-
-!!Recommended Settings When Creating World!!
-Max Spawned Zombies = 100 (Less Than 75 Will Cause Lag)
-Max Spawned Animals = 75
-Claim Blocks = 1
+Fixed HD Scrap Wrench Power Attack
+Fixed HD Wrench Power Attack
 
 Launcher Edits:
 Edited SnuffKins Zombies Regen HP Amount
@@ -37,6 +39,7 @@ Updated Prefabs
 Nauti Lattez
 War3zuk MultiTrader
 Swag_CollegeDorm
+War3zuk_Multi_Trader01
 
 Updated v5.7 to v5.8
 
