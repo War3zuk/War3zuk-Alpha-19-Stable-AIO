@@ -9,6 +9,7 @@ Max Spawned Zombies = 85 (Less Than 75 Will Cause Lag)
 Max Spawned Animals = 65
 Claim Blocks = 1
 
+Edited HD Winchester 1866 (Spread Code)
 HD Dragunov SVD (Smalltopattachments Removed)
 Adjusted Military Purify Tablets Recipe (4)
 Fixed MRE Info
@@ -21,6 +22,7 @@ Fixed HD Spas 12 (Variations) Reflex Position
 Cleaned 40 Lines Of Code
 Fixed HD Scrap Wrench Power Attack
 Fixed HD Wrench Power Attack
+Added Custom Perks v3.1.1 (Heavily Edited)
 
 Launcher Edits:
 Edited SnuffKins Zombies Regen HP Amount

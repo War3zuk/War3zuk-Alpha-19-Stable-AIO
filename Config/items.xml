@@ -4509,19 +4509,19 @@
 		<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.05,.05" tags="perkDeadEye"/>
 		<passive_effect name="MagazineSize" operation="base_add" value="-.5,1.6"/>
 		<passive_effect name="WeaponHandling" operation="perc_add" value="-.08,.08" tags="perkDeadEye"/>
-		<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6" tags="perkDeadEye"/>
-		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6" tags="perkDeadEye"/>
-		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".066" tags="perkDeadEye"/>
-		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkDeadEye"/>
-		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkDeadEye"/>
-		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2" tags="perkDeadEye"/>
-		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value="1.5" tags="perkDeadEye"/>
-		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value="3.0" tags="perkDeadEye"/>
-		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.2" tags="perkDeadEye"/>
-		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".2" tags="perkDeadEye"/>
-		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="11" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesVertical" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierWalking" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="SpreadMultiplierRunning" operation="base_set" value=".2" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMin" operation="base_set" value=".1" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesVerticalMax" operation="base_set" value=".1" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-.1" tags="perkDeadEye"/>
+		<passive_effect name="KickDegreesHorizontalMax" operation="base_set" value=".1" tags="perkDeadEye"/>
+		<passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1" tags="perkDeadEye"/>
 		<passive_effect name="WeaponHandling" operation="base_set" value=".7" tags="perkDeadEye"/>
-		<passive_effect name="DegradationMax" operation="base_set" value="200,400" tier="1,6" tags="perkDeadEye"/>
+		<passive_effect name="DegradationMax" operation="base_set" value="250,500" tier="1,6" tags="perkDeadEye"/>
 		<passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkDeadEye"/>
 		
         <triggered_effect trigger="onReloadStart" action="AnimatorSetBool" target="self" property="WeaponReload" value="true"/>
@@ -10393,7 +10393,7 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeWpnClubT1BaseballBat,gunBowT3CompoundBow,ammoArrowIron,meleeWpnKnucklesT0LeatherKnuckles,meleeWpnSledgeT1IronSledgehammer,armorScrapHelmet,armorScrapChest,armorScrapGloves,armorScrapLegs,armorScrapBoots,meleeWpnBladeT3MacheteSchematic,meleeWpnSledgeT1IronSledgehammerSchematic"/>
+		<property name="Create_item" value="medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeWpnClubT1BaseballBat,gunBowT3CompoundBow,ammoArrowIron,meleeWpnKnucklesT0LeatherKnuckles,meleeWpnSledgeT1IronSledgehammer,armorLeatherHood,armorLeatherChest,armorLeatherGloves,armorLeatherPants,armorLeatherBoots,meleeWpnBladeT3MacheteSchematic,meleeWpnSledgeT1IronSledgehammerSchematic"/>
 		<property name="Create_item_count" value="5,5,5,5,1,1,200,1,1,1,1,1,1,1,1,1"/>
 	</property>
 </item>
@@ -10414,8 +10414,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,resourceNail,woodFrameBlockVariantHelper,gunHandgunT1Pistol,ammo9mmBulletHP"/>
-		<property name="Create_item_count" value="1,1,5,5,5,5,2,2,2,100,200,1,200"/>
+		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,resourceScrapIronBundle,resourceWoodBundle,resourceRockSmallBundle,resourceNail,woodFrameBlockVariantHelper,gunHandgunT1Pistol,ammo9mmBulletBall"/>
+		<property name="Create_item_count" value="1,1,5,5,5,5,2,2,2,100,200,1,300"/>
 	</property>
 </item>
 
@@ -10435,8 +10435,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunHandgunT1Pistol,ammo9mmBulletHP,ammoCrossbowBoltSteelAP,gunBowT1IronCrossbow,ammoGasCan,drinkJarCoffee,vehicleMinibikeChassis,vehicleMinibikeHandlebars"/>
-		<property name="Create_item_count" value="1,1,5,5,5,5,1,200,100,1,1000,25,1,1"/>
+		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunHandgunT1Pistol,ammo9mmBulletBall,ammoCrossbowBoltSteelAP,gunBowT1IronCrossbow,ammoGasCan,drinkJarCoffee,vehicleMinibikeChassis,vehicleMinibikeHandlebars"/>
+		<property name="Create_item_count" value="1,1,5,5,5,5,1,300,100,1,1000,25,1,1"/>
 	</property>
 </item>
 
@@ -10477,8 +10477,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitAutomaticRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,gunHandgunT3SMG5,ammo9mmBulletHP,gunHandgunT3SMG5Schematic,HDCncHandGuns,HDCncAutomatics,HDCncRifles"/>
-		<property name="Create_item_count" value="1,1,5,5,5,5,5,1,300,1,1,1,1"/>
+		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitAutomaticRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,gunHandgunT3SMG5,ammo9mmBulletBall,gunHandgunT3SMG5Schematic,HDCncHandGuns,HDCncAutomatics,HDCncRifles"/>
+		<property name="Create_item_count" value="1,1,5,5,5,5,5,1,350,1,1,1,1"/>
 	</property>
 </item>
 
@@ -10498,7 +10498,7 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHuntingRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,gunRifleT1HuntingRifleSchematic,gunRifleT1HuntingRifle,ammo762mmBulletHP,modGunMeleeTheHunter,modGunScopeMedium"/>
+		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHuntingRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,drugPainkillers,gunRifleT1HuntingRifleSchematic,gunRifleT1HuntingRifle,ammo762mmBulletBall,modGunMeleeTheHunter,modGunScopeMedium"/>
 		<property name="Create_item_count" value="1,1,5,5,5,5,10,1,1,200,1,1"/>
 	</property>
 </item>
@@ -10519,7 +10519,7 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeWpnBladeT3MacheteSchematic,meleeToolSalvageT1WrenchSchematic,drinkJarCoffee,gunHandgunT2Magnum44,ammo44MagnumBulletHP,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,vehicleMinibikeChassisSchematic,vehicleMinibikeHandlebarsSchematic,vehicleMotorcycleChassisSchematic,vehicleMotorcycleHandlebarsSchematic"/>
+		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeWpnBladeT3MacheteSchematic,meleeToolSalvageT1WrenchSchematic,drinkJarCoffee,gunHandgunT2Magnum44,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,vehicleMinibikeChassisSchematic,vehicleMinibikeHandlebarsSchematic,vehicleMotorcycleChassisSchematic,vehicleMotorcycleHandlebarsSchematic"/>
 		<property name="Create_item_count" value="1,1,5,5,5,5,1,1,20,1,200,1,1,1,1,1,1"/>
 	</property>
 </item>
@@ -10540,7 +10540,7 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalPlasterCastSchematic,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gunHandgunT3DesertVulture,gunHandgunT3DesertVultureSchematic,ammo44MagnumBulletHP,medicalAloeCream,medicalPlasterCast,medicalFirstAidBandageSchematic"/>
+		<property name="Create_item" value="medicalFirstAidBandage,meleeWpnClubT1BaseballBat,RepairKitHandGuns,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,medicalPlasterCastSchematic,drugAntibiotics,drugSteroids,drugFortBites,medicalFirstAidKitSchematic,gunHandgunT3DesertVulture,gunHandgunT3DesertVultureSchematic,ammo44MagnumBulletBall,medicalAloeCream,medicalPlasterCast,medicalFirstAidBandageSchematic"/>
 		<property name="Create_item_count" value="5,1,1,5,5,5,1,5,5,5,1,1,1,200,5,5,1"/>
 	</property>
 </item>
@@ -10582,8 +10582,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,RepairKitHuntingRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunRifleT1HuntingRifleSchematic,gunRifleT1HuntingRifle,ammo762mmBulletHP,gunHandgunT2Magnum44Schematic,gunHandgunT2Magnum44,ammo44MagnumBulletHP"/>
-		<property name="Create_item_count" value="1,1,1,5,5,5,5,1,1,150,1,1,200"/>
+		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,RepairKitHuntingRifles,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,gunRifleT1HuntingRifleSchematic,gunRifleT1HuntingRifle,ammo762mmBulletBall,gunHandgunT2Magnum44Schematic,gunHandgunT2Magnum44,ammo44MagnumBulletBall"/>
+		<property name="Create_item_count" value="1,1,1,5,5,5,5,1,1,150,1,1,150"/>
 	</property>
 </item>
 
