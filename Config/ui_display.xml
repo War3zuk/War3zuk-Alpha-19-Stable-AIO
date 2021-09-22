@@ -42,6 +42,7 @@
 		
 		<crafting_category_list display_type="HD AmmoBench">
 			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Chemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
 		</crafting_category_list>
 		
 		<crafting_category_list display_type="HDCementMixer">

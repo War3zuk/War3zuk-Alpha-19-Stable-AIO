@@ -23,6 +23,7 @@ Cleaned 40 Lines Of Code
 Fixed HD Scrap Wrench Power Attack
 Fixed HD Wrench Power Attack
 Added Custom Perks v3.1.1 (Heavily Edited)
+Fixed HD Chemicals Not Showing In Benches
 
 Launcher Edits:
 Edited SnuffKins Zombies Regen HP Amount
