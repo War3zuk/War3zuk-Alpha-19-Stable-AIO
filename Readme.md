@@ -9,6 +9,10 @@ Max Spawned Zombies = 85 (Less Than 75 Will Cause Lag)
 Max Spawned Animals = 65
 Claim Blocks = 1
 
+Added 1st Set Of Regrow Trees !!
+Oak Trees
+Deadwood Trees
+
 Edited HD Winchester 1866 (Spread Code)
 HD Dragunov SVD (Smalltopattachments Removed)
 Adjusted Military Purify Tablets Recipe (4)
@@ -24,6 +28,10 @@ Fixed HD Scrap Wrench Power Attack
 Fixed HD Wrench Power Attack
 Added Custom Perks v3.1.1 (Heavily Edited)
 Fixed HD Chemicals Not Showing In Benches
+Updated Old Icons
+Adjusted Warm Chunky HP Amount
+Fixed Possible Bug (War3zuk_Deco_Ore)
+Fixed Player IsOnFire Bug
 
 Launcher Edits:
 Edited SnuffKins Zombies Regen HP Amount

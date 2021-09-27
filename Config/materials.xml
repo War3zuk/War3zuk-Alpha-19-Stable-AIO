@@ -4,15 +4,15 @@
 	
 	<set xpath="/materials/material[@id='Msteel']/property[@name='MaxDamage']/@value">7500</set>
 	<set xpath="/materials/material[@id='Msteel']/property[@name='stability_glue']/@value">500</set>
-	<set xpath="/materials/material[@id='Msteel']/property[@name='explosionresistance']/@value">1.8</set>
+	<set xpath="/materials/material[@id='Msteel']/property[@name='explosionresistance']/@value">1.7</set>
 	
 	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='MaxDamage']/@value">10000</set>
 	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='stability_glue']/@value">500</set>
 	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='explosionresistance']/@value">2.0</set>
 	
-	<set xpath="/materials/material[@id='Mboulder']/property[@name='MaxDamage']/@value">700</set>
-	<set xpath="/materials/material[@id='MoreStone']/property[@name='MaxDamage']/@value">800</set>
-	<set xpath="/materials/material[@id='MoreMetal']/property[@name='MaxDamage']/@value">900</set>
+	<set xpath="/materials/material[@id='Mboulder']/property[@name='MaxDamage']/@value">800</set>
+	<set xpath="/materials/material[@id='MoreStone']/property[@name='MaxDamage']/@value">900</set>
+	<set xpath="/materials/material[@id='MoreMetal']/property[@name='MaxDamage']/@value">1000</set>
 	
 <append xpath="/materials">
 

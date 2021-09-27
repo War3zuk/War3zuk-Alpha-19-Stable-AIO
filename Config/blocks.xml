@@ -5626,5 +5626,252 @@
 <append xpath="/blocks/block[@name='bodyBagPairMixed']">
 	<property name="Model" value="#@modfolder:Resources/bodyBagPairMixed.unity3d?bodyBagPairMixed.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 </append>
-	
+
+<append xpath="/blocks/block[@name='treeJuniper4m']"> 
+	<property name="DowngradeBlock" value="treeJuniper4mregrow"/>
+</append>
+
+<append xpath="/blocks/block[@name='treeDeadTree01']"> 
+	<property name="DowngradeBlock" value="treeDeadTree01regrow"/>
+</append>
+
+<append xpath="/blocks/block[@name='treeDeadTree02']"> 
+	<property name="DowngradeBlock" value="treeDeadTree02regrow"/>
+</append>
+
+<append xpath="/blocks/block[@name='treeOakSml01']"> 
+	<property name="DowngradeBlock" value="treeOakSml01regrow"/>
+</append>
+
+<append xpath="/blocks/block[@name='treeOakMed01']"> 
+	<property name="DowngradeBlock" value="treeOakMed01regrow"/>
+</append>
+
+<append xpath="/blocks/block[@name='treeOakMed02']"> 
+	<property name="DowngradeBlock" value="treeOakMed02regrow"/>
+</append>
+
+<append xpath="/blocks/block[@name='treeOakLrg01']"> 
+	<property name="DowngradeBlock" value="treeOakLrg01regrow"/>
+</append>
+
+<append xpath="/blocks/block[@name='treePlantedOak1m']"> 
+	<property name="DowngradeBlock" value="treePlantedOak1mregrow"/>
+</append>
+
+<append xpath="/blocks/block[@name='treePlantedOak41m']"> 
+	<property name="DowngradeBlock" value="treePlantedOak41mregrow"/>
+</append>
+
+<append xpath="/blocks">
+
+<block name="treeJuniper4mregrow">
+	<property name="Material" value="MtreeWoodSmall"/>
+	<property name="Tags" value="wood"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="ImposterDontBlock" value="true"/>
+
+	<property name="BigDecorationRadius" value="3"/>
+	<property name="IsPlant" value="true"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="treeJuniper4m"/>
+    <property name="PlantGrowing.GrowthRate" value="1"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="FilterTags" value="foutdoor,ftrees"/>
+	<property name="SortOrder1" value="a0d0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="treeDeadTree01regrow">
+	<property name="Material" value="MtreeWoodSmall"/>
+	<property name="Tags" value="wood"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="BigDecorationRadius" value="3"/>
+	<property name="IsPlant" value="true"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="treeDeadTree01"/>
+    <property name="PlantGrowing.GrowthRate" value="1"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="FilterTags" value="foutdoor,ftrees"/>
+	<property name="SortOrder1" value="a0d0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="treeDeadTree02regrow">
+	<property name="Material" value="MtreeWoodSmall"/>
+	<property name="Tags" value="wood"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="BigDecorationRadius" value="4"/>
+	<property name="IsPlant" value="true"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="treeDeadTree02"/>
+    <property name="PlantGrowing.GrowthRate" value="1"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="FilterTags" value="foutdoor,ftrees"/>
+	<property name="SortOrder1" value="a0d0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="treeOakSml01regrow">
+	<property name="Material" value="MtreeWoodSmall"/>
+	<property name="Tags" value="wood"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="BigDecorationRadius" value="4"/>
+	<property name="IsPlant" value="true"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="treeOakSml01"/>
+    <property name="PlantGrowing.GrowthRate" value="1"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="FilterTags" value="foutdoor,ftrees"/>
+	<property name="SortOrder1" value="a0d0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="treeOakMed01regrow">
+	<property name="Material" value="MtreeWoodSmall"/>
+	<property name="Tags" value="wood"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="BigDecorationRadius" value="4"/>
+	<property name="IsPlant" value="true"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="treeOakMed01"/>
+    <property name="PlantGrowing.GrowthRate" value="1"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="FilterTags" value="foutdoor,ftrees"/>
+	<property name="SortOrder1" value="a0d0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="treeOakMed02regrow">
+	<property name="Material" value="MtreeWoodSmall"/>
+	<property name="Tags" value="wood"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="BigDecorationRadius" value="4"/>
+	<property name="IsPlant" value="true"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="treeOakMed02"/>
+    <property name="PlantGrowing.GrowthRate" value="1"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="FilterTags" value="foutdoor,ftrees"/>
+	<property name="SortOrder1" value="a0d0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="treeOakLrg01regrow">
+	<property name="Material" value="MtreeWoodSmall"/>
+	<property name="Tags" value="wood"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="BigDecorationRadius" value="4"/>
+	<property name="IsPlant" value="true"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="treeOakLrg01"/>
+    <property name="PlantGrowing.GrowthRate" value="1"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="FilterTags" value="foutdoor,ftrees"/>
+	<property name="SortOrder1" value="a0d0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="treePlantedOak1mregrow">
+	<property name="Material" value="MtreeWoodSmall"/>
+	<property name="Tags" value="wood"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="BigDecorationRadius" value="4"/>
+	<property name="IsPlant" value="true"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="treePlantedOak1m"/>
+    <property name="PlantGrowing.GrowthRate" value="1"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="FilterTags" value="foutdoor,ftrees"/>
+	<property name="SortOrder1" value="a0d0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+<block name="treePlantedOak41mregrow">
+	<property name="Material" value="MtreeWoodSmall"/>
+	<property name="Tags" value="wood"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="#Entities/Trees?Prefabs/Stump.prefab"/>
+	<property name="ModelOffset" value="0,0,0"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="BigDecorationRadius" value="4"/>
+	<property name="IsPlant" value="true"/>
+    <property name="Class" value="PlantGrowing"/>
+    <property name="PlantGrowing.Next" value="treePlantedOak41m"/>
+    <property name="PlantGrowing.GrowthRate" value="1"/>
+    <property name="PlantGrowing.IsRandom" value="false"/>
+    <property name="PlantGrowing.FertileLevel" value="0"/>
+    <property name="PlantGrowing.LightLevelGrow" value="0"/>
+    <property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="FilterTags" value="foutdoor,ftrees"/>
+	<property name="SortOrder1" value="a0d0"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+</block>
+
+</append>
 </configs>
