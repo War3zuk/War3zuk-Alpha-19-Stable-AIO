@@ -3098,7 +3098,7 @@
 	<property name="HoldType" value="48"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD M4A1 Carbine.unity3d?HD M4A1 Carbine.Prefab"/> <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
 	<property name="Material" value="MMachineGunParts"/> <property name="Weight" value="4"/>
-	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="RepairTools" value="RepairKitAutomaticRifles"/>
 	<property name="DegradationBreaksAfter" value="false"/>
@@ -3420,7 +3420,7 @@
 <item name="HD Spas 12">
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,perkBoomstick,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,SpasSilencer,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,perkBoomstick,sideAttachments,stock,bottomAttachments,attStrength,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Default.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3429,7 +3429,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -3465,7 +3465,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0000,-.020,-.0000"/>
+		<property name="ScopeCameraOffset" value="-.0000,-.008,-.0000"/>
 	</property>
 	<effect_group name="gunShotgunT2PumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
@@ -3507,7 +3507,7 @@
 <item name="HD Spas 12 Street">
 	<property name="CustomIcon" value="HD Spas 12 Street"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,reloadPenalty,magazine,drumMagazine,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,SpasSilencer,weapon,ranged,holdBreathAiming,reloadPenalty,magazine,drumMagazine,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Street.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3516,7 +3516,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -3552,7 +3552,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0000,-.020,-.0000"/>
+		<property name="ScopeCameraOffset" value="-.0000,-.008,-.0000"/>
 	</property>
 	<effect_group name="gunShotgunT2PumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
@@ -3594,7 +3594,7 @@
 <item name="HD Spas 12 USA">
 	<property name="CustomIcon" value="HD Spas 12 USA"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,SpasSilencer,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 USA.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3603,7 +3603,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -3639,7 +3639,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0000,-.020,-.0000"/>
+		<property name="ScopeCameraOffset" value="-.0000,-.008,-.0000"/>
 	</property>
 	<effect_group name="gunShotgunT2PumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
@@ -3681,7 +3681,7 @@
 <item name="HD Spas 12 Alien">
 	<property name="CustomIcon" value="HD Spas 12 Alien"/>
 	<property name="DescriptionKey" value="HDS12Desc"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,SpasSilencer,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Alien.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3690,7 +3690,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -3726,7 +3726,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0000,-.020,-.0000"/>
+		<property name="ScopeCameraOffset" value="-.0000,-.008,-.0000"/>
 	</property>
 	<effect_group name="gunShotgunT2PumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
@@ -3768,7 +3768,7 @@
 <item name="HD Spas 12 Irish">
 	<property name="DescriptionKey" value="HDS12Desc"/>
 	<property name="CustomIcon" value="HD Spas 12 Irish"/>
-	<property name="Tags" value="noSilencer,HDSpas12Reflex,Moss500,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
+	<property name="Tags" value="noSilencer,HDSpas12Reflex,SpasSilencer,weapon,ranged,holdBreathAiming,magazine,drumMagazine,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,stock,bottomAttachments,attStrength,perkBoomstick,modGunShotgunTubeExtenderMagazine,canHaveCosmetic"/>
 	<property name="DisplayType" value="rangedShotgun"/>
 	<property name="HoldType" value="5"/>
 	<property name="Meshfile" value="#@modfolder:Resources/HD Spas 12.unity3d?HD Spas 12 Irish.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
@@ -3777,7 +3777,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -3813,7 +3813,7 @@
 		<property name="Class" value="Zoom"/>
 		<property name="Zoom_max_out" value="55"/>
 		<property name="Zoom_max_in" value="55"/>
-		<property name="ScopeCameraOffset" value="-.0000,-.020,-.0000"/>
+		<property name="ScopeCameraOffset" value="-.0000,-.008,-.0000"/>
 	</property>
 	<effect_group name="gunShotgunT2PumpShotgun">
 		<passive_effect name="MaxRange" operation="base_set" value="20"/>
@@ -3864,7 +3864,7 @@
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="SoundJammed" value="weapon_jam"/>
 	<property name="Attachments" value="meleeToolFlashlight02"/>
-	<property name="CrosshairOnAim" value="true"/>
+	<property name="CrosshairOnAim" value="false"/>
 	<property name="CrosshairUpAfterShot" value="true"/>
 	<property name="Sound_Sight_In" value="rifle_sight_in"/>
 	<property name="Sound_Sight_Out" value="rifle_sight_out"/>
@@ -9670,6 +9670,7 @@
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDDEPunisherSilencer" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDDESilencer" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMac10AutoSilencer" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDSpasSilencer" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMossberg500Silencer" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDMossberg500Reflex" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="HDArcticWarfareSilencer" operation="set" value="1"/>

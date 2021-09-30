@@ -558,7 +558,11 @@ HDColtM1911ASilencerDesc,items,,,Military Grade Surpressor that can be attached 
 
 HDDesertEagleSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Desert Eagles.
 HDMac10AutoSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Mac10 Auto.
-HDMossberg500SilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD ShotGuns.
+
+HDMossberg500SilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Mossberg 500.
+
+HDSpasSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Spas 12.
+
 HDArcticWarfareSilencerDesc,items,,,Military Grade Surpressor that can be attached to the HD Arctic Warfare or the HD CheyTac M300.
 
 HDDEPunScope,items,Item,KgNone,HD DE Punisher Scope,
@@ -590,6 +594,8 @@ HDDESilencer,items,Item,KgNone,HD Desert Eagle Silencer,
 HDMac10AutoSilencer,items,Item,KgNone,HD Mac 10 Auto Silencer,
 
 HDMossberg500Silencer,items,Item,KgNone,HD Mossberg 500 Silencer,
+
+HDSpasSilencer,items,Item,KgNone,HD Spas 12 Silencer,
 
 HDArcticWarfareSilencer,items,Item,KgNone,HD Arctic Warfare Silencer,
 

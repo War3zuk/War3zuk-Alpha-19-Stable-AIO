@@ -13,6 +13,7 @@ Added 1st Set Of Regrow Trees !!
 Oak Trees
 Deadwood Trees
 
+Edited Reward HD Mechanic PreReq 5 (War3zuk HD Buggy)
 Edited HD Winchester 1866 (Spread Code)
 HD Dragunov SVD (Smalltopattachments Removed)
 Adjusted Military Purify Tablets Recipe (4)
@@ -32,18 +33,24 @@ Updated Old Icons
 Adjusted Warm Chunky HP Amount
 Fixed Possible Bug (War3zuk_Deco_Ore)
 Fixed Player IsOnFire Bug
+Adjusted HD Hazmat Fiber (10 To 20 Per)
+Removed Reticle (HD M4A1 Carbine)
+Added HD Spas Silencer (All Variants)
+Added Mods Catagory To HD GunBench
+Fixed HD Spas 12 Reticle (ADB)
 
 Launcher Edits:
 Edited SnuffKins Zombies Regen HP Amount
-Added Snufkins Custom Zombies Plus (Edited)
+Added Snufkins Custom Zombies Plus (Heavily Edited)
 Fixed War3zuk_Ure_Bike_Repair Prefab
 Added The Walking Dead Woodbury Prefab
 Edited RWGmixer.cfg The Walking Dead Woodbury
 Edited Entity zombieWrestler HP
 Edited zombieTipsySquatch HP
 Edited zombieTipsyPinkSquatch HP
-Added War3zuk Official Map 10k
 Added War3zuk Official Map 8k
+Added War3zuk Official Map 10k
+Added War3zuk Official Map 16k
 !!Warning!! Re-Copy Data Contents As They Have Changed
 
 Updated Prefabs

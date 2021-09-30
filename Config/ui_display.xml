@@ -21,6 +21,7 @@
 		
 		<crafting_category_list display_type="HD GunBench">
 			<crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+			<crafting_category name="Mods" icon="ui_game_symbol_assemble" display_name="lblCategoryMods" />
 		</crafting_category_list>
 		
 		<crafting_category_list display_type="HD Working Oven">

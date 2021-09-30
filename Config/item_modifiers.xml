@@ -361,6 +361,60 @@
 			<property name="SellableToTrader" value="true"/>
 	</item_modifier>
 	
+	<item_modifier name="HDSpasSilencer" installable_tags="SpasSilencer" modifier_tags="barrelAttachment" type="attachment">
+		<property name="CustomIcon" value="HD Mossberg 500 Silencer"/>
+		<property name="DescriptionKey" value="HDSpasSilencerDesc"/>
+		<property name="UnlockedBy" value="HD Mods Schematic"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="DropMeshfile" value="#@modfolder:Resources/HD Mossberg 500.unity3d?HDMossberg500Silencer.Prefab"/>  <!-- Purchased From Unity With Donation Money & Licensed To War3zuk -->
+		
+		<item_property_overrides name="HD Spas 12">
+			<property name="Sound_start" value="MossBerg500S"/>
+			<property name="Sound_loop" value="MossBerg500S"/>
+			<property name="BarrelScale" value="1.5,1.5,2"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Spas 12 Street">
+			<property name="Sound_start" value="MossBerg500S"/>
+			<property name="Sound_loop" value="MossBerg500S"/>
+			<property name="BarrelScale" value="1.5,1.5,2"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Spas 12 USA">
+			<property name="Sound_start" value="MossBerg500S"/>
+			<property name="Sound_loop" value="MossBerg500S"/>
+			<property name="BarrelScale" value="1.5,1.5,2"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Spas 12 Alien">
+			<property name="Sound_start" value="MossBerg500S"/>
+			<property name="Sound_loop" value="MossBerg500S"/>
+			<property name="BarrelScale" value="1.5,1.5,2"/>
+		</item_property_overrides>
+		
+		<item_property_overrides name="HD Spas 12 Irish">
+			<property name="Sound_start" value="MossBerg500S"/>
+			<property name="Sound_loop" value="MossBerg500S"/>
+			<property name="BarrelScale" value="1.5,1.5,2"/>
+		</item_property_overrides>
+
+			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="100" tags="primary,secondary"/>
+			<display_value name="dNoiseMultiplier" value="25"/>
+				<passive_effect name="BlockDamage" operation="base_subtract" value="5"/>
+				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".1"/>
+				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.10"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".10"/>
+				
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/HD Mossberg 500.unity3d?HDMossberg500Silencer.Prefab" parent_transform="Attachments/Barrel"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="1000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+	</item_modifier>
+	
 	<item_modifier name="HDArcticWarfareSilencer" installable_tags="HDArctic" modifier_tags="barrelAttachment" type="attachment">
 		<property name="CustomIcon" value="HD Arctic Warfare Silencer"/>
 		<property name="DescriptionKey" value="HDArcticWarfareSilencerDesc"/>

@@ -284,7 +284,7 @@
 	<ingredient name="resourceAcid" count="1"/>
 </recipe>
 	
-<recipe name="HDHazmatFiber" count="10" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable">
+<recipe name="HDHazmatFiber" count="20" craft_tool="HDCarbonSewingKit" craft_area="HD WorkBench" craft_time = "60" tags="learnable">
 	<ingredient name="resourceYuccaFibers" count="250"/>
 	<ingredient name="resourceScrapPolymers" count="250"/>
 	<ingredient name="resourceDuctTape" count="20"/>
@@ -1169,6 +1169,14 @@
 </recipe>
 
 <recipe name="HDMossberg500Silencer" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="45"/>
+	<ingredient name="resourceGlue" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="HDGun Oil" count="5"/>
+</recipe>
+
+<recipe name="HDSpasSilencer" count="1" craft_time = "60" craft_area="HD GunBench" tags="learnable">
 	<ingredient name="resourceForgedSteel" count="45"/>
 	<ingredient name="resourceGlue" count="5"/>
 	<ingredient name="resourceMechanicalParts" count="5"/>
