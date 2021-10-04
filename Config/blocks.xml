@@ -28,6 +28,7 @@
 	<append xpath="/blocks/block[@name='cntStorageGenericInsecure']"> <property name="LootList" value="51"/> </append>
 	<append xpath="/blocks/block[@name='cntStorageGenericInsecure']"> <property name="CreativeMode" value="None"/> </append>
 	
+	<remove xpath="/blocks/block[@name='cntToaster']"/>
 	<remove xpath="/blocks/block[@name='bedroll']"/>
 	<remove xpath="/blocks/block[@name='cntBirdnest']"/>
 	<remove xpath="/blocks/block[@name='urinalCommercialMounted']"/>
@@ -36,6 +37,18 @@
 	<remove xpath="/blocks/block[@name='airConditionVentFanDouble']"/>
 	
 <append xpath="/blocks">
+
+<block name="cntToaster">
+	<property name="Extends" value="decoEntityMetalMaster"/>
+	<property name="Model" value="Entities/Appliances/toasterPrefab"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="337"/>
+	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+	<drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/>
+	<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+</block>
 	
 <block name="airConditioner">
 	<property name="Material" value="Mmetal"/>
@@ -571,9 +584,9 @@
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="HeatMapStrength" value="1"/>
-	<property name="HeatMapTime" value="50"/>
-	<property name="HeatMapFrequency" value="100"/>
+	<property name="HeatMapStrength" value="0"/>
+	<property name="HeatMapTime" value="0"/>
+	<property name="HeatMapFrequency" value="0"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1"/>
 	<property class="Workstation">
@@ -620,9 +633,9 @@
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="HeatMapStrength" value="1"/>
-	<property name="HeatMapTime" value="50"/>
-	<property name="HeatMapFrequency" value="100"/>
+	<property name="HeatMapStrength" value="0"/>
+	<property name="HeatMapTime" value="0"/>
+	<property name="HeatMapFrequency" value="0"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1"/>
 	<property class="Workstation">
@@ -669,9 +682,9 @@
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="HeatMapStrength" value="1"/>
-	<property name="HeatMapTime" value="50"/>
-	<property name="HeatMapFrequency" value="100"/>
+	<property name="HeatMapStrength" value="0"/>
+	<property name="HeatMapTime" value="0"/>
+	<property name="HeatMapFrequency" value="0"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1"/>
 	<property class="Workstation">
@@ -718,9 +731,9 @@
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="OnlySimpleRotations" value="true"/>
 	<property name="IsTerrainDecoration" value="true"/>
-	<property name="HeatMapStrength" value="1"/>
-	<property name="HeatMapTime" value="50"/>
-	<property name="HeatMapFrequency" value="100"/>
+	<property name="HeatMapStrength" value="0"/>
+	<property name="HeatMapTime" value="0"/>
+	<property name="HeatMapFrequency" value="0"/>
 	<property name="CraftTimeMultiplier" value="0.5,1"/>
 	<property name="Stacknumber" value="1"/>
 	<property class="Workstation">
@@ -770,12 +783,7 @@
     <property name="PlantGrowing.LightLevelGrow" value="0"/>
     <property name="PlantGrowing.LightLevelStay" value="0"/>
 	<property name="Collide" value="melee,bullet,arrow,rocket"/>
-     <drop event="Harvest" name="resourceForgedIron" count="50" tool_category="Disassemble"/>
-	 <drop event="Harvest" name="resourceMetalPipe" count="10" tool_category="Disassemble"/>
-	 <drop event="Harvest" name="resourceMechanicalParts" count="10" tool_category="Disassemble"/>
-	 <drop event="Harvest" name="resourceElectricParts" count="10" tool_category="Disassemble"/>
-	 <drop event="Harvest" name="resourceSpring" count="20" tool_category="Disassemble"/>
-     <drop event="Destroy" count="0" />
+	 <drop event="Destroy" name="HDPumpJackE" count="1" />
 	 <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 	<property class="RepairItems">
 		<property name="resourceForgedIron" value="10"/>
@@ -965,6 +973,7 @@
 	  <property name="OnlySimpleRotations" value="true"/>
 	  <property name="CanPickup" value="true" />
 	  <property name="TakeDelay" value="5"/>
+	  <property name="Group" value="Basics"/>
 	  <drop event="Destroy" count="0"/>
 	  <property name="DowngradeBlock" value="HDJukeBoxReggaeON"/>
 </block>
@@ -994,6 +1003,7 @@
 	  <property name="OnlySimpleRotations" value="true"/>
 	  <property name="CanPickup" value="true" />
 	  <property name="TakeDelay" value="5"/>
+	  <property name="Group" value="Basics"/>
 	  <drop event="Destroy" count="0"/>
 	  <property name="DowngradeBlock" value="HDJukeBoxDubStepON"/>
 </block>
@@ -1023,6 +1033,7 @@
 	  <property name="OnlySimpleRotations" value="true"/>
 	  <property name="CanPickup" value="true" />
 	  <property name="TakeDelay" value="5"/>
+	  <property name="Group" value="Basics"/>
 	  <drop event="Destroy" count="0"/>
 	  <property name="DowngradeBlock" value="HDJukeBox5FingerON"/>
 </block>
@@ -1052,6 +1063,7 @@
 	  <property name="OnlySimpleRotations" value="true"/>
 	  <property name="CanPickup" value="true" />
 	  <property name="TakeDelay" value="5"/>
+	  <property name="Group" value="Basics"/>
 	  <drop event="Destroy" count="0"/>
 	  <property name="DowngradeBlock" value="HDJukeBoxASevenfoldON"/>
 </block>
@@ -2422,9 +2434,9 @@
 	<property name="ParticleOffset" value="0.5,0.6,0.5"/>
 	<property name="ImposterDontBlock" value="true"/>
 	<property name="Stacknumber" value="25000"/>
-	<property name="HeatMapStrength" value="3"/>
-	<property name="HeatMapTime" value="600"/>
-	<property name="HeatMapFrequency" value="60"/>
+	<property name="HeatMapStrength" value="0"/>
+	<property name="HeatMapTime" value="0"/>
+	<property name="HeatMapFrequency" value="0"/>
 	<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
 	<property name="ActiveRadiusEffects" value="buffCampfireAOE(5)"/>
 	<property class="Workstation">

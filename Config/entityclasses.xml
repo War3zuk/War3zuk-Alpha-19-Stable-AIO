@@ -1248,7 +1248,7 @@
 </append>
 
 <set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.05</set>
-<set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">900</set>
+<set xpath="/entity_classes/entity_class[contains(@name, 'EntityLoot')]/property[contains(@name, 'TimeStayAfterDeath')]/@value">1800</set>
 
 <append xpath="/entity_classes/entity_class[@name='animalZombieVulture']">
 	<property name="LootListOnDeath" value="302"/>

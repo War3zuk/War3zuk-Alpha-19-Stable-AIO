@@ -935,6 +935,10 @@
 <lootcontainer id="336" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true">
 	<item group="groupBuriedLootStashTreasureT6"/>
 </lootcontainer>
+
+<lootcontainer id="337" count="1" size="6,8" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge" destroy_on_close="false" loot_quality_template="qualPlus1Template" >
+	<item name="foodShamSandwich" count="1" prob=".25"/>
+</lootcontainer>
 	
 </insertAfter>
     

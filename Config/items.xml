@@ -10560,8 +10560,8 @@
 		<property name="Delay" value="0.5"/>
 		<property name="Use_time" value="1"/>
 		<property name="Sound_start" value="wrench_harvest"/>
-		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeWpnBladeT3MacheteSchematic,meleeToolSalvageT1WrenchSchematic,drinkJarCoffee,gunHandgunT2Magnum44,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,vehicleMinibikeChassisSchematic,vehicleMinibikeHandlebarsSchematic,vehicleMotorcycleChassisSchematic,vehicleMotorcycleHandlebarsSchematic"/>
-		<property name="Create_item_count" value="1,1,5,5,5,5,1,1,20,1,200,1,1,1,1,1,1"/>
+		<property name="Create_item" value="meleeWpnClubT1BaseballBat,RepairKitHandGuns,medicalFirstAidBandage,resourceRepairKit,drinkJarPureMineralWater,foodCanBeef,meleeWpnBladeT3MacheteSchematic,meleeToolSalvageT1WrenchSchematic,drinkJarCoffee,gunHandgunT2Magnum44,ammo44MagnumBulletBall,vehicleBicycleChassisSchematic,vehicleBicycleHandlebarsSchematic,meleeToolSalvageT2Ratchet"/>
+		<property name="Create_item_count" value="1,1,5,5,5,5,1,1,20,1,200,1,1,1"/>
 	</property>
 </item>
 

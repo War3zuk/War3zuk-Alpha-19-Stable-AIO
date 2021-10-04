@@ -141,4 +141,14 @@
 	</weather>
 </append>
 
+	<set xpath="//decoration[@name='deco_shale_vein']/@name">War3zuk_Deco_Shale</set>
+	
+	<set xpath="//decoration[@name='deco_nitrate_vein']/@name">War3zuk_Deco_Nitrate</set>
+	
+	<set xpath="//decoration[@name='deco_lead_vein']/@name">War3zuk_Deco_Lead</set>
+	
+	<set xpath="//decoration[@name='deco_iron_vein']/@name">War3zuk_Deco_Iron</set>
+	
+	<set xpath="//decoration[@name='deco_coal_vein']/@name">War3zuk_Deco_Coal</set>
+
 </War3zuk>

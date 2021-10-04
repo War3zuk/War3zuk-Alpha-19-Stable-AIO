@@ -5,15 +5,14 @@ War3zuk-Alpha-19.6 - AIO STABLE
 Updated v5.8 to v5.9
 
 !!Recommended Min Settings When Creating World!!
-Max Spawned Zombies = 85 (Less Than 75 Will Cause Lag)
-Max Spawned Animals = 65
-Claim Blocks = 1
+Max Spawned Zombies = 100 (Less Than 75 Will Cause Lag)
+Max Spawned Animals = 70
 
 Added 1st Set Of Regrow Trees !!
 Oak Trees
 Deadwood Trees
 
-Edited Reward HD Mechanic PreReq 5 (War3zuk HD Buggy)
+Edited Reward HD Mechanic PreReq 5
 Edited HD Winchester 1866 (Spread Code)
 HD Dragunov SVD (Smalltopattachments Removed)
 Adjusted Military Purify Tablets Recipe (4)
@@ -24,33 +23,38 @@ Adjusted AirCon Blocks Sound Distance
 Adjusted HD Cement Mixer Sound Distance
 Fixed HD Tactical AR Skin Properties
 Fixed HD Spas 12 (Variations) Reflex Position
-Cleaned 40 Lines Of Code
 Fixed HD Scrap Wrench Power Attack
 Fixed HD Wrench Power Attack
 Added Custom Perks v3.1.1 (Heavily Edited)
 Fixed HD Chemicals Not Showing In Benches
-Updated Old Icons
+Updated Icons
 Adjusted Warm Chunky HP Amount
-Fixed Possible Bug (War3zuk_Deco_Ore)
+Rebuilt (War3zuk_Deco_Ore)
 Fixed Player IsOnFire Bug
 Adjusted HD Hazmat Fiber (10 To 20 Per)
 Removed Reticle (HD M4A1 Carbine)
 Added HD Spas Silencer (All Variants)
 Added Mods Catagory To HD GunBench
 Fixed HD Spas 12 Reticle (ADB)
+Edited Mechanic Start Items
+Added HD Pump Jack (Destroy To Pickup)
+Increased Drop Loot Timer (1800)
 
 Launcher Edits:
 Edited SnuffKins Zombies Regen HP Amount
 Added Snufkins Custom Zombies Plus (Heavily Edited)
 Fixed War3zuk_Ure_Bike_Repair Prefab
 Added The Walking Dead Woodbury Prefab
-Edited RWGmixer.cfg The Walking Dead Woodbury
+Edited RWGmixer.cfg
 Edited Entity zombieWrestler HP
 Edited zombieTipsySquatch HP
 Edited zombieTipsyPinkSquatch HP
-Added War3zuk Official Map 8k
-Added War3zuk Official Map 10k
-Added War3zuk Official Map 16k
+Added War3zuk Official KingGen Map 4k
+Added War3zuk Official KingGen Map 8k
+Added War3zuk Official KingGen Map 10k
+Added War3zuk Official KingGen Map 12k
+Added War3zuk Official KingGen Map 14k
+Added War3zuk Official KingGen Map 16k
 !!Warning!! Re-Copy Data Contents As They Have Changed
 
 Updated Prefabs
