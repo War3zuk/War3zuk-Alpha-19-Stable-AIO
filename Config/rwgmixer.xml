@@ -731,7 +731,6 @@
 		<prefab name="xcostum_ZHigh(by_Volar)" max_count="1" min_repeat_distance="800"/>
 		<prefab name="xcostum_ZombieZoo(by_Wsiegel)" max_count="1" min_repeat_distance="800"/>	
 		<prefab name="xcostum_Zug1(by_Horst)" max_count="1" min_repeat_distance="800"/>
-		<prefab name="_Petra_Indiana_Jones_by_MPLogue" max_count="1" min_repeat_distance="800"/>
 </append>
 
 		<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='prefabGroup8k']">
@@ -1464,7 +1463,6 @@
 		<prefab name="xcostum_ZHigh(by_Volar)" max_count="1" min_repeat_distance="1000"/>
 		<prefab name="xcostum_ZombieZoo(by_Wsiegel)" max_count="1" min_repeat_distance="1000"/>	
 		<prefab name="xcostum_Zug1(by_Horst)" max_count="1" min_repeat_distance="1000"/>
-		<prefab name="_Petra_Indiana_Jones_by_MPLogue" max_count="1" min_repeat_distance="1000"/>
 </append>
 
 </War3zuk>
