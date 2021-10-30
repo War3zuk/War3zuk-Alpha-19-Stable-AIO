@@ -58,8 +58,6 @@ Added HD Scrap Tools (Basics Left Player Bar)
 Added HD First Aid Kit HD WorkBench
 HD First Aid Kit (InstaHeals 50hp) Treats DeepCuts
 Added WSoDead FarmLife Expanded (Edited) Testing
-Integrated War3zuk Suicide girls XXX (HD PicsBench)
-Integrated War3zuk Paintings XXX 2x3 (HD PicsBench)
 Fixed/Edited Telrics Iron Gates (Workbench Group)
 Added HD Double Barrel Snub (Quest:Gunman PreReq 3 Of 5)
 Changed Radiated Material For Giants
