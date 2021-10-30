@@ -17,6 +17,7 @@
 			<crafting_category name="Clothing" icon="ui_game_symbol_shirt" display_name="lblCategoryClothing" />
 			<crafting_category name="Food/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFoodCooking" />
 			<crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" />
+			<crafting_category name="Medical" icon="ui_game_symbol_medical" display_name="lblCategoryMedicine" />
 		</crafting_category_list>
 		
 		<crafting_category_list display_type="HD GunBench">
@@ -59,6 +60,10 @@
 			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
 			<display_entry name="$foodAmountAdd" title_key="statFoodAmount"/>
 		</item_display_info>
+		
+		<crafting_category_list display_type="HD BeeHive">
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+		</crafting_category_list>
 	
 </append>
 </ui_display_info>

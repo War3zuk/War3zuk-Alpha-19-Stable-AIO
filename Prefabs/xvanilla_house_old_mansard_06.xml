@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="clear,fetch,hidden_cache"/>
+    <property name="DifficultyTier" value="3"/>
+    <property name="Zoning" value="ResidentialOld,Residential"/>
+    <property name="RotationToFaceNorth" value="3"/>
+    <property name="YOffset" value="-7"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedTownships" value="city,rural,town,wilderness"/>
+    <property name="EditorGroups" value="house old"/>
+    <property name="TraderAreaProtect" value="35, 25, 35"/>
+    <property name="TraderAreaTeleportSize" value="40, 30, 40"/>
+    <property name="TraderAreaTeleportCenter" value="1, 1, 1"/>
+    <property name="SleeperVolumeStart" value="35, 0, 48#18, 23, 65#17, 18, 76#16, 16, 79#18, 23, 60#25, 16, 63#10, 16, 63#16, 2, 56#16, 7, 79#16, 7, 70#25, 7, 58#21, 12, 77#26, 12, 63#10, 12, 63#18, 23, 76#25, 7, 77"/>
+    <property name="SleeperVolumeSize" value="7, 4, 12#12, 3, 10#5, 4, 3#14, 9, 8#7, 3, 5#8, 6, 8#7, 6, 13#17, 4, 13#14, 4, 8#9, 3, 9#5, 3, 18#9, 4, 9#7, 4, 14#8, 4, 13#6, 3, 5#10, 4, 2"/>
+    <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,3,3,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-_Group_Zom_Badass_Only,1,1,S_-Group_Generic_Zombie,2,2,S_-Group_Generic_Zombie,2,2,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,,,"/>
+    <property name="SleeperIsLootVolume" value="False,False,True,False,False,False,False,False,False,False,False,False,False,False,True,False"/>
+    <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,2,2,0,0,0,2,0"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1"/>
+</prefab>

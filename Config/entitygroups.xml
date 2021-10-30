@@ -152,6 +152,8 @@
 		<entity name="zombiePhantasm" prob=".40"/>
 		<entity name="zombiePhantasmFire" prob=".40"/>
 		<entity name="zombiePhantasmRAD" prob=".40"/>
+		<entity name="zombiePhantasmElectro" prob=".10"/>
+		<entity name="ElectroDemolisher" prob=".10"/>
 		<entity name="GiantDemolisher" prob=".20"/>
 		<entity name="zombieDemolition" prob=".20"/>
 		<entity name="GiantDemolisherFire" prob=".20"/>
@@ -208,6 +210,8 @@
 		<entity name="zombiePhantasmFire" prob=".20" />
 		<entity name="zombiePhantasmRAD" prob=".20" />
 		<entity name="GiantDemolisher" prob=".10" />
+		<entity name="zombiePhantasmElectro" prob=".10"/>
+		<entity name="ElectroDemolisher" prob=".10"/>
 		<entity name="zombieDemolition" prob=".10" />
 		<entity name="GiantDemolisherFire" prob=".10" />
 		<entity name="GiantDemolisherRad" prob=".10" />
@@ -223,6 +227,8 @@
 		<entity name="GiantUndeadHound" prob="0.25" />
 		<entity name="GiantUndeadHoundFire" prob="0.25" />
 		<entity name="GiantUndeadHoundRad" prob="0.25" />
+		<entity name="zombiePhantasmElectro" prob=".10"/>
+		<entity name="ElectroDemolisher" prob=".10"/>
 		<entity name="GiantDemolisherFire" prob=".20" />
 		<entity name="GiantDemolisherRad" prob=".20" />
 		<entity name="GiantUndeadVulture" prob=".20" />
@@ -237,6 +243,8 @@
 		<entity name="GiantUndeadHound" prob="5" />
 		<entity name="GiantUndeadHoundFire" prob="5" />
 		<entity name="GiantUndeadHoundRad" prob="5" />
+		<entity name="zombiePhantasmElectro" prob=".10"/>
+		<entity name="ElectroDemolisher" prob=".10"/>
 		<entity name="GiantDemolisher" prob=".25" />
 		<entity name="zombieDemolition" prob=".25" />
 		<entity name="GiantDemolisherFire" prob=".25" />
@@ -251,6 +259,8 @@
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
 		<entity name="GiantUndeadHound" prob=".50" />
+		<entity name="zombiePhantasmElectro" prob=".10"/>
+		<entity name="ElectroDemolisher" prob=".10"/>
 		<entity name="GiantUndeadHoundFire" prob=".50" />
 		<entity name="GiantUndeadHoundRad" prob=".50" />
 		<entity name="GiantUndeadVulture" prob=".20" />
@@ -262,6 +272,8 @@
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
+		<entity name="zombiePhantasmElectro" prob=".10"/>
+		<entity name="ElectroDemolisher" prob=".10"/>
 		<entity name="zombieDemolition" prob=".20" />
 		<entity name="GiantDemolisherFire" prob=".20" />
 		<entity name="GiantDemolisherRad" prob=".20" />
@@ -298,6 +310,8 @@
 		<entity name="zombiePhantasm" prob=".50" />
 		<entity name="zombiePhantasmFire" prob=".50" />
 		<entity name="zombiePhantasmRAD" prob=".50" />
+		<!--<entity name="zombiePhantasmElectro" prob=".10"/>
+		<entity name="ElectroDemolisher" prob=".10"/>-->
 		<entity name="zombieDemolition" prob=".20" />
 		<entity name="GiantDemolisherFire" prob=".20" />
 		<entity name="GiantDemolisherRad" prob=".20" />

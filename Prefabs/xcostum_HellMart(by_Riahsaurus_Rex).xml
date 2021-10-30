@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DifficultyTier" value="4" />
+  <property name="Zoning" value="Downtown, none" />
+  <property name="RotationToFaceNorth" value="3" />
+  <property name="YOffset" value="-2" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="EditorGroups" value="downtown, rural" />
+  <property name="TraderAreaProtect" value="37, 48, 31" />
+  <property name="TraderAreaTeleportSize" value="37, 48, 31" />
+  <property name="TraderAreaTeleportCenter" value="0, 0, 0" />
+  <property name="SleeperVolumeStart" value="21, 2, 64#21, 2, 35#22, 2, 18#21, 7, 16#21, 10, 45#21, 10, 16#0, 2, 0#32, 2, 16#21, 2, 49#21, 2, 0#44, 2, 0#56, 2, 0" />
+  <property name="SleeperVolumeSize" value="38, 1, 11#35, 2, 14#10, 2, 17#35, 2, 48#35, 12, 19#35, 3, 29#21, 2, 75#24, 2, 19#35, 2, 15#23, 3, 16#12, 3, 16#3, 3, 64" />
+  <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Badass,4,10,S_-Group_Generic_Zombie,3,7,S_-_Group_Zom_Badass,1,2,S_-Group_Generic_Zombie,15,25,S_-Group_Generic_Zombie,6,9,S_-_Group_Zom_Badass,8,16,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,3,6,S_-Group_Generic_Zombie,4,8,S_-Group_Generic_Zombie,3,8,S_-Group_Generic_Zombie,4,8,S_-Group_Generic_Zombie,3,9" />
+  <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,," />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="ShowQuestClearCount" value="0" />
+  <property class="IndexedBlockOffsets">
+    <property class="TraderOnOff">
+      <property name="0" value="54, 5, 62" />
+    </property>
+    <property class="brBlock">
+      <property name="0" value="53, 7, 62" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="1907346" />
+    <property name="TotalTriangles" value="1947943" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="1707254" />
+      <property name="Triangles" value="1805485" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="117355" />
+      <property name="Triangles" value="71366" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="10072" />
+      <property name="Triangles" value="5232" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="548" />
+      <property name="Triangles" value="318" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="60395" />
+      <property name="Triangles" value="46378" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="11722" />
+      <property name="Triangles" value="19164" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+</prefab>

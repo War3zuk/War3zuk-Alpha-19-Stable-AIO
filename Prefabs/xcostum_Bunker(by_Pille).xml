@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="fetch"/>
+    <property name="DifficultyTier" value="5"/>
+    <property name="Zoning" value="Residential"/>
+    <property name="RotationToFaceNorth" value="3"/>
+    <property name="YOffset" value="-32"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedBiomes" value="burnt_forest,desert,wasteland"/>
+    <property name="AllowedTownships" value="wilderness"/>
+    <property name="EditorGroups" value="Wilderness"/>
+    <property name="SleeperVolumeStart" value="46, 14, 2#65, 5, 0#65, 13, 9#28, 13,15#43, 5, 27#57, 5, 41#48, 5, 20#59, 5, 26#66, 5, 39#42, 5, 39#70, 15, 54#58, 8,47#16, 14, 26#59, 5, 15#49, 21, 1#47, 1, 2#62, 7, 1#16, 5, 26#12, 5, 10#67, 12, 74#60,4, 62#37, 5, 10#60,4, 62#65, 4, 63"/>
+    <property name="SleeperVolumeSize" value="9, 3, 8#6, 7, 7#10, 26, 10#7, 2,15#14, 3, 9#6, 3, 3#4, 3, 4#3, 3, 3#5, 3, 7#12, 3, 8#5, 3, 5#11, 4,8#5, 3, 6#12, 3, 6#5, 2, 5#13, 3, 6#6, 3, 7#2, 3, 5#2, 3, 25#8, 4, 10#7,4, 6#20, 3, 3#7,4, 6#7, 3, 10"/>
+    <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Badass_Only,34,36,S_-_Group_Zom_Badass_Only,24,26,S_-Group_Generic_Zombie,25,27,S_-_Group_Zom_Badass_Only,14,15,S_-Group_Generic_Zombie,14,15,S_-Group_Generic_Zombie,2,2,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,3,3,S_-Group_Generic_Zombie,2,2,S_-_Group_Zom_Badass_Only,10,12,S_-_Group_Zom_Badass_Only,13,15,S_-_Group_Zom_Badass_Only,24,26,S_-Group_Generic_Zombie,3,4,S_-_Group_Zom_Badass_Only,21,21,S_-_Group_Zom_Badass_Only,21,21,S_-Group_Generic_Zombie,34,36,S_-_Group_Zom_Badass_Only,24,26,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,10,11,S_Zom_HazMat_Only,10,11,S_-_Group_Lab_Worker,4,5,S_Zom_HazMat_Only,4,4,S_Zom_HazMat_Only,1,1"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,,,,,,,,,,,"/>
+    <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="2,2,2,2,2,0,0,0,2,0,2,2,2,0,2,2,2,2,0,2,2,0,2,0"/>
+    <property name="SleeperVolumeGroupId" value="1,1,0,3,3,0,0,0,0,0,4,4,7,0,6,6,1,7,0,8,8,0,8,0"/>
+    <property name="ShowQuestClearCount" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+</prefab>

@@ -424,7 +424,7 @@
 	<buff name="buffBlackOut" name_key="BlackOut" description_key="Youve been Knocked Out" tooltip_key="Youve been Knocked Out" icon="ui_game_symbol_BlackOut">
 		<damage_type value="knockout"/>
 		<stack_type value="replace"/>
-		<duration value="5"/>
+		<duration value="10"/>
 		<effect_group>
 			<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="1" effect_name="Blur"/>
 			<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Blur"/>
@@ -510,7 +510,7 @@
 		</effect_group>
 	</buff>
 	
-	<buff name="AlarmOn" hidden="true" icon="ui_game_symbol_BlackOut"> 
+	<!--<buff name="AlarmOn" hidden="true"> 
 		<stack_type value="effect"/>
 		<duration value="1"/>
 		<effect_group>
@@ -519,13 +519,89 @@
 		</effect_group>
 	</buff>
 	
-	<buff name="War3zukAlarmOn" hidden="true" icon="ui_game_symbol_BlackOut"> 
+	<buff name="War3zukAlarmOn" hidden="true"> 
 		<stack_type value="effect"/>
-		<duration value="6"/>
+		<duration value="5"/>
 		<effect_group>
 			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" target="self" sound="WarAlarm01"/>
 			<triggered_effect trigger="onSelfBuffFinish" action="FadeOutSound" target="self" sound="WarAlarm01"/>
 			<triggered_effect trigger="onSelfLeaveGame" action="StopSound" target="self" sound="WarAlarm01"/>
+		</effect_group>
+	</buff>-->
+	
+	<buff name="buffHDIsOnFire">
+		<damage_type value="Heat"/>
+		<stack_type value="ignore"/>
+		<duration value="0"/>
+			<effect_group name="run particles, cleanup">
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,-.2,0" parent_transform="LOD0" shape_mesh="true"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,-.2,0" parent_transform="LOD0" shape_mesh="true"/>
+
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHDIsShocked">
+		<damage_type value="electrical"/>
+		<stack_type value="replace"/>
+		<duration value="0"/>
+			<effect_group name="run particles, cleanup">
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="0,-.2,0" parent_transform="LOD0" shape_mesh="true"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="0,-.2,0" parent_transform="LOD0" shape_mesh="true"/>
+
+			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="positionAOE" range="5" buff="buffHDIsShockedAOE">
+				<requirement name="!EntityTagCompare" target="other" tags="other"/>
+			</triggered_effect>
+			
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHDIsShocked1">
+		<damage_type value="electrical"/>
+		<stack_type value="replace"/>
+		<duration value="0"/>
+			<effect_group name="run particles, cleanup">
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="0,-.2,0" parent_transform="Spine1" shape_mesh="true"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="0,-.2,0" parent_transform="Spine1" shape_mesh="true"/>
+
+			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" target="positionAOE" range="5" buff="buffHDIsShockedAOE">
+				<requirement name="!EntityTagCompare" target="other" tags="other"/>
+			</triggered_effect>
+			
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+		</effect_group>
+	</buff>
+	
+	<buff name="buffHDIsShockedAOE">
+		<damage_type value="electrical"/>
+		<stack_type value="replace"/>
+		<duration value="4.5"/>
+		<effect_group>
+			<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffHDIsShocked"/>
+
+			<passive_effect name="HealthChangeOT" operation="base_add" value="-10"/>
+			<passive_effect name="RunSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.3"/>
+			<passive_effect name="WalkSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.3"/>
+			<passive_effect name="CrouchSpeed" operation="perc_subtract" value="0.9,0" duration="0,3.3"/>
+			<passive_effect name="JumpStrength" operation="perc_subtract" value="0.9,0" duration="0,3.3"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0"/>
+
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+
+			<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="ETrapHit" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="electric_fence_impact"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="electric_fence_impact"/>
+			<triggered_effect trigger="onSelfLeaveGame" action="StopSound" sound="electric_fence_impact"/>
 		</effect_group>
 	</buff>
 

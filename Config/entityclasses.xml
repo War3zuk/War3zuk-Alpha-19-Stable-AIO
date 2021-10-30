@@ -197,6 +197,7 @@
 	<property name="MoveSpeedPanic" value="1.5"/>
 	<property name="ExperienceGain" value="130"/>
 	<property name="DeadBodyHitPoints" value="175"/>
+	<property name="Buffs" value="buffHDIsShocked"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -214,8 +215,7 @@
 
 <entity_class name="GiantRabbitRad" extends="animalTemplateTimid">
 	<property name="Tags" value="entity,animal,rabbit,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/LabZombie_radiated.mat"/>
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
@@ -334,8 +334,7 @@
 
 <entity_class name="GiantChickenRad" extends="animalTemplateTimid">
 	<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/LabZombie_radiated.mat"/>
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
@@ -507,8 +506,7 @@
 
 <entity_class name="GiantSnakeRad" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/LabZombie_radiated.mat"/>
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
@@ -666,8 +664,7 @@
 
 <entity_class name="GiantUndeadVultureRad" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/LabZombie_radiated.mat"/>
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="Class" value="EntityVulture"/>
 	<property name="EntityType" value="Zombie"/>
@@ -804,8 +801,7 @@
 
 <entity_class name="GiantBoarRad" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/LabZombie_radiated.mat"/>
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_pig"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_pig"/>
@@ -957,8 +953,7 @@
 <entity_class name="GiantUndeadHoundRad" extends="animalWolf">
 	<property name="Tags" value="entity,animal,zombie,hostile,dog"/>
 	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDogZombieRagdoll"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/LabZombie_radiated.mat"/>
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="Class" value="EntityZombieDog"/>
 	<property name="SoundRandomTime" value="45.0"/>
@@ -1100,6 +1095,7 @@
 	<property name="ExperienceGain" value="1250"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
 	<property name="LootDropProb" value="0.1"/>
+	<property name="Buffs" value="buffHDIsOnFire"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="1250"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
@@ -1112,7 +1108,7 @@
 <entity_class name="GiantDemolisherRad" extends="zombieSoldier">
 	<property name="Tags" value="entity,zombie,walker,boss"/>
 	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardDemolitionRagdoll.prefab"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/feral_radiated.mat"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mass" value="300"/>
@@ -1214,6 +1210,7 @@
 	<property name="ExperienceGain" value="1200"/>
 	<property name="LootDropProb" value=".05"/>
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<property name="Buffs" value="buffHDIsOnFire"/>
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="750"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
@@ -1222,8 +1219,7 @@
 
 <entity_class name="zombiePhantasmRAD" extends="zombiePhantasm">
 	<property name="Tags" value="entity,male,zombie,walker,feral"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/LabZombie_radiated.mat"/>
-	<property name="ReplaceMaterial1" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>
+	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="DismemberMultiplierHead" value=".7"/>
 	<property name="DismemberMultiplierArms" value=".7"/>
@@ -1238,12 +1234,87 @@
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="950"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
-		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="1"/>
 		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
 	</effect_group>
 </entity_class>
 
-<!--  Insperation For These Dedicated Too AwakenedBison33  -->
+<entity_class name="ElectroDemolisher" extends="zombieSoldier">
+	<property name="Tags" value="entity,zombie,walker,boss"/>
+	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardDemolitionRagdoll.prefab"/>
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="Mass" value="300"/>
+	<property name="AITask-1" value="BreakBlock"/>
+	<property name="AITask-2" value="DestroyArea"/>
+	<property name="AITask-3" value="ApproachAndAttackTarget" data="class=EntityNPC,0,EntityEnemyAnimal,0,EntityPlayer,0"/>
+	<property name="AITask-4" value="ApproachSpot"/>
+	<property name="AITask-5" value="Look"/>
+	<property name="AITask-6" value="Wander"/>
+	<property name="AITask-7" value=""/>
+	<property name="SizeScale" value="0.5"/>
+	<property name="SoundRandom" value="demolitionzroam"/>
+	<property name="SoundAlert" value="demolitionzalert"/>
+	<property name="SoundAttack" value="demolitionzattack"/>
+	<property name="SoundHurt" value="demolitionzpain"/>
+	<property name="SoundDeath" value="demolitionzdeath"/>
+	<property name="SoundSense" value="demolitionzsense"/>
+	<property name="SoundFootstepModifier" value="bear_footstep"/>
+	<property name="HandItem" value="meleeHandZombieDemolitionWAR"/>
+	<property name="JumpMaxDistance" value="12, 16"/>
+	<property name="MoveSpeed" value="7.5"/>
+	<property name="MoveSpeedAggro" value="8.5, 8.9"/>
+	<property name="MoveSpeedPanic" value="9.4"/>
+	<property name="PainResistPerHit" value=".3"/>
+	<property name="Explosion.ParticleIndex" value="2"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="6"/>
+	<property name="Explosion.BlockDamage" value="250"/>
+	<property name="Explosion.EntityDamage" value="50"/>
+	<property name="Explosion.DamageBonus.earth" value=".1"/>
+	<property name="StompsSpikes" value="true"/>
+	<property name="ExplodeDelay" value="1"/>
+	<property name="ExplodeHealthThreshold" value="0"/>
+	<property name="SoundExplodeWarn" value="demolitionzexplodewarning"/>
+	<property name="SoundTick" value="demolitionz_beep,.5,.9"/>
+	<property name="ExperienceGain" value="450"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerBoss"/>
+	<property name="LootDropProb" value="0.5"/>
+	<property name="Buffs" value="buffHDIsShocked"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="550"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="1" tags="head"/>
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="20"/>
+		<triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" target="self" cvar="EntityBoss" operation="set" value="1"/>
+		
+		<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffHDIsShockedAOE">
+		</passive_effect>
+	</effect_group>
+</entity_class>
+
+<entity_class name="zombiePhantasmElectro" extends="zombiePhantasm">
+	<property name="Tags" value="entity,male,zombie,walker,feral"/>
+	<property name="DismemberMultiplierHead" value=".7"/>
+	<property name="DismemberMultiplierArms" value=".7"/>
+	<property name="DismemberMultiplierLegs" value=".7"/>
+	<property name="PainResistPerHit" value=".25"/>
+	<property name="MoveSpeedAggro" value="1.7, 2.5"/>
+	<property name="SizeScale" value="1"/>
+	<property name="HandItem" value="meleeHandZombieCopFeral"/>
+	<property name="ExperienceGain" value="1500"/>
+	<property name="LootDropProb" value=".05"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<property name="Buffs" value="buffHDIsShocked1"/>
+	<effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="450"/>
+		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="1"/>
+		<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+		
+		<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffHDIsShockedAOE">
+		</passive_effect>
+	</effect_group>
+</entity_class>
 
 </append>
 
@@ -1300,6 +1371,10 @@
 
 <append xpath="/entity_classes/entity_class[@name='zombieSpider']">
 	<property name="HandItem" value="meleeHandZombieSpiderWAR"/>
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieBurnt']">
+	<property name="Buffs" value="buffHDIsOnFire"/>
 </append>
   
 </configs>

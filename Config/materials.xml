@@ -3,11 +3,11 @@
 	<set xpath="/materials/material[@id='MwoodReinforced']/property[@name='MaxDamage']/@value">500</set>
 	
 	<set xpath="/materials/material[@id='Msteel']/property[@name='MaxDamage']/@value">7500</set>
-	<set xpath="/materials/material[@id='Msteel']/property[@name='stability_glue']/@value">500</set>
+	<set xpath="/materials/material[@id='Msteel']/property[@name='stability_glue']/@value">400</set>
 	<set xpath="/materials/material[@id='Msteel']/property[@name='explosionresistance']/@value">1.7</set>
 	
 	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='MaxDamage']/@value">10000</set>
-	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='stability_glue']/@value">500</set>
+	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='stability_glue']/@value">400</set>
 	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='explosionresistance']/@value">2.0</set>
 	
 	<set xpath="/materials/material[@id='Mboulder']/property[@name='MaxDamage']/@value">800</set>
@@ -22,7 +22,7 @@
 	<property name="forge_category" value="Scrapped Schematics"/>
 	<property name="Hardness" type="float" value="0.1"/>
 	<property name="stepsound" value="wood"/>
-	<property name="stability_glue" value="20"/>
+	<property name="stability_glue" value="0"/>
 	<property name="Mass" type="int" value="5"/>
 </material>
 	
@@ -32,7 +32,7 @@
 	<property name="forge_category" value="iron"/>
 	<property name="Hardness" type="float" value="1"/>
 	<property name="stepsound" value="metal"/>
-	<property name="stability_glue" value="500"/>
+	<property name="stability_glue" value="400"/>
 	<property name="Mass" type="int" value="20"/>
 	<property name="explosionresistance" value="2.5"/>
 	<property name="MaxDamage" value="20000"/>
@@ -57,7 +57,7 @@
 	<property name="forge_category" value="iron"/>
 	<property name="Hardness" type="float" value="1"/>
 	<property name="stepsound" value="metal"/>
-	<property name="stability_glue" value="500"/>
+	<property name="stability_glue" value="400"/>
 	<property name="Mass" type="int" value="20"/>
 	<property name="explosionresistance" value="2.25"/>
 	<property name="MaxDamage" value="12000"/>
@@ -70,7 +70,7 @@
 	<property name="forge_category" value="iron"/>
 	<property name="Hardness" type="float" value="1"/>
 	<property name="stepsound" value="metal"/>
-	<property name="stability_glue" value="500"/>
+	<property name="stability_glue" value="400"/>
 	<property name="Mass" type="int" value="20"/>
 	<property name="explosionresistance" value="2.5"/>
 	<property name="MaxDamage" value="15000"/>
@@ -85,8 +85,8 @@
 	<property name="Hardness" type="float" value="1"/>
 	<property name="stepsound" value="wood"/>
 	<property name="lightopacity" value="1"/>
-	<property name="stability_glue" value="0"/>
-	<property name="Mass" type="int" value="1"/>
+	<property name="stability_glue" value="20"/>
+	<property name="Mass" type="int" value="5"/>
 	<property name="plant" value="true"/>
 	<property name="StabilitySupport" value="false"/>
 	<property name="MaxDamage" value="1"/>
@@ -98,7 +98,7 @@
 	<property name="surface_category" value="metal"/>
 	<property name="Hardness" type="float" value="1"/>
 	<property name="stepsound" value="metal"/>
-	<property name="stability_glue" value="20"/>
+	<property name="stability_glue" value="10"/>
 	<property name="Mass" type="int" value="5"/>
 	<property name="StabilitySupport" value="true"/>
 	<property name="MaxDamage" value="1000"/>
@@ -112,7 +112,7 @@
 	<property name="Hardness" type="float" value="1"/>
 	<property name="stepsound" value="cloth"/>
 	<property name="lightopacity" value="4"/>
-	<property name="stability_glue" value="2"/>
+	<property name="stability_glue" value="0"/>
 	<property name="Mass" type="int" value="1"/>
 	<property name="StabilitySupport" value="false"/>
 	<property name="MaxDamage" value="5"/>

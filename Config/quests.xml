@@ -114,7 +114,7 @@
 		<objective type="FetchKeep" id="resourceWood" value="5" phase="1"/>
 		<objective type="Craft" id="meleeWpnClubT0WoodenClub" value="1" phase="2"/>
 		
-		<reward type="Exp" value="100" />
+		<reward type="Exp" value="1000" />
 		<reward type="Quest" id="HD Bruiser PreReq 2" />
 </quest>
 	
@@ -135,7 +135,7 @@
 		<objective type="FetchKeep" id="resourceDuctTape" value="3" phase="1"/>
 		<objective type="Craft" id="meleeWpnKnucklesT3SteelKnuckles" value="1" phase="2"/>
 		
-		<reward type="Exp" value="200" />
+		<reward type="Exp" value="2000" />
 		<reward type="Quest" id="HD Bruiser PreReq 3" />
 </quest>
 	
@@ -157,7 +157,7 @@
 		<objective type="FetchKeep" id="resourceDuctTape" value="3" phase="1"/>
 		<objective type="Craft" id="meleeWpnBladeT3Machete" value="1" phase="2"/>
 		
-		<reward type="Exp" value="300" />
+		<reward type="Exp" value="3000" />
 		<reward type="Quest" id="HD Bruiser PreReq 4" />
 </quest>
 	
@@ -178,7 +178,7 @@
 		<objective type="FetchKeep" id="resourceDuctTape" value="2" phase="1"/>
 		<objective type="Craft" id="meleeWpnSledgeT1IronSledgehammer" value="1" phase="2"/>
 		
-		<reward type="Exp" value="400" />
+		<reward type="Exp" value="4000" />
 		<reward type="Quest" id="HD Bruiser PreReq 5" />
 </quest>
 	
@@ -200,7 +200,7 @@
 		<objective type="FetchKeep" id="resourceDuctTape" value="3" phase="1"/>
 		<objective type="Craft" id="meleeWpnSledgeT3SteelSledgehammer" value="1" phase="2"/>
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="meleeWpnSledgeT3SteelSledgehammer" value="6" />
 		<reward type="Item" id="meleeWpnSledgeT1IronSledgehammer" value="6" />
@@ -213,8 +213,26 @@
 	<property name="name_key" value="HD Builder PreReq 1" />
 	<property name="subtitle_key" value="HD Builder PreReq 1 Of 5" />
 	<property name="group_name_key" value="HD Builder PreReq" />
-	<property name="description_key" value="Start collecting the various resources needed" />
+	<property name="description_key" value="Time to Craft the Ultimate Helper" />
 	<property name="icon" value="ui_game_symbol_ClassBuilder1" />
+	<property name="repeatable" value="false" />
+	<property name="category_key" value="Quest" />
+	<property name="difficulty" value="easy" />
+	<property name="shareable" value="false" />
+		
+		<objective type="Craft" id="HD Mini Hatchet" value="1" phase="1" />
+		<objective type="Repair" id="HD Mini Hatchet" value="1" phase="2" />
+		
+		<reward type="Exp" value="1000" />
+		<reward type="Quest" id="HD Builder PreReq 2" />
+</quest>
+
+<quest id="HD Builder PreReq 2">
+	<property name="name_key" value="HD Builder PreReq 2" />
+	<property name="subtitle_key" value="HD Builder PreReq 2 Of 5" />
+	<property name="group_name_key" value="HD Builder PreReq" />
+	<property name="description_key" value="Start collecting the various resources needed" />
+	<property name="icon" value="ui_game_symbol_ClassBuilder2" />
 	<property name="repeatable" value="false" />
 	<property name="category_key" value="Quest" />
 	<property name="difficulty" value="easy" />
@@ -224,16 +242,16 @@
 		<objective type="FetchKeep" id="resourceRockSmall" value="3000" />
 		<objective type="FetchKeep" id="resourceClayLump" value="3000" />
 		
-		<reward type="Exp" value="100" />
-		<reward type="Quest" id="HD Builder PreReq 2" />
+		<reward type="Exp" value="2000" />
+		<reward type="Quest" id="HD Builder PreReq 3" />
 </quest>
 	
-<quest id="HD Builder PreReq 2">
-	<property name="name_key" value="HD Builder PreReq 2" />
-	<property name="subtitle_key" value="HD Builder PreReq 2 Of 5" />
+<quest id="HD Builder PreReq 3">
+	<property name="name_key" value="HD Builder PreReq 3" />
+	<property name="subtitle_key" value="HD Builder PreReq 3 Of 5" />
 	<property name="group_name_key" value="HD Builder PreReq" />
 	<property name="description_key" value="Time to collect some additional resources" />
-	<property name="icon" value="ui_game_symbol_ClassBuilder2" />
+	<property name="icon" value="ui_game_symbol_ClassBuilder3" />
 	<property name="repeatable" value="false" />
 	<property name="category_key" value="Quest" />
 	<property name="difficulty" value="easy" />
@@ -245,25 +263,7 @@
 		<objective type="FetchKeep" id="resourceDuctTape" value="10" />
 		<objective type="FetchKeep" id="resourceLeather" value="10" />
 		
-		<reward type="Exp" value="200" />
-		<reward type="Quest" id="HD Builder PreReq 3" />
-</quest>
-	
-<quest id="HD Builder PreReq 3">
-	<property name="name_key" value="HD Builder PreReq 3" />
-	<property name="subtitle_key" value="HD Builder PreReq 3 Of 5" />
-	<property name="group_name_key" value="HD Builder PreReq" />
-	<property name="description_key" value="Time to Craft the Ultimate Helper" />
-	<property name="icon" value="ui_game_symbol_ClassBuilder3" />
-	<property name="repeatable" value="false" />
-	<property name="category_key" value="Quest" />
-	<property name="difficulty" value="easy" />
-	<property name="shareable" value="false" />
-		
-		<objective type="Craft" id="HD Mini Hatchet" value="1" phase="1" />
-		<objective type="Repair" id="HD Mini Hatchet" value="1" phase="2" />
-		
-		<reward type="Exp" value="300" />
+		<reward type="Exp" value="3000" />
 		<reward type="Quest" id="HD Builder PreReq 4" />
 </quest>
 	
@@ -283,7 +283,7 @@
 		<objective type="BlockUpgrade" id="woodFrameBlock" value="50" phase="2" />
 		<objective type="BlockUpgrade" id="woodBlock" value="50" phase="2" />
 		
-		<reward type="Exp" value="400" />
+		<reward type="Exp" value="4000" />
 		<reward type="Quest" id="HD Builder PreReq 5" />
 </quest>
 	
@@ -303,7 +303,7 @@
 		<objective type="Craft" id="HD Chainsaw" value="1" phase="3" />
 		<objective type="Repair" id="HD Chainsaw" value="1" phase="4" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="pouredConcreteBlockVariantHelper" value="1000" />
 		<reward type="Item" id="Class Builder VM" value="1" />
@@ -327,7 +327,7 @@
 		<objective type="FetchKeep" id="resourceLeather" value="50" />
 		<objective type="FetchKeep" id="resourceOil" value="20" />
 		
-		<reward type="Exp" value="100" />
+		<reward type="Exp" value="1000" />
 		<reward type="Quest" id="HD Engineer PreReq 2" />
 </quest>
 	
@@ -345,7 +345,7 @@
 		<objective type="Craft" id="generatorbank" value="1" phase="1" />
 		<objective type="BlockPlace" id="generatorbank" value="1" phase="2" />
 		
-		<reward type="Exp" value="200" />
+		<reward type="Exp" value="2000" />
 		<reward type="Quest" id="HD Engineer PreReq 3" />
 </quest>
 	
@@ -363,7 +363,7 @@
 		<objective type="Craft" id="batterybank" value="1" phase="1" />
 		<objective type="BlockPlace" id="batterybank" value="1" phase="2" />
 		
-		<reward type="Exp" value="300" />
+		<reward type="Exp" value="3000" />
 		<reward type="Quest" id="HD Engineer PreReq 4" />
 </quest>
 	
@@ -382,7 +382,7 @@
 		<objective type="Craft" id="electricwirerelay" value="1" phase="1" />
 		<objective type="BlockPlace" id="electricwirerelay" value="1" phase="2" />
 		
-		<reward type="Exp" value="400" />
+		<reward type="Exp" value="4000" />
 		<reward type="Quest" id="HD Engineer PreReq 5" />
 </quest>
 	
@@ -401,7 +401,7 @@
 		<objective type="Craft" id="HD Cell" value="6" phase="1" />
 		<objective type="BlockPlace" id="HD Generator" value="1" phase="2" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="HDBreachingC4" value="20" />
 		<reward type="Item" id="HD Ground Mine" value="20" />
@@ -427,7 +427,7 @@
 		<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="500" phase="1" />
 		<objective type="FetchKeep" id="resourceClayLump" value="2000" phase="1" />
 		
-		<reward type="Exp" value="100" />
+		<reward type="Exp" value="1000" />
 		<reward type="Quest" id="HD Farmer PreReq 2" />
 </quest>
 	
@@ -446,7 +446,7 @@
 		<objective type="FetchKeep" id="resourceCropChrysanthemumPlant" value="25" />
 		<objective type="FetchKeep" id="foodCropCorn" value="25" />
 		
-		<reward type="Exp" value="200" />
+		<reward type="Exp" value="2000" />
 		<reward type="Quest" id="HD Farmer PreReq 3" />
 </quest>
 	
@@ -465,7 +465,7 @@
 		<objective type="FetchKeep" id="foodCropBlueberries" value="25" />
 		<objective type="FetchKeep" id="resourceCropCoffeeBeans" value="25" />
 		
-		<reward type="Exp" value="300" />
+		<reward type="Exp" value="3000" />
 		<reward type="Quest" id="HD Farmer PreReq 4" />
 </quest>
 	
@@ -483,7 +483,7 @@
 		<objective type="Craft" id="farmPlotBlockPlayer" value="20" phase="1" />
 		<objective type="BlockPlace" id="farmPlotBlockPlayer" value="20" phase="2" />
 		
-		<reward type="Exp" value="400" />
+		<reward type="Exp" value="4000" />
 		<reward type="Quest" id="HD Farmer PreReq 5" />
 </quest>
 	
@@ -505,7 +505,7 @@
 		<objective type="BlockPlace" id="plantedBlueberry1" value="3" />
 		<objective type="BlockPlace" id="plantedCoffee1" value="3" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="HD Spas 12 USA" value="6" />
 		<reward type="Item" id="Class Farmer VM" value="1" />
@@ -523,9 +523,9 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 		
-		<objective type="AnimalKill" value="40" />
+		<objective type="AnimalKill" value="50" />
 		
-		<reward type="Exp" value="100" />
+		<reward type="Exp" value="1000" />
 		<reward type="Quest" id="HD Gunman PreReq 2" />
 </quest>
 	
@@ -540,7 +540,7 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 	
-		<objective type="ZombieKill" value="50" />
+		<objective type="ZombieKill" value="100" />
 		<requirement type="Group" id="requirementGroupHDPistols" value="OR">
 			<requirement type="Holding" id="HDGlock18Auto" />
 			<requirement type="Holding" id="HD Colt M1911" />
@@ -549,7 +549,7 @@
 			<requirement type="Holding" id="HD Desert Eagle Punisher" />
 		</requirement>
 		
-		<reward type="Exp" value="200" />
+		<reward type="Exp" value="2000" />
 		<reward type="Quest" id="HD Gunman PreReq 3" />
 </quest>
 	
@@ -564,8 +564,9 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 	
-		<objective type="ZombieKill" value="60" />
+		<objective type="ZombieKill" value="150" />
 		<requirement type="Group" id="requirementGroupHDShotguns" value="OR">
+			<requirement type="Holding" id="HD Double Barrel Snub" />
 			<requirement type="Holding" id="HD Double Barrel" />
 			<requirement type="Holding" id="HD Mossberg 500" />
 			<requirement type="Holding" id="HD Spas 12" />
@@ -575,7 +576,7 @@
 			<requirement type="Holding" id="HD Spas 12 Irish" />
 		</requirement>
 		
-		<reward type="Exp" value="300" />
+		<reward type="Exp" value="3000" />
 		<reward type="Quest" id="HD Gunman PreReq 4" />
 </quest>
 	
@@ -590,7 +591,7 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 	
-		<objective type="ZombieKill" value="70" />
+		<objective type="ZombieKill" value="250" />
 		<requirement type="Group" id="requirementGroupHDAutoRifles" value="OR">
 			<requirement type="Holding" id="HD HK33 Hybrid" />
 			<requirement type="Holding" id="HD AK Hybrid ACP" />
@@ -598,7 +599,7 @@
 			<requirement type="Holding" id="HD Tactical AR" />
 		</requirement>
 		
-		<reward type="Exp" value="400" />
+		<reward type="Exp" value="4000" />
 		<reward type="Quest" id="HD Gunman PreReq 5" />
 </quest>
 	
@@ -613,7 +614,7 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 		
-		<objective type="ZombieKill" value="80" />
+		<objective type="ZombieKill" value="500" />
 		<requirement type="Group" id="requirementGroupHDSniperRifles" value="OR">
 			<requirement type="Holding" id="HD Arctic Warfare" />
 			<requirement type="Holding" id="HD CheyTac M300" />
@@ -624,7 +625,7 @@
 			<requirement type="Holding" id="HD Royal Enfield" />
 		</requirement>
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="HD Dragunov SVD" value="6" />
 		<reward type="Item" id="HDDragunovSVDScope" value="1" />
@@ -651,7 +652,7 @@
 		<objective type="FetchKeep" id="resourceDuctTape" value="100" />
 		<objective type="FetchKeep" id="resourceLeather" value="200" />
 		
-		<reward type="Exp" value="100" />
+		<reward type="Exp" value="1000" />
 		<reward type="Quest" id="HD Mechanic PreReq 2" />
 </quest>
 	
@@ -670,7 +671,7 @@
 		<objective type="Craft" id="vehicleBicycleHandlebars" value="1" phase="1" />
 		<objective type="Craft" id="vehicleBicyclePlaceable" value="1" phase="2" />
 		
-		<reward type="Exp" value="200" />
+		<reward type="Exp" value="2000" />
 		<reward type="Quest" id="HD Mechanic PreReq 3" />
 </quest>
 	
@@ -689,7 +690,7 @@
 		<objective type="Craft" id="vehicleMinibikeHandlebars" value="1" phase="1" />
 		<objective type="Craft" id="vehicleMinibikePlaceable" value="1" phase="2" />
 		
-		<reward type="Exp" value="300" />
+		<reward type="Exp" value="3000" />
 		<reward type="Quest" id="HD Mechanic PreReq 4" />
 </quest>
 	
@@ -708,7 +709,7 @@
 		<objective type="Craft" id="vehicleMotorcycleHandlebars" value="1" phase="1" />
 		<objective type="Craft" id="vehicleMotorcyclePlaceable" value="1" phase="2" />
 		
-		<reward type="Exp" value="400" />
+		<reward type="Exp" value="4000" />
 		<reward type="Quest" id="HD Mechanic PreReq 5" />
 </quest>
 	
@@ -727,9 +728,9 @@
 		<objective type="Craft" id="vehicle4x4TruckAccessories" value="1" phase="1" />
 		<objective type="Craft" id="vehicle4x4TruckPlaceable" value="1" phase="2" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="SkillPoints" value="1" />
-		<reward type="Item" id="HD Impact Wrench" value="6" />
+		<reward type="Item" id="HDWar3zuk4x4" value="1" />
 		<reward type="Item" id="Class Mechanic VM" value="1" />
 </quest>
 
@@ -749,7 +750,7 @@
 		<objective type="FetchKeep" id="resourceCloth" value="10" phase="1" />
 		<objective type="Craft" id="medicalSplint" value="5" phase="2" />
 		
-		<reward type="Exp" value="100" />
+		<reward type="Exp" value="1000" />
 		<reward type="Quest" id="HD Medic PreReq 2" />
 </quest>
 	
@@ -769,7 +770,7 @@
 		<objective type="Craft" id="medicalBandage" value="5" phase="2" />
 		<objective type="Craft" id="medicalFirstAidBandage" value="5" phase="2" />
 		
-		<reward type="Exp" value="200" />
+		<reward type="Exp" value="2000" />
 		<reward type="Quest" id="HD Medic PreReq 3" />
 </quest>
 	
@@ -790,7 +791,7 @@
 		<objective type="FetchKeep" id="drinkJarRiverWater" value="5" phase="1" />
 		<objective type="Craft" id="medicalPlasterCast" value="5" phase="2" />
 		
-		<reward type="Exp" value="300" />
+		<reward type="Exp" value="3000" />
 		<reward type="Quest" id="HD Medic PreReq 4" />
 </quest>
 	
@@ -811,7 +812,7 @@
 		<objective type="FetchKeep" id="resourceSewingKit" value="5" phase="1" />
 		<objective type="Craft" id="medicalFirstAidKit" value="5" phase="2" />
 		
-		<reward type="Exp" value="400" />
+		<reward type="Exp" value="4000" />
 		<reward type="Quest" id="HD Medic PreReq 5" />
 </quest>
 	
@@ -831,7 +832,7 @@
 		<objective type="FetchKeep" id="medicalFirstAidKit" value="5" phase="1" />
 		<objective type="Craft" id="HD First Aid Kit" value="5" phase="2" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="HD Bollock Rot Injection" value="2" />
 		<reward type="Item" id="HD Bird Flu Injection" value="2" />
@@ -866,7 +867,7 @@
 		
 		<objective type="Craft" id="Naoyans Yakitori" value="5" phase="4" />
 		
-		<reward type="Exp" value="100" />
+		<reward type="Exp" value="1000" />
 		<reward type="Quest" id="HD Cook PreReq 2" />
 </quest>
 
@@ -894,7 +895,7 @@
 		
 		<objective type="Craft" id="AaronRockst4rs Fritos And Eggs" value="5" phase="4" />
 		
-		<reward type="Exp" value="200" />
+		<reward type="Exp" value="2000" />
 		<reward type="Quest" id="HD Cook PreReq 3" />
 </quest>
 
@@ -922,7 +923,7 @@
 		
 		<objective type="Craft" id="Possums Pavlova" value="5" phase="4" />
 		
-		<reward type="Exp" value="300" />
+		<reward type="Exp" value="3000" />
 		<reward type="Quest" id="HD Cook PreReq 4" />
 </quest>
 
@@ -949,7 +950,7 @@
 		
 		<objective type="Craft" id="Papas Bare Back Ribs" value="5" phase="4" />
 		
-		<reward type="Exp" value="400" />
+		<reward type="Exp" value="4000" />
 		<reward type="Quest" id="HD Cook PreReq 5" />
 </quest>
 
@@ -977,7 +978,7 @@
 		
 		<objective type="Craft" id="Donnas Fubar Stew" value="5" phase="4" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 		<reward type="SkillPoints" value="1" />
 		<reward type="Item" id="Warm Chunky Steak And Potato" value="5" />
 		<reward type="Item" id="Warm Chunky Hobo Stew" value="5" />
@@ -1017,7 +1018,7 @@
 	
 		<objective type="Craft" id="HDHazmatJacket" value="1" phase="1" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="2000" />
 		<reward type="Quest" id="HD Rad Addon PreReq 3" />
 </quest>
 	
@@ -1034,7 +1035,7 @@
 	
 		<objective type="Craft" id="HDHazmatPants" value="1" phase="1" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="3000" />
 		<reward type="Quest" id="HD Rad Addon PreReq 4" />
 </quest>
 	
@@ -1051,7 +1052,7 @@
 	
 		<objective type="Craft" id="HDHazmatBoots" value="1" phase="1" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="4000" />
 		<reward type="Quest" id="HD Rad Addon PreReq 5" />
 </quest>
 	
@@ -1068,7 +1069,7 @@
 		
 		<objective type="Craft" id="HDHazmatGloves" value="1" phase="1" />
 		
-		<reward type="Exp" value="1000" />
+		<reward type="Exp" value="5000" />
 
 </quest>
 

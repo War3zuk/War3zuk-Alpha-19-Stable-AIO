@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="QuestTags" value="clear,fetch" />
+  <property name="DifficultyTier" value="1" />
+  <property name="Zoning" value="none" />
+  <property name="RotationToFaceNorth" value="3" />
+  <property name="YOffset" value="-5" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowedBiomes" value="burnt_forest,snow,pine_forest,desert,wasteland" />
+  <property name="AllowedTownships" value="rural,wilderness" />
+  <property name="EditorGroups" value="rural" />
+  <property name="TraderAreaProtect" value="20, 0, 20" />
+  <property name="TraderAreaTeleportSize" value="20, 24, 20" />
+  <property name="TraderAreaTeleportCenter" value="0, 0, 0" />
+  <property name="SleeperVolumeStart" value="15, 5, 23#18, 1, 15#19, 1, 7#19, 1, 1#17, 5, 1" />
+  <property name="SleeperVolumeSize" value="29, 3, 20#20, 3, 6#18, 3, 8#19, 3, 6#22, 3, 22" />
+  <property name="SleeperVolumeGroup" value="S_Zom_Utility_Worker,4,5,S_Zom_Utility_Worker,1,1,S_-_Group_Zom_Badass,1,1,S_Zom_Utility_Worker,1,2,S_-Group_Generic_Zombie,6,7" />
+  <property name="SleeperVolumeGameStageAdjust" value=",,,," />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0" />
+  <property name="ShowQuestClearCount" value="0" />
+  <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="4, 5, 21" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="27, 2, 32" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="26, 1, 12" />
+      <property name="1" value="26, 1, 19" />
+      <property name="2" value="29, 1, 12" />
+      <property name="3" value="29, 1, 19" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="354287" />
+    <property name="TotalTriangles" value="393897" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="268697" />
+      <property name="Triangles" value="336566" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="64682" />
+      <property name="Triangles" value="38238" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="768" />
+      <property name="Triangles" value="384" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="13542" />
+      <property name="Triangles" value="8061" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="6486" />
+      <property name="Triangles" value="10592" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="112" />
+      <property name="Triangles" value="56" />
+    </property>
+  </property>
+</prefab>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="True"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="clear,fetch,hidden_cache"/>
+    <property name="DifficultyTier" value="3"/>
+    <property name="Zoning" value="Commercial,Downtown,Residential"/>
+    <property name="RotationToFaceNorth" value="2"/>
+    <property name="YOffset" value="-1"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedTownships" value="city,rural,town"/>
+    <property name="EditorGroups" value="downtown"/>
+    <property name="TraderAreaProtect" value="35, 25, 35"/>
+    <property name="TraderAreaTeleportSize" value="40, 30, 40"/>
+    <property name="TraderAreaTeleportCenter" value="1, 1, 1"/>
+    <property name="SleeperVolumeStart" value="40, 1, 4#29, 1, 7#11, 2, 12#12, 7, 9#15, 19, 10#3, 1, 5#40, 12, 4#23, 7, 13#2, 6, 14#40, 1, 18#22, 2, 15#12, 7, 13#12, 13, 17#12, 13, 13#12, 13, 9#24, 7, 5#16, 13, 5#11, 19, 4#3, 3, 5#15, 19, 15#18, 19, 9#11, 19, 9#11, 19, 22#21, 19, 19#28, 20, 19#11, 19, 19"/>
+    <property name="SleeperVolumeSize" value="9, 5, 14#10, 4, 6#8, 4, 15#10, 5, 3#3, 5, 2#7, 2, 14#9, 5, 18#17, 5, 9#9, 6, 12#9, 5, 13#8, 4, 10#10, 5, 3#10, 5, 3#10, 5, 4#10, 5, 4#15, 6, 7#6, 5, 3#11, 3, 5#7, 9, 9#3, 5, 4#4, 3, 10#4, 3, 10#12, 3, 6#2, 3, 3#1, 2, 1#10, 3, 3"/>
+    <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,1,1,S_Zom_Businessman,1,1,S_-_Group_Biker_Bar,1,1,S_-_Group_Ghost_Town,1,1,S_-_Group_Zom_Soldier,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_Zom_Businessman,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-_Group_Zom_Soldier,1,1,S_-_Group_Zom_Soldier,1,1,S_-_Group_Biker_Bar,2,2,S_-Group_Generic_Zombie,1,1,S_-_Group_Zom_Soldier,1,1,S_-_Group_Biker_Bar,0,0,S_-_Group_Biker_Bar,0,0,S_-_Group_Biker_Bar,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,0,0,S_-_Group_Biker_Bar,0,0"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,,,,,,,,,,,,,"/>
+    <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,0,2,2"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,2,2,1"/>
+</prefab>

@@ -1,6 +1,5 @@
 <configs>
-	
-	<remove xpath="/windows/window[@name='windowTargetBar']"/>
+
 	<remove xpath="/windows/window[@name='itemInfoPanel']" />
 	<remove xpath="/windows/window[@name='windowBackpack']" />
 	
@@ -96,15 +95,21 @@
 		</rect>
 	</window>
 </append>
-	
+
 <append xpath="/windows">
-	<window name="windowTargetBar" controller="TargetBar" visibility="always">
-		<rect pos="-200,-85" width="400" height="36" visible="{visible}">
-			<sprite depth="1" name="border" color="0,0,0,100" type="sliced" width="400" globalopacity="false"/>
-			<filledsprite depth="2" name="BarContent" type="filled" color="200,0,0,180" width="400" fill="{fill}" globalopacity="false"/>
-			<label depth="3" name="TextContent" pos="9,-4" font_size="28" color="[white]" justify="center" pivot="topleft" text="{name}:{currentwithmax}" height="30"/>
+		
+	<window name="windowToolsHD BeeHive" width="228" height="121" panel="Right">
+		<panel style="header.panel">			
+			<sprite style="header.icon" sprite="ui_game_symbol_wrench"/>
+			<label style="header.name" text="TOOLS" text_key="xuiTools" />
+		</panel>
+		<rect name="content" depth="0" pos="0,-46" height="75" disablefallthrough="true" on_press="true">
+			<grid name="inventory" rows="1" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationToolGrid" repeat_content="true" required_tools="HDHoneyExtractor,HDHoneyKnife,HDHoneyStrainer" required_tools_only="true">
+				<required_item_stack name="0"/>
+			</grid>		
 		</rect>
 	</window>
+	
 </append>
 	
 	<set xpath="/windows/window[@name='windowCraftingList']/panel/grid[@name='recipes']/@rows">13</set>
@@ -290,5 +295,7 @@
 <append xpath="/windows/window[@name='windowVehicleStorage']/panel[@name='header']/rect[@controller='ContainerStandardControls']">
 	<combobox depth="3" name="cbxLockedSlots" pos="10,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="{container_slots}" value_wrap="true" value_increment="1" />
 </append>
+
+<set xpath="/windows/window[@name='windowTargetBar']/@visibility">always</set>
 
 </configs>

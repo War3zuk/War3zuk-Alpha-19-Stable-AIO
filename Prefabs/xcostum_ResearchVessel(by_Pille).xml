@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="True"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="clear,fetch"/>
+    <property name="DifficultyTier" value="1"/>
+    <property name="Zoning" value="BiomeOnly,Residential"/>
+    <property name="RotationToFaceNorth" value="0"/>
+    <property name="YOffset" value="-10"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedBiomes" value="pine_forest"/>
+    <property name="EditorGroups" value="Wilderness"/>
+    <property name="TraderAreaProtect" value="16, 0, 16"/>
+    <property name="TraderAreaTeleportSize" value="28, 30, 27"/>
+    <property name="TraderAreaTeleportCenter" value="1, 1, 1"/>
+    <property name="SleeperVolumeStart" value="123, 11, 71#135, 14, 80#137, 11, 70#110, 11, 77#131, 18, 72#139, 8, 77#97, 4, 69#126, 7, 74#77, 12, 65#77, 11, 68#148, 8, 76#138, 15, 77#147, 8, 73#108, 27, 72#159, 15, 73"/>
+    <property name="SleeperVolumeSize" value="1, 2, 4#1, 3, 1#5, 2, 3#7, 3, 6#4, 4, 2#8, 3, 3#15, 6, 13#1, 3, 2#33, 6, 6#12, 4, 18#1, 4, 1#1, 2, 1#1, 2, 1#19, 3, 11#4, 3, 5"/>
+    <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Badass_Only,3,3,S_-_Group_Zom_Badass_Only,1,1,S_-_Group_Zom_Badass_Only,4,4,S_-Group_Generic_Zombie,3,3,S_-_Group_Zom_Badass_Only,5,5,S_-_Group_Hospital,3,3,S_-_Group_Zom_Badass_Only,23,25,S_Zom_Utility_Worker,1,1,S_-Group_Generic_Zombie,20,25,S_Zom_Utility_Worker,1,1,S_Zom_Utility_Worker,1,1,S_-_Group_Zom_Badass_Only,1,1,S_Zom_Utility_Worker,1,1,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,3,4"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,,"/>
+    <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,2,2,0,0,0,2,2,0,0,0,1,2,2"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,1,1"/>
+    <property name="ShowQuestClearCount" value="1,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+</prefab>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="False" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="QuestTags" value="clear,fetch,hidden_cache" />
+  <property name="DifficultyTier" value="5" />
+  <property name="Zoning" value="any" />
+  <property name="RotationToFaceNorth" value="0" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="SleeperVolumeStart" value="2, 0, 52#5, 0, 23#8, 2, 20#6, 2, 19#4, 5, 17#7, 6, 15#8, 5, 58#9, 6, 14#2, 8, 13#2, 8, 22#3, 8, 41#2, 12, 52#3, 12, 10#2, 12, 47#3, 12, 6" />
+  <property name="SleeperVolumeSize" value="14, 5, 11#9, 9, 34#5, 3, 3#7, 3, 4#6, 4, 3#3, 3, 5#5, 5, 5#4, 3, 5#9, 5, 10#15, 5, 20#13, 5, 26#15, 8, 15#14, 5, 8#14, 5, 20#10, 5, 11" />
+  <property name="SleeperVolumeGroup" value="S_-_Group_Hospital,5,19,S_-_Group_Lab_Worker,4,8,S_Zom_Businessman,4,8,S_-_Group_Biker_Bar,4,8,S_-_Group_Abandoned_House,4,8,S_-_Group_Zom_Soldier,4,8,S_Zom_Businessman,4,8,S_-_Group_Hospital,4,8,S_Zom_Businessman,4,8,S_-_Group_Zom_Badass,4,8,S_Zom_Businessman,4,8,S_-_Group_Football_Stadium,4,8,S_-_Group_Zom_Soldier,4,8,S_-_Group_Abandoned_House,4,8,S_Zom_Businessman,4,8" />
+  <property name="SleeperVolumeGameStageAdjust" value="350,350,350,350,350,350,350,350,350,350,350,350,350,350,350" />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,2,2,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="ShowQuestClearCount" value="0" />
+  <property class="IndexedBlockOffsets">
+    <property class="FetchContainer">
+      <property name="0" value="9, 12, 61" />
+      <property name="1" value="9, 20, 66" />
+      <property name="2" value="12, 1, 64" />
+      <property name="3" value="15, 6, 65" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="331565" />
+    <property name="TotalTriangles" value="248925" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="178173" />
+      <property name="Triangles" value="157262" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="119287" />
+      <property name="Triangles" value="69203" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="34093" />
+      <property name="Triangles" value="22444" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="12" />
+      <property name="Triangles" value="16" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+</prefab>

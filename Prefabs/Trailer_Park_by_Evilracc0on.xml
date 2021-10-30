@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="clear,fetch,hidden_cache"/>
+    <property name="DifficultyTier" value="2"/>
+    <property name="Zoning" value="Residential"/>
+    <property name="RotationToFaceNorth" value="2"/>
+    <property name="YOffset" value="-5"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="EditorGroups" value="world/deco/biome"/>
+    <property name="SleeperVolumeStart" value="17, 5, 1#26, 9, 0#2, 9, 1#1, 4, 1#26, 5, 4#26, 5, 9#26, 4, 18#28, 5, 23#26, 6, 35#2, 5, 13#1, 1, 20#1, 5, 25#1, 6, 35#5, 5, 13"/>
+    <property name="SleeperVolumeSize" value="9, 3, 42#13, 3, 43#15, 3, 41#16, 5, 11#12, 4, 5#17, 3, 9#16, 5, 5#15, 3, 12#15, 3, 5#3, 4, 12#4, 4, 5#15, 4, 7#15, 3, 5#12, 3, 12"/>
+    <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,4,5,S_Zom_HazMat_Only,6,7,S_-_Group_Biker_Bar,4,5,S_-_Group_Zom_Badass,2,3,S_Zom_Burnt,5,6,S_-Group_Generic_Zombie,2,3,S_-_Group_Zom_Badass,5,6,S_-_Group_Ghost_Town,2,3,S_-_Group_Zom_Badass_Only,2,3,S_-Group_Generic_Zombie,2,3,S_Zom_Businessman,5,6,S_-Group_Generic_Zombie,5,6"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,"/>
+    <property name="SleeperIsLootVolume" value="True,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,2,2,0,0,2,0,2,0,0,0,2,0,2"/>
+    <property name="SleeperVolumeGroupId" value="1,1,1,0,0,1,0,1,0,0,0,1,0,1"/>
+    <property name="ShowQuestClearCount" value="1,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+</prefab>

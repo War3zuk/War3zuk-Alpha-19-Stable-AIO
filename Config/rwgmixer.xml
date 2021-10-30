@@ -1,0 +1,1470 @@
+<War3zuk>
+	
+		<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='prefabGroup4k']">
+<!--    <prefab name="trader_rekt" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="trader_joel" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="trader_jen" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="trader_bob" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="trader_hugh" min_count="1" max_count="1" min_repeat_distance="800" /> -->
+		<prefab name="Custom_Trader_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="HUB51traders" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="War3zuk_Multi_Trader_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="War3zuk_Trader_Apoc01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Multi_Trader(by_Sparrow)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="War3zuk_Military_Camp" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="SecretBunker_Pille_War3zukEdit" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="ResearchVessel_Pille_War3zukEdit" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="Nuclear_plant_Rocky_War3zukEdit" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="War3zuk_Hops_Garden" min_count="2" max_count="2" min_repeat_distance="800" />
+		<prefab name="GreekBath_BLAPLAYGIRL" min_count="2" max_count="2" min_repeat_distance="800" />
+		<prefab name="Ancient_Apache_Ground_BLAPLAGIRL" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_Coronado_barn_lg(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="800" />
+		<prefab name="xcostum_Coronado_cornfield_crash(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="800" />
+		<prefab name="xcostum_Coronado_cornfield_missle_silo(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="800" />
+		<prefab name="xcostum_Coronado_farmedField(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="800" />
+		<prefab name="xcostum_Coronado_farmSheds(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="800" />
+		<prefab name="xcostum_Coronado_shamway_plant(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="800" />
+		<prefab name="Coronado_Cornfield_Crash_Slaan" min_count="2" max_count="3" min_repeat_distance="800" />
+		<prefab name="sap_woodbury" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_CanucksCoffee(by_Genosis)" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_SUBDAY(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_TacoBele(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_GasnWash32(by_LuckyStar)" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_GasStation(by_Warsaken)" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_Store_Automotive_sm(by_Laz_Man)" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="store_pawn_01" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_celltower_2(by_axebeard)" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_celltower_2_waste(by_axebeard)" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_Warehouse(by_Batman)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Warehouse(by_Illidua)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_VarietiesDepartmentStore(by_Stallionsden)" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_ResidentEvilMansion(by_magoli)" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="Nuka_Factory_Bdubyah" min_count="1" max_count="2" min_repeat_distance="1500" />
+		<prefab name="Sly_Ship" min_count="1" max_count="2" min_repeat_distance="1500" />
+		<prefab name="Workers_Mine_NAGG_DaphyDuck91" min_count="2" max_count="2" min_repeat_distance="800" />
+		<prefab name="War3zuk_Canyon_Cave" min_count="1" max_count="1" min_repeat_distance="4000" />
+		<prefab name="xcostum_Mine1(by_NAGG_DaphyDuck91)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_ColonyShip(by_NAGGcommunity)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_CrashedAirplane(by_LazMan)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_airport_rundown(by_gt)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="Nauti_Pentagon" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="Nauti_Burrow" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="Nepa_Base_Eihwaz" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="Zug1" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="Boys_Only_Hotel_SWAG" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="War3zuk_Cliff_House" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="War3zuk_Jail_House" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="War3zuk_Ure_Library" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_oldwestBank(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_donut_shop(by_bigstep70)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_DriveIn(by_NAGG_Genosis)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_DriveIn(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_drivethru(by_bigstep70)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_exfarmstead(by_owl79)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Farm(by_BigC90210)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_FarmerJoesNursery(by_Stallionsden)" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_Firedepartment(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Firehouse(by_Warsaken)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Firestation(by_Slick50)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Firewatchtower(by_SciFiFlippa)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Flagstonemansion_sm(by_elitelex)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_FuneralHome(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_FuneralParlor(by_Zombieman)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Glass_factory_big(by_Khyber)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Guildhall(ex_vanilla_ornate01)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Haulier_lg(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Haulier_md(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_hideout(by_axebeard)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Hightop(by_Curbolt)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_HNHouse(by_Hernan)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_homestead(by_Mana)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Hospital(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Paintballarena(by_Jackelmyer)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_7EndStore(by_Jackelmyer)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="Nauti_Baskin" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="NAUTI_Lattez" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="War3zuk_GuppyHouse04_Edit" min_count="2" max_count="2" min_repeat_distance="800" />
+		<prefab name="War3zuk_Housing_Block" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="War3zuk_Tank_Garage_LuckyStar_Edit" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="War3zuk_Ure_Bike_Repair" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="War3zuk_Ure_Multi_Storey" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="Hobbit_Hut_Limodor" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="Hostel_Tom" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="NSiteMissileSilo_Ephoie" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="Pawnshop_Magoli" min_count="1" max_count="1" min_repeat_distance="800" />	
+		<prefab name="xcostum_Italo_Restaurant(by_axebeard)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_kwikemart(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_LakesideLodge(by_Kam)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Library(by_NAGG)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Lighthouse(by_NAGG)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_LittleLeagueBaseball(by_Curmudgeon)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_LMART_Garage(byStallionsden)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_LMART_RoadHouse(byStallionsden)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Lost_Joels(pseudo-trader)(by_DMC)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_LumberMill(by_IceJudge)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_McDonalds(by_BigC90210)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_McDowell_restaurant(by_LazMan)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_med_clinic_small(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_MiniMall(by_Spider)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_modernvilla(by_owl79)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_moestaverne(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_MonsterFlexGym(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Motel(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_MultiStore(by_ANT)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_myhouse(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_nationalparkLodge(by_Laz_Man)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Nicehouse(by_BigC90210)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Office(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Orphanage(ex_vanilla_ornate02)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Paintballarena(by_Jackelmyer)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Park(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Pawnshop(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_PeerCafe(by_Stallionsden)" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_PersianMansion(by_saeid)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_pistol_gunshop(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Plant(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Polarstation(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_powerplant(byKam)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Storage(by_ShoNuff)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_storeset1(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_storeset2(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_strandresort(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_SUBDAY(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_TacoBele(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Tank_Garage(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Tavern(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_TheMill(by_MoNKeYest1)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_timbershop(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_TittyTwister(by_Sorrowthief)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_TownHall(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_townsquare(by_snake0567)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_townvilla(by_owl79)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_TruckStop(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_tv_store(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_UnionStation(by_BuLLeTZ)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Utility_Combo(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_CountyJail(by_Volar)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Courthouse(by_stallionsden)" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xcostum_Trailer(by_Sorrowthief)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_house_modern_01(by_Kam)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_house_modern_02(by_Kam)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Bank(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Bank(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Bavarian_Bowse_Shop(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Blue_House(by_TopMinder_and_Pille)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Bookstore(by_Kayido)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_bowlingcenter(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_BoxingGym(by_KamR)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_bridgesideapartmentsA16(by_Batman)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Brownstones_House(by_Laz_Man)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_burialshrine(by_snake0567)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Cabin(by_Sudo)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Cantine(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_CanucksCoffee(by_Genosis)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Car_Dealership_new(by_p1ut0nium)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Car_Dealership_old(by_P1ut0nium)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_CasinoANKH(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Cave1(by_NAGGcommunity)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Villa(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Walcart(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_WaterPark1(by_NAGGcommunity)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Windowfactory(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Wooden_Palisade(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Wooden_Store(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Cell_Tower(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Chernobyl(by_Maz_Burt)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_cityhouse3(by_Kam)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_CityPark(by_Spider)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_crematory(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Dave_Home_2(by_DMC)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_deaddog_saloon(by_Libby)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_3BlockStores(by_Leo_Liuos)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_7EndStore(by_Jackelmyer)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Adam_House_Z1(by_DMC)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Apartment_Stores(by_Laz_Man)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_ArtGallery(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Hydro_Plant(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="installation_red_mesa" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="sawmill_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="utility_waterworks_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="utility_electric_co_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="utility_refinery_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="factory_lg_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="factory_lg_02" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="settlement_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="utility_celltower_02" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="utility_celltower_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="remnant_mill_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Power_Station(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Prison(by_Limodur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Prison1(by_Curbolt)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Public_Pool(by_Warsaken)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_QuietPinesSpecial(by_hernan)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_rave_factory(by_orak)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Recycling(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_RedCatDiner(by_Najax)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_red_mesa_alpha_labs(by_Pille)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Restaurant(by_Gertle)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_ritualsite_1(by_axebeard)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_ritualsite_2(by_axebeard)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_RocketLaunchPad(by_Saeid)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_rollerskatedisco(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Safehouse(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Sawmill(by_Pille)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Science_lab(by_kinklade)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_SC_Bunker(by_Rhapsodos)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_seafoodshop(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_shootingrange(by_magoli)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Shoppingcenter(by_TopMinder)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_house04(byGuppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_house05(byGuppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Rangercabin(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="cemetery_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="cemetery_02" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="church_graveyard1" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_ExcavatorMassGrave(by_Pille)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="church_sm_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="church_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="funeral_home_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Church(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="oldwest_church" min_count="1" max_count="1" min_repeat_distance="800" />	
+		<prefab name="army_barracks_01" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="army_camp_01" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="army_camp_02" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="army_camp_03" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="army_barracks_01" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="xcostum_army_camp(universal)" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="xvanilla_army_barracks_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xvanilla_army_camp_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xvanilla_army_camp_02" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xvanilla_army_camp_03" min_count="1" max_count="1" min_repeat_distance="800" />		
+		<prefab name="xvanilla_barn_01" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xvanilla_barn_02" min_count="1" max_count="1" min_repeat_distance="800" />
+		<prefab name="xvanilla_barn_03" min_count="1" max_count="1" min_repeat_distance="800" />			
+		<prefab name="xvanilla_cornfield_lg" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xvanilla_cornfield_med" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="xvanilla_cornfield_sm" min_count="1" max_count="2" min_repeat_distance="800" />
+		<prefab name="barn_01" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="barn_02" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="barn_03" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="cornfield_sm" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="cornfield_med" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="blueberryfield_sm" min_count="1" max_count="3" min_repeat_distance="800" />
+		<prefab name="potatofield_sm" min_count="1" max_count="3" min_repeat_distance="800" />
+        <prefab name="xcostum_3BlockStores(by_Leo_Liuos)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_4Apartments(by_TopMinder)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_7EndStore(by_Jackelmyer)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Adam_House_Z1(by_DMC)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_AFPBuilding(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Airport_01(by_Zyncosa)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_airport_rundown(by_gt)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_airport1(by_ouch)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_airport2(by_ouch)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Alchemist(by_VitaminE)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Alms_house(ex_vanilla_ornate03)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_AltenburgCastle(by_Horst)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_AmityvilleHorrorHouse(by_Swolk)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_AnarchyHighriseLab(by_NLEagle)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ancient_tomb(by_bigstep70)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Apartment(by_Gertle)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Apartment(by_Spider)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Apartment_Building_(by_Gouki)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Apartment_Stores(by_Laz_Man)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Apartments(by_Batman)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Apartments_01(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Apartments_Curtilage_Playground(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Apaxco_(by_Gouki)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Army_03(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Army_03Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_army_camp(universal)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Army_01(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Army_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Army_02(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_Army_02Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ArtGallery(by_Wsiegel)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_Apartments(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_ChineseMarket(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_Dojo(by_RedLotus)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_KhooKongsi(by_StompyNZ)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_KungFuSchool(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_Livinghouse_sm_01(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_ModernCottage_01(by_StompyNZ)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_Pagoda(by_RedLotus)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_Pagoda_sm_01(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_Restaurant(by_Redlotus)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_Restaurant_city(by_Redlotus)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_Swordmaster(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_Temple9Powermonks(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asia_TempleMiddleVillage(by_SylenThunder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Asylum(by_Wsiegel)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Badonkadonk(by_CaptainandMental)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Bakery(by_VitaminE)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Bank(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Bank(by_Limodor)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Basement01(by_PVWolfgang)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Baskins(by_Nauti_Angel)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Bavarian_Bowse_Shop(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Big_Zed(by_Gobarg_Mana)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Bills_1(by_Theodryck)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Blue_House(by_TopMinder_and_Pille)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Book_Stop(by_Hydroponic)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Bookstore(by_Kayido)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_bowlingcenter(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_BoxingGym(by_KamR)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_bridgesideapartmentsA16(by_Batman)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Brownstones_House(by_Laz_Man)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Bunker(by_Pille)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Bunker_01(by_Memo)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_burialshrine(by_snake0567)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_burntshell(by_Evilracc0on)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_Burrows(by_Nauti_Angel)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_Bus_Depot(by_Hydroponic)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Cabin(by_Sudo)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Cantine(by_Limodor)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_CanucksCoffee(by_Genosis)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Car_Dealership_new(by_p1ut0nium)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Car_Dealership_old(by_P1ut0nium)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Casino(by_Stallionsden)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_CasinoANKH(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Castle05(by_PVWolfgang)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_CastleSpartan_v3(by_Ericbeaudoin)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Cattle_Yard(by_Mana_Gobarg)" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Cattle_Yard1(by_Mana_Gobarg)" min_repeat_distance="800"/>
+		<prefab name="xcostum_Cave1(by_NAGGcommunity)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_CDC_Mission(by_TheFootpad)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Cell_Tower(by_LuckyStar)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_celltower_2(by_Axebeard)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_celltower_2_waste(by_Axebeard)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Chernobyl(by_Maz_Burt)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Church(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_circus(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_cityhouse3(by_Kam)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_CityPark(by_Spider)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Clocktower(by_VitaminE)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_collapsed_bldg_01(by_BuLLeTZ)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ColonyShip(by_NAGGcommunity)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Container_house(by_Evilracc0on)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ConvenienceStore1(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Coronado_barn_lg(by_Slaan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Coronado_cornfield_crash(by_Slaan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Coronado_cornfield_missle_silo(by_Slaan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Coronado_farm_lake(by_Slaan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Coronado_farmedField(by_Slaan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Coronado_farmSheds(by_Slaan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Coronado_shamway_plant(by_Slaan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_CountyJail(by_Volar)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_Courthouse(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_CQC_HOUSE(by_Evilracc0on)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_CrashedAirplane(by_LazMan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_crematory(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_cult(by_Evilracc0on)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_CurlingCenter(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Dark_Mausoleum32(by_LuckyStar)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Dave_Home_2(by_DMC)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_deaddog_saloon(by_Libby)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_deerstand_1(by_Axebeard)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_deerstand_2(by_Axebeard)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Desert_Temple(by_Hydroponic)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Design_firm(by_EvilRacc0on)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Diverse_01(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Diverse_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Diverse_02(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Diverse_02Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_DnY_CastleM1(by_SirLoachalot)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_DocksMilitaryZone(by_Stallionsden)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Doctors_Office(by_Bostonlondon)" max_count="1" min_repeat_distance="800" />		
+		<prefab name="xcostum_donut_shop(by_bigstep70)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Dormerhouse(by_TopMinder)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_DouneCastleRiah(by_Riahsaurus_Rex)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Dregora_Furniture_Timber_Deco(by_Eagle)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_dregora_gas_station6(by_Eagle)" max_count="1" min_repeat_distance="800" />		
+		<prefab name="xcostum_dregora_here4beerpub(by_Eagle)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Dregora_Mineshaft_01(by_Eagle)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Dregora_ObservartoryBig(by_Eagle)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Dregora_Quarantine_Bunker(by_Eagle)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_dregora_station_southfront(by_Eagle)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Dregora_VaultTec_Bunker_01(by_Eagle)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_dregora_waste_crane(by_Eagle)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_DriveIn(by_NAGG_Genosis)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_DriveIn(by_Wsiegel)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_drivethru(by_bigstep70)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ExcavatorMassGrave(by_Pille)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_exfarmstead(by_owl79)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Experimentalhouse(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Farm(by_BigC90210)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Farm_01(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Farm_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_Farm_02(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Farm_02Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Farm_03(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Farm_03Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Farm_04(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_FarmerJoesNursery(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Firedepartment(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Firehouse(by_Warsaken)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Firestation(by_Slick50)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Firewatchtower(by_SciFiFlippa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Flagstonemansion_sm(by_elitelex)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_flighttower(by_NLEagle)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_food_truck_01(by_LazMan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_forthouseone(by_Fortbrick)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_fp_house_medium_002(by_Frank_Souza)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Frat_house(by_EvilRacc0on)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_fuelstation(by_NLEagle)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_FuneralHome(by_Wsiegel)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_FuneralParlor(by_Zombieman)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_GasnWash32(by_LuckyStar)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_GasStation(by_Warsaken)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Glass_factory_big(by_Khyber)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Graveyard(by_Hydroponic)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_greenhouse_01(by_FLESHUS)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_Guarantine_Post(by_NLEagle)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Guildhall(ex_vanilla_ornate01)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_HarbingerLabs(by_Riahsaurus_Rex)" max_count="1" min_repeat_distance="800" />		
+		<prefab name="xcostum_Haulier_lg(by_Limodor)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Haulier_md(by_Limodor)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_HBW_Metro_Station(by_Hydroponic)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_HellMart(by_Riahsaurus_Rex)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Hicks_Family_Diner(by_Hydroponic)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_hideout(by_Axebeard)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_hideout(by_TopMinder_and_Pille)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Hightop(by_Curbolt)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_HNHouse(by_Hernan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Hobbit(by_Limodor)" max_count="1" min_repeat_distance="800"/>			
+		<prefab name="xcostum_Homestead(by_Mana)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Hospital(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Hospital(by_Wsiegel)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Hostel(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Hotel_01(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Hotel_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Hotel_Construction_Site_01(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House(by_LastI)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House(by_ShoNuff)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_House_1(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_1Destroyed(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_02(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_House_2(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_2Destroyed(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_03(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_House_03Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House_3(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_3Destroyed(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_3PartialDestroyed(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_04(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House_04Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House_4(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_05(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_House_05Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House_5(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_06(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House_06Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House_6(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_6Destroyed(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_7(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_08(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House_08Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House_8(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_09(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House_09Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_House_9(by_Nodabba)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_House_11(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house_modern_01(by_Kam)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house_modern_02(by_Kam)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house_modern_03(by_Kam)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house_modern_04(by_Kam)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house_modern_05(by_Kam)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house_modern_05(by_Pille_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house_number14(by_Kam)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_house_old_tudor_06(by_Pille)" max_count="1" min_repeat_distance="800"/>			
+		<prefab name="xcostum_house_pigeon(by_VitaminE)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house_suburb_01(by_LazMan)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_house01(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house02(by_Guppycur)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_house2(by_Curbolt)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house03(by_Guppycur)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_house3(by_Curbolt)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_house04(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house4(by_Curbolt)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_house05(by_Guppycur)" max_count="1" min_repeat_distance="800"/>				
+		<prefab name="xcostum_house7(by_Curbolt)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_houseprefabbrickandconc(by_fortbrick2)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_housewhiteblue(by_owl79)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Hunters_rest(by_Evilracc0on)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Hydro_Plant(by_LuckyStar)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_icestadium(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_01(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_Industry_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_02(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_02Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_03(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_03Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_04(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_04Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_05(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_05Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_06(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_06Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_07(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Industry_08(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Info_Center(by_LuckyStar)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_InsaneAsylum(by_Genosis)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Italo_Restaurant(by_axebeard)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_IZEA_market(by_Genosis)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_JapaneseCastle(by_Takayan_Norittchi_Chiko)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_JapaneseCastle(by_VitaminE)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_JoJos(by_JSDoctor)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Junkyard(by_Hydroponic)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_KarenHouse(by_Kayido)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Knolby_Cabin_1981(by_Klaus0Engel)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_KooshieMart(by_Kayido)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_kuldbrickhouse(by_Kuldiin)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_kuldlargehouse(by_Kuldiin)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_kwikemart(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_LakesideLodge(by_Kam)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Lattez(by_Nauti_Angel)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Leisure01(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_Leisure01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Library(by_NAGG)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Lighthouse(by_NAGG)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_LittleLeagueBaseball(by_Curmudgeon)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_LMART_Garage(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_LMART_RoadHouse(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_LMARTRoadHouseTruckstop(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Lost_Joels(pseudo-trader)(by_DMC)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_LumberMill(by_IceJudge)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Mall(by_hernanxx)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Mall_DOD(by_captainwhiskerbiscuits_mentalninja33)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Mall_DOD_Dungeon(by_captainwhiskerbiscuits_mentalninja33)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Mall_Large_Volume(by_hernanxx)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Manorhouse(by_WereWulfen)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_mass_grave_2(by_Evilracc0on)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_McDonalds(by_BigC90210)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_McDowell_restaurant(by_LazMan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_med_clinic_small(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_MidwichSchool_01(by_Dragoness)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Mill(by_VitaminE)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_MinderManor(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Mine1(by_NAGG_DaphyDuck91)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_MiniBikeRaceTrack(by_Spider)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_minigolf(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_MiniMall(by_Spider)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ModernArtGallery(by_Pille_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Modernhouse02(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_modernvilla(by_owl79)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_moestaverne(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_MonsterFlexGym(by_Swolk)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_moonshiner(by_Evilracc0on)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Motel(by_Limodor)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_MotteBailey(by_Gobarg_Mana)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_MultiStore(by_ANT)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_nationalparkLodge(by_Laz_Man)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_nepa_base(by_Eihwaz)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Nicehouse(by_BigC90210)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_NotreDamn_(by_tehkarma)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_NSiteMissileSilo(byEphoie)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Nuclear_Powerplant(by_Rocky)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Nuka_Factory(by_bdubyah)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Nuket0wn(by_Limodor)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Office(by_Wsiegel)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Oil_PumpJack(by_Hydroponic)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_oldwestBank(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_OrigamiGallery(by_Pille_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Orphanage(ex_vanilla_ornate02)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_OutbackShack(by_Gobarg_Mana)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_Overlook_Hotel_001(by_Quagmire1428)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Paintballarena(by_Jackelmyer)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Pantilehouse(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Park(by_Bostonlondon)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Park(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Pawnshop(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_PeerCafe(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Pentagon(by_Nauti_Angel)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_PersianMansion(by_saeid)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_PetStore(by_Jackelmyer)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_PG_BusStstion(by_Dragoness)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_pistol_gunshop(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Plant(by_Wsiegel)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Polarstation(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Power_Station(by_LuckyStar)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_powerplant(byKam)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_prefabhome1(by_Riahsaurus_Rex)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Prison(by_Limodur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Prison1(by_Curbolt)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Public_Pool(by_Warsaken)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_QuietPinesSpecial(by_hernan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_RaceTrack(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Ranch(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Rangercabin(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_rave_factory(by_orak)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Recycling(by_Limodor)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_red_mesa_alpha_labs(by_Pille)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_RedCatDiner(by_Najax)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Redhouse(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_remnant_waste_01(by_LazMan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_remnant_waste_02(by_LazMan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ResearchStation(by_NLEagle)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ResearchVessel(by_Pille)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Resident_Evil_Mansion(by_Libby)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Resident_Evil_Mansion_(by_Frantic_Dan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Restaurant(by_Gertle)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ritualsite_1(by_axebeard)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ritualsite_2(by_axebeard)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_RoadHouse(by_Mana_Gobarg)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_RocketLaunchPad(by_Saeid)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_rollerskatedisco(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Roundhouse(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Safehouse(by_Limodor)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Sawmill(by_Pille)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_SC_Bunker(by_Rhapsodos)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_SC_steakhouse01(by_Dragoness)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_School(by_LazMan)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Science_lab(by_kinklade)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_seafoodshop(by_Guppycur)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_serial_killer_01(by_FLESHUS)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_sewer_layout(by_Evilracc0on)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_shantytown(by_Evilracc0on)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_shootingrange(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Shoppingcenter(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ShoppingCenter_Galleria(by_Laz_Man)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Shrub_Conservatory(by_Werewulfen)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Silos(by_Mana_Gobarg)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_simpsonshouse(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_SkiResort_Bar(by_NLEagle)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_skyhigh(by_Gobarg_Mana)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Skyscraper(by_Peppino)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_skyscraper_omni(by_Flanua)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Sky-Twintowers(by_TopMinder)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_SlavCo_SuperMarket(by_Hydroponic)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Small_Cafe_1(by_Bostonlondon)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Small_House(by_ThetruJames)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_SmallWoodhouse(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Snakehotel(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_spanish_mission(by_The_Cure)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Spirallibrary(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Split_Level(by_CraterCreator)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Stonehouse(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Storage(by_ShoNuff)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Store_Automotive_sm(by_Laz_Man)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_storeset1(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_storeset2(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_strandresort(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_strange_cornfield(by_magoli)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Strip_Mall_Large_shops(by_Hydroponic)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_stripclub(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_StripClub(by_Wsiegel)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_stripmall(by_Axebeard)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Stripmall(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_SUBDAY(by_Swolk)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Subway(by_NAGG_Rick)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Supermarket_01(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Supermarket_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Supermarket_02(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Supermarket_02Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Supermarket_03(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Supermarket_03Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Supermarket_04(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Supermarket_04Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Supermarket_05(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Supermarket_05Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Supermarket_06(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Supermarket_06Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Supermarket_07(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Supermarket_07Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Supermarket_08(by_Zyncosa)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_SuperStore(by_Volar)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_swimmingbath(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_TacoBele(by_Swolk)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Tank_Garage(by_LuckyStar)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Tavern(by_Limodor)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Tavern(by_VitaminE)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_The_Cobblestone_House(by_JSDoctor)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ThemePark(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_TheMill(by_MoNKeYest1)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_TheSect_Followers-of-M(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_TheSphinx3(by_Andyjoki)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_TheVillage(by_Stallionsden)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_timbershop(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_TittyTwister(by_Sorrowthief)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Tower(by_VitaminE)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_TownHall(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_townsquare(by_snake0567)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_townvilla(by_owl79)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Trailer(by_Sorrowthief)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Trailerhousemix01" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Trailerhousemix02" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Trailerhousemix03(by_SandyBeaches)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Trailerhousemix03" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Trailerhousemix04(by_SandyBeaches)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Trailerhousemix04" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_trainstationRiah(by_Riahsaurus_Rex)" max_count="1" min_repeat_distance="800" />		
+		<prefab name="xcostum_TruckStop(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_TruckStop_Garage(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_TruckStop_Roadhouse(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_tv_store(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_UFO(by_NAGG_Ryan)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_UnionStation(by_BuLLeTZ)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Utility_Combo(by_LuckyStar)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Vacant(by_00Zorro100)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_VarietiesDepartmentStore(by_Stallionsden)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Vet_Clinic(by_Firecat)" max_count="1" min_repeat_distance="800" />
+		<prefab name="xcostum_Villa(by_Limodor)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Villa(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Walcart(by_Swolk)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Wank_Bank(by_Hydroponic)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_Warehouse(by_Batman)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Warehouse(by_Illidua)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_warehouse(by_NLEagle)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_wastelandtrain(by_Horst)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_wastelandtrain(by_incrediblejimmy)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_watchtower_01(by_FLESHUS)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_watchtower_02(by_FLESHUS)" max_count="1" min_repeat_distance="800"/>		
+		<prefab name="xcostum_WaterPark1(by_NAGGcommunity)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Windowfactory(by_magoli)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Wooden_Palisade(by_LuckyStar)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Wooden_Store(by_Guppycur)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_Woodhouse(by_TopMinder)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_WulftownA(by_WereWulfen)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_WulftownCD(by_WereWulfen)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_WWHouse(by_IceJudge)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ZHigh(by_Volar)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="xcostum_ZombieZoo(by_Wsiegel)" max_count="1" min_repeat_distance="800"/>	
+		<prefab name="xcostum_Zug1(by_Horst)" max_count="1" min_repeat_distance="800"/>
+		<prefab name="_Petra_Indiana_Jones_by_MPLogue" max_count="1" min_repeat_distance="800"/>
+</append>
+
+		<append xpath="/rwgmixer/prefab_rules/prefab_rule[@name='prefabGroup8k']">
+<!--    <prefab name="trader_rekt" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="trader_joel" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="trader_jen" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="trader_bob" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="trader_hugh" min_count="1" max_count="1" min_repeat_distance="1000" /> -->
+		<prefab name="Custom_Trader_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="HUB51traders" min_count="1" max_count="1" min_repeat_distance="2500" />
+		<prefab name="War3zuk_Multi_Trader_01" min_count="1" max_count="1" min_repeat_distance="2500" />
+		<prefab name="War3zuk_Trader_Apoc01" min_count="1" max_count="1" min_repeat_distance="2500" />
+		<prefab name="xcostum_Multi_Trader(by_Sparrow)" min_count="1" max_count="1" min_repeat_distance="2500" />
+		<prefab name="War3zuk_Military_Camp" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="SecretBunker_Pille_War3zukEdit" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="ResearchVessel_Pille_War3zukEdit" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="Nuclear_plant_Rocky_War3zukEdit" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="War3zuk_Hops_Garden" min_count="2" max_count="2" min_repeat_distance="1000" />
+		<prefab name="GreekBath_BLAPLAYGIRL" min_count="2" max_count="2" min_repeat_distance="1000" />
+		<prefab name="Ancient_Apache_Ground_BLAPLAGIRL" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_Coronado_barn_lg(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="1000" />
+		<prefab name="xcostum_Coronado_cornfield_crash(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="1000" />
+		<prefab name="xcostum_Coronado_cornfield_missle_silo(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="1000" />
+		<prefab name="xcostum_Coronado_farmedField(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="1000" />
+		<prefab name="xcostum_Coronado_farmSheds(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="1000" />
+		<prefab name="xcostum_Coronado_shamway_plant(by_Slaan)" min_count="2" max_count="3" min_repeat_distance="1000" />
+		<prefab name="Coronado_Cornfield_Crash_Slaan" min_count="2" max_count="3" min_repeat_distance="1000" />
+		<prefab name="sap_woodbury" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_CanucksCoffee(by_Genosis)" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_SUBDAY(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_TacoBele(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_GasnWash32(by_LuckyStar)" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_GasStation(by_Warsaken)" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_Store_Automotive_sm(by_Laz_Man)" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="store_pawn_01" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_celltower_2(by_axebeard)" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_celltower_2_waste(by_axebeard)" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_Warehouse(by_Batman)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Warehouse(by_Illidua)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_VarietiesDepartmentStore(by_Stallionsden)" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_ResidentEvilMansion(by_magoli)" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="Nuka_Factory_Bdubyah" min_count="1" max_count="1" min_repeat_distance="2500" />
+		<prefab name="Sly_Ship" min_count="1" max_count="1" min_repeat_distance="2500" />
+		<prefab name="Workers_Mine_NAGG_DaphyDuck91" min_count="2" max_count="2" min_repeat_distance="1000" />
+		<prefab name="War3zuk_Canyon_Cave" min_count="1" max_count="1" min_repeat_distance="4000" />
+		<prefab name="xcostum_Mine1(by_NAGG_DaphyDuck91)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_ColonyShip(by_NAGGcommunity)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_CrashedAirplane(by_LazMan)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_airport_rundown(by_gt)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="Nauti_Pentagon" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="Nauti_Burrow" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="Nepa_Base_Eihwaz" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="Zug1" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="Boys_Only_Hotel_SWAG" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="War3zuk_Cliff_House" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="War3zuk_Jail_House" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="War3zuk_Ure_Library" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_oldwestBank(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_donut_shop(by_bigstep70)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_DriveIn(by_NAGG_Genosis)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_DriveIn(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_drivethru(by_bigstep70)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_exfarmstead(by_owl79)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Farm(by_BigC90210)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_FarmerJoesNursery(by_Stallionsden)" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_Firedepartment(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Firehouse(by_Warsaken)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Firestation(by_Slick50)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Firewatchtower(by_SciFiFlippa)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Flagstonemansion_sm(by_elitelex)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_FuneralHome(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_FuneralParlor(by_Zombieman)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Glass_factory_big(by_Khyber)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Guildhall(ex_vanilla_ornate01)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Haulier_lg(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Haulier_md(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_hideout(by_axebeard)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Hightop(by_Curbolt)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_HNHouse(by_Hernan)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_homestead(by_Mana)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Hospital(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Paintballarena(by_Jackelmyer)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_7EndStore(by_Jackelmyer)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="Nauti_Baskin" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="NAUTI_Lattez" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="War3zuk_GuppyHouse04_Edit" min_count="2" max_count="2" min_repeat_distance="1000" />
+		<prefab name="War3zuk_Housing_Block" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="War3zuk_Tank_Garage_LuckyStar_Edit" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="War3zuk_Ure_Bike_Repair" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="War3zuk_Ure_Multi_Storey" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="Hobbit_Hut_Limodor" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="Hostel_Tom" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="NSiteMissileSilo_Ephoie" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="Pawnshop_Magoli" min_count="1" max_count="1" min_repeat_distance="1000" />	
+		<prefab name="xcostum_Italo_Restaurant(by_axebeard)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_kwikemart(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_LakesideLodge(by_Kam)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Library(by_NAGG)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Lighthouse(by_NAGG)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_LittleLeagueBaseball(by_Curmudgeon)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_LMART_Garage(byStallionsden)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_LMART_RoadHouse(byStallionsden)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_LumberMill(by_IceJudge)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_McDonalds(by_BigC90210)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_McDowell_restaurant(by_LazMan)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_med_clinic_small(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_MiniMall(by_Spider)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_modernvilla(by_owl79)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_moestaverne(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_MonsterFlexGym(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Motel(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_MultiStore(by_ANT)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_myhouse(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_nationalparkLodge(by_Laz_Man)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Nicehouse(by_BigC90210)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Office(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Orphanage(ex_vanilla_ornate02)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Paintballarena(by_Jackelmyer)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Park(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Pawnshop(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_PeerCafe(by_Stallionsden)" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_PersianMansion(by_saeid)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_pistol_gunshop(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Plant(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Polarstation(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_powerplant(byKam)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Storage(by_ShoNuff)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_storeset1(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_storeset2(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_strandresort(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_SUBDAY(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_TacoBele(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Tank_Garage(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Tavern(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_TheMill(by_MoNKeYest1)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_timbershop(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_TittyTwister(by_Sorrowthief)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_TownHall(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_townsquare(by_snake0567)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_townvilla(by_owl79)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_TruckStop(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_tv_store(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_UnionStation(by_BuLLeTZ)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Utility_Combo(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_CountyJail(by_Volar)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Courthouse(by_stallionsden)" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xcostum_Trailer(by_Sorrowthief)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_house_modern_01(by_Kam)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_house_modern_02(by_Kam)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Bank(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Bank(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Bavarian_Bowse_Shop(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Blue_House(by_TopMinder_and_Pille)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Bookstore(by_Kayido)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_bowlingcenter(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_BoxingGym(by_KamR)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_bridgesideapartmentsA16(by_Batman)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Brownstones_House(by_Laz_Man)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_burialshrine(by_snake0567)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Cabin(by_Sudo)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Cantine(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_CanucksCoffee(by_Genosis)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Car_Dealership_new(by_p1ut0nium)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Car_Dealership_old(by_P1ut0nium)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_CasinoANKH(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Cave1(by_NAGGcommunity)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Villa(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Walcart(by_Swolk)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_WaterPark1(by_NAGGcommunity)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Windowfactory(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Wooden_Palisade(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Wooden_Store(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Cell_Tower(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Chernobyl(by_Maz_Burt)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_cityhouse3(by_Kam)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_CityPark(by_Spider)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_crematory(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Dave_Home_2(by_DMC)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_deaddog_saloon(by_Libby)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_3BlockStores(by_Leo_Liuos)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_7EndStore(by_Jackelmyer)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Adam_House_Z1(by_DMC)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Apartment_Stores(by_Laz_Man)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_ArtGallery(by_Wsiegel)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Hydro_Plant(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="installation_red_mesa" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="sawmill_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="utility_waterworks_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="utility_electric_co_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="utility_refinery_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="factory_lg_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="factory_lg_02" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="settlement_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="utility_celltower_02" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="utility_celltower_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="remnant_mill_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Power_Station(by_LuckyStar)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Prison(by_Limodur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Prison1(by_Curbolt)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Public_Pool(by_Warsaken)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_QuietPinesSpecial(by_hernan)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_rave_factory(by_orak)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Recycling(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_RedCatDiner(by_Najax)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_red_mesa_alpha_labs(by_Pille)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Restaurant(by_Gertle)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_ritualsite_1(by_axebeard)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_ritualsite_2(by_axebeard)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_RocketLaunchPad(by_Saeid)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_rollerskatedisco(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Safehouse(by_Limodor)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Sawmill(by_Pille)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Science_lab(by_kinklade)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_SC_Bunker(by_Rhapsodos)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_seafoodshop(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_shootingrange(by_magoli)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Shoppingcenter(by_TopMinder)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_house04(byGuppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_house05(byGuppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Rangercabin(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="cemetery_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="cemetery_02" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="church_graveyard1" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_ExcavatorMassGrave(by_Pille)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="church_sm_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="church_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="funeral_home_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Church(by_Guppycur)" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="oldwest_church" min_count="1" max_count="1" min_repeat_distance="1000" />	
+		<prefab name="army_barracks_01" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="army_camp_01" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="army_camp_02" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="army_camp_03" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="army_barracks_01" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="xcostum_army_camp(universal)" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="xvanilla_army_barracks_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xvanilla_army_camp_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xvanilla_army_camp_02" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xvanilla_army_camp_03" min_count="1" max_count="1" min_repeat_distance="1000" />		
+		<prefab name="xvanilla_barn_01" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xvanilla_barn_02" min_count="1" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xvanilla_barn_03" min_count="1" max_count="1" min_repeat_distance="1000" />			
+		<prefab name="xvanilla_cornfield_lg" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xvanilla_cornfield_med" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="xvanilla_cornfield_sm" min_count="1" max_count="2" min_repeat_distance="1000" />
+		<prefab name="barn_01" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="barn_02" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="barn_03" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="cornfield_sm" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="cornfield_med" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="blueberryfield_sm" min_count="1" max_count="3" min_repeat_distance="1000" />
+		<prefab name="potatofield_sm" min_count="1" max_count="3" min_repeat_distance="1000" />
+        <prefab name="xcostum_3BlockStores(by_Leo_Liuos)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_4Apartments(by_TopMinder)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_7EndStore(by_Jackelmyer)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Adam_House_Z1(by_DMC)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_AFPBuilding(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Airport_01(by_Zyncosa)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_airport_rundown(by_gt)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_airport1(by_ouch)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_airport2(by_ouch)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Alchemist(by_VitaminE)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Alms_house(ex_vanilla_ornate03)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_AltenburgCastle(by_Horst)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_AmityvilleHorrorHouse(by_Swolk)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_AnarchyHighriseLab(by_NLEagle)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ancient_tomb(by_bigstep70)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Apartment(by_Gertle)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Apartment(by_Spider)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Apartment_Building_(by_Gouki)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Apartment_Stores(by_Laz_Man)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Apartments(by_Batman)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Apartments_01(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Apartments_Curtilage_Playground(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Apaxco_(by_Gouki)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Army_03(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Army_03Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_army_camp(universal)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Army_01(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Army_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Army_02(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_Army_02Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ArtGallery(by_Wsiegel)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_Apartments(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_ChineseMarket(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_Dojo(by_RedLotus)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_KhooKongsi(by_StompyNZ)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_KungFuSchool(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_Livinghouse_sm_01(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_ModernCottage_01(by_StompyNZ)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_Pagoda(by_RedLotus)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_Pagoda_sm_01(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_Restaurant(by_Redlotus)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_Restaurant_city(by_Redlotus)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_Swordmaster(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_Temple9Powermonks(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asia_TempleMiddleVillage(by_SylenThunder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Asylum(by_Wsiegel)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Badonkadonk(by_CaptainandMental)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Bakery(by_VitaminE)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Bank(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Bank(by_Limodor)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Basement01(by_PVWolfgang)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Baskins(by_Nauti_Angel)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Bavarian_Bowse_Shop(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Big_Zed(by_Gobarg_Mana)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Bills_1(by_Theodryck)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Blue_House(by_TopMinder_and_Pille)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Book_Stop(by_Hydroponic)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Bookstore(by_Kayido)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_bowlingcenter(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_BoxingGym(by_KamR)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_bridgesideapartmentsA16(by_Batman)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Brownstones_House(by_Laz_Man)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Bunker(by_Pille)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Bunker_01(by_Memo)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_burialshrine(by_snake0567)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_burntshell(by_Evilracc0on)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_Burrows(by_Nauti_Angel)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_Bus_Depot(by_Hydroponic)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Cabin(by_Sudo)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Cantine(by_Limodor)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_CanucksCoffee(by_Genosis)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Car_Dealership_new(by_p1ut0nium)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Car_Dealership_old(by_P1ut0nium)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Casino(by_Stallionsden)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_CasinoANKH(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Castle05(by_PVWolfgang)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_CastleSpartan_v3(by_Ericbeaudoin)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Cattle_Yard(by_Mana_Gobarg)" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Cattle_Yard1(by_Mana_Gobarg)" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Cave1(by_NAGGcommunity)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_CDC_Mission(by_TheFootpad)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Cell_Tower(by_LuckyStar)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_celltower_2(by_Axebeard)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_celltower_2_waste(by_Axebeard)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Chernobyl(by_Maz_Burt)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Church(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Church_01(by_LazMan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_circus(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_cityhouse3(by_Kam)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_CityPark(by_Spider)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Clocktower(by_VitaminE)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_collapsed_bldg_01(by_BuLLeTZ)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ColonyShip(by_NAGGcommunity)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Container_house(by_Evilracc0on)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ConvenienceStore1(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Coronado_barn_lg(by_Slaan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Coronado_cornfield_crash(by_Slaan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Coronado_cornfield_missle_silo(by_Slaan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Coronado_farm_lake(by_Slaan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Coronado_farmedField(by_Slaan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Coronado_farmSheds(by_Slaan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Coronado_shamway_plant(by_Slaan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_CountyJail(by_Volar)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_Courthouse(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_CQC_HOUSE(by_Evilracc0on)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_CrashedAirplane(by_LazMan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_crematory(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_cult(by_Evilracc0on)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_CurlingCenter(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Dark_Mausoleum32(by_LuckyStar)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Dave_Home_2(by_DMC)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_deaddog_saloon(by_Libby)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_deerstand_1(by_Axebeard)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_deerstand_2(by_Axebeard)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Desert_Temple(by_Hydroponic)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Design_firm(by_EvilRacc0on)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Diverse_01(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Diverse_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Diverse_02(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Diverse_02Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_DnY_CastleM1(by_SirLoachalot)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_DocksMilitaryZone(by_Stallionsden)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Doctors_Office(by_Bostonlondon)" max_count="1" min_repeat_distance="1000" />		
+		<prefab name="xcostum_donut_shop(by_bigstep70)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Dormerhouse(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_DouneCastleRiah(by_Riahsaurus_Rex)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Dregora_Furniture_Timber_Deco(by_Eagle)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_dregora_gas_station6(by_Eagle)" max_count="1" min_repeat_distance="1000" />		
+		<prefab name="xcostum_dregora_here4beerpub(by_Eagle)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Dregora_Mineshaft_01(by_Eagle)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Dregora_ObservartoryBig(by_Eagle)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Dregora_Quarantine_Bunker(by_Eagle)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_dregora_station_southfront(by_Eagle)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Dregora_VaultTec_Bunker_01(by_Eagle)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_dregora_waste_crane(by_Eagle)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_DriveIn(by_NAGG_Genosis)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_DriveIn(by_Wsiegel)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_drivethru(by_bigstep70)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ExcavatorMassGrave(by_Pille)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_exfarmstead(by_owl79)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Experimentalhouse(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Farm(by_BigC90210)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Farm_01(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Farm_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_Farm_02(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Farm_02Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Farm_03(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Farm_03Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Farm_04(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_FarmerJoesNursery(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Firedepartment(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Firehouse(by_Warsaken)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Firestation(by_Slick50)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Firewatchtower(by_SciFiFlippa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Flagstonemansion_sm(by_elitelex)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_flighttower(by_NLEagle)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_food_truck_01(by_LazMan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_forthouseone(by_Fortbrick)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_fp_house_medium_002(by_Frank_Souza)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Frat_house(by_EvilRacc0on)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_fuelstation(by_NLEagle)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_FuneralHome(by_Wsiegel)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_FuneralParlor(by_Zombieman)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_GasnWash32(by_LuckyStar)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_GasStation(by_Warsaken)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Glass_factory_big(by_Khyber)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Graveyard(by_Hydroponic)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_greenhouse_01(by_FLESHUS)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_Guarantine_Post(by_NLEagle)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Guildhall(ex_vanilla_ornate01)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_HarbingerLabs(by_Riahsaurus_Rex)" max_count="1" min_repeat_distance="1000" />		
+		<prefab name="xcostum_Haulier_lg(by_Limodor)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Haulier_md(by_Limodor)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_HBW_Metro_Station(by_Hydroponic)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_HellMart(by_Riahsaurus_Rex)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Hicks_Family_Diner(by_Hydroponic)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_hideout(by_Axebeard)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_hideout(by_TopMinder_and_Pille)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Hightop(by_Curbolt)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_HNHouse(by_Hernan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Hobbit(by_Limodor)" max_count="1" min_repeat_distance="1000"/>			
+		<prefab name="xcostum_Homestead(by_Mana)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Hospital(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Hospital(by_Wsiegel)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Hostel(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Hotel_01(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Hotel_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Hotel_Construction_Site_01(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House(by_LastI)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House(by_ShoNuff)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_House_1(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_1Destroyed(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_02(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_House_2(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_2Destroyed(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_03(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_House_03Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House_3(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_3Destroyed(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_3PartialDestroyed(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_04(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House_04Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House_4(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_05(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_House_05Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House_5(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_06(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House_06Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House_6(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_6Destroyed(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_7(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_08(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House_08Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House_8(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_09(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House_09Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_House_9(by_Nodabba)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_House_11(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house_modern_01(by_Kam)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house_modern_02(by_Kam)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house_modern_03(by_Kam)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house_modern_04(by_Kam)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house_modern_05(by_Kam)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house_modern_05(by_Pille_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house_number14(by_Kam)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_house_old_tudor_06(by_Pille)" max_count="1" min_repeat_distance="1000"/>			
+		<prefab name="xcostum_house_pigeon(by_VitaminE)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house_suburb_01(by_LazMan)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_house01(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house02(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_house2(by_Curbolt)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house03(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_house3(by_Curbolt)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_house04(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house4(by_Curbolt)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_house05(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>				
+		<prefab name="xcostum_house7(by_Curbolt)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_houseprefabbrickandconc(by_fortbrick2)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_housewhiteblue(by_owl79)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Hunters_rest(by_Evilracc0on)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Hydro_Plant(by_LuckyStar)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_icestadium(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_01(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_Industry_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_02(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_02Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_03(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_03Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_04(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_04Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_05(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_05Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_06(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_06Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_07(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Industry_08(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Info_Center(by_LuckyStar)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_InsaneAsylum(by_Genosis)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Italo_Restaurant(by_axebeard)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_IZEA_market(by_Genosis)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_JapaneseCastle(by_Takayan_Norittchi_Chiko)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_JapaneseCastle(by_VitaminE)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_JoJos(by_JSDoctor)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Junkyard(by_Hydroponic)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_KarenHouse(by_Kayido)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Knolby_Cabin_1981(by_Klaus0Engel)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_KooshieMart(by_Kayido)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_kuldbrickhouse(by_Kuldiin)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_kuldlargehouse(by_Kuldiin)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_kwikemart(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_LakesideLodge(by_Kam)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Lattez(by_Nauti_Angel)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Leisure01(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_Leisure01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Library(by_NAGG)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Lighthouse(by_NAGG)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_LittleLeagueBaseball(by_Curmudgeon)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_LMART_Garage(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_LMART_RoadHouse(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_LMARTRoadHouseTruckstop(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_LumberMill(by_IceJudge)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Mall(by_hernanxx)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Mall_DOD(by_captainwhiskerbiscuits_mentalninja33)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Mall_DOD_Dungeon(by_captainwhiskerbiscuits_mentalninja33)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Mall_Large_Volume(by_hernanxx)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Manorhouse(by_WereWulfen)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_mass_grave_2(by_Evilracc0on)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_McDonalds(by_BigC90210)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_McDowell_restaurant(by_LazMan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_med_clinic_small(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_MidwichSchool_01(by_Dragoness)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Mill(by_VitaminE)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_MinderManor(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Mine1(by_NAGG_DaphyDuck91)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_MiniBikeRaceTrack(by_Spider)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_minigolf(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_MiniMall(by_Spider)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ModernArtGallery(by_Pille_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Modernhouse02(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_modernvilla(by_owl79)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_moestaverne(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_MonsterFlexGym(by_Swolk)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_moonshiner(by_Evilracc0on)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Motel(by_Limodor)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_MotteBailey(by_Gobarg_Mana)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_MultiStore(by_ANT)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_nationalparkLodge(by_Laz_Man)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_nepa_base(by_Eihwaz)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Nicehouse(by_BigC90210)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_NotreDamn_(by_tehkarma)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_NSiteMissileSilo(byEphoie)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Nuclear_Powerplant(by_Rocky)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Nuka_Factory(by_bdubyah)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Nuket0wn(by_Limodor)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Office(by_Wsiegel)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Oil_PumpJack(by_Hydroponic)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_oldwestBank(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_OrigamiGallery(by_Pille_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Orphanage(ex_vanilla_ornate02)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_OutbackShack(by_Gobarg_Mana)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_Overlook_Hotel_001(by_Quagmire1428)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Paintballarena(by_Jackelmyer)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Pantilehouse(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Park(by_Bostonlondon)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Park(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Pawnshop(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_PeerCafe(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Pentagon(by_Nauti_Angel)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_PersianMansion(by_saeid)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_PetStore(by_Jackelmyer)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_PG_BusStstion(by_Dragoness)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_pistol_gunshop(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Plant(by_Wsiegel)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Polarstation(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Power_Station(by_LuckyStar)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_powerplant(byKam)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_prefabhome1(by_Riahsaurus_Rex)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Prison(by_Limodur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Prison1(by_Curbolt)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Public_Pool(by_Warsaken)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_QuietPinesSpecial(by_hernan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_RaceTrack(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Ranch(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Rangercabin(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_rave_factory(by_orak)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Recycling(by_Limodor)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_red_mesa_alpha_labs(by_Pille)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_RedCatDiner(by_Najax)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Redhouse(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_remnant_waste_01(by_LazMan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_remnant_waste_02(by_LazMan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ResearchStation(by_NLEagle)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ResearchVessel(by_Pille)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Resident_Evil_Mansion(by_Libby)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Resident_Evil_Mansion_(by_Frantic_Dan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Restaurant(by_Gertle)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ritualsite_1(by_axebeard)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ritualsite_2(by_axebeard)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_RoadHouse(by_Mana_Gobarg)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_RocketLaunchPad(by_Saeid)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_rollerskatedisco(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Roundhouse(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Safehouse(by_Limodor)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Sawmill(by_Pille)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_SC_Bunker(by_Rhapsodos)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_SC_steakhouse01(by_Dragoness)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_School(by_LazMan)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Science_lab(by_kinklade)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_seafoodshop(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_serial_killer_01(by_FLESHUS)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_sewer_layout(by_Evilracc0on)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_shantytown(by_Evilracc0on)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_shootingrange(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Shoppingcenter(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ShoppingCenter_Galleria(by_Laz_Man)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Shrub_Conservatory(by_Werewulfen)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Silos(by_Mana_Gobarg)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_simpsonshouse(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_SkiResort_Bar(by_NLEagle)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_skyhigh(by_Gobarg_Mana)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Skyscraper(by_Peppino)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_skyscraper_omni(by_Flanua)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Sky-Twintowers(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_SlavCo_SuperMarket(by_Hydroponic)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Small_Cafe_1(by_Bostonlondon)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Small_House(by_ThetruJames)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_SmallWoodhouse(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Snakehotel(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_spanish_mission(by_The_Cure)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Spirallibrary(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Split_Level(by_CraterCreator)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Stonehouse(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Storage(by_ShoNuff)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Store_Automotive_sm(by_Laz_Man)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_storeset1(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_storeset2(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_strandresort(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_strange_cornfield(by_magoli)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Strip_Mall_Large_shops(by_Hydroponic)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_stripclub(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_StripClub(by_Wsiegel)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_stripmall(by_Axebeard)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Stripmall(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_SUBDAY(by_Swolk)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Subway(by_NAGG_Rick)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Supermarket_01(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Supermarket_01Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Supermarket_02(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Supermarket_02Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Supermarket_03(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Supermarket_03Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Supermarket_04(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Supermarket_04Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Supermarket_05(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Supermarket_05Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Supermarket_06(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Supermarket_06Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Supermarket_07(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Supermarket_07Destroyed(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Supermarket_08(by_Zyncosa)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_SuperStore(by_Volar)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_swimmingbath(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_TacoBele(by_Swolk)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Tank_Garage(by_LuckyStar)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Tavern(by_Limodor)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Tavern(by_VitaminE)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_The_Cobblestone_House(by_JSDoctor)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ThemePark(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_TheMill(by_MoNKeYest1)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_TheSect_Followers-of-M(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_TheSphinx3(by_Andyjoki)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_TheVillage(by_Stallionsden)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_timbershop(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_TittyTwister(by_Sorrowthief)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Tower(by_VitaminE)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_TownHall(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_townsquare(by_snake0567)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_townvilla(by_owl79)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Trailer(by_Sorrowthief)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Trailerhousemix01" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Trailerhousemix02" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Trailerhousemix03(by_SandyBeaches)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Trailerhousemix03" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Trailerhousemix04(by_SandyBeaches)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Trailerhousemix04" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_trainstationRiah(by_Riahsaurus_Rex)" max_count="1" min_repeat_distance="1000" />		
+		<prefab name="xcostum_TruckStop(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_TruckStop_Garage(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_TruckStop_Roadhouse(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_tv_store(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_TV_Tower_Restaurant(by_magoli)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_UFO(by_NAGG_Ryan)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_UnionStation(by_BuLLeTZ)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Utility_Combo(by_LuckyStar)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Vacant(by_00Zorro100)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_VarietiesDepartmentStore(by_Stallionsden)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Vet_Clinic(by_Firecat)" max_count="1" min_repeat_distance="1000" />
+		<prefab name="xcostum_Villa(by_Limodor)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Villa(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Walcart(by_Swolk)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Wank_Bank(by_Hydroponic)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_Warehouse(by_Batman)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Warehouse(by_Illidua)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_warehouse(by_NLEagle)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_wastelandtrain(by_Horst)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_wastelandtrain(by_incrediblejimmy)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_watchtower_01(by_FLESHUS)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_watchtower_02(by_FLESHUS)" max_count="1" min_repeat_distance="1000"/>		
+		<prefab name="xcostum_WaterPark1(by_NAGGcommunity)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Windowfactory(by_magoli)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Wooden_Palisade(by_LuckyStar)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Wooden_Store(by_Guppycur)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_Woodhouse(by_TopMinder)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_WulftownA(by_WereWulfen)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_WulftownCD(by_WereWulfen)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_WWHouse(by_IceJudge)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ZHigh(by_Volar)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="xcostum_ZombieZoo(by_Wsiegel)" max_count="1" min_repeat_distance="1000"/>	
+		<prefab name="xcostum_Zug1(by_Horst)" max_count="1" min_repeat_distance="1000"/>
+		<prefab name="_Petra_Indiana_Jones_by_MPLogue" max_count="1" min_repeat_distance="1000"/>
+</append>
+
+</War3zuk>

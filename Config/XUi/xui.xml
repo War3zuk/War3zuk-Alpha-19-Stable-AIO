@@ -85,6 +85,15 @@
 	<window name="windowToolsHDCementMixer"/>
 </window_group>
 
+<window_group name="workstation_HDBeeHive" controller="XUiC_WorkstationWindowGroup">
+	<window name="windowCraftingList"/>
+	<window name="craftingInfoPanel"/>
+	<window name="WARwindowCraftingQueue"/>
+	<window name="windowOutput"/>
+	<window name="windowNonPagingHeader"/>
+	<window name="windowToolsHD BeeHive"/>
+</window_group>
+
 </append>
 
 <set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowForgeInput']/@name">WARwindowForgeInput</set>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="QuestTags" value="clear,fetch" />
+  <property name="DifficultyTier" value="3" />
+  <property name="Zoning" value="ResidentialNew, Residential, ResidentialOld" />
+  <property name="RotationToFaceNorth" value="0" />
+  <property name="YOffset" value="-7" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowedBiomes" value="snow,pine_forest,desert,wasteland" />
+  <property name="AllowedTownships" value="city" />
+  <property name="EditorGroups" value="house new, House medium, house old, HOUSE CONST" />
+  <property name="TraderAreaProtect" value="16, 0, 16" />
+  <property name="TraderAreaTeleportSize" value="28, 30, 27" />
+  <property name="TraderAreaTeleportCenter" value="1, 1, 1" />
+  <property name="SleeperVolumeStart" value="2, 2, 14#14, 4, 16#2, 8, 14#4, 6, 1#2, 12, 14#2, 17, 14#15, 19, 22" />
+  <property name="SleeperVolumeSize" value="18, 4, 17#6, 2, 3#18, 3, 17#20, 3, 11#18, 4, 17#18, 4, 17#4, 2, 7" />
+  <property name="SleeperVolumeGroup" value="S_-_Group_Abandoned_House,3,9,S_Zom_Janitor_Only,1,3,S_-_Group_Abandoned_House,5,10,S_-Group_Generic_Zombie,2,3,S_-_Group_Abandoned_House,8,10,S_-_Group_Abandoned_House,5,8,S_-_Group_Zom_Badass_Only,1,1" />
+  <property name="SleeperVolumeGameStageAdjust" value="easy,,,,,," />
+  <property name="SleeperIsLootVolume" value="False,True,False,False,False,False,True" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0" />
+  <property name="ShowQuestClearCount" value="0" />
+  <property class="IndexedBlockOffsets">
+    <property class="FetchContainer">
+      <property name="0" value="16, 11, 24" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="22, 7, 30" />
+    </property>
+    <property class="Rally">
+      <property name="0" value="22, 7, 31" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="259075" />
+    <property name="TotalTriangles" value="241553" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="175519" />
+      <property name="Triangles" value="189316" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="47202" />
+      <property name="Triangles" value="24398" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="2816" />
+      <property name="Triangles" value="1408" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="984" />
+      <property name="Triangles" value="636" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="364" />
+      <property name="Triangles" value="182" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="29105" />
+      <property name="Triangles" value="20565" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="96" />
+      <property name="Triangles" value="48" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="2936" />
+      <property name="Triangles" value="4960" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="25" />
+      <property name="Triangles" value="26" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="28" />
+      <property name="Triangles" value="14" />
+    </property>
+  </property>
+</prefab>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="False"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="clear,fetch,hidden_cache"/>
+    <property name="DifficultyTier" value="5"/>
+    <property name="Zoning" value="Downtown,ResidentialNew,Residential"/>
+    <property name="RotationToFaceNorth" value="2"/>
+    <property name="YOffset" value="-7"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedTownships" value="city,town"/>
+    <property name="EditorGroups" value="government"/>
+    <property name="TraderAreaProtect" value="35, 25, 35"/>
+    <property name="TraderAreaTeleportSize" value="40, 30, 40"/>
+    <property name="TraderAreaTeleportCenter" value="1, 1, 1"/>
+    <property name="SleeperVolumeStart" value="86, 8, 53#70, 8, 47#76, 0, 47#63, 0, 53#44, 0, 78#45, 0, 52#29, 0, 52#20, 8, 55#20, 8, 71#44, 8, 52#44, 12, 52#20, 12, 71#63, 12, 47#44, 17, 67#44, 22, 60#44, 27, 51#31, 32, 52#30, 42, 50#48, 32, 50#45, 0, 73#57, 0, 53#63, 17, 47#86, 12, 68#86, 17, 53#86, 12, 53#31, 17, 51#63, 22, 54#63, 27, 54#44, 12, 74#59, 8, 71#19, 12, 52#31, 27, 51"/>
+    <property name="SleeperVolumeSize" value="14, 4, 16#16, 4, 23#10, 7, 20#13, 7, 18#19, 7, 20#12, 7, 21#16, 8, 19#24, 4, 16#39, 4, 26#26, 4, 19#19, 5, 22#24, 5, 26#23, 5, 23#19, 5, 16#19, 5, 18#19, 5, 27#17, 10, 19#18, 8, 29#16, 10, 29#12, 7, 5#6, 7, 25#23, 5, 23#18, 7, 17#14, 9, 16#14, 5, 13#32, 5, 16#23, 5, 16#14, 5, 16#19, 5, 9#27, 4, 25#25, 5, 19#13, 5, 20"/>
+    <property name="SleeperVolumeGroup" value="S_-_Group_Hospital,2,2,S_-_Group_Hospital,3,3,S_-_Group_Hospital,7,7,S_-_Group_Hospital,4,4,S_-_Group_Hospital,3,3,S_-_Group_Hospital,9,10,S_-_Group_Hospital,3,3,S_-_Group_Hospital,4,4,S_-_Group_Hospital,6,7,S_-_Group_Hospital,3,3,S_-_Group_Hospital,4,4,S_-_Group_Hospital,5,6,S_-_Group_Hospital,4,4,S_-_Group_Hospital,6,6,S_-_Group_Zom_Badass,8,9,S_-_Group_Hospital,6,6,S_-_Group_Hospital,3,3,S_-_Group_Zom_Badass,11,12,S_-_Group_Hospital,6,6,S_-_Group_Hospital,1,1,S_-_Group_Hospital,1,1,S_-_Group_Hospital,5,5,S_-_Group_Hospital,3,3,S_-_Group_Hospital,2,2,S_-_Group_Hospital,3,3,S_-_Group_Hospital,4,4,S_-_Group_Hospital,2,2,S_-_Group_Hospital,2,2,S_-_Group_Hospital,3,4,S_-_Group_Hospital,6,6,S_-_Group_Hospital,3,3,S_-_Group_Hospital,2,2"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"/>
+    <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperIsBossVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+</prefab>

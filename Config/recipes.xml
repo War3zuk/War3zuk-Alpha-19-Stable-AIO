@@ -23,6 +23,10 @@
 	
 <append xpath="/recipes">
 	
+<recipe name="drinkJarBoiledWater" count="1" craft_area="campfire" craft_time="10" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="drinkJarRiverWater" count="1"/>
+</recipe>
+	
 <recipe name="LadyDahlia28CowboyHat" count="1" craft_area="HD WorkBench" craft_time = "60">
 	<ingredient name="resourceScrapPolymers" count="50"/>
 	<ingredient name="resourceLeather" count="50"/>
@@ -663,7 +667,7 @@
 </recipe>
 	
 <recipe name="Warm Chunky Honey" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
-	<ingredient name="foodHoney" count="5"/>
+	<ingredient name="HD Honey" count="1"/>
     <ingredient name="foodCanPears" count="2"/>
 	<ingredient name="HDBowl" count="1"/>
 </recipe>
@@ -687,7 +691,6 @@
 </recipe>
 	
 <recipe name="Warm Chunky Surprise" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
-	<ingredient name="foodCanChicken" count="2"/>
 	<ingredient name="foodCanLamb" count="2"/>
     <ingredient name="foodCanCatfood" count="2"/>
     <ingredient name="foodCanDogfood" count="2"/>
@@ -701,8 +704,8 @@
 </recipe>
 	
 <recipe name="Warm Chunky Pasta" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
-	<ingredient name="foodCanLamb" count="2"/>
-    <ingredient name="foodCanPasta" count="2"/>
+	<ingredient name="foodCanChicken" count="2"/>
+    <ingredient name="foodCanPasta" count="1"/>
 	<ingredient name="foodCanTuna" count="2"/>
 	<ingredient name="HDBowl" count="1"/>
 </recipe>	
@@ -717,7 +720,7 @@
 <recipe name="Warm Chunky Sirloin" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
     <ingredient name="foodCanStock" count="2"/>
     <ingredient name="foodRawMeat" count="20"/>
-	<ingredient name="foodCanMiso" count="2"/>
+	<ingredient name="HD Honey" count="1"/>
 	<ingredient name="HDBowl" count="1"/>
 </recipe>
 
@@ -754,6 +757,7 @@
 <recipe name="Warm Chunky ChiliDog" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
 	<ingredient name="foodChiliDog" count="2"/>
 	<ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="HD Honey" count="1"/>
 	<ingredient name="HDBowl" count="1"/>
 </recipe>
 
@@ -778,6 +782,7 @@
 <recipe name="Warm Chunky Gumbo Stew" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingPot" >
 	<ingredient name="foodGumboStew" count="2"/>
 	<ingredient name="foodCanStock" count="2"/>
+	<ingredient name="HD Honey" count="1"/>
 	<ingredient name="HDBowl" count="1"/>
 </recipe>
 
@@ -824,12 +829,12 @@
 
 <recipe name="Chicken Nuggets" count="1" craft_area="campfire" craft_time = "5" craft_tool="toolCookingGrill" >
 	<ingredient name="resourceAnimalFat" count="2"/>
-    <ingredient name="BabyChick" count="4"/>
+    <ingredient name="CuteBabyChick" count="4"/>
 </recipe>
 
 <recipe name="KillJoyJessicas HotWings" count="2" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
 	<ingredient name="resourceAnimalFat" count="2"/>
-	<ingredient name="BabyChick" count="6"/>
+	<ingredient name="CuteBabyChick" count="6"/>
 	<ingredient name="foodCanChili" count="1"/>
 </recipe>
 
@@ -921,7 +926,7 @@
 
 <recipe name="RabidAries Cute Chick Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
 	<ingredient name="resourceAnimalFat" count="5"/>
-    <ingredient name="BabyChick" count="10"/>
+    <ingredient name="CuteBabyChick" count="10"/>
 	<ingredient name="foodCropPotato" count="4"/>
 	<ingredient name="foodCornMeal" count="4"/>
 </recipe>
@@ -934,6 +939,7 @@
 
 <recipe name="ScyFangs Sweet Pumpkin Pie" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
 	<ingredient name="foodCropPumpkin" count="4"/>
+	<ingredient name="HD Honey" count="1"/>
 	<ingredient name="foodEgg" count="4"/>
 	<ingredient name="foodCornMeal" count="4"/>
 </recipe>
@@ -976,6 +982,7 @@
 
 <recipe name="Takayans Sashimi" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
 	<ingredient name="foodCanSalmon" count="1"/>
+	<ingredient name="HD Honey" count="1"/>
 	<ingredient name="foodCanStock" count="1"/>
 </recipe>
 
@@ -986,7 +993,7 @@
 <recipe name="Pikalyns Patbingsu" count="1" craft_time="30">
 	<ingredient name="drinkJarEmpty" count="1"/>
 	<ingredient name="foodCanPears" count="1"/>
-	<ingredient name="foodHoney" count="2"/>
+	<ingredient name="HD Honey" count="1"/>
 	<ingredient name="resourceCropSnowberryPlant" count="30"/>
 	<ingredient name="Shaved Ice" count="100"/>
 </recipe>
@@ -1004,10 +1011,77 @@
 	<ingredient name="drinkJarBeer" count="2"/>
 </recipe>
 
-<recipe name="Aaron Rockst4r" count="1" craft_time = "10">
-	<ingredient name="resourceWood" count="40"/>
+<recipe name="HDBeeHive" count="1" craft_time="30" craft_area="HD WorkBench" tags="learnable">
+	<ingredient name="resourceNail" count="50"/>
+	<ingredient name="resourceForgedIron" count="2"/>
+	<ingredient name="resourceWood" count="100"/>
+</recipe>
+
+<recipe name="HDHoneyExtractor" count="1" craft_time="30" craft_area="HD WorkBench" tags="learnable">
 	<ingredient name="resourceNail" count="10"/>
-	<ingredient name="resourceBrokenGlass" count="30"/>
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDHoneyKnife" count="1" craft_time="30" craft_area="HD WorkBench" tags="learnable">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+<recipe name="HDHoneyStrainer" count="1" craft_time="30" craft_area="HD WorkBench" tags="learnable">
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceWood" count="20"/>
+</recipe>
+
+
+<recipe name="HD Honey Comb" count="20" craft_time="20" craft_tool="HDHoneyKnife" craft_area="HDBeeHive">
+	<ingredient name="Cute Baby Bee" count="20"/>
+</recipe>
+
+<recipe name="HD Honey" count="1" craft_time="20" craft_tool="HDHoneyStrainer" craft_area="HDBeeHive">
+	<ingredient name="HD Honey Comb" count="20"/>
+	<ingredient name="HD Refined Sugar" count="20"/>
+</recipe>
+
+<recipe name="HD Refined Sugar" count="10" craft_tool="HDHoneyExtractor" craft_time="20" craft_area="HDBeeHive">
+	<ingredient name="HD Honey Comb" count="20"/>
+</recipe>
+
+<recipe name="Honey Glazed ChickenWings" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="10"/>
+    <ingredient name="CuteBabyChick" count="10"/>
+	<ingredient name="HD Refined Sugar" count="10"/>
+	<ingredient name="HD Honey" count="2"/>
+	<ingredient name="foodCornMeal" count="4"/>
+</recipe>
+
+<recipe name="Honey Glazed ChickenNuggets" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="resourceAnimalFat" count="10"/>
+    <ingredient name="CuteBabyChick" count="10"/>
+	<ingredient name="HD Refined Sugar" count="10"/>
+	<ingredient name="HD Honey" count="2"/>
+	<ingredient name="foodCornMeal" count="10"/>
+</recipe>
+
+<recipe name="Honey Glazed Ham" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodRawMeat" count="20"/>
+	<ingredient name="foodCornMeal" count="10"/>
+	<ingredient name="HD Honey" count="2"/>
+</recipe>
+
+<recipe name="Honey Glazed CornFlakes" count="1" craft_area="campfire" craft_time = "10" craft_tool="toolCookingGrill" >
+	<ingredient name="foodCropCorn" count="20"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="HD Honey" count="2"/>
+</recipe>
+
+<recipe name="Honey Speed Bites" count="1" craft_time = "60" >
+	<ingredient name="drugAntibiotics" count="2"/>
+	<ingredient name="drugHerbalAntibiotics" count="1"/>
+	<ingredient name="drugVitamins" count="2"/>
+	<ingredient name="HD Honey" count="2"/>
 </recipe>
 
 <recipe name="ammoBlunderbuss" count="2">
@@ -1020,8 +1094,8 @@
 	<ingredient name="resourceMetalPipe" count="4"/>
 	<ingredient name="resourceDuctTape" count="2"/>
 	<ingredient name="resourceLeather" count="2"/>
-	<ingredient name="resourceWood" count="10"/>
-	<ingredient name="resourceScrapBrass" count="20"/>
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="resourceScrapLead" count="20"/>
 </recipe>
 	
 <recipe name="HDScrapIronAxe" count="1" craft_time = "10" craft_exp_gain="100" tags="perkMiner69r">
@@ -1582,7 +1656,7 @@
 	<ingredient name="resourceScrapPolymers" count="5"/>
 </recipe>
 
-<recipe name="HD First Aid Kit" count="1" craft_time = "10" craft_area="chemistryStation" tags="learnable" >
+<recipe name="HD First Aid Kit" count="1" craft_time = "10" craft_area="HD WorkBench" tags="learnable" >
 	<ingredient name="medicalBloodBag" count="1"/>
 	<ingredient name="drinkJarGrainAlcohol" count="1"/>
 	<ingredient name="medicalFirstAidKit" count="1"/>
@@ -1705,56 +1779,56 @@
 	<ingredient name="resourceWood" count="20"/>
 </recipe>
 
-<recipe name="HD Bollock Rot Injection" count="1" craft_time = "60">
+<recipe name="HD Bollock Rot Injection" count="1" craft_time = "60" craft_area="HD WorkBench" >
 	<ingredient name="drugAntibiotics" count="2"/>
 	<ingredient name="HD First Aid Kit" count="1"/>
 	<ingredient name="medicalBandage" count="10"/>
 	<ingredient name="drugVitamins" count="2"/>
 </recipe>
 
-<recipe name="HD Bird Flu Injection" count="1" craft_time = "60">
+<recipe name="HD Bird Flu Injection" count="1" craft_time = "60" craft_area="HD WorkBench" >
 	<ingredient name="drugAntibiotics" count="2"/>
 	<ingredient name="HD First Aid Kit" count="1"/>
 	<ingredient name="medicalBandage" count="10"/>
 	<ingredient name="drugVitamins" count="2"/>
 </recipe>
 
-<recipe name="HD Brain Herpes Injection" count="1" craft_time = "60">
+<recipe name="HD Brain Herpes Injection" count="1" craft_time = "60" craft_area="HD WorkBench" >
 	<ingredient name="drugAntibiotics" count="2"/>
 	<ingredient name="HD First Aid Kit" count="1"/>
 	<ingredient name="medicalBandage" count="10"/>
 	<ingredient name="drugVitamins" count="2"/>
 </recipe>
 
-<recipe name="HD MRSA Injection" count="1" craft_time = "60">
+<recipe name="HD MRSA Injection" count="1" craft_time = "60" craft_area="HD WorkBench" >
 	<ingredient name="drugAntibiotics" count="2"/>
 	<ingredient name="HD First Aid Kit" count="1"/>
 	<ingredient name="medicalBandage" count="10"/>
 	<ingredient name="drugVitamins" count="2"/>
 </recipe>
 
-<recipe name="HDJukeBoxDubStepOFF" count="1" craft_time = "120">
+<recipe name="HDJukeBoxDubStepOFF" craft_time="120" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceWood" count="100"/>
 	<ingredient name="resourceMetalPipe" count="20"/>
 	<ingredient name="resourceNail" count="40"/>
 </recipe>
 
-<recipe name="HDJukeBoxReggaeOFF" count="1" craft_time = "120">
+<recipe name="HDJukeBoxReggaeOFF" craft_time="120" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceWood" count="100"/>
 	<ingredient name="resourceMetalPipe" count="20"/>
 	<ingredient name="resourceNail" count="40"/>
 </recipe>
 
-<recipe name="HDJukeBox5FingerOFF" count="1" craft_time = "120">
+<recipe name="HDJukeBox5FingerOFF" craft_time="120" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceWood" count="100"/>
 	<ingredient name="resourceMetalPipe" count="20"/>
 	<ingredient name="resourceNail" count="40"/>
 </recipe>
 
-<recipe name="HDJukeBoxASevenfoldOFF" count="1" craft_time = "120">
+<recipe name="HDJukeBoxASevenfoldOFF" craft_time="120" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceForgedIron" count="50"/>
 	<ingredient name="resourceWood" count="100"/>
 	<ingredient name="resourceMetalPipe" count="20"/>
@@ -1958,10 +2032,6 @@
 <recipe name="barbedWireSheet" count="1">
     <ingredient name="resourceScrapIron" count="20"/>
 </recipe>
-	
-<recipe name="drinkJarBoiledWater" count="1" craft_area="campfire" craft_tool="toolCookingPot" craft_time="20">
-	<ingredient name="drinkJarRiverWater" count="1"/>
-</recipe>
 
 <recipe name="HD Concrete Barrier" count="1" craft_time="10" craft_area="cementMixer" tags="cementMixerCrafting">
 	<ingredient name="resourceConcreteMix" count="100"/>
@@ -2049,49 +2119,49 @@
 	<ingredient name="resourceAnimalFat" count="5" />
 </recipe>
 			   
-<recipe name="HD Ammo Supplies" craft_time="5" count="1">
+<recipe name="HD Ammo Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceGlue" count="2"/>
 </recipe>
 		
-<recipe name="HD Building Supplies" craft_time="5" count="1">
+<recipe name="HD Building Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceGlue" count="2"/>
 </recipe>
 		
-<recipe name="HD Forge Supplies" craft_time="5" count="1">
+<recipe name="HD Forge Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceGlue" count="2"/>
 </recipe>
 		
-<recipe name="HD Fuel Supplies" craft_time="5" count="1">
+<recipe name="HD Fuel Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceGlue" count="2"/>
 </recipe>
 		
-<recipe name="HD Medical Supplies" craft_time="5" count="1">
+<recipe name="HD Medical Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceGlue" count="2"/>
 </recipe>
 		
-<recipe name="HD Duke Coin Supplies" craft_time="5" count="1">
+<recipe name="HD Duke Coin Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceGlue" count="2"/>
 </recipe>
 		
-<recipe name="HD Grocery Supplies" craft_time="5" count="1">
+<recipe name="HD Grocery Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceGlue" count="2"/>
 </recipe>
 
-<recipe name="HD Junk Supplies" craft_time="5" count="1">
+<recipe name="HD Junk Supplies" craft_time="30" craft_area="HD WorkBench" count="1">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceGlue" count="2"/>
@@ -2163,7 +2233,7 @@
 	<ingredient name="drinkJarEmpty" count="1"/>
 </recipe>
 
-<recipe name="HD Electrolyte" craft_time="120" count="200">
+<recipe name="HD Electrolyte" craft_time="60" count="50">
 	<ingredient name="carBattery" count="1"/>
 </recipe>
 	
@@ -2639,15 +2709,15 @@
 	<ingredient name="resourceConcreteMix" count="20"/>
 </recipe>
 
-<recipe name="HDSilverIngot" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time="300">
+<recipe name="HDSilverIngot" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time="60">
 	<ingredient name="resourceSilverNugget" count="10"/>
 </recipe>
 
-<recipe name="HDGoldIngot" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time="480">
+<recipe name="HDGoldIngot" count="1" craft_tool="HDWelder" craft_area="HD WorkBench" craft_time="180">
 	<ingredient name="resourceGoldNugget" count="10"/>
 </recipe>
 	
-<recipe name="HDDiamondIngot" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="720">
+<recipe name="HDDiamondIngot" count="1" craft_tool="HDToolAndDieSet" craft_area="HD WorkBench" craft_time="360">
 	<ingredient name="resourceRawDiamond" count="10"/>
 </recipe>
 
@@ -2748,6 +2818,12 @@
 	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceNail" count="4"/>
 	<ingredient name="resourceBrokenGlass" count="25"/>
+</recipe>
+
+<recipe name="Aaron Rockst4r" count="1" craft_time = "30">
+	<ingredient name="resourceWood" count="40"/>
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceBrokenGlass" count="30"/>
 </recipe>
 
 <recipe name="HD ZTPH 001" count="1" craft_area="HD PicsBench" craft_time = "10">

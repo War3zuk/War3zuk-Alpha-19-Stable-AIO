@@ -293,8 +293,8 @@ HDTeslaCoilDesc,Block,,,The Tesla Fence acts much the same as the Electric Fence
 
 HDSpas12Reflex,items,Item,KgNone,HD Spas 12 Reflex,
 HDMossberg500Reflex,items,Item,KgNone,HD Mossberg 500 Reflex,
-BabyChick,items,Item,KgNone,Cute Baby Chick,
-BabyChickDesc,items,,,OMG Youve found a Cute Baby Chick. Gotta be useful for something Right.,
+CuteBabyChick,items,Item,KgNone,Cute Baby Chick,
+CuteBabyChickDesc,items,,,OMG Youve found a Cute Baby Chick. Gotta be useful for something Right.,
 ChickenNuggetsDesc,items,,,Like McDonalds Only REAL MEAT lol.,
 
 HDSpas12ReflexDesc,items,,,Military Grade Reflex Sight that can be attached to the HD Spas 12,
@@ -809,6 +809,7 @@ GiantUndeadHound,entityclasses,Entity,New,Giant Undead Hound,
 GiantUndeadHoundFire,entityclasses,Entity,New,Giant Burning Undead Hound,
 GiantUndeadHoundRad,entityclasses,Entity,New,Giant Radiated Undead Hound,
 
+ElectroDemolisher,entityclasses,Entity,New,Electrified Demolisher,
 GiantDemolisher,entityclasses,Entity,New,Giant Demolisher,
 GiantDemolisherFire,entityclasses,Entity,New,Giant Burning Demolisher,
 GiantDemolisherRad,entityclasses,Entity,New,Giant Radiated Demolisher,
@@ -816,6 +817,7 @@ GiantDemolisherRad,entityclasses,Entity,New,Giant Radiated Demolisher,
 zombiePhantasm,entityclasses,Entity,New,Phantasm,
 zombiePhantasmFire,entityclasses,Entity,New,Burning Phantasm,
 zombiePhantasmRAD,entityclasses,Entity,New,Radiated Phantasm,
+zombiePhantasmElectro,entityclasses,Entity,New,Electrified Phantasm,
 
 animalChicken,entityclasses,Entity,New,Chicken,
 animalRabbit,entityclasses,Entity,New,Rabbit,
@@ -870,3 +872,24 @@ zombieSkateboarderRadiated,entityclasses,Entity,New,Radiated Punk,
 zombieUtilityWorker,entityclasses,Entity,New,Infected Utility Worker,
 zombieUtilityWorkerFeral,entityclasses,Entity,New,Feral Utility Worker,
 zombieWightRadiated,entityclasses,Entity,New,Radiated Wight,
+
+HDBeeHiveDesc,,blocks,Workstation,Craft this in the HD WorkBench And refine Bees for their honey.\n\nUses the following Addons. HD Honey Knife. HD Strainer. HD Extractor,
+
+HDBeeHive,blocks,block,KgNone,HD Bee Hive,
+HDHoneyExtractor,items,Item,KgNone,HD Honey Extractor,
+HDHoneyKnife,items,Item,KgNone,HD Honey Knife,
+HDHoneyStrainer,items,Item,KgNone,HD Honey Strainer,
+
+HDHoneyCombDesc,items,,,Used to create HD Refined Sugar as well as HD Refined Honey.
+HDRefinedSugarDesc,items,,,Used in certain types of recipes.
+HDHoneyExtractorDesc,items,,,Used to extract Honey.
+HDHoneyKnifeDesc,items,,,Used in the refined sugar proccess.
+HDHoneyStrainerDesc,items,,,Used to strain and refine honey comb.
+CuteBabyBeeDesc,items,,,Cute baby Bumble Bee. Umm useful for something right !!.
+HoneyGlazedChickenWingsDesc,items,,,Full of Energy. Great for Stamina Regen And Food.
+HDHoneyDesc,items,,,A very powerful antibiotic for all those infections.
+HoneyGlazedChickenNuggetsDesc,items,,,Full of Energy. Great for Stamina Regen And Food.
+
+HoneyGlazedHamDesc,items,,,Specially prepared Ham glazed with Honey.
+HoneyGlazedCornFlakesDesc,items,,,Breakfast on the Go. Great for Stamina Regen And Food.
+HoneySpeedBitesDesc,items,,,Speed on the Go. Suck on one of these and hold on.

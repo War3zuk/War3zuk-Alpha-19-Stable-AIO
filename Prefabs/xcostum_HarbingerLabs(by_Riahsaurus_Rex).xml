@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DifficultyTier" value="5" />
+  <property name="Zoning" value="Industrial" />
+  <property name="RotationToFaceNorth" value="1" />
+  <property name="YOffset" value="-1" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="EditorGroups" value="industrial" />
+  <property name="TraderAreaProtect" value="37, 48, 31" />
+  <property name="TraderAreaTeleportSize" value="37, 48, 31" />
+  <property name="TraderAreaTeleportCenter" value="0, 0, 0" />
+  <property name="SleeperVolumeStart" value="25, 2, 21#12, 2, 16#12, 2, 36#11, 2, 57#26, 2, 46#42, 2, 46#56, 2, 56#71, 2, 56#62, 2, 39#62, 2, 17#51, 2, 17#34, 2, 13#49, 7, 31#45, 7, 50#62, 7, 60#43, 7, 59#27, 7, 60#12, 7, 59#22, 7, 44#36, 7, 45#24, 7, 28#39, 7, 28#13, 7, 39#13, 7, 14#24, 7, 15#46, 7, 14#64, 7, 14#64, 7, 30#64, 7, 45#39, 7, 39#42, 13, 38#55, 13, 27#37, 12, 27#31, 13, 49#29, 13, 29#12, 13, 13#12, 13, 27#12, 13, 41#12, 13, 59#27, 13, 62#45, 13, 63#64, 13, 59#73, 13, 59#67, 13, 43#67, 13, 13#52, 13, 13#22, 13, 14#42, 25, 26#65, 31, 49#38, 36, 59#50, 19, 13#34, 19, 13#21, 19, 13#12, 19, 13#11, 19, 23#12, 19, 33#22, 19, 30#12, 19, 43#11, 19, 57#11, 19, 67#21, 19, 57#30, 19, 63#40, 19, 63#57, 19, 63#65, 19, 64#68, 19, 54#67, 19, 30#66, 19, 13#72, 23, 13#80, 25, 13#68, 25, 24#67, 25, 39#67, 25, 53#67, 25, 63#52, 25, 63#35, 25, 63#23, 25, 63#11, 25, 67#11, 25, 57#13, 25, 37#12, 25, 22#12, 25, 13#26, 25, 12#37, 25, 12#52, 25, 13#35, 31, 13#12, 31, 12#12, 31, 26#12, 31, 50#12, 31, 69#27, 31, 62#42, 31, 63#60, 31, 63#72, 31, 69#67, 31, 34#67, 31, 23#50, 31, 12#29, 37, 12#44, 37, 13#56, 37, 13#69, 37, 13#67, 37, 25#67, 37, 37#67, 37, 59#53, 37, 63#10, 44, 13#45, 44, 13#48, 1, 90#66, 44, 12#65, 44, 41#0, 1, 90#28, 44, 63#11, 44, 44#12, 44, 26#12, 37, 63#12, 37, 48#12, 37, 33#12, 37, 20#14, 37, 13#9, 39, 12#5, 40, 29#66, 51, 62#50, 51, 63#49, 51, 70#27, 51, 62#24, 51, 71#12, 51, 68#18, 51, 60#8, 51, 48#18, 51, 42#18, 51, 23#12, 51, 32#23, 51, 11#41, 51, 13#66, 51, 25#75, 51, 25#66, 51, 39#75, 51, 41#12, 58, 51#12, 58, 31#12, 58, 63#28, 58, 63#15, 58, 13#36, 58, 13#54, 58, 14#65, 58, 23#67, 58, 52#6, 65, 9#26, 65, 5#28, 65, 42" />
+  <property name="SleeperVolumeSize" value="8, 3, 15#12, 3, 20#13, 3, 21#15, 3, 19#16, 3, 30#14, 3, 29#15, 3, 20#9, 3, 19#17, 3, 16#18, 3, 21#11, 3, 15#17, 3, 23#14, 3, 19#18, 3, 9#18, 3, 15#17, 3, 16#15, 3, 15#15, 3, 15#14, 3, 16#7, 3, 14#14, 3, 20#17, 3, 2#9, 3, 19#11, 3, 23#21, 3, 11#18, 3, 13#16, 3, 16#15, 3, 15#15, 3, 13#10, 3, 6#13, 3, 9#10, 3, 22#18, 10, 11#35, 3, 11#9, 3, 20#10, 3, 12#16, 4, 14#16, 3, 18#15, 3, 17#17, 3, 14#19, 3, 15#9, 3, 17#7, 3, 17#13, 4, 15#14, 3, 29#15, 3, 13#27, 3, 12#20, 7, 5#8, 7, 14#15, 5, 10#15, 3, 12#16, 3, 15#13, 3, 15#9, 3, 10#10, 3, 9#10, 3, 10#6, 3, 13#18, 3, 13#11, 3, 9#10, 3, 10#9, 3, 19#10, 5, 14#17, 5, 12#8, 3, 13#15, 3, 12#12, 3, 10#13, 3, 25#14, 3, 17#8, 5, 7#3, 3, 17#13, 3, 15#13, 3, 14#14, 3, 10#13, 3, 13#15, 3, 13#15, 3, 13#12, 3, 13#12, 3, 9#12, 3, 10#15, 5, 20#18, 3, 15#13, 3, 12#11, 3, 12#15, 3, 15#17, 3, 12#15, 4, 18#23, 3, 14#16, 3, 24#15, 3, 19#13, 3, 8#15, 4, 15#18, 3, 15#13, 3, 13#7, 3, 7#16, 3, 15#15, 3, 11#17, 3, 13#15, 5, 18#12, 3, 12#13, 3, 12#11, 3, 12#13, 3, 12#14, 3, 22#13, 3, 16#14, 4, 13#35, 3, 13#22, 3, 12#38, 15, 32#14, 3, 29#15, 3, 37#48, 14, 32#37, 3, 13#17, 4, 33#15, 3, 18#26, 3, 10#16, 5, 15#15, 3, 15#16, 3, 13#11, 3, 7#5, 3, 15#6, 5, 20#15, 3, 15#18, 3, 7#17, 3, 7#23, 3, 9#25, 4, 5#6, 3, 8#9, 3, 16#10, 3, 20#11, 3, 18#11, 3, 19#6, 3, 16#18, 3, 14#41, 3, 12#9, 3, 14#5, 3, 16#9, 3, 24#5, 3, 21#9, 3, 7#16, 3, 32#16, 3, 16#39, 3, 13#21, 3, 21#21, 3, 12#26, 3, 10#15, 3, 29#14, 3, 24#24, 3, 72#64, 3, 37#57, 3, 41" />
+  <property name="SleeperVolumeGroup" value="S_-_Group_Zom_Soldier,2,3,S_-_Group_Abandoned_House,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2,S_-_Group_Zom_Soldier,2,3,S_Zom_HazMat_Only,1,1,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,1,S_-_Group_Hospital,1,2,S_Zom_Businessman,1,2,S_-_Group_Zom_Soldier,1,2,S_Zom_Utility_Worker,1,1,S_-_Group_Zom_Soldier,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2,S_-_Group_Lab_Worker,1,1,S_-Group_Generic_Zombie,1,2,S_-_Group_Zom_Badass,1,2,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,2,3,S_-_Group_Zom_Soldier,1,1,S_-Group_Generic_Zombie,1,1,S_-_Group_Lab_Worker,1,2,S_Zom_Businessman,2,4,S_-Group_Generic_Zombie,2,3,S_-_Group_Zom_Badass_Only,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3,S_Zom_Businessman,2,4,S_-Group_Generic_Zombie,2,3,S_Zom_Businessman,2,3,S_Zom_Businessman,1,1,S_Zom_Businessman,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_Zom_Businessman,3,4,S_-Group_Generic_Zombie,1,1,S_Zom_Businessman,1,1,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,4,6,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,2,3,S_-_Group_Zom_Badass,2,4,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,2,3,S_Zom_Businessman,2,3,S_Zom_Businessman,2,3,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,1,S_Zom_Businessman,1,1,S_Zom_Businessman,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,3,5,S_-Group_Generic_Zombie,1,2,S_Zom_Businessman,1,2,S_-Group_Generic_Zombie,1,1,S_Zom_Businessman,1,1,S_-_Group_Zom_Badass,2,3,S_-_Group_Hospital,1,2,S_-Group_Generic_Zombie,3,4,S_-_Group_Hospital,2,4,S_-_Group_Lab_Worker,3,4,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,1,2,S_-_Group_Hospital,1,2,S_Zom_Burnt,1,1,S_-Group_Generic_Zombie,2,3,S_-_Group_Hospital,1,1,S_-Group_Generic_Zombie,1,1,S_-_Group_Lab_Worker,3,5,S_-_Group_Lab_Worker,2,3,S_-Group_Generic_Zombie,1,2,S_-Group_Generic_Zombie,1,2,S_-_Group_Hospital,2,3,S_-_Group_Hospital,3,4,S_-Group_Generic_Zombie,2,4,S_-Group_Generic_Zombie,2,3,S_-_Group_Lab_Worker,6,10,S_-Group_Generic_Zombie,4,6,S_-Group_Generic_Zombie,2,3,S_-_Group_Lab_Worker,5,7,S_-_Group_Zom_Badass,5,8,S_-Group_Generic_Zombie,2,3,S_-_Group_Lab_Worker,4,7,S_-_Group_Lab_Worker,6,10,S_-_Group_Zom_Badass,3,5,S_-_Group_Hospital,2,4,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,3,4,S_-_Group_Hospital,4,6,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3,S_-_Group_Lab_Worker,2,3,S_-_Group_Zom_Badass_Only,2,3,S_-_Group_Hospital,2,3,S_-_Group_Zom_Badass_Only,3,4,S_Zom_Utility_Worker,1,1,S_-_Group_Zom_Soldier,2,4,S_-_Group_Zom_Badass,3,4,S_-_Group_Lab_Worker,4,6,S_-_Group_Lab_Worker,4,6,S_-_Group_Zom_Badass,1,2,S_Zom_Businessman,3,4,S_-_Group_Lab_Worker,5,8,S_-_Group_Lab_Worker,2,4,S_-_Group_Test_Chamber_Decoy,1,1,S_-_Group_Lab_Worker,4,7,S_-_Group_Zom_Badass,2,4,S_-_Group_Zom_Badass_Only,1,1,S_-_Group_Zom_Badass,5,7,S_-_Group_Zom_Badass,2,3,S_Zom_Businessman,4,6,S_-Group_Generic_Zombie,2,4,S_-_Group_Lab_Worker,1,2,S_-_Group_Lab_Worker,2,3,S_-_Group_Zom_Soldier,3,4,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,4,S_-_Group_Zom_Badass_Only,3,4" />
+  <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,," />
+  <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
+  <property name="ShowQuestClearCount" value="0" />
+  <property class="IndexedBlockOffsets">
+    <property class="TraderOnOff">
+      <property name="0" value="25, 4, 11" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="78, 23, 71" />
+      <property name="1" value="79, 9, 68" />
+    </property>
+    <property class="brBlock">
+      <property name="0" value="77, 7, 70" />
+      <property name="1" value="78, 7, 72" />
+    </property>
+  </property>
+  <property class="Stats">
+    <property name="TotalVertices" value="8158760" />
+    <property name="TotalTriangles" value="8373276" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="6633625" />
+      <property name="Triangles" value="7404535" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="1009512" />
+      <property name="Triangles" value="546970" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="5440" />
+      <property name="Triangles" value="2720" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="36798" />
+      <property name="Triangles" value="19164" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="44584" />
+      <property name="Triangles" value="24560" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="380641" />
+      <property name="Triangles" value="312407" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="3008" />
+      <property name="Triangles" value="1504" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="27104" />
+      <property name="Triangles" value="44208" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="18048" />
+      <property name="Triangles" value="17208" />
+    </property>
+    <property class="ChunkMeshes9">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+</prefab>

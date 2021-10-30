@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="AllowTopSoilDecorations" value="True" />
+  <property name="TraderArea" value="False" />
+  <property name="ExcludeDistantPOIMesh" value="False" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DifficultyTier" value="2" />
+  <property name="Zoning" value="Commercial, Residential" />
+  <property name="RotationToFaceNorth" value="3" />
+  <property name="YOffset" value="-6" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowedBiomes" value="burnt_forest,snow,pine_forest,desert,wasteland" />
+  <property name="AllowedTownships" value="city,town" />
+  <property name="EditorGroups" value="commercial, downtown" />
+  <property name="TraderAreaProtect" value="16, 0, 16" />
+  <property name="TraderAreaTeleportSize" value="28, 30, 27" />
+  <property name="TraderAreaTeleportCenter" value="1, 1, 1" />
+  <property name="SleeperVolumeStart" value="16, 1, 30#17, 1, 24#26, 1, 24#49, 6, 2#16, 6, 24#16, 11, 24#16, 6, 39#16, 6, 2" />
+  <property name="SleeperVolumeSize" value="11, 3, 7#10, 3, 6#22, 3, 14#13, 4, 50#32, 3, 14#30, 3, 15#32, 3, 14#32, 3, 22" />
+  <property name="SleeperVolumeGroup" value="S_-_Group_Lab_Worker,1,2,S_-_Group_Zom_Badass,2,2,S_Zom_HazMat_Only,4,5,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,5,7,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,2,3,S_-Group_Generic_Zombie,2,3" />
+  <property name="SleeperVolumeGameStageAdjust" value="medium,250,250,250,200,250,medium," />
+  <property name="SleeperIsLootVolume" value="False,True,True,False,False,False,False,False" />
+  <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False" />
+  <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0" />
+  <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0" />
+  <property name="ShowQuestClearCount" value="0" />
+  <property class="IndexedBlockOffsets">
+    <property class="Rally">
+      <property name="0" value="5, 6, 12" />
+    </property>
+    <property class="FetchContainer">
+      <property name="0" value="53, 6, 30" />
+    </property>
+    <property class="brBlock">
+      <property name="0" value="45, 2, 25" />
+    </property>
+  </property>
+</prefab>

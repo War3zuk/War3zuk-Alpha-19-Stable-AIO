@@ -5,13 +5,15 @@ War3zuk-Alpha-19.6 - AIO STABLE
 Updated v5.8 to v5.9
 
 !!Recommended Min Settings When Creating World!!
-Max Spawned Zombies = 100 (Less Than 75 Will Cause Lag)
-Max Spawned Animals = 70
+Max Spawned Zombies = 90 (Less Than 75 Will Cause Extra Lag)
+Max Spawned Animals = 60
 
 Added 1st Set Of Regrow Trees !!
 Oak Trees
 Deadwood Trees
-
+!!Consolidated All War3zuk Modlets Together!!
+!!Consolidated SMX Modlets Together!!
+!!Consolidated All Prefabs Together!!
 Edited Reward HD Mechanic PreReq 5
 Edited HD Winchester 1866 (Spread Code)
 HD Dragunov SVD (Smalltopattachments Removed)
@@ -39,23 +41,68 @@ Fixed HD Spas 12 Reticle (ADB)
 Edited Mechanic Start Items
 Added HD Pump Jack (Destroy To Pickup)
 Increased Drop Loot Timer (1800)
+Adjusted drinkJarBoiledWater Recipe
+Adjusted Miner Items
+Adjusted Probablilty Schematics
+Edited War3zuk Stoggy Attribs
+Added Sinks To Lootlist
+Added Classic StreetLamp To Lootlist
+Adjusted Loot Amount
+Edited HD Electrolyte Item Amount And Worth
+Added HD Scrap Tools (Basics Left Player Bar)
+Removed HD JukeBoxes (Basics Left Player Bar)
+Added HD JukeBoxes To HD WorkBench
+Removed HD Injections (Basics Left Player Bar)
+Added HD Injections To HD WorkBench
+Added HD Scrap Tools (Basics Left Player Bar)
+Added HD First Aid Kit HD WorkBench
+HD First Aid Kit (InstaHeals 50hp) Treats DeepCuts
+Added WSoDead FarmLife Expanded (Edited) Testing
+Integrated War3zuk Suicide girls XXX (HD PicsBench)
+Integrated War3zuk Paintings XXX 2x3 (HD PicsBench)
+Fixed/Edited Telrics Iron Gates (Workbench Group)
+Added HD Double Barrel Snub (Quest:Gunman PreReq 3 Of 5)
+Changed Radiated Material For Giants
+Added Electrified Demolisher
+Added Electrified Phantasm
+
+!!This Will Be Added Too Over Time !!
+Added HD Bee Hive (Crafted In HD WorkBench)
+Added HD Honey Extractor Tool
+Added HD Honey Knife Tool
+Added HD Honey Strainer Tool
+Added Cute Baby Bee (Model) (Can Be Equipped)
+Added HD Honey Comb
+Added HD Refined Sugar
+Added Recipe (Honey Glazed ChickenNuggets)
+Added Recipe (Honey Glazed ChickenWings)
+Added Recipe (Honey Glazed Ham)
+Added Recipe (Honey Glazed CornFlakes)
+Added Recipe (Honey Speed Bites)
+!!This Will Be Added Too Over Time !!
 
 Launcher Edits:
+Removed Duplicate Bdubs_Nuka_Factory
 Edited SnuffKins Zombies Regen HP Amount
 Added Snufkins Custom Zombies Plus (Heavily Edited)
 Fixed War3zuk_Ure_Bike_Repair Prefab
 Added The Walking Dead Woodbury Prefab
-Edited RWGmixer.cfg
+Edited RWGmixer.cfg (Fully Overhauled)
 Edited Entity zombieWrestler HP
 Edited zombieTipsySquatch HP
 Edited zombieTipsyPinkSquatch HP
+Added New Animals To CreaturePatch
 Added War3zuk Official KingGen Map 4k
 Added War3zuk Official KingGen Map 8k
 Added War3zuk Official KingGen Map 10k
 Added War3zuk Official KingGen Map 12k
 Added War3zuk Official KingGen Map 14k
 Added War3zuk Official KingGen Map 16k
-!!Warning!! Re-Copy Data Contents As They Have Changed
+Fixed Manx Quad (Controls Behavior)
+Added War3zuk Twitch Intergration (dr_alejandro89)
+
+!!Warning!! !!DELETE!!
+Re-Copy Data Contents As They Have Changed
 
 Updated Prefabs
 Nauti Lattez

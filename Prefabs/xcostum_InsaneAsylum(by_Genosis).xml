@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+    <property name="CopyAirBlocks" value="True"/>
+    <property name="AllowTopSoilDecorations" value="True"/>
+    <property name="TraderArea" value="False"/>
+    <property name="ExcludeDistantPOIMesh" value="False"/>
+    <property name="ExcludePOICulling" value="False"/>
+    <property name="QuestTags" value="clear,fetch"/>
+    <property name="DifficultyTier" value="5"/>
+    <property name="Zoning" value="Downtown,Residential"/>
+    <property name="RotationToFaceNorth" value="0"/>
+    <property name="YOffset" value="-9"/>
+    <property name="DistantPOIYOffset" value="0"/>
+    <property name="AllowedBiomes" value="burnt_forest,snow,pine_forest,desert,wasteland"/>
+    <property name="AllowedTownships" value="city,rural,town,wilderness"/>
+    <property name="EditorGroups" value="rural, downtown"/>
+    <property name="TraderAreaProtect" value="20, 0, 20"/>
+    <property name="TraderAreaTeleportSize" value="53, 22, 51"/>
+    <property name="TraderAreaTeleportCenter" value="0, 0, 0"/>
+    <property name="SleeperVolumeStart" value="74, 21, 8#11, 21, 8#10, 21, 17#9, 16, 17#42, 16, 3#9, 16, 6#73, 16, 6#93, 16, 38#95, 27, 32#93, 11, 38#72, 11, 6#42, 11, 2#9, 11, 6#8, 11, 19#9, 5, 19#8, 5, 5#45, 5, 0#43, 5, 15#63, 5, 5#93, 4, 41#93, 3, 18#90, 20, 16#93, 16, 27#93, 16, 17#93, 11, 6#60, 11, 2#25, 11, 6#36, 14, 12"/>
+    <property name="SleeperVolumeSize" value="26, 3, 8#28, 3, 7#12, 2, 32#11, 3, 33#30, 10, 17#33, 3, 11#32, 3, 9#12, 3, 12#5, 3, 8#12, 3, 12#19, 3, 12#17, 3, 20#15, 3, 12#13, 3, 31#12, 3, 23#36, 2, 14#17, 3, 14#33, 3, 7#42, 3, 12#11, 6, 9#12, 5, 22#13, 3, 33#12, 3, 10#12, 3, 10#12, 3, 32#12, 3, 20#17, 3, 12#6, 5, 10"/>
+    <property name="SleeperVolumeGroup" value="S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,5,6,S_-_Group_Abandoned_House,7,8,S_-_Group_Hospital,9,10,S_-Group_Generic_Zombie,7,8,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,1,1,S_-Group_Generic_Zombie,2,2,S_-_Group_Hospital,4,5,S_-_Group_Hospital,5,6,S_-_Group_Hospital,3,4,S_-_Group_Zom_Badass,9,10,S_-Group_Generic_Zombie,5,6,S_-_Group_Lab_Worker,6,7,S_Zom_Burnt,2,3,S_-_Group_Zom_Badass_Only,2,3,S_-Group_Generic_Zombie,7,8,S_-_Group_Zom_Badass,7,10,S_-Group_Generic_Zombie,4,5,S_-Group_Generic_Zombie,5,5,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,3,4,S_-Group_Generic_Zombie,4,5,S_-_Group_Hospital,5,6,S_-_Group_Hospital,5,6,S_-Group_Generic_Zombie,1,1"/>
+    <property name="SleeperVolumeGameStageAdjust" value=",,,,,,,,,0,,,,,,,,,,,,,,,,,,"/>
+    <property name="SleeperIsLootVolume" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperIsQuestExclude" value="False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False"/>
+    <property name="SleeperVolumeFlags" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+    <property name="SleeperVolumeGroupId" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+    <property name="ShowQuestClearCount" value="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+</prefab>
