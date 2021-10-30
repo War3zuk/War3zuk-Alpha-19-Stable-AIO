@@ -57,7 +57,6 @@ Added HD Injections To HD WorkBench
 Added HD Scrap Tools (Basics Left Player Bar)
 Added HD First Aid Kit HD WorkBench
 HD First Aid Kit (InstaHeals 50hp) Treats DeepCuts
-Added WSoDead FarmLife Expanded (Edited) Testing
 Fixed/Edited Telrics Iron Gates (Workbench Group)
 Added HD Double Barrel Snub (Quest:Gunman PreReq 3 Of 5)
 Changed Radiated Material For Giants
