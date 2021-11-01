@@ -22,13 +22,13 @@
 	</buff>
 	
 	<buff name="HDNukeExp">
-		<damage_type value="disease"/>
+		<damage_type value="knockout"/>
 		<stack_type value="replace"/>
 		<duration value="9"/>
 		<update_rate value="0.5"/>
 		<effect_group>
-				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HDNukeExp.unity3d?HDNukeExp" />
-				<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HDNukeExp.unity3d?HDNukeExp" />
+				<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HDNukeExp.unity3d?HDNukeExp" parent_transform="LOD0" local_offset="0,-.2,0"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/HDNukeExp.unity3d?HDNukeExp" parent_transform="LOD0" local_offset="0,-.2,0"/>
 				<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="" />
 				<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="HDNukeExp"/>
 				<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="HDNukeExp"/>

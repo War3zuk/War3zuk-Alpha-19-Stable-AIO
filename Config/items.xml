@@ -4837,8 +4837,9 @@
 		<display_value name="dExDamageEntity" value="10000"/>
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="18"/>
 		<display_value name="dExRadius" value="20"/>
-		<!--  <triggered_effect trigger="onProjectileImpact" action="AddBuff" target="positionAOE" range="20" buff="HDNukeExp"/> -->
 	</effect_group>
+<!--<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" range="20" target_tags="player,zombie,animal" buff="HDNukeExp">
+		</triggered_effect>-->
 </item>
 
 <item name="HD Flame Fuel">

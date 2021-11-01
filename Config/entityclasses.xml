@@ -1,41 +1,9 @@
 <configs>
 	
-	<!--  DELETE EVERYTHING INBETWEEN THESE LINES TO DISABLE THE RETRO LOOTBAGS FROM THE MOD  -->
+	<!--  DELETE EVERYTHING INBETWEEN THESE LINES TO DISABLE THE LOOTBAGS FROM THE MOD  -->
 	<set xpath="/entity_classes/entity_class[@name='Backpack']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDPlayerRuckSack.Prefab</set>
 	<set xpath="/entity_classes/entity_class[@name='EntityLootContainerRegular']/property[@name='Mesh']/@value">#@modfolder:Resources/HD RuckSack.unity3d?HDRuckSackLoot.Prefab</set>
-	<!--  DELETE EVERYTHING INBETWEEN THESE LINES TO DISABLE THE RETRO LOOTBAGS FROM THE MOD  -->
-	
-	<!--  Original Idea By DW420
-	
-	<append xpath="/entity_classes/entity_class[@name='npcTraderJen']"><property name="NavObject" value="traderJen" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderJen']"><property name="Tags" value="entity,npc,human,ally,Jen" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderJen']"><property name="MapIcon" value="Icon_NPCMeds" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderJen']"><property name="TrackerIcon" value="Icon_NPCMeds" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderJen']"><property name="CompassIcon" value="Icon_NPCMeds" /></append>
-	
-	<append xpath="/entity_classes/entity_class[@name='npcTraderBob']"><property name="NavObject" value="traderBob" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderBob']"><property name="Tags" value="entity,npc,human,ally,Bob" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderBob']"><property name="MapIcon" value="Icon_NPCTools" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderBob']"><property name="TrackerIcon" value="Icon_NPCTools" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderBob']"><property name="CompassIcon" value="Icon_NPCTools" /></append>
-	
-	<append xpath="/entity_classes/entity_class[@name='npcTraderJoel']"><property name="NavObject" value="traderJoel" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderJoel']"><property name="Tags" value="entity,npc,human,ally,Joel" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderJoel']"><property name="MapIcon" value="Icon_NPCArmor" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderJoel']"><property name="TrackerIcon" value="Icon_NPCArmor" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderJoel']"><property name="CompassIcon" value="Icon_NPCArmor" /></append>
-	
-	<append xpath="/entity_classes/entity_class[@name='npcTraderHugh']"><property name="NavObject" value="traderHugh" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderHugh']"><property name="Tags" value="entity,npc,human,ally,Hugh" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderHugh']"><property name="MapIcon" value="Icon_NPCAmmo" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderHugh']"><property name="TrackerIcon" value="Icon_NPCAmmo" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderHugh']"><property name="CompassIcon" value="Icon_NPCAmmo" /></append>
-	
-	<append xpath="/entity_classes/entity_class[@name='npcTraderRekt']"><property name="NavObject" value="traderRekt" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderRekt']"><property name="Tags" value="entity,npc,human,ally,Rekt" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderRekt']"><property name="MapIcon" value="Icon_NPCFood" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderRekt']"><property name="TrackerIcon" value="Icon_NPCFood" /></append>
-	<append xpath="/entity_classes/entity_class[@name='npcTraderRekt']"><property name="CompassIcon" value="Icon_NPCFood" /></append>  -->
+	<!--  DELETE EVERYTHING INBETWEEN THESE LINES TO DISABLE THE LOOTBAGS FROM THE MOD  -->
 	
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">Starter Class</set>
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">Starter Class</set>
@@ -173,7 +141,7 @@
 
 <entity_class name="GiantRabbitFire" extends="animalTemplateTimid">
 	<property name="Tags" value="entity,animal,rabbit,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/M_Nhance_FireShore_CrackedCliff.unity3d?M_Nhance_FireShore_CrackedCliff"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="Class" value="EntityAnimalRabbit"/>
@@ -197,7 +165,6 @@
 	<property name="MoveSpeedPanic" value="1.5"/>
 	<property name="ExperienceGain" value="130"/>
 	<property name="DeadBodyHitPoints" value="175"/>
-	<property name="Buffs" value="buffHDIsShocked"/>
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="10"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="2"/>
@@ -216,7 +183,7 @@
 <entity_class name="GiantRabbitRad" extends="animalTemplateTimid">
 	<property name="Tags" value="entity,animal,rabbit,perkAT01,perkAT02,perkAT03"/>
 	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
-	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
+<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<property name="MapIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_rabbit"/>
 	<property name="Class" value="EntityAnimalRabbit"/>
@@ -296,7 +263,7 @@
 
 <entity_class name="GiantChickenFire" extends="animalTemplateTimid">
 	<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/M_Nhance_FireShore_CrackedCliff.unity3d?M_Nhance_FireShore_CrackedCliff"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
 	<property name="Mesh" value="Animals/CHICKEN/chickenPrefab"/>
@@ -335,7 +302,7 @@
 <entity_class name="GiantChickenRad" extends="animalTemplateTimid">
 	<property name="Tags" value="entity,animal,chicken,perkAT01,perkAT02,perkAT03"/>
 	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
-	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
+<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<property name="MapIcon" value="ui_game_symbol_tracking_chicken"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_chicken"/>
 	<property name="Mesh" value="Animals/CHICKEN/chickenPrefab"/>
@@ -440,7 +407,7 @@
 
 <entity_class name="GiantSnakeFire" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/M_Nhance_FireShore_CrackedCliff.unity3d?M_Nhance_FireShore_CrackedCliff"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
 	<property name="EntityType" value="Animal"/>
@@ -507,7 +474,7 @@
 <entity_class name="GiantSnakeRad" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,hostile,snake,perkAT01,perkAT02,perkAT03"/>
 	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
-	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
+<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<property name="MapIcon" value="ui_game_symbol_tracking_snake"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_snake"/>
 	<property name="EntityType" value="Animal"/>
@@ -619,7 +586,7 @@
 
 <entity_class name="GiantUndeadVultureFire" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/M_Nhance_FireShore_CrackedCliff.unity3d?M_Nhance_FireShore_CrackedCliff"/>
 	<property name="Class" value="EntityVulture"/>
 	<property name="EntityType" value="Zombie"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
@@ -665,7 +632,7 @@
 <entity_class name="GiantUndeadVultureRad" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,zombie,hostile,vulture"/>
 	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
-	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
+<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<property name="Class" value="EntityVulture"/>
 	<property name="EntityType" value="Zombie"/>
 	<property name="AvatarController" value="AvatarAnimalController"/>
@@ -756,7 +723,7 @@
 
 <entity_class name="GiantBoarFire" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/M_Nhance_FireShore_CrackedCliff.unity3d?M_Nhance_FireShore_CrackedCliff"/>
 	<property name="MapIcon" value="ui_game_symbol_tracking_pig"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_pig"/>
 	<property name="IsEnemyEntity" value="false"/>
@@ -802,7 +769,7 @@
 <entity_class name="GiantBoarRad" extends="animalTemplateHostile">
 	<property name="Tags" value="entity,animal,hostile,boar,perkAT02,perkAT03"/>
 	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
-	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
+<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<property name="MapIcon" value="ui_game_symbol_tracking_pig"/>
 	<property name="TrackerIcon" value="ui_game_symbol_tracking_pig"/>
 	<property name="IsEnemyEntity" value="false"/>
@@ -901,7 +868,7 @@
 <entity_class name="GiantUndeadHoundFire" extends="animalWolf">
 	<property name="Tags" value="entity,animal,zombie,hostile,dog"/>
 	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDogZombieRagdoll"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/M_Nhance_FireShore_CrackedCliff.unity3d?M_Nhance_FireShore_CrackedCliff"/>
 	<property name="Class" value="EntityZombieDog"/>
 	<property name="SoundRandomTime" value="45.0"/>
 	<property name="SoundAlertTime" value="25.0"/>
@@ -954,7 +921,7 @@
 	<property name="Tags" value="entity,animal,zombie,hostile,dog"/>
 	<property name="Prefab" value="/Entities/Animals/Wolf/animalStandardDogZombieRagdoll"/>
 	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
-	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
+<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<property name="Class" value="EntityZombieDog"/>
 	<property name="SoundRandomTime" value="45.0"/>
 	<property name="SoundAlertTime" value="25.0"/>
@@ -1057,7 +1024,7 @@
 <entity_class name="GiantDemolisherFire" extends="zombieSoldier">
 	<property name="Tags" value="entity,zombie,walker,boss"/>
 	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardDemolitionRagdoll.prefab"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/M_Nhance_FireShore_MoltenObsidian.unity3d?M_Nhance_FireShore_MoltenObsidian"/>
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mass" value="300"/>
 	<property name="AITask-1" value="BreakBlock"/>
@@ -1109,7 +1076,7 @@
 	<property name="Tags" value="entity,zombie,walker,boss"/>
 	<property name="Mesh" value="#Entities/Zombies?Zombies/zombieStandardDemolitionRagdoll.prefab"/>
 	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
-	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
+<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<property name="Class" value="EntityZombieCop"/>
 	<property name="Mass" value="300"/>
 	<property name="AITask-1" value="BreakBlock"/>
@@ -1199,7 +1166,7 @@
 
 <entity_class name="zombiePhantasmFire" extends="zombiePhantasm">
 	<property name="Tags" value="entity,male,zombie,walker,feral"/>
-	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/burntZombie_v2"/>
+	<property name="ReplaceMaterial0" value="#@modfolder:Resources/M_Nhance_FireShore_Rock.unity3d?M_Nhance_FireShore_Rock"/>
 	<property name="DismemberMultiplierHead" value=".7"/>
 	<property name="DismemberMultiplierArms" value=".7"/>
 	<property name="DismemberMultiplierLegs" value=".7"/>
@@ -1220,7 +1187,7 @@
 <entity_class name="zombiePhantasmRAD" extends="zombiePhantasm">
 	<property name="Tags" value="entity,male,zombie,walker,feral"/>
 	<property name="ReplaceMaterial0" value="#Entities/Zombies?Zombies/Materials/zombiedog_radiated.mat"/>
-	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
+<!--<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>-->
 	<property name="DismemberMultiplierHead" value=".7"/>
 	<property name="DismemberMultiplierArms" value=".7"/>
 	<property name="DismemberMultiplierLegs" value=".7"/>
