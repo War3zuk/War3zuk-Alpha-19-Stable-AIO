@@ -12,7 +12,6 @@ Added 1st Set Of Regrow Trees !!
 Oak Trees
 Deadwood Trees
 !!Consolidated All War3zuk Modlets Together!!
-!!Consolidated SMX Modlets Together!!
 !!Consolidated All Prefabs Together!!
 Edited Reward HD Mechanic PreReq 5
 Edited HD Winchester 1866 (Spread Code)
@@ -27,7 +26,6 @@ Fixed HD Tactical AR Skin Properties
 Fixed HD Spas 12 (Variations) Reflex Position
 Fixed HD Scrap Wrench Power Attack
 Fixed HD Wrench Power Attack
-Added Custom Perks v3.1.1 (Heavily Edited)
 Fixed HD Chemicals Not Showing In Benches
 Updated Icons
 Adjusted Warm Chunky HP Amount
@@ -57,7 +55,6 @@ Added HD Injections To HD WorkBench
 Added HD Scrap Tools (Basics Left Player Bar)
 Added HD First Aid Kit HD WorkBench
 HD First Aid Kit (InstaHeals 50hp) Treats DeepCuts
-Fixed/Edited Telrics Iron Gates (Workbench Group)
 Added HD Double Barrel Snub (Quest:Gunman PreReq 3 Of 5)
 Changed Radiated Material For Giants
 Added Electrified Demolisher
@@ -97,6 +94,9 @@ Added War3zuk Official KingGen Map 14k
 Added War3zuk Official KingGen Map 16k
 Fixed Manx Quad (Controls Behavior)
 Added War3zuk Twitch Intergration (dr_alejandro89)
+!!Consolidated SMX Modlets Together!!
+Added Custom Perks v3.1.1 (Heavily Edited)
+Fixed/Edited Telrics Iron Gates (Workbench Group)
 
 !!Warning!! !!DELETE!!
 Re-Copy Data Contents As They Have Changed

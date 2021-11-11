@@ -523,7 +523,7 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 		
-		<objective type="AnimalKill" value="50" />
+		<objective type="AnimalKill" value="100" />
 		
 		<reward type="Exp" value="1000" />
 		<reward type="Quest" id="HD Gunman PreReq 2" />
@@ -564,7 +564,7 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 	
-		<objective type="ZombieKill" value="150" />
+		<objective type="ZombieKill" value="100" />
 		<requirement type="Group" id="requirementGroupHDShotguns" value="OR">
 			<requirement type="Holding" id="HD Double Barrel Snub" />
 			<requirement type="Holding" id="HD Double Barrel" />
@@ -591,7 +591,7 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 	
-		<objective type="ZombieKill" value="250" />
+		<objective type="ZombieKill" value="100" />
 		<requirement type="Group" id="requirementGroupHDAutoRifles" value="OR">
 			<requirement type="Holding" id="HD HK33 Hybrid" />
 			<requirement type="Holding" id="HD AK Hybrid ACP" />
@@ -614,7 +614,7 @@
 	<property name="difficulty" value="easy" />
 	<property name="shareable" value="false" />
 		
-		<objective type="ZombieKill" value="500" />
+		<objective type="ZombieKill" value="100" />
 		<requirement type="Group" id="requirementGroupHDSniperRifles" value="OR">
 			<requirement type="Holding" id="HD Arctic Warfare" />
 			<requirement type="Holding" id="HD CheyTac M300" />
